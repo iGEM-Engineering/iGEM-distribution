@@ -24,8 +24,10 @@ def package_excel(directory):
         return os.path.join(directory, excel_files[0])
 
 
-def __main__():
-    for d in package_dirs():
+if __name__ == '__main__':
+    dirs = package_dirs()
+    print(f'Scanning; found {len(dirs)} packages')
+    for d in dirs:
         print(f'Scanning package {d.name}')
 
         # Check that there is exactly one subdirectory
