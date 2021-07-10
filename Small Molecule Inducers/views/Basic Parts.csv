@@ -13,11 +13,11 @@ Basic DNA Parts,Click on column headers for more information as to what to put i
 "Short and human friendly name for the part, e.g., ""GFP Reporter""",This is the role of the part according to the sequence ontology (see Ontology tab for full list). Select from the drop down menu or type have it validated.,Comments about design decisions. E.g. GC content or restriction sites removed,"If no changes were made use Direct, otherwise say changes that were made (can choose for drop down menu)",A description of how the part is meant to function and any information about the part that is not to do with how it was designed.,Where is the information about this part coming from? Provide a tag and e.g. AG for an Addgene plasmid. Tags found in the Source Sheet,Where is the information about this part coming from? Provide a te.g. 87906 for an Addgene plasmid. This is interpreted together with the column to the left,"Where is the genetic information coming from, e.g. gene taken from Aequorea victoria if available add in strain name too. This should match the scientific name for the txid in the next column","Where will the part be used, e.g. construct for use in Escherichia coli 98NK2. Where available include the strain name. This should match the scientific name for the txid in the next column","True if this is a final product to be produced, false if this is an intermediate stage being specified for compactness",Whether or not the part is circular. Select TRUE (circular) or FALSE (linear).,Automatically calculated length of the sequence pasted to the right. Use this column for checking there are no paste errors.,The series of ATGCs that make up the part. Spaces can be used within the sequence but no other characters.
 Part Name,Role,Design Notes,Altered Sequence,Part Description,Data Source Prefix,Data Source ID,Source Organism,Target Organism,Final Product,Circular,length (bp),Sequence
 AraC,CDS,Activator induced by arabinose,,,,,,Escherichia coli,False,False,0,
-pBAD,Promoter,Target for AraC,,,,,,Escherichia coli,False,False,0,
+pBAD,Promoter,Target for AraC,,,iGEM registry,I0500,,Escherichia coli,False,False,0,
 TetR,CDS,Repressor induced by aTc,,,,,,Escherichia coli,False,False,0,
-pTet,Promoter,Target for TetR,,,,,,Escherichia coli,False,False,0,
+pTet,Promoter,Target for TetR,,,iGEM registry,R0040,,Escherichia coli,False,False,0,
 LacI,CDS,Repressor induced by IPTG,,,,,,Escherichia coli,False,False,0,
-pLac,Promoter,Target for LacI,,,,,,Escherichia coli,False,False,0,
+pLac,Promoter,Target for LacI,,,iGEM registry,R0010,,Escherichia coli,False,False,0,
 ,,,,,,,,,False,False,0,
 ,,,,,,,,,False,False,0,
 ,,,,,,,,,False,False,0,
