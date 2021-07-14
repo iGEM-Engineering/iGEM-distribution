@@ -56,7 +56,9 @@ Three different types of combinations can be indicated here:
  - A library of alternatives can be grouped together
  - The vector backbones to carry parts can be selected
  - Parts can be concatenated together into larger composite parts
+
 The "final product" column indicates which of these are intended to be the actual plasmids in the distribution, as opposed to intermediates in the build plan.
+
 _Example: a line on this tab can indicate that we want all 20 Anderson promoters to be put into the pOpen_v4 and pSB1C3 backbones, as a final product_
 
 Do not modify the other tabs; they are used for configuring spreadsheet's automation.
@@ -75,5 +77,5 @@ To organize collective editing and review, this repository uses the [GitFlow wor
     - Automated validation checks make sure your contribution is well-organized. **Do not merge any pull that is failing validation!**
     - GitHub doesn't visualize Excel diffs well, so a GitHub action creates CSV exports to allow the change to be more easily reviewed and discussed.
 - You can also further branch and pull request off of branches.  
-   - _Example: somebody is working on a `CRISPR-repressors` branch, and you want suggest new composite constructs using their repressors. First, you make a new `composite-CRISPR-repressors` branch from their branch. You add your changes on that branch, then set up a pull request from `composite-CRISPR-repressors` into `CRISPR-repressors` and ask them to review your pull request.
+   - _Example: somebody is working on a `CRISPR-repressors` branch, and you want suggest new composite constructs using their repressors. First, you make a new `composite-CRISPR-repressors` branch from their branch. You add your changes on that branch, then set up a pull request from `composite-CRISPR-repressors` into `CRISPR-repressors` and ask them to review your pull request._
 
