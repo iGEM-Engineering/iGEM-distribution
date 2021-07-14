@@ -43,14 +43,21 @@ Package directories should not have any other subdirectories.
 
 The package spreadsheet allows a collection of related parts to be specified compactly.
 
-The `Basic Parts` tab list of all the parts that are to be used, along with notes about them as needed.
+The `Basic Parts` tab list of all the parts that are to be used, along with notes about them as needed. 
+In this context, "Basic Parts" just means any contiguous DNA sequence that you don't need to subdivide, and can include multiple sequence features. For example [J04450](http://parts.igem.org/Part:BBa_J04450), which encodes a complete functional unit, could be entered as a basic part.
 
 Sequence information can be specified in three ways:
  - Reference to the iGEM repository
  - Reference to an ID in one of the directory files
  - Direct listing in the sheet
 
-The `Libraries and Composite Parts` tab is where parts can be grouped together into sub-collections and where the backbones they should be inserted into can be specified.
+The `Libraries and Composite Parts` tab contains "build plans" for how basic parts will be combined.
+Three different types of combinations can be indicated here:
+ - A library of alternatives can be grouped together
+ - The vector backbones to carry parts can be selected
+ - Parts can be concatenated together into larger composite parts
+The "final product" column indicates which of these are intended to be the actual plasmids in the distribution, as opposed to intermediates in the build plan.
+_Example: a line on this tab can indicate that we want all 20 Anderson promoters to be put into the pOpen_v4 and pSB1C3 backbones, as a final product_
 
 Do not modify the other tabs; they are used for configuring spreadsheet's automation.
 
@@ -60,9 +67,13 @@ To organize collective editing and review, this repository uses the [GitFlow wor
 
 - The `main` branch is only for releases, and the `develop` branch only for approved and validated pre-release material. `main` should have very few commits, mostly just release tags.
 - All proposed changes should be made on new branches off of `develop`. 
+    - Give your branch a short informative name like `small-molecule-inducers` or `IP-free-fluorescence`.
+    - _Example: You see some missing constructs in a sensors package and want to add them. First, you make a new `add-missing-sensors` branch off of `develop`. You edit the package Excel file to add the sensors, commit, and push.  GitHub automatically creates CSV exports in the `views` directory for the package.  Satisfied with what you see, you create a pull request and ask a colleague to review and merge._
 - In order to incorporate a proposed change, make a pull request from the change branch into `develop` and request review from other contributors.
+    - Make sure that your pull request includes a clear explanation of the nature of the contribution, the value of including it, and justification of the functionality of the parts.
+    - No branch should be merged without an independent review that approves the pull request.
     - Automated validation checks make sure your contribution is well-organized. **Do not merge any pull that is failing validation!**
     - GitHub doesn't visualize Excel diffs well, so a GitHub action creates CSV exports to allow the change to be more easily reviewed and discussed.
-
-_Example: You see some missing constructs in a sensors package and want to add them. First, you make a new `add-missing-sensors` branch off of `develop`. You edit the package Excel file to add the sensors, commit, and push.  GitHub automatically creates CSV exports in the `views` directory for the package.  Satisfied with what you see, you create a pull request and ask a colleague to review and merge._
+- You can also further branch and pull request off of branches.  
+   - _Example: somebody is working on a `CRISPR-repressors` branch, and you want suggest new composite constructs using their repressors. First, you make a new `composite-CRISPR-repressors` branch from their branch. You add your changes on that branch, then set up a pull request from `composite-CRISPR-repressors` into `CRISPR-repressors` and ask them to review your pull request.
 
