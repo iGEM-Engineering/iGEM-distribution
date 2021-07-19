@@ -30,6 +30,28 @@ def package_excel(directory):
         return os.path.join(directory, excel_files[0])
 
 
+def regularize_directories():
+    dirs = package_dirs()
+    print(f'Scanning; found {len(dirs)} packages')
+    for d in dirs:
+        print(f'Scanning package {d.name}')
+
+        # Check that there is exactly one subdirectory
+        sub_dirs = [s for s in os.scandir(d) if s.is_dir()]
+        if len(sub_dirs) == 0:
+            os.mkdir(os.path.join(d, EXPORT_DIRECTORY))
+            print(f' Created missing export directory {EXPORT_DIRECTORY}')
+        elif len(sub_dirs) == 1:
+            if not sub_dirs[0].name == EXPORT_DIRECTORY:
+                logging.error(f' Found unexpected subdirectory: {sub_dirs[0]}')
+        else:  # more than one
+            logging.error(
+                f' Found unexpected subdirectories: {(s.name for s in sub_dirs if not s.name == EXPORT_DIRECTORY)}')
+
+        # Confirm that package excel file can be located
+        package_excel(d)
+
+
 def export_csvs(package: str):
     # Get the package excel file
     excel_file = package_excel(package)
