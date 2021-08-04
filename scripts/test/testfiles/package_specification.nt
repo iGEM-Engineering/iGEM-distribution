@@ -1,0 +1,17 @@
+
+<https://github.com/iGEM-Engineering/iGEM-distribution/test_package/BasicParts> <http://sbols.org/v3#displayId> "BasicParts" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/test_package/BasicParts> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/test_package> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/test_package/BasicParts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/test_package/CompositeParts> <http://sbols.org/v3#displayId> "CompositeParts" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/test_package/CompositeParts> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/test_package> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/test_package/CompositeParts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/test_package/FinalProducts> <http://sbols.org/v3#description> "Final products desired for actual fabrication" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/test_package/FinalProducts> <http://sbols.org/v3#displayId> "FinalProducts" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/test_package/FinalProducts> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/test_package> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/test_package/FinalProducts> <http://sbols.org/v3#name> "Final Products" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/test_package/FinalProducts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/test_package/LinearDNAProducts> <http://sbols.org/v3#description> "Linear DNA constructs to be fabricated" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/test_package/LinearDNAProducts> <http://sbols.org/v3#displayId> "LinearDNAProducts" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/test_package/LinearDNAProducts> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/test_package> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/test_package/LinearDNAProducts> <http://sbols.org/v3#name> "Linear DNA Products" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/test_package/LinearDNAProducts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Collection> .
