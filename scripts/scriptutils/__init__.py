@@ -76,7 +76,7 @@ def regularize_directories():
     dirs = package_dirs()
     print(f'Scanning; found {len(dirs)} packages')
     for d in dirs:
-        print(f'Scanning package {d.name}')
+        print(f'Scanning package {d}')
 
         # Check that there is exactly one subdirectory
         sub_dirs = [s for s in os.scandir(d) if s.is_dir()]
