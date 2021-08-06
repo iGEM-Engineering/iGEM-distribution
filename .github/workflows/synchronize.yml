@@ -25,6 +25,9 @@ jobs:
       - name: Update CSVs
         run: python3 scripts/export_csvs.py
 
+      - name: Update SBOL
+        run: python3 scripts/export_sbol.py
+
       - name: Commit changes, ready to push
         run: |
           git config --local user.email "action@github.com"

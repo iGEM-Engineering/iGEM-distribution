@@ -8,4 +8,4 @@ if __name__ == '__main__':
         try:
             scriptutils.export_csvs(p)
         except OSError as e:
-            print(f'Could not export CSV files for package {p}: {e}')
+            print(f'Could not export CSV files for package {os.path.basename(p)}: {e}')
