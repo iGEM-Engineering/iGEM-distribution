@@ -1,9 +1,10 @@
-name: build_specification
+name: Build packages
 
 on: [push]
 
 jobs:
-  manage_products:
+  directories_and_excel:
+    name: Check package structure and export
     runs-on: ubuntu-latest
     steps:
       - name: Set up Git repository
@@ -41,8 +42,9 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: ${{ github.ref }}
 
-  retrieve_sequences:
-    needs: manage_products
+  retrieve_parts:
+    name: Retrieve missing parts
+    needs: directories_and_excel
     runs-on: ubuntu-latest
     steps:
       - name: Set up Git repository
