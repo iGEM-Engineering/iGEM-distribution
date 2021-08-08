@@ -30,8 +30,7 @@ class TestDirectoryRegularization(unittest.TestCase):
             scripts.scriptutils.regularize_directory(tmpdir)
             raise AssertionError('Validation should fail with multiple Excel files')
         except ValueError as e:
-            excel_files = ['package template.xlsx', 'package template2.xlsx']
-            assert(str(e) == f' Found multiple Excel files in package: {excel_files}')
+            assert str(e).startswith(' Found multiple Excel files in package')
 
         # make another subdirectory, which should cause a failure for multiple subdirectories
         tmpsub = os.path.join(tmpdir,'extra_directory')
