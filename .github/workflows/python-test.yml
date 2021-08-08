@@ -28,5 +28,4 @@ jobs:
         pip install -r scripts/requirements.txt
     - name: Test with pytest
       run: |
-        pip install ./scripts
         pytest
