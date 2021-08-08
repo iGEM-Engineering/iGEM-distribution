@@ -75,6 +75,7 @@ def retrieve_genbank_accessions(ids: list[str], package: str) -> list[str]:
         return [accession_to_sbol_uri(r.id) for r in retrieved] # add the accessions back in
     except HTTPError:
         print('NCBI retrieval failed')
+        return []
 
 
 def retrieve_igem_parts(ids: list[str], package: str) -> list[str]:
@@ -88,10 +89,8 @@ def retrieve_igem_parts(ids: list[str], package: str) -> list[str]:
     # load current cache, to write into
     doc = sbol2.Document()
     sbol_cache_file = os.path.join(package,IGEM_SBOL2_CACHE_FILE)
-    try: # read any current material to avoid overwriting
+    if os.path.isfile(sbol_cache_file):  # read any current material to avoid overwriting
         doc.read(sbol_cache_file)
-    except FileNotFoundError:
-        pass
 
     # pull one ID at a time, because SynBioHub will give an error if we try to pull multiple and one is missing
     retrieved_fasta = ''
