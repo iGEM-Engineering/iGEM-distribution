@@ -38,16 +38,34 @@ class TestImportParts(unittest.TestCase):
         expected = ['https://github.com/iGEM-Engineering/iGEM-distribution/test_package/NM_005341_4',
                     'https://github.com/iGEM-Engineering/iGEM-distribution/test_package/NM_005342_4',
                     'https://github.com/iGEM-Engineering/iGEM-distribution/test_package/NM_005343_4',
-                    'https://synbiohub.org/public/igem/BBa_J23101']
+                    'http://parts.igem.org/J23101']
         assert inventory == expected, f'Inventory does not match expected value: {inventory}'
 
     def test_import(self):
+        """Test ability to retrieve parts from GenBank and iGEM"""
+        tmpsub = copy_to_tmp()
+
         # first round of import should obtain all but one missing part
-        #assert filecmp.cmp(test_file, comparison_file), "Downloaded GenBank is not identical"
+        retrieved = scripts.scriptutils.part_retrieval.import_parts(tmpsub)
+        assert len(retrieved) == 4
+        expected = ['https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115_1', 'http://parts.igem.org/J23100',
+                    'http://parts.igem.org/J23102', 'http://parts.igem.org/pSB1C3']
+        assert retrieved == expected, f'Retrieved parts list does not match expected value: {retrieved}'
+        testdir = os.path.dirname(os.path.realpath(__file__))
+        # note: targets to check doesn't include SBOL2 cache, since that isn't serialized in predictable order
+        targets = [scripts.scriptutils.IGEM_FASTA_CACHE_FILE, scripts.scriptutils.GENBANK_CACHE_FILE]
+        for t in targets:
+            test_file = os.path.join(tmpsub, t)
+            comparison_file = os.path.join(testdir, 'testfiles', t)
+            assert filecmp.cmp(test_file, comparison_file), f'Parts cache file {t} is not identical'
 
         # running import again should download nothing new but continue with just the one part
-        #assert filecmp.cmp(test_file, comparison_file), "Downloaded GenBank is not identical"
-        pass
+        retrieved = scripts.scriptutils.part_retrieval.import_parts(tmpsub)
+        assert len(retrieved) == 0
+        for t in targets:
+            test_file = os.path.join(tmpsub, t)
+            comparison_file = os.path.join(testdir, 'testfiles', t)
+            assert filecmp.cmp(test_file, comparison_file), f'Parts cache file {t} is not identical'
 
 
 if __name__ == '__main__':

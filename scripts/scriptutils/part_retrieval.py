@@ -1,29 +1,40 @@
 import os
-import logging
 import urllib.request
 import glob
 from urllib.error import HTTPError
 
-from Bio import Entrez, SeqIO
+from Bio import Entrez, SeqIO, Seq, SeqRecord
 import sbol2
 import sbol3
-from sbol_utilities.helper_functions import flatten
+from sbol_utilities.helper_functions import flatten, unambiguous_dna_sequence
 from .directories import EXPORT_DIRECTORY,SBOL_EXPORT_NAME
 from .package_specification import package_stem
 
 
 GENBANK_CACHE_FILE = 'GenBank_imports.gb'
+# TODO: eliminate SBOL2 cache via 2->3 conversion, since SBOL2 doesn't have stable serialization order
 IGEM_SBOL2_CACHE_FILE = 'iGEM_SBOL2_imports.xml'
 IGEM_SBOL3_CACHE_FILE = 'iGEM_SBOL3_imports.nt'
 IGEM_FASTA_CACHE_FILE = 'iGEM_raw_imports.fasta'
 
 FASTA_iGEM_PATTERN = 'http://parts.igem.org/cgi/partsdb/composite_edit/putseq.cgi?part={}'
 SBOL_iGEM_PATTERN = 'https://synbiohub.org/public/igem/BBa_{}'
+iGEM_SOURCE_PREFIX = 'http://parts.igem.org/'
 NCBI_PREFIX = 'https://www.ncbi.nlm.nih.gov/nuccore/'
+
+# for canonicalizing IDs
+prefix_remappings = {
+    'https://synbiohub.org/public/igem/BBa_':iGEM_SOURCE_PREFIX
+}
+
+def remap_prefixes(uris: list[str]) -> list[str]:
+    for old,new in prefix_remappings.items():
+        uris = [new+u.removeprefix(old) for u in uris]
+    return uris
 
 
 def sbol_uri_to_accession(uri: str, prefix: str = NCBI_PREFIX) -> str:
-    """Change an NCBI SBOL URI to an NCBI accession
+    """Change an NCBI SBOL URI to an accession ID
     :param uri: to convert
     :param prefix: prefix to use with accession, defaulting to NCBI nuccore
     :return: equivalent accession ID
@@ -42,11 +53,11 @@ def accession_to_sbol_uri(accession: str, prefix: str = NCBI_PREFIX) -> str:
     return f'{prefix}{accession.replace(".","_")}'
 
 
-def retrieve_genbank_accessions(ids: list[str],package):
+def retrieve_genbank_accessions(ids: list[str], package: str) -> list[str]:
     """Retrieve a set of nucleotide accessions from GenBank
-    Returns
-    -------
-    String containing the retrieved set of GenBank records
+    :param ids: SBOL URIs to retrieve
+    :param package: path where retrieved items should be stored
+    :return: list of items retrieved
     """
     # GenBank pull:
     Entrez.email = 'engineering@igem.org'
@@ -66,45 +77,71 @@ def retrieve_genbank_accessions(ids: list[str],package):
         print('NCBI retrieval failed')
 
 
-def retrieve_igem_parts(ids,package):
+def retrieve_igem_parts(ids: list[str], package: str) -> list[str]:
     """Retrieve a set of iGEM parts from SynBioHub when possible, direct from the Registry when not.
-
-    Returns
-    -------
-    Pair of SBOL2 Document with parts from SynBioHub, string with FASTA for parts from Registry
+    :param ids: SBOL URIs to retrieve
+    :param package: path where retrieved items should be stored
+    :return: list of items retrieved
     """
     sbh_source = sbol2.partshop.PartShop('https://synbiohub.org')
+
+    # load current cache, to write into
     doc = sbol2.Document()
-    cache_file = os.path.join(package,GENBANK_CACHE_FILE)
-    fasta = ''
-    # pull one at a time, because SynBioHub will give an error if we try to pull multiple and one is missing
-    retrieved = []
+    sbol_cache_file = os.path.join(package,IGEM_SBOL2_CACHE_FILE)
+    try: # read any current material to avoid overwriting
+        doc.read(sbol_cache_file)
+    except FileNotFoundError:
+        pass
+
+    # pull one ID at a time, because SynBioHub will give an error if we try to pull multiple and one is missing
+    retrieved_fasta = ''
+    retrieved_ids = []
+    sbol_count = 0
+    fasta_count = 0
     for i in ids:
+        accession = sbol_uri_to_accession(i, iGEM_SOURCE_PREFIX)
         try:
-            url = SBOL_iGEM_PATTERN.format(i)
-            logging.info(f'Attempting to retrieve from SynBioHub: {url}')
+            url = SBOL_iGEM_PATTERN.format(accession)
+            print(f'Attempting to retrieve iGEM SBOL from SynBioHub: {url}')
             sbh_source.pull(url, doc)
-            retrieved.append(i)
+            retrieved_ids.append(i)
+            sbol_count += 1
+            print(f'  Successfully retrieved from SynBioHub')
         except sbol2.SBOLError as err:
-            logging.info(f'Could not retrieve from SynBioHub')
             if err.error_code() == sbol2.SBOLErrorCode.SBOL_ERROR_NOT_FOUND:
                 try:
-                    url = FASTA_iGEM_PATTERN.format(i)
-                    logging.info(f'Attempting to retrieve from iGEM Registry: {url}')
+                    url = FASTA_iGEM_PATTERN.format(accession)
+                    print(f'  SynBioHub retrieval failed; attempting to retrieve FASTA from iGEM Registry: {url}')
                     with urllib.request.urlopen(url,timeout=5) as f:
-                        captured = f.read().decode('utf-8')
-                        fasta += captured
-                    retrieved.append(i)
+                        captured = f.read().decode('utf-8').strip()
+
+                    if unambiguous_dna_sequence(captured):
+                        retrieved_fasta += f'> {accession}\n{captured}\n'
+                        retrieved_ids.append(i)
+                        fasta_count += 1
+                        print(f'  Successfully retrieved from iGEM Registry')
+                    else:
+                        print(f'  Retrieved text is not a DNA sequence: {captured}')
                 except IOError:
-                    logging.info('Could not retrieve from iGEM Registry')
-    return doc, fasta
+                    print('  Could not retrieve from iGEM Registry')
+
+    # write retrieved materials
+    if sbol_count>0:
+        print(f'Retrieved {sbol_count} iGEM SBOL2 records from SynBioHub, writing to {sbol_cache_file}')
+        doc.write(sbol_cache_file)
+    if fasta_count>0:
+        fasta_cache_file = os.path.join(package,IGEM_FASTA_CACHE_FILE)
+        print(f'Retrieved {fasta_count} FASTA records from iGEM Registry, writing to {fasta_cache_file}')
+        with open(fasta_cache_file, 'a') as out:
+            out.write(retrieved_fasta)
+
+    return retrieved_ids
 
 source_list = {
     NCBI_PREFIX: retrieve_genbank_accessions,
-    'https://synbiohub.org': retrieve_igem_parts,
-    'http://parts.igem.org': retrieve_igem_parts
+    'https://synbiohub.org/public/igem/': retrieve_igem_parts,
+    'http://parts.igem.org/': retrieve_igem_parts
 }
-
 
 def retrieve_parts(ids: list[str],package) -> list[str]:
     """Attempt to download parts from various servers
@@ -146,7 +183,8 @@ def package_parts_inventory(package: str) -> list[str]:
 
     # import FASTAs and GenBank
     for file in flatten(glob.glob(os.path.join(package, ext)) for ext in extensions['FASTA']):
-        prefix = package_stem(package)
+        is_igem_cache = os.path.basename(file) == IGEM_FASTA_CACHE_FILE
+        prefix = iGEM_SOURCE_PREFIX if is_igem_cache else package_stem(package)
         with open(file) as f:
             for record in SeqIO.parse(f, "fasta"):
                 inventory.append(accession_to_sbol_uri(record.id,prefix))
@@ -162,7 +200,7 @@ def package_parts_inventory(package: str) -> list[str]:
     for file in flatten(glob.glob(os.path.join(package, ext)) for ext in extensions['SBOL2']):
         doc = sbol2.Document()
         doc.read(file)
-        inventory += [obj.persistentIdentity for obj in doc if isinstance(obj,sbol2.ComponentDefinition)]
+        inventory += remap_prefixes([obj.persistentIdentity for obj in doc if isinstance(obj,sbol2.ComponentDefinition)])
 
     # import SBOL3
     for rdf_type,patterns in extensions['SBOL3'].items():
@@ -185,11 +223,11 @@ def import_parts(package: str):
     package_spec.read(os.path.join(package,EXPORT_DIRECTORY,SBOL_EXPORT_NAME))
     package_parts = [p.lookup() for p in package_spec.find(BASIC_PARTS_COLLECTION).members]
 
-    print(f'  Package specification contains {len(package_parts)} parts')
+    print(f'Package specification contains {len(package_parts)} parts')
 
     # Then collect the parts in the package directory
     inventory_parts = package_parts_inventory(package)
-    print(f'  Found {len(inventory_parts)} available parts')
+    print(f'Found {len(inventory_parts)} parts cached in package design files')
 
     # Compare the parts lists to each other to figure out which elements are missing
     package_part_ids = {p.identity for p in package_parts}
