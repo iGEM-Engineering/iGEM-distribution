@@ -1,0 +1,143 @@
+
+<http://parts.igem.org/J23100> <http://sbols.org/v3#description> "" .
+<http://parts.igem.org/J23100> <http://sbols.org/v3#displayId> "J23100" .
+<http://parts.igem.org/J23100> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/testfiles> .
+<http://parts.igem.org/J23100> <http://sbols.org/v3#name> "J23100" .
+<http://parts.igem.org/J23100> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000167> .
+<http://parts.igem.org/J23100> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<http://parts.igem.org/J23100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<http://parts.igem.org/J23101> <http://sbols.org/v3#description> "" .
+<http://parts.igem.org/J23101> <http://sbols.org/v3#displayId> "J23101" .
+<http://parts.igem.org/J23101> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/testfiles> .
+<http://parts.igem.org/J23101> <http://sbols.org/v3#name> "J23101" .
+<http://parts.igem.org/J23101> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000167> .
+<http://parts.igem.org/J23101> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<http://parts.igem.org/J23101> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<http://parts.igem.org/J23102> <http://sbols.org/v3#description> "" .
+<http://parts.igem.org/J23102> <http://sbols.org/v3#displayId> "J23102" .
+<http://parts.igem.org/J23102> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/testfiles> .
+<http://parts.igem.org/J23102> <http://sbols.org/v3#name> "J23102" .
+<http://parts.igem.org/J23102> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000167> .
+<http://parts.igem.org/J23102> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<http://parts.igem.org/J23102> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<http://parts.igem.org/pSB1C3> <http://sbols.org/v3#description> "" .
+<http://parts.igem.org/pSB1C3> <http://sbols.org/v3#displayId> "pSB1C3" .
+<http://parts.igem.org/pSB1C3> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/testfiles> .
+<http://parts.igem.org/pSB1C3> <http://sbols.org/v3#name> "pSB1C3" .
+<http://parts.igem.org/pSB1C3> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000155> .
+<http://parts.igem.org/pSB1C3> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<http://parts.igem.org/pSB1C3> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<http://parts.igem.org/pSB1C3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector/VariableFeature1> <http://sbols.org/v3#cardinality> <http://sbols.org/v3#one> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector/VariableFeature1> <http://sbols.org/v3#displayId> "VariableFeature1" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector/VariableFeature1> <http://sbols.org/v3#variable> <https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector_template/LocalSubComponent1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector/VariableFeature1> <http://sbols.org/v3#variantDerivation> <https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector_ins> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector/VariableFeature1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#VariableFeature> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector/VariableFeature2> <http://sbols.org/v3#cardinality> <http://sbols.org/v3#one> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector/VariableFeature2> <http://sbols.org/v3#displayId> "VariableFeature2" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector/VariableFeature2> <http://sbols.org/v3#variable> <https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector_template/LocalSubComponent2> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector/VariableFeature2> <http://sbols.org/v3#variant> <http://parts.igem.org/pSB1C3> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector/VariableFeature2> <http://sbols.org/v3#variant> <https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/pOpen_v4> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector/VariableFeature2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#VariableFeature> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector> <http://sbols.org/v3#displayId> "Anderson_Promoters_in_vector" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/testfiles> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector> <http://sbols.org/v3#hasVariableFeature> <https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector/VariableFeature1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector> <http://sbols.org/v3#hasVariableFeature> <https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector/VariableFeature2> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector> <http://sbols.org/v3#name> "Anderson Promoters in vector" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector> <http://sbols.org/v3#template> <https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector_template> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#CombinatorialDerivation> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector_ins/VariableFeature1> <http://sbols.org/v3#cardinality> <http://sbols.org/v3#one> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector_ins/VariableFeature1> <http://sbols.org/v3#displayId> "VariableFeature1" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector_ins/VariableFeature1> <http://sbols.org/v3#variable> <https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector_ins_template/LocalSubComponent1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector_ins/VariableFeature1> <http://sbols.org/v3#variant> <http://parts.igem.org/J23100> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector_ins/VariableFeature1> <http://sbols.org/v3#variant> <http://parts.igem.org/J23101> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector_ins/VariableFeature1> <http://sbols.org/v3#variant> <http://parts.igem.org/J23102> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector_ins/VariableFeature1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#VariableFeature> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector_ins> <http://sbols.org/v3#description> "" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector_ins> <http://sbols.org/v3#displayId> "Anderson_Promoters_in_vector_ins" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector_ins> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/testfiles> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector_ins> <http://sbols.org/v3#hasVariableFeature> <https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector_ins/VariableFeature1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector_ins> <http://sbols.org/v3#name> "Anderson Promoters in vector insert" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector_ins> <http://sbols.org/v3#strategy> <http://sbols.org/v3#enumerate> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector_ins> <http://sbols.org/v3#template> <https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector_ins_template> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector_ins> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#CombinatorialDerivation> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector_ins_template/LocalSubComponent1> <http://sbols.org/v3#displayId> "LocalSubComponent1" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector_ins_template/LocalSubComponent1> <http://sbols.org/v3#name> "Part 1" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector_ins_template/LocalSubComponent1> <http://sbols.org/v3#orientation> <http://sbols.org/v3#inline> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector_ins_template/LocalSubComponent1> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector_ins_template/LocalSubComponent1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#LocalSubComponent> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector_ins_template> <http://sbols.org/v3#displayId> "Anderson_Promoters_in_vector_ins_template" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector_ins_template> <http://sbols.org/v3#hasFeature> <https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector_ins_template/LocalSubComponent1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector_ins_template> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/testfiles> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector_ins_template> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector_ins_template> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector_template/Constraint1> <http://sbols.org/v3#displayId> "Constraint1" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector_template/Constraint1> <http://sbols.org/v3#object> <https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector_template/LocalSubComponent2> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector_template/Constraint1> <http://sbols.org/v3#restriction> <http://sbols.org/v3#meets> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector_template/Constraint1> <http://sbols.org/v3#subject> <https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector_template/LocalSubComponent1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector_template/Constraint1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Constraint> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector_template/Constraint2> <http://sbols.org/v3#displayId> "Constraint2" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector_template/Constraint2> <http://sbols.org/v3#object> <https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector_template/LocalSubComponent1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector_template/Constraint2> <http://sbols.org/v3#restriction> <http://sbols.org/v3#meets> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector_template/Constraint2> <http://sbols.org/v3#subject> <https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector_template/LocalSubComponent2> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector_template/Constraint2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Constraint> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector_template/LocalSubComponent1> <http://sbols.org/v3#displayId> "LocalSubComponent1" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector_template/LocalSubComponent1> <http://sbols.org/v3#name> "Inserted Construct" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector_template/LocalSubComponent1> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector_template/LocalSubComponent1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#LocalSubComponent> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector_template/LocalSubComponent2> <http://sbols.org/v3#displayId> "LocalSubComponent2" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector_template/LocalSubComponent2> <http://sbols.org/v3#name> "Vector" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector_template/LocalSubComponent2> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector_template/LocalSubComponent2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#LocalSubComponent> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector_template> <http://sbols.org/v3#displayId> "Anderson_Promoters_in_vector_template" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector_template> <http://sbols.org/v3#hasConstraint> <https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector_template/Constraint1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector_template> <http://sbols.org/v3#hasConstraint> <https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector_template/Constraint2> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector_template> <http://sbols.org/v3#hasFeature> <https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector_template/LocalSubComponent1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector_template> <http://sbols.org/v3#hasFeature> <https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector_template/LocalSubComponent2> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector_template> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/testfiles> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector_template> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector_template> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/BasicParts> <http://sbols.org/v3#description> "The Anderson Promoters are a well-established set of constitutive promoters at varying expression levels." .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/BasicParts> <http://sbols.org/v3#displayId> "BasicParts" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/BasicParts> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/testfiles> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/BasicParts> <http://sbols.org/v3#member> <http://parts.igem.org/J23100> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/BasicParts> <http://sbols.org/v3#member> <http://parts.igem.org/J23101> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/BasicParts> <http://sbols.org/v3#member> <http://parts.igem.org/J23102> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/BasicParts> <http://sbols.org/v3#member> <http://parts.igem.org/pSB1C3> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/pOpen_v4> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/BasicParts> <http://sbols.org/v3#member> <https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115_1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/BasicParts> <http://sbols.org/v3#name> "Anderson Promoters" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/BasicParts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/CompositeParts> <http://sbols.org/v3#description> "The Anderson Promoters are a well-established set of constitutive promoters at varying expression levels." .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/CompositeParts> <http://sbols.org/v3#displayId> "CompositeParts" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/CompositeParts> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/testfiles> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/CompositeParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector_ins> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/CompositeParts> <http://sbols.org/v3#name> "Anderson Promoters" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/CompositeParts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/FinalProducts> <http://sbols.org/v3#description> "Final products desired for actual fabrication" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/FinalProducts> <http://sbols.org/v3#displayId> "FinalProducts" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/FinalProducts> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/testfiles> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/FinalProducts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/FinalProducts> <http://sbols.org/v3#name> "Final Products" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/FinalProducts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/LinearDNAProducts> <http://sbols.org/v3#description> "Linear DNA constructs to be fabricated" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/LinearDNAProducts> <http://sbols.org/v3#displayId> "LinearDNAProducts" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/LinearDNAProducts> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/testfiles> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/LinearDNAProducts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/Anderson_Promoters_in_vector_ins> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/LinearDNAProducts> <http://sbols.org/v3#name> "Linear DNA Products" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/LinearDNAProducts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/pOpen_v4> <http://sbols.org/v3#description> "" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/pOpen_v4> <http://sbols.org/v3#displayId> "pOpen_v4" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/pOpen_v4> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/testfiles> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/pOpen_v4> <http://sbols.org/v3#name> "pOpen_v4" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/pOpen_v4> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000155> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/pOpen_v4> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/pOpen_v4> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/testfiles/pOpen_v4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115_1> <http://sbols.org/v3#description> "" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115_1> <http://sbols.org/v3#displayId> "JWYZ01000115_1" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115_1> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/testfiles> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115_1> <http://sbols.org/v3#name> "Random e. coli chunk" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115_1> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000001> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115_1> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
