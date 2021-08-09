@@ -1,0 +1,694 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:sbol="http://sbols.org/v2#" xmlns:xsd1="http://www.w3.org/2001/XMLSchema#dateTime/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:synbiohub="http://synbiohub.org#" xmlns:sbh="http://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:sybio="http://www.sybio.ncl.ac.uk#" xmlns:ncbi="http://www.ncbi.nlm.nih.gov#" xmlns:igem="http://wiki.synbiohub.org/wiki/Terms/igem#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:gbconv="http://sbols.org/genBankConversion#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:obo="http://purl.obolibrary.org/obo/">
+  <sbol:Sequence rdf:about="https://synbiohub.org/public/igem/BBa_J97003_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_J97003_sequence/1"/>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_J97003_sequence"/>
+    <sbol:elements>atgtccctgtcgaaacaagtactgccacgtgatgttcgcatgcgctttcatatggatggctgcgttaatggtcatcagttcatcattgagggtgaaggtgcaggcaaaccggatgagggcaagaagattctgaaactgcgcgtgacgaaaggtggcccgctgccgtttgcgttcgatatcctgagctctacttttacttacggtaaccgttgtttttgcgattatccagaggacatgccggactactttaaacagagcctgccggaaggtcactcttgggaacgcaccctgatgtttgaggatggcggttgtggtacggcgagcgcgcacattagtctggataaggactgcttcgtgcaccagagcaccttcctgggcgtcaatttcccggcaaacggtccggtcatgcaaaagaaaacgctgaactgggagccgagcagcgaactgattacggcgtgcgacggtatcctgaaaggcgatgtgaccatgtttctgttgctggaaggtggccaccgtcttaaatgtcagttcaccaccagctacaaagccagcaaggcagttaagatgccgccgaatcacattatcgaacacgtgcttgttaaaaaagaggttgccgacggctttcagatccaagagcatgcggtcgcaaagcacttcaccgtcgacgttaaagaaacg</sbol:elements>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_J97003"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbol:displayId>BBa_J97003_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_E1010/1">
+    <igem:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Available"/>
+    <dcterms:description>**highly** engineered mutant of red fluorescent protein from Discosoma striata (coral)</dcterms:description>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_E1010"/>
+    <dcterms:title>mRFP1</dcterms:title>
+    <sbol:sequence rdf:resource="https://synbiohub.org/public/igem/BBa_E1010_sequence/1"/>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_E1010"/>
+    <igem:group_u_list>_11_1_</igem:group_u_list>
+    <igem:partStatus>Released HQ 2013</igem:partStatus>
+    <sbh:bookmark>false</sbh:bookmark>
+    <sbh:mutableNotes>TAATAA double stop codon added (DE).
+
+Four silent mutations made to remove three EcoRI sites and one PstI site: A28G, A76G, A349G, G337A.</sbh:mutableNotes>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/BBa_E1010/annotation1014044/1">
+        <sbol:displayId>annotation1014044</sbol:displayId>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_E1010/1"/>
+        <sbol:version>1</sbol:version>
+        <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#feature/cds"/>
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_E1010/annotation1014044"/>
+        <dcterms:title>mrfp1</dcterms:title>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/BBa_E1010/annotation1014044/range1014044/1">
+            <sbol:version>1</sbol:version>
+            <sbol:displayId>range1014044</sbol:displayId>
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_E1010/annotation1014044/range1014044"/>
+            <sbol:start>1</sbol:start>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_E1010/1"/>
+            <sbol:end>675</sbol:end>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbh:mutableProvenance>Campbell et al., PNAS v99 p7877 &lt;a href="http://www.pubmedcentral.nih.gov/articlerender.fcgi?tool=pubmed&amp;pubmedid=12060735"&gt;URL&lt;/a&gt;</sbh:mutableProvenance>
+    <igem:owning_group_id>7</igem:owning_group_id>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <igem:owner_id>52</igem:owner_id>
+    <dcterms:created>2004-07-27T11:00:00Z</dcterms:created>
+    <igem:experience rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#experience/Works"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <igem:sampleStatus>In stock</igem:sampleStatus>
+    <igem:m_user_id>0</igem:m_user_id>
+    <igem:discontinued>false</igem:discontinued>
+    <sbol:displayId>BBa_E1010</sbol:displayId>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/BBa_E1010/annotation2214014/1">
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000807"/>
+        <sbol:displayId>annotation2214014</sbol:displayId>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_E1010/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/BBa_E1010/annotation2214014/range2214014/1">
+            <sbol:displayId>range2214014</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_E1010/1"/>
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_E1010/annotation2214014/range2214014"/>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward"/>
+            <sbol:version>1</sbol:version>
+            <sbol:start>682</sbol:start>
+            <sbol:end>706</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <dcterms:title>Help:Barcodes</dcterms:title>
+        <sbol:version>1</sbol:version>
+        <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#feature/barcode"/>
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_E1010/annotation2214014"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <dcterms:modified>2015-08-31T04:07:26Z</dcterms:modified>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_E1010/1"/>
+    <sbol:version>1</sbol:version>
+    <igem:dominant>false</igem:dominant>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <sbh:mutableDescription>monomeric RFP:
+Red Fluorescent Protein.
+Excitation peak: 584 nm
+Emission peak: 607 nm</sbh:mutableDescription>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:star>true</sbh:star>
+    <dc:creator>Drew Endy</dc:creator>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Coding"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="https://synbiohub.org/public/igem/BBa_E0020_sequence/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_E0020_sequence"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>atggtgagcaagggcgaggagctgttcaccggggtggtgcccatcctggtcgagctggacggcgacgtgaacggccacaagttcagcgtgtccggcgagggcgagggcgatgccacctacggcaagctgaccctgaagttcatctgcaccaccggcaagctgcccgtgccctggcccaccctcgtgaccaccctgacctggggcgtgcagtgcttcagccgctaccccgaccacatgaagcagcacgacttcttcaagtccgccatgcccgaaggctacgtccaggagcgcaccatcttcttcaaggacgacggcaactacaagacccgcgccgaggtgaagttcgagggcgacaccctggtgaaccgcatcgagctgaagggcatcgacttcaaggaggacggcaacatcctggggcacaagctggagtacaactacatcagccacaacgtctatatcaccgccgacaagcagaagaacggcatcaaggccaacttcaagatccgccacaacatcgaggacggcagcgtgcagctcgccgaccactaccagcagaacacccccatcggcgacggccccgtgctgctgcccgacaaccactacctgagcacccagtccgccctgagcaaagaccccaacgagaagcgcgatcacatggtcctgctggagttcgtgaccgccgccgggatcactctcggcatggacgagctgtacaagtaataa</sbol:elements>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbol:displayId>BBa_E0020_sequence</sbol:displayId>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_E0020"/>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_E0020_sequence/1"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_J97003/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_J97003"/>
+    <igem:dominant>false</igem:dominant>
+    <sbol:version>1</sbol:version>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Reporter"/>
+    <dcterms:description>IP-Free TannenRFP (Red Fluorescent Protein)</dcterms:description>
+    <dcterms:modified>2015-05-08T01:08:32Z</dcterms:modified>
+    <sbh:mutableNotes>This sequence is fully synthetic, (non-Aequorea) and is codon optimized for expression in E. coli.</sbh:mutableNotes>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <igem:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Unavailable"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_J97003/1"/>
+    <dcterms:title>BBa_J97003</dcterms:title>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <igem:owning_group_id>63</igem:owning_group_id>
+    <sbh:mutableDescription>x</sbh:mutableDescription>
+    <dc:creator>Drew Endy</dc:creator>
+    <sbh:mutableProvenance>This synthetic part was created through a gene engineering and synthesis project at DNA 2.0.</sbh:mutableProvenance>
+    <sbh:bookmark>false</sbh:bookmark>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <igem:group_u_list>_41_1_</igem:group_u_list>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <igem:m_user_id>0</igem:m_user_id>
+    <sbol:sequence rdf:resource="https://synbiohub.org/public/igem/BBa_J97003_sequence/1"/>
+    <sbh:star>false</sbh:star>
+    <sbol:displayId>BBa_J97003</sbol:displayId>
+    <igem:sampleStatus>Not in stock</igem:sampleStatus>
+    <igem:discontinued>false</igem:discontinued>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_J97003"/>
+    <igem:owner_id>747</igem:owner_id>
+    <dcterms:created>2014-02-18T12:00:00Z</dcterms:created>
+    <igem:experience rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#experience/None"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="https://synbiohub.org/public/igem/BBa_J97001_sequence/1">
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_J97001_sequence/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_J97001_sequence"/>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>atgtcgtctggtgcactgttgtttcatggtaaaatcccgtatgttgtagaaatggaaggcaatgtcgatggtcacacctttagcattcgcggcaagggttacggtgacgcgagcgttggtaaggtcgacgcgcagtttatctgcaccacgggtgacgtcccggtgccgtggagcacgttggtgacgacgctgacttacggtgcccaatgtttcgcgaaatatggcccggggctgaaagacttctacaaatcctgtatgccggaaggttatgtgcaagagcgcactattacctttgagggtgacggtgtctttaagacccgtgccgaagtgaccttcgaaaacggtagcgtttacaaccgtgtcaagctgaatggccagggtttcaaaaaggatggtcacgttctgggtaagaatctggaattcaacttcaccccacactgcctgtacatctggggcgatcaagcgaatcatggtctgaaaagcgcatttaagatcatgcacgagattaccggctccaaagaagatttcatcgtggctgatcacacccagatgaataccccgattggcggtggccctgtgcacgttccggaatatcatcacctgaccgtctggacgagcttcggtaaggatccggatgacgacgaaaccgaccacctgaacatcgtagaggttatcaaagcagtggacctggagacgtatcgc</sbol:elements>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_J97001"/>
+    <sbol:displayId>BBa_J97001_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_J97001/1">
+    <sbh:star>false</sbh:star>
+    <sbol:displayId>BBa_J97001</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_J97001"/>
+    <igem:sampleStatus>Not in stock</igem:sampleStatus>
+    <igem:discontinued>false</igem:discontinued>
+    <igem:owner_id>747</igem:owner_id>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <igem:m_user_id>0</igem:m_user_id>
+    <sbol:sequence rdf:resource="https://synbiohub.org/public/igem/BBa_J97001_sequence/1"/>
+    <dcterms:created>2014-02-18T12:00:00Z</dcterms:created>
+    <sbol:version>1</sbol:version>
+    <sbh:mutableDescription>This part was created by DNA 2.0 as part of their IP-Free series of fluorescent and chromogenic proteins. It is available to use under the BioBrick Public Agreement.
+
+Excitation 508nm, Emission 521nm
+Molecular Weight: 26.6kDA 
+Length: 237aa</sbh:mutableDescription>
+    <dcterms:description>P-Free JuniperGFP (Green Fluorescent Protein)</dcterms:description>
+    <dcterms:title>BBa_J97001</dcterms:title>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:mutableNotes>This sequence is fully synthetic, (non-Aequorea) and is codon optimized for expression in E. coli.</sbh:mutableNotes>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <igem:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Unavailable"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_J97001/1"/>
+    <igem:owning_group_id>63</igem:owning_group_id>
+    <sbh:mutableProvenance>This synthetic part was created through a gene engineering and synthesis project at DNA 2.0.</sbh:mutableProvenance>
+    <sbh:bookmark>false</sbh:bookmark>
+    <igem:experience rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#experience/None"/>
+    <dc:creator>Drew Endy</dc:creator>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <igem:dominant>false</igem:dominant>
+    <dcterms:modified>2015-05-08T01:08:32Z</dcterms:modified>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_J97001"/>
+    <igem:group_u_list>_41_1_</igem:group_u_list>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Reporter"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_E0030/1">
+    <dcterms:created>2004-03-02T12:00:00Z</dcterms:created>
+    <sbol:sequence rdf:resource="https://synbiohub.org/public/igem/BBa_E0030_sequence/1"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_E0030/1"/>
+    <igem:partStatus>Released HQ 2013</igem:partStatus>
+    <sbh:mutableDescription>-- No description --</sbh:mutableDescription>
+    <sbh:bookmark>false</sbh:bookmark>
+    <igem:owning_group_id>7</igem:owning_group_id>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_E0030"/>
+    <sbh:mutableProvenance>Modificaitons to Clontech EYFP by Reshma Shetty</sbh:mutableProvenance>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_E0030"/>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbol:displayId>BBa_E0030</sbol:displayId>
+    <dcterms:description>enhanced yellow fluorescent protein derived from A. victoria GFP</dcterms:description>
+    <dcterms:title>eyfp</dcterms:title>
+    <igem:experience rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#experience/Works"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <igem:owner_id>24</igem:owner_id>
+    <igem:m_user_id>0</igem:m_user_id>
+    <igem:discontinued>false</igem:discontinued>
+    <dc:creator>Caitlin Conboy and Jennifer Braff</dc:creator>
+    <igem:sampleStatus>In stock</igem:sampleStatus>
+    <sbol:version>1</sbol:version>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:star>true</sbh:star>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Coding"/>
+    <igem:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Available"/>
+    <igem:dominant>false</igem:dominant>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <dcterms:modified>2015-08-31T04:07:25Z</dcterms:modified>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <igem:group_u_list>_1_</igem:group_u_list>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="https://synbiohub.org/public/igem/BBa_E0040_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>atgcgtaaaggagaagaacttttcactggagttgtcccaattcttgttgaattagatggtgatgttaatgggcacaaattttctgtcagtggagagggtgaaggtgatgcaacatacggaaaacttacccttaaatttatttgcactactggaaaactacctgttccatggccaacacttgtcactactttcggttatggtgttcaatgctttgcgagatacccagatcatatgaaacagcatgactttttcaagagtgccatgcccgaaggttatgtacaggaaagaactatatttttcaaagatgacgggaactacaagacacgtgctgaagtcaagtttgaaggtgatacccttgttaatagaatcgagttaaaaggtattgattttaaagaagatggaaacattcttggacacaaattggaatacaactataactcacacaatgtatacatcatggcagacaaacaaaagaatggaatcaaagttaacttcaaaattagacacaacattgaagatggaagcgttcaactagcagaccattatcaacaaaatactccaattggcgatggccctgtccttttaccagacaaccattacctgtccacacaatctgccctttcgaaagatcccaacgaaaagagagaccacatggtccttcttgagtttgtaacagctgctgggattacacatggcatggatgaactatacaaataataa</sbol:elements>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_E0040_sequence"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_E0040_sequence/1"/>
+    <sbol:displayId>BBa_E0040_sequence</sbol:displayId>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_E0040"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://synbiohub.org/public/igem/BBa_E1010_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbol:elements>atggcttcctccgaagacgttatcaaagagttcatgcgtttcaaagttcgtatggaaggttccgttaacggtcacgagttcgaaatcgaaggtgaaggtgaaggtcgtccgtacgaaggtacccagaccgctaaactgaaagttaccaaaggtggtccgctgccgttcgcttgggacatcctgtccccgcagttccagtacggttccaaagcttacgttaaacacccggctgacatcccggactacctgaaactgtccttcccggaaggtttcaaatgggaacgtgttatgaacttcgaagacggtggtgttgttaccgttacccaggactcctccctgcaagacggtgagttcatctacaaagttaaactgcgtggtaccaacttcccgtccgacggtccggttatgcagaaaaaaaccatgggttgggaagcttccaccgaacgtatgtacccggaagacggtgctctgaaaggtgaaatcaaaatgcgtctgaaactgaaagacggtggtcactacgacgctgaagttaaaaccacctacatggctaaaaaaccggttcagctgccgggtgcttacaaaaccgacatcaaactggacatcacctcccacaacgaagactacaccatcgttgaacagtacgaacgtgctgaaggtcgtcactccaccggtgcttaataacgctgatagtgctagtgtagatcgc</sbol:elements>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_E1010_sequence/1"/>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_E1010_sequence"/>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_E1010"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbol:displayId>BBa_E1010_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://synbiohub.org/public/igem/BBa_J97000_sequence/1">
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_J97000"/>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbol:elements>atgtcgtctggtaccaaattgtttgaaaaggaaatcccgtatatcactgaactggagggcgacgtcaatggtatgaagtttaccattcatggtaaaggtaccggcgatgcgagcacgggtaccattaaagcgaaattcatctgcactacgggcgacgttccggtcccgtgggcaaccctggtgagcaccctgagctacggtgttcagtgtttcgccaagtacccgccgcacatcaaggatttctttaagagcgccatgccggaaggttatgttcaagagcgtaccatcaccttcgaaggcgacggcgtgtttaagacgcgtgctgaggttacctttgaaaacggttctgtctacaatcgtgtcacgctgaacggccagggttttaagaaagacggtcacattctgcgtaagaacgttgcattccaatgcccgccagatattgtgtatattttgcctgacaccgttaacaatggcatccgcgttgagttcaaccaggcgtacgatattgaaggtgtgaccgaaaaactggttaccaaatgcagccaaatgaatcgtccgttggcgggctccgcggcagtgcatatcccgcgttatcatcacctgagcaaacacaccaaactgagcaaagaccgcgacgagcgccgtgatcacatgtgtctggtagaggtcgtgaaagcggttgatctggacacgtatcag</sbol:elements>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_J97000_sequence/1"/>
+    <sbol:displayId>BBa_J97000_sequence</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_J97000_sequence"/>
+    <sbol:version>1</sbol:version>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_E0040/1">
+    <igem:owning_group_id>7</igem:owning_group_id>
+    <sbol:displayId>BBa_E0040</sbol:displayId>
+    <dcterms:created>2004-09-29T11:00:00Z</dcterms:created>
+    <dc:creator>jcbraff</dc:creator>
+    <igem:sampleStatus>In stock</igem:sampleStatus>
+    <dcterms:title>GFP</dcterms:title>
+    <igem:experience rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#experience/Works"/>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_E0040"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/BBa_E0040/annotation1934520/1">
+        <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#feature/protein"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/BBa_E0040/annotation1934520/range1934520/1">
+            <sbol:displayId>range1934520</sbol:displayId>
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_E0040/annotation1934520/range1934520"/>
+            <sbol:end>720</sbol:end>
+            <sbol:start>1</sbol:start>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_E0040/1"/>
+            <sbol:version>1</sbol:version>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_E0040/annotation1934520"/>
+        <dcterms:title>GFP protein</dcterms:title>
+        <sbol:displayId>annotation1934520</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_E0040/1"/>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_E0040"/>
+    <sbh:star>true</sbh:star>
+    <igem:m_user_id>4206</igem:m_user_id>
+    <igem:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Available"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_E0040/1"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <sbol:version>1</sbol:version>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <igem:owner_id>61</igem:owner_id>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Coding"/>
+    <sbh:bookmark>false</sbh:bookmark>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:mutableDescription>GFP (mut3b) [note that this part does not have a barcode]</sbh:mutableDescription>
+    <igem:dominant>true</igem:dominant>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <dcterms:modified>2016-01-26T02:09:38Z</dcterms:modified>
+    <igem:partStatus>Released HQ 2013</igem:partStatus>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <dcterms:description>green fluorescent protein derived from jellyfish Aequeora victoria wild-type GFP (SwissProt: P42212</dcterms:description>
+    <igem:group_u_list>_11_1_</igem:group_u_list>
+    <sbol:sequence rdf:resource="https://synbiohub.org/public/igem/BBa_E0040_sequence/1"/>
+    <igem:discontinued>false</igem:discontinued>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="https://synbiohub.org/public/igem/BBa_E0030_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbol:elements>atggtgagcaagggcgaggagctgttcaccggggtggtgcccatcctggtcgagctggacggcgacgtaaacggccacaagttcagcgtgtccggcgagggcgagggcgatgccacctacggcaagctgaccctgaagttcatctgcaccaccggcaagctgcccgtgccctggcccaccctcgtgaccaccttcggctacggcctgcaatgcttcgcccgctaccccgaccacatgaagctgcacgacttcttcaagtccgccatgcccgaaggctacgtccaggagcgcaccatcttcttcaaggacgacggcaactacaagacccgcgccgaggtgaagttcgagggcgacaccctggtgaaccgcatcgagctgaagggcatcgacttcaaggaggacggcaacatcctggggcacaagctggagtacaactacaacagccacaacgtctatatcatggccgacaagcagaagaacggcatcaaggtgaacttcaagatccgccacaacatcgaggacggcagcgtgcagctcgccgaccactaccagcagaacacccccatcggcgacggccccgtgctgctgcccgacaaccactacctgagctaccagtccgccctgagcaaagaccccaacgagaagcgcgatcacatggtcctgctggagttcgtgaccgccgccgggatcactctcggcatggacgagctgtacaagtaataa</sbol:elements>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_E0030_sequence/1"/>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbol:displayId>BBa_E0030_sequence</sbol:displayId>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_E0030"/>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_E0030_sequence"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_K864100/1">
+    <sbol:displayId>BBa_K864100</sbol:displayId>
+    <igem:discontinued>false</igem:discontinued>
+    <sbh:star>false</sbh:star>
+    <sbh:bookmark>false</sbh:bookmark>
+    <igem:group_u_list>_1124_</igem:group_u_list>
+    <sbol:sequence rdf:resource="https://synbiohub.org/public/igem/BBa_K864100_sequence/1"/>
+    <igem:sampleStatus>In stock</igem:sampleStatus>
+    <igem:experience rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#experience/Works"/>
+    <dc:creator>Erik Gullberg</dc:creator>
+    <igem:partStatus>Released HQ 2013</igem:partStatus>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:mutableDescription>This part codes for the bright yellow fluorescent protein SYFP2. SYFP2 is a GFP based monomeric protein with a narrow fluorescence emission spectrum with a maximum at 515 nm. Bacteria expressing SYFP2 are reported to be 12 times brighter than those expressing EYFP(Q69K) and almost 2-fold brighter than bacteria expressing Venus (Ref. 10.1021/bi0516273). Codon optimized for expression in E coli by DNA 2.0. Mutations compared to wtGFP amino acid sequence (GenBank Accession number M62653) are F46L F64L S65G S72A M153T V163A S175G T203Y A206K.</sbh:mutableDescription>
+    <igem:m_user_id>4206</igem:m_user_id>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K864100"/>
+    <dcterms:modified>2016-01-21T02:29:24Z</dcterms:modified>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K864100"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/BBa_K864100/annotation2196221/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K864100/annotation2196221"/>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#feature/cds"/>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>SYFP2</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K864100/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/BBa_K864100/annotation2196221/range2196221/1">
+            <sbol:displayId>range2196221</sbol:displayId>
+            <sbol:start>1</sbol:start>
+            <sbol:version>1</sbol:version>
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K864100/annotation2196221/range2196221"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K864100/1"/>
+            <sbol:end>717</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:displayId>annotation2196221</sbol:displayId>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <dcterms:description>Super Yellow Fluorescent Protein 2 (SYFP2)</dcterms:description>
+    <sbol:version>1</sbol:version>
+    <sbh:mutableProvenance>Amino acid sequence taken from the article by Kremers et al 2006.</sbh:mutableProvenance>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Coding"/>
+    <igem:owning_group_id>9</igem:owning_group_id>
+    <igem:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Available"/>
+    <igem:dominant>false</igem:dominant>
+    <dcterms:title>SYFP2</dcterms:title>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:mutableNotes>The sequence has been codon optimized for expression in E coli by DNA 2.0.</sbh:mutableNotes>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K864100/1"/>
+    <igem:owner_id>10137</igem:owner_id>
+    <dcterms:created>2012-09-23T11:00:00Z</dcterms:created>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="https://synbiohub.org/public/igem/BBa_K864100_sequence/1">
+    <sbol:elements>atggttagcaagggcgaagaactttttacaggcgtagtaccgatcttagttgaattagacggcgacgttaacggtcataagtttagcgtgagcggtgagggtgaaggtgacgcaacttacggcaagctgaccctgaagctgatttgcacgacgggtaagctgccggtcccgtggcctaccctggtcacgaccttgggttatggcgttcagtgtttcgcgcgttatccggaccacatgaaacaacacgatttctttaagagcgcgatgccagaaggctatgtgcaggagcgtacgatctttttcaaagacgacggtaactacaagacgcgtgccgaagtcaaattcgaaggcgacaccctggtgaatcgcattgagctgaagggtattgatttcaaagaggatggcaatatcctgggtcacaagctggagtacaattacaattcccacaacgtttacatcaccgcagataaacagaaaaatggcatcaaagcgaatttcaaaatccgtcacaacattgaggacggtggtgttcaactggcggatcattaccagcaaaacaccccgattggtgacggtccggtcctgttgccggataaccattatctgtcttaccaaagcaaactgagcaaagatccgaacgagaagcgcgaccacatggtgctgctggagtttgtgaccgctgccggtattaccctgggtatggatgagctgtataaataataa</sbol:elements>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K864100_sequence/1"/>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K864100_sequence"/>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbol:displayId>BBa_K864100_sequence</sbol:displayId>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K864100"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_J97000/1">
+    <igem:owning_group_id>63</igem:owning_group_id>
+    <dcterms:created>2014-02-04T12:00:00Z</dcterms:created>
+    <igem:experience rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#experience/None"/>
+    <igem:dominant>false</igem:dominant>
+    <dc:creator>Drew Endy</dc:creator>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbh:mutableNotes>DNA 2.0 have created a large set of new colored and fluorescent proteins by back-translating a set of sequences from Genbank, using their proprietary GeneDesigner software. To create these proteins, they simultaneously minimized sequence differences and and derived an E. coli codon bias for high protein expression. Gene fragments were designed to create chimeric genes when pooled. A subset of the resultant chimeras were selected as base genes from which multiple iterations of libraries with targeted substitutions were made. (from DNA 2.0)</sbh:mutableNotes>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Reporter"/>
+    <sbh:mutableProvenance>Non-Aequorea based sequences.</sbh:mutableProvenance>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_J97000"/>
+    <dcterms:modified>2015-05-08T01:08:32Z</dcterms:modified>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_J97000"/>
+    <igem:group_u_list>_41_1_</igem:group_u_list>
+    <sbol:displayId>BBa_J97000</sbol:displayId>
+    <sbh:star>false</sbh:star>
+    <igem:m_user_id>0</igem:m_user_id>
+    <igem:sampleStatus>Not in stock</igem:sampleStatus>
+    <igem:discontinued>false</igem:discontinued>
+    <sbh:bookmark>false</sbh:bookmark>
+    <sbh:mutableDescription>This part was created by DNA 2.0 as part of their IP-Free series of fluorescent and chromogenic proteins. It is available to use under the BioBrick Public Agreement. 
+
+Excitation 398nm, Emission 498nm
+Molecular Weight: 26.0kDA, Length: 233 amino acids</sbh:mutableDescription>
+    <dcterms:description>IP-Free EiraCFP (Cyan Fluorescent Protein)</dcterms:description>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_J97000/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <dcterms:title>BBa_J97000</dcterms:title>
+    <igem:owner_id>747</igem:owner_id>
+    <sbol:sequence rdf:resource="https://synbiohub.org/public/igem/BBa_J97000_sequence/1"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <igem:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Unavailable"/>
+    <sbol:version>1</sbol:version>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_J97002/1">
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <sbol:displayId>BBa_J97002</sbol:displayId>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:mutableNotes>This sequence is fully synthetic, (non-Aequorea) and is codon optimized for expression in E. coli.</sbh:mutableNotes>
+    <igem:owning_group_id>63</igem:owning_group_id>
+    <dc:creator>Drew Endy</dc:creator>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:mutableProvenance>This synthetic part was created through a gene engineering and synthesis project at DNA 2.0.</sbh:mutableProvenance>
+    <igem:experience rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#experience/None"/>
+    <dcterms:description>IP-Free BlazeYFP  (Yellow Fluorescent Protein)</dcterms:description>
+    <dcterms:modified>2015-05-08T01:08:32Z</dcterms:modified>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_J97002"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequence rdf:resource="https://synbiohub.org/public/igem/BBa_J97002_sequence/1"/>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Reporter"/>
+    <igem:group_u_list>_41_1_</igem:group_u_list>
+    <sbh:star>false</sbh:star>
+    <sbh:mutableDescription>This part was created by DNA 2.0 as part of their IP-Free series of fluorescent and chromogenic proteins. It is available to use under the BioBrick Public Agreement.
+
+Excitation 515nm, Emission 534nm
+Molecular Weight: 29.2kDA
+Length: 263aa</sbh:mutableDescription>
+    <sbh:bookmark>false</sbh:bookmark>
+    <igem:m_user_id>0</igem:m_user_id>
+    <igem:sampleStatus>Not in stock</igem:sampleStatus>
+    <dcterms:title>BBa_J97002</dcterms:title>
+    <igem:discontinued>false</igem:discontinued>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_J97002/1"/>
+    <igem:owner_id>747</igem:owner_id>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_J97002"/>
+    <dcterms:created>2014-02-18T12:00:00Z</dcterms:created>
+    <igem:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Unavailable"/>
+    <sbol:version>1</sbol:version>
+    <igem:dominant>false</igem:dominant>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_J06504/1">
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/BBa_J06504/annotation1585829/1">
+        <dcterms:title>mCherry</dcterms:title>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#feature/cds"/>
+        <sbol:version>1</sbol:version>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_J06504/1"/>
+        <sbol:displayId>annotation1585829</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/BBa_J06504/annotation1585829/range1585829/1">
+            <sbol:displayId>range1585829</sbol:displayId>
+            <sbol:start>1</sbol:start>
+            <sbol:end>711</sbol:end>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_J06504/1"/>
+            <sbol:version>1</sbol:version>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward"/>
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_J06504/annotation1585829/range1585829"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_J06504/annotation1585829"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbh:bookmark>false</sbh:bookmark>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <dc:creator>ytwang</dc:creator>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_J06504"/>
+    <igem:group_u_list>_20_</igem:group_u_list>
+    <igem:partStatus>Released HQ 2013</igem:partStatus>
+    <dcterms:modified>2016-01-25T01:05:28Z</dcterms:modified>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/BBa_J06504/annotation1585833/1">
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_J06504/1"/>
+        <sbol:version>1</sbol:version>
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_J06504/annotation1585833"/>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001059"/>
+        <sbol:displayId>annotation1585833</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/BBa_J06504/annotation1585833/range1585833/1">
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_J06504/1"/>
+            <sbol:start>352</sbol:start>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward"/>
+            <sbol:displayId>range1585833</sbol:displayId>
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_J06504/annotation1585833/range1585833"/>
+            <sbol:version>1</sbol:version>
+            <sbol:end>352</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <dcterms:title>C-&gt;T (removing PstI site)</dcterms:title>
+        <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#feature/mutation"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <igem:discontinued>false</igem:discontinued>
+    <igem:m_user_id>4206</igem:m_user_id>
+    <dcterms:title>mCherry</dcterms:title>
+    <igem:sampleStatus>In stock</igem:sampleStatus>
+    <sbh:mutableDescription>mRFP (DsRed) derived, altered to be a biobrick by removing a PstI site and adding in the ends.</sbh:mutableDescription>
+    <igem:owning_group_id>20</igem:owning_group_id>
+    <sbol:version>1</sbol:version>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_J06504/1"/>
+    <dcterms:description>monomeric RFP optimized for bacteria</dcterms:description>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:star>true</sbh:star>
+    <sbh:mutableNotes>&lt;p&gt;
+Made a point mutation to eliminate a PstI site in the middle and then added BioBrick ends using PCR.
+&lt;/p&gt;
+&lt;p&gt;
+Sequenced using primers that bind to the pSB1A2 plasmid on either side of the brick.
+&lt;/p&gt;</sbh:mutableNotes>
+    <igem:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Available"/>
+    <igem:experience rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#experience/None"/>
+    <igem:dominant>false</igem:dominant>
+    <sbh:mutableProvenance>mCherry from Roger Y. Tsien's lab, altered to be BioBrick compatible</sbh:mutableProvenance>
+    <sbol:displayId>BBa_J06504</sbol:displayId>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequence rdf:resource="https://synbiohub.org/public/igem/BBa_J06504_sequence/1"/>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_J06504"/>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Reporter"/>
+    <igem:owner_id>340</igem:owner_id>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <dcterms:created>2005-07-17T11:00:00Z</dcterms:created>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_K592100/1">
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <dcterms:modified>2016-01-25T04:45:27Z</dcterms:modified>
+    <sbh:mutableNotes>The sequence has been codon optimized for expression in E coli by DNA 2.0.</sbh:mutableNotes>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbh:mutableDescription>This part codes for the bright blue fluorescent protein mTagBFP. mTagBFP is a monomeric protein with a narrow fluorescence emission spectrum with a maximum at 456 nm. It has a tyrosine-based chromophore, giving it substantially higher brightness, faster chromophore maturation and higher pH stability than blue fluorescent proteins with a histidine in the chromophore. Subach et. al. started with a red fluorescent protein (TagRed) and converted it to a bright blue monomeric protein. See the article listed in source. The sequence has been codon optimized for expression in E coli by DNA 2.0.</sbh:mutableDescription>
+    <igem:owner_id>10137</igem:owner_id>
+    <igem:partStatus>Released HQ 2013</igem:partStatus>
+    <sbh:star>false</sbh:star>
+    <igem:discontinued>false</igem:discontinued>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K592100/1"/>
+    <sbh:mutableProvenance>Subach, O. M., I. S. Gundorov, et al. (2008). "Conversion of red fluorescent protein into a bright blue probe." Chem Biol 15(10): 1116-24.</sbh:mutableProvenance>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K592100"/>
+    <sbol:sequence rdf:resource="https://synbiohub.org/public/igem/BBa_K592100_sequence/1"/>
+    <igem:sampleStatus>In stock</igem:sampleStatus>
+    <sbol:displayId>BBa_K592100</sbol:displayId>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/BBa_K592100/annotation2135490/1">
+        <sbol:version>1</sbol:version>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <sbol:displayId>annotation2135490</sbol:displayId>
+        <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#feature/cds"/>
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K592100/annotation2135490"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/BBa_K592100/annotation2135490/range2135490/1">
+            <sbol:start>1</sbol:start>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K592100/1"/>
+            <sbol:end>699</sbol:end>
+            <sbol:displayId>range2135490</sbol:displayId>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:version>1</sbol:version>
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K592100/annotation2135490/range2135490"/>
+          </sbol:Range>
+        </sbol:location>
+        <dcterms:title>mTagBFP</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K592100/1"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <igem:experience rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#experience/Works"/>
+    <dcterms:description>Blue Fluorescent Protein (mTagBFP)</dcterms:description>
+    <dc:creator>Erik Gullberg</dc:creator>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K592100"/>
+    <sbh:bookmark>true</sbh:bookmark>
+    <igem:m_user_id>4206</igem:m_user_id>
+    <igem:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Available"/>
+    <igem:dominant>false</igem:dominant>
+    <igem:group_u_list>_763_</igem:group_u_list>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <sbol:version>1</sbol:version>
+    <dcterms:title>BFP</dcterms:title>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Coding"/>
+    <igem:owning_group_id>9</igem:owning_group_id>
+    <dcterms:created>2011-09-19T11:00:00Z</dcterms:created>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="https://synbiohub.org/public/igem/BBa_K592100_sequence/1">
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K592100_sequence/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbol:elements>atgagcgaactgatcaaagagaacatgcacatgaagctgtacatggaaggcaccgttgacaaccaccactttaagtgcacgtctgagggtgagggtaagccgtacgaaggcacccaaaccatgcgtatcaaagttgtggagggcggtccactgccgttcgcttttgacattctggcgaccagcttcctgtacggttccaaaacgttcattaaccatactcagggcattccggatttcttcaaacagagctttccggaaggtttcacctgggagcgtgtcaccacgtatgaagatggtggtgtgttgaccgccacccaagatacctccctgcaagatggctgtctgatctataacgtgaaaattcgtggcgtcaactttacgagcaatggtccggtgatgcagaagaaaaccctgggttgggaggcgtttacggaaaccctgtatccggccgatggtggcctggagggccgtaacgacatggcactgaagctggttggtggcagccatttgatcgcaaatatcaagacgacgtaccgcagcaagaaaccggcgaaaaatctgaagatgccgggtgtttactatgtcgactaccgtctggaacgcattaaagaagcgaataatgagacttacgtggagcagcacgaggttgcagtcgcgcgctattgcgacttgcctagcaagctgggtcataaactgaattaataa</sbol:elements>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K592100_sequence"/>
+    <sbol:displayId>BBa_K592100_sequence</sbol:displayId>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K592100"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://synbiohub.org/public/igem/BBa_J97002_sequence/1">
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_J97002_sequence/1"/>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbol:displayId>BBa_J97002_sequence</sbol:displayId>
+    <sbol:elements>atgacggcattgacggaaggtgcaaaactgtttgagaaagagatcccgtatatcaccgaactggaaggcaacgtcgaaggtatgaaatttatcattaaaggcgagggtaccggtgacgcgagcgttggtaaggtcgacgcgcagtttatctgcaccacgggtgacgtcccggtgccgtggagcacgttggtgacgacgctggggtacggtgcccaatgtttcgcgaaatatccgcgtcacatcgcagacttcttcaaatcctgtatgccggaaggttatgtgcaagagcgcactattacctttgagggtgacggtgtctttaagacccgtgccgaagtgaccttcgaaaacggtagcgtttacaaccgtgtcaagctgaatggccagggtttcaaaaaggatggtcacgttctgggtaagaatctggaattcaacttcaccccacattgcctgtacatctggggcgatcaagcgaatcatggtctgaaaagcgcatttaagatcatgcacgagattaccggctccaaagaagatttcatcgtggctgatcacacccagatgaataccccgattggcggtggccctgtgcacgttccggaatatcatcacattacctaccatgtcacgctgagcaaggatgttaccgaccatcgcgaccacctgaacatcgtagaggttcaaaaagcagtggacctggagacgtatcgc</sbol:elements>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_J97002_sequence"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_J97002"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_E0020/1">
+    <igem:group_u_list>_1_</igem:group_u_list>
+    <dcterms:created>2004-03-02T12:00:00Z</dcterms:created>
+    <sbol:displayId>BBa_E0020</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_E0020"/>
+    <igem:partStatus>Released HQ 2013</igem:partStatus>
+    <sbh:mutableDescription>-- No description --</sbh:mutableDescription>
+    <igem:owning_group_id>7</igem:owning_group_id>
+    <igem:m_user_id>0</igem:m_user_id>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_E0020/1"/>
+    <igem:discontinued>false</igem:discontinued>
+    <sbh:bookmark>false</sbh:bookmark>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <igem:sampleStatus>In stock</igem:sampleStatus>
+    <dcterms:description>engineered cyan fluorescent protein derived from A. victoria GFP</dcterms:description>
+    <igem:owner_id>24</igem:owner_id>
+    <sbol:sequence rdf:resource="https://synbiohub.org/public/igem/BBa_E0020_sequence/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <dc:creator>Caitlin Conboy and Jennifer Braff</dc:creator>
+    <sbol:version>1</sbol:version>
+    <sbh:star>true</sbh:star>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Coding"/>
+    <igem:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Available"/>
+    <igem:experience rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#experience/None"/>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_E0020"/>
+    <igem:dominant>false</igem:dominant>
+    <dcterms:title>ecfp</dcterms:title>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <dcterms:modified>2015-08-31T04:07:25Z</dcterms:modified>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="https://synbiohub.org/public/igem/BBa_J06504_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_J06504_sequence/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbol:elements>atggtgagcaagggcgaggaggataacatggccatcatcaaggagttcatgcgcttcaaggtgcacatggagggctccgtgaacggccacgagttcgagatcgagggcgagggcgagggccgcccctacgagggcacccagaccgccaagctgaaggtgaccaagggtggccccctgcccttcgcctgggacatcctgtcccctcagttcatgtacggctccaaggcctacgtgaagcaccccgccgacatccccgactacttgaagctgtccttccccgagggcttcaagtgggagcgcgtgatgaacttcgaggacggcggcgtggtgaccgtgacccaggactcctccttgcaggacggcgagttcatctacaaggtgaagctgcgcggcaccaacttcccctccgacggccccgtaatgcagaagaagaccatgggctgggaggcctcctccgagcggatgtaccccgaggacggcgccctgaagggcgagatcaagcagaggctgaagctgaaggacggcggccactacgacgctgaggtcaagaccacctacaaggccaagaagcccgtgcagctgcccggcgcctacaacgtcaacatcaagttggacatcacctcccacaacgaggactacaccatcgtggaacagtacgaacgcgccgagggccgccactccaccggcggcatggacgagctgtacaagtaataa</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_J06504_sequence"/>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_J06504"/>
+    <sbol:displayId>BBa_J06504_sequence</sbol:displayId>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+  </sbol:Sequence>
+  <prov:Activity rdf:about="https://synbiohub.org/public/igem/igem2sbol/1">
+    <sbol:displayId>igem2sbol</sbol:displayId>
+    <dc:creator>Chris J. Myers</dc:creator>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <dcterms:title>iGEM to SBOL conversion</dcterms:title>
+    <dcterms:description>Conversion of the iGEM parts registry to SBOL2.1</dcterms:description>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/igem2sbol"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <prov:endedAtTime>2017-03-06T15:00:00+00:00</prov:endedAtTime>
+    <dc:creator>James Alastair McLaughlin</dc:creator>
+    <sbol:version>1</sbol:version>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+  </prov:Activity>
+</rdf:RDF>

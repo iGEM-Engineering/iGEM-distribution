@@ -1,0 +1,925 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:sbol="http://sbols.org/v2#" xmlns:xsd1="http://www.w3.org/2001/XMLSchema#dateTime/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:synbiohub="http://synbiohub.org#" xmlns:sbh="http://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:sybio="http://www.sybio.ncl.ac.uk#" xmlns:ncbi="http://www.ncbi.nlm.nih.gov#" xmlns:igem="http://wiki.synbiohub.org/wiki/Terms/igem#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:gbconv="http://sbols.org/genBankConversion#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:obo="http://purl.obolibrary.org/obo/">
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_J23113/1">
+    <dcterms:title>BBa_J23113</dcterms:title>
+    <dcterms:created>2006-08-16T11:00:00Z</dcterms:created>
+    <igem:owning_group_id>95</igem:owning_group_id>
+    <sbh:star>true</sbh:star>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_J23113"/>
+    <igem:owner_id>483</igem:owner_id>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Regulatory"/>
+    <dcterms:modified>2015-08-31T04:08:40Z</dcterms:modified>
+    <sbh:bookmark>true</sbh:bookmark>
+    <sbol:displayId>BBa_J23113</sbol:displayId>
+    <sbh:mutableProvenance>Later</sbh:mutableProvenance>
+    <igem:group_u_list>_52_</igem:group_u_list>
+    <igem:sampleStatus>In stock</igem:sampleStatus>
+    <sbh:mutableDescription>Later</sbh:mutableDescription>
+    <sbol:version>1</sbol:version>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_J23113/1"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <igem:m_user_id>0</igem:m_user_id>
+    <igem:discontinued>false</igem:discontinued>
+    <sbol:sequence rdf:resource="https://synbiohub.org/public/igem/BBa_J23113_sequence/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <igem:partStatus>Released HQ 2013</igem:partStatus>
+    <dcterms:description>constitutive promoter family member</dcterms:description>
+    <igem:experience rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#experience/Works"/>
+    <igem:dominant>true</igem:dominant>
+    <igem:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Available"/>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_J23113"/>
+    <sbh:mutableNotes>N/A</sbh:mutableNotes>
+    <dc:creator>John Anderson</dc:creator>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_J23105/1">
+    <igem:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Available"/>
+    <sbh:mutableDescription>Later</sbh:mutableDescription>
+    <dc:creator>John Anderson</dc:creator>
+    <sbol:sequence rdf:resource="https://synbiohub.org/public/igem/BBa_J23105_sequence/1"/>
+    <igem:owning_group_id>95</igem:owning_group_id>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_J23105/1"/>
+    <igem:m_user_id>0</igem:m_user_id>
+    <igem:discontinued>false</igem:discontinued>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:displayId>BBa_J23105</sbol:displayId>
+    <dcterms:description>constitutive promoter family member</dcterms:description>
+    <igem:experience rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#experience/Works"/>
+    <igem:dominant>true</igem:dominant>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Regulatory"/>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_J23105"/>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_J23105"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:mutableNotes>N/A</sbh:mutableNotes>
+    <dcterms:modified>2015-08-31T04:08:40Z</dcterms:modified>
+    <sbh:mutableProvenance>Isolated from library of promoters</sbh:mutableProvenance>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:star>true</sbh:star>
+    <igem:group_u_list>_52_</igem:group_u_list>
+    <igem:owner_id>483</igem:owner_id>
+    <igem:sampleStatus>In stock</igem:sampleStatus>
+    <dcterms:created>2006-08-13T11:00:00Z</dcterms:created>
+    <dcterms:title>BBa_J23105</dcterms:title>
+    <sbh:bookmark>true</sbh:bookmark>
+    <sbol:version>1</sbol:version>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_J23106/1">
+    <sbol:sequence rdf:resource="https://synbiohub.org/public/igem/BBa_J23106_sequence/1"/>
+    <igem:group_u_list>_52_</igem:group_u_list>
+    <sbh:mutableDescription>Later</sbh:mutableDescription>
+    <sbol:version>1</sbol:version>
+    <dc:creator>John Anderson</dc:creator>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <igem:owning_group_id>95</igem:owning_group_id>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbol:displayId>BBa_J23106</sbol:displayId>
+    <igem:m_user_id>0</igem:m_user_id>
+    <igem:discontinued>false</igem:discontinued>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <igem:partStatus>Released HQ 2013</igem:partStatus>
+    <dcterms:description>constitutive promoter family member</dcterms:description>
+    <igem:experience rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#experience/Works"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_J23106/1"/>
+    <igem:dominant>true</igem:dominant>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Regulatory"/>
+    <igem:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Available"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:mutableNotes>N/A</sbh:mutableNotes>
+    <sbh:star>true</sbh:star>
+    <dcterms:modified>2015-08-31T04:08:40Z</dcterms:modified>
+    <sbh:mutableProvenance>Isolated from library of promoters</sbh:mutableProvenance>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <igem:owner_id>483</igem:owner_id>
+    <igem:sampleStatus>In stock</igem:sampleStatus>
+    <dcterms:created>2006-08-13T11:00:00Z</dcterms:created>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_J23106"/>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_J23106"/>
+    <dcterms:title>BBa_J23106</dcterms:title>
+    <sbh:bookmark>true</sbh:bookmark>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="https://synbiohub.org/public/igem/BBa_J23111_sequence/1">
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_J23111"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>BBa_J23111_sequence</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_J23111_sequence"/>
+    <sbol:version>1</sbol:version>
+    <sbol:elements>ttgacggctagctcagtcctaggtatagtgctagc</sbol:elements>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_J23111_sequence/1"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_J23115/1">
+    <sbol:sequence rdf:resource="https://synbiohub.org/public/igem/BBa_J23115_sequence/1"/>
+    <sbh:bookmark>true</sbh:bookmark>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <igem:experience rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#experience/Works"/>
+    <igem:dominant>true</igem:dominant>
+    <igem:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Available"/>
+    <sbh:mutableNotes>N/A</sbh:mutableNotes>
+    <sbh:mutableDescription>Later</sbh:mutableDescription>
+    <dc:creator>John Anderson</dc:creator>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbol:version>1</sbol:version>
+    <dcterms:created>2006-08-16T11:00:00Z</dcterms:created>
+    <dcterms:title>BBa_J23115</dcterms:title>
+    <igem:discontinued>false</igem:discontinued>
+    <igem:owning_group_id>95</igem:owning_group_id>
+    <igem:m_user_id>0</igem:m_user_id>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <dcterms:description>constitutive promoter family member</dcterms:description>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Regulatory"/>
+    <sbh:star>true</sbh:star>
+    <dcterms:modified>2015-08-31T04:08:40Z</dcterms:modified>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_J23115"/>
+    <sbol:displayId>BBa_J23115</sbol:displayId>
+    <igem:group_u_list>_52_</igem:group_u_list>
+    <sbh:mutableProvenance>Later</sbh:mutableProvenance>
+    <igem:owner_id>483</igem:owner_id>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_J23115"/>
+    <igem:sampleStatus>In stock</igem:sampleStatus>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_J23115/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_J23111/1">
+    <igem:dominant>true</igem:dominant>
+    <igem:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Available"/>
+    <igem:experience rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#experience/Works"/>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_J23111"/>
+    <dcterms:modified>2015-08-31T04:08:40Z</dcterms:modified>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Regulatory"/>
+    <sbh:mutableNotes>N/A</sbh:mutableNotes>
+    <sbh:star>true</sbh:star>
+    <sbol:sequence rdf:resource="https://synbiohub.org/public/igem/BBa_J23111_sequence/1"/>
+    <dcterms:created>2006-08-16T11:00:00Z</dcterms:created>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_J23111"/>
+    <sbh:mutableProvenance>Later</sbh:mutableProvenance>
+    <igem:owner_id>483</igem:owner_id>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <igem:sampleStatus>In stock</igem:sampleStatus>
+    <dcterms:title>BBa_J23111</dcterms:title>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_J23111/1"/>
+    <sbh:bookmark>true</sbh:bookmark>
+    <igem:group_u_list>_52_</igem:group_u_list>
+    <sbh:mutableDescription>Later</sbh:mutableDescription>
+    <dc:creator>John Anderson</dc:creator>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>BBa_J23111</sbol:displayId>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <igem:owning_group_id>95</igem:owning_group_id>
+    <igem:discontinued>false</igem:discontinued>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <igem:m_user_id>0</igem:m_user_id>
+    <dcterms:description>constitutive promoter family member</dcterms:description>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="https://synbiohub.org/public/igem/BBa_J23115_sequence/1">
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_J23115_sequence/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbol:elements>tttatagctagctcagcccttggtacaatgctagc</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_J23115"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>BBa_J23115_sequence</sbol:displayId>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_J23115_sequence"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://synbiohub.org/public/igem/BBa_J23106_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>BBa_J23106_sequence</sbol:displayId>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_J23106"/>
+    <sbol:elements>tttacggctagctcagtcctaggtatagtgctagc</sbol:elements>
+    <sbol:version>1</sbol:version>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_J23106_sequence"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_J23106_sequence/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_J23118/1">
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <igem:m_user_id>0</igem:m_user_id>
+    <dcterms:description>constitutive promoter family member</dcterms:description>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <igem:dominant>true</igem:dominant>
+    <igem:partStatus>Released HQ 2013</igem:partStatus>
+    <igem:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Available"/>
+    <igem:experience rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#experience/Works"/>
+    <dc:creator>John Anderson</dc:creator>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Regulatory"/>
+    <sbh:mutableNotes>N/A</sbh:mutableNotes>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_J23118/1"/>
+    <sbol:sequence rdf:resource="https://synbiohub.org/public/igem/BBa_J23118_sequence/1"/>
+    <dcterms:created>2006-08-16T11:00:00Z</dcterms:created>
+    <sbh:star>true</sbh:star>
+    <sbol:displayId>BBa_J23118</sbol:displayId>
+    <sbh:mutableProvenance>Later</sbh:mutableProvenance>
+    <igem:owner_id>483</igem:owner_id>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_J23118"/>
+    <igem:sampleStatus>In stock</igem:sampleStatus>
+    <dcterms:modified>2015-08-31T04:08:40Z</dcterms:modified>
+    <sbh:bookmark>true</sbh:bookmark>
+    <igem:group_u_list>_52_</igem:group_u_list>
+    <sbh:mutableDescription>Later</sbh:mutableDescription>
+    <dcterms:title>BBa_J23118</dcterms:title>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_J23118"/>
+    <igem:owning_group_id>95</igem:owning_group_id>
+    <igem:discontinued>false</igem:discontinued>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_J23101/1">
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_J23101/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <igem:experience rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#experience/Works"/>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_J23101"/>
+    <igem:dominant>true</igem:dominant>
+    <igem:partStatus>Released HQ 2013</igem:partStatus>
+    <igem:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Available"/>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Regulatory"/>
+    <dc:creator>John Anderson</dc:creator>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:mutableNotes>N/A</sbh:mutableNotes>
+    <sbh:star>true</sbh:star>
+    <igem:owning_group_id>95</igem:owning_group_id>
+    <dcterms:created>2006-08-03T11:00:00Z</dcterms:created>
+    <igem:m_user_id>0</igem:m_user_id>
+    <igem:discontinued>false</igem:discontinued>
+    <dcterms:description>constitutive promoter family member</dcterms:description>
+    <sbol:displayId>BBa_J23101</sbol:displayId>
+    <igem:owner_id>483</igem:owner_id>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <igem:sampleStatus>In stock</igem:sampleStatus>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_J23101"/>
+    <dcterms:modified>2015-08-31T04:08:40Z</dcterms:modified>
+    <sbh:mutableProvenance>later</sbh:mutableProvenance>
+    <igem:group_u_list>_52_</igem:group_u_list>
+    <sbol:sequence rdf:resource="https://synbiohub.org/public/igem/BBa_J23101_sequence/1"/>
+    <sbol:version>1</sbol:version>
+    <dcterms:title>BBa_J23101</dcterms:title>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <sbh:mutableDescription>later</sbh:mutableDescription>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:bookmark>true</sbh:bookmark>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="https://synbiohub.org/public/igem/BBa_J23112_sequence/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_J23112_sequence"/>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_J23112"/>
+    <sbol:displayId>BBa_J23112_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_J23112_sequence/1"/>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbol:elements>ctgatagctagctcagtcctagggattatgctagc</sbol:elements>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://synbiohub.org/public/igem/BBa_J23116_sequence/1">
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbol:elements>ttgacagctagctcagtcctagggactatgctagc</sbol:elements>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>BBa_J23116_sequence</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_J23116_sequence"/>
+    <sbol:version>1</sbol:version>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_J23116_sequence/1"/>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_J23116"/>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_J23109/1">
+    <igem:owner_id>483</igem:owner_id>
+    <sbh:mutableDescription>Later</sbh:mutableDescription>
+    <dcterms:title>BBa_J23109</dcterms:title>
+    <sbol:version>1</sbol:version>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:bookmark>true</sbh:bookmark>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_J23109"/>
+    <igem:owning_group_id>95</igem:owning_group_id>
+    <igem:m_user_id>0</igem:m_user_id>
+    <igem:discontinued>false</igem:discontinued>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <igem:dominant>true</igem:dominant>
+    <igem:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Available"/>
+    <igem:experience rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#experience/Works"/>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_J23109"/>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Regulatory"/>
+    <sbol:sequence rdf:resource="https://synbiohub.org/public/igem/BBa_J23109_sequence/1"/>
+    <dc:creator>John Anderson</dc:creator>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:mutableNotes>N/A</sbh:mutableNotes>
+    <sbh:star>true</sbh:star>
+    <sbol:displayId>BBa_J23109</sbol:displayId>
+    <dcterms:created>2006-08-16T11:00:00Z</dcterms:created>
+    <dcterms:description>constitutive promoter family member</dcterms:description>
+    <sbh:mutableProvenance>Later</sbh:mutableProvenance>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <igem:sampleStatus>In stock</igem:sampleStatus>
+    <dcterms:modified>2015-08-31T04:08:40Z</dcterms:modified>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_J23109/1"/>
+    <igem:group_u_list>_52_</igem:group_u_list>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_J23107/1">
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Regulatory"/>
+    <sbol:displayId>BBa_J23107</sbol:displayId>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:mutableNotes>N/A</sbh:mutableNotes>
+    <sbh:star>true</sbh:star>
+    <dcterms:modified>2015-08-31T04:08:40Z</dcterms:modified>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_J23107/1"/>
+    <igem:group_u_list>_52_</igem:group_u_list>
+    <sbh:mutableProvenance>Later</sbh:mutableProvenance>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_J23107"/>
+    <sbh:bookmark>true</sbh:bookmark>
+    <sbol:version>1</sbol:version>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_J23107"/>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbol:sequence rdf:resource="https://synbiohub.org/public/igem/BBa_J23107_sequence/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <dcterms:title>BBa_J23107</dcterms:title>
+    <igem:experience rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#experience/Works"/>
+    <sbh:mutableDescription>Later</sbh:mutableDescription>
+    <igem:sampleStatus>It's complicated</igem:sampleStatus>
+    <dc:creator>John Anderson</dc:creator>
+    <dcterms:created>2006-08-16T11:00:00Z</dcterms:created>
+    <igem:owning_group_id>95</igem:owning_group_id>
+    <igem:dominant>false</igem:dominant>
+    <igem:m_user_id>0</igem:m_user_id>
+    <igem:discontinued>false</igem:discontinued>
+    <igem:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Planning"/>
+    <dcterms:description>constitutive promoter family member</dcterms:description>
+    <igem:owner_id>483</igem:owner_id>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_J23104/1">
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <igem:experience rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#experience/Works"/>
+    <sbol:displayId>BBa_J23104</sbol:displayId>
+    <igem:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Available"/>
+    <dc:creator>John Anderson</dc:creator>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_J23104"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:mutableNotes>N/A</sbh:mutableNotes>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_J23104"/>
+    <igem:dominant>false</igem:dominant>
+    <igem:owning_group_id>95</igem:owning_group_id>
+    <igem:m_user_id>0</igem:m_user_id>
+    <igem:discontinued>false</igem:discontinued>
+    <sbh:mutableProvenance>isolated from library of promoters</sbh:mutableProvenance>
+    <dcterms:created>2006-08-03T11:00:00Z</dcterms:created>
+    <dcterms:description>constitutive promoter family member</dcterms:description>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Regulatory"/>
+    <dcterms:modified>2015-08-31T04:08:40Z</dcterms:modified>
+    <sbh:star>true</sbh:star>
+    <sbol:sequence rdf:resource="https://synbiohub.org/public/igem/BBa_J23104_sequence/1"/>
+    <igem:group_u_list>_52_</igem:group_u_list>
+    <igem:owner_id>483</igem:owner_id>
+    <igem:sampleStatus>In stock</igem:sampleStatus>
+    <sbol:version>1</sbol:version>
+    <sbh:mutableDescription>replace later</sbh:mutableDescription>
+    <sbh:bookmark>true</sbh:bookmark>
+    <dcterms:title>BBa_J23104</dcterms:title>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_J23104/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_J23117/1">
+    <igem:m_user_id>0</igem:m_user_id>
+    <igem:discontinued>false</igem:discontinued>
+    <dcterms:description>constitutive promoter family member</dcterms:description>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Regulatory"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:mutableNotes>N/A</sbh:mutableNotes>
+    <sbh:star>true</sbh:star>
+    <dcterms:modified>2015-08-31T04:08:40Z</dcterms:modified>
+    <sbol:displayId>BBa_J23117</sbol:displayId>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_J23117"/>
+    <sbol:sequence rdf:resource="https://synbiohub.org/public/igem/BBa_J23117_sequence/1"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_J23117/1"/>
+    <sbh:mutableProvenance>Later</sbh:mutableProvenance>
+    <igem:group_u_list>_52_</igem:group_u_list>
+    <igem:sampleStatus>In stock</igem:sampleStatus>
+    <igem:owner_id>483</igem:owner_id>
+    <sbol:version>1</sbol:version>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:bookmark>true</sbh:bookmark>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <igem:partStatus>Released HQ 2013</igem:partStatus>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_J23117"/>
+    <igem:experience rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#experience/Works"/>
+    <igem:dominant>true</igem:dominant>
+    <igem:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Available"/>
+    <sbh:mutableDescription>Later</sbh:mutableDescription>
+    <dcterms:title>BBa_J23117</dcterms:title>
+    <dc:creator>John Anderson</dc:creator>
+    <dcterms:created>2006-08-16T11:00:00Z</dcterms:created>
+    <igem:owning_group_id>95</igem:owning_group_id>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="https://synbiohub.org/public/igem/BBa_J23101_sequence/1">
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_J23101_sequence/1"/>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_J23101_sequence"/>
+    <sbol:displayId>BBa_J23101_sequence</sbol:displayId>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_J23101"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>tttacagctagctcagtcctaggtattatgctagc</sbol:elements>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://synbiohub.org/public/igem/BBa_J23118_sequence/1">
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>ttgacggctagctcagtcctaggtattgtgctagc</sbol:elements>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_J23118_sequence/1"/>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_J23118"/>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_J23118_sequence"/>
+    <sbol:displayId>BBa_J23118_sequence</sbol:displayId>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_J23119/1">
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_J23119"/>
+    <dcterms:created>2006-08-23T11:00:00Z</dcterms:created>
+    <igem:owner_id>483</igem:owner_id>
+    <igem:group_u_list>_52_</igem:group_u_list>
+    <sbh:mutableDescription>Later</sbh:mutableDescription>
+    <igem:sampleStatus>In stock</igem:sampleStatus>
+    <sbol:version>1</sbol:version>
+    <sbh:mutableProvenance>Overlap extension of synthetic oligonucleotides</sbh:mutableProvenance>
+    <dcterms:title>BBa_J23119</dcterms:title>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_J23119"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <igem:dominant>true</igem:dominant>
+    <sbh:bookmark>false</sbh:bookmark>
+    <igem:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Available"/>
+    <sbh:mutableNotes>N/A</sbh:mutableNotes>
+    <dc:creator>John Anderson</dc:creator>
+    <sbol:sequence rdf:resource="https://synbiohub.org/public/igem/BBa_J23119_sequence/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <dcterms:modified>2015-08-31T04:08:40Z</dcterms:modified>
+    <igem:owning_group_id>95</igem:owning_group_id>
+    <igem:discontinued>false</igem:discontinued>
+    <sbol:displayId>BBa_J23119</sbol:displayId>
+    <dcterms:description>constitutive promoter family member</dcterms:description>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_J23119/1"/>
+    <igem:m_user_id>0</igem:m_user_id>
+    <igem:partStatus>Released HQ 2013</igem:partStatus>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Regulatory"/>
+    <sbh:star>true</sbh:star>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_J23114/1">
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Regulatory"/>
+    <sbh:star>true</sbh:star>
+    <sbh:mutableNotes>N/A</sbh:mutableNotes>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_J23114"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_J23114/1"/>
+    <sbh:mutableProvenance>Later</sbh:mutableProvenance>
+    <igem:owner_id>483</igem:owner_id>
+    <igem:sampleStatus>In stock</igem:sampleStatus>
+    <sbol:sequence rdf:resource="https://synbiohub.org/public/igem/BBa_J23114_sequence/1"/>
+    <sbol:displayId>BBa_J23114</sbol:displayId>
+    <sbh:bookmark>true</sbh:bookmark>
+    <igem:group_u_list>_52_</igem:group_u_list>
+    <sbh:mutableDescription>Later</sbh:mutableDescription>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_J23114"/>
+    <dc:creator>John Anderson</dc:creator>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <dcterms:created>2006-08-16T11:00:00Z</dcterms:created>
+    <igem:owning_group_id>95</igem:owning_group_id>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <igem:m_user_id>0</igem:m_user_id>
+    <igem:discontinued>false</igem:discontinued>
+    <dcterms:description>constitutive promoter family member</dcterms:description>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <igem:dominant>true</igem:dominant>
+    <igem:partStatus>Released HQ 2013</igem:partStatus>
+    <igem:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Available"/>
+    <igem:experience rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#experience/Works"/>
+    <dcterms:title>BBa_J23114</dcterms:title>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <dcterms:modified>2015-08-31T04:08:40Z</dcterms:modified>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="https://synbiohub.org/public/igem/BBa_J23105_sequence/1">
+    <sbol:elements>tttacggctagctcagtcctaggtactatgctagc</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_J23105_sequence"/>
+    <sbol:version>1</sbol:version>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbol:displayId>BBa_J23105_sequence</sbol:displayId>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_J23105_sequence/1"/>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_J23105"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://synbiohub.org/public/igem/BBa_J23119_sequence/1">
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>BBa_J23119_sequence</sbol:displayId>
+    <sbol:elements>ttgacagctagctcagtcctaggtataatgctagc</sbol:elements>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_J23119_sequence/1"/>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_J23119_sequence"/>
+    <sbol:version>1</sbol:version>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_J23119"/>
+  </sbol:Sequence>
+  <prov:Activity rdf:about="https://synbiohub.org/public/igem/igem2sbol/1">
+    <sbol:version>1</sbol:version>
+    <dcterms:description>Conversion of the iGEM parts registry to SBOL2.1</dcterms:description>
+    <dc:creator>James Alastair McLaughlin</dc:creator>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <prov:endedAtTime>2017-03-06T15:00:00+00:00</prov:endedAtTime>
+    <dc:creator>Chris J. Myers</dc:creator>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/igem2sbol"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <dcterms:title>iGEM to SBOL conversion</dcterms:title>
+    <sbol:displayId>igem2sbol</sbol:displayId>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+  </prov:Activity>
+  <sbol:Sequence rdf:about="https://synbiohub.org/public/igem/BBa_J23110_sequence/1">
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_J23110"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_J23110_sequence/1"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>BBa_J23110_sequence</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_J23110_sequence"/>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>tttacggctagctcagtcctaggtacaatgctagc</sbol:elements>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://synbiohub.org/public/igem/BBa_J23103_sequence/1">
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbol:version>1</sbol:version>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_J23103_sequence/1"/>
+    <sbol:displayId>BBa_J23103_sequence</sbol:displayId>
+    <sbol:elements>ctgatagctagctcagtcctagggattatgctagc</sbol:elements>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_J23103_sequence"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_J23103"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_J23102/1">
+    <dcterms:title>BBa_J23102</dcterms:title>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <igem:group_u_list>_52_</igem:group_u_list>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_J23102"/>
+    <igem:owner_id>483</igem:owner_id>
+    <igem:sampleStatus>In stock</igem:sampleStatus>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_J23102/1"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>BBa_J23102</sbol:displayId>
+    <dc:creator>John Anderson</dc:creator>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_J23102"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <sbh:bookmark>true</sbh:bookmark>
+    <sbh:mutableDescription>replace later</sbh:mutableDescription>
+    <igem:owning_group_id>95</igem:owning_group_id>
+    <sbh:mutableProvenance>isolated from library of promoters</sbh:mutableProvenance>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <igem:m_user_id>0</igem:m_user_id>
+    <igem:discontinued>false</igem:discontinued>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <igem:partStatus>Released HQ 2013</igem:partStatus>
+    <dcterms:description>constitutive promoter family member</dcterms:description>
+    <igem:experience rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#experience/Works"/>
+    <igem:dominant>true</igem:dominant>
+    <sbol:sequence rdf:resource="https://synbiohub.org/public/igem/BBa_J23102_sequence/1"/>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Regulatory"/>
+    <igem:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Available"/>
+    <sbh:mutableNotes>N/A</sbh:mutableNotes>
+    <sbh:star>true</sbh:star>
+    <dcterms:modified>2015-08-31T04:08:40Z</dcterms:modified>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <dcterms:created>2006-08-03T11:00:00Z</dcterms:created>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_J23100/1">
+    <sbh:star>true</sbh:star>
+    <dcterms:modified>2015-08-31T04:08:40Z</dcterms:modified>
+    <sbh:mutableProvenance>Isolated from library of promoters</sbh:mutableProvenance>
+    <dcterms:created>2006-08-03T11:00:00Z</dcterms:created>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_J23100"/>
+    <igem:owner_id>483</igem:owner_id>
+    <igem:sampleStatus>In stock</igem:sampleStatus>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_J23100"/>
+    <sbol:sequence rdf:resource="https://synbiohub.org/public/igem/BBa_J23100_sequence/1"/>
+    <sbol:displayId>BBa_J23100</sbol:displayId>
+    <sbh:bookmark>true</sbh:bookmark>
+    <sbh:mutableDescription>Replace later</sbh:mutableDescription>
+    <igem:group_u_list>_52_</igem:group_u_list>
+    <dc:creator>John Anderson</dc:creator>
+    <sbol:version>1</sbol:version>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <igem:owning_group_id>95</igem:owning_group_id>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <igem:experience rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#experience/Works"/>
+    <igem:m_user_id>0</igem:m_user_id>
+    <igem:discontinued>false</igem:discontinued>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <igem:partStatus>Released HQ 2013</igem:partStatus>
+    <dcterms:description>constitutive promoter family member</dcterms:description>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_J23100/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <igem:dominant>true</igem:dominant>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Regulatory"/>
+    <igem:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Available"/>
+    <sbh:mutableNotes>N/A</sbh:mutableNotes>
+    <dcterms:title>BBa_J23100</dcterms:title>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="https://synbiohub.org/public/igem/BBa_J23108_sequence/1">
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbol:elements>ctgacagctagctcagtcctaggtataatgctagc</sbol:elements>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_J23108"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>BBa_J23108_sequence</sbol:displayId>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_J23108_sequence/1"/>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_J23108_sequence"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://synbiohub.org/public/igem/BBa_J23100_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_J23100"/>
+    <sbol:displayId>BBa_J23100_sequence</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_J23100_sequence"/>
+    <sbol:version>1</sbol:version>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_J23100_sequence/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbol:elements>ttgacggctagctcagtcctaggtacagtgctagc</sbol:elements>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_J23110/1">
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Regulatory"/>
+    <sbh:mutableNotes>N/A</sbh:mutableNotes>
+    <dcterms:modified>2015-08-31T04:08:40Z</dcterms:modified>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbol:sequence rdf:resource="https://synbiohub.org/public/igem/BBa_J23110_sequence/1"/>
+    <sbh:star>true</sbh:star>
+    <igem:owner_id>483</igem:owner_id>
+    <sbh:mutableProvenance>Later</sbh:mutableProvenance>
+    <igem:sampleStatus>In stock</igem:sampleStatus>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_J23110/1"/>
+    <dcterms:title>BBa_J23110</dcterms:title>
+    <sbh:bookmark>true</sbh:bookmark>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_J23110"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_J23110"/>
+    <igem:group_u_list>_52_</igem:group_u_list>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <igem:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Available"/>
+    <sbh:mutableDescription>Later</sbh:mutableDescription>
+    <dc:creator>John Anderson</dc:creator>
+    <sbol:version>1</sbol:version>
+    <dcterms:created>2006-08-16T11:00:00Z</dcterms:created>
+    <sbol:displayId>BBa_J23110</sbol:displayId>
+    <igem:owning_group_id>95</igem:owning_group_id>
+    <igem:experience rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#experience/Works"/>
+    <igem:m_user_id>0</igem:m_user_id>
+    <igem:discontinued>false</igem:discontinued>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <dcterms:description>constitutive promoter family member</dcterms:description>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <igem:dominant>true</igem:dominant>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="https://synbiohub.org/public/igem/BBa_J23109_sequence/1">
+    <sbol:elements>tttacagctagctcagtcctagggactgtgctagc</sbol:elements>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbol:displayId>BBa_J23109_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_J23109_sequence/1"/>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_J23109_sequence"/>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_J23109"/>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_J23112/1">
+    <igem:group_u_list>_52_</igem:group_u_list>
+    <sbol:sequence rdf:resource="https://synbiohub.org/public/igem/BBa_J23112_sequence/1"/>
+    <sbol:displayId>BBa_J23112</sbol:displayId>
+    <sbh:mutableProvenance>Later</sbh:mutableProvenance>
+    <igem:owner_id>483</igem:owner_id>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_J23112"/>
+    <igem:sampleStatus>In stock</igem:sampleStatus>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_J23112/1"/>
+    <sbh:mutableDescription>Later</sbh:mutableDescription>
+    <sbol:version>1</sbol:version>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:bookmark>true</sbh:bookmark>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <igem:partStatus>Released HQ 2013</igem:partStatus>
+    <igem:experience rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#experience/Works"/>
+    <igem:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Available"/>
+    <dc:creator>John Anderson</dc:creator>
+    <dcterms:created>2006-08-16T11:00:00Z</dcterms:created>
+    <igem:owning_group_id>95</igem:owning_group_id>
+    <dcterms:title>BBa_J23112</dcterms:title>
+    <igem:m_user_id>0</igem:m_user_id>
+    <igem:discontinued>false</igem:discontinued>
+    <dcterms:description>constitutive promoter family member</dcterms:description>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Regulatory"/>
+    <dcterms:modified>2015-08-31T04:08:40Z</dcterms:modified>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_J23112"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:mutableNotes>N/A</sbh:mutableNotes>
+    <sbh:star>true</sbh:star>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <igem:dominant>false</igem:dominant>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="https://synbiohub.org/public/igem/BBa_J23113_sequence/1">
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_J23113"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_J23113_sequence/1"/>
+    <sbol:elements>ctgatggctagctcagtcctagggattatgctagc</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_J23113_sequence"/>
+    <sbol:displayId>BBa_J23113_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://synbiohub.org/public/igem/BBa_J23114_sequence/1">
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_J23114"/>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_J23114_sequence/1"/>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_J23114_sequence"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbol:elements>tttatggctagctcagtcctaggtacaatgctagc</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>BBa_J23114_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://synbiohub.org/public/igem/BBa_J23107_sequence/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_J23107_sequence"/>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_J23107"/>
+    <sbol:version>1</sbol:version>
+    <sbol:elements>tttacggctagctcagccctaggtattatgctagc</sbol:elements>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbol:displayId>BBa_J23107_sequence</sbol:displayId>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_J23107_sequence/1"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_J23116/1">
+    <igem:owner_id>483</igem:owner_id>
+    <igem:sampleStatus>In stock</igem:sampleStatus>
+    <sbol:displayId>BBa_J23116</sbol:displayId>
+    <dcterms:modified>2015-08-31T04:08:40Z</dcterms:modified>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_J23116"/>
+    <sbh:bookmark>true</sbh:bookmark>
+    <igem:group_u_list>_52_</igem:group_u_list>
+    <sbh:mutableDescription>Later</sbh:mutableDescription>
+    <sbol:sequence rdf:resource="https://synbiohub.org/public/igem/BBa_J23116_sequence/1"/>
+    <dc:creator>John Anderson</dc:creator>
+    <sbol:version>1</sbol:version>
+    <igem:owning_group_id>95</igem:owning_group_id>
+    <igem:m_user_id>0</igem:m_user_id>
+    <igem:discontinued>false</igem:discontinued>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_J23116"/>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <dcterms:title>BBa_J23116</dcterms:title>
+    <dcterms:description>constitutive promoter family member</dcterms:description>
+    <igem:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Available"/>
+    <igem:experience rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#experience/Works"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Regulatory"/>
+    <sbh:mutableNotes>N/A</sbh:mutableNotes>
+    <igem:dominant>false</igem:dominant>
+    <dcterms:created>2006-08-16T11:00:00Z</dcterms:created>
+    <sbh:star>true</sbh:star>
+    <sbh:mutableProvenance>Later</sbh:mutableProvenance>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_J23116/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="https://synbiohub.org/public/igem/BBa_J23117_sequence/1">
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbol:displayId>BBa_J23117_sequence</sbol:displayId>
+    <sbol:elements>ttgacagctagctcagtcctagggattgtgctagc</sbol:elements>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_J23117"/>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_J23117_sequence"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_J23117_sequence/1"/>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_J23108/1">
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Regulatory"/>
+    <sbh:mutableNotes>N/A</sbh:mutableNotes>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_J23108"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:star>true</sbh:star>
+    <sbol:displayId>BBa_J23108</sbol:displayId>
+    <dcterms:modified>2015-08-31T04:08:40Z</dcterms:modified>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_J23108/1"/>
+    <sbh:mutableProvenance>Later</sbh:mutableProvenance>
+    <igem:owner_id>483</igem:owner_id>
+    <igem:group_u_list>_52_</igem:group_u_list>
+    <igem:sampleStatus>In stock</igem:sampleStatus>
+    <sbol:version>1</sbol:version>
+    <sbol:sequence rdf:resource="https://synbiohub.org/public/igem/BBa_J23108_sequence/1"/>
+    <sbh:bookmark>true</sbh:bookmark>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <igem:experience rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#experience/Works"/>
+    <igem:dominant>true</igem:dominant>
+    <igem:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Available"/>
+    <sbh:mutableDescription>Later</sbh:mutableDescription>
+    <dcterms:title>BBa_J23108</dcterms:title>
+    <dc:creator>John Anderson</dc:creator>
+    <dcterms:created>2006-08-16T11:00:00Z</dcterms:created>
+    <igem:owning_group_id>95</igem:owning_group_id>
+    <igem:m_user_id>0</igem:m_user_id>
+    <igem:discontinued>false</igem:discontinued>
+    <dcterms:description>constitutive promoter family member</dcterms:description>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_J23108"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="https://synbiohub.org/public/igem/BBa_J23104_sequence/1">
+    <sbol:version>1</sbol:version>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_J23104_sequence"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_J23104_sequence/1"/>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_J23104"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbol:displayId>BBa_J23104_sequence</sbol:displayId>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>ttgacagctagctcagtcctaggtattgtgctagc</sbol:elements>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://synbiohub.org/public/igem/BBa_J23102_sequence/1">
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_J23102_sequence/1"/>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_J23102_sequence"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>BBa_J23102_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_J23102"/>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbol:elements>ttgacagctagctcagtcctaggtactgtgctagc</sbol:elements>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_J23103/1">
+    <igem:experience rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#experience/Works"/>
+    <igem:dominant>true</igem:dominant>
+    <sbol:displayId>BBa_J23103</sbol:displayId>
+    <igem:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Available"/>
+    <dc:creator>John Anderson</dc:creator>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_J23103"/>
+    <sbh:mutableNotes>N/A</sbh:mutableNotes>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_J23103"/>
+    <dcterms:created>2006-08-03T11:00:00Z</dcterms:created>
+    <sbh:mutableDescription>replace later</sbh:mutableDescription>
+    <igem:owning_group_id>95</igem:owning_group_id>
+    <sbh:mutableProvenance>isolated from library of promoters</sbh:mutableProvenance>
+    <igem:m_user_id>0</igem:m_user_id>
+    <igem:discontinued>false</igem:discontinued>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <dcterms:description>constitutive promoter family member</dcterms:description>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <igem:partStatus>Released HQ 2013</igem:partStatus>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Regulatory"/>
+    <dcterms:modified>2015-08-31T04:08:40Z</dcterms:modified>
+    <sbh:star>true</sbh:star>
+    <sbol:sequence rdf:resource="https://synbiohub.org/public/igem/BBa_J23103_sequence/1"/>
+    <igem:group_u_list>_52_</igem:group_u_list>
+    <igem:owner_id>483</igem:owner_id>
+    <igem:sampleStatus>In stock</igem:sampleStatus>
+    <dcterms:title>BBa_J23103</dcterms:title>
+    <sbh:bookmark>true</sbh:bookmark>
+    <sbol:version>1</sbol:version>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_J23103/1"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+  </sbol:ComponentDefinition>
+</rdf:RDF>
