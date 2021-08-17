@@ -12,8 +12,8 @@ SBOL3_SORTED_NT = 'iGEM_SBOL3_imports.nt'
 
 
 def convert2to3(pkg_dir):
-    sbol2_path = os.path.append(pkg_dir, SBOL2_RDF_XML)
-    sbol3_path = os.path.append(pkg_dir, SBOL3_RDF_XML)
+    sbol2_path = os.path.join(pkg_dir, SBOL2_RDF_XML)
+    sbol3_path = os.path.join(pkg_dir, SBOL3_RDF_XML)
     cmd = [SBOL_CONVERTER, '-output', 'sbol3',
            'import', sbol2_path,
            'convert', '--target-sbol-version', '3']
