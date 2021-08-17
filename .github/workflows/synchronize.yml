@@ -15,6 +15,16 @@ jobs:
         with:
           python-version: 3.9
 
+      - name: Set up Python 3.9
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.9
+
+      - name: Set up Node.js 14
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
@@ -28,6 +38,9 @@ jobs:
 
       - name: Update SBOL
         run: python3 scripts/export_sbol.py
+
+      - name: Test SBOL Converter
+        run: scripts/sbol
 
       - name: Commit changes, ready to push
         run: |
