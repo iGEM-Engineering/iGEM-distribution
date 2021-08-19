@@ -1,6 +1,7 @@
 import os
 import urllib.request
 import glob
+from typing import List
 from urllib.error import HTTPError
 
 from Bio import Entrez, SeqIO, Seq, SeqRecord
@@ -27,7 +28,7 @@ prefix_remappings = {
     'https://synbiohub.org/public/igem/BBa_':iGEM_SOURCE_PREFIX
 }
 
-def remap_prefixes(uris: list[str]) -> list[str]:
+def remap_prefixes(uris: List[str]) -> List[str]:
     for old,new in prefix_remappings.items():
         uris = [new+u.removeprefix(old) for u in uris]
     return uris
@@ -53,7 +54,7 @@ def accession_to_sbol_uri(accession: str, prefix: str = NCBI_PREFIX) -> str:
     return f'{prefix}{accession.replace(".","_")}'
 
 
-def retrieve_genbank_accessions(ids: list[str], package: str) -> list[str]:
+def retrieve_genbank_accessions(ids: List[str], package: str) -> List[str]:
     """Retrieve a set of nucleotide accessions from GenBank
     :param ids: SBOL URIs to retrieve
     :param package: path where retrieved items should be stored
@@ -78,7 +79,7 @@ def retrieve_genbank_accessions(ids: list[str], package: str) -> list[str]:
         return []
 
 
-def retrieve_igem_parts(ids: list[str], package: str) -> list[str]:
+def retrieve_igem_parts(ids: List[str], package: str) -> List[str]:
     """Retrieve a set of iGEM parts from SynBioHub when possible, direct from the Registry when not.
     :param ids: SBOL URIs to retrieve
     :param package: path where retrieved items should be stored
@@ -142,7 +143,7 @@ source_list = {
     'http://parts.igem.org/': retrieve_igem_parts
 }
 
-def retrieve_parts(ids: list[str],package) -> list[str]:
+def retrieve_parts(ids: List[str],package) -> List[str]:
     """Attempt to download parts from various servers
 
     :param ids: list of URIs
@@ -172,7 +173,7 @@ extensions = {
               }
 }
 
-def package_parts_inventory(package: str) -> list[str]:
+def package_parts_inventory(package: str) -> List[str]:
     """Search all of the SBOL, GenBank, and FASTA files of a package to find what parts have been downloaded
 
     :param package: path of package to search
