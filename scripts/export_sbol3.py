@@ -3,7 +3,6 @@ import subprocess
 
 import sbol3
 
-import scripts.scriptutils
 import scriptutils
 
 
@@ -23,7 +22,7 @@ def convert2to3(pkg_dir):
     # Extract the rdf_xml output from the sbol converter
     rdf_xml = proc.stdout.decode('utf-8')
     # Post-process the conversion by updating object identities
-    rdf_xml = scripts.scriptutils.convert_identities2to3(rdf_xml)
+    rdf_xml = scriptutils.convert_identities2to3(rdf_xml)
     doc = sbol3.Document()
     doc.read_string(rdf_xml, sbol3.RDF_XML)
     # Now convert the RDF-XML to Sorted N-Triples
