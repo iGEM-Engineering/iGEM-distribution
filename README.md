@@ -43,15 +43,15 @@ Package directories should not have any other subdirectories.
 
 The package spreadsheet allows a collection of related parts to be specified compactly.
 
-The `Basic Parts` tab list of all the parts that are to be used, along with notes about them as needed. 
-In this context, "Basic Parts" just means any contiguous DNA sequence that you don't need to subdivide, and can include multiple sequence features. For example [J04450](http://parts.igem.org/Part:BBa_J04450), which encodes a complete functional unit, could be entered as a basic part.
+The `Parts and Devices` tab list of all the parts that are to be used, along with notes about them as needed. 
+In this context, "Part" or "Device" just means any contiguous DNA sequence that you don't need to subdivide, and can include multiple sequence features. For example [J04450](http://parts.igem.org/Part:BBa_J04450), which encodes a complete functional unit, could be entered as a single part/device on this sheet (subpart relationships will be detected later in the process, via sequence information).
 
-Sequence information can be specified in three ways:
+DNA sequence information can be specified in three ways:
  - Reference to the iGEM repository
  - Reference to an ID in one of the directory files
  - Direct listing in the sheet
 
-The `Libraries and Composite Parts` tab contains "build plans" for how basic parts will be combined.
+The `Libraries and Composite Parts` tab contains "build plans" for how parts/devices will be combined.
 Three different types of combinations can be indicated here:
  - A library of alternatives can be grouped together
  - The vector backbones to carry parts can be selected
@@ -61,6 +61,9 @@ The "final product" column indicates which of these are intended to be the actua
 
 _Example: a line on this tab can indicate that we want all 20 Anderson promoters to be put into the pOpen_v4 and pSB1C3 backbones, as a final product_
 
+Columns in blue are optional; columns in black are required.
+
+Some of the columns have constrained data values.  You can add organisms to the organism columns by adding entries on the "Organism Terms" tab.
 Do not modify the other tabs; they are used for configuring spreadsheet's automation.
 
 ## Editing and Review<a name="editing"></a>

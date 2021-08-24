@@ -1,0 +1,69 @@
+
+<http://parts.igem.org/C0012> <http://sbols.org/v3#description> "Repressor induced by IPTG; Note that C0012 also includes an LVA tag and a barcode" .
+<http://parts.igem.org/C0012> <http://sbols.org/v3#displayId> "C0012" .
+<http://parts.igem.org/C0012> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers> .
+<http://parts.igem.org/C0012> <http://sbols.org/v3#name> "LacI" .
+<http://parts.igem.org/C0012> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<http://parts.igem.org/C0012> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<http://parts.igem.org/C0012> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<http://parts.igem.org/I0500> <http://sbols.org/v3#description> "Target for AraC" .
+<http://parts.igem.org/I0500> <http://sbols.org/v3#displayId> "I0500" .
+<http://parts.igem.org/I0500> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers> .
+<http://parts.igem.org/I0500> <http://sbols.org/v3#name> "pBAD" .
+<http://parts.igem.org/I0500> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000167> .
+<http://parts.igem.org/I0500> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<http://parts.igem.org/I0500> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<http://parts.igem.org/R0010> <http://sbols.org/v3#description> "Target for LacI" .
+<http://parts.igem.org/R0010> <http://sbols.org/v3#displayId> "R0010" .
+<http://parts.igem.org/R0010> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers> .
+<http://parts.igem.org/R0010> <http://sbols.org/v3#name> "pLac" .
+<http://parts.igem.org/R0010> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000167> .
+<http://parts.igem.org/R0010> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<http://parts.igem.org/R0010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<http://parts.igem.org/R0040> <http://sbols.org/v3#description> "Target for TetR" .
+<http://parts.igem.org/R0040> <http://sbols.org/v3#displayId> "R0040" .
+<http://parts.igem.org/R0040> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers> .
+<http://parts.igem.org/R0040> <http://sbols.org/v3#name> "pTet" .
+<http://parts.igem.org/R0040> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000167> .
+<http://parts.igem.org/R0040> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<http://parts.igem.org/R0040> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers/AraC> <http://sbols.org/v3#description> "Activator induced by arabinose" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers/AraC> <http://sbols.org/v3#displayId> "AraC" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers/AraC> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers/AraC> <http://sbols.org/v3#name> "AraC" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers/AraC> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers/AraC> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers/AraC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers/BasicParts> <http://sbols.org/v3#description> "This package collects a few of the most common bacterial inducer parts and composite systems using them" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers/BasicParts> <http://sbols.org/v3#displayId> "BasicParts" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers/BasicParts> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers/BasicParts> <http://sbols.org/v3#member> <http://parts.igem.org/C0012> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers/BasicParts> <http://sbols.org/v3#member> <http://parts.igem.org/I0500> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers/BasicParts> <http://sbols.org/v3#member> <http://parts.igem.org/R0010> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers/BasicParts> <http://sbols.org/v3#member> <http://parts.igem.org/R0040> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers/AraC> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers/TetR> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers/BasicParts> <http://sbols.org/v3#name> "Small Molecule Inducers" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers/BasicParts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers/CompositeParts> <http://sbols.org/v3#description> "This package collects a few of the most common bacterial inducer parts and composite systems using them" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers/CompositeParts> <http://sbols.org/v3#displayId> "CompositeParts" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers/CompositeParts> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers/CompositeParts> <http://sbols.org/v3#name> "Small Molecule Inducers" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers/CompositeParts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers/FinalProducts> <http://sbols.org/v3#description> "Final products desired for actual fabrication" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers/FinalProducts> <http://sbols.org/v3#displayId> "FinalProducts" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers/FinalProducts> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers/FinalProducts> <http://sbols.org/v3#name> "Final Products" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers/FinalProducts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers/LinearDNAProducts> <http://sbols.org/v3#description> "Linear DNA constructs to be fabricated" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers/LinearDNAProducts> <http://sbols.org/v3#displayId> "LinearDNAProducts" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers/LinearDNAProducts> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers/LinearDNAProducts> <http://sbols.org/v3#name> "Linear DNA Products" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers/LinearDNAProducts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers/TetR> <http://sbols.org/v3#description> "Repressor induced by aTc" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers/TetR> <http://sbols.org/v3#displayId> "TetR" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers/TetR> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers/TetR> <http://sbols.org/v3#name> "TetR" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers/TetR> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers/TetR> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers/TetR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
