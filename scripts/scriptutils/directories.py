@@ -1,6 +1,8 @@
 import os
 import glob
 import csv
+from typing import List
+
 import git
 import warnings
 import urllib.parse
@@ -16,7 +18,7 @@ EXPORT_SHEETS = ['Parts and Devices', 'Libraries and Composites']
 SBOL_EXPORT_NAME = 'package_specification.nt'
 
 
-def package_dirs() -> list[str]:
+def package_dirs() -> List[str]:
     """Find all packages in the repository
 
     Returns

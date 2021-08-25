@@ -15,6 +15,16 @@ jobs:
         with:
           python-version: 3.9
 
+      - name: Set up Python 3.9
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.9
+
+      - name: Set up Node.js 14
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
@@ -29,12 +39,16 @@ jobs:
       - name: Update SBOL
         run: python3 scripts/export_sbol.py
 
+      - name: Convert to SBOL3
+        run: python3 scripts/export_sbol3.py
+
       - name: Commit changes, ready to push
         run: |
           git pull
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add */views
+          git add */iGEM_SBOL3_imports.nt
           git diff-index --quiet HEAD . || git commit -m "Automatically update exports"
 
       - name: Push changes
