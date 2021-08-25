@@ -1,0 +1,832 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:sbol="http://sbols.org/v2#" xmlns:xsd1="http://www.w3.org/2001/XMLSchema#dateTime/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:synbiohub="http://synbiohub.org#" xmlns:sbh="http://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:sybio="http://www.sybio.ncl.ac.uk#" xmlns:ncbi="http://www.ncbi.nlm.nih.gov#" xmlns:igem="http://wiki.synbiohub.org/wiki/Terms/igem#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:gbconv="http://sbols.org/genBankConversion#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:obo="http://purl.obolibrary.org/obo/">
+  <sbol:Sequence rdf:about="https://synbiohub.org/public/igem/BBa_K1033919_sequence/1">
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1033919_sequence/1"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>atgtcggtgattgctaaacagatgacctacaaagtctatatgtcgggtacggtgaacggccattattttgaagttgaaggtgacggtaaaggcaagccgtatgaaggcgaacagaccgttaaactgaccgtcacgaagggcggtccgctgccgtttgcatgggatattctgagtccgcagtcccaatatggcagcatcccgttcacgaaatatccggaagatatcccggactacgtgaagcagtcttttccggaaggttacacctgggaacgtatcatgaacttcgaagatggcgccgtctgcaccgtgagtaacgacagctctattcaaggtaattgtttcatctaccatgtcaagttctcaggtctgaacttcccgccgaatggcccggtgatgcagaaaaagacccaaggctgggaaccgaatacggaacgtctgtttgcacgcgatggtatgctgattggcaacaatttcatggctctgaaactggaaggcggtggccactatctgtgcgaatttaaaagcacctacaaggcgaaaaagccggttaaaatgccgggctatcattacgtggatcgtaaactggacgttaccaaccacaataaggactatacgtccgtcgaacagtgtgaaatttcaatcgcgcgcaaatcggtggttgcctaataa</sbol:elements>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K1033919"/>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1033919_sequence"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>BBa_K1033919_sequence</sbol:displayId>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_K592012/1">
+    <sbol:displayId>BBa_K592012</sbol:displayId>
+    <igem:m_user_id>0</igem:m_user_id>
+    <dcterms:created>2011-09-17T11:00:00Z</dcterms:created>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/BBa_K592012/annotation2131799/1">
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/BBa_K592012/annotation2131799/range2131799/1">
+            <sbol:end>681</sbol:end>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward"/>
+            <sbol:start>1</sbol:start>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K592012/annotation2131799/range2131799"/>
+            <sbol:displayId>range2131799</sbol:displayId>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K592012/1"/>
+            <sbol:version>1</sbol:version>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#feature/cds"/>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K592012/annotation2131799"/>
+        <dcterms:title>eforRed</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K592012/1"/>
+        <sbol:version>1</sbol:version>
+        <sbol:displayId>annotation2131799</sbol:displayId>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <igem:owning_group_id>9</igem:owning_group_id>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <sbh:mutableDescription>This chromoprotein eforRed naturally exhibits red color when expressed. The color is weaker than RFP, however. On agar plates and in liquid culture, the color is readily visible to naked eye in less than 24 hours of incubation. The DNA was codon-optimized for expression in E.coli and synthesized by the Korean company Bioneer Corporation.</sbh:mutableDescription>
+    <igem:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Planning"/>
+    <igem:discontinued>false</igem:discontinued>
+    <dcterms:description>eforRed, red chromoprotein</dcterms:description>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Coding"/>
+    <igem:sampleStatus>It's complicated</igem:sampleStatus>
+    <sbh:mutableProvenance>coming soon</sbh:mutableProvenance>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K592012"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <igem:experience rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#experience/Works"/>
+    <sbh:bookmark>false</sbh:bookmark>
+    <igem:dominant>false</igem:dominant>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K592012"/>
+    <sbh:star>false</sbh:star>
+    <dcterms:title>eforRed</dcterms:title>
+    <igem:group_u_list>_763_</igem:group_u_list>
+    <sbol:sequence rdf:resource="https://synbiohub.org/public/igem/BBa_K592012_sequence/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K592012/1"/>
+    <dcterms:modified>2015-05-08T01:12:49Z</dcterms:modified>
+    <dc:creator>Lei Sun</dc:creator>
+    <igem:owner_id>7929</igem:owner_id>
+    <sbol:version>1</sbol:version>
+    <sbh:mutableNotes>coming soon</sbh:mutableNotes>
+  </sbol:ComponentDefinition>
+  <prov:Activity rdf:about="https://synbiohub.org/public/igem/igem2sbol/1">
+    <dcterms:description>Conversion of the iGEM parts registry to SBOL2.1</dcterms:description>
+    <sbol:displayId>igem2sbol</sbol:displayId>
+    <dcterms:title>iGEM to SBOL conversion</dcterms:title>
+    <prov:endedAtTime>2017-03-06T15:00:00+00:00</prov:endedAtTime>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <dc:creator>James Alastair McLaughlin</dc:creator>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/igem2sbol"/>
+    <dc:creator>Chris J. Myers</dc:creator>
+  </prov:Activity>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_K592009/1">
+    <igem:owning_group_id>9</igem:owning_group_id>
+    <dcterms:description>amilCP, blue chromoprotein</dcterms:description>
+    <sbh:mutableProvenance>Acropora millepora</sbh:mutableProvenance>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <igem:dominant>false</igem:dominant>
+    <sbol:displayId>BBa_K592009</sbol:displayId>
+    <sbol:sequence rdf:resource="https://synbiohub.org/public/igem/BBa_K592009_sequence/1"/>
+    <igem:partStatus>Released HQ 2013</igem:partStatus>
+    <igem:group_u_list>_763_</igem:group_u_list>
+    <sbh:mutableNotes>Illegal internal restriction site had to be removed (EcoRI).</sbh:mutableNotes>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:star>false</sbh:star>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K592009/1"/>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K592009"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <dc:creator>Lei Sun</dc:creator>
+    <igem:owner_id>7929</igem:owner_id>
+    <igem:m_user_id>0</igem:m_user_id>
+    <sbol:version>1</sbol:version>
+    <sbh:bookmark>true</sbh:bookmark>
+    <dcterms:created>2011-09-17T11:00:00Z</dcterms:created>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K592009"/>
+    <dcterms:title>amilCP</dcterms:title>
+    <dcterms:modified>2015-05-08T01:12:48Z</dcterms:modified>
+    <igem:sampleStatus>In stock</igem:sampleStatus>
+    <sbh:mutableDescription>This chromoprotein, amilCP, naturally exhibits very strong color when expressed. The color is blue/purple and is visible to naked eye, thereby requiring no instruments to observe. This DNA was provided by Jeffrey Miller at UCLA. It was made BioBrick-compatible after removal of one illegal internal restriction site (EcoRI).</sbh:mutableDescription>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <igem:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Available"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/BBa_K592009/annotation2131628/1">
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K592009/1"/>
+        <sbol:version>1</sbol:version>
+        <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#feature/cds"/>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <sbol:displayId>annotation2131628</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K592009/annotation2131628"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/BBa_K592009/annotation2131628/range2131628/1">
+            <sbol:start>1</sbol:start>
+            <sbol:version>1</sbol:version>
+            <sbol:end>666</sbol:end>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K592009/1"/>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward"/>
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K592009/annotation2131628/range2131628"/>
+            <sbol:displayId>range2131628</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <dcterms:title>amilCP</dcterms:title>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <igem:experience rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#experience/Works"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <igem:discontinued>false</igem:discontinued>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Coding"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="https://synbiohub.org/public/igem/BBa_K1033916_sequence/1">
+    <sbol:elements>atggcactgagcaacaagtttatcggtgatgatatgaaaatgacgtaccacatggacggctgcgtgaacggccactactttacggtgaaaggtgaaggcaacggtaaaccgtatgaaggcacccagacgagcacctttaaagttacgatggcgaatggcggtccgctggcctttagtttcgatattctgtccaccgtctttaaatacggcaaccgttgcttcacggcgtatccgaccagcatgccggattactttaagcaagccttcccggacggcatgtcttatgaacgcacgtttacctacgaagatggcggtgtggcgaccgccagctgggaaatttctctgaaaggcaactgtttcgaacataagagtacctttcacggcgtgaatttcccggcagatggtccggttatggctaaaaagaccacgggttgggacccgtcatttgaaaaaatgacggtctgcgatggcatcctgaagggtgacgtgaccgcatttctgatgctgcaaggcggcggcaattatcgttgtcaattccatacgtcctacaaaaccaaaaagccggttacgatgccgccgaaccatgtggttgaacaccgtattgcgcgcaccgatctggacaaaggtggcaattcagttcagctgacggaacatgcagtcgctcacatcacctcggtcgtgccgttctaataa</sbol:elements>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>BBa_K1033916_sequence</sbol:displayId>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1033916_sequence/1"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1033916_sequence"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K1033916"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://synbiohub.org/public/igem/BBa_K1033906_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1033906_sequence"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1033906_sequence/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbol:version>1</sbol:version>
+    <sbol:elements>atggcgagcttggttaagaaagatatgtgtgttaagatgacgatggaaggtactgtgaacggttatcactttaagtgcgttggcgagggtgaaggcaagccgttcgagggcacgcagaacatgcgcattcgtgtcaccgagggcggtccgctgccttttgcattcgacatcctggccccgtgctgtatgtacggctctaagaccttcattaaacacgtgagcggtatcccggattactttaaagagtcctttccagagggcttcacttgggaacgtacccagatttttgaggacggtggtgttctgaccgcgcaccaagacaccagcctggaaggtaattgcctgatctataaagtgaaggttctgggtaccaatttcccggcgaatggtccggtgatgcaaaagaaaaccgcgggttgggagccgtgcgtcgagatgctgtatccgcgtgacggcgtcttgtgtggtcagagcttgatggcgctgaagtgcaccgatggcaatcatctgaccagccacctgcgcacgacgtatcgtagccgtaaaccgagcaacgccgttaacatgccggagttccattttggtgaccatcgcatcgaaatcctgaaagctgagcagggcaaattctacgaacaatacgaatcggctgtcgcacgttacagcgatgtgccggaaaaagcgacgtaataa</sbol:elements>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K1033906"/>
+    <sbol:displayId>BBa_K1033906_sequence</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://synbiohub.org/public/igem/BBa_K1033902_sequence/1">
+    <sbol:version>1</sbol:version>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbol:elements>atgtccgttatcgcaacccagatgacgtacaaagtttatatgtcgggcaccgtgaatggtcattattttgaagtcgaaggtgatggcaaaggtcgtccgtatgaaggcgaacagaccgtcaaactgaccgtgacgaaaggcggtccgctgccgtttgcatgggatattctgagtccgcagtgccaatacggttccattccgttcaccaaatatccggaagatatcccggactacgtcaaacagagctttccggaaggtttcacgtgggaacgcattatgaactttgaagatggcgctgtgtgcaccgtttcaaacgacagctctatccaaggcaactgcttcacgtatcatgtgaaattttcgggtctgaacttcccgccgaatggcccggttatgcagaagaaaacccaaggttgggaaccgcacagtgaacgtctgtttgcgcgcggcggtatgctgatcggcaacaatttcatggccctgaaactggaaggcggtggccattatctgtgtgaatttaaaaccacgtacaaagcgaaaaaaccagtgaaaatgccgggttatcattacgttgatcgtaaactggacgtcacgaaccacaataaagactatacctcagttgaacagtgtgaaatcagcatcgcacgcaagccggtggtcgcctaataa</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1033902_sequence"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1033902_sequence/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbol:displayId>BBa_K1033902_sequence</sbol:displayId>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K1033902"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://synbiohub.org/public/igem/BBa_K592009_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K592009_sequence"/>
+    <sbol:displayId>BBa_K592009_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K592009"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K592009_sequence/1"/>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbol:elements>atgagtgtgatcgctaaacaaatgacctacaaggtttatatgtcaggcacggtcaatggacactactttgaggtcgaaggcgatggaaaaggtaagccctacgagggggagcagacggtaaagctcactgtcaccaagggcggacctctgccatttgcttgggatattttatcaccacagtgtcagtacggaagcataccattcaccaagtaccctgaagacatccctgactatgtaaagcagtcattcccggagggctatacatgggagaggatcatgaactttgaagatggtgcagtgtgtactgtcagcaatgattccagcatccaaggcaactgtttcatctaccatgtcaagttctctggtttgaactttcctcccaatggacctgtcatgcagaagaagacacagggctgggaacccaacactgagcgtctctttgcacgagatggaatgctgctaggaaacaactttatggctctgaagttagaaggaggcggtcactatttgtgtgaatttaaaactacttacaaggcaaagaagcctgtgaagatgccagggtatcactatgttgaccgcaaactggatgtaaccaatcacaacaaggattacacttcggttgagcagtgtgaaatttccattgcacgcaaacctgtggtcgcctaataa</sbol:elements>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://synbiohub.org/public/igem/BBa_K592012_sequence/1">
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K592012_sequence"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbol:displayId>BBa_K592012_sequence</sbol:displayId>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K592012_sequence/1"/>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K592012"/>
+    <sbol:version>1</sbol:version>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbol:elements>atgtcagtgattaagcaggtaatgaagaccaagttgcaccttgagggcactgtcaatggccatgattttacgatcgagggtaaaggtgaaggcaagccgtacgaagggttacagcacatgaaaatgacagtcaccaaaggcgcgcctctgccgttttccgttcatattcttacacctagccacatgtatggaagcaaaccgtttaataagtatccagcggatatcccagactaccacaaacagtcttttcccgaaggtatgtcttgggagcggtcgatgatttttgaagatggtggcgtatgcaccgccagtaatcactccagcataaacttgcaagagaactgtttcatctatgatgttaaatttcatggtgtgaacctgcctccggatgggcccgtaatgcaaaaaaccattgctggatgggagccgagcgtggaaacactgtacgtgcgtgacgggatgttaaaaagtgacactgcaatggtttttaaactgaaaggaggcggtcatcatcgtgttgatttcaaaacgacgtataaagccaaaaaacctgtcaagctgccagaatttcatttcgttgaacatcgcctggaactgaccaaacacgataaagatttcacaacttgggaccagcaggaggcagccgaaggccatttctcaccgctgccgaaggctctccca</sbol:elements>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://synbiohub.org/public/igem/BBa_K1033933_sequence/1">
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1033933_sequence"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>BBa_K1033933_sequence</sbol:displayId>
+    <sbol:elements>atggcgagcttcctgaaaaagacgatgccgttcaaaaccacgattgaaggcacggtcaacggtcactactttaaatgtacgggtaaaggcgaaggtaacccgttcgaaggcacccaggaaatgaaaattgaagtcatcgaaggcggtccgctgccgtttgcgtttcatattctgagcacgtcttgcatgtacggctcaaagaccttcatcaagtacgtgtcgggtatcccggattactttaaacagagcttcccggaaggctttacctgggaacgtaccacgacctatgaagatggcggtttcctgacggcgcaccaagacacctctctggatggtgactgtctggtgtacaaagttaagattctgggcaacaattttccggccgatggtccggttatgcagaacaaagcgggccgttgggaaccggctacggaaatcgtctatgaagtggacggcgttctgcgcggtcaatccctgatggccctgaaatgcccgggcggtcgtcatctgacctgtcatctgcacacgacctatcgtagcaaaaaaccggcgagcgccctgaaaatgccgggctttcatttcgaagatcaccgcattgaaatcatggaagaagtcgaaaaaggtaagtgctacaagcagtacgaagcagcagtgggtcgctattgtgatgcggcaccgagcaagctgggtcataattaataa</sbol:elements>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1033933_sequence/1"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K1033933"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://synbiohub.org/public/igem/BBa_K1033932_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbol:displayId>BBa_K1033932_sequence</sbol:displayId>
+    <sbol:elements>atgtcgcactcaaaacaagcactggcagatacgatgaaaatgacgtggctgatggaaggttcggtcaacggtcacgcctttacgattgaaggcgaaggtaccggcaaaccgtatgaaggtaaacagagtggcacctttcgtgttacgaaaggcggtccgctgccgtttgcgtttgatattgtcgctccgaccctgaaatacggtttcaaatgcttcatgaaatacccggcggatattccggactactttaaactggccttcccggaaggcctgacgtacgatcgtaaaattgcgtttgaagacggcggttgtgcgaccgccacggtcgaaatgagcctgaagggtaacaccctggtgcataaaacgaactttcagggcggtaatttcccgattgatggtccggtgatgcaaaaacgcaccctgggctgggaaccgacctctgaaaaaatgacgccgtgcgatggtattatcaaaggcgacaccatcatgtacctgatggttgaaggcggtaaaacgctgaaatgtcgttatgaaaacaattaccgcgccaacaaaccagtgctgatgccgccgagccactttgtggatctgcgtctgacccgcacgaatctggataaagaaggtctggcgttcaaactggaagaatatgctgttgcccgtgtgctggaagtgtaataa</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1033932_sequence"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbol:version>1</sbol:version>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1033932_sequence/1"/>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K1033932"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_K1033910/1">
+    <dc:creator>Sabri Jamal</dc:creator>
+    <igem:experience rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#experience/Works"/>
+    <sbh:mutableProvenance>Synthetic chromoprotein from DNA 2.0.</sbh:mutableProvenance>
+    <dcterms:description>fwYellow, yellow chromoprotein</dcterms:description>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <sbh:mutableDescription>This chromoprotein naturally exhibits strong color when expressed.</sbh:mutableDescription>
+    <igem:owning_group_id>9</igem:owning_group_id>
+    <dcterms:modified>2016-01-25T02:41:53Z</dcterms:modified>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K1033910"/>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Coding"/>
+    <igem:discontinued>false</igem:discontinued>
+    <sbh:mutableNotes>This construct is synthetic. It was synthesized from a template where the consensus sequence for the "color dependancy" in order to obtain a chromoprotein with a unique yellow color.</sbh:mutableNotes>
+    <igem:owner_id>13997</igem:owner_id>
+    <igem:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Available"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1033910/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/BBa_K1033910/annotation2371218/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1033910/annotation2371218"/>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <sbol:displayId>annotation2371218</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/BBa_K1033910/annotation2371218/range2371218/1">
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1033910/1"/>
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1033910/annotation2371218/range2371218"/>
+            <sbol:end>711</sbol:end>
+            <sbol:version>1</sbol:version>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward"/>
+            <sbol:displayId>range2371218</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:start>1</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#feature/cds"/>
+        <dcterms:title>fwYellow</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1033910/1"/>
+        <sbol:version>1</sbol:version>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbh:bookmark>false</sbh:bookmark>
+    <igem:dominant>false</igem:dominant>
+    <igem:group_u_list>_1340_</igem:group_u_list>
+    <sbol:displayId>BBa_K1033910</sbol:displayId>
+    <dcterms:title>fwYellow</dcterms:title>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:star>false</sbh:star>
+    <igem:m_user_id>4206</igem:m_user_id>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <dcterms:created>2013-09-16T11:00:00Z</dcterms:created>
+    <sbol:version>1</sbol:version>
+    <sbol:sequence rdf:resource="https://synbiohub.org/public/igem/BBa_K1033910_sequence/1"/>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1033910"/>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <igem:sampleStatus>In stock</igem:sampleStatus>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_K592011/1">
+    <sbh:star>false</sbh:star>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K592011"/>
+    <igem:sampleStatus>In stock</igem:sampleStatus>
+    <dcterms:modified>2015-05-08T01:12:49Z</dcterms:modified>
+    <sbh:mutableNotes>Codon-optimization for expression in E.coli necessary.</sbh:mutableNotes>
+    <sbol:displayId>BBa_K592011</sbol:displayId>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <dc:creator>Antonio Ascue Avalos</dc:creator>
+    <igem:discontinued>false</igem:discontinued>
+    <igem:owning_group_id>9</igem:owning_group_id>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K592011/1"/>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <igem:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Available"/>
+    <igem:experience rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#experience/Works"/>
+    <sbh:bookmark>false</sbh:bookmark>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/BBa_K592011/annotation2131787/1">
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/BBa_K592011/annotation2131787/range2131787/1">
+            <sbol:end>699</sbol:end>
+            <sbol:start>1</sbol:start>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K592011/1"/>
+            <sbol:displayId>range2131787</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K592011/annotation2131787/range2131787"/>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K592011/annotation2131787"/>
+        <sbol:version>1</sbol:version>
+        <sbol:displayId>annotation2131787</sbol:displayId>
+        <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#feature/cds"/>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <dcterms:title>cjBlue</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K592011/1"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Coding"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <dcterms:title>cjBlue</dcterms:title>
+    <sbh:mutableDescription>This chromoprotein, cjBlue, naturally exhibits strong green/blue color when expressed. Compared to amilCP(BBa_K592009) and amilGFP(BBa_K592010), the color development is slower. On agar plates and in liquid culture, the color is readily visible to naked eye after 24-48 hours of incubation. The DNA was codon-optimized for expression in E.coli and synthesized by the Korean company Bioneer Corporation.</sbh:mutableDescription>
+    <dcterms:description>cjBlue, green chromoprotein</dcterms:description>
+    <sbol:sequence rdf:resource="https://synbiohub.org/public/igem/BBa_K592011_sequence/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K592011"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <igem:dominant>false</igem:dominant>
+    <igem:owner_id>7929</igem:owner_id>
+    <sbh:mutableProvenance>Cnidopus japonicus</sbh:mutableProvenance>
+    <igem:m_user_id>0</igem:m_user_id>
+    <sbol:version>1</sbol:version>
+    <igem:group_u_list>_763_</igem:group_u_list>
+    <dcterms:created>2011-09-17T11:00:00Z</dcterms:created>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="https://synbiohub.org/public/igem/BBa_K1033910_sequence/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1033910_sequence"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1033910_sequence/1"/>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbol:displayId>BBa_K1033910_sequence</sbol:displayId>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K1033910"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>atgacggcactgactgaaggcgcaaaactgttcgagaaagaaatcccatatatcactgagctggaaggtgacgttgaaggtatgaagtttatcatcaagggtgaaggtaccggtgacgcgagcgtcggtaaagtggatgctcagttcatttgtaccacgggcgacgttccggttccgtggagcacgctggtcaccacgctgacgtatggtgctcagtgctttgccaagtatccgcgccacattgcggatttcttcaaaagctgcatgccggaaggttacgtccaagagcgcaccatcacctttgagggtgatggcgtgttcaagacccgtgcggaagtcacctttgaaaatggcagcgtgtacaaccgtgtaaaactgaacggccagggtttcaagaaggacggccacgtgctgggcaaaaatctggagtttaactttacccctcattgtttgtacatttggggtgaccaagcgaatcatggcctgaagagcgcgttcaaaatcatgcatgagatcaccggctccaaagaggatttcattgttgccgatcacacccaaatgaataccccgattggtggtggtccggtgcacgtgccggagtaccaccacattacgtatcatgttaccctgtctaaagacgtcaccgatcaccgtgaccatttgaacattgttgaggtgatcaaggcagttgacctggagacgtaccgttaataa</sbol:elements>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://synbiohub.org/public/igem/BBa_K864401_sequence/1">
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K864401"/>
+    <sbol:elements>atggcttcactggttaaaaaagacatgtgcatcaaaatgacgatggaaggaacagtaaacggtcaccatttcaagtgtgtaggagaaggcgaaggcaaaccatttgaagggacccaggtggaaaagatacgcatcactgaaggtgggcccttaccatttgcgtatgatattttggccccttgttgcatgtatggcagtaaaaccttcattaagcatgtgtcgggtattccggattactttaaggagtcttttcctgagggctttacctgggaaagaacacaaatcttcgaggatggcggctatctcaccatacaccaggacacgagccttcagggtaataattttattttcaaagttaatgtcatcggtgccaacttccctgcaaacggtcccgtgatgcagaaaaaaacagctggatgggaaccgtgcgttgagatgctttatccgcgggacggcgtcctgtgtggtcagagcctgatggccctgaaatgcactgatggcaatcatctgacgtcccacctgcgcactacctatcgttctcgcaagccatccaatgcagttaacatgccggaatttcattttggggatcatcgcattgagattttgaaagctgaacaaggtaaattttatgaacaatacgagtcagcggtggcccgttactgtgaggcggcaccgagtaaattagggcatcactaataa</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K864401_sequence"/>
+    <sbol:displayId>BBa_K864401_sequence</sbol:displayId>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K864401_sequence/1"/>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_K592010/1">
+    <igem:dominant>false</igem:dominant>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K592010"/>
+    <sbh:star>false</sbh:star>
+    <igem:group_u_list>_763_</igem:group_u_list>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K592010"/>
+    <dc:creator>Lei Sun</dc:creator>
+    <igem:owner_id>7929</igem:owner_id>
+    <sbol:version>1</sbol:version>
+    <igem:m_user_id>0</igem:m_user_id>
+    <dcterms:title>amilGFP</dcterms:title>
+    <dcterms:modified>2015-05-08T01:12:48Z</dcterms:modified>
+    <dcterms:description>amilGFP, yellow chromoprotein</dcterms:description>
+    <sbol:sequence rdf:resource="https://synbiohub.org/public/igem/BBa_K592010_sequence/1"/>
+    <dcterms:created>2011-09-17T11:00:00Z</dcterms:created>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K592010/1"/>
+    <sbh:mutableDescription>This chromoprotein, amilGFP, naturally exhibits very strong yellow color when expressed. The color is strong and readily visible to naked eye both in LB-culture and on agar plates. The DNA was provided by Jeffrey Miller at UCLA. It was made BioBrick-compatible after removal of two illegal internal restriction sites (EcoRI and PstI).</sbh:mutableDescription>
+    <igem:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Planning"/>
+    <igem:owning_group_id>9</igem:owning_group_id>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <sbh:mutableNotes>Two illegal internal restriction sites (EcoRI and PstI) was removed.</sbh:mutableNotes>
+    <igem:discontinued>false</igem:discontinued>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Coding"/>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbol:displayId>BBa_K592010</sbol:displayId>
+    <igem:sampleStatus>It's complicated</igem:sampleStatus>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/BBa_K592010/annotation2131633/1">
+        <sbol:version>1</sbol:version>
+        <sbol:displayId>annotation2131633</sbol:displayId>
+        <dcterms:title>amilGFP</dcterms:title>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/BBa_K592010/annotation2131633/range2131633/1">
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:version>1</sbol:version>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K592010/1"/>
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K592010/annotation2131633/range2131633"/>
+            <sbol:end>696</sbol:end>
+            <sbol:displayId>range2131633</sbol:displayId>
+            <sbol:start>1</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K592010/1"/>
+        <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#feature/cds"/>
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K592010/annotation2131633"/>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbh:mutableProvenance>Acropora millepora</sbh:mutableProvenance>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <igem:experience rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#experience/Works"/>
+    <sbh:bookmark>false</sbh:bookmark>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_K1033932/1">
+    <sbh:mutableProvenance>Stylophora pistillata. The protein was first extracted and characterized by Alieva et. al. under the name spisCP (GenBank: ABB17971.1). This version is codon optimized for E coli by Genscript.</sbh:mutableProvenance>
+    <sbh:mutableNotes>Synthesized and codon optimized for E coli by GenScript.</sbh:mutableNotes>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1033932/1"/>
+    <igem:experience rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#experience/Works"/>
+    <dc:creator>Erik Lundin</dc:creator>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K1033932"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <igem:discontinued>false</igem:discontinued>
+    <dcterms:description>spisPink, pink chromoprotein</dcterms:description>
+    <igem:owning_group_id>9</igem:owning_group_id>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Coding"/>
+    <igem:owner_id>9827</igem:owner_id>
+    <sbh:mutableDescription>This chromoprotein from the coral Stylophora pistillata, spisPink (also known as spisCP), naturally exhibits strong color when expressed. The protein has an absorption maximum at 560 nm giving it a pink color visible to the naked eye. The strong color is readily observed in both LB or on agar plates after less than 24 hours of incubation. The protein spisPink has significant sequence homologies with proteins in the GFP family.</sbh:mutableDescription>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <dcterms:title>BBa_K1033932</dcterms:title>
+    <igem:group_u_list>_1340_</igem:group_u_list>
+    <sbh:bookmark>false</sbh:bookmark>
+    <igem:dominant>false</igem:dominant>
+    <sbh:star>false</sbh:star>
+    <sbol:displayId>BBa_K1033932</sbol:displayId>
+    <dcterms:created>2014-04-20T11:00:00Z</dcterms:created>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1033932"/>
+    <sbol:sequence rdf:resource="https://synbiohub.org/public/igem/BBa_K1033932_sequence/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/BBa_K1033932/annotation2372666/1">
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/BBa_K1033932/annotation2372666/range2372666/1">
+            <sbol:start>1</sbol:start>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:version>1</sbol:version>
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1033932/annotation2372666/range2372666"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1033932/1"/>
+            <sbol:end>678</sbol:end>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward"/>
+            <sbol:displayId>range2372666</sbol:displayId>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:displayId>annotation2372666</sbol:displayId>
+        <dcterms:title>spisPink</dcterms:title>
+        <sbol:version>1</sbol:version>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1033932/1"/>
+        <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#feature/cds"/>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1033932/annotation2372666"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:version>1</sbol:version>
+    <igem:m_user_id>0</igem:m_user_id>
+    <igem:sampleStatus>Not in stock</igem:sampleStatus>
+    <dcterms:modified>2015-05-08T01:08:50Z</dcterms:modified>
+    <igem:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Unavailable"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_K1033933/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1033933"/>
+    <sbol:sequence rdf:resource="https://synbiohub.org/public/igem/BBa_K1033933_sequence/1"/>
+    <dc:creator>Erik Lundin</dc:creator>
+    <igem:owning_group_id>9</igem:owning_group_id>
+    <sbh:mutableNotes>a</sbh:mutableNotes>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K1033933"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <sbh:mutableDescription>a</sbh:mutableDescription>
+    <igem:discontinued>false</igem:discontinued>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Coding"/>
+    <igem:owner_id>9827</igem:owner_id>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <dcterms:title>BBa_K1033933</dcterms:title>
+    <sbh:bookmark>false</sbh:bookmark>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <igem:group_u_list>_1340_</igem:group_u_list>
+    <igem:experience rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#experience/Works"/>
+    <sbol:displayId>BBa_K1033933</sbol:displayId>
+    <dcterms:created>2014-04-20T11:00:00Z</dcterms:created>
+    <igem:dominant>false</igem:dominant>
+    <sbh:star>false</sbh:star>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1033933/1"/>
+    <dcterms:description>asPink, pink chromoprotein</dcterms:description>
+    <sbh:mutableProvenance>a</sbh:mutableProvenance>
+    <sbol:version>1</sbol:version>
+    <igem:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Unavailable"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/BBa_K1033933/annotation2379047/1">
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1033933/1"/>
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1033933/annotation2379047"/>
+        <sbol:version>1</sbol:version>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/BBa_K1033933/annotation2379047/range2379047/1">
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:start>1</sbol:start>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1033933/1"/>
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1033933/annotation2379047/range2379047"/>
+            <sbol:version>1</sbol:version>
+            <sbol:displayId>range2379047</sbol:displayId>
+            <sbol:end>702</sbol:end>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:displayId>annotation2379047</sbol:displayId>
+        <dcterms:title>asPink</dcterms:title>
+        <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#feature/cds"/>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <igem:sampleStatus>Not in stock</igem:sampleStatus>
+    <igem:m_user_id>0</igem:m_user_id>
+    <dcterms:modified>2015-05-08T01:08:50Z</dcterms:modified>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="https://synbiohub.org/public/igem/BBa_K592011_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbol:version>1</sbol:version>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K592011_sequence/1"/>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K592011"/>
+    <sbol:elements>atggcttccaaaataagcgacaacgtacgtatcaaactgtatatggagggcacggttaataatcaccacttcatgtgtgaagcggagggtgagggcaagccatacgaaggaacgcagatggaaaacattaaagtgaccaaaggaggcccgctgccgttctcttttgatatcctgacgccgaactgccaatatggttctgtagccataaccaagtacacgtcggggattccggactattttaaacagtcattccctgaaggttttacctgggaaagaaccaccatttatgaagatggggcttatctgacaactcagcaggaaaccaaacttgatggaaattgcttagtctacaatattaaaatcctcggctgcaattttccccccaatggtcctgttatgcagaaaaaaacgcaaggctgggaaccatgttgcgagatgcgctatacacgtgatggtgtcttgtgcggtcagacattaatggcactgaaatgtgccgatgggaaccatctgacttgtcatctgcggactacttaccgatccaaaaaggcagcgaaggcgttgcaaatgccacctttccatttttcagaccatcgtccggaaattgtgaaggttagcgagaacggcacactgtttgagcagcacgaaagtagtgtggcacgctattgtcagacatgcccgagcaaacttggtcataattaataa</sbol:elements>
+    <sbol:displayId>BBa_K592011_sequence</sbol:displayId>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K592011_sequence"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://synbiohub.org/public/igem/BBa_K592010_sequence/1">
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K592010"/>
+    <sbol:elements>atgtcttattcaaagcatggcatcgtacaagaaatgaagacgaaataccatatggaaggcagtgtcaatggccatgaatttacgatcgaaggtgtaggaactgggtacccttacgaagggaaacagatgtccgaattagtgatcatcaagcctgcgggaaaaccccttccattctcctttgacatactgtcatcagtctttcaatatggaaaccgttgcttcacaaagtacccggcagacatgcctgactatttcaagcaagcattcccagatggaatgtcatatgaaaggtcatttctatttgaggatggagcagttgctacagccagctggaacattcgtctcgaaggaaattgcttcatccacaaatccatctttcatggcgtaaactttcccgctgatggacccgtaatgaaaaagaagacaattgactgggataagtccttcgaaaaaatgactgtgtctaaagaggtgctaagaggtgacgtgactatgtttcttatgctcgaaggaggtggttctcacagatgccaatttcactccacttacaaaacagagaagccggtcacactgcccccgaatcatgtcgtagaacatcaaattgtgaggaccgaccttggccaaagtgcaaaaggctttacagtcaagctggaagcacatgccgcggctcatgttaaccctttgaaggttaaataataa</sbol:elements>
+    <sbol:displayId>BBa_K592010_sequence</sbol:displayId>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K592010_sequence/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K592010_sequence"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_K1033919/1">
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:mutableNotes>Synthesized and codon optimized for E coli by GenScript.</sbh:mutableNotes>
+    <sbol:sequence rdf:resource="https://synbiohub.org/public/igem/BBa_K1033919_sequence/1"/>
+    <dc:creator>Sabri Jamal</dc:creator>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1033919"/>
+    <sbh:mutableProvenance>The coral Galaxea fascicularis.</sbh:mutableProvenance>
+    <dcterms:description>gfasPurple, purple chromoprotein</dcterms:description>
+    <dcterms:created>2013-08-24T11:00:00Z</dcterms:created>
+    <sbol:displayId>BBa_K1033919</sbol:displayId>
+    <igem:experience rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#experience/Works"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <igem:owning_group_id>9</igem:owning_group_id>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Coding"/>
+    <igem:discontinued>false</igem:discontinued>
+    <dcterms:modified>2015-05-08T01:08:49Z</dcterms:modified>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/BBa_K1033919/annotation2332104/1">
+        <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#feature/cds"/>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1033919/1"/>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <sbol:displayId>annotation2332104</sbol:displayId>
+        <dcterms:title>gfasPurple</dcterms:title>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/BBa_K1033919/annotation2332104/range2332104/1">
+            <sbol:displayId>range2332104</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:end>666</sbol:end>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward"/>
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1033919/annotation2332104/range2332104"/>
+            <sbol:start>1</sbol:start>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1033919/1"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:version>1</sbol:version>
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1033919/annotation2332104"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbh:bookmark>false</sbh:bookmark>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <igem:group_u_list>_1340_</igem:group_u_list>
+    <dcterms:title>gfasPurple</dcterms:title>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1033919/1"/>
+    <sbh:mutableDescription>This chromoprotein from the coral Galaxea fascicularis, gfasPurple, naturally exhibits strong color when expressed.</sbh:mutableDescription>
+    <igem:dominant>false</igem:dominant>
+    <sbh:star>false</sbh:star>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K1033919"/>
+    <igem:owner_id>10137</igem:owner_id>
+    <sbol:version>1</sbol:version>
+    <igem:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Unavailable"/>
+    <igem:m_user_id>0</igem:m_user_id>
+    <igem:sampleStatus>Not in stock</igem:sampleStatus>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_K1033906/1">
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <igem:group_u_list>_1340_</igem:group_u_list>
+    <igem:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Available"/>
+    <igem:experience rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#experience/Works"/>
+    <sbh:bookmark>false</sbh:bookmark>
+    <igem:dominant>false</igem:dominant>
+    <dcterms:title>tsPurple</dcterms:title>
+    <sbh:star>false</sbh:star>
+    <dcterms:modified>2015-05-08T01:08:49Z</dcterms:modified>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K1033906"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbh:mutableNotes>Cloned from TinselPurple vector, DNA 2.0.</sbh:mutableNotes>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>BBa_K1033906</sbol:displayId>
+    <igem:m_user_id>0</igem:m_user_id>
+    <dcterms:description>tsPurple, purple chromoprotein</dcterms:description>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1033906/1"/>
+    <igem:sampleStatus>In stock</igem:sampleStatus>
+    <sbol:sequence rdf:resource="https://synbiohub.org/public/igem/BBa_K1033906_sequence/1"/>
+    <igem:owner_id>10137</igem:owner_id>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/BBa_K1033906/annotation2332100/1">
+        <sbol:displayId>annotation2332100</sbol:displayId>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1033906/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/BBa_K1033906/annotation2332100/range2332100/1">
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:end>690</sbol:end>
+            <sbol:version>1</sbol:version>
+            <sbol:displayId>range2332100</sbol:displayId>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1033906/1"/>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward"/>
+            <sbol:start>1</sbol:start>
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1033906/annotation2332100/range2332100"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#feature/cds"/>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1033906/annotation2332100"/>
+        <dcterms:title>tsPurple</dcterms:title>
+        <sbol:version>1</sbol:version>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <dc:creator>Sabri Jamal</dc:creator>
+    <sbh:mutableProvenance>Synthetic chromoprotein from DNA 2.0.</sbh:mutableProvenance>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <igem:discontinued>false</igem:discontinued>
+    <igem:owning_group_id>9</igem:owning_group_id>
+    <dcterms:created>2013-08-24T11:00:00Z</dcterms:created>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Coding"/>
+    <sbh:mutableDescription>This chromoprotein naturally exhibits strong color when expressed.</sbh:mutableDescription>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1033906"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_K864401/1">
+    <igem:experience rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#experience/Works"/>
+    <sbh:mutableDescription>aeBlue</sbh:mutableDescription>
+    <dc:creator>Erik Lundin</dc:creator>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K864401"/>
+    <igem:owning_group_id>9</igem:owning_group_id>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Coding"/>
+    <igem:sampleStatus>It's complicated</igem:sampleStatus>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K864401"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <dcterms:description>aeBlue blue chromoprotein</dcterms:description>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/BBa_K864401/annotation2197206/1">
+        <sbol:displayId>annotation2197206</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K864401/annotation2197206"/>
+        <dcterms:title>aeBlue</dcterms:title>
+        <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#feature/cds"/>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/BBa_K864401/annotation2197206/range2197206/1">
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward"/>
+            <sbol:end>699</sbol:end>
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K864401/annotation2197206/range2197206"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K864401/1"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:start>1</sbol:start>
+            <sbol:version>1</sbol:version>
+            <sbol:displayId>range2197206</sbol:displayId>
+          </sbol:Range>
+        </sbol:location>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K864401/1"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K864401/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbol:displayId>BBa_K864401</sbol:displayId>
+    <igem:dominant>false</igem:dominant>
+    <sbol:version>1</sbol:version>
+    <igem:m_user_id>0</igem:m_user_id>
+    <igem:group_u_list>_1124_</igem:group_u_list>
+    <sbh:mutableNotes>Synthesized and codon optimized for E. coli by Bioneer Corp.</sbh:mutableNotes>
+    <sbh:star>false</sbh:star>
+    <dcterms:created>2012-09-24T11:00:00Z</dcterms:created>
+    <sbol:sequence rdf:resource="https://synbiohub.org/public/igem/BBa_K864401_sequence/1"/>
+    <sbh:mutableProvenance>Source</sbh:mutableProvenance>
+    <sbh:bookmark>true</sbh:bookmark>
+    <igem:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Planning"/>
+    <igem:discontinued>false</igem:discontinued>
+    <igem:owner_id>9827</igem:owner_id>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <dcterms:title>aeBlue</dcterms:title>
+    <dcterms:modified>2015-05-08T01:13:37Z</dcterms:modified>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_K1033902/1">
+    <igem:sampleStatus>In stock</igem:sampleStatus>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1033902/1"/>
+    <igem:owner_id>10137</igem:owner_id>
+    <dc:creator>Erik Gullberg</dc:creator>
+    <igem:owning_group_id>9</igem:owning_group_id>
+    <igem:discontinued>false</igem:discontinued>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:mutableNotes>Synthesized and codon optimized for E coli by GenScript.</sbh:mutableNotes>
+    <dcterms:description>meffBlue, blue chromoprotein</dcterms:description>
+    <igem:group_u_list>_1340_</igem:group_u_list>
+    <igem:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Available"/>
+    <sbol:sequence rdf:resource="https://synbiohub.org/public/igem/BBa_K1033902_sequence/1"/>
+    <sbh:bookmark>false</sbh:bookmark>
+    <igem:experience rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#experience/Works"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <dcterms:created>2013-08-24T11:00:00Z</dcterms:created>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Coding"/>
+    <dcterms:modified>2015-05-08T01:08:49Z</dcterms:modified>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbh:mutableProvenance>The coral Montipora efflorescens.</sbh:mutableProvenance>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/BBa_K1033902/annotation2332099/1">
+        <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#feature/cds"/>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1033902/annotation2332099"/>
+        <sbol:displayId>annotation2332099</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>meffBlue</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1033902/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/BBa_K1033902/annotation2332099/range2332099/1">
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1033902/1"/>
+            <sbol:version>1</sbol:version>
+            <sbol:displayId>range2332099</sbol:displayId>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward"/>
+            <sbol:end>669</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:start>1</sbol:start>
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1033902/annotation2332099/range2332099"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbol:version>1</sbol:version>
+    <sbh:mutableDescription>This chromoprotein from the coral Montipora efflorescens, meffBlue, naturally exhibits strong color when expressed.</sbh:mutableDescription>
+    <dcterms:title>meffBlue</dcterms:title>
+    <igem:m_user_id>0</igem:m_user_id>
+    <igem:dominant>false</igem:dominant>
+    <sbol:displayId>BBa_K1033902</sbol:displayId>
+    <sbh:star>false</sbh:star>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1033902"/>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K1033902"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_K1033916/1">
+    <sbh:mutableProvenance>The anemone Anemonia majano.</sbh:mutableProvenance>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <igem:group_u_list>_1340_</igem:group_u_list>
+    <sbh:bookmark>false</sbh:bookmark>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1033916/1"/>
+    <igem:experience rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#experience/Works"/>
+    <igem:dominant>false</igem:dominant>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <dcterms:title>BBa_K1033916</dcterms:title>
+    <sbh:star>false</sbh:star>
+    <dcterms:modified>2015-05-08T01:08:49Z</dcterms:modified>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K1033916"/>
+    <sbol:displayId>BBa_K1033916</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <igem:m_user_id>0</igem:m_user_id>
+    <sbol:sequence rdf:resource="https://synbiohub.org/public/igem/BBa_K1033916_sequence/1"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/BBa_K1033916/annotation2332103/1">
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1033916/1"/>
+        <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#feature/cds"/>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <sbol:version>1</sbol:version>
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1033916/annotation2332103"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/BBa_K1033916/annotation2332103/range2332103/1">
+            <sbol:version>1</sbol:version>
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1033916/annotation2332103/range2332103"/>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1033916/1"/>
+            <sbol:displayId>range2332103</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:start>1</sbol:start>
+            <sbol:end>690</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:displayId>annotation2332103</sbol:displayId>
+        <dcterms:title>amajLime</dcterms:title>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbh:mutableDescription>This chromoprotein from the coral Anemonia majano, amajLime, naturally exhibits strong color when expressed.</sbh:mutableDescription>
+    <igem:sampleStatus>In stock</igem:sampleStatus>
+    <dc:creator>Sabri Jamal</dc:creator>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1033916"/>
+    <igem:owner_id>10137</igem:owner_id>
+    <dcterms:created>2013-08-24T11:00:00Z</dcterms:created>
+    <igem:owning_group_id>9</igem:owning_group_id>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <igem:discontinued>false</igem:discontinued>
+    <dcterms:description>amajLime, yellow-green chromoprotein</dcterms:description>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Coding"/>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:mutableNotes>Synthesized and codon optimized for E coli by GenScript.</sbh:mutableNotes>
+    <igem:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Available"/>
+  </sbol:ComponentDefinition>
+</rdf:RDF>
