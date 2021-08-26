@@ -39,8 +39,8 @@ jobs:
       - name: Update SBOL
         run: python3 scripts/export_sbol.py
 
-      - name: Convert to SBOL3
-        run: python3 scripts/export_sbol3.py
+      #- name: Convert to SBOL3
+        #run: python3 scripts/export_sbol3.py
 
       - name: Commit changes, ready to push
         run: |

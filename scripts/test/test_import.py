@@ -33,12 +33,17 @@ class TestImportParts(unittest.TestCase):
         """Test ability to take inventory of parts already in a directory"""
         tmpsub = copy_to_tmp()
         inventory = part_retrieval.package_parts_inventory(tmpsub)
-        print(f'Found parts: {inventory}')
-        assert len(inventory) == 4, f'Expected 4 parts, but found {len(inventory)}: {inventory}'
-        expected = ['https://github.com/iGEM-Engineering/iGEM-distribution/test_package/NM_005341_4',
-                    'https://github.com/iGEM-Engineering/iGEM-distribution/test_package/NM_005342_4',
-                    'https://github.com/iGEM-Engineering/iGEM-distribution/test_package/NM_005343_4',
-                    'http://parts.igem.org/J23101']
+        unique_parts = set(inventory.values())
+        print(f'Unique parts found: {unique_parts}')
+        assert len(unique_parts) == 4, f'Expected 4 parts, but found {len(unique_parts)}: {unique_parts}'
+        assert len(inventory) == 6, f'Expected 6 keys, but found {len(inventory)}: {inventory}'
+        pkg = 'https://github.com/iGEM-Engineering/iGEM-distribution/test_package/'
+        expected = {f'{pkg}NM_005341_4': f'{pkg}NM_005341_4',
+                    f'{pkg}NM_005342': f'{pkg}NM_005342_4',
+                    f'{pkg}NM_005342_4': f'{pkg}NM_005342_4',
+                    f'{pkg}NM_005343': f'{pkg}NM_005343_4',
+                    f'{pkg}NM_005343_4': f'{pkg}NM_005343_4',
+                    'http://parts.igem.org/J23101':'http://parts.igem.org/J23101'}
         assert inventory == expected, f'Inventory does not match expected value: {inventory}'
 
     def test_import(self):
