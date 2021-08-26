@@ -1,3 +1,4 @@
+import logging
 import os
 import urllib.request
 import glob
@@ -173,13 +174,23 @@ extensions = {
               }
 }
 
-def package_parts_inventory(package: str) -> List[str]:
+
+def add_to_inventory(inventory: dict[str,str], id: str, *aliases: str) -> None:
+    keys = set(aliases)
+    keys.add(id)
+    for key in keys:
+        if key in inventory:
+            logging.warning(f'Inventory found duplicate of part {key}')
+        inventory[key] = id
+
+
+def package_parts_inventory(package: str) -> dict[str:str]:
     """Search all of the SBOL, GenBank, and FASTA files of a package to find what parts have been downloaded
 
     :param package: path of package to search
-    :return: list of URIs
+    :return: distionary mapping URIs and alias URIs to available URIs
     """
-    inventory = []
+    inventory = {}
 
     # import FASTAs and GenBank
     for file in flatten(glob.glob(os.path.join(package, ext)) for ext in extensions['FASTA']):
@@ -187,27 +198,32 @@ def package_parts_inventory(package: str) -> List[str]:
         prefix = iGEM_SOURCE_PREFIX if is_igem_cache else package_stem(package)
         with open(file) as f:
             for record in SeqIO.parse(f, "fasta"):
-                inventory.append(accession_to_sbol_uri(record.id,prefix))
+                add_to_inventory(inventory, accession_to_sbol_uri(record.id, prefix))
 
     for file in flatten(glob.glob(os.path.join(package, ext)) for ext in extensions['GenBank']):
         is_ncbi_cache = os.path.basename(file) == GENBANK_CACHE_FILE
         prefix = NCBI_PREFIX if is_ncbi_cache else package_stem(package)
         with open(file) as f:
             for record in SeqIO.parse(f, "gb"):
-                inventory.append(accession_to_sbol_uri(record.id,prefix))
+                add_to_inventory(inventory, accession_to_sbol_uri(record.id, prefix),
+                                 accession_to_sbol_uri(record.name,prefix))
 
     # import SBOL2
     for file in flatten(glob.glob(os.path.join(package, ext)) for ext in extensions['SBOL2']):
         doc = sbol2.Document()
         doc.read(file)
-        inventory += remap_prefixes([obj.persistentIdentity for obj in doc if isinstance(obj,sbol2.ComponentDefinition)])
+        ids = remap_prefixes([obj.persistentIdentity for obj in doc if isinstance(obj,sbol2.ComponentDefinition)])
+        for i in ids:
+            add_to_inventory(inventory, i)
 
     # import SBOL3
     for rdf_type,patterns in extensions['SBOL3'].items():
         for file in flatten(glob.glob(os.path.join(package, ext)) for ext in patterns):
             doc = sbol3.Document()
             doc.read(file)
-            inventory += [obj.identity for obj in doc.objects if isinstance(obj,sbol3.Component)]
+            ids = [obj.identity for obj in doc.objects if isinstance(obj,sbol3.Component)]
+            for i in ids:
+                add_to_inventory(inventory, i)
 
     return inventory
 
@@ -233,11 +249,11 @@ def import_parts(package: str):
     package_part_ids = {p.identity for p in package_parts}
     package_sequence_ids = {p.identity for p in package_parts if p.sequences}
     package_no_sequence_ids = {p.identity for p in package_parts if not p.sequences}
-    inventory_part_ids = set(inventory_parts)
-    both = package_part_ids & inventory_part_ids
+    inventory_part_ids_and_aliases = set(inventory_parts.keys())
+    both = package_part_ids & inventory_part_ids_and_aliases
     #package_only = package_part_ids - inventory_part_ids # not actually needed?
-    inventory_only = inventory_part_ids - package_part_ids
-    missing_sequences = package_no_sequence_ids - inventory_part_ids
+    inventory_only = set(inventory_parts.values()) - {inventory_parts[i] for i in both}
+    missing_sequences = package_no_sequence_ids - inventory_part_ids_and_aliases
     print(f' {len(package_sequence_ids)} have sequences in Excel, {len(both)} found in directory, {len(missing_sequences)} not found')
     print(f' {len(inventory_only)} parts in directory are not used in package')
     if inventory_only:
