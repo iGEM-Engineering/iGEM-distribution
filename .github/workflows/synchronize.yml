@@ -46,7 +46,6 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add */views
-          git add */iGEM_SBOL3_imports.nt
           git diff-index --quiet HEAD . || git commit -m "Automatically update exports"
 
       - name: Push changes
