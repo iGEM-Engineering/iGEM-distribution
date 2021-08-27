@@ -52,7 +52,7 @@ class TestExportCSV(unittest.TestCase):
         os.mkdir(tmpsub)
         os.mkdir(os.path.join(tmpsub, scripts.scriptutils.EXPORT_DIRECTORY))
         testdir = os.path.dirname(os.path.realpath(__file__))
-        copy(os.path.join('testfiles', 'test_package.xlsx'), tmpsub)
+        copy(os.path.join(testdir, 'testfiles', 'test_package.xlsx'), tmpsub)
 
         # run the export script
         scripts.scriptutils.export_sbol(tmpsub)
