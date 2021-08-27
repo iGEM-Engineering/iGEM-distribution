@@ -10,10 +10,9 @@ jobs:
       - name: Set up Git repository
         uses: actions/checkout@v2
 
-      - name: Set up Python 3.9
-        uses: actions/setup-python@v2
-        with:
-          python-version: 3.9
+      - name: Collect any new commits
+        run: |
+          git pull  # get any pushes made since the trigger began; without this job-to-job connections may fail
 
       - name: Set up Python 3.9
         uses: actions/setup-python@v2
@@ -44,11 +43,9 @@ jobs:
 
       - name: Commit changes, ready to push
         run: |
-          git pull
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add */views
-          git add */iGEM_SBOL3_imports.nt
           git diff-index --quiet HEAD . || git commit -m "Automatically update exports"
 
       - name: Push changes
@@ -65,6 +62,10 @@ jobs:
       - name: Set up Git repository
         uses: actions/checkout@v2
 
+      - name: Collect any new commits
+        run: |
+          git pull  # get any pushes made since the trigger began; without this job-to-job connections may fail
+
       - name: Set up Python 3.9
         uses: actions/setup-python@v2
         with:
@@ -80,7 +81,6 @@ jobs:
 
       - name: Commit changes, ready to push
         run: |
-          git pull
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add */*.gb */*.fasta */*.xml */*.nt
