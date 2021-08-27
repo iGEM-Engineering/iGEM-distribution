@@ -22,6 +22,7 @@ def copy_to_tmp() -> str:
     testdir = os.path.dirname(os.path.realpath(__file__))
     print(f'test file is {__file__}')
     copy(os.path.join(testdir, 'testfiles', 'test_sequence.fasta'), tmpsub)
+    copy(os.path.join(testdir, 'testfiles', 'J23102-modified.fasta'), tmpsub)
     copy(os.path.join(testdir, 'testfiles', 'two_sequences.gb'), tmpsub)
     copy(os.path.join(testdir, 'testfiles', 'BBa_J23101.xml'), tmpsub)
     copy(os.path.join(testdir, 'testfiles', scripts.scriptutils.EXPORT_DIRECTORY, 'package_specification.nt'), tmpexport)
@@ -35,15 +36,18 @@ class TestImportParts(unittest.TestCase):
         inventory = part_retrieval.package_parts_inventory(tmpsub)
         unique_parts = set(inventory.values())
         print(f'Unique parts found: {unique_parts}')
-        assert len(unique_parts) == 4, f'Expected 4 parts, but found {len(unique_parts)}: {unique_parts}'
-        assert len(inventory) == 6, f'Expected 6 keys, but found {len(inventory)}: {inventory}'
+        assert len(unique_parts) == 5, f'Expected 5 parts, but found {len(unique_parts)}: {unique_parts}'
+        assert len(inventory) == 8, f'Expected 8 keys, but found {len(inventory)}: {inventory}'
         pkg = 'https://github.com/iGEM-Engineering/iGEM-distribution/test_package/'
         expected = {f'{pkg}NM_005341_4': f'{pkg}NM_005341_4',
                     f'{pkg}NM_005342': f'{pkg}NM_005342_4',
                     f'{pkg}NM_005342_4': f'{pkg}NM_005342_4',
                     f'{pkg}NM_005343': f'{pkg}NM_005343_4',
                     f'{pkg}NM_005343_4': f'{pkg}NM_005343_4',
-                    'http://parts.igem.org/J23101':'http://parts.igem.org/J23101'}
+                    'https://github.com/iGEM-Engineering/iGEM-distribution/test_package/J23102-modified':
+                        'https://github.com/iGEM-Engineering/iGEM-distribution/test_package/J23102-modified',
+                    'http://parts.igem.org/J23101':'http://parts.igem.org/J23101',
+                    'http://parts.igem.org/J23101/1': 'http://parts.igem.org/J23101'}
         assert inventory == expected, f'Inventory does not match expected value: {inventory}'
 
     def test_import(self):
@@ -52,9 +56,10 @@ class TestImportParts(unittest.TestCase):
 
         # first round of import should obtain all but one missing part
         retrieved = scripts.scriptutils.part_retrieval.import_parts(tmpsub)
-        assert len(retrieved) == 4
+        assert len(retrieved) == 5
         expected = ['https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115_1', 'http://parts.igem.org/J23100',
-                    'http://parts.igem.org/J23102', 'http://parts.igem.org/pSB1C3']
+                    'http://parts.igem.org/J23102', 'http://parts.igem.org/pSB1C3',
+                    'https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/LmrA']
         assert retrieved == expected, f'Retrieved parts list does not match expected value: {retrieved}'
         testdir = os.path.dirname(os.path.realpath(__file__))
         # note: targets to check doesn't include SBOL2 cache, since that isn't serialized in predictable order

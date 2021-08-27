@@ -1,6 +1,7 @@
 import logging
 import os
 import urllib.request
+import urllib.parse
 import glob
 from typing import List
 from urllib.error import HTTPError
@@ -29,10 +30,13 @@ prefix_remappings = {
     'https://synbiohub.org/public/igem/BBa_':iGEM_SOURCE_PREFIX
 }
 
-def remap_prefixes(uris: List[str]) -> List[str]:
+def remap_prefix(uri: str) -> str:
+    # see if the URI hits any remapping
     for old,new in prefix_remappings.items():
-        uris = [new+u.removeprefix(old) for u in uris]
-    return uris
+        if uri.startswith(old):
+            return new+uri.removeprefix(old)
+    # if not, return as before
+    return uri
 
 
 def sbol_uri_to_accession(uri: str, prefix: str = NCBI_PREFIX) -> str:
@@ -95,6 +99,7 @@ def retrieve_igem_parts(ids: List[str], package: str) -> List[str]:
         doc.read(sbol_cache_file)
 
     # pull one ID at a time, because SynBioHub will give an error if we try to pull multiple and one is missing
+    print(f'Attempting to retrieve {len(ids)} parts from iGEM')
     retrieved_fasta = ''
     retrieved_ids = []
     sbol_count = 0
@@ -125,6 +130,8 @@ def retrieve_igem_parts(ids: List[str], package: str) -> List[str]:
                         print(f'  Retrieved text is not a DNA sequence: {captured}')
                 except IOError:
                     print('  Could not retrieve from iGEM Registry')
+            else:
+                raise err  # if it wasn't a "not found" error, fail upward
 
     # write retrieved materials
     if sbol_count>0:
@@ -138,10 +145,57 @@ def retrieve_igem_parts(ids: List[str], package: str) -> List[str]:
 
     return retrieved_ids
 
+
+def retrieve_synbiohub_parts(ids: List[str], package: str) -> List[str]:
+    """Retrieve a set of SBOL parts from SynBioHub
+    :param ids: SBOL URIs to retrieve
+    :param package: path where retrieved items should be stored
+    :return: list of items retrieved
+    """
+    sbh_sources = {}
+    sbol2.partshop.PartShop('https://synbiohub.org')
+
+    # load current cache, to write into
+    doc = sbol2.Document()
+    sbol_cache_file = os.path.join(package,IGEM_SBOL2_CACHE_FILE)
+    if os.path.isfile(sbol_cache_file):  # read any current material to avoid overwriting
+        doc.read(sbol_cache_file)
+
+    # pull one ID at a time, because SynBioHub will give an error if we try to pull multiple and one is missing
+    print(f'Attempting to retrieve {len(ids)} parts from iGEM')
+    retrieved_ids = []
+    for url in ids:
+        # figure out the server to access from the URL
+        p = urllib.parse.urlparse(url)
+        server = urllib.parse.urlunparse([p.scheme,p.netloc,'','','',''])
+        if server not in sbh_sources:
+            sbh_sources[server] = sbol2.partshop.PartShop(server)
+        sbh_source = sbh_sources[server]
+        # now retrieve from the server
+        try:
+            print(f'Attempting to retrieve SBOL from SynBioHub at {server}: {url}')
+            sbh_source.pull(url, doc)
+            retrieved_ids.append(url)
+            print(f'  Successfully retrieved from SynBioHub')
+        except sbol2.SBOLError as err:
+            if err.error_code() == sbol2.SBOLErrorCode.SBOL_ERROR_NOT_FOUND:
+                print(f'  SynBioHub retrieval failed')
+            else:
+                raise err  # if it wasn't a "not found" error, fail upward
+
+    # write retrieved materials
+    if len(retrieved_ids) > 0:
+        print(f'Retrieved {len(retrieved_ids)} iGEM SBOL2 records from SynBioHub, writing to {sbol_cache_file}')
+        doc.write(sbol_cache_file)
+
+    return retrieved_ids
+
+
 source_list = {
     NCBI_PREFIX: retrieve_genbank_accessions,
     'https://synbiohub.org/public/igem/': retrieve_igem_parts,
-    'http://parts.igem.org/': retrieve_igem_parts
+    'http://parts.igem.org/': retrieve_igem_parts,
+    'https://synbiohub': retrieve_synbiohub_parts  # TODO: make this more general, to support other SBH sources
 }
 
 def retrieve_parts(ids: List[str],package) -> List[str]:
@@ -154,6 +208,7 @@ def retrieve_parts(ids: List[str],package) -> List[str]:
     collected = []
     for prefix,retriever in source_list.items():
         matches = [i for i in ids if i.startswith(prefix)]
+        ids = [i for i in ids if i not in matches] # remove the ones we're going to try to avoid double-searching
         if len(matches)>0:
             successes = retriever(matches,package)
             collected += successes
@@ -212,9 +267,9 @@ def package_parts_inventory(package: str) -> dict[str:str]:
     for file in flatten(glob.glob(os.path.join(package, ext)) for ext in extensions['SBOL2']):
         doc = sbol2.Document()
         doc.read(file)
-        ids = remap_prefixes([obj.persistentIdentity for obj in doc if isinstance(obj,sbol2.ComponentDefinition)])
-        for i in ids:
-            add_to_inventory(inventory, i)
+        cds = [obj for obj in doc if isinstance(obj,sbol2.ComponentDefinition)]
+        for cd in cds:
+            add_to_inventory(inventory, remap_prefix(cd.persistentIdentity), remap_prefix(cd.identity))
 
     # import SBOL3
     for rdf_type,patterns in extensions['SBOL3'].items():
@@ -223,7 +278,7 @@ def package_parts_inventory(package: str) -> dict[str:str]:
             doc.read(file)
             ids = [obj.identity for obj in doc.objects if isinstance(obj,sbol3.Component)]
             for i in ids:
-                add_to_inventory(inventory, i)
+                add_to_inventory(inventory, remap_prefix(i))
 
     return inventory
 
