@@ -45,6 +45,24 @@ class TestExportCSV(unittest.TestCase):
         print(f'Comparing {test_file} and {comparison_file}')
         assert filecmp.cmp(test_file, comparison_file), "SBOL exports are not identical"
 
+    def test_complex_sbol_export(self):
+        # copy file into temp directory and make the export subdirectory
+        tmpdir = tempfile.mkdtemp()
+        tmpsub = os.path.join(tmpdir,'test_package')
+        os.mkdir(tmpsub)
+        os.mkdir(os.path.join(tmpsub, scripts.scriptutils.EXPORT_DIRECTORY))
+        testdir = os.path.dirname(os.path.realpath(__file__))
+        copy(os.path.join('testfiles', 'test_package.xlsx'), tmpsub)
+
+        # run the export script
+        scripts.scriptutils.export_sbol(tmpsub)
+
+        # check if the values are as expected
+        test_file = os.path.join(tmpsub, scripts.scriptutils.EXPORT_DIRECTORY, scripts.scriptutils.SBOL_EXPORT_NAME)
+        comparison_file = os.path.join(testdir, 'testfiles', 'views', 'package_specification.nt')
+        print(f'Comparing {test_file} and {comparison_file}')
+        assert filecmp.cmp(test_file, comparison_file), "SBOL exports are not identical"
+
 
 if __name__ == '__main__':
     unittest.main()
