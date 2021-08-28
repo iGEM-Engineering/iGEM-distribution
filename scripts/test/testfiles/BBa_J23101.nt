@@ -4,7 +4,7 @@
 <https://synbiohub.org/public/igem/BBa_J23101> <http://purl.org/dc/terms/modified> "2015-08-31T04:08:40Z" .
 <https://synbiohub.org/public/igem/BBa_J23101> <http://sbols.org/v3#description> "constitutive promoter family member" .
 <https://synbiohub.org/public/igem/BBa_J23101> <http://sbols.org/v3#displayId> "BBa_J23101" .
-<https://synbiohub.org/public/igem/BBa_J23101> <http://sbols.org/v3#hasNamespace> <https://synbiohub.org/public/igem> .
+<https://synbiohub.org/public/igem/BBa_J23101> <http://sbols.org/v3#hasNamespace> <https://synbiohub.org> .
 <https://synbiohub.org/public/igem/BBa_J23101> <http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/BBa_J23101_sequence> .
 <https://synbiohub.org/public/igem/BBa_J23101> <http://sbols.org/v3#name> "BBa_J23101" .
 <https://synbiohub.org/public/igem/BBa_J23101> <http://sbols.org/v3#role> <http://identifiers.org/so/SO:0000167> .
@@ -32,27 +32,29 @@
 <https://synbiohub.org/public/igem/BBa_J23101> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/BBa_J23101> .
 <https://synbiohub.org/public/igem/BBa_J23101> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
 <https://synbiohub.org/public/igem/BBa_J23101> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://parts.igem.org/Part:BBa_J23101> .
-<https://synbiohub.org/public/igem/BBa_J23101> <http://www.w3.org/ns/prov#wasGeneratedBy> <https://synbiohub.org/public/igem/igem2sbol/1> .
+<https://synbiohub.org/public/igem/BBa_J23101> <http://www.w3.org/ns/prov#wasGeneratedBy> <https://synbiohub.org/public/igem/igem2sbol> .
 <https://synbiohub.org/public/igem/BBa_J23101_sequence> <http://sbols.org/v3#displayId> "BBa_J23101_sequence" .
 <https://synbiohub.org/public/igem/BBa_J23101_sequence> <http://sbols.org/v3#elements> "tttacagctagctcagtcctaggtattatgctagc" .
-<https://synbiohub.org/public/igem/BBa_J23101_sequence> <http://sbols.org/v3#encoding> <http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html> .
-<https://synbiohub.org/public/igem/BBa_J23101_sequence> <http://sbols.org/v3#hasNamespace> <https://synbiohub.org/public/igem> .
+<https://synbiohub.org/public/igem/BBa_J23101_sequence> <http://sbols.org/v3#encoding> <https://identifiers.org/edam:format_1207> .
+<https://synbiohub.org/public/igem/BBa_J23101_sequence> <http://sbols.org/v3#hasNamespace> <https://synbiohub.org> .
 <https://synbiohub.org/public/igem/BBa_J23101_sequence> <http://sboltools.org/backport#sbol2version> "1" .
 <https://synbiohub.org/public/igem/BBa_J23101_sequence> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy> <https://synbiohub.org/user/james> .
 <https://synbiohub.org/public/igem/BBa_J23101_sequence> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy> <https://synbiohub.org/user/myers> .
 <https://synbiohub.org/public/igem/BBa_J23101_sequence> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/BBa_J23101_sequence> .
 <https://synbiohub.org/public/igem/BBa_J23101_sequence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Sequence> .
 <https://synbiohub.org/public/igem/BBa_J23101_sequence> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://parts.igem.org/Part:BBa_J23101> .
-<https://synbiohub.org/public/igem/BBa_J23101_sequence> <http://www.w3.org/ns/prov#wasGeneratedBy> <https://synbiohub.org/public/igem/igem2sbol/1> .
-<https://synbiohub.org/public/igem/igem2sbol/1> <http://purl.org/dc/elements/1.1/creator> "Chris J. Myers" .
-<https://synbiohub.org/public/igem/igem2sbol/1> <http://purl.org/dc/elements/1.1/creator> "James Alastair McLaughlin" .
-<https://synbiohub.org/public/igem/igem2sbol/1> <http://purl.org/dc/terms/description> "Conversion of the iGEM parts registry to SBOL2.1" .
-<https://synbiohub.org/public/igem/igem2sbol/1> <http://purl.org/dc/terms/title> "iGEM to SBOL conversion" .
-<https://synbiohub.org/public/igem/igem2sbol/1> <http://sbols.org/v2#persistentIdentity> <https://synbiohub.org/public/igem/igem2sbol> .
-<https://synbiohub.org/public/igem/igem2sbol/1> <http://sbols.org/v3#displayId> "igem2sbol" .
-<https://synbiohub.org/public/igem/igem2sbol/1> <http://sboltools.org/backport#sbol2version> "1" .
-<https://synbiohub.org/public/igem/igem2sbol/1> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy> <https://synbiohub.org/user/james> .
-<https://synbiohub.org/public/igem/igem2sbol/1> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy> <https://synbiohub.org/user/myers> .
-<https://synbiohub.org/public/igem/igem2sbol/1> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/igem2sbol/1> .
-<https://synbiohub.org/public/igem/igem2sbol/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Activity> .
-<https://synbiohub.org/public/igem/igem2sbol/1> <http://www.w3.org/ns/prov#endedAtTime> "2017-03-06T15:00:00.000Z" .
+<https://synbiohub.org/public/igem/BBa_J23101_sequence> <http://www.w3.org/ns/prov#wasGeneratedBy> <https://synbiohub.org/public/igem/igem2sbol> .
+<https://synbiohub.org/public/igem/igem2sbol> <http://purl.org/dc/elements/1.1/creator> "Chris J. Myers" .
+<https://synbiohub.org/public/igem/igem2sbol> <http://purl.org/dc/elements/1.1/creator> "James Alastair McLaughlin" .
+<https://synbiohub.org/public/igem/igem2sbol> <http://purl.org/dc/terms/description> "Conversion of the iGEM parts registry to SBOL2.1" .
+<https://synbiohub.org/public/igem/igem2sbol> <http://purl.org/dc/terms/title> "iGEM to SBOL conversion" .
+<https://synbiohub.org/public/igem/igem2sbol> <http://sbols.org/v2#persistentIdentity> <https://synbiohub.org/public/igem/igem2sbol> .
+<https://synbiohub.org/public/igem/igem2sbol> <http://sbols.org/v3#displayId> "igem2sbol" .
+<https://synbiohub.org/public/igem/igem2sbol> <http://sbols.org/v3#hasNamespace> <https://synbiohub.org> .
+<https://synbiohub.org/public/igem/igem2sbol> <http://sboltools.org/backport#sbol2version> "1" .
+<https://synbiohub.org/public/igem/igem2sbol> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy> <https://synbiohub.org/user/james> .
+<https://synbiohub.org/public/igem/igem2sbol> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy> <https://synbiohub.org/user/myers> .
+<https://synbiohub.org/public/igem/igem2sbol> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/igem2sbol> .
+<https://synbiohub.org/public/igem/igem2sbol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#TopLevel> .
+<https://synbiohub.org/public/igem/igem2sbol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Activity> .
+<https://synbiohub.org/public/igem/igem2sbol> <http://www.w3.org/ns/prov#endedAtTime> "2017-03-06T15:00:00.000Z" .

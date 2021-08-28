@@ -34,19 +34,26 @@ def copy_to_tmp() -> str:
 
 class Test2To3Conversion(unittest.TestCase):
     def test_convert_identities(self):
+        """Test conversion of a complex file"""
         testdir = os.path.dirname(os.path.realpath(__file__))
         input_path = os.path.join(testdir, 'testfiles', 'sbol3-small-molecule.rdf')
-        with open(input_path) as fp:
-            rdf_data = fp.read()
-        rdf_data = scripts.scriptutils.convert_identities2to3(rdf_data)
-        self.assertIsNotNone(rdf_data)
-        doc = sbol3.Document()
-        doc.read_string(rdf_data, sbol3.RDF_XML)
-        # Expecting 8 top level objects, 4 Components and 4 Sequences
-        self.assertEqual(8, len(doc.objects))
+        doc = scripts.scriptutils.convert2to3(input_path)
+        # with open(input_path) as fp:
+        #     rdf_data = fp.read()
+        # rdf_data = scripts.scriptutils.convert_identities2to3(rdf_data)
+        # self.assertIsNotNone(rdf_data)
+        # doc = sbol3.Document()
+        # doc.read_string(rdf_data, sbol3.RDF_XML)
+        # check for issues in converted document
+        report = doc.validate()
+        for issue in report:
+            print(issue)
+        assert len(report) == 0
+        # Expecting 9 top level objects, 4 Components, 4 Sequences, and 1 prov:Activity
+        self.assertEqual(9, len(doc.objects))
 
     def test_2to3_conversion(self):
-        """Test ability to take inventory of parts already in a directory"""
+        """Test ability to convert parts already in a directory"""
         tmpsub = copy_to_tmp()
         mappings = scripts.scriptutils.convert_package_sbol2_files(tmpsub)
         expected = {os.path.join(tmpsub, 'BBa_J23101.xml'): os.path.join(tmpsub, 'BBa_J23101.nt')}
@@ -54,19 +61,6 @@ class Test2To3Conversion(unittest.TestCase):
 
         testdir = os.path.dirname(os.path.realpath(__file__))
         comparison_file = os.path.join(testdir, 'testfiles', 'BBa_J23101.nt')
-
-        print('Showing differences:')
-        with open(os.path.join(tmpsub, 'BBa_J23101.nt'), 'r') as f1:
-            with open(comparison_file, 'r') as f2:
-                diff = difflib.unified_diff(
-                    f1.readlines(),
-                    f2.readlines(),
-                    fromfile='generated',
-                    tofile='expected',
-                )
-                for line in diff:
-                    sys.stdout.write(line)
-        print('End of differences')
 
         assert filecmp.cmp(os.path.join(tmpsub, 'BBa_J23101.nt'), comparison_file), \
             f'Converted file {comparison_file} is not identical'

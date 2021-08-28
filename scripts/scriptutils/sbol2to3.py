@@ -1,6 +1,8 @@
+import logging
 import subprocess
 import glob
 import os
+import urllib
 
 import rdflib
 import sbol2
@@ -21,6 +23,17 @@ def convert_identities2to3(sbol3_data: str) -> str:
     """
     # Convert the /[version] identities of SBOL2 into identities for SBOL3
     g = rdflib.Graph().parse(data=sbol3_data)
+
+    # TODO: remove workaround after conversion errors fixed in https://github.com/sboltools/sbolgraph/issues/14
+    # for all objects in the prov namespace, add an SBOL type
+    # TODO: likely need to do this for OM namespace too
+    for s, p, o in g.triples((None,rdflib.RDF.type,None)):
+        if o.startswith(sbol3.PROV_NS):
+            if str(o) in {sbol3.PROV_ASSOCIATION, sbol3.PROV_USAGE}:
+                g.add((s, p, rdflib.URIRef(sbol3.SBOL_IDENTIFIED)))
+            else:
+                g.add((s, p, rdflib.URIRef(sbol3.SBOL_TOP_LEVEL)))
+
     subjects = sorted(list(set(g.subjects())))
     for old_identity in subjects:
         # Check if the identity needs to change:
@@ -48,7 +61,7 @@ def convert_identities2to3(sbol3_data: str) -> str:
     return g.serialize(format="xml")
 
 
-def convert2to3(sbol2_path: str) -> sbol3.Document:
+def convert2to3(sbol2_path: str, namespaces: list = []) -> sbol3.Document:
     cmd = [SBOL_CONVERTER, '-output', 'sbol3',
            'import', sbol2_path,
            'convert', '--target-sbol-version', '3']
@@ -60,6 +73,36 @@ def convert2to3(sbol2_path: str) -> sbol3.Document:
     rdf_xml = convert_identities2to3(rdf_xml)
     doc = sbol3.Document()
     doc.read_string(rdf_xml, sbol3.RDF_XML)
+
+    # TODO: remove workaround after conversion errors fixed in https://github.com/sboltools/sbolgraph/issues/14
+    # add in the missing namespace fields where possible, defaulting otherwise
+    needs_namespace = {o for o in doc.objects if o.namespace is None}  # TODO: add check for non-TopLevel? See https://github.com/SynBioDex/pySBOL3/issues/295
+    for n in namespaces:
+        assignable = {o for o in needs_namespace if o.identity.startswith(n)}
+        for a in assignable:
+            a.namespace = n
+        needs_namespace = needs_namespace - assignable
+    for o in needs_namespace:  # if no supplied namespace matches, default to scheme//netloc
+        # figure out the server to access from the URL
+        p = urllib.parse.urlparse(o.identity)
+        server = urllib.parse.urlunparse([p.scheme,p.netloc,'','','',''])
+        o.namespace = server
+    # infer sequences for locations:
+    for s in (o for o in doc.objects if isinstance(o,sbol3.Component)):
+        if len(s.sequences) != 1: # can only infer sequences if there is precisely one
+            continue
+        for f in (f for f in s.features if isinstance(f,sbol3.SequenceFeature) or isinstance(f,sbol3.SubComponent)):
+            for l in f.locations:
+                l.sequence = s.sequences[0]
+    # remap sequence encodings:
+    encoding_remapping = {
+        'http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html': 'https://identifiers.org/edam:format_1207',
+        'http://www.chem.qmul.ac.uk/iupac/AminoAcid/': 'https://identifiers.org/edam:format_1208',
+        'http://www.opensmiles.org/opensmiles.html': 'https://identifiers.org/edam:format_1196'
+    }
+    for s in (o for o in doc.objects if isinstance(o,sbol3.Sequence)):
+        if s.encoding in encoding_remapping:
+            s.encoding = encoding_remapping[s.encoding]
     return doc
 
 
@@ -78,6 +121,14 @@ def convert_package_sbol2_files(package: str) -> dict[str, str]:
         doc2 = sbol2.Document()
         doc2.read(file)  # confirm that it is, in fact, an SBOL2 file
         doc3 = convert2to3(file)
+        # check if it's valid before writing
+        report = doc3.validate()
+        if len(report.errors) > 0:
+            logging.warning('Conversion failed: SBOL3 file has errors')
+            for issue in report.errors:
+                logging.warning(issue)
+            continue
+        
         print(f'Writing converted SBOL3 file to {file3}')
         doc3.write(file3, sbol3.SORTED_NTRIPLES)
         # record the conversion for later use
