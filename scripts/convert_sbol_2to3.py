@@ -19,7 +19,7 @@ for p in packages:
         # convert files
         mappings = scriptutils.convert_package_sbol2_files(p)
         # if there's a git repo, try to remove the old files
-        if repo:
+        if repo and len(mappings):
             repo.index.remove(mappings.keys(), working_tree=True)
 
     except (OSError, ValueError) as e:
