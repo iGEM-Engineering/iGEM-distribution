@@ -243,7 +243,7 @@ def package_parts_inventory(package: str) -> dict[str:str]:
     """Search all of the SBOL, GenBank, and FASTA files of a package to find what parts have been downloaded
 
     :param package: path of package to search
-    :return: distionary mapping URIs and alias URIs to available URIs
+    :return: dictionary mapping URIs and alias URIs to available URIs
     """
     inventory = {}
 

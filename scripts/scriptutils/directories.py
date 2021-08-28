@@ -11,7 +11,7 @@ import openpyxl
 EXPORT_DIRECTORY = 'views'
 # These are the sheets to export, which will be written as CSVs with the same name:
 EXPORT_SHEETS = ['Parts and Devices', 'Libraries and Composites']
-# Name of the base SBOL export name (not filled in with details)
+# Name of the base SBOL3 export name (not filled in with details)
 SBOL_EXPORT_NAME = 'package_specification.nt'
 
 
