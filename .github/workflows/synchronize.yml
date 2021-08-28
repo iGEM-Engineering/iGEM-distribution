@@ -38,9 +38,6 @@ jobs:
       - name: Update SBOL
         run: python3 scripts/export_sbol.py
 
-      #- name: Convert to SBOL3
-        #run: python3 scripts/export_sbol3.py
-
       - name: Commit changes, ready to push
         run: |
           git config --local user.email "action@github.com"
@@ -79,11 +76,14 @@ jobs:
       - name: Import parts and devices
         run: python3 scripts/import_parts.py
 
+      - name: Convert SBOL2 imports to SBOL3
+        run: python3 scripts/convert_sbol_2to3.py
+
       - name: Commit changes, ready to push
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add */*.gb */*.fasta */*.xml */*.nt
+          git add */*.gb */*.fasta */*.nt
           git diff-index --quiet HEAD . || git commit -m "Automatically import referenced parts"
 
       - name: Push changes
