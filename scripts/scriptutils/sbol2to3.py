@@ -128,7 +128,7 @@ def convert_package_sbol2_files(package: str) -> dict[str, str]:
             for issue in report.errors:
                 logging.warning(issue)
             continue
-        
+
         print(f'Writing converted SBOL3 file to {file3}')
         doc3.write(file3, sbol3.SORTED_NTRIPLES)
         # record the conversion for later use
