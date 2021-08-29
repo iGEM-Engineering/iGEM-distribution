@@ -6,12 +6,15 @@ import glob
 from typing import List
 from urllib.error import HTTPError
 
-from Bio import Entrez, SeqIO, Seq, SeqRecord
+from Bio import Entrez, SeqIO
 import sbol2
 import sbol3
 from sbol_utilities.helper_functions import flatten, unambiguous_dna_sequence
-from .directories import EXPORT_DIRECTORY,SBOL_EXPORT_NAME
+# TODO: switch to sbol3 after resolution of https://github.com/SynBioDex/pySBOL3/issues/191
+from sbol_utilities.excel_to_sbol import string_to_display_id
+from .directories import EXPORT_DIRECTORY, SBOL_EXPORT_NAME, SBOL_PACKAGE_NAME, extensions
 from .package_specification import package_stem
+from .sbol2to3 import convert2to3
 
 
 GENBANK_CACHE_FILE = 'GenBank_imports.gb'
@@ -24,6 +27,78 @@ FASTA_iGEM_PATTERN = 'http://parts.igem.org/cgi/partsdb/composite_edit/putseq.cg
 SBOL_iGEM_PATTERN = 'https://synbiohub.org/public/igem/BBa_{}'
 iGEM_SOURCE_PREFIX = 'http://parts.igem.org/'
 NCBI_PREFIX = 'https://www.ncbi.nlm.nih.gov/nuccore/'
+
+
+class ImportFile:
+    """Record for a file in the package parts inventory, containing all information needed for collation"""
+
+    def __init__(self, path: str, file_type: str = sbol3.SORTED_NTRIPLES, namespace: str = None):
+        self.path = path
+        if file_type not in extensions.keys():
+            raise ValueError(f'Unknown file type: "{file_type}"')
+        self.file_type = file_type
+        self.namespace = namespace
+        self.doc = None
+
+    def get_sbol3_doc(self) -> sbol3.Document:
+        """Access a file's contents in SBOL3 format. If not loaded, they will be loaded.
+        If not in SBOL3, they will be converted.
+
+        :return: SBOL3 document for the file's contents
+        """
+        if self.doc:  # If the document already loaded, just return it
+            return self.doc
+        # Otherwise, load the file, converting if necessary
+        if self.file_type is 'FASTA': # FASTA should be read with NCBI and converted directly into SBOL3
+            doc = sbol3.Document()
+            with open(self.path, 'r') as f:
+                for r in SeqIO.parse(f, 'fasta'):
+                    identity = self.namespace+'/'+string_to_display_id(r.id)
+                    seq = sbol3.Sequence(identity+'_sequence', name=r.name, description=r.description,
+                                         elements=str(r.seq), encoding=sbol3.IUPAC_DNA_ENCODING)
+                    doc.add(seq)
+                    doc.add(sbol3.Component(identity, sbol3.SBO_DNA, sequences=[seq]))
+            return doc
+        elif self.file_type is 'GenBank':  # GenBank --> SBOL2 --> SBOL3
+            doc2 = sbol2.Document()
+            sbol2.setHomespace(self.namespace)
+            doc2.importFromFormat(self.path)
+            doc = convert2to3(doc2, [self.namespace])
+            return doc
+        elif self.file_type is 'SBOL2':  # SBOL2 files should all have been turned to SBOL3 already
+            logging.warning(f'Should not be importing directly from SBOL2: {self.path}')
+            doc2 = sbol2.Document()
+            doc2.read(self.path)
+            doc = convert2to3(doc2)
+            return doc
+        elif self.file_type is 'SBOL3':  # reading from SBOL3 is simple
+            doc = sbol3.Document()
+            doc.read(self.path)
+            return doc
+        else:
+            raise ValueError(f'Unknown file type: "{self.file_type}" for {self.path}')
+
+
+class PackageInventory:
+    """List of all of the parts imported into a package in various files"""
+    def __init__(self):
+        self.files: set[ImportFile] = set()
+        self.locations: dict[str, ImportFile] = {}
+        self.aliases: dict[str, str] = {}
+
+    def add(self, import_file, uri: str, *aliases: str) -> None:
+        # make sure the file is tracked
+        self.files.add(import_file)
+        # add the entry for the URI
+        self.locations[uri] = import_file
+        # add URI and all aliases to alias mapping
+        keys = set(aliases)
+        keys.add(uri)
+        for key in keys:
+            if key in self.aliases:
+                logging.warning(f'Inventory found duplicate of part {key}')
+            self.aliases[key] = uri
+
 
 # for canonicalizing IDs
 prefix_remappings = {
@@ -198,6 +273,7 @@ source_list = {
     'https://synbiohub': retrieve_synbiohub_parts  # TODO: make this more general, to support other SBH sources
 }
 
+
 def retrieve_parts(ids: List[str],package) -> List[str]:
     """Attempt to download parts from various servers
 
@@ -214,73 +290,54 @@ def retrieve_parts(ids: List[str],package) -> List[str]:
             collected += successes
     return collected
 
-# Test:
-# retrieve_parts('iGEM',{'J23101','J23106'})
-# retrieve_parts('GB',{'JWYZ01000115.1','PVOS01000173.1'})
 
-extensions = {
-    'FASTA': {'*.fasta','*.fa'},
-    'GenBank': {'*.genbank','*.gb'},
-    'SBOL2': {'*.xml'},
-    'SBOL3': {sbol3.NTRIPLES:{'*.nt'},
-              sbol3.RDF_XML:{'*.rdf'},
-              sbol3.TURTLE:{'*.ttl'},
-              sbol3.JSONLD:{'*.json','*.jsonld'}
-              }
-}
-
-
-def add_to_inventory(inventory: dict[str,str], id: str, *aliases: str) -> None:
-    keys = set(aliases)
-    keys.add(id)
-    for key in keys:
-        if key in inventory:
-            logging.warning(f'Inventory found duplicate of part {key}')
-        inventory[key] = id
-
-
-def package_parts_inventory(package: str) -> dict[str:str]:
+def package_parts_inventory(package: str) -> PackageInventory:
     """Search all of the SBOL, GenBank, and FASTA files of a package to find what parts have been downloaded
 
     :param package: path of package to search
     :return: dictionary mapping URIs and alias URIs to available URIs
     """
-    inventory = {}
+    inventory = PackageInventory()
 
     # import FASTAs and GenBank
-    for file in flatten(glob.glob(os.path.join(package, ext)) for ext in extensions['FASTA']):
+    for file in flatten(glob.glob(os.path.join(package, f'*{ext}')) for ext in extensions['FASTA']):
         is_igem_cache = os.path.basename(file) == IGEM_FASTA_CACHE_FILE
         prefix = iGEM_SOURCE_PREFIX if is_igem_cache else package_stem(package)
         with open(file) as f:
+            import_file = ImportFile(file, file_type='FASTA', namespace=prefix)
             for record in SeqIO.parse(f, "fasta"):
-                add_to_inventory(inventory, accession_to_sbol_uri(record.id, prefix))
+                inventory.add(import_file, accession_to_sbol_uri(record.id, prefix))
 
-    for file in flatten(glob.glob(os.path.join(package, ext)) for ext in extensions['GenBank']):
+    for file in flatten(glob.glob(os.path.join(package, f'*{ext}')) for ext in extensions['GenBank']):
         is_ncbi_cache = os.path.basename(file) == GENBANK_CACHE_FILE
         prefix = NCBI_PREFIX if is_ncbi_cache else package_stem(package)
         with open(file) as f:
+            import_file = ImportFile(file, file_type='GenBank', namespace=prefix)
             for record in SeqIO.parse(f, "gb"):
-                add_to_inventory(inventory, accession_to_sbol_uri(record.id, prefix),
-                                 accession_to_sbol_uri(record.name,prefix))
+                inventory.add(import_file, accession_to_sbol_uri(record.id, prefix),
+                              accession_to_sbol_uri(record.name,prefix))
 
     # import SBOL2
-    for file in flatten(glob.glob(os.path.join(package, ext)) for ext in extensions['SBOL2']):
+    for file in flatten(glob.glob(os.path.join(package, f'*{ext}')) for ext in extensions['SBOL2']):
         doc = sbol2.Document()
         doc.read(file)
+        import_file = ImportFile(file, file_type='SBOL2')
         cds = [obj for obj in doc if isinstance(obj,sbol2.ComponentDefinition)]
         for cd in cds:
-            add_to_inventory(inventory, remap_prefix(cd.persistentIdentity), remap_prefix(cd.identity))
+            inventory.add(import_file, remap_prefix(cd.persistentIdentity), remap_prefix(cd.identity))
 
     # import SBOL3
     for rdf_type,patterns in extensions['SBOL3'].items():
-        for file in flatten(glob.glob(os.path.join(package, ext)) for ext in patterns):
+        for file in flatten(glob.glob(os.path.join(package, f'*{ext}')) for ext in patterns):
             doc = sbol3.Document()
             doc.read(file)
+            import_file = ImportFile(file, file_type='SBOL3')
             ids = [obj.identity for obj in doc.objects if isinstance(obj,sbol3.Component)]
             for i in ids:
-                add_to_inventory(inventory, remap_prefix(i))
+                inventory.add(import_file, remap_prefix(i))
 
     return inventory
+
 
 # TODO: switch to sbol_utilities constants at sbol-utilities 1.05a
 BASIC_PARTS_COLLECTION = 'BasicParts'
@@ -288,7 +345,12 @@ COMPOSITE_PARTS_COLLECTION = 'CompositeParts'
 LINEAR_PRODUCTS_COLLECTION = 'LinearDNAProducts'
 FINAL_PRODUCTS_COLLECTION = 'FinalProducts'
 
-def import_parts(package: str):
+def import_parts(package: str) -> list[str]:
+    """Compare package specification and inventory and attempt to import all missing parts
+
+    :param package: path of package to search
+    :return: list of parts URIs imported
+    """
     # First collect the package specification
     package_spec = sbol3.Document()
     package_spec.read(os.path.join(package,EXPORT_DIRECTORY,SBOL_EXPORT_NAME))
@@ -297,17 +359,17 @@ def import_parts(package: str):
     print(f'Package specification contains {len(package_parts)} parts')
 
     # Then collect the parts in the package directory
-    inventory_parts = package_parts_inventory(package)
-    print(f'Found {len(inventory_parts)} parts cached in package design files')
+    inventory = package_parts_inventory(package)
+    print(f'Found {len(inventory.locations)} parts cached in package design files')
 
     # Compare the parts lists to each other to figure out which elements are missing
     package_part_ids = {p.identity for p in package_parts}
     package_sequence_ids = {p.identity for p in package_parts if p.sequences}
     package_no_sequence_ids = {p.identity for p in package_parts if not p.sequences}
-    inventory_part_ids_and_aliases = set(inventory_parts.keys())
+    inventory_part_ids_and_aliases = set(inventory.aliases.keys())
     both = package_part_ids & inventory_part_ids_and_aliases
     #package_only = package_part_ids - inventory_part_ids # not actually needed?
-    inventory_only = set(inventory_parts.values()) - {inventory_parts[i] for i in both}
+    inventory_only = set(inventory.locations.keys()) - {inventory.aliases[i] for i in both}
     missing_sequences = package_no_sequence_ids - inventory_part_ids_and_aliases
     print(f' {len(package_sequence_ids)} have sequences in Excel, {len(both)} found in directory, {len(missing_sequences)} not found')
     print(f' {len(inventory_only)} parts in directory are not used in package')
@@ -329,3 +391,34 @@ def import_parts(package: str):
         if still_missing:
             print('Still missing:'+"".join(f' {p}\n' for p in still_missing))
         return retrieved
+
+
+def collate_package(package: str) -> sbol3.Document:
+    """Given a package specification and an inventory of parts, unify them into a complete SBOL3 package & write it out
+
+    :param package: path of package to search
+    :return: document created
+    """
+    # read the package specification
+    print(f'Collating materials for package {package}')
+    spec_name = os.path.join(package, EXPORT_DIRECTORY, SBOL_EXPORT_NAME)
+    doc = sbol3.Document()
+    doc.read(spec_name, sbol3.SORTED_NTRIPLES)
+
+    # collect the inventory, copying the contents of each file into the main document
+    inventory = package_parts_inventory(package)
+    for f in inventory.files:
+        import_doc = f.get_sbol3_doc()
+        print(f'  Importing {len(import_doc.objects)} objects from file {f.path}')
+        for o in import_doc.objects:
+            cur_obj = doc.find(o.identity)
+            if cur_obj:
+                doc.objects.remove(cur_obj)  # remove old copy, if it exists
+            o.copy(doc)  # copy the imported object into the document
+            # TODO: figure out how to merge information from Excel specs
+
+    # write composite file into the target directory
+    target_name = os.path.join(package, EXPORT_DIRECTORY, SBOL_PACKAGE_NAME)
+    print(f'  Writing collated document to {target_name}')
+    doc.write(target_name, sbol3.SORTED_NTRIPLES)
+    return doc

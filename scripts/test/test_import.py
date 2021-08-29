@@ -3,6 +3,9 @@ import tempfile
 import os
 import filecmp
 from shutil import copy
+
+import sbol3
+
 from scripts.scriptutils import part_retrieval
 import scripts.scriptutils
 
@@ -34,10 +37,11 @@ class TestImportParts(unittest.TestCase):
         """Test ability to take inventory of parts already in a directory"""
         tmpsub = copy_to_tmp()
         inventory = part_retrieval.package_parts_inventory(tmpsub)
-        unique_parts = set(inventory.values())
-        print(f'Unique parts found: {unique_parts}')
-        assert len(unique_parts) == 5, f'Expected 5 parts, but found {len(unique_parts)}: {unique_parts}'
-        assert len(inventory) == 8, f'Expected 8 keys, but found {len(inventory)}: {inventory}'
+        unique_parts = set(inventory.locations.keys())
+        assert len(unique_parts) == 5, f'Expected 5 parts, found {len(unique_parts)}: {unique_parts}'
+        assert len(inventory.aliases) == 8, f'Expected 8 aliases, found {len(inventory.aliases)}: {inventory.aliases}'
+        assert len(inventory.files) == 4, \
+            f'Expected 4 files, found {len(inventory.files)}: {[f.path for f in inventory.files]}'
         pkg = 'https://github.com/iGEM-Engineering/iGEM-distribution/test_package/'
         expected = {f'{pkg}NM_005341_4': f'{pkg}NM_005341_4',
                     f'{pkg}NM_005342': f'{pkg}NM_005342_4',
@@ -48,7 +52,7 @@ class TestImportParts(unittest.TestCase):
                         'https://github.com/iGEM-Engineering/iGEM-distribution/test_package/J23102-modified',
                     'http://parts.igem.org/J23101':'http://parts.igem.org/J23101',
                     'http://parts.igem.org/J23101/1': 'http://parts.igem.org/J23101'}
-        assert inventory == expected, f'Inventory does not match expected value: {inventory}'
+        assert inventory.aliases == expected, f'Inventory aliases do not match expected value: {inventory.aliases}'
 
     def test_import(self):
         """Test ability to retrieve parts from GenBank and iGEM"""
@@ -76,6 +80,30 @@ class TestImportParts(unittest.TestCase):
             test_file = os.path.join(tmpsub, t)
             comparison_file = os.path.join(testdir, 'testfiles', t)
             assert filecmp.cmp(test_file, comparison_file), f'Parts cache file {t} is not identical'
+
+    def test_collation(self):
+        """Test ability to collate parts based on a specification"""
+        tmpsub = copy_to_tmp()
+        doc = part_retrieval.collate_package(tmpsub)
+        # composite document should have 5 imported parts plus 6 parts that aren't yet imported, plus 2 templates
+        # currently has an extra due
+        pkg = 'https://github.com/iGEM-Engineering/iGEM-distribution/test_package/'
+        expected = {f'{pkg}Anderson_Promoters_in_vector_ins_template', f'{pkg}Anderson_Promoters_in_vector_template',
+                    'http://parts.igem.org/J23100', 'http://parts.igem.org/J23101', 'http://parts.igem.org/J23102',
+                    'http://parts.igem.org/pSB1C3', f'{pkg}pOpen_v4',
+                    'https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115_1',
+                    'https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/LmrA',
+                    f'{pkg}J23102_modified',
+                    # TODO: import issues to fix:
+                    f'{pkg}NM_005341_4', f'{pkg}NM_005342', f'{pkg}NM_005343', # TODO: should these be bare or versioned?
+                    'https://synbiohub.org/public/igem/BBa_J23101' # TODO: duplicate of 'http://parts.igem.org/J23101': which ID should it be?
+                    }
+        collated = {o.identity for o in doc.objects if isinstance(o, sbol3.Component)}
+        assert collated == expected, f'Collated parts set does not match expected value: {collated}'
+        sequences = [o for o in doc.objects if isinstance(o,sbol3.Sequence)]
+        assert len(sequences) == 5, f'Collated document should have 5 sequences, but has only {len(sequences)}'
+        # Total: 14 components, 5 sequences, 4 collections, 2 CDs, 1 Activity = 26
+        assert len(doc.objects) == 26, f'Expected 26 TopLevel objects, but found {len(doc.objects)}'
 
 
 if __name__ == '__main__':

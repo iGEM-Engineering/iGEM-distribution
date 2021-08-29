@@ -6,6 +6,7 @@ from copy import copy
 
 import git
 import openpyxl
+import sbol3
 
 # This is the export directory into which sheets and other products will be placed
 EXPORT_DIRECTORY = 'views'
@@ -13,6 +14,19 @@ EXPORT_DIRECTORY = 'views'
 EXPORT_SHEETS = ['Parts and Devices', 'Libraries and Composites']
 # Name of the base SBOL3 export name (not filled in with details)
 SBOL_EXPORT_NAME = 'package_specification.nt'
+SBOL_PACKAGE_NAME = 'package.nt'
+
+# TODO: replace with EDAM format entries when SBOL2 and SBOL3 can be differentiated
+extensions = {
+    'FASTA': {'.fasta', '.fa'},
+    'GenBank': {'.genbank', '.gb'},
+    'SBOL2': {'.xml'},
+    'SBOL3': {sbol3.NTRIPLES: {'.nt'},
+              sbol3.RDF_XML: {'.rdf'},
+              sbol3.TURTLE: {'.ttl'},
+              sbol3.JSONLD: {'.json', '.jsonld'}
+              }
+}
 
 
 def package_dirs() -> List[str]:

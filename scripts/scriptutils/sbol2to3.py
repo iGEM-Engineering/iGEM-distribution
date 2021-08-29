@@ -2,13 +2,15 @@ import logging
 import subprocess
 import glob
 import os
+import tempfile
 import urllib
+from typing import Union
 
 import rdflib
 import sbol2
 import sbol3
 from sbol_utilities.helper_functions import flatten, strip_sbol2_version
-from .part_retrieval import extensions
+from .directories import extensions
 
 # sbol javascript executable based on https://github.com/sboltools/sbolgraph
 # Location: scripts/sbol
@@ -61,7 +63,14 @@ def convert_identities2to3(sbol3_data: str) -> str:
     return g.serialize(format="xml")
 
 
-def convert2to3(sbol2_path: str, namespaces: list = []) -> sbol3.Document:
+def convert2to3(sbol2_doc: Union[str, sbol2.Document], namespaces: list = []) -> sbol3.Document:
+    # if we've started with a
+    if isinstance(sbol2_doc, sbol2.Document):
+        sbol2_path = tempfile.mkstemp(suffix='.xml')[1]
+        sbol2_doc.write(sbol2_path)
+    else:
+        sbol2_path = sbol2_doc
+
     cmd = [SBOL_CONVERTER, '-output', 'sbol3',
            'import', sbol2_path,
            'convert', '--target-sbol-version', '3']
@@ -115,7 +124,7 @@ def convert_package_sbol2_files(package: str) -> dict[str, str]:
     mappings = {}
 
     # import SBOL2
-    for file in flatten(glob.glob(os.path.join(package, ext)) for ext in extensions['SBOL2']):
+    for file in flatten(glob.glob(os.path.join(package, f'*{ext}')) for ext in extensions['SBOL2']):
         print(f'Attempting to convert SBOL2 file {file}')
         file3 = os.path.splitext(file)[0]+'.nt'  # make an SBOL3 version of the file name
         doc2 = sbol2.Document()
