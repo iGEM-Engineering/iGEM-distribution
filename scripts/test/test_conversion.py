@@ -4,6 +4,7 @@ import os
 import filecmp
 from shutil import copy
 
+import sbol2
 import sbol3
 
 import scripts.scriptutils
@@ -38,12 +39,21 @@ class Test2To3Conversion(unittest.TestCase):
         testdir = os.path.dirname(os.path.realpath(__file__))
         input_path = os.path.join(testdir, 'testfiles', 'sbol3-small-molecule.rdf')
         doc = scripts.scriptutils.convert2to3(input_path)
-        # with open(input_path) as fp:
-        #     rdf_data = fp.read()
-        # rdf_data = scripts.scriptutils.convert_identities2to3(rdf_data)
-        # self.assertIsNotNone(rdf_data)
-        # doc = sbol3.Document()
-        # doc.read_string(rdf_data, sbol3.RDF_XML)
+        # check for issues in converted document
+        report = doc.validate()
+        for issue in report:
+            print(issue)
+        assert len(report) == 0
+        # Expecting 9 top level objects, 4 Components, 4 Sequences, and 1 prov:Activity
+        self.assertEqual(9, len(doc.objects))
+
+    def test_convert_object(self):
+        """Test conversion of a loaded SBOL2 document"""
+        testdir = os.path.dirname(os.path.realpath(__file__))
+        input_path = os.path.join(testdir, 'testfiles', 'sbol3-small-molecule.rdf')
+        doc2 = sbol2.Document()
+        doc2.read(input_path)
+        doc = scripts.scriptutils.convert2to3(doc2)
         # check for issues in converted document
         report = doc.validate()
         for issue in report:
@@ -64,7 +74,6 @@ class Test2To3Conversion(unittest.TestCase):
 
         assert filecmp.cmp(os.path.join(tmpsub, 'BBa_J23101.nt'), comparison_file), \
             f'Converted file {comparison_file} is not identical'
-
 
 if __name__ == '__main__':
     unittest.main()
