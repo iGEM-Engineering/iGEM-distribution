@@ -49,7 +49,7 @@ class ImportFile:
         if self.doc:  # If the document already loaded, just return it
             return self.doc
         # Otherwise, load the file, converting if necessary
-        if self.file_type is 'FASTA': # FASTA should be read with NCBI and converted directly into SBOL3
+        if self.file_type == 'FASTA': # FASTA should be read with NCBI and converted directly into SBOL3
             doc = sbol3.Document()
             with open(self.path, 'r') as f:
                 for r in SeqIO.parse(f, 'fasta'):
@@ -59,19 +59,19 @@ class ImportFile:
                     doc.add(seq)
                     doc.add(sbol3.Component(identity, sbol3.SBO_DNA, sequences=[seq]))
             return doc
-        elif self.file_type is 'GenBank':  # GenBank --> SBOL2 --> SBOL3
+        elif self.file_type == 'GenBank':  # GenBank --> SBOL2 --> SBOL3
             doc2 = sbol2.Document()
             sbol2.setHomespace(self.namespace)
             doc2.importFromFormat(self.path)
             doc = convert2to3(doc2, [self.namespace])
             return doc
-        elif self.file_type is 'SBOL2':  # SBOL2 files should all have been turned to SBOL3 already
+        elif self.file_type == 'SBOL2':  # SBOL2 files should all have been turned to SBOL3 already
             logging.warning(f'Should not be importing directly from SBOL2: {self.path}')
             doc2 = sbol2.Document()
             doc2.read(self.path)
             doc = convert2to3(doc2)
             return doc
-        elif self.file_type is 'SBOL3':  # reading from SBOL3 is simple
+        elif self.file_type == 'SBOL3':  # reading from SBOL3 is simple
             doc = sbol3.Document()
             doc.read(self.path)
             return doc

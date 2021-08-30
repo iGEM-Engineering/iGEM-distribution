@@ -126,7 +126,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add */*.gb */*.fasta */*.nt
+          git add */views/*.nt
           git diff-index --quiet HEAD . || git commit -m "Automatically import referenced parts"
 
       - name: Push changes
