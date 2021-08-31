@@ -7,15 +7,15 @@ _Note: automatically generated from package Excel and sequence files; do not edi
 ### Summary:
 
 - 17 parts
-- 4 are missing sequences
+- 0 are missing sequences
 
 ### Parts:
 
 - pSB1C3
-- GFPmut3 (CDS) _<span style="color:red">missing sequence</span>_
-- mKate2 (CDS) _<span style="color:red">missing sequence</span>_
-- mRFP1 (CDS) _<span style="color:red">missing sequence</span>_
-- mScarlet (CDS) _<span style="color:red">missing sequence</span>_
+- GFPmut3 (CDS)
+- mKate2 (engineered_region)
+- mRFP1 (engineered_region)
+- mScarlet (engineered_region)
 - BBa_E0020: ecfp (CDS)
 - BBa_E0030: eyfp (CDS)
 - BBa_E0040: GFP (CDS)
