@@ -1,0 +1,113 @@
+
+<http://parts.igem.org/B0010> <http://sbols.org/v3#description> "TWIST ok\nT1 from E. coli rrnB" .
+<http://parts.igem.org/B0010> <http://sbols.org/v3#displayId> "B0010" .
+<http://parts.igem.org/B0010> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Terminators> .
+<http://parts.igem.org/B0010> <http://sbols.org/v3#hasSequence> <https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/B0010_sequence> .
+<http://parts.igem.org/B0010> <http://sbols.org/v3#name> "Bba_B0010" .
+<http://parts.igem.org/B0010> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000141> .
+<http://parts.igem.org/B0010> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<http://parts.igem.org/B0010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<http://parts.igem.org/B0012> <http://sbols.org/v3#description> "TWIST ok\nTE from coliphageT7" .
+<http://parts.igem.org/B0012> <http://sbols.org/v3#displayId> "B0012" .
+<http://parts.igem.org/B0012> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Terminators> .
+<http://parts.igem.org/B0012> <http://sbols.org/v3#hasSequence> <https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/B0012_sequence> .
+<http://parts.igem.org/B0012> <http://sbols.org/v3#name> "Bba_B0012" .
+<http://parts.igem.org/B0012> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000141> .
+<http://parts.igem.org/B0012> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<http://parts.igem.org/B0012> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<http://parts.igem.org/B0015> <http://sbols.org/v3#description> "Used more than 4.5k times, TWIST ok\ndouble terminator (B0010-B0012)" .
+<http://parts.igem.org/B0015> <http://sbols.org/v3#displayId> "B0015" .
+<http://parts.igem.org/B0015> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Terminators> .
+<http://parts.igem.org/B0015> <http://sbols.org/v3#hasSequence> <https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/B0015_sequence> .
+<http://parts.igem.org/B0015> <http://sbols.org/v3#name> "BBa_B0015" .
+<http://parts.igem.org/B0015> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000141> .
+<http://parts.igem.org/B0015> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<http://parts.igem.org/B0015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/B0010_sequence> <http://sbols.org/v3#displayId> "B0010_sequence" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/B0010_sequence> <http://sbols.org/v3#elements> "CCAGGCATCAAATAAAACGAAAGGCTCAGTCGAAAGACTGGGCCTTTCGTTTTATCTGTTGTTTGTCGGTGAACGCTCTC" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/B0010_sequence> <http://sbols.org/v3#encoding> <https://identifiers.org/edam:format_1207> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/B0010_sequence> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Terminators> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/B0010_sequence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Sequence> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/B0012_sequence> <http://sbols.org/v3#displayId> "B0012_sequence" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/B0012_sequence> <http://sbols.org/v3#elements> "TCACACTGGCTCACCTTCGGGTGGGCCTTTCTGCGTTTATA" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/B0012_sequence> <http://sbols.org/v3#encoding> <https://identifiers.org/edam:format_1207> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/B0012_sequence> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Terminators> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/B0012_sequence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Sequence> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/B0015_sequence> <http://sbols.org/v3#displayId> "B0015_sequence" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/B0015_sequence> <http://sbols.org/v3#elements> "CCAGGCATCAAATAAAACGAAAGGCTCAGTCGAAAGACTGGGCCTTTCGTTTTATCTGTTGTTTGTCGGTGAACGCTCTCTACTAGAGTCACACTGGCTCACCTTCGGGTGGGCCTTTCTGCGTTTATA" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/B0015_sequence> <http://sbols.org/v3#encoding> <https://identifiers.org/edam:format_1207> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/B0015_sequence> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Terminators> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/B0015_sequence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Sequence> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/BBa_B1006_T_U10> <http://sbols.org/v3#description> "99.42% efficiency (Homopolimer of more than 10 bases at the end,  TWIST noOK)" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/BBa_B1006_T_U10> <http://sbols.org/v3#displayId> "BBa_B1006_T_U10" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/BBa_B1006_T_U10> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Terminators> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/BBa_B1006_T_U10> <http://sbols.org/v3#hasSequence> <https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/BBa_B1006_T_U10_sequence> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/BBa_B1006_T_U10> <http://sbols.org/v3#name> "BBa_B1006_T_U10" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/BBa_B1006_T_U10> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000141> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/BBa_B1006_T_U10> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/BBa_B1006_T_U10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/BBa_B1006_T_U10_sequence> <http://sbols.org/v3#displayId> "BBa_B1006_T_U10_sequence" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/BBa_B1006_T_U10_sequence> <http://sbols.org/v3#elements> "AAAAAAAAACCCCGCCCCTGACAGGGCGGGGTTTTTTTTTT" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/BBa_B1006_T_U10_sequence> <http://sbols.org/v3#encoding> <https://identifiers.org/edam:format_1207> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/BBa_B1006_T_U10_sequence> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Terminators> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/BBa_B1006_T_U10_sequence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Sequence> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/BasicParts> <http://sbols.org/v3#displayId> "BasicParts" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/BasicParts> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Terminators> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/BasicParts> <http://sbols.org/v3#member> <http://parts.igem.org/B0010> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/BasicParts> <http://sbols.org/v3#member> <http://parts.igem.org/B0012> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/BasicParts> <http://sbols.org/v3#member> <http://parts.igem.org/B0015> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/BBa_B1006_T_U10> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/rnpB_T1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/rpoC_T> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/BasicParts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/CompositeParts> <http://sbols.org/v3#displayId> "CompositeParts" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/CompositeParts> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Terminators> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/CompositeParts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/FinalProducts> <http://sbols.org/v3#description> "Final products desired for actual fabrication" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/FinalProducts> <http://sbols.org/v3#displayId> "FinalProducts" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/FinalProducts> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Terminators> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/FinalProducts> <http://sbols.org/v3#member> <http://parts.igem.org/B0010> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/FinalProducts> <http://sbols.org/v3#member> <http://parts.igem.org/B0012> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/FinalProducts> <http://sbols.org/v3#member> <http://parts.igem.org/B0015> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/FinalProducts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/BBa_B1006_T_U10> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/FinalProducts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/rnpB_T1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/FinalProducts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/rpoC_T> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/FinalProducts> <http://sbols.org/v3#name> "Final Products" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/FinalProducts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/LinearDNAProducts> <http://sbols.org/v3#description> "Linear DNA constructs to be fabricated" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/LinearDNAProducts> <http://sbols.org/v3#displayId> "LinearDNAProducts" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/LinearDNAProducts> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Terminators> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/LinearDNAProducts> <http://sbols.org/v3#member> <http://parts.igem.org/B0010> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/LinearDNAProducts> <http://sbols.org/v3#member> <http://parts.igem.org/B0012> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/LinearDNAProducts> <http://sbols.org/v3#member> <http://parts.igem.org/B0015> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/LinearDNAProducts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/BBa_B1006_T_U10> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/LinearDNAProducts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/rnpB_T1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/LinearDNAProducts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/rpoC_T> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/LinearDNAProducts> <http://sbols.org/v3#name> "Linear DNA Products" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/LinearDNAProducts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/rnpB_T1> <http://sbols.org/v3#description> "99.17% efficiency, TWIST ok" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/rnpB_T1> <http://sbols.org/v3#displayId> "rnpB_T1" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/rnpB_T1> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Terminators> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/rnpB_T1> <http://sbols.org/v3#hasSequence> <https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/rnpB_T1_sequence> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/rnpB_T1> <http://sbols.org/v3#name> "rnpB_T1" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/rnpB_T1> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000141> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/rnpB_T1> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/rnpB_T1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/rnpB_T1_sequence> <http://sbols.org/v3#displayId> "rnpB_T1_sequence" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/rnpB_T1_sequence> <http://sbols.org/v3#elements> "TCGGTCAGTTTCACCTGATTTACGTAAAAACCCGCTTCGGCGGGTTTTTGCTTTTGGAGGGGCAGAAAGATGAATGACTGTC" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/rnpB_T1_sequence> <http://sbols.org/v3#encoding> <https://identifiers.org/edam:format_1207> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/rnpB_T1_sequence> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Terminators> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/rnpB_T1_sequence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Sequence> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/rpoC_T> <http://sbols.org/v3#description> "98.99% efficiency,  TWIST ok" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/rpoC_T> <http://sbols.org/v3#displayId> "rpoC_T" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/rpoC_T> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Terminators> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/rpoC_T> <http://sbols.org/v3#hasSequence> <https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/rpoC_T_sequence> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/rpoC_T> <http://sbols.org/v3#name> "rpoC_T" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/rpoC_T> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000141> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/rpoC_T> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/rpoC_T> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/rpoC_T_sequence> <http://sbols.org/v3#displayId> "rpoC_T_sequence" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/rpoC_T_sequence> <http://sbols.org/v3#elements> "GTAATCGTTAATCCGCAAATAACGTAAAAACCCGCTTCGGCGGGTTTTTTTATGGGGGGAGTTTAGGGAAAGAGCATTTGTCA" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/rpoC_T_sequence> <http://sbols.org/v3#encoding> <https://identifiers.org/edam:format_1207> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/rpoC_T_sequence> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Terminators> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/rpoC_T_sequence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Sequence> .
