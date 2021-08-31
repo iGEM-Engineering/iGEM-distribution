@@ -7,7 +7,7 @@ from shutil import copy
 import sbol3
 
 from scripts.scriptutils import part_retrieval, EXPORT_DIRECTORY, SBOL_PACKAGE_NAME, IGEM_FASTA_CACHE_FILE, \
-    GENBANK_CACHE_FILE
+    GENBANK_CACHE_FILE, convert_package_sbol2_files
 
 
 def copy_to_tmp() -> str:
@@ -27,7 +27,7 @@ def copy_to_tmp() -> str:
     copy(os.path.join(testdir, 'testfiles', 'test_sequence.fasta'), tmpsub)
     copy(os.path.join(testdir, 'testfiles', 'J23102-modified.fasta'), tmpsub)
     copy(os.path.join(testdir, 'testfiles', 'two_sequences.gb'), tmpsub)
-    copy(os.path.join(testdir, 'testfiles', 'BBa_J23101.xml'), tmpsub)
+    copy(os.path.join(testdir, 'testfiles', 'BBa_J23101.nt'), tmpsub)
     copy(os.path.join(testdir, 'testfiles', EXPORT_DIRECTORY, 'package_specification.nt'), tmpexport)
     return tmpsub
 
@@ -44,14 +44,14 @@ class TestImportParts(unittest.TestCase):
             f'Expected 4 files, found {len(inventory.files)}: {[f.path for f in inventory.files]}'
         pkg = 'https://github.com/iGEM-Engineering/iGEM-distribution/test_package/'
         expected = {f'{pkg}NM_005341_4': f'{pkg}NM_005341_4',
-                    f'{pkg}NM_005342': f'{pkg}NM_005342_4',
-                    f'{pkg}NM_005342_4': f'{pkg}NM_005342_4',
-                    f'{pkg}NM_005343': f'{pkg}NM_005343_4',
-                    f'{pkg}NM_005343_4': f'{pkg}NM_005343_4',
-                    'https://github.com/iGEM-Engineering/iGEM-distribution/test_package/J23102-modified':
-                        'https://github.com/iGEM-Engineering/iGEM-distribution/test_package/J23102-modified',
-                    'http://parts.igem.org/J23101': 'http://parts.igem.org/J23101',
-                    'http://parts.igem.org/J23101/1': 'http://parts.igem.org/J23101'}
+                    f'{pkg}NM_005342': f'{pkg}NM_005342',
+                    f'{pkg}NM_005342_4': f'{pkg}NM_005342',
+                    f'{pkg}NM_005343': f'{pkg}NM_005343',
+                    f'{pkg}NM_005343_4': f'{pkg}NM_005343',
+                    'https://github.com/iGEM-Engineering/iGEM-distribution/test_package/J23102_modified':
+                        'https://github.com/iGEM-Engineering/iGEM-distribution/test_package/J23102_modified',
+                    'https://synbiohub.org/public/igem/BBa_J23101': 'https://synbiohub.org/public/igem/BBa_J23101',
+                    'http://parts.igem.org/J23101': 'https://synbiohub.org/public/igem/BBa_J23101'}
         assert inventory.aliases == expected, f'Inventory aliases do not match expected value: {inventory.aliases}'
 
     def test_import(self):
@@ -66,12 +66,14 @@ class TestImportParts(unittest.TestCase):
                     'https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/LmrA']
         assert retrieved == expected, f'Retrieved parts list does not match expected value: {retrieved}'
         testdir = os.path.dirname(os.path.realpath(__file__))
-        # note: targets to check doesn't include SBOL2 cache, since that isn't serialized in predictable order
-        targets = [IGEM_FASTA_CACHE_FILE, GENBANK_CACHE_FILE]
+        # convert the retrieved SBOL2 file to SBOL3
+        convert_package_sbol2_files(tmpsub)
+        targets = [IGEM_FASTA_CACHE_FILE, GENBANK_CACHE_FILE, 'iGEM_SBOL2_imports.nt']
         for t in targets:
             test_file = os.path.join(tmpsub, t)
             comparison_file = os.path.join(testdir, 'testfiles', t)
             assert filecmp.cmp(test_file, comparison_file), f'Parts cache file {t} is not identical'
+
 
         # running import again should download nothing new but continue with just the one part
         retrieved = part_retrieval.import_parts(tmpsub)
@@ -84,29 +86,36 @@ class TestImportParts(unittest.TestCase):
     def test_collation(self):
         """Test ability to collate parts based on a specification"""
         tmpsub = copy_to_tmp()
-        doc = part_retrieval.collate_package(tmpsub)
+        # copy cache tests also
+        testdir = os.path.dirname(os.path.realpath(__file__))
+        copy(os.path.join(testdir, 'testfiles', IGEM_FASTA_CACHE_FILE), tmpsub)
+        copy(os.path.join(testdir, 'testfiles', GENBANK_CACHE_FILE), tmpsub)
+        copy(os.path.join(testdir, 'testfiles', 'iGEM_SBOL2_imports.nt'), tmpsub)
+
+        part_retrieval.collate_package(tmpsub)
+        doc = sbol3.Document()
+        doc.read(os.path.join(tmpsub, EXPORT_DIRECTORY, SBOL_PACKAGE_NAME))
         # composite document should have 5 imported parts plus 6 parts that aren't yet imported, plus 2 templates
-        # currently has an extra due
         pkg = 'https://github.com/iGEM-Engineering/iGEM-distribution/test_package/'
         expected = {f'{pkg}Anderson_Promoters_in_vector_ins_template', f'{pkg}Anderson_Promoters_in_vector_template',
-                    'http://parts.igem.org/J23100', 'http://parts.igem.org/J23101', 'http://parts.igem.org/J23102',
+                    'https://synbiohub.org/public/igem/BBa_J23100',
+                    'https://synbiohub.org/public/igem/BBa_J23101',
+                    'https://synbiohub.org/public/igem/BBa_J23102',
                     'http://parts.igem.org/pSB1C3', f'{pkg}pOpen_v4',
-                    'https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115_1',
+                    'https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115',
                     'https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/LmrA',
                     f'{pkg}J23102_modified',
                     # TODO: import issues to fix:
-                    f'{pkg}NM_005341_4', f'{pkg}NM_005342', f'{pkg}NM_005343', # TODO: should these be bare or versioned?
-                    'https://synbiohub.org/public/igem/BBa_J23101' # TODO: duplicate of 'http://parts.igem.org/J23101': which ID should it be?
+                    f'{pkg}NM_005341_4', f'{pkg}NM_005342', f'{pkg}NM_005343'  # TODO: should these be bare or versioned?
                     }
         collated = {o.identity for o in doc.objects if isinstance(o, sbol3.Component)}
         assert collated == expected, f'Collated parts set does not match expected value: {collated}'
         sequences = [o for o in doc.objects if isinstance(o, sbol3.Sequence)]
-        assert len(sequences) == 5, f'Collated document should have 5 sequences, but has only {len(sequences)}'
-        # Total: 14 components, 5 sequences, 4 collections, 2 CDs, 1 Activity = 26
-        assert len(doc.objects) == 26, f'Expected 26 TopLevel objects, but found {len(doc.objects)}'
+        assert len(sequences) == 10, f'Collated document should have 10 sequences, but found {len(sequences)}'
+        # Total: 13 components, 10 sequences, 4 collections, 2 CDs, 2 Activity, 1 agent, 1 attachment = 33
+        assert len(doc.objects) == 33, f'Expected 33 TopLevel objects, but found {len(doc.objects)}'
 
         # check that the file is identical to expectation
-        testdir = os.path.dirname(os.path.realpath(__file__))
         comparison_file = os.path.join(testdir, 'testfiles', EXPORT_DIRECTORY, SBOL_PACKAGE_NAME)
         test_file = os.path.join(tmpsub, EXPORT_DIRECTORY, SBOL_PACKAGE_NAME)
         assert filecmp.cmp(test_file, comparison_file), f'Collated file is not identical'
