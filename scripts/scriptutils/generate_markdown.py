@@ -5,6 +5,7 @@ import tyto
 
 import sbol_utilities.excel_to_sbol
 from sbol_utilities.helper_functions import id_sort
+from .package_production import BUILD_PRODUCTS_COLLECTION
 
 SUMMARY_FILE = 'README.md'  # markdown for summary
 
@@ -17,6 +18,7 @@ def generate_package_summary(package: str, doc: sbol3.Document):
     """
     # TODO: use combinatorial derivations and expansions
     parts_list = doc.find(sbol_utilities.excel_to_sbol.BASIC_PARTS_COLLECTION)
+    build_plan = doc.find(BUILD_PRODUCTS_COLLECTION)
     if not isinstance(parts_list,sbol3.Collection):
         raise ValueError
 
@@ -28,11 +30,20 @@ def generate_package_summary(package: str, doc: sbol3.Document):
 
         # Next, statistics and errors
         f.write(f'### Summary:\n\n')
-        f.write(f'- {len(parts_list.members)} parts\n')
-        missing_seq = [str(m) for m in parts_list.members if len(m.lookup().sequences)==0]
-        f.write(f'- {len(missing_seq)} are missing sequences\n')
+        # Part count
+        # TODO: separate parts from vectors
+        vectors = [m for m in parts_list.members if tyto.SO.get_uri_by_term('plasmid') in m.lookup().roles]
+        non_vectors = [m for m in parts_list.members if m not in vectors]
+        missing_seq = [str(m) for m in non_vectors if len(m.lookup().sequences) == 0]
+        missing_vec = [str(m) for m in vectors if len(m.lookup().sequences) == 0]
+        missings = f' _<span style="color:red">{len(missing_seq)} missing sequences</span>_' if missing_seq else ''
+        f.write(f'- {len(non_vectors)} parts{missings}\n')
+        missings = f' _<span style="color:red">{len(missing_vec)} missing sequences</span>_' if missing_vec else ''
+        f.write(f'- {len(vectors)} vectors{missings}\n')
         # TODO: inventory the common types of parts, e.g., promoter, CDS, terminator
-        f.write('\n')  # section break
+        # Build information
+        f.write(f'- {len(build_plan.members)} samples for distribution')
+        f.write('\n\n')  # section break
 
         # Finally, a list of all the parts and their UIDs
         f.write(f'### Parts:\n\n')

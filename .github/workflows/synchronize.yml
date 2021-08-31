@@ -122,6 +122,9 @@ jobs:
       - name: Collate packages
         run: python3 scripts/collate_packages.py
 
+      - name: Create vector build plans
+        run: python3 scripts/expand_combinations.py
+
       - name: Generate markdown from packages
         run: python3 scripts/generate_markdown.py
 

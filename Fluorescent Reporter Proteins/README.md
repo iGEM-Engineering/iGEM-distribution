@@ -5,7 +5,6 @@ None
 ### Summary:
 
 - 17 parts
-- 0 are missing sequences
 
 ### Parts:
 
