@@ -1,3 +1,4 @@
+import logging
 import os
 
 import rdflib
@@ -84,8 +85,12 @@ def expand_build_plan(package: str) -> sbol3.Document:
     roots = list(root_combinatorial_derivations(doc))
     # TODO: change namespace handling after resolution of https://github.com/SynBioDex/pySBOL3/issues/288
     sbol3.set_namespace(package_stem(package))
-    derivative_collections = expand_derivations(roots)
-    doc.add(sbol3.Collection(BUILD_PRODUCTS_COLLECTION, members=flatten(c.members for c in derivative_collections)))
+    if roots:
+        derivative_collections = expand_derivations(roots)
+        doc.add(sbol3.Collection(BUILD_PRODUCTS_COLLECTION, members=flatten(c.members for c in derivative_collections)))
+    else:
+        logging.warning(f'No samples specified be built in package {package}')
+        doc.add(sbol3.Collection(BUILD_PRODUCTS_COLLECTION))
     # Make sure the document is valid
     report = doc.validate()
     if len(report):

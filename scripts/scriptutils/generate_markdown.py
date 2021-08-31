@@ -43,6 +43,8 @@ def generate_package_summary(package: str, doc: sbol3.Document):
         # TODO: inventory the common types of parts, e.g., promoter, CDS, terminator
         # Build information
         f.write(f'- {len(build_plan.members)} samples for distribution')
+        if not build_plan.members:
+            f.write(f'_<span style="color:red">No samples planned to be built for distribution</span>_')
         f.write('\n\n')  # section break
 
         # Finally, a list of all the parts and their UIDs
