@@ -10,7 +10,7 @@ for p in packages:
 
     print(f'Collating specification and imports into complete package {os.path.basename(p)}')
     try:
-        doc = scriptutils.collate_package(p)
+        scriptutils.collate_package(p)
 
     except (OSError, ValueError) as e:
         print(f'Could not collate package {os.path.basename(p)}: {e}')

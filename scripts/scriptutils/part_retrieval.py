@@ -6,6 +6,7 @@ import glob
 from typing import List
 from urllib.error import HTTPError
 
+import rdflib
 from Bio import Entrez, SeqIO
 import sbol2
 import sbol3
@@ -37,7 +38,7 @@ class ImportFile:
         if file_type not in extensions.keys():
             raise ValueError(f'Unknown file type: "{file_type}"')
         self.file_type = file_type
-        self.namespace = namespace
+        self.namespace = namespace.removesuffix('/') if namespace else None
         self.doc = None
 
     def get_sbol3_doc(self) -> sbol3.Document:
@@ -55,9 +56,10 @@ class ImportFile:
                 for r in SeqIO.parse(f, 'fasta'):
                     identity = self.namespace+'/'+string_to_display_id(r.id)
                     seq = sbol3.Sequence(identity+'_sequence', name=r.name, description=r.description,
-                                         elements=str(r.seq), encoding=sbol3.IUPAC_DNA_ENCODING)
+                                         elements=str(r.seq), encoding=sbol3.IUPAC_DNA_ENCODING,
+                                         namespace=self.namespace)
                     doc.add(seq)
-                    doc.add(sbol3.Component(identity, sbol3.SBO_DNA, sequences=[seq]))
+                    doc.add(sbol3.Component(identity, sbol3.SBO_DNA, sequences=[seq], namespace=self.namespace))
             return doc
         elif self.file_type == 'GenBank':  # GenBank --> SBOL2 --> SBOL3
             doc2 = sbol2.Document()
@@ -131,7 +133,7 @@ def accession_to_sbol_uri(accession: str, prefix: str = NCBI_PREFIX) -> str:
     """
     if not prefix.endswith('/'):
         prefix += '/'
-    return f'{prefix}{accession.replace(".","_")}'
+    return f'{prefix}{string_to_display_id(accession)}'
 
 
 def retrieve_genbank_accessions(ids: List[str], package: str) -> List[str]:
@@ -300,7 +302,7 @@ def package_parts_inventory(package: str) -> PackageInventory:
     inventory = PackageInventory()
 
     # import FASTAs and GenBank
-    for file in flatten(glob.glob(os.path.join(package, f'*{ext}')) for ext in extensions['FASTA']):
+    for file in sorted(flatten(glob.glob(os.path.join(package, f'*{ext}')) for ext in extensions['FASTA'])):
         is_igem_cache = os.path.basename(file) == IGEM_FASTA_CACHE_FILE
         prefix = iGEM_SOURCE_PREFIX if is_igem_cache else package_stem(package)
         with open(file) as f:
@@ -308,33 +310,33 @@ def package_parts_inventory(package: str) -> PackageInventory:
             for record in SeqIO.parse(f, "fasta"):
                 inventory.add(import_file, accession_to_sbol_uri(record.id, prefix))
 
-    for file in flatten(glob.glob(os.path.join(package, f'*{ext}')) for ext in extensions['GenBank']):
+    for file in sorted(flatten(glob.glob(os.path.join(package, f'*{ext}')) for ext in extensions['GenBank'])):
         is_ncbi_cache = os.path.basename(file) == GENBANK_CACHE_FILE
         prefix = NCBI_PREFIX if is_ncbi_cache else package_stem(package)
         with open(file) as f:
             import_file = ImportFile(file, file_type='GenBank', namespace=prefix)
             for record in SeqIO.parse(f, "gb"):
-                inventory.add(import_file, accession_to_sbol_uri(record.id, prefix),
-                              accession_to_sbol_uri(record.name,prefix))
+                inventory.add(import_file, accession_to_sbol_uri(record.name, prefix),
+                              accession_to_sbol_uri(record.id,prefix))
 
     # import SBOL2
-    for file in flatten(glob.glob(os.path.join(package, f'*{ext}')) for ext in extensions['SBOL2']):
-        doc = sbol2.Document()
-        doc.read(file)
-        import_file = ImportFile(file, file_type='SBOL2')
-        cds = [obj for obj in doc if isinstance(obj,sbol2.ComponentDefinition)]
-        for cd in cds:
-            inventory.add(import_file, remap_prefix(cd.persistentIdentity), remap_prefix(cd.identity))
+    # for file in sorted(flatten(glob.glob(os.path.join(package, f'*{ext}')) for ext in extensions['SBOL2'])):
+    #     doc = sbol2.Document()
+    #     doc.read(file)
+    #     import_file = ImportFile(file, file_type='SBOL2')
+    #     cds = [obj for obj in doc if isinstance(obj,sbol2.ComponentDefinition)]
+    #     for cd in cds:
+    #         inventory.add(import_file, remap_prefix(cd.persistentIdentity), remap_prefix(cd.identity))
 
     # import SBOL3
     for rdf_type,patterns in extensions['SBOL3'].items():
-        for file in flatten(glob.glob(os.path.join(package, f'*{ext}')) for ext in patterns):
+        for file in sorted(flatten(glob.glob(os.path.join(package, f'*{ext}')) for ext in patterns)):
             doc = sbol3.Document()
             doc.read(file)
             import_file = ImportFile(file, file_type='SBOL3')
             ids = [obj.identity for obj in doc.objects if isinstance(obj,sbol3.Component)]
             for i in ids:
-                inventory.add(import_file, remap_prefix(i))
+                inventory.add(import_file, i, remap_prefix(i))
 
     return inventory
 
@@ -393,11 +395,11 @@ def import_parts(package: str) -> list[str]:
         return retrieved
 
 
-def collate_package(package: str) -> sbol3.Document:
+def collate_package(package: str) -> None:
     """Given a package specification and an inventory of parts, unify them into a complete SBOL3 package & write it out
 
     :param package: path of package to search
-    :return: document created
+    :return: None: would return document, except that rewriting requires change to RDF graph
     """
     # read the package specification
     print(f'Collating materials for package {package}')
@@ -405,20 +407,48 @@ def collate_package(package: str) -> sbol3.Document:
     doc = sbol3.Document()
     doc.read(spec_name, sbol3.SORTED_NTRIPLES)
 
-    # collect the inventory, copying the contents of each file into the main document
+    # collect the inventory
     inventory = package_parts_inventory(package)
+
+    # search old object for aliases; if found, remove and add to rewriting plan
+    rewriting_plan = {}
+    print(f'aliases: {inventory.aliases}')
+    print(f'identifies: {[o.identity for o in doc.objects]}')
+    to_remove = [o for o in doc.objects if o.identity in inventory.aliases]
+    print(f'  Removing {len(to_remove)} objects to be replaced by imports')
+    print(f'Removal list: {[o.identity for o in to_remove]}')
+    for o in to_remove:
+        doc.objects.remove(o)
+
+    # copy the contents of each file into the main document
     for f in inventory.files:
         import_doc = f.get_sbol3_doc()
         print(f'  Importing {len(import_doc.objects)} objects from file {f.path}')
         for o in import_doc.objects:
-            cur_obj = doc.find(o.identity)
-            if cur_obj:
-                doc.objects.remove(cur_obj)  # remove old copy, if it exists
-            o.copy(doc)  # copy the imported object into the document
+            if o.identity in (o.identity for o in doc.objects):
+                continue  # TODO: add a more principled way of handling duplicates
+            o.copy(doc)
             # TODO: figure out how to merge information from Excel specs
+
+    # TODO: remove graph workaround on resolution of https://github.com/SynBioDex/pySBOL3/issues/207
+    # Change to a graph in order to rewrite identities:
+    g = doc.graph()
+    rewriting_plan = {o.identity:inventory.aliases[o.identity]
+                      for o in to_remove if inventory.aliases[o.identity] != o.identity}
+    print(f'  Rewriting {len(rewriting_plan)} objects to their aliases: {rewriting_plan}')
+    for old_identity, new_identity in rewriting_plan.items():
+        # Update all triples where old_identity is the object
+        for s, p, o in g.triples((None, None, rdflib.URIRef(old_identity))):
+            g.add((s, p, rdflib.URIRef(new_identity)))
+            g.remove((s, p, o))
 
     # write composite file into the target directory
     target_name = os.path.join(package, EXPORT_DIRECTORY, SBOL_PACKAGE_NAME)
     print(f'  Writing collated document to {target_name}')
-    doc.write(target_name, sbol3.SORTED_NTRIPLES)
-    return doc
+    # TODO: code taken from pySBOL3 until resolution of https://github.com/SynBioDex/pySBOL3/issues/207
+    nt_text = g.serialize(format=sbol3.NTRIPLES)
+    lines = nt_text.splitlines(keepends=True)
+    lines.sort()
+    serialized = b''.join(lines).decode()
+    with open(target_name, 'w') as outfile:
+        outfile.write(serialized)

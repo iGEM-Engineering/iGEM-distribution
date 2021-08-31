@@ -1,33 +1,16 @@
 
-<http://parts.igem.org/J23100> <http://sbols.org/v3#description> "" .
-<http://parts.igem.org/J23100> <http://sbols.org/v3#displayId> "J23100" .
-<http://parts.igem.org/J23100> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/test_package> .
-<http://parts.igem.org/J23100> <http://sbols.org/v3#name> "J23100" .
-<http://parts.igem.org/J23100> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000167> .
-<http://parts.igem.org/J23100> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
-<http://parts.igem.org/J23100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
-<http://parts.igem.org/J23101> <http://sbols.org/v3#description> "" .
-<http://parts.igem.org/J23101> <http://sbols.org/v3#displayId> "J23101" .
-<http://parts.igem.org/J23101> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/test_package> .
-<http://parts.igem.org/J23101> <http://sbols.org/v3#name> "J23101" .
-<http://parts.igem.org/J23101> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000167> .
-<http://parts.igem.org/J23101> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
-<http://parts.igem.org/J23101> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
-<http://parts.igem.org/J23102> <http://sbols.org/v3#description> "" .
-<http://parts.igem.org/J23102> <http://sbols.org/v3#displayId> "J23102" .
-<http://parts.igem.org/J23102> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/test_package> .
-<http://parts.igem.org/J23102> <http://sbols.org/v3#name> "J23102" .
-<http://parts.igem.org/J23102> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000167> .
-<http://parts.igem.org/J23102> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
-<http://parts.igem.org/J23102> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
-<http://parts.igem.org/pSB1C3> <http://sbols.org/v3#description> "" .
 <http://parts.igem.org/pSB1C3> <http://sbols.org/v3#displayId> "pSB1C3" .
-<http://parts.igem.org/pSB1C3> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/test_package> .
-<http://parts.igem.org/pSB1C3> <http://sbols.org/v3#name> "pSB1C3" .
-<http://parts.igem.org/pSB1C3> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000155> .
+<http://parts.igem.org/pSB1C3> <http://sbols.org/v3#hasNamespace> <http://parts.igem.org> .
+<http://parts.igem.org/pSB1C3> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/pSB1C3_sequence> .
 <http://parts.igem.org/pSB1C3> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
-<http://parts.igem.org/pSB1C3> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
 <http://parts.igem.org/pSB1C3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<http://parts.igem.org/pSB1C3_sequence> <http://sbols.org/v3#description> " pSB1C3" .
+<http://parts.igem.org/pSB1C3_sequence> <http://sbols.org/v3#displayId> "pSB1C3_sequence" .
+<http://parts.igem.org/pSB1C3_sequence> <http://sbols.org/v3#elements> "tactagtagcggccgctgcagtccggcaaaaaagggcaaggtgtcaccaccctgccctttttctttaaaaccgaaaagattacttcgcgttatgcaggcttcctcgctcactgactcgctgcgctcggtcgttcggctgcggcgagcggtatcagctcactcaaaggcggtaatacggttatccacagaatcaggggataacgcaggaaagaacatgtgagcaaaaggccagcaaaaggccaggaaccgtaaaaaggccgcgttgctggcgtttttccacaggctccgcccccctgacgagcatcacaaaaatcgacgctcaagtcagaggtggcgaaacccgacaggactataaagataccaggcgtttccccctggaagctccctcgtgcgctctcctgttccgaccctgccgcttaccggatacctgtccgcctttctcccttcgggaagcgtggcgctttctcatagctcacgctgtaggtatctcagttcggtgtaggtcgttcgctccaagctgggctgtgtgcacgaaccccccgttcagcccgaccgctgcgccttatccggtaactatcgtcttgagtccaacccggtaagacacgacttatcgccactggcagcagccactggtaacaggattagcagagcgaggtatgtaggcggtgctacagagttcttgaagtggtggcctaactacggctacactagaagaacagtatttggtatctgcgctctgctgaagccagttaccttcggaaaaagagttggtagctcttgatccggcaaacaaaccaccgctggtagcggtggtttttttgtttgcaagcagcagattacgcgcagaaaaaaaggatctcaagaagatcctttgatcttttctacggggtctgacgctcagtggaacgaaaactcacgttaagggattttggtcatgagattatcaaaaaggatcttcacctagatccttttaaattaaaaatgaagttttaaatcaatctaaagtatatatgagtaaacttggtctgacagctcgaggcttggattctcaccaataaaaaacgcccggcggcaaccgagcgttctgaacaaatccagatggagttctgaggtcattactggatctatcaacaggagtccaagcgagctcgatatcaaattacgccccgccctgccactcatcgcagtactgttgtaattcattaagcattctgccgacatggaagccatcacaaacggcatgatgaacctgaatcgccagcggcatcagcaccttgtcgccttgcgtataatatttgcccatggtgaaaacgggggcgaagaagttgtccatattggccacgtttaaatcaaaactggtgaaactcacccagggattggctgagacgaaaaacatattctcaataaaccctttagggaaataggccaggttttcaccgtaacacgccacatcttgcgaatatatgtgtagaaactgccggaaatcgtcgtggtattcactccagagcgatgaaaacgtttcagtttgctcatggaaaacggtgtaacaagggtgaacactatcccatatcaccagctcaccgtctttcattgccatacgaaattccggatgagcattcatcaggcgggcaagaatgtgaataaaggccggataaaacttgtgcttatttttctttacggtctttaaaaaggccgtaatatccagctgaacggtctggttataggtacattgagcaactgactgaaatgcctcaaaatgttctttacgatgccattgggatatatcaacggtggtatatccagtgatttttttctccattttagcttccttagctcctgaaaatctcgataactcaaaaaatacgcccggtagtgatcttatttcattatggtgaaagttggaacctcttacgtgcccgatcaactcgagtgccacctgacgtctaagaaaccattattatcatgacattaacctataaaaataggcgtatcacgaggcagaatttcagataaaaaaaatccttagctttcgctaaggatgatttctggaattcgcggccgcttctagag" .
+<http://parts.igem.org/pSB1C3_sequence> <http://sbols.org/v3#encoding> <https://identifiers.org/edam:format_1207> .
+<http://parts.igem.org/pSB1C3_sequence> <http://sbols.org/v3#hasNamespace> <http://parts.igem.org> .
+<http://parts.igem.org/pSB1C3_sequence> <http://sbols.org/v3#name> "pSB1C3" .
+<http://parts.igem.org/pSB1C3_sequence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Sequence> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/test_package/Anderson_Promoters_in_vector/VariableFeature1> <http://sbols.org/v3#cardinality> <http://sbols.org/v3#one> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/test_package/Anderson_Promoters_in_vector/VariableFeature1> <http://sbols.org/v3#displayId> "VariableFeature1" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/test_package/Anderson_Promoters_in_vector/VariableFeature1> <http://sbols.org/v3#variable> <https://github.com/iGEM-Engineering/iGEM-distribution/test_package/Anderson_Promoters_in_vector_template/LocalSubComponent1> .
@@ -49,9 +32,9 @@
 <https://github.com/iGEM-Engineering/iGEM-distribution/test_package/Anderson_Promoters_in_vector_ins/VariableFeature1> <http://sbols.org/v3#cardinality> <http://sbols.org/v3#one> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/test_package/Anderson_Promoters_in_vector_ins/VariableFeature1> <http://sbols.org/v3#displayId> "VariableFeature1" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/test_package/Anderson_Promoters_in_vector_ins/VariableFeature1> <http://sbols.org/v3#variable> <https://github.com/iGEM-Engineering/iGEM-distribution/test_package/Anderson_Promoters_in_vector_ins_template/LocalSubComponent1> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/test_package/Anderson_Promoters_in_vector_ins/VariableFeature1> <http://sbols.org/v3#variant> <http://parts.igem.org/J23100> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/test_package/Anderson_Promoters_in_vector_ins/VariableFeature1> <http://sbols.org/v3#variant> <http://parts.igem.org/J23101> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/test_package/Anderson_Promoters_in_vector_ins/VariableFeature1> <http://sbols.org/v3#variant> <http://parts.igem.org/J23102> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/test_package/Anderson_Promoters_in_vector_ins/VariableFeature1> <http://sbols.org/v3#variant> <https://synbiohub.org/public/igem/BBa_J23100> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/test_package/Anderson_Promoters_in_vector_ins/VariableFeature1> <http://sbols.org/v3#variant> <https://synbiohub.org/public/igem/BBa_J23101> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/test_package/Anderson_Promoters_in_vector_ins/VariableFeature1> <http://sbols.org/v3#variant> <https://synbiohub.org/public/igem/BBa_J23102> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/test_package/Anderson_Promoters_in_vector_ins/VariableFeature1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#VariableFeature> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/test_package/Anderson_Promoters_in_vector_ins> <http://sbols.org/v3#description> "" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/test_package/Anderson_Promoters_in_vector_ins> <http://sbols.org/v3#displayId> "Anderson_Promoters_in_vector_ins" .
@@ -100,14 +83,14 @@
 <https://github.com/iGEM-Engineering/iGEM-distribution/test_package/BasicParts> <http://sbols.org/v3#description> "The Anderson Promoters are a well-established set of constitutive promoters at varying expression levels." .
 <https://github.com/iGEM-Engineering/iGEM-distribution/test_package/BasicParts> <http://sbols.org/v3#displayId> "BasicParts" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/test_package/BasicParts> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/test_package> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/test_package/BasicParts> <http://sbols.org/v3#member> <http://parts.igem.org/J23100> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/test_package/BasicParts> <http://sbols.org/v3#member> <http://parts.igem.org/J23101> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/test_package/BasicParts> <http://sbols.org/v3#member> <http://parts.igem.org/J23102> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/test_package/BasicParts> <http://sbols.org/v3#member> <http://parts.igem.org/pSB1C3> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/test_package/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/test_package/J23102_modified> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/test_package/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/test_package/pOpen_v4> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/test_package/BasicParts> <http://sbols.org/v3#member> <https://synbiohub.org/public/igem/BBa_J23100> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/test_package/BasicParts> <http://sbols.org/v3#member> <https://synbiohub.org/public/igem/BBa_J23101> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/test_package/BasicParts> <http://sbols.org/v3#member> <https://synbiohub.org/public/igem/BBa_J23102> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/test_package/BasicParts> <http://sbols.org/v3#member> <https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/LmrA> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/test_package/BasicParts> <http://sbols.org/v3#member> <https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115_1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/test_package/BasicParts> <http://sbols.org/v3#member> <https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/test_package/BasicParts> <http://sbols.org/v3#name> "Anderson Promoters" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/test_package/BasicParts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Collection> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/test_package/CompositeParts> <http://sbols.org/v3#description> "The Anderson Promoters are a well-established set of constitutive promoters at varying expression levels." .
@@ -999,6 +982,51 @@
 <https://github.com/iGEM-Engineering/iGEM-distribution/test_package/pOpen_v4> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/test_package/pOpen_v4> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/test_package/pOpen_v4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://synbiohub.org/public/igem/BBa_J23100> <http://purl.org/dc/elements/1.1/creator> "John Anderson" .
+<https://synbiohub.org/public/igem/BBa_J23100> <http://purl.org/dc/terms/created> "2006-08-03T11:00:00Z" .
+<https://synbiohub.org/public/igem/BBa_J23100> <http://purl.org/dc/terms/modified> "2015-08-31T04:08:40Z" .
+<https://synbiohub.org/public/igem/BBa_J23100> <http://sbols.org/v3#description> "constitutive promoter family member" .
+<https://synbiohub.org/public/igem/BBa_J23100> <http://sbols.org/v3#displayId> "BBa_J23100" .
+<https://synbiohub.org/public/igem/BBa_J23100> <http://sbols.org/v3#hasNamespace> <https://synbiohub.org> .
+<https://synbiohub.org/public/igem/BBa_J23100> <http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/BBa_J23100_sequence> .
+<https://synbiohub.org/public/igem/BBa_J23100> <http://sbols.org/v3#name> "BBa_J23100" .
+<https://synbiohub.org/public/igem/BBa_J23100> <http://sbols.org/v3#role> <http://identifiers.org/so/SO:0000167> .
+<https://synbiohub.org/public/igem/BBa_J23100> <http://sbols.org/v3#role> <http://wiki.synbiohub.org/wiki/Terms/igem#partType/Regulatory> .
+<https://synbiohub.org/public/igem/BBa_J23100> <http://sbols.org/v3#type> <http://www.biopax.org/release/biopax-level3.owl#DnaRegion> .
+<https://synbiohub.org/public/igem/BBa_J23100> <http://sboltools.org/backport#sbol2type> <http://sbols.org/v2#ComponentDefinition> .
+<https://synbiohub.org/public/igem/BBa_J23100> <http://sboltools.org/backport#sbol2version> "1" .
+<https://synbiohub.org/public/igem/BBa_J23100> <http://wiki.synbiohub.org/wiki/Terms/igem#discontinued> "false" .
+<https://synbiohub.org/public/igem/BBa_J23100> <http://wiki.synbiohub.org/wiki/Terms/igem#dominant> "true" .
+<https://synbiohub.org/public/igem/BBa_J23100> <http://wiki.synbiohub.org/wiki/Terms/igem#experience> <http://wiki.synbiohub.org/wiki/Terms/igem#experience/Works> .
+<https://synbiohub.org/public/igem/BBa_J23100> <http://wiki.synbiohub.org/wiki/Terms/igem#group_u_list> "_52_" .
+<https://synbiohub.org/public/igem/BBa_J23100> <http://wiki.synbiohub.org/wiki/Terms/igem#m_user_id> "0" .
+<https://synbiohub.org/public/igem/BBa_J23100> <http://wiki.synbiohub.org/wiki/Terms/igem#owner_id> "483" .
+<https://synbiohub.org/public/igem/BBa_J23100> <http://wiki.synbiohub.org/wiki/Terms/igem#owning_group_id> "95" .
+<https://synbiohub.org/public/igem/BBa_J23100> <http://wiki.synbiohub.org/wiki/Terms/igem#partStatus> "Released HQ 2013" .
+<https://synbiohub.org/public/igem/BBa_J23100> <http://wiki.synbiohub.org/wiki/Terms/igem#sampleStatus> "In stock" .
+<https://synbiohub.org/public/igem/BBa_J23100> <http://wiki.synbiohub.org/wiki/Terms/igem#status> <http://wiki.synbiohub.org/wiki/Terms/igem#status/Available> .
+<https://synbiohub.org/public/igem/BBa_J23100> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#bookmark> "true" .
+<https://synbiohub.org/public/igem/BBa_J23100> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#mutableDescription> "Replace later" .
+<https://synbiohub.org/public/igem/BBa_J23100> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#mutableNotes> "N/A" .
+<https://synbiohub.org/public/igem/BBa_J23100> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#mutableProvenance> "Isolated from library of promoters" .
+<https://synbiohub.org/public/igem/BBa_J23100> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy> <https://synbiohub.org/user/james> .
+<https://synbiohub.org/public/igem/BBa_J23100> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy> <https://synbiohub.org/user/myers> .
+<https://synbiohub.org/public/igem/BBa_J23100> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#star> "true" .
+<https://synbiohub.org/public/igem/BBa_J23100> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/BBa_J23100> .
+<https://synbiohub.org/public/igem/BBa_J23100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://synbiohub.org/public/igem/BBa_J23100> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://parts.igem.org/Part:BBa_J23100> .
+<https://synbiohub.org/public/igem/BBa_J23100> <http://www.w3.org/ns/prov#wasGeneratedBy> <https://synbiohub.org/public/igem/igem2sbol> .
+<https://synbiohub.org/public/igem/BBa_J23100_sequence> <http://sbols.org/v3#displayId> "BBa_J23100_sequence" .
+<https://synbiohub.org/public/igem/BBa_J23100_sequence> <http://sbols.org/v3#elements> "ttgacggctagctcagtcctaggtacagtgctagc" .
+<https://synbiohub.org/public/igem/BBa_J23100_sequence> <http://sbols.org/v3#encoding> <https://identifiers.org/edam:format_1207> .
+<https://synbiohub.org/public/igem/BBa_J23100_sequence> <http://sbols.org/v3#hasNamespace> <https://synbiohub.org> .
+<https://synbiohub.org/public/igem/BBa_J23100_sequence> <http://sboltools.org/backport#sbol2version> "1" .
+<https://synbiohub.org/public/igem/BBa_J23100_sequence> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy> <https://synbiohub.org/user/james> .
+<https://synbiohub.org/public/igem/BBa_J23100_sequence> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy> <https://synbiohub.org/user/myers> .
+<https://synbiohub.org/public/igem/BBa_J23100_sequence> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/BBa_J23100_sequence> .
+<https://synbiohub.org/public/igem/BBa_J23100_sequence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Sequence> .
+<https://synbiohub.org/public/igem/BBa_J23100_sequence> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://parts.igem.org/Part:BBa_J23100> .
+<https://synbiohub.org/public/igem/BBa_J23100_sequence> <http://www.w3.org/ns/prov#wasGeneratedBy> <https://synbiohub.org/public/igem/igem2sbol> .
 <https://synbiohub.org/public/igem/BBa_J23101> <http://purl.org/dc/elements/1.1/creator> "John Anderson" .
 <https://synbiohub.org/public/igem/BBa_J23101> <http://purl.org/dc/terms/created> "2006-08-03T11:00:00Z" .
 <https://synbiohub.org/public/igem/BBa_J23101> <http://purl.org/dc/terms/modified> "2015-08-31T04:08:40Z" .
@@ -1044,6 +1072,51 @@
 <https://synbiohub.org/public/igem/BBa_J23101_sequence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Sequence> .
 <https://synbiohub.org/public/igem/BBa_J23101_sequence> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://parts.igem.org/Part:BBa_J23101> .
 <https://synbiohub.org/public/igem/BBa_J23101_sequence> <http://www.w3.org/ns/prov#wasGeneratedBy> <https://synbiohub.org/public/igem/igem2sbol> .
+<https://synbiohub.org/public/igem/BBa_J23102> <http://purl.org/dc/elements/1.1/creator> "John Anderson" .
+<https://synbiohub.org/public/igem/BBa_J23102> <http://purl.org/dc/terms/created> "2006-08-03T11:00:00Z" .
+<https://synbiohub.org/public/igem/BBa_J23102> <http://purl.org/dc/terms/modified> "2015-08-31T04:08:40Z" .
+<https://synbiohub.org/public/igem/BBa_J23102> <http://sbols.org/v3#description> "constitutive promoter family member" .
+<https://synbiohub.org/public/igem/BBa_J23102> <http://sbols.org/v3#displayId> "BBa_J23102" .
+<https://synbiohub.org/public/igem/BBa_J23102> <http://sbols.org/v3#hasNamespace> <https://synbiohub.org> .
+<https://synbiohub.org/public/igem/BBa_J23102> <http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/BBa_J23102_sequence> .
+<https://synbiohub.org/public/igem/BBa_J23102> <http://sbols.org/v3#name> "BBa_J23102" .
+<https://synbiohub.org/public/igem/BBa_J23102> <http://sbols.org/v3#role> <http://identifiers.org/so/SO:0000167> .
+<https://synbiohub.org/public/igem/BBa_J23102> <http://sbols.org/v3#role> <http://wiki.synbiohub.org/wiki/Terms/igem#partType/Regulatory> .
+<https://synbiohub.org/public/igem/BBa_J23102> <http://sbols.org/v3#type> <http://www.biopax.org/release/biopax-level3.owl#DnaRegion> .
+<https://synbiohub.org/public/igem/BBa_J23102> <http://sboltools.org/backport#sbol2type> <http://sbols.org/v2#ComponentDefinition> .
+<https://synbiohub.org/public/igem/BBa_J23102> <http://sboltools.org/backport#sbol2version> "1" .
+<https://synbiohub.org/public/igem/BBa_J23102> <http://wiki.synbiohub.org/wiki/Terms/igem#discontinued> "false" .
+<https://synbiohub.org/public/igem/BBa_J23102> <http://wiki.synbiohub.org/wiki/Terms/igem#dominant> "true" .
+<https://synbiohub.org/public/igem/BBa_J23102> <http://wiki.synbiohub.org/wiki/Terms/igem#experience> <http://wiki.synbiohub.org/wiki/Terms/igem#experience/Works> .
+<https://synbiohub.org/public/igem/BBa_J23102> <http://wiki.synbiohub.org/wiki/Terms/igem#group_u_list> "_52_" .
+<https://synbiohub.org/public/igem/BBa_J23102> <http://wiki.synbiohub.org/wiki/Terms/igem#m_user_id> "0" .
+<https://synbiohub.org/public/igem/BBa_J23102> <http://wiki.synbiohub.org/wiki/Terms/igem#owner_id> "483" .
+<https://synbiohub.org/public/igem/BBa_J23102> <http://wiki.synbiohub.org/wiki/Terms/igem#owning_group_id> "95" .
+<https://synbiohub.org/public/igem/BBa_J23102> <http://wiki.synbiohub.org/wiki/Terms/igem#partStatus> "Released HQ 2013" .
+<https://synbiohub.org/public/igem/BBa_J23102> <http://wiki.synbiohub.org/wiki/Terms/igem#sampleStatus> "In stock" .
+<https://synbiohub.org/public/igem/BBa_J23102> <http://wiki.synbiohub.org/wiki/Terms/igem#status> <http://wiki.synbiohub.org/wiki/Terms/igem#status/Available> .
+<https://synbiohub.org/public/igem/BBa_J23102> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#bookmark> "true" .
+<https://synbiohub.org/public/igem/BBa_J23102> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#mutableDescription> "replace later" .
+<https://synbiohub.org/public/igem/BBa_J23102> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#mutableNotes> "N/A" .
+<https://synbiohub.org/public/igem/BBa_J23102> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#mutableProvenance> "isolated from library of promoters" .
+<https://synbiohub.org/public/igem/BBa_J23102> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy> <https://synbiohub.org/user/james> .
+<https://synbiohub.org/public/igem/BBa_J23102> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy> <https://synbiohub.org/user/myers> .
+<https://synbiohub.org/public/igem/BBa_J23102> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#star> "true" .
+<https://synbiohub.org/public/igem/BBa_J23102> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/BBa_J23102> .
+<https://synbiohub.org/public/igem/BBa_J23102> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://synbiohub.org/public/igem/BBa_J23102> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://parts.igem.org/Part:BBa_J23102> .
+<https://synbiohub.org/public/igem/BBa_J23102> <http://www.w3.org/ns/prov#wasGeneratedBy> <https://synbiohub.org/public/igem/igem2sbol> .
+<https://synbiohub.org/public/igem/BBa_J23102_sequence> <http://sbols.org/v3#displayId> "BBa_J23102_sequence" .
+<https://synbiohub.org/public/igem/BBa_J23102_sequence> <http://sbols.org/v3#elements> "ttgacagctagctcagtcctaggtactgtgctagc" .
+<https://synbiohub.org/public/igem/BBa_J23102_sequence> <http://sbols.org/v3#encoding> <https://identifiers.org/edam:format_1207> .
+<https://synbiohub.org/public/igem/BBa_J23102_sequence> <http://sbols.org/v3#hasNamespace> <https://synbiohub.org> .
+<https://synbiohub.org/public/igem/BBa_J23102_sequence> <http://sboltools.org/backport#sbol2version> "1" .
+<https://synbiohub.org/public/igem/BBa_J23102_sequence> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy> <https://synbiohub.org/user/james> .
+<https://synbiohub.org/public/igem/BBa_J23102_sequence> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy> <https://synbiohub.org/user/myers> .
+<https://synbiohub.org/public/igem/BBa_J23102_sequence> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/BBa_J23102_sequence> .
+<https://synbiohub.org/public/igem/BBa_J23102_sequence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Sequence> .
+<https://synbiohub.org/public/igem/BBa_J23102_sequence> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://parts.igem.org/Part:BBa_J23102> .
+<https://synbiohub.org/public/igem/BBa_J23102_sequence> <http://www.w3.org/ns/prov#wasGeneratedBy> <https://synbiohub.org/public/igem/igem2sbol> .
 <https://synbiohub.org/public/igem/igem2sbol> <http://purl.org/dc/elements/1.1/creator> "Chris J. Myers" .
 <https://synbiohub.org/public/igem/igem2sbol> <http://purl.org/dc/elements/1.1/creator> "James Alastair McLaughlin" .
 <https://synbiohub.org/public/igem/igem2sbol> <http://purl.org/dc/terms/description> "Conversion of the iGEM parts registry to SBOL2.1" .
@@ -1058,16 +1131,408 @@
 <https://synbiohub.org/public/igem/igem2sbol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#TopLevel> .
 <https://synbiohub.org/public/igem/igem2sbol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Activity> .
 <https://synbiohub.org/public/igem/igem2sbol> <http://www.w3.org/ns/prov#endedAtTime> "2017-03-06T15:00:00+00:00" .
-<https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/LmrA> <http://sbols.org/v3#description> "" .
+<https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/CelloUCF2SBOL> <http://purl.org/dc/elements/1.1/creator> "Chris J. Myers" .
+<https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/CelloUCF2SBOL> <http://purl.org/dc/elements/1.1/creator> "Prashant Vaidyanathan" .
+<https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/CelloUCF2SBOL> <http://purl.org/dc/elements/1.1/source> <https://github.com/MyersResearchGroup/UCF2SBOL> .
+<https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/CelloUCF2SBOL> <http://purl.org/dc/terms/description> "A script to convert Cello UCF parts and metadata to SBOL 2 documents." .
+<https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/CelloUCF2SBOL> <http://purl.org/dc/terms/title> "Cello UCF to SBOL" .
+<https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/CelloUCF2SBOL> <http://sbols.org/v2#persistentIdentity> <https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/CelloUCF2SBOL> .
+<https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/CelloUCF2SBOL> <http://sbols.org/v3#displayId> "CelloUCF2SBOL" .
+<https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/CelloUCF2SBOL> <http://sbols.org/v3#hasNamespace> <https://synbiohub.programmingbiology.org> .
+<https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/CelloUCF2SBOL> <http://sboltools.org/backport#sbol2version> "1" .
+<https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/CelloUCF2SBOL> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy> <https://synbiohub.programmingbiology.org/user/myers> .
+<https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/CelloUCF2SBOL> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/CelloUCF2SBOL> .
+<https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/CelloUCF2SBOL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#TopLevel> .
+<https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/CelloUCF2SBOL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Agent> .
+<https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/CelloUCF2sbol_Activity/UCF_file> <http://sbols.org/v2#persistentIdentity> <https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/CelloUCF2sbol_Activity/UCF_file> .
+<https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/CelloUCF2sbol_Activity/UCF_file> <http://sbols.org/v3#displayId> "UCF_file" .
+<https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/CelloUCF2sbol_Activity/UCF_file> <http://sboltools.org/backport#sbol2version> "1" .
+<https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/CelloUCF2sbol_Activity/UCF_file> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy> <https://synbiohub.programmingbiology.org/user/myers> .
+<https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/CelloUCF2sbol_Activity/UCF_file> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/CelloUCF2sbol_Activity> .
+<https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/CelloUCF2sbol_Activity/UCF_file> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Identified> .
+<https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/CelloUCF2sbol_Activity/UCF_file> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Usage> .
+<https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/CelloUCF2sbol_Activity/UCF_file> <http://www.w3.org/ns/prov#entity> <https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/attachment_2a6ef492b29345cb92c0b0e738f30881> .
+<https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/CelloUCF2sbol_Activity/association> <http://sbols.org/v2#persistentIdentity> <https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/CelloUCF2sbol_Activity/association> .
+<https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/CelloUCF2sbol_Activity/association> <http://sbols.org/v3#displayId> "association" .
+<https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/CelloUCF2sbol_Activity/association> <http://sboltools.org/backport#sbol2version> "1" .
+<https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/CelloUCF2sbol_Activity/association> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy> <https://synbiohub.programmingbiology.org/user/myers> .
+<https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/CelloUCF2sbol_Activity/association> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/CelloUCF2sbol_Activity> .
+<https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/CelloUCF2sbol_Activity/association> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Identified> .
+<https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/CelloUCF2sbol_Activity/association> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Association> .
+<https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/CelloUCF2sbol_Activity/association> <http://www.w3.org/ns/prov#agent> <https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/CelloUCF2SBOL> .
+<https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/CelloUCF2sbol_Activity> <http://purl.org/dc/terms/description> "Conversion of the Cello UCF parts and metadata to SBOL 2 documents." .
+<https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/CelloUCF2sbol_Activity> <http://purl.org/dc/terms/title> "Cello UCF to SBOL conversion" .
+<https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/CelloUCF2sbol_Activity> <http://sbols.org/v2#persistentIdentity> <https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/CelloUCF2sbol_Activity> .
+<https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/CelloUCF2sbol_Activity> <http://sbols.org/v3#displayId> "CelloUCF2sbol_Activity" .
+<https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/CelloUCF2sbol_Activity> <http://sbols.org/v3#hasNamespace> <https://synbiohub.programmingbiology.org> .
+<https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/CelloUCF2sbol_Activity> <http://sboltools.org/backport#sbol2version> "1" .
+<https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/CelloUCF2sbol_Activity> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy> <https://synbiohub.programmingbiology.org/user/myers> .
+<https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/CelloUCF2sbol_Activity> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/CelloUCF2sbol_Activity> .
+<https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/CelloUCF2sbol_Activity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#TopLevel> .
+<https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/CelloUCF2sbol_Activity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Activity> .
+<https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/CelloUCF2sbol_Activity> <http://www.w3.org/ns/prov#endedAtTime> "2019-11-14T20:50:42.893000+00:00" .
+<https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/CelloUCF2sbol_Activity> <http://www.w3.org/ns/prov#qualifiedAssociation> <https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/CelloUCF2sbol_Activity/association> .
+<https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/CelloUCF2sbol_Activity> <http://www.w3.org/ns/prov#qualifiedUsage> <https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/CelloUCF2sbol_Activity/UCF_file> .
+<https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/LmrA> <http://purl.org/dc/terms/created> "2019-11-14T20:50:42.872Z" .
 <https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/LmrA> <http://sbols.org/v3#displayId> "LmrA" .
-<https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/LmrA> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/test_package> .
+<https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/LmrA> <http://sbols.org/v3#hasNamespace> <https://synbiohub.programmingbiology.org> .
+<https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/LmrA> <http://sbols.org/v3#hasSequence> <https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/LmrA_sequence> .
 <https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/LmrA> <http://sbols.org/v3#name> "LmrA" .
-<https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/LmrA> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/LmrA> <http://sbols.org/v3#role> <http://identifiers.org/so/SO:0000316> .
+<https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/LmrA> <http://sbols.org/v3#type> <http://www.biopax.org/release/biopax-level3.owl#DnaRegion> .
+<https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/LmrA> <http://sboltools.org/backport#sbol2type> <http://sbols.org/v2#ComponentDefinition> .
+<https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/LmrA> <http://sboltools.org/backport#sbol2version> "1" .
+<https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/LmrA> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy> <https://synbiohub.programmingbiology.org/user/myers> .
+<https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/LmrA> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/LmrA> .
 <https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/LmrA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
-<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115_1> <http://sbols.org/v3#description> "" .
-<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115_1> <http://sbols.org/v3#displayId> "JWYZ01000115_1" .
-<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115_1> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/test_package> .
-<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115_1> <http://sbols.org/v3#name> "Random e. coli chunk" .
-<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115_1> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000001> .
-<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115_1> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
-<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/LmrA> <http://www.w3.org/ns/prov#wasGeneratedBy> <https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/CelloUCF2sbol_Activity> .
+<https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/LmrA_sequence> <http://purl.org/dc/terms/created> "2019-11-14T20:50:42.872Z" .
+<https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/LmrA_sequence> <http://sbols.org/v3#displayId> "LmrA_sequence" .
+<https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/LmrA_sequence> <http://sbols.org/v3#elements> "ATGAGCTATGGTGATAGCCGTGAAAAAATTCTGAGCGCAGCAACCCGTCTGTTTCAGCTGCAGGGTTATTATGGCACCGGTCTGAATCAGATTATCAAAGAAAGCGGTGCACCGAAAGGTAGCCTGTATTATCATTTTCCGGGTGGTAAAGAACAGCTGGCAATTGAAGCAGTGAACGAAATGAAAGAATATATCCGCCAGAAAATCGCCGATTGTATGGAAGCATGTACCGATCCGGCAGAAGGTATTCAGGCATTTCTGAAAGAACTGAGCTGTCAGTTTAGCTGTACCGAAGATATTGAAGGTCTGCCGGTTGGTCTGCTGGCAGCAGAAACCAGCCTGAAAAGCGAACCGCTGCGTGAAGCATGTCATGAAGCATATAAAGAATGGGCCAGCGTGTATGAAGAAAAACTGCGTCAGACCGGTTGTAGCGAAAGCCGTGCAAAAGAAGCAAGCACCGTTGTTAATGCAATGATTGAAGGTGGTATTCTGCTGAGCCTGACCGCAAAAAATAGCACACCGCTGCTGCATATTAGCAGCTGTATTCCGGATCTGCTGAAACGTTAA" .
+<https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/LmrA_sequence> <http://sbols.org/v3#encoding> <https://identifiers.org/edam:format_1207> .
+<https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/LmrA_sequence> <http://sbols.org/v3#hasNamespace> <https://synbiohub.programmingbiology.org> .
+<https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/LmrA_sequence> <http://sbols.org/v3#name> "LmrA_sequence" .
+<https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/LmrA_sequence> <http://sboltools.org/backport#sbol2version> "1" .
+<https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/LmrA_sequence> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy> <https://synbiohub.programmingbiology.org/user/myers> .
+<https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/LmrA_sequence> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/LmrA_sequence> .
+<https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/LmrA_sequence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Sequence> .
+<https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/LmrA_sequence> <http://www.w3.org/ns/prov#wasGeneratedBy> <https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/CelloUCF2sbol_Activity> .
+<https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/attachment_2a6ef492b29345cb92c0b0e738f30881> <http://sbols.org/v3#displayId> "attachment_2a6ef492b29345cb92c0b0e738f30881" .
+<https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/attachment_2a6ef492b29345cb92c0b0e738f30881> <http://sbols.org/v3#format> <http://purl.org/NET/mediatypes/text/plain> .
+<https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/attachment_2a6ef492b29345cb92c0b0e738f30881> <http://sbols.org/v3#hasNamespace> <https://synbiohub.programmingbiology.org> .
+<https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/attachment_2a6ef492b29345cb92c0b0e738f30881> <http://sbols.org/v3#hash> "b9ff9e321edf990df5174a46bdd96907e1d3ed6d" .
+<https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/attachment_2a6ef492b29345cb92c0b0e738f30881> <http://sbols.org/v3#name> "Eco1C1G1T1-tandem-synbiohub.UCF.json" .
+<https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/attachment_2a6ef492b29345cb92c0b0e738f30881> <http://sbols.org/v3#size> "3576113" .
+<https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/attachment_2a6ef492b29345cb92c0b0e738f30881> <http://sbols.org/v3#source> <https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/attachment_2a6ef492b29345cb92c0b0e738f30881/1/download> .
+<https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/attachment_2a6ef492b29345cb92c0b0e738f30881> <http://sboltools.org/backport#sbol2version> "1" .
+<https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/attachment_2a6ef492b29345cb92c0b0e738f30881> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy> <https://synbiohub.programmingbiology.org/user/myers> .
+<https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/attachment_2a6ef492b29345cb92c0b0e738f30881> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/attachment_2a6ef492b29345cb92c0b0e738f30881> .
+<https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/attachment_2a6ef492b29345cb92c0b0e738f30881> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Attachment> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation0/range> <http://sbols.org/v3#displayId> "range" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation0/range> <http://sbols.org/v3#end> "3242" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation0/range> <http://sbols.org/v3#hasSequence> <https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115_seq> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation0/range> <http://sbols.org/v3#orientation> <http://sbols.org/v3#inline> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation0/range> <http://sbols.org/v3#start> "1" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation0/range> <http://sboltools.org/backport#sbol2version> "1" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation0/range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Range> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation0> <http://purl.org/dc/terms/title> "Escherichia coli" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation0> <http://sbols.org/genBankConversion#collection_date> "20-Jan-2012" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation0> <http://sbols.org/genBankConversion#country> "USA" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation0> <http://sbols.org/genBankConversion#db_xref> "taxon:562" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation0> <http://sbols.org/genBankConversion#isolation_source> "Farm" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation0> <http://sbols.org/genBankConversion#mol_type> "genomic DNA" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation0> <http://sbols.org/genBankConversion#organism> "Escherichia coli" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation0> <http://sbols.org/genBankConversion#strain> "CVM N37069PS" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation0> <http://sbols.org/genBankConversion#submitter_seqid> "N37069PS_contig_115" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation0> <http://sbols.org/v3#displayId> "annotation0" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation0> <http://sbols.org/v3#hasLocation> <https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation0/range> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation0> <http://sbols.org/v3#name> "Escherichia coli" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation0> <http://sbols.org/v3#role> <http://identifiers.org/so/SO:0002206> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation0> <http://sboltools.org/backport#sbol2version> "1" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#SequenceFeature> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation1/range> <http://sbols.org/genBankConversion#startLessThan> "true" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation1/range> <http://sbols.org/v3#displayId> "range" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation1/range> <http://sbols.org/v3#end> "115" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation1/range> <http://sbols.org/v3#hasSequence> <https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115_seq> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation1/range> <http://sbols.org/v3#orientation> <http://sbols.org/v3#reverseComplement> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation1/range> <http://sbols.org/v3#start> "1" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation1/range> <http://sboltools.org/backport#sbol2version> "1" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation1/range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Range> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation10/range> <http://sbols.org/v3#displayId> "range" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation10/range> <http://sbols.org/v3#end> "2299" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation10/range> <http://sbols.org/v3#hasSequence> <https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115_seq> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation10/range> <http://sbols.org/v3#orientation> <http://sbols.org/v3#inline> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation10/range> <http://sbols.org/v3#start> "1706" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation10/range> <http://sboltools.org/backport#sbol2version> "1" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation10/range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Range> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation10> <http://purl.org/dc/terms/title> "TetR family transcriptional regulator" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation10> <http://sbols.org/genBankConversion#codon_start> "1" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation10> <http://sbols.org/genBankConversion#inference> "EXISTENCE: similar to AA sequence:RefSeq:WP_001544295.1" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation10> <http://sbols.org/genBankConversion#locus_tag> "PU64_23680" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation10> <http://sbols.org/genBankConversion#note> "Derived by automated computational analysis using gene prediction method: Protein Homology." .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation10> <http://sbols.org/genBankConversion#product> "TetR family transcriptional regulator" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation10> <http://sbols.org/genBankConversion#protein_id> "KIG36582.1" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation10> <http://sbols.org/genBankConversion#transl_table> "11" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation10> <http://sbols.org/genBankConversion#translation> "MVTKKQSRVPGRPRRFAPEQAISAAKVLFHQKGFDAVSVAEVTDYLGINPPSLYAAFGSKAGLFSRVLNEYVGTEAIPLADILRDDRPVGECLVEVLKEAARRYSQNGGCAGCMVLEGIHSHDPLARDIAVQYYHAAETTIYDYIARRHPQSAQCVTDFMSTVMSGLSAKAREGHSIEQLCATAALAGEAIKTLLKE" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation10> <http://sbols.org/v3#displayId> "annotation10" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation10> <http://sbols.org/v3#hasLocation> <https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation10/range> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation10> <http://sbols.org/v3#name> "TetR family transcriptional regulator" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation10> <http://sbols.org/v3#role> <http://identifiers.org/so/SO:0000316> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation10> <http://sboltools.org/backport#sbol2version> "1" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#SequenceFeature> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation11/range> <http://sbols.org/v3#displayId> "range" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation11/range> <http://sbols.org/v3#end> "2896" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation11/range> <http://sbols.org/v3#hasSequence> <https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115_seq> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation11/range> <http://sbols.org/v3#orientation> <http://sbols.org/v3#inline> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation11/range> <http://sbols.org/v3#start> "2444" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation11/range> <http://sboltools.org/backport#sbol2version> "1" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation11/range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Range> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation11> <http://purl.org/dc/terms/title> "gene" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation11> <http://sbols.org/genBankConversion#locus_tag> "PU64_23685" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation11> <http://sbols.org/v3#displayId> "annotation11" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation11> <http://sbols.org/v3#hasLocation> <https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation11/range> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation11> <http://sbols.org/v3#name> "gene" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation11> <http://sbols.org/v3#role> <http://identifiers.org/so/SO:0000704> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation11> <http://sboltools.org/backport#sbol2version> "1" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#SequenceFeature> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation12/range> <http://sbols.org/v3#displayId> "range" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation12/range> <http://sbols.org/v3#end> "2896" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation12/range> <http://sbols.org/v3#hasSequence> <https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115_seq> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation12/range> <http://sbols.org/v3#orientation> <http://sbols.org/v3#inline> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation12/range> <http://sbols.org/v3#start> "2444" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation12/range> <http://sboltools.org/backport#sbol2version> "1" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation12/range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Range> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation12> <http://purl.org/dc/terms/title> "toxin-antitoxin biofilm protein TabA" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation12> <http://sbols.org/genBankConversion#codon_start> "1" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation12> <http://sbols.org/genBankConversion#inference> "EXISTENCE: similar to AA sequence:RefSeq:WP_001570607.1" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation12> <http://sbols.org/genBankConversion#locus_tag> "PU64_23685" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation12> <http://sbols.org/genBankConversion#note> "Derived by automated computational analysis using gene prediction method: Protein Homology." .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation12> <http://sbols.org/genBankConversion#product> "toxin-antitoxin biofilm protein TabA" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation12> <http://sbols.org/genBankConversion#protein_id> "KIG36583.1" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation12> <http://sbols.org/genBankConversion#transl_table> "11" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation12> <http://sbols.org/genBankConversion#translation> "MIIGNIHNLQPWLPQELRQAIEHIKAHVTAETPKGKHDIEGNHLFYLISEDMTEPYEARRAEYHARYLDIQIVLKGQEGMTFSTQPAGTPDTDWLADKDIAFLPEGVDEKTVILNEGDFVVFYPGEVHKPLCAVGAPAQVRKAVVKMLMA" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation12> <http://sbols.org/v3#displayId> "annotation12" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation12> <http://sbols.org/v3#hasLocation> <https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation12/range> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation12> <http://sbols.org/v3#name> "toxin-antitoxin biofilm protein TabA" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation12> <http://sbols.org/v3#role> <http://identifiers.org/so/SO:0000316> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation12> <http://sboltools.org/backport#sbol2version> "1" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#SequenceFeature> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation13/range> <http://sbols.org/genBankConversion#endGreaterThan> "true" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation13/range> <http://sbols.org/v3#displayId> "range" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation13/range> <http://sbols.org/v3#end> "3242" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation13/range> <http://sbols.org/v3#hasSequence> <https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115_seq> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation13/range> <http://sbols.org/v3#orientation> <http://sbols.org/v3#inline> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation13/range> <http://sbols.org/v3#start> "3019" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation13/range> <http://sboltools.org/backport#sbol2version> "1" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation13/range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Range> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation13> <http://purl.org/dc/terms/title> "gene" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation13> <http://sbols.org/genBankConversion#locus_tag> "PU64_23690" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation13> <http://sbols.org/v3#displayId> "annotation13" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation13> <http://sbols.org/v3#hasLocation> <https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation13/range> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation13> <http://sbols.org/v3#name> "gene" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation13> <http://sbols.org/v3#role> <http://identifiers.org/so/SO:0000704> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation13> <http://sboltools.org/backport#sbol2version> "1" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#SequenceFeature> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation14/range> <http://sbols.org/genBankConversion#endGreaterThan> "true" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation14/range> <http://sbols.org/v3#displayId> "range" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation14/range> <http://sbols.org/v3#end> "3242" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation14/range> <http://sbols.org/v3#hasSequence> <https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115_seq> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation14/range> <http://sbols.org/v3#orientation> <http://sbols.org/v3#inline> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation14/range> <http://sbols.org/v3#start> "3019" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation14/range> <http://sboltools.org/backport#sbol2version> "1" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation14/range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Range> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation14> <http://purl.org/dc/terms/title> "DNA-binding protein" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation14> <http://sbols.org/genBankConversion#codon_start> "1" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation14> <http://sbols.org/genBankConversion#inference> "EXISTENCE: similar to AA sequence:RefSeq:WP_000036524.1" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation14> <http://sbols.org/genBankConversion#locus_tag> "PU64_23690" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation14> <http://sbols.org/genBankConversion#note> "Derived by automated computational analysis using gene prediction method: Protein Homology." .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation14> <http://sbols.org/genBankConversion#product> "DNA-binding protein" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation14> <http://sbols.org/genBankConversion#protein_id> "KIG36584.1" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation14> <http://sbols.org/genBankConversion#transl_table> "11" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation14> <http://sbols.org/genBankConversion#translation> "MSKISGWNFSQNITSADNCKQKNEDLDTWYVGMNDFARIAGGQNSRSNILSPRAFLEFLAKIFTLGYVDFSKRS" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation14> <http://sbols.org/v3#displayId> "annotation14" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation14> <http://sbols.org/v3#hasLocation> <https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation14/range> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation14> <http://sbols.org/v3#name> "DNA-binding protein" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation14> <http://sbols.org/v3#role> <http://identifiers.org/so/SO:0000316> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation14> <http://sboltools.org/backport#sbol2version> "1" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#SequenceFeature> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation1> <http://purl.org/dc/terms/title> "gene" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation1> <http://sbols.org/genBankConversion#locus_tag> "PU64_23660" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation1> <http://sbols.org/v3#displayId> "annotation1" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation1> <http://sbols.org/v3#hasLocation> <https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation1/range> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation1> <http://sbols.org/v3#name> "gene" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation1> <http://sbols.org/v3#role> <http://identifiers.org/so/SO:0000704> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation1> <http://sboltools.org/backport#sbol2version> "1" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#SequenceFeature> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation2/range> <http://sbols.org/genBankConversion#startLessThan> "true" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation2/range> <http://sbols.org/v3#displayId> "range" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation2/range> <http://sbols.org/v3#end> "115" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation2/range> <http://sbols.org/v3#hasSequence> <https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115_seq> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation2/range> <http://sbols.org/v3#orientation> <http://sbols.org/v3#reverseComplement> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation2/range> <http://sbols.org/v3#start> "1" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation2/range> <http://sboltools.org/backport#sbol2version> "1" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation2/range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Range> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation2> <http://purl.org/dc/terms/title> "pyrBI operon leader peptide" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation2> <http://sbols.org/genBankConversion#codon_start> "1" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation2> <http://sbols.org/genBankConversion#inference> "EXISTENCE: similar to AA sequence:RefSeq:WP_005059815.1" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation2> <http://sbols.org/genBankConversion#locus_tag> "PU64_23660" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation2> <http://sbols.org/genBankConversion#note> "Derived by automated computational analysis using gene prediction method: Protein Homology." .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation2> <http://sbols.org/genBankConversion#product> "pyrBI operon leader peptide" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation2> <http://sbols.org/genBankConversion#protein_id> "KIG36579.1" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation2> <http://sbols.org/genBankConversion#transl_table> "11" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation2> <http://sbols.org/genBankConversion#translation> "MVQCVRHFVLPRLKKDAGLPFFFPLITHSQPLNRGAFF" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation2> <http://sbols.org/v3#displayId> "annotation2" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation2> <http://sbols.org/v3#hasLocation> <https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation2/range> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation2> <http://sbols.org/v3#name> "pyrBI operon leader peptide" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation2> <http://sbols.org/v3#role> <http://identifiers.org/so/SO:0000316> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation2> <http://sboltools.org/backport#sbol2version> "1" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#SequenceFeature> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation3/range> <http://sbols.org/v3#displayId> "range" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation3/range> <http://sbols.org/v3#end> "427" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation3/range> <http://sbols.org/v3#hasSequence> <https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115_seq> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation3/range> <http://sbols.org/v3#orientation> <http://sbols.org/v3#inline> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation3/range> <http://sbols.org/v3#start> "95" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation3/range> <http://sboltools.org/backport#sbol2version> "1" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation3/range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Range> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation3> <http://purl.org/dc/terms/title> "gene" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation3> <http://sbols.org/genBankConversion#locus_tag> "PU64_23665" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation3> <http://sbols.org/v3#displayId> "annotation3" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation3> <http://sbols.org/v3#hasLocation> <https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation3/range> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation3> <http://sbols.org/v3#name> "gene" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation3> <http://sbols.org/v3#role> <http://identifiers.org/so/SO:0000704> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation3> <http://sboltools.org/backport#sbol2version> "1" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#SequenceFeature> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation4/range> <http://sbols.org/v3#displayId> "range" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation4/range> <http://sbols.org/v3#end> "427" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation4/range> <http://sbols.org/v3#hasSequence> <https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115_seq> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation4/range> <http://sbols.org/v3#orientation> <http://sbols.org/v3#inline> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation4/range> <http://sbols.org/v3#start> "95" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation4/range> <http://sboltools.org/backport#sbol2version> "1" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation4/range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Range> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation4> <http://purl.org/dc/terms/title> "hypothetical protein" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation4> <http://sbols.org/genBankConversion#codon_start> "1" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation4> <http://sbols.org/genBankConversion#inference> "EXISTENCE: similar to AA sequence:RefSeq:WP_001349257.1" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation4> <http://sbols.org/genBankConversion#locus_tag> "PU64_23665" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation4> <http://sbols.org/genBankConversion#note> "Derived by automated computational analysis using gene prediction method: Protein Homology." .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation4> <http://sbols.org/genBankConversion#product> "hypothetical protein" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation4> <http://sbols.org/genBankConversion#protein_id> "KIG36585.1" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation4> <http://sbols.org/genBankConversion#transl_table> "11" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation4> <http://sbols.org/genBankConversion#translation> "MSNTLNHTSSRQIVRHYTHRQKRRKHLMQYFVSANGLFELKVKVYAFLFDVILQGNCPSVSIIADIPCFFLFHFHAIRYAFYSIHPTYRAECESERLTLLLTAQGCALSL" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation4> <http://sbols.org/v3#displayId> "annotation4" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation4> <http://sbols.org/v3#hasLocation> <https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation4/range> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation4> <http://sbols.org/v3#name> "hypothetical protein" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation4> <http://sbols.org/v3#role> <http://identifiers.org/so/SO:0000316> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation4> <http://sboltools.org/backport#sbol2version> "1" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#SequenceFeature> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation5/range> <http://sbols.org/v3#displayId> "range" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation5/range> <http://sbols.org/v3#end> "791" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation5/range> <http://sbols.org/v3#hasSequence> <https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115_seq> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation5/range> <http://sbols.org/v3#orientation> <http://sbols.org/v3#reverseComplement> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation5/range> <http://sbols.org/v3#start> "396" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation5/range> <http://sboltools.org/backport#sbol2version> "1" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation5/range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Range> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation5> <http://purl.org/dc/terms/title> "gene" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation5> <http://sbols.org/genBankConversion#locus_tag> "PU64_23670" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation5> <http://sbols.org/v3#displayId> "annotation5" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation5> <http://sbols.org/v3#hasLocation> <https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation5/range> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation5> <http://sbols.org/v3#name> "gene" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation5> <http://sbols.org/v3#role> <http://identifiers.org/so/SO:0000704> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation5> <http://sboltools.org/backport#sbol2version> "1" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#SequenceFeature> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation6/range> <http://sbols.org/v3#displayId> "range" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation6/range> <http://sbols.org/v3#end> "791" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation6/range> <http://sbols.org/v3#hasSequence> <https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115_seq> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation6/range> <http://sbols.org/v3#orientation> <http://sbols.org/v3#reverseComplement> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation6/range> <http://sbols.org/v3#start> "396" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation6/range> <http://sboltools.org/backport#sbol2version> "1" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation6/range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Range> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation6> <http://purl.org/dc/terms/title> "mRNA endoribonuclease" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation6> <http://sbols.org/genBankConversion#codon_start> "1" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation6> <http://sbols.org/genBankConversion#inference> "EXISTENCE: similar to AA sequence:RefSeq:WP_001701843.1" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation6> <http://sbols.org/genBankConversion#locus_tag> "PU64_23670" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation6> <http://sbols.org/genBankConversion#note> "Derived by automated computational analysis using gene prediction method: Protein Homology." .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation6> <http://sbols.org/genBankConversion#product> "mRNA endoribonuclease" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation6> <http://sbols.org/genBankConversion#protein_id> "KIG36580.1" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation6> <http://sbols.org/genBankConversion#transl_table> "11" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation6> <http://sbols.org/genBankConversion#translation> "MVERTAVFPAGRHSLYAEHRYSAAIRSGDLLFVSGQVGSREDGTPEPDFQQQVRLAFDNLHATLAAAGCTFDDIIDVTSFHTDPENQFEDIMTVKNEIFSAPPYPNWTAVGVTWLAGFDFEIKVIARIPEQ" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation6> <http://sbols.org/v3#displayId> "annotation6" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation6> <http://sbols.org/v3#hasLocation> <https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation6/range> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation6> <http://sbols.org/v3#name> "mRNA endoribonuclease" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation6> <http://sbols.org/v3#role> <http://identifiers.org/so/SO:0000316> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation6> <http://sboltools.org/backport#sbol2version> "1" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#SequenceFeature> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation7/range> <http://sbols.org/v3#displayId> "range" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation7/range> <http://sbols.org/v3#end> "1635" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation7/range> <http://sbols.org/v3#hasSequence> <https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115_seq> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation7/range> <http://sbols.org/v3#orientation> <http://sbols.org/v3#reverseComplement> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation7/range> <http://sbols.org/v3#start> "922" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation7/range> <http://sboltools.org/backport#sbol2version> "1" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation7/range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Range> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation7> <http://purl.org/dc/terms/title> "gene" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation7> <http://sbols.org/genBankConversion#locus_tag> "PU64_23675" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation7> <http://sbols.org/v3#displayId> "annotation7" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation7> <http://sbols.org/v3#hasLocation> <https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation7/range> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation7> <http://sbols.org/v3#name> "gene" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation7> <http://sbols.org/v3#role> <http://identifiers.org/so/SO:0000704> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation7> <http://sboltools.org/backport#sbol2version> "1" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#SequenceFeature> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation8/range> <http://sbols.org/v3#displayId> "range" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation8/range> <http://sbols.org/v3#end> "1635" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation8/range> <http://sbols.org/v3#hasSequence> <https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115_seq> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation8/range> <http://sbols.org/v3#orientation> <http://sbols.org/v3#reverseComplement> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation8/range> <http://sbols.org/v3#start> "922" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation8/range> <http://sboltools.org/backport#sbol2version> "1" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation8/range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Range> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation8> <http://purl.org/dc/terms/title> "oxidoreductase" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation8> <http://sbols.org/genBankConversion#codon_start> "1" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation8> <http://sbols.org/genBankConversion#inference> "EXISTENCE: similar to AA sequence:SwissProt:P39333.2" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation8> <http://sbols.org/genBankConversion#locus_tag> "PU64_23675" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation8> <http://sbols.org/genBankConversion#note> "Derived by automated computational analysis using gene prediction method: Protein Homology." .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation8> <http://sbols.org/genBankConversion#product> "oxidoreductase" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation8> <http://sbols.org/genBankConversion#protein_id> "KIG36581.1" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation8> <http://sbols.org/genBankConversion#transl_table> "11" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation8> <http://sbols.org/genBankConversion#translation> "MGAFTGKTVLILGGSRGIGAAIVRRFVTDGANVRFTYAGSKDAAKRLAQETGATAVFTDSADRDAVIDVVRKSGALDILVVNAGIGVFGEALELNADDIDRLFKINIHAPYHASVEAARQMPEGGRILIIGSVNGDRMPVAGMAAYAASKSALQGMARGLARDFGPRGITINVVQPGPIDTDANPANGPMRDMLHSLMAIKRHGQPEEVAGMVAWLAGPEASFVTGAMHTIDGAFGA" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation8> <http://sbols.org/v3#displayId> "annotation8" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation8> <http://sbols.org/v3#hasLocation> <https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation8/range> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation8> <http://sbols.org/v3#name> "oxidoreductase" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation8> <http://sbols.org/v3#role> <http://identifiers.org/so/SO:0000316> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation8> <http://sboltools.org/backport#sbol2version> "1" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#SequenceFeature> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation9/range> <http://sbols.org/v3#displayId> "range" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation9/range> <http://sbols.org/v3#end> "2299" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation9/range> <http://sbols.org/v3#hasSequence> <https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115_seq> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation9/range> <http://sbols.org/v3#orientation> <http://sbols.org/v3#inline> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation9/range> <http://sbols.org/v3#start> "1706" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation9/range> <http://sboltools.org/backport#sbol2version> "1" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation9/range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Range> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation9> <http://purl.org/dc/terms/title> "gene" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation9> <http://sbols.org/genBankConversion#locus_tag> "PU64_23680" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation9> <http://sbols.org/v3#displayId> "annotation9" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation9> <http://sbols.org/v3#hasLocation> <https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation9/range> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation9> <http://sbols.org/v3#name> "gene" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation9> <http://sbols.org/v3#role> <http://identifiers.org/so/SO:0000704> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation9> <http://sboltools.org/backport#sbol2version> "1" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#SequenceFeature> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115> <http://purl.obolibrary.org/obo/OBI_0001617> "26142410" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115> <http://sbols.org/v3#description> "Escherichia coli strain CVM N37069PS N37069PS_contig_115, whole genome shotgun sequence." .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115> <http://sbols.org/v3#displayId> "JWYZ01000115" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115> <http://sbols.org/v3#hasFeature> <https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation0> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115> <http://sbols.org/v3#hasFeature> <https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation10> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115> <http://sbols.org/v3#hasFeature> <https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation11> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115> <http://sbols.org/v3#hasFeature> <https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation12> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115> <http://sbols.org/v3#hasFeature> <https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation13> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115> <http://sbols.org/v3#hasFeature> <https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation14> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115> <http://sbols.org/v3#hasFeature> <https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation1> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115> <http://sbols.org/v3#hasFeature> <https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation2> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115> <http://sbols.org/v3#hasFeature> <https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation3> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115> <http://sbols.org/v3#hasFeature> <https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation4> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115> <http://sbols.org/v3#hasFeature> <https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation5> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115> <http://sbols.org/v3#hasFeature> <https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation6> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115> <http://sbols.org/v3#hasFeature> <https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation7> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115> <http://sbols.org/v3#hasFeature> <https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation8> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115> <http://sbols.org/v3#hasFeature> <https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/annotation9> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115> <http://sbols.org/v3#hasNamespace> <https://www.ncbi.nlm.nih.gov/nuccore> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115> <http://sbols.org/v3#hasSequence> <https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115_seq> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115> <http://sbols.org/v3#role> <http://identifiers.org/so/SO:0000804> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115> <http://sbols.org/v3#type> <http://identifiers.org/so/SO:0000987> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115> <http://sbols.org/v3#type> <http://www.biopax.org/release/biopax-level3.owl#DnaRegion> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115> <http://sboltools.org/backport#sbol2type> <http://sbols.org/v2#ComponentDefinition> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115> <http://sboltools.org/backport#sbol2version> "1" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115> <http://www.ncbi.nlm.nih.gov/genbank#GInumber> "DBLINK" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115> <http://www.ncbi.nlm.nih.gov/genbank#comment> "##Genome-Assembly-Data-START## Assembly Method              :: CLC Genomics Workbench v. 7.5 Assembly Name                :: Escherichia coli CVM N37069PS v1.0 Genome Coverage              :: 48.5x Sequencing Technology        :: Illumina MiSeq ##Genome-Assembly-Data-END## ##Genome-Annotation-Data-START## Annotation Provider          :: NCBI Annotation Date              :: 12/29/2014 14:07:05 Annotation Pipeline :: NCBI Prokaryotic Genome Annotation Pipeline Annotation Method :: Best-placed reference protein set; GeneMarkS+ Annotation Software revision :: 2.9 (rev. 455303) Features Annotated :: Gene; CDS; rRNA; tRNA; ncRNA; repeat_region Genes                        :: 4,855 CDS                          :: 4,642 Pseudo Genes                 :: 107 CRISPR Arrays                :: 2 rRNAs                        :: 11 (5S, 16S, 23S) tRNAs                        :: 78 ncRNA                        :: 17 Frameshifted Genes           :: 41 ##Genome-Annotation-Data-END## Annotation was added by the NCBI Prokaryotic Genome Annotation Pipeline (released 2013). Information about the Pipeline can be found here: http://www.ncbi.nlm.nih.gov/genome/annotation_prok/" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115> <http://www.ncbi.nlm.nih.gov/genbank#date> "16-JAN-2015" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115> <http://www.ncbi.nlm.nih.gov/genbank#division> "BCT" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115> <http://www.ncbi.nlm.nih.gov/genbank#keywords> "WGS." .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115> <http://www.ncbi.nlm.nih.gov/genbank#locus> "JWYZ01000115" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115> <http://www.ncbi.nlm.nih.gov/genbank#molecule> "DNA" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115> <http://www.ncbi.nlm.nih.gov/genbank#organism> "Escherichia coli Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Enterobacteriaceae; Escherichia." .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115> <http://www.ncbi.nlm.nih.gov/genbank#reference> <https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/reference0> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115> <http://www.ncbi.nlm.nih.gov/genbank#reference> <https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115/reference1> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115> <http://www.ncbi.nlm.nih.gov/genbank#source> "Escherichia coli" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115_seq> <http://sbols.org/v3#displayId> "JWYZ01000115_seq" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115_seq> <http://sbols.org/v3#elements> "aaaaaaaagcccctcgattgaggggctgggaatgggtgatcaacgggaagaaaaacggcaggccagcgtcttttttcagacgcggtaagacaaaatgtcgaacacactgaaccatacatcctcccggcaaattgtccggcattatactcatcgtcagaagcggcgcaagcatttgatgcaatattttgtcagcgcaaacggtttatttgaattaaaagtcaaggtatatgcatttttatttgatgtgattctgcaggggaactgtccttcggtatcaataattgcagacattccctgctttttcctttttcactttcacgcaatcagatatgcattttattccattcatccgacttatagggcggagtgtgaaagcgaacggctaacactattgcttactgctcagggatgcgcgctatcactttaatttcaaaatcaaagcctgccagccatgtaacacccaccgccgtccagtttggataaggtggggcgctaaatatttcatttttcaccgtcatgatgtcttcaaattggttttctggatcggtatggaagctcgtaacatcaatgatatcgtcaaaagtgcatcccgcagctgccagggtcgcatgcaaattatcaaatgccagtctgacttgttgctgaaaatcgggttctggtgttccgtcctctcgacttcctacttgcccggaaacaaacagcaaatcgccggaacgaatagccgcagaataacgatgctcagcatatagtgaatgtcggccagcagggaaaacagcggttctttctaccatttggttatcctcaagatttacgacatgaacagaagatttctctttaccgggagccgcttttagcggacgacgtgagtaaacaaaacccagacatcatggataatggctgggcttaattgagcgtagtcggttatgcgccaaacgcgccatcaatggtatgcattgcgccggtaacaaaactggcttctggccctgctaaccatgcgaccataccagcgacctcttccggttgcccatgtcttttgatagccatcaaactatgcaacatatcgcgcattggcccgttggcgggattagcgtcggtatcaattggccctggctggacgacgttaatggtgatcccacgcggtccaaaatcacgggccagcccgcgcgccatgccttgcagggcagatttgctggcggcataagcagccatgcctgcaacaggcatacgatcgccattcacggagccgatgattaagatgcgcccgccttcgggcatctgccgggcggcttcaacagaggcatgataaggagcatgaatattgattttgaaaaggcgatcaatatcgtcggcatttaattccagggcctcgccaaagacgccaatacctgcatttaccaccaggatatccaatgcgccgctcttacgaacgacatcaatgacagcgtctctgtcagcactatctgtgaatactgctgtcgctccagtctcttgtgccaggcgtttagcggcatctttcgaccccgcataggtgaatcgtacattggccccatcggtgacgaaacgacgtacgatagcggcaccgataccacgactgccaccgaggatgagaactgtcttacctgtaaaagcgcccataaggactccttgatttattatgtaacatgcattacaaaactgttttaactttctgtcaacatgttttgtaatggtcactaaaaaacaatctcgcgttccaggtcgtcccagacgtttcgctcctgagcaggcaatctctgcggcaaaagtgctttttcaccaaaaaggtttcgatgctgtcagtgttgctgaagttactgattatcttggtattaaccccccgagcctctacgcggcttttggcagtaaagctgggttatttagccgtgtactcaatgaatacgtcggtacggaagctattccgcttgccgatattcttcgtgatgatcgtccagtaggcgagtgcctggttgaggtattaaaagaagcggcgcgcagatatagccaaaacggcggctgcgctggctgtatggttcttgaaggtattcatagtcatgatccactagcgcgtgatattgccgttcaatattatcacgccgcagaaacgaccatttatgactatatcgccaggcggcatccacaaagcgcacaatgtgtgactgattttatgagtaccgtgatgtcagggctttctgcgaaggcacgggaggggcactcaatcgaacaactctgtgcaacagctgcactggcgggggaagcgataaaaactcttctcaaggagtgatgctggccttgatccgaaaggcgggaacgcgcctgccgataagttgtgataagacaataattcacgcattaaggctagcggaattgatcatcttttcgtataacgatagaaatgaaacgttgttttaattaaggagtggaaaagatgatcatcggaaatattcataatcttcagccgtggctaccccaggagttacgccaggcgattgagcatatcaaagcacacgttacggcagaaacgccaaagggcaagcacgatatcgaaggcaatcatctgttttatcttatctcggaagatatgaccgagccgtacgaagcccgccgtgcggagtaccatgcccgctatctcgacattcagattgtgttaaaaggtcaggaaggcatgaccttcagcacgcaacctgcaggcacgccggataccgactggttagctgataaagacatcgcatttttgccggaaggcgttgatgagaaaacagttatccttaatgaaggtgattttgttgtgttttatccgggggaagtgcataaaccgctgtgcgcagtgggtgcaccagcccaggttcgcaaagcagtagtgaagatgctgatggcgtgatgacttttcgccgtaaataactccaggtttacggcgagtttgtgaaaagagcgttttttgatatttttttgtgagtaaaatttgtaatgcttagacgttcttattaactcaaggagtccgtcatgagcaaaatatcaggttggaatttttctcaaaacattacatcagccgacaattgtaaacaaaaaaatgaagacttagatacctggtatgtgggaatgaatgattttgcccgaattgccggagggcagaatagcagaagcaatattctttctcccagagcatttttggagtttttggctaagatatttaccctgggttatgtggattttagcaaacgctccaa" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115_seq> <http://sbols.org/v3#encoding> <https://identifiers.org/edam:format_1207> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115_seq> <http://sbols.org/v3#hasNamespace> <https://www.ncbi.nlm.nih.gov/nuccore> .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115_seq> <http://sboltools.org/backport#sbol2version> "1" .
+<https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115_seq> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Sequence> .
