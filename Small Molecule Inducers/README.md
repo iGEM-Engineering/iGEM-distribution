@@ -7,13 +7,13 @@ _Note: automatically generated from package Excel and sequence files; do not edi
 ### Summary:
 
 - 6 parts
-- 6 are missing sequences
+- 2 are missing sequences
 
 ### Parts:
 
-- C0012: LacI (CDS)
-- I0500: pBAD (promoter)
-- R0010: pLac (promoter)
-- R0040: pTet (promoter)
-- AraC (CDS)
-- TetR (CDS)
+- AraC (CDS) _<span style="color:red">missing sequence</span>_
+- TetR (CDS) _<span style="color:red">missing sequence</span>_
+- BBa_C0012: lacI (CDS)
+- BBa_I0500: pBad/araC (promoter)
+- BBa_R0010: LacI (promoter)
+- BBa_R0040: p(tetR) (promoter)

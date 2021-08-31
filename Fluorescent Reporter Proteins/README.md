@@ -7,24 +7,24 @@ _Note: automatically generated from package Excel and sequence files; do not edi
 ### Summary:
 
 - 17 parts
-- 16 are missing sequences
+- 4 are missing sequences
 
 ### Parts:
 
-- E0020: ECFP (CDS)
-- E0030: EYFP (CDS)
-- E0040: GFPmut3b (CDS)
-- E1010: mRFP1 (CDS)
-- J06504: mCherry (CDS)
-- J97000: IP-Free EiraCFP (CDS)
-- J97001: IP-Free JuniperGFP (CDS)
-- J97002: IP-Free BlazeYFP (CDS)
-- J97003: IP-Free TannenRFP (CDS)
-- K592100: TagBFP (CDS)
-- K864100: sYFP2 (CDS)
-- pSB1C3 (plasmid)
-- GFPmut3 (CDS)
-- mKate2 (CDS)
-- mRFP1 (CDS)
-- mScarlet (CDS)
+- pSB1C3
+- GFPmut3 (CDS) _<span style="color:red">missing sequence</span>_
+- mKate2 (CDS) _<span style="color:red">missing sequence</span>_
+- mRFP1 (CDS) _<span style="color:red">missing sequence</span>_
+- mScarlet (CDS) _<span style="color:red">missing sequence</span>_
+- BBa_E0020: ecfp (CDS)
+- BBa_E0030: eyfp (CDS)
+- BBa_E0040: GFP (CDS)
+- BBa_E1010: mRFP1 (CDS)
+- BBa_J06504: mCherry (engineered_region)
+- BBa_J97000 (engineered_region)
+- BBa_J97001 (engineered_region)
+- BBa_J97002 (engineered_region)
+- BBa_J97003 (engineered_region)
+- BBa_K592100: BFP (CDS)
+- BBa_K864100: SYFP2 (CDS)
 - KY484012 (engineered_region)

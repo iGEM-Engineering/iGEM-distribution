@@ -7,29 +7,29 @@ _Note: automatically generated from package Excel and sequence files; do not edi
 ### Summary:
 
 - 22 parts
-- 22 are missing sequences
+- 1 are missing sequences
 
 ### Parts:
 
-- J23100 (promoter)
-- J23101 (promoter)
-- J23102 (promoter)
-- J23103 (promoter)
-- J23104 (promoter)
-- J23105 (promoter)
-- J23106 (promoter)
-- J23107 (promoter)
-- J23108 (promoter)
-- J23109 (promoter)
-- J23110 (promoter)
-- J23111 (promoter)
-- J23112 (promoter)
-- J23113 (promoter)
-- J23114 (promoter)
-- J23115 (promoter)
-- J23116 (promoter)
-- J23117 (promoter)
-- J23118 (promoter)
-- J23119 (promoter)
-- pSB1C3 (plasmid)
-- pOpen_v4 (plasmid)
+- pSB1C3
+- pOpen_v4 (plasmid) _<span style="color:red">missing sequence</span>_
+- BBa_J23100 (promoter)
+- BBa_J23101 (promoter)
+- BBa_J23102 (promoter)
+- BBa_J23103 (promoter)
+- BBa_J23104 (promoter)
+- BBa_J23105 (promoter)
+- BBa_J23106 (promoter)
+- BBa_J23107 (promoter)
+- BBa_J23108 (promoter)
+- BBa_J23109 (promoter)
+- BBa_J23110 (promoter)
+- BBa_J23111 (promoter)
+- BBa_J23112 (promoter)
+- BBa_J23113 (promoter)
+- BBa_J23114 (promoter)
+- BBa_J23115 (promoter)
+- BBa_J23116 (promoter)
+- BBa_J23117 (promoter)
+- BBa_J23118 (promoter)
+- BBa_J23119 (promoter)

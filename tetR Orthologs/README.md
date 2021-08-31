@@ -7,11 +7,11 @@ _Note: automatically generated from package Excel and sequence files; do not edi
 ### Summary:
 
 - 38 parts
-- 1 are missing sequences
+- 0 are missing sequences
 
 ### Parts:
 
-- pSB1C3 (plasmid)
+- pSB1C3
 - ButR (CDS)
 - HapR (CDS)
 - HlyllR (CDS)
