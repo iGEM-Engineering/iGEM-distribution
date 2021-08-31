@@ -5,6 +5,8 @@ None
 ### Summary:
 
 - 17 parts
+- 0 vectors
+- 11 samples for distribution
 
 ### Parts:
 
