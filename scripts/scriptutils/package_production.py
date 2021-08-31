@@ -30,11 +30,8 @@ def collate_package(package: str) -> None:
     inventory = package_parts_inventory(package)
 
     # search old object for aliases; if found, remove and add to rewriting plan
-    print(f'aliases: {inventory.aliases}')
-    print(f'identifies: {[o.identity for o in doc.objects]}')
     to_remove = [o for o in doc.objects if o.identity in inventory.aliases]
     print(f'  Removing {len(to_remove)} objects to be replaced by imports')
-    print(f'Removal list: {[o.identity for o in to_remove]}')
     for o in to_remove:
         doc.objects.remove(o)
 
