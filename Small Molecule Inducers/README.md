@@ -4,8 +4,9 @@ This package collects a few of the most common bacterial inducer parts and compo
 
 ### Summary:
 
-- 6 parts
-- 2 are missing sequences
+- 6 parts _<span style="color:red">2 missing sequences</span>_
+- 0 vectors
+- 0 samples for distribution_<span style="color:red">No samples planned to be built for distribution</span>_
 
 ### Parts:
 

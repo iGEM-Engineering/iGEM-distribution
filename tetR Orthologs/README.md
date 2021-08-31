@@ -5,7 +5,8 @@ None
 ### Summary:
 
 - 38 parts
-- 0 are missing sequences
+- 0 vectors
+- 36 samples for distribution
 
 ### Parts:
 

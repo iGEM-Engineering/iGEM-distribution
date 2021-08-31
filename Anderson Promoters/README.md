@@ -4,13 +4,14 @@ The Anderson Promoters are a well-established set of constitutive promoters at v
 
 ### Summary:
 
-- 22 parts
-- 1 are missing sequences
+- 21 parts
+- 1 vectors _<span style="color:red">1 missing sequences</span>_
+- 40 samples for distribution
 
 ### Parts:
 
 - pSB1C3
-- pOpen_v4 (plasmid) _<span style="color:red">missing sequence</span>_
+- pOpen_v4 (plasmid)
 - BBa_J23100 (promoter)
 - BBa_J23101 (promoter)
 - BBa_J23102 (promoter)
