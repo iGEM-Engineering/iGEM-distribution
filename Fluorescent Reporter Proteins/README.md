@@ -2,8 +2,6 @@
 
 None
 
-_Note: automatically generated from package Excel and sequence files; do not edit_
-
 ### Summary:
 
 - 17 parts
@@ -28,3 +26,5 @@ _Note: automatically generated from package Excel and sequence files; do not edi
 - BBa_K592100: BFP (CDS)
 - BBa_K864100: SYFP2 (CDS)
 - KY484012 (engineered_region)
+
+_Note: automatically generated from package Excel and sequence files; do not edit_

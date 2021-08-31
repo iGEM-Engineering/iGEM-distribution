@@ -2,8 +2,6 @@
 
 This package collects a few of the most common bacterial inducer parts and composite systems using them
 
-_Note: automatically generated from package Excel and sequence files; do not edit_
-
 ### Summary:
 
 - 6 parts
@@ -17,3 +15,5 @@ _Note: automatically generated from package Excel and sequence files; do not edi
 - BBa_I0500: pBad/araC (promoter)
 - BBa_R0010: LacI (promoter)
 - BBa_R0040: p(tetR) (promoter)
+
+_Note: automatically generated from package Excel and sequence files; do not edit_

@@ -25,7 +25,6 @@ def generate_package_summary(package: str, doc: sbol3.Document):
         # First the package name and description
         f.write(f'# Package: {parts_list.name}\n\n')
         f.write(f'{parts_list.description}\n\n')
-        f.write(f'_Note: automatically generated from package Excel and sequence files; do not edit_\n\n')
 
         # Next, statistics and errors
         f.write(f'### Summary:\n\n')
@@ -33,9 +32,10 @@ def generate_package_summary(package: str, doc: sbol3.Document):
         missing_seq = [str(m) for m in parts_list.members if len(m.lookup().sequences)==0]
         f.write(f'- {len(missing_seq)} are missing sequences\n')
         # TODO: inventory the common types of parts, e.g., promoter, CDS, terminator
+        f.write('\n')  # section break
 
         # Finally, a list of all the parts and their UIDs
-        f.write(f'\n### Parts:\n\n')
+        f.write(f'### Parts:\n\n')
         for p in id_sort(m.lookup() for m in parts_list.members):
             f.write(f'- {p.display_id}')
             if p.name and sbol_utilities.excel_to_sbol.string_to_display_id(p.name) != p.display_id:
@@ -47,4 +47,7 @@ def generate_package_summary(package: str, doc: sbol3.Document):
             if p.identity in missing_seq:
                 f.write(f' _<span style="color:red">missing sequence</span>_')
             f.write('\n')
+        f.write('\n')  # section break
 
+        # add warning at the bottom
+        f.write(f'_Note: automatically generated from package Excel and sequence files; do not edit_\n')

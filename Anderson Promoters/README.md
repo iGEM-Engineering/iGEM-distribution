@@ -2,8 +2,6 @@
 
 The Anderson Promoters are a well-established set of constitutive promoters at varying expression levels.
 
-_Note: automatically generated from package Excel and sequence files; do not edit_
-
 ### Summary:
 
 - 22 parts
@@ -33,3 +31,5 @@ _Note: automatically generated from package Excel and sequence files; do not edi
 - BBa_J23117 (promoter)
 - BBa_J23118 (promoter)
 - BBa_J23119 (promoter)
+
+_Note: automatically generated from package Excel and sequence files; do not edit_

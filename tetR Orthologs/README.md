@@ -2,8 +2,6 @@
 
 None
 
-_Note: automatically generated from package Excel and sequence files; do not edit_
-
 ### Summary:
 
 - 38 parts
@@ -49,3 +47,5 @@ _Note: automatically generated from package Excel and sequence files; do not edi
 - pPsrA (promoter)
 - pQacR (promoter)
 - pSrpR (promoter)
+
+_Note: automatically generated from package Excel and sequence files; do not edit_
