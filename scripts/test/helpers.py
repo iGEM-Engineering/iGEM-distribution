@@ -5,7 +5,7 @@ from shutil import copy
 from scripts.scriptutils import EXPORT_DIRECTORY
 
 
-def copy_to_tmp(package=None, exports=None) -> str:
+def copy_to_tmp(package: list[str] = None, exports: list[str] = None, renames: dict[str,str] = None) -> str:
     """Copy test files into a temporary package directory
 
     :param package: files to go into the package directory
@@ -17,6 +17,8 @@ def copy_to_tmp(package=None, exports=None) -> str:
         exports = []
     if package is None:
         package = []
+    if renames is None:
+        renames = {}
     tmp_dir = tempfile.mkdtemp()
     tmp_sub = os.path.join(tmp_dir, 'test_package')
     tmp_export = os.path.join(tmp_sub, EXPORT_DIRECTORY)
@@ -28,4 +30,6 @@ def copy_to_tmp(package=None, exports=None) -> str:
         copy(os.path.join(test_dir, 'test_files', f), tmp_sub)
     for f in exports:
         copy(os.path.join(test_dir, 'test_files', EXPORT_DIRECTORY, f), tmp_export)
+    for old_f,new_f in renames.items():
+        copy(os.path.join(test_dir, 'test_files', old_f), os.path.join(tmp_sub, new_f))
     return tmp_sub

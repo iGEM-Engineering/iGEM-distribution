@@ -7,9 +7,8 @@ from sbol_utilities.expand_combinatorial_derivations import root_combinatorial_d
 from sbol_utilities.helper_functions import flatten
 
 from .part_retrieval import package_parts_inventory
-from .directories import EXPORT_DIRECTORY, SBOL_EXPORT_NAME, SBOL_PACKAGE_NAME
-from .package_specification import package_stem
-
+from .directories import EXPORT_DIRECTORY, SBOL_EXPORT_NAME, SBOL_PACKAGE_NAME, DISTRIBUTION_NAME
+from .package_specification import package_stem, DISTRIBUTION_NAMESPACE
 
 BUILD_PRODUCTS_COLLECTION = 'BuildProducts'
 
@@ -94,4 +93,55 @@ def expand_build_plan(package: str) -> sbol3.Document:
         raise ValueError(report)
     # Write in place and return
     doc.write(path,sbol3.SORTED_NTRIPLES)
+    return doc
+
+
+def build_distribution(root: str, packages: list[str]) -> sbol3.Document:
+    """Given a package specification and an inventory of parts, unify them into a complete SBOL3 package & write it out
+
+    :param root: location for distribution
+    :param packages: list of packages to include in distribution
+    :return: document for joint package
+    """
+
+    # make a fresh SBOL collection and add a build plan document
+    print('Assembling distribution build plan')
+    doc = sbol3.Document()
+    # TODO: change namespace handling after resolution of https://github.com/SynBioDex/pySBOL3/issues/288
+    sbol3.set_namespace(DISTRIBUTION_NAMESPACE)
+    build_plan = sbol3.Collection(BUILD_PRODUCTS_COLLECTION)
+    doc.add(build_plan)
+
+    complete_build_set = set()
+
+    # copy the materials from every package into it
+    for package in packages:
+        # get fully-assembled package document
+        import_doc = sbol3.Document()
+        import_doc.read(os.path.join(package, EXPORT_DIRECTORY, SBOL_PACKAGE_NAME))
+
+        # copy over all the objects
+        print(f'  Importing {len(import_doc.objects)} objects from package {package}')
+        for o in import_doc.objects:
+            if o.identity in (o.identity for o in doc.objects):
+                continue  # TODO: add a more principled way of handling duplicates
+            o.copy(doc)
+
+        # add materials to the members for the build plan
+        import_build_plan = import_doc.find(BUILD_PRODUCTS_COLLECTION)
+        if not import_build_plan:
+            raise ValueError(f'Could not locate build plan for package {package_stem(package)}')
+        print(f'  Importing build plan with {len(import_build_plan.members)} samples')
+        complete_build_set |= {str(m) for m in import_build_plan.members}
+
+    # set the distribution build plan contents
+    print(f'Distribution build plan specifies {len(complete_build_set)} samples')
+    build_plan.members = list(complete_build_set)
+
+    # finally, validate and write
+    report = doc.validate()
+    if len(report):
+        raise ValueError(report)
+    print(f'Writing distribution plan')
+    doc.write(os.path.join(root, DISTRIBUTION_NAME), sbol3.SORTED_NTRIPLES)
     return doc

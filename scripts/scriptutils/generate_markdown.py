@@ -5,9 +5,14 @@ import tyto
 
 import sbol_utilities.excel_to_sbol
 from sbol_utilities.helper_functions import id_sort
-from .package_production import BUILD_PRODUCTS_COLLECTION
+from .package_production import BUILD_PRODUCTS_COLLECTION, DISTRIBUTION_NAMESPACE
 
-SUMMARY_FILE = 'README.md'  # markdown for summary
+SUMMARY_FILE = 'README.md'
+"""File name for markdown summaries"""
+
+DISTRIBUTION_SUMMARY = 'README_distribution.md'
+"""File name for the distribution summary, to be located in the root directory"""
+
 
 def generate_package_summary(package: str, doc: sbol3.Document):
     """Generate a Markdown README file summarizing package contents that is suitable for automatic display on GitHub
@@ -19,8 +24,8 @@ def generate_package_summary(package: str, doc: sbol3.Document):
     # TODO: use combinatorial derivations and expansions
     parts_list = doc.find(sbol_utilities.excel_to_sbol.BASIC_PARTS_COLLECTION)
     build_plan = doc.find(BUILD_PRODUCTS_COLLECTION)
-    if not isinstance(parts_list,sbol3.Collection):
-        raise ValueError
+    if not isinstance(parts_list, sbol3.Collection) or not isinstance(build_plan, sbol3.Collection):
+        raise ValueError # TODO: be better about information here
 
     summary_filename = os.path.join(package,SUMMARY_FILE)
     with open(summary_filename,'w') as f:
@@ -64,3 +69,34 @@ def generate_package_summary(package: str, doc: sbol3.Document):
 
         # add warning at the bottom
         f.write(f'_Note: automatically generated from package Excel and sequence files; do not edit_\n')
+
+
+def generate_distribution_summary(root: str, doc: sbol3.Document):
+    """Generate a Markdown README file summarizing distribution contents that is suitable for automatic display on GitHub
+
+    :param root: path for summary to be written to
+    :param doc: package document to summarize
+    :return: None
+    """
+    # TODO: use combinatorial derivations and expansions
+    build_plan = doc.find(f'{DISTRIBUTION_NAMESPACE}/{BUILD_PRODUCTS_COLLECTION}')
+    if not isinstance(build_plan,sbol3.Collection):
+        raise ValueError
+
+    summary_filename = os.path.join(root,DISTRIBUTION_SUMMARY)
+    with open(summary_filename,'w') as f:
+        # First the package name and description
+        f.write(f'# Distribution Summary\n\n')
+
+        # Build information
+        f.write(f'- {len(build_plan.members)} samples planned for distribution')
+        f.write('\n\n')  # section break
+
+        # List of all the built samples and their UIDs
+        f.write(f'### Parts:\n\n')
+        for p in id_sort(m.lookup() for m in build_plan.members):
+            f.write(f'- {p.display_id}\n')
+        f.write('\n')  # section break
+
+        # add warning at the bottom
+        f.write(f'_Note: automatically generated from distribution SBOL file; do not edit_\n')
