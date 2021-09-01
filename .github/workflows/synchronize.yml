@@ -4,26 +4,20 @@ on: [push]
 
 jobs:
   directories_and_excel:
-    name: Check package structure and export
+    name: Check package structure and export from Excel files
     runs-on: ubuntu-latest
     steps:
       - name: Set up Git repository
         uses: actions/checkout@v2
 
-      - name: Set up Python 3.9
-        uses: actions/setup-python@v2
-        with:
-          python-version: 3.9
+      - name: Collect any new commits
+        run: |
+          git pull  # get any pushes made since the trigger began; without this job-to-job connections may fail
 
       - name: Set up Python 3.9
         uses: actions/setup-python@v2
         with:
           python-version: 3.9
-
-      - name: Set up Node.js 14
-        uses: actions/setup-node@v2
-        with:
-          node-version: '14'
 
       - name: Install dependencies
         run: |
@@ -39,16 +33,11 @@ jobs:
       - name: Update SBOL
         run: python3 scripts/export_sbol.py
 
-      - name: Convert to SBOL3
-        run: python3 scripts/export_sbol3.py
-
       - name: Commit changes, ready to push
         run: |
-          git pull
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add */views
-          git add */iGEM_SBOL3_imports.nt
           git diff-index --quiet HEAD . || git commit -m "Automatically update exports"
 
       - name: Push changes
@@ -65,6 +54,61 @@ jobs:
       - name: Set up Git repository
         uses: actions/checkout@v2
 
+      - name: Collect any new commits
+        run: |
+          git pull  # get any pushes made since the trigger began; without this job-to-job connections may fail
+
+      - name: Set up Python 3.9
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.9
+
+      - name: Set up Node.js 14
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r scripts/requirements.txt
+
+      - name: Import parts and devices
+        run: python3 scripts/import_parts.py
+
+      - name: Convert SBOL2 imports to SBOL3
+        run: python3 scripts/convert_sbol_2to3.py
+
+      - name: Commit changes, ready to push
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add */*.gb */*.fasta */*.nt
+          git diff-index --quiet HEAD . || git commit -m "Automatically import referenced parts"
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
+
+  build_packages:
+    name: Build and validate final packages
+    needs: retrieve_parts
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up Git repository
+        uses: actions/checkout@v2
+
+      - name: Collect any new commits
+        run: |
+          git pull  # get any pushes made since the trigger began; without this job-to-job connections may fail
+
+      - name: Set up Node.js 14
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
       - name: Set up Python 3.9
         uses: actions/setup-python@v2
         with:
@@ -75,16 +119,64 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r scripts/requirements.txt
 
-      - name: Import parts and devices
-        run: python3 scripts/import_parts.py
+      - name: Collate packages
+        run: python3 scripts/collate_packages.py
+
+      - name: Create vector build plans
+        run: python3 scripts/expand_combinations.py
+
+      - name: Generate markdown from packages
+        run: python3 scripts/generate_markdown.py
 
       - name: Commit changes, ready to push
         run: |
-          git pull
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add */*.gb */*.fasta */*.xml */*.nt
-          git diff-index --quiet HEAD . || git commit -m "Automatically import referenced parts"
+          git add */views/*.nt */README.md
+          git diff-index --quiet HEAD . || git commit -m "Collate and summarize packages"
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
+
+  build_distribution:
+    name: Build and export distribution
+    needs: build_packages
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up Git repository
+        uses: actions/checkout@v2
+
+      - name: Collect any new commits
+        run: |
+          git pull  # get any pushes made since the trigger began; without this job-to-job connections may fail
+
+      - name: Set up Node.js 14
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
+      - name: Set up Python 3.9
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.9
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r scripts/requirements.txt
+
+      - name: Build distribution
+        run: python3 scripts/build_distribution.py
+
+      - name: Commit changes, ready to push
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add *.nt *.md
+          git diff-index --quiet HEAD . || git commit -m "Build distribution"
 
       - name: Push changes
         uses: ad-m/github-push-action@master
