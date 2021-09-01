@@ -171,9 +171,6 @@ jobs:
       - name: Build distribution
         run: python3 scripts/build_distribution.py
 
-      #- name: Generate markdown from distribution
-      #  run: python3 scripts/summarize_distribution.py
-
       - name: Commit changes, ready to push
         run: |
           git config --local user.email "action@github.com"
