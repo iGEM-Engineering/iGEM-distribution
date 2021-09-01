@@ -41,15 +41,15 @@ def generate_package_summary(package: str, doc: sbol3.Document):
         non_vectors = [m for m in parts_list.members if m not in vectors]
         missing_seq = [str(m) for m in non_vectors if len(m.lookup().sequences) == 0]
         missing_vec = [str(m) for m in vectors if len(m.lookup().sequences) == 0]
-        missings = f' _<span style="color:red">{len(missing_seq)} missing sequences</span>_' if missing_seq else ''
+        missings = f' **<span style="color:red">{len(missing_seq)} missing sequences</span>**' if missing_seq else ''
         f.write(f'- {len(non_vectors)} parts{missings}\n')
-        missings = f' _<span style="color:red">{len(missing_vec)} missing sequences</span>_' if missing_vec else ''
+        missings = f' **<span style="color:red">{len(missing_vec)} missing sequences</span>**' if missing_vec else ''
         f.write(f'- {len(vectors)} vectors{missings}\n')
         # TODO: inventory the common types of parts, e.g., promoter, CDS, terminator
         # Build information
         f.write(f'- {len(build_plan.members)} samples for distribution')
         if not build_plan.members:
-            f.write(f'_<span style="color:red">No samples planned to be built for distribution</span>_')
+            f.write(f' **<span style="color:red">No samples planned to be built for distribution</span>**')
         f.write('\n\n')  # section break
 
         # Finally, a list of all the parts and their UIDs
@@ -63,7 +63,7 @@ def generate_package_summary(package: str, doc: sbol3.Document):
             if SO_roles:
                 f.write(f' ({", ".join(SO_roles)})')
             if p.identity in missing_seq:
-                f.write(f' _<span style="color:red">missing sequence</span>_')
+                f.write(f' **<span style="color:red">missing sequence</span>**')
             f.write('\n')
         f.write('\n')  # section break
 
