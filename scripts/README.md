@@ -1,7 +1,7 @@
 # Scripts
 
 This directory contains scripts that automatically collect, generate, or validate materials in the repository.
-These scripts run in three sequential stages: 
+These scripts run in sequential stages: 
 
 1. Check package structure and export from Excel files
     1. `regularize_directories.py` ensures that packages directories are non-nested, that there is one Excel file per package directory, and that every package directory has a `views` subdirectory for storing generated artifacts.
@@ -12,7 +12,10 @@ These scripts run in three sequential stages:
     2. `convert_sbol_2to3.py` changes all SBOL2 imports into SBOL3 imports that are more compatible with version control.
 3. Build and validate final packages
     1. `collate_packages.py` combines a package specification and genetic design files to produce a unified SBOL file in `views`
-    2. `generate_markdown.py` generates README files summarizing each package
+    2. `expand_combinations.py` produces a build plan for each package and saves it into the unified package SBOL file
+    3. `generate_markdown.py` generates README files summarizing each package
+4. Build the distribution
+    1. `build_distribution.py` combines all of the packages into a single distribution file in the root directory
 
 The GitHub actions runs these scripts following the YAML files in `.github/workflows`.  The scripts run in the order listed on every user push.
 
