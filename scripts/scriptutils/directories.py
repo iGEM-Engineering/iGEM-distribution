@@ -8,13 +8,17 @@ import git
 import openpyxl
 import sbol3
 
-# This is the export directory into which sheets and other products will be placed
 EXPORT_DIRECTORY = 'views'
-# These are the sheets to export, which will be written as CSVs with the same name:
+"""Export directory into which sheets and other products will be placed"""
 EXPORT_SHEETS = ['Parts and Devices', 'Libraries and Composites']
-# Name of the base SBOL3 export name (not filled in with details)
+"""List of sheets to export, which will be written as CSVs with the same name"""
 SBOL_EXPORT_NAME = 'package_specification.nt'
+"""Name of the base SBOL3 export name (not filled in with details)"""
 SBOL_PACKAGE_NAME = 'package.nt'
+"""Name of the fully assembled SBOL3 package"""
+
+DISTRIBUTION_NAME = 'distribution.nt'
+"""File name for the distribution as a whole, to be located in the root directory"""
 
 # TODO: replace with EDAM format entries when SBOL2 and SBOL3 can be differentiated
 extensions = {
@@ -28,6 +32,14 @@ extensions = {
               }
 }
 
+
+def distribution_dir() -> str:
+    """Returns the root directory for the distribution.
+
+    :return: Path for distribution directory
+    """
+    root = git.Repo('.', search_parent_directories=True).working_tree_dir
+    return root
 
 def package_dirs() -> List[str]:
     """Find all packages in the repository
