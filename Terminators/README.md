@@ -6,7 +6,7 @@ None
 
 - 6 parts
 - 0 vectors
-- 0 samples for distribution_<span style="color:red">No samples planned to be built for distribution</span>_
+- 0 samples for distribution **<span style="color:red">No samples planned to be built for distribution</span>**
 
 ### Parts:
 

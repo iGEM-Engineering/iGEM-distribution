@@ -5,7 +5,7 @@ The Anderson Promoters are a well-established set of constitutive promoters at v
 ### Summary:
 
 - 21 parts
-- 1 vectors _<span style="color:red">1 missing sequences</span>_
+- 1 vectors **<span style="color:red">1 missing sequences</span>**
 - 40 samples for distribution
 
 ### Parts:
