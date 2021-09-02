@@ -1,6 +1,6 @@
 # Distribution Summary
 
-- 87 samples planned for distribution
+- 99 samples planned for distribution
 
 ### Parts:
 
@@ -44,6 +44,18 @@
 - Anderson_Promoters_in_vector_BBa_J23118_pSB1C3
 - Anderson_Promoters_in_vector_BBa_J23119_pOpen_v4
 - Anderson_Promoters_in_vector_BBa_J23119_pSB1C3
+- Chromoproteins_in_vector_BBa_K1033902
+- Chromoproteins_in_vector_BBa_K1033906
+- Chromoproteins_in_vector_BBa_K1033910
+- Chromoproteins_in_vector_BBa_K1033916
+- Chromoproteins_in_vector_BBa_K1033919
+- Chromoproteins_in_vector_BBa_K1033932
+- Chromoproteins_in_vector_BBa_K1033933
+- Chromoproteins_in_vector_BBa_K592009
+- Chromoproteins_in_vector_BBa_K592010
+- Chromoproteins_in_vector_BBa_K592011
+- Chromoproteins_in_vector_BBa_K592012
+- Chromoproteins_in_vector_BBa_K864401
 - Fluorescent_Proteins_in_vector_BBa_E0020
 - Fluorescent_Proteins_in_vector_BBa_E0030
 - Fluorescent_Proteins_in_vector_BBa_E0040
