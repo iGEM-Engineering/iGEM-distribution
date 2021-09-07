@@ -91,6 +91,7 @@
 <http://parts.igem.org/pSB1C3> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
 <http://parts.igem.org/pSB1C3> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
 <http://parts.igem.org/pSB1C3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/BasicParts> <http://sbols.org/v3#description> "A collection of iGEM Registry chromoproteins from Team Uppsala, useful for reporters and projects that require pigments (dyes, bio-art, etc.). This collection should be expanded upon to include chromoproteins outside of the iGEM Registry, particularly newly developed ones." .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/BasicParts> <http://sbols.org/v3#displayId> "BasicParts" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/BasicParts> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/BasicParts> <http://sbols.org/v3#member> <http://parts.igem.org/K1033902> .
@@ -178,6 +179,7 @@
 <https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/Chromoproteins_in_vector_template> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/Chromoproteins_in_vector_template> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/Chromoproteins_in_vector_template> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/CompositeParts> <http://sbols.org/v3#description> "A collection of iGEM Registry chromoproteins from Team Uppsala, useful for reporters and projects that require pigments (dyes, bio-art, etc.). This collection should be expanded upon to include chromoproteins outside of the iGEM Registry, particularly newly developed ones." .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/CompositeParts> <http://sbols.org/v3#displayId> "CompositeParts" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/CompositeParts> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/CompositeParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/Chromoproteins_in_vector_ins> .
@@ -186,36 +188,12 @@
 <https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/FinalProducts> <http://sbols.org/v3#description> "Final products desired for actual fabrication" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/FinalProducts> <http://sbols.org/v3#displayId> "FinalProducts" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/FinalProducts> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/FinalProducts> <http://sbols.org/v3#member> <http://parts.igem.org/K1033902> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/FinalProducts> <http://sbols.org/v3#member> <http://parts.igem.org/K1033906> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/FinalProducts> <http://sbols.org/v3#member> <http://parts.igem.org/K1033910> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/FinalProducts> <http://sbols.org/v3#member> <http://parts.igem.org/K1033916> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/FinalProducts> <http://sbols.org/v3#member> <http://parts.igem.org/K1033919> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/FinalProducts> <http://sbols.org/v3#member> <http://parts.igem.org/K1033932> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/FinalProducts> <http://sbols.org/v3#member> <http://parts.igem.org/K1033933> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/FinalProducts> <http://sbols.org/v3#member> <http://parts.igem.org/K592009> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/FinalProducts> <http://sbols.org/v3#member> <http://parts.igem.org/K592010> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/FinalProducts> <http://sbols.org/v3#member> <http://parts.igem.org/K592011> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/FinalProducts> <http://sbols.org/v3#member> <http://parts.igem.org/K592012> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/FinalProducts> <http://sbols.org/v3#member> <http://parts.igem.org/K864401> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/FinalProducts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/Chromoproteins_in_vector> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/FinalProducts> <http://sbols.org/v3#name> "Final Products" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/FinalProducts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Collection> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/LinearDNAProducts> <http://sbols.org/v3#description> "Linear DNA constructs to be fabricated" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/LinearDNAProducts> <http://sbols.org/v3#displayId> "LinearDNAProducts" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/LinearDNAProducts> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/LinearDNAProducts> <http://sbols.org/v3#member> <http://parts.igem.org/K1033902> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/LinearDNAProducts> <http://sbols.org/v3#member> <http://parts.igem.org/K1033906> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/LinearDNAProducts> <http://sbols.org/v3#member> <http://parts.igem.org/K1033910> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/LinearDNAProducts> <http://sbols.org/v3#member> <http://parts.igem.org/K1033916> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/LinearDNAProducts> <http://sbols.org/v3#member> <http://parts.igem.org/K1033919> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/LinearDNAProducts> <http://sbols.org/v3#member> <http://parts.igem.org/K1033932> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/LinearDNAProducts> <http://sbols.org/v3#member> <http://parts.igem.org/K1033933> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/LinearDNAProducts> <http://sbols.org/v3#member> <http://parts.igem.org/K592009> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/LinearDNAProducts> <http://sbols.org/v3#member> <http://parts.igem.org/K592010> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/LinearDNAProducts> <http://sbols.org/v3#member> <http://parts.igem.org/K592011> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/LinearDNAProducts> <http://sbols.org/v3#member> <http://parts.igem.org/K592012> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/LinearDNAProducts> <http://sbols.org/v3#member> <http://parts.igem.org/K864401> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/LinearDNAProducts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/Chromoproteins_in_vector_ins> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/LinearDNAProducts> <http://sbols.org/v3#name> "Linear DNA Products" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/LinearDNAProducts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Collection> .
