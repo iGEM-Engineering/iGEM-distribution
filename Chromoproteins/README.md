@@ -1,6 +1,6 @@
 # Package: Chromoprotein Collection
 
-None
+A collection of iGEM Registry chromoproteins from Team Uppsala, useful for reporters and projects that require pigments (dyes, bio-art, etc.). This collection should be expanded upon to include chromoproteins outside of the iGEM Registry, particularly newly developed ones.
 
 ### Summary:
 
