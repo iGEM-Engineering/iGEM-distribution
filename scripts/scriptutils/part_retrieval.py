@@ -10,12 +10,11 @@ from Bio import Entrez, SeqIO
 import sbol2
 import sbol3
 from sbol_utilities.helper_functions import flatten, unambiguous_dna_sequence
-# TODO: switch to sbol3 after resolution of https://github.com/SynBioDex/pySBOL3/issues/191
+# TODO: switch string_to_display_id to sbol3 after resolution of https://github.com/SynBioDex/pySBOL3/issues/191
 from sbol_utilities.excel_to_sbol import string_to_display_id, BASIC_PARTS_COLLECTION
 from .directories import EXPORT_DIRECTORY, SBOL_EXPORT_NAME, extensions
 from .package_specification import package_stem
-from .conversions import convert2to3
-
+from .conversions import convert2to3, convert_from_fasta, convert_from_genbank
 
 GENBANK_CACHE_FILE = 'GenBank_imports.gb'
 IGEM_SBOL2_TRANSIENT_CACHE_FILE = 'iGEM_SBOL2_imports.xml'  # Not stored since SBOL2 doesn't have stable serialization
@@ -46,38 +45,25 @@ class ImportFile:
 
         :return: SBOL3 document for the file's contents
         """
-        if self.doc:  # If the document already loaded, just return it
-            return self.doc
+        if self.doc:  # If the document already loaded, we can just return it
+            pass
         # Otherwise, load the file, converting if necessary
-        if self.file_type == 'FASTA':  # FASTA should be read with NCBI and converted directly into SBOL3
-            doc = sbol3.Document()
-            with open(self.path, 'r') as f:
-                for r in SeqIO.parse(f, 'fasta'):
-                    identity = self.namespace+'/'+string_to_display_id(r.id)
-                    s = sbol3.Sequence(identity+'_sequence', name=r.name, description=r.description.strip(),
-                                       elements=str(r.seq), encoding=sbol3.IUPAC_DNA_ENCODING, namespace=self.namespace)
-                    doc.add(s)
-                    doc.add(sbol3.Component(identity, sbol3.SBO_DNA, name=r.name, description=r.description.strip(),
-                                            sequences=[s.identity], namespace=self.namespace))
-            return doc
+        elif self.file_type == 'FASTA':  # FASTA should be read with NCBI and converted directly into SBOL3
+            self.doc = convert_from_fasta(self.path, self.namespace)
         elif self.file_type == 'GenBank':  # GenBank --> SBOL2 --> SBOL3
-            doc2 = sbol2.Document()
-            sbol2.setHomespace(self.namespace)
-            doc2.importFromFormat(self.path)
-            doc = convert2to3(doc2, [self.namespace])
-            return doc
+            self.doc = convert_from_genbank(self.path, self.namespace)
         elif self.file_type == 'SBOL2':  # SBOL2 files should all have been turned to SBOL3 already
             logging.warning(f'Should not be importing directly from SBOL2: {self.path}')
             doc2 = sbol2.Document()
             doc2.read(self.path)
-            doc = convert2to3(doc2)
-            return doc
+            self.doc = convert2to3(doc2)
         elif self.file_type == 'SBOL3':  # reading from SBOL3 is simple
-            doc = sbol3.Document()
-            doc.read(self.path)
-            return doc
+            self.doc = sbol3.Document()
+            self.doc.read(self.path)
         else:
             raise ValueError(f'Unknown file type: "{self.file_type}" for {self.path}')
+        
+        return self.doc
 
 
 class PackageInventory:
