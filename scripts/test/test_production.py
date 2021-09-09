@@ -23,14 +23,15 @@ class TestImportParts(unittest.TestCase):
         package_production.collate_package(tmp_sub)
         doc = sbol3.Document()
         doc.read(os.path.join(tmp_sub, EXPORT_DIRECTORY, SBOL_PACKAGE_NAME))
-        # composite document should have 5 imported parts plus 6 parts that aren't yet imported, plus 2 templates
+        # composite document should have the following inventory:
         pkg = 'https://github.com/iGEM-Engineering/iGEM-distribution/test_package/'
         expected = {f'{pkg}Anderson_Promoters_in_vector_ins_template', f'{pkg}Anderson_Promoters_in_vector_template',
                     f'{pkg}Other_stuff_ins_template', f'{pkg}Other_stuff_template',
                     'https://synbiohub.org/public/igem/BBa_J23100',
                     'https://synbiohub.org/public/igem/BBa_J23101',
                     'https://synbiohub.org/public/igem/BBa_J23102',
-                    'http://parts.igem.org/pSB1C3', f'{pkg}pOpen_v4',
+                    'https://synbiohub.org/public/igem/pSB1C3',
+                    'http://parts.igem.org/BBa_J364007', f'{pkg}pOpen_v4',
                     'https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115',
                     'https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/LmrA',
                     f'{pkg}J23102_modified',
@@ -40,9 +41,9 @@ class TestImportParts(unittest.TestCase):
         collated = {o.identity for o in doc.objects if isinstance(o, sbol3.Component)}
         assert collated == expected, f'Collated parts set does not match expected value: {collated}'
         sequences = [o for o in doc.objects if isinstance(o, sbol3.Sequence)]
-        assert len(sequences) == 10, f'Collated document should have 10 sequences, but found {len(sequences)}'
-        # Total: 13 components, 10 sequences, 4 collections, 4 CDs, 2 Activity, 1 agent, 1 attachment = 33
-        assert len(doc.objects) == 37, f'Expected 37 TopLevel objects, but found {len(doc.objects)}'
+        assert len(sequences) == 11, f'Collated document should have 11 sequences, but found {len(sequences)}'
+        # Total: 14 components, 11 sequences, 4 collections, 4 CDs, 2 Activity, 1 agent, 1 attachment = 37
+        assert len(doc.objects) == 39, f'Expected 39 TopLevel objects, but found {len(doc.objects)}'
 
         # check that the file is identical to expectation
         test_dir = os.path.dirname(os.path.realpath(__file__))
@@ -72,8 +73,8 @@ class TestImportParts(unittest.TestCase):
                     f'{pkg}Other_stuff_LmrA',
                     f'{pkg}Other_stuff_JWYZ01000115'}
         assert set(str(m) for m in collection.members) == expected, f'Build set does not match expected value: {collection.members}'
-        # Total: 37 from original document, plus 10 vectors, 2x2 expansion collections, 1 package build collection
-        assert len(doc.objects) == 52, f'Expected 52 TopLevel objects, but found {len(doc.objects)}'
+        # Total: 39 from original document, plus 10 vectors, 2x2 expansion collections, 1 package build collection
+        assert len(doc.objects) == 54, f'Expected 52 TopLevel objects, but found {len(doc.objects)}'
 
         # check that the file is identical to expectation
         test_dir = os.path.dirname(os.path.realpath(__file__))
@@ -83,8 +84,8 @@ class TestImportParts(unittest.TestCase):
 
     def test_build_distribution(self):
         """Test the assembly of a complete distribution"""
-        rm = {os.path.join(EXPORT_DIRECTORY, 'package-expanded.nt'): os.path.join(EXPORT_DIRECTORY, SBOL_PACKAGE_NAME)}
-        tmp_sub = copy_to_tmp(renames=rm)
+        m = {os.path.join(EXPORT_DIRECTORY, 'package-expanded.nt'): os.path.join(EXPORT_DIRECTORY, SBOL_PACKAGE_NAME)}
+        tmp_sub = copy_to_tmp(renames=m)
         root = os.path.dirname(tmp_sub)
         packages = [tmp_sub]
         doc = package_production.build_distribution(root,packages)
@@ -92,8 +93,8 @@ class TestImportParts(unittest.TestCase):
         # check if contents match expectation
         collection = doc.find(f'{DISTRIBUTION_NAMESPACE}/{BUILD_PRODUCTS_COLLECTION}')
         assert len(collection.members) == 10, f'Expected 10 build products, but found {len(collection.members)}'
-        # Total: 52 from package, plus 1 total build collection
-        assert len(doc.objects) == 53, f'Expected 53 TopLevel objects, but found {len(doc.objects)}'
+        # Total: 54 from package, plus 1 total build collection
+        assert len(doc.objects) == 55, f'Expected 55 TopLevel objects, but found {len(doc.objects)}'
 
         # check that the file is identical to expectation
         test_dir = os.path.dirname(os.path.realpath(__file__))
