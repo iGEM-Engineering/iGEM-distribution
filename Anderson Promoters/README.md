@@ -11,7 +11,7 @@ The Anderson Promoters are a well-established set of constitutive promoters at v
 ### Parts:
 
 - pSB1C3
-- pOpen_v4 (plasmid)
+- pOpen_v4 (plasmid) **<span style="color:red">missing sequence</span>**
 - BBa_J23100 (promoter)
 - BBa_J23101 (promoter)
 - BBa_J23102 (promoter)
