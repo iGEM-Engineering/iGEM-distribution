@@ -1,3 +1,4 @@
+import datetime
 import logging
 import subprocess
 import glob
@@ -9,7 +10,9 @@ from typing import Union
 import rdflib
 import sbol2
 import sbol3
-from sbol_utilities.helper_functions import flatten, strip_sbol2_version
+from Bio import SeqIO, SeqRecord
+
+from sbol_utilities.helper_functions import flatten, strip_sbol2_version, id_sort
 from .directories import extensions
 
 # sbol javascript executable based on https://github.com/sboltools/sbolgraph
@@ -63,8 +66,14 @@ def convert_identities2to3(sbol3_data: str) -> str:
     return g.serialize(format="xml")
 
 
-def convert2to3(sbol2_doc: Union[str, sbol2.Document], namespaces: list = []) -> sbol3.Document:
-    # if we've started with a
+def convert2to3(sbol2_doc: Union[str, sbol2.Document], namespaces: list[str] = []) -> sbol3.Document:
+    """Convert an SBOL2 document to an equivalent SBOL3 document
+
+    :param sbol2_doc: Document to convert
+    :param namespaces: list of URI prefixes to treat as namespaces
+    :return: equivalent SBOL3 document
+    """
+    # if we've started with a Document in memory, write it to a temp file
     if isinstance(sbol2_doc, sbol2.Document):
         sbol2_path = tempfile.mkstemp(suffix='.xml')[1]
         sbol2_doc.write(sbol2_path)
@@ -144,3 +153,102 @@ def convert_package_sbol2_files(package: str) -> dict[str, str]:
         mappings[file] = file3
 
     return mappings
+
+
+def convert3to2(doc3: sbol3.Document) -> sbol2.Document:
+    """Convert an SBOL3 document to an equivalent SBOL2 document
+
+    :param doc3: Document to convert
+    :return: equivalent SBOL2 document
+    """
+    # TODO: remove workarounds after conversion errors fixed in https://github.com/sboltools/sbolgraph/issues/14
+    # remap sequence encodings:
+    encoding_remapping = {
+        sbol3.IUPAC_DNA_ENCODING: sbol2.SBOL_ENCODING_IUPAC,
+        sbol3.IUPAC_PROTEIN_ENCODING: sbol2.SBOL_ENCODING_IUPAC_PROTEIN,
+        sbol3.SMILES_ENCODING: sbol3.SMILES_ENCODING
+    }
+    for s in (o for o in doc3.objects if isinstance(o,sbol3.Sequence)):
+        if s.encoding in encoding_remapping:
+            s.encoding = encoding_remapping[s.encoding]
+
+    # Write to an RDF-XML temp file to run through the converter:
+    sbol3_path = tempfile.mkstemp(suffix='.xml')[1]
+    doc3.write(sbol3_path, sbol3.RDF_XML)
+
+    # Run the actual conversion and return the resulting document
+    cmd = [SBOL_CONVERTER, '-output', 'sbol2',
+           'import', sbol3_path,
+           'convert', '--target-sbol-version', '2']
+    # This will raise an exception if the command fails
+    proc = subprocess.run(cmd, capture_output=True, check=True)
+    # Extract the rdf_xml output from the sbol converter
+    rdf_xml = proc.stdout.decode('utf-8')
+
+    doc2 = sbol2.Document()
+    doc2.readString(rdf_xml)
+    return doc2
+
+
+def convert_to_fasta(doc3: sbol3.Document, path: str) -> None:
+    """Convert an SBOL3 document to a FASTA file, which is written to disk
+    Specifically, every Component with precisely one sequence of a nucleic acid type will result in a FASTA entry
+    Components will no sequences will be silently omitted; those with multiple will result in a warning
+
+    :param doc3: SBOL3 document to convert
+    :param path: path to write FASTA file to
+    """
+    with open(path, 'w') as out:
+        for c in id_sort([c for c in doc3.objects if isinstance(c, sbol3.Component)]):
+            # Find all sequences of nucleic acid type
+            na_seqs = [s.lookup() for s in c.sequences if s.lookup().encoding == sbol3.IUPAC_DNA_ENCODING]
+            if len(na_seqs) == 0:  # ignore components with no sequence to serialize
+                continue
+            elif len(na_seqs) == 1:  # if there is precisely one sequence, write it to the FASTA
+                record = SeqIO.SeqRecord(na_seqs[0].elements.upper(), id=c.display_id)
+                out.write(record.format('fasta'))
+            else:  # warn about components with ambiguous sequences
+                logging.warning(f'Ambiguous component ({len(na_seqs)} sequences) not converted to FASTA: {c.identity}')
+
+
+DEFAULT_BOGUS_GENBANK_DATE = '01-JAN-2000'
+PROV_MODIFIED = 'http://purl.org/dc/terms/modified'
+def convert_to_genbank(doc3: sbol3.Document, path: str) -> list[SeqRecord]:
+    """Convert an SBOL3 document to a GenBank file, which is written to disk
+    Note that for compatibility with version control software, if no prov:modified term is available on each Component,
+    then a fixed bogus datestamp of January 1, 2000 is given
+
+    :param doc3: SBOL3 document to convert
+    :param path: path to write FASTA file to
+    """
+    # first convert to SBOL2, then export to a temp GenBank file
+    doc2 = convert3to2(doc3)
+    gb_tmp = tempfile.mkstemp(suffix='.gb')[1]
+    doc2.exportToFormat('GenBank', gb_tmp)
+
+    # Read and re-write in order to  purge invalid date information and standardize GenBank formatting
+    # next, build the map of modification datestamps
+    mod_dates = {}
+    for c in id_sort([c for c in doc3.objects if isinstance(c, sbol3.Component)]):
+        # since GenBank exports have only display_id values, if there's a collision we can't map modified dates
+        if c.display_id in mod_dates:
+            logging.warning(f'Multiple uses of display_id, so GenBank modified date cannot be assigned: {c.identity}')
+            mod_dates[c.display_id] = DEFAULT_BOGUS_GENBANK_DATE
+        # if there is a modified property, convert it to the required format
+        if PROV_MODIFIED in c.properties and len(c._properties[PROV_MODIFIED]):  # TODO: figure out how to do this without accessing a protected member
+            try:
+                mod = str(sorted(c._properties[PROV_MODIFIED])[-1])  # sort & take last time
+                mod_dates[c.display_id] = datetime.datetime.strptime(mod.split('T')[0], '%Y-%m-%d').strftime("%Y-%b-%d")
+            except ValueError:
+                mod_dates[c.display_id] = DEFAULT_BOGUS_GENBANK_DATE
+        else:
+            mod_dates[c.display_id] = DEFAULT_BOGUS_GENBANK_DATE
+
+    # read the GenBank file back in and remap using corresponding modification datestamps
+    with open(gb_tmp, 'r') as tmp:
+        records = [r for r in SeqIO.parse(tmp, 'gb')]
+        # for r in records:
+        #     r.annotations['date'] = mod_dates[r.name]  # Should always be there; if not, converter has failed
+    # write the final file
+    SeqIO.write(records,path,'gb')
+    return records

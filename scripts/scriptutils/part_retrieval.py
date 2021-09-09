@@ -14,7 +14,7 @@ from sbol_utilities.helper_functions import flatten, unambiguous_dna_sequence
 from sbol_utilities.excel_to_sbol import string_to_display_id, BASIC_PARTS_COLLECTION
 from .directories import EXPORT_DIRECTORY, SBOL_EXPORT_NAME, extensions
 from .package_specification import package_stem
-from .sbol2to3 import convert2to3
+from .conversions import convert2to3
 
 
 GENBANK_CACHE_FILE = 'GenBank_imports.gb'
