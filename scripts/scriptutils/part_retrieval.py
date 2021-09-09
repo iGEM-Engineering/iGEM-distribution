@@ -54,10 +54,11 @@ class ImportFile:
             with open(self.path, 'r') as f:
                 for r in SeqIO.parse(f, 'fasta'):
                     identity = self.namespace+'/'+string_to_display_id(r.id)
-                    s = sbol3.Sequence(identity+'_sequence', name=r.name, description=r.description,
+                    s = sbol3.Sequence(identity+'_sequence', name=r.name, description=r.description.strip(),
                                        elements=str(r.seq), encoding=sbol3.IUPAC_DNA_ENCODING, namespace=self.namespace)
                     doc.add(s)
-                    doc.add(sbol3.Component(identity, sbol3.SBO_DNA, sequences=[s.identity], namespace=self.namespace))
+                    doc.add(sbol3.Component(identity, sbol3.SBO_DNA, name=r.name, description=r.description.strip(),
+                                            sequences=[s.identity], namespace=self.namespace))
             return doc
         elif self.file_type == 'GenBank':  # GenBank --> SBOL2 --> SBOL3
             doc2 = sbol2.Document()

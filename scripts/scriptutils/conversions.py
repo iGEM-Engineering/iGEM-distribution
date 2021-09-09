@@ -11,6 +11,7 @@ import rdflib
 import sbol2
 import sbol3
 from Bio import SeqIO, SeqRecord
+from Bio.Seq import Seq
 
 from sbol_utilities.helper_functions import flatten, strip_sbol2_version, id_sort
 from .directories import extensions
@@ -205,7 +206,7 @@ def convert_to_fasta(doc3: sbol3.Document, path: str) -> None:
             if len(na_seqs) == 0:  # ignore components with no sequence to serialize
                 continue
             elif len(na_seqs) == 1:  # if there is precisely one sequence, write it to the FASTA
-                record = SeqIO.SeqRecord(na_seqs[0].elements.upper(), id=c.display_id)
+                record = SeqIO.SeqRecord(Seq(na_seqs[0].elements), id=c.display_id, description=c.description or '')
                 out.write(record.format('fasta'))
             else:  # warn about components with ambiguous sequences
                 logging.warning(f'Ambiguous component ({len(na_seqs)} sequences) not converted to FASTA: {c.identity}')
@@ -227,28 +228,9 @@ def convert_to_genbank(doc3: sbol3.Document, path: str) -> list[SeqRecord]:
     doc2.exportToFormat('GenBank', gb_tmp)
 
     # Read and re-write in order to  purge invalid date information and standardize GenBank formatting
-    # next, build the map of modification datestamps
-    mod_dates = {}
-    for c in id_sort([c for c in doc3.objects if isinstance(c, sbol3.Component)]):
-        # since GenBank exports have only display_id values, if there's a collision we can't map modified dates
-        if c.display_id in mod_dates:
-            logging.warning(f'Multiple uses of display_id, so GenBank modified date cannot be assigned: {c.identity}')
-            mod_dates[c.display_id] = DEFAULT_BOGUS_GENBANK_DATE
-        # if there is a modified property, convert it to the required format
-        if PROV_MODIFIED in c.properties and len(c._properties[PROV_MODIFIED]):  # TODO: figure out how to do this without accessing a protected member
-            try:
-                mod = str(sorted(c._properties[PROV_MODIFIED])[-1])  # sort & take last time
-                mod_dates[c.display_id] = datetime.datetime.strptime(mod.split('T')[0], '%Y-%m-%d').strftime("%Y-%b-%d")
-            except ValueError:
-                mod_dates[c.display_id] = DEFAULT_BOGUS_GENBANK_DATE
-        else:
-            mod_dates[c.display_id] = DEFAULT_BOGUS_GENBANK_DATE
-
-    # read the GenBank file back in and remap using corresponding modification datestamps
     with open(gb_tmp, 'r') as tmp:
         records = [r for r in SeqIO.parse(tmp, 'gb')]
-        # for r in records:
-        #     r.annotations['date'] = mod_dates[r.name]  # Should always be there; if not, converter has failed
+
     # write the final file
     SeqIO.write(records,path,'gb')
     return records
