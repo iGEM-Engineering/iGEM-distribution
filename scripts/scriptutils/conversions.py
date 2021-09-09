@@ -260,7 +260,10 @@ def convert_to_genbank(doc3: sbol3.Document, path: str) -> list[SeqRecord]:
     # first convert to SBOL2, then export to a temp GenBank file
     doc2 = convert3to2(doc3)
     gb_tmp = tempfile.mkstemp(suffix='.gb')[1]
-    doc2.exportToFormat('GenBank', gb_tmp)
+    try:
+        doc2.exportToFormat('GenBank', gb_tmp)
+    except sbol2.SBOLError:  # doc2.exportToFormat errors when nothing is output; in this case, write an empty file
+        open(gb_tmp, 'w').close()
 
     # Read and re-write in order to  purge invalid date information and standardize GenBank formatting
     with open(gb_tmp, 'r') as tmp:
