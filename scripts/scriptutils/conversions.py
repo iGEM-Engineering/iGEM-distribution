@@ -1,4 +1,3 @@
-import datetime
 import logging
 import subprocess
 import glob
@@ -13,6 +12,7 @@ import sbol3
 from Bio import SeqIO, SeqRecord
 from Bio.Seq import Seq
 
+from sbol_utilities.excel_to_sbol import string_to_display_id
 from sbol_utilities.helper_functions import flatten, strip_sbol2_version, id_sort
 from .directories import extensions
 
@@ -33,7 +33,7 @@ def convert_identities2to3(sbol3_data: str) -> str:
     # TODO: remove workaround after conversion errors fixed in https://github.com/sboltools/sbolgraph/issues/14
     # for all objects in the prov namespace, add an SBOL type
     # TODO: likely need to do this for OM namespace too
-    for s, p, o in g.triples((None,rdflib.RDF.type,None)):
+    for s, p, o in g.triples((None, rdflib.RDF.type, None)):
         if o.startswith(sbol3.PROV_NS):
             if str(o) in {sbol3.PROV_ASSOCIATION, sbol3.PROV_USAGE}:
                 g.add((s, p, rdflib.URIRef(sbol3.SBOL_IDENTIFIED)))
@@ -67,7 +67,7 @@ def convert_identities2to3(sbol3_data: str) -> str:
     return g.serialize(format="xml")
 
 
-def convert2to3(sbol2_doc: Union[str, sbol2.Document], namespaces: list[str] = []) -> sbol3.Document:
+def convert2to3(sbol2_doc: Union[str, sbol2.Document], namespaces=None) -> sbol3.Document:
     """Convert an SBOL2 document to an equivalent SBOL3 document
 
     :param sbol2_doc: Document to convert
@@ -75,6 +75,8 @@ def convert2to3(sbol2_doc: Union[str, sbol2.Document], namespaces: list[str] = [
     :return: equivalent SBOL3 document
     """
     # if we've started with a Document in memory, write it to a temp file
+    if namespaces is None:
+        namespaces = []
     if isinstance(sbol2_doc, sbol2.Document):
         sbol2_path = tempfile.mkstemp(suffix='.xml')[1]
         sbol2_doc.write(sbol2_path)
@@ -104,22 +106,22 @@ def convert2to3(sbol2_doc: Union[str, sbol2.Document], namespaces: list[str] = [
     for o in needs_namespace:  # if no supplied namespace matches, default to scheme//netloc
         # figure out the server to access from the URL
         p = urllib.parse.urlparse(o.identity)
-        server = urllib.parse.urlunparse([p.scheme,p.netloc,'','','',''])
+        server = urllib.parse.urlunparse([p.scheme, p.netloc, '', '', '', ''])
         o.namespace = server
     # infer sequences for locations:
-    for s in (o for o in doc.objects if isinstance(o,sbol3.Component)):
-        if len(s.sequences) != 1: # can only infer sequences if there is precisely one
+    for s in (o for o in doc.objects if isinstance(o, sbol3.Component)):
+        if len(s.sequences) != 1:  # can only infer sequences if there is precisely one
             continue
-        for f in (f for f in s.features if isinstance(f,sbol3.SequenceFeature) or isinstance(f,sbol3.SubComponent)):
-            for l in f.locations:
-                l.sequence = s.sequences[0]
+        for f in (f for f in s.features if isinstance(f, sbol3.SequenceFeature) or isinstance(f, sbol3.SubComponent)):
+            for loc in f.locations:
+                loc.sequence = s.sequences[0]
     # remap sequence encodings:
     encoding_remapping = {
         'http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html': 'https://identifiers.org/edam:format_1207',
         'http://www.chem.qmul.ac.uk/iupac/AminoAcid/': 'https://identifiers.org/edam:format_1208',
         'http://www.opensmiles.org/opensmiles.html': 'https://identifiers.org/edam:format_1196'
     }
-    for s in (o for o in doc.objects if isinstance(o,sbol3.Sequence)):
+    for s in (o for o in doc.objects if isinstance(o, sbol3.Sequence)):
         if s.encoding in encoding_remapping:
             s.encoding = encoding_remapping[s.encoding]
     return doc
@@ -169,7 +171,7 @@ def convert3to2(doc3: sbol3.Document) -> sbol2.Document:
         sbol3.IUPAC_PROTEIN_ENCODING: sbol2.SBOL_ENCODING_IUPAC_PROTEIN,
         sbol3.SMILES_ENCODING: sbol3.SMILES_ENCODING
     }
-    for s in (o for o in doc3.objects if isinstance(o,sbol3.Sequence)):
+    for s in (o for o in doc3.objects if isinstance(o, sbol3.Sequence)):
         if s.encoding in encoding_remapping:
             s.encoding = encoding_remapping[s.encoding]
 
@@ -212,8 +214,41 @@ def convert_to_fasta(doc3: sbol3.Document, path: str) -> None:
                 logging.warning(f'Ambiguous component ({len(na_seqs)} sequences) not converted to FASTA: {c.identity}')
 
 
-DEFAULT_BOGUS_GENBANK_DATE = '01-JAN-2000'
-PROV_MODIFIED = 'http://purl.org/dc/terms/modified'
+def convert_from_fasta(path: str, namespace: str) -> sbol3.Document:
+    """Convert a FASTA nucleotide document on disk into an SBOL3 document
+    Specifically, every sequence in the FASTA will be converted into an SBOL Component and associated Sequence
+
+    :param path: path to read FASTA file from
+    :param namespace: URIs of Components will be set to {namespace}/{fasta_id}
+    :return: SBOL3 document containing converted materials
+    """
+    doc = sbol3.Document()
+    with open(path, 'r') as f:
+        for r in SeqIO.parse(f, 'fasta'):
+            identity = namespace+'/'+string_to_display_id(r.id)
+            s = sbol3.Sequence(identity+'_sequence', name=r.name, description=r.description.strip(),
+                               elements=str(r.seq), encoding=sbol3.IUPAC_DNA_ENCODING, namespace=namespace)
+            doc.add(s)
+            doc.add(sbol3.Component(identity, sbol3.SBO_DNA, name=r.name, description=r.description.strip(),
+                                    sequences=[s.identity], namespace=namespace))
+    return doc
+
+
+def convert_from_genbank(path: str, namespace: str) -> sbol3.Document:
+    """Convert a GenBank document on disk into an SBOL3 document
+    Specifically, the GenBank document is first imported to SBOL2, then converted from SBOL2 to SBOL3
+
+    :param path: path to read GenBank file from
+    :param namespace: URIs of Components will be set to {namespace}/{genbank_id}
+    :return: SBOL3 document containing converted materials
+    """
+    doc2 = sbol2.Document()
+    sbol2.setHomespace(namespace)
+    doc2.importFromFormat(path)
+    doc = convert2to3(doc2, [namespace])
+    return doc
+
+
 def convert_to_genbank(doc3: sbol3.Document, path: str) -> list[SeqRecord]:
     """Convert an SBOL3 document to a GenBank file, which is written to disk
     Note that for compatibility with version control software, if no prov:modified term is available on each Component,
@@ -232,5 +267,5 @@ def convert_to_genbank(doc3: sbol3.Document, path: str) -> list[SeqRecord]:
         records = [r for r in SeqIO.parse(tmp, 'gb')]
 
     # write the final file
-    SeqIO.write(records,path,'gb')
+    SeqIO.write(records, path, 'gb')
     return records
