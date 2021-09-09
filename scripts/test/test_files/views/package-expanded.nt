@@ -1,10 +1,12 @@
 
+<http://parts.igem.org/pSB1C3> <http://sbols.org/v3#description> "pSB1C3" .
 <http://parts.igem.org/pSB1C3> <http://sbols.org/v3#displayId> "pSB1C3" .
 <http://parts.igem.org/pSB1C3> <http://sbols.org/v3#hasNamespace> <http://parts.igem.org> .
 <http://parts.igem.org/pSB1C3> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/pSB1C3_sequence> .
+<http://parts.igem.org/pSB1C3> <http://sbols.org/v3#name> "pSB1C3" .
 <http://parts.igem.org/pSB1C3> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
 <http://parts.igem.org/pSB1C3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
-<http://parts.igem.org/pSB1C3_sequence> <http://sbols.org/v3#description> " pSB1C3" .
+<http://parts.igem.org/pSB1C3_sequence> <http://sbols.org/v3#description> "pSB1C3" .
 <http://parts.igem.org/pSB1C3_sequence> <http://sbols.org/v3#displayId> "pSB1C3_sequence" .
 <http://parts.igem.org/pSB1C3_sequence> <http://sbols.org/v3#elements> "tactagtagcggccgctgcagtccggcaaaaaagggcaaggtgtcaccaccctgccctttttctttaaaaccgaaaagattacttcgcgttatgcaggcttcctcgctcactgactcgctgcgctcggtcgttcggctgcggcgagcggtatcagctcactcaaaggcggtaatacggttatccacagaatcaggggataacgcaggaaagaacatgtgagcaaaaggccagcaaaaggccaggaaccgtaaaaaggccgcgttgctggcgtttttccacaggctccgcccccctgacgagcatcacaaaaatcgacgctcaagtcagaggtggcgaaacccgacaggactataaagataccaggcgtttccccctggaagctccctcgtgcgctctcctgttccgaccctgccgcttaccggatacctgtccgcctttctcccttcgggaagcgtggcgctttctcatagctcacgctgtaggtatctcagttcggtgtaggtcgttcgctccaagctgggctgtgtgcacgaaccccccgttcagcccgaccgctgcgccttatccggtaactatcgtcttgagtccaacccggtaagacacgacttatcgccactggcagcagccactggtaacaggattagcagagcgaggtatgtaggcggtgctacagagttcttgaagtggtggcctaactacggctacactagaagaacagtatttggtatctgcgctctgctgaagccagttaccttcggaaaaagagttggtagctcttgatccggcaaacaaaccaccgctggtagcggtggtttttttgtttgcaagcagcagattacgcgcagaaaaaaaggatctcaagaagatcctttgatcttttctacggggtctgacgctcagtggaacgaaaactcacgttaagggattttggtcatgagattatcaaaaaggatcttcacctagatccttttaaattaaaaatgaagttttaaatcaatctaaagtatatatgagtaaacttggtctgacagctcgaggcttggattctcaccaataaaaaacgcccggcggcaaccgagcgttctgaacaaatccagatggagttctgaggtcattactggatctatcaacaggagtccaagcgagctcgatatcaaattacgccccgccctgccactcatcgcagtactgttgtaattcattaagcattctgccgacatggaagccatcacaaacggcatgatgaacctgaatcgccagcggcatcagcaccttgtcgccttgcgtataatatttgcccatggtgaaaacgggggcgaagaagttgtccatattggccacgtttaaatcaaaactggtgaaactcacccagggattggctgagacgaaaaacatattctcaataaaccctttagggaaataggccaggttttcaccgtaacacgccacatcttgcgaatatatgtgtagaaactgccggaaatcgtcgtggtattcactccagagcgatgaaaacgtttcagtttgctcatggaaaacggtgtaacaagggtgaacactatcccatatcaccagctcaccgtctttcattgccatacgaaattccggatgagcattcatcaggcgggcaagaatgtgaataaaggccggataaaacttgtgcttatttttctttacggtctttaaaaaggccgtaatatccagctgaacggtctggttataggtacattgagcaactgactgaaatgcctcaaaatgttctttacgatgccattgggatatatcaacggtggtatatccagtgatttttttctccattttagcttccttagctcctgaaaatctcgataactcaaaaaatacgcccggtagtgatcttatttcattatggtgaaagttggaacctcttacgtgcccgatcaactcgagtgccacctgacgtctaagaaaccattattatcatgacattaacctataaaaataggcgtatcacgaggcagaatttcagataaaaaaaatccttagctttcgctaaggatgatttctggaattcgcggccgcttctagag" .
 <http://parts.igem.org/pSB1C3_sequence> <http://sbols.org/v3#encoding> <https://identifiers.org/edam:format_1207> .
@@ -330,12 +332,14 @@
 <https://github.com/iGEM-Engineering/iGEM-distribution/test_package/FinalProducts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/test_package/Anderson_Promoters_in_vector> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/test_package/FinalProducts> <http://sbols.org/v3#name> "Final Products" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/test_package/FinalProducts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/test_package/J23102_modified> <http://sbols.org/v3#description> "J23102-modified a modified version of J23102" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/test_package/J23102_modified> <http://sbols.org/v3#displayId> "J23102_modified" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/test_package/J23102_modified> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/test_package> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/test_package/J23102_modified> <http://sbols.org/v3#hasSequence> <https://github.com/iGEM-Engineering/iGEM-distribution/test_package/J23102_modified_sequence> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/test_package/J23102_modified> <http://sbols.org/v3#name> "J23102-modified" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/test_package/J23102_modified> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/test_package/J23102_modified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/test_package/J23102_modified_sequence> <http://sbols.org/v3#description> " J23102-modified" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/test_package/J23102_modified_sequence> <http://sbols.org/v3#description> "J23102-modified a modified version of J23102" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/test_package/J23102_modified_sequence> <http://sbols.org/v3#displayId> "J23102_modified_sequence" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/test_package/J23102_modified_sequence> <http://sbols.org/v3#elements> "ttgacagctagctcagtcctaggtactgtgctagcTTCCT" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/test_package/J23102_modified_sequence> <http://sbols.org/v3#encoding> <https://identifiers.org/edam:format_1207> .
@@ -348,9 +352,11 @@
 <https://github.com/iGEM-Engineering/iGEM-distribution/test_package/LinearDNAProducts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/test_package/Anderson_Promoters_in_vector_ins> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/test_package/LinearDNAProducts> <http://sbols.org/v3#name> "Linear DNA Products" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/test_package/LinearDNAProducts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/test_package/NM_005341_4> <http://sbols.org/v3#description> "NM_005341.4 Homo sapiens zinc finger and BTB domain containing 48 (ZBTB48), transcript variant 1, mRNA" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/test_package/NM_005341_4> <http://sbols.org/v3#displayId> "NM_005341_4" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/test_package/NM_005341_4> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/test_package> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/test_package/NM_005341_4> <http://sbols.org/v3#hasSequence> <https://github.com/iGEM-Engineering/iGEM-distribution/test_package/NM_005341_4_sequence> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/test_package/NM_005341_4> <http://sbols.org/v3#name> "NM_005341.4" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/test_package/NM_005341_4> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/test_package/NM_005341_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/test_package/NM_005341_4_sequence> <http://sbols.org/v3#description> "NM_005341.4 Homo sapiens zinc finger and BTB domain containing 48 (ZBTB48), transcript variant 1, mRNA" .
