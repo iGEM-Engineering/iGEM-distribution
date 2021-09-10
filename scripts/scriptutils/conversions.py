@@ -164,7 +164,7 @@ def convert3to2(doc3: sbol3.Document) -> sbol2.Document:
     :param doc3: Document to convert
     :return: equivalent SBOL2 document
     """
-    # TODO: remove workarounds after conversion errors fixed in https://github.com/sboltools/sbolgraph/issues/14
+    # TODO: remove workarounds after conversion errors fixed in https://github.com/sboltools/sbolgraph/issues/16
     # remap sequence encodings:
     encoding_remapping = {
         sbol3.IUPAC_DNA_ENCODING: sbol2.SBOL_ENCODING_IUPAC,
@@ -174,6 +174,16 @@ def convert3to2(doc3: sbol3.Document) -> sbol2.Document:
     for s in (o for o in doc3.objects if isinstance(o, sbol3.Sequence)):
         if s.encoding in encoding_remapping:
             s.encoding = encoding_remapping[s.encoding]
+    # remap component types:
+    type_remapping = {
+        sbol3.SBO_DNA: sbol2.BIOPAX_DNA,
+        sbol3.SBO_RNA: sbol2.BIOPAX_RNA,
+        sbol3.SBO_PROTEIN: sbol2.BIOPAX_PROTEIN,
+        sbol3.SBO_SIMPLE_CHEMICAL: sbol2.BIOPAX_SMALL_MOLECULE,
+        sbol3.SBO_NON_COVALENT_COMPLEX: sbol2.BIOPAX_COMPLEX
+    }
+    for c in (o for o in doc3.objects if isinstance(o, sbol3.Component)):
+        c.types = [(type_remapping[t] if t in type_remapping else t) for t in c.types]
 
     # Write to an RDF-XML temp file to run through the converter:
     sbol3_path = tempfile.mkstemp(suffix='.xml')[1]
@@ -190,6 +200,12 @@ def convert3to2(doc3: sbol3.Document) -> sbol2.Document:
 
     doc2 = sbol2.Document()
     doc2.readString(rdf_xml)
+    # TODO: remove workaround after resolution of https://github.com/SynBioDex/libSBOLj/issues/621
+    for c in doc2.componentDefinitions:
+        for sa in c.sequenceAnnotations:
+            for loc in sa.locations:
+                loc.sequence = None  # remove optional sequences, per https://github.com/SynBioDex/libSBOLj/issues/621
+    doc2.validate()
     return doc2
 
 
@@ -259,16 +275,28 @@ def convert_to_genbank(doc3: sbol3.Document, path: str) -> list[SeqRecord]:
     """
     # first convert to SBOL2, then export to a temp GenBank file
     doc2 = convert3to2(doc3)
-    gb_tmp = tempfile.mkstemp(suffix='.gb')[1]
-    try:
-        doc2.exportToFormat('GenBank', gb_tmp)
-    except sbol2.SBOLError:  # doc2.exportToFormat errors when nothing is output; in this case, write an empty file
-        open(gb_tmp, 'w').close()
 
-    # Read and re-write in order to  purge invalid date information and standardize GenBank formatting
+    # TODO: remove this kludge after resolution of https://github.com/SynBioDex/libSBOLj/issues/622
+    keepers = {'http://sbols.org/v2', 'http://www.w3.org/ns/prov', 'http://purl.org/dc/terms/',
+               'http://sboltools.org/backport'}
+    for c in doc2.componentDefinitions: # wipe out all annotation properties
+        c.properties = {p:v for p,v in c.properties.items() if any(k for k in keepers if p.startswith(k))}
+
+    gb_tmp = tempfile.mkstemp(suffix='.gb')[1]
+    if not doc2.componentDefinitions: # if there's no content, doc2.exportToFormat errors, so write an empty file
+        open(gb_tmp, 'w').close() # TODO: remove after resolution of https://github.com/SynBioDex/pySBOL2/issues/401
+    else:
+        doc2.exportToFormat('GenBank', gb_tmp)
+
+    # Read and re-write in order to sort and to purge invalid date information and standardize GenBank formatting
     with open(gb_tmp, 'r') as tmp:
-        records = [r for r in SeqIO.parse(tmp, 'gb')]
+        records = {r.id: r for r in SeqIO.parse(tmp, 'gb')}
+    sorted_records = [records[r_id] for r_id in sorted(records)]
+    # also sort the order of the feature qualifiers to ensure they remain stable
+    for r in sorted_records:
+        for f in r.features:
+            f.qualifiers = {k: f.qualifiers[k] for k in sorted(f.qualifiers)}
 
     # write the final file
-    SeqIO.write(records, path, 'gb')
-    return records
+    SeqIO.write(sorted_records, path, 'gb')
+    return sorted_records

@@ -86,6 +86,21 @@ class Test2To3Conversion(unittest.TestCase):
         comparison_file = os.path.join(test_dir, 'test_files', 'BBa_J23101.gb')
         assert filecmp.cmp(outfile, comparison_file), f'Converted GenBank file {comparison_file} is not identical'
 
+    def test_genbank_multi_conversion(self):
+        """Test ability to convert from SBOL3 to GenBank"""
+        # Get the SBOL3 test document
+        tmpsub = copy_to_tmp(package=['iGEM_SBOL2_imports.nt'])
+        doc3 = sbol3.Document()
+        doc3.read(os.path.join(tmpsub, 'iGEM_SBOL2_imports.nt'))
+
+        # Convert to GenBank and check contents
+        outfile = os.path.join(tmpsub, 'iGEM_SBOL2_imports.gb')
+        scripts.scriptutils.convert_to_genbank(doc3, outfile)
+
+        test_dir = os.path.dirname(os.path.realpath(__file__))
+        comparison_file = os.path.join(test_dir, 'test_files', 'iGEM_SBOL2_imports.gb')
+        assert filecmp.cmp(outfile, comparison_file), f'Converted GenBank file {comparison_file} is not identical'
+
     def test_fasta_conversion(self):
         """Test ability to convert from SBOL3 to FASTA"""
         # Get the SBOL3 test document

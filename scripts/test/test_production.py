@@ -6,13 +6,13 @@ from shutil import copy
 
 import sbol3
 
-import scripts.scriptutils
 from scripts.scriptutils import package_production, EXPORT_DIRECTORY, SBOL_PACKAGE_NAME, IGEM_FASTA_CACHE_FILE, \
-    GENBANK_CACHE_FILE, IGEM_SBOL2_CACHE_FILE, BUILD_PRODUCTS_COLLECTION, DISTRIBUTION_NAMESPACE, DISTRIBUTION_NAME
+    GENBANK_CACHE_FILE, IGEM_SBOL2_CACHE_FILE, BUILD_PRODUCTS_COLLECTION, DISTRIBUTION_NAMESPACE, DISTRIBUTION_NAME, \
+    DISTRIBUTION_FASTA, DISTRIBUTION_GENBANK
 from scripts.test.helpers import copy_to_tmp
 
 
-class TestImportParts(unittest.TestCase):
+class TestDistributionProduction(unittest.TestCase):
     def test_collation(self):
         """Test ability to collate parts based on a specification"""
         tmp_sub = copy_to_tmp(exports=['package_specification.nt'],
@@ -101,6 +101,31 @@ class TestImportParts(unittest.TestCase):
         comparison_file = os.path.join(test_dir, 'test_files', 'distribution', DISTRIBUTION_NAME)
         test_file = os.path.join(root, DISTRIBUTION_NAME)
         assert filecmp.cmp(test_file, comparison_file), f'Expanded file is not identical'
+
+    def test_synthesis_exports(self):
+        """Test the export of materials for a synthesis plan"""
+        remap = {os.path.join('distribution', DISTRIBUTION_NAME): DISTRIBUTION_NAME}
+        tmp_sub = copy_to_tmp(renames=remap)
+        root = tmp_sub  # we're just running in the package rather than true root for simplicity
+        doc = sbol3.Document()
+        doc.read(os.path.join(root, DISTRIBUTION_NAME))
+        synth_doc = package_production.extract_synthesis_files(root, doc)
+
+        # check if contents match expectation
+        collection = synth_doc.find(BUILD_PRODUCTS_COLLECTION)
+        assert len(collection.members) == 10, f'Expected 10 build products, but found {len(collection.members)}'
+        # Total: 1 collection, 10 complete vectors, 6 inserts, 6 insert sequences, 2 plasmids, 1 plasmid sequence,
+        # TODO turn this back on when we've got vector sequences
+        #assert len(synth_doc.objects) == 26, f'Expected 26 TopLevel objects, but found {len(synth_doc.objects)}'
+
+        # check that the files are identical to expectations
+        test_dir = os.path.dirname(os.path.realpath(__file__))
+        comparison_file = os.path.join(test_dir, 'test_files', 'distribution', DISTRIBUTION_FASTA)
+        test_file = os.path.join(root, DISTRIBUTION_FASTA)
+        assert filecmp.cmp(test_file, comparison_file), f'Exported file is not identical'
+        comparison_file = os.path.join(test_dir, 'test_files', 'distribution', DISTRIBUTION_GENBANK)
+        test_file = os.path.join(root, DISTRIBUTION_GENBANK)
+        assert filecmp.cmp(test_file, comparison_file), f'Exported file is not identical'
 
 
 if __name__ == '__main__':

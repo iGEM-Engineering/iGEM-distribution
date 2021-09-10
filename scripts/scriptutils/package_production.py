@@ -3,12 +3,18 @@ import os
 
 import rdflib
 import sbol3
+from Bio import SeqIO
+from Bio.Seq import Seq
+
 from sbol_utilities.expand_combinatorial_derivations import root_combinatorial_derivations, expand_derivations
 from sbol_utilities.helper_functions import flatten
+from . import convert_to_fasta, convert_to_genbank
 
 from .part_retrieval import package_parts_inventory
-from .directories import EXPORT_DIRECTORY, SBOL_EXPORT_NAME, SBOL_PACKAGE_NAME, DISTRIBUTION_NAME
+from .directories import EXPORT_DIRECTORY, SBOL_EXPORT_NAME, SBOL_PACKAGE_NAME, DISTRIBUTION_NAME, \
+    DISTRIBUTION_GENBANK, DISTRIBUTION_FASTA
 from .package_specification import package_stem, DISTRIBUTION_NAMESPACE
+from .helpers import vector_to_insert
 
 BUILD_PRODUCTS_COLLECTION = 'BuildProducts'
 
@@ -92,7 +98,7 @@ def expand_build_plan(package: str) -> sbol3.Document:
     if len(report):
         raise ValueError(report)
     # Write in place and return
-    doc.write(path,sbol3.SORTED_NTRIPLES)
+    doc.write(path, sbol3.SORTED_NTRIPLES)
     return doc
 
 
@@ -145,3 +151,69 @@ def build_distribution(root: str, packages: list[str]) -> sbol3.Document:
     print(f'Writing distribution plan')
     doc.write(os.path.join(root, DISTRIBUTION_NAME), sbol3.SORTED_NTRIPLES)
     return doc
+
+
+def extract_synthesis_files(root: str, doc: sbol3.Document) -> sbol3.Document:
+    """Export the products to be built from a package/distribution document as GenBank and FASTA
+    Note: FASTA is set up for Twist Synthesis, with the identity of the build product on the sequence of the insert
+    FASTA descriptions must be blank, as they will otherwise be munged together with the display_id
+
+    :param root: directory where exports will be placed
+    :param doc: document to extract from
+    :return: slimmed SBOL3 Document containing only direct materials exported in GenBank
+    """
+    # get the collection of linear build products - the things to actually be synthesized
+    build_plan = doc.find(BUILD_PRODUCTS_COLLECTION)
+    if not build_plan or not isinstance(build_plan, sbol3.Collection):
+        raise ValueError(f'Document does not contain linear products collection "{BUILD_PRODUCTS_COLLECTION}"')
+
+    # identify the full constructs and synthesis targets to be copied
+    non_components = [m for m in build_plan.members if not isinstance(m.lookup(), sbol3.Component)]
+    if len(non_components):
+        raise ValueError(f'Linear products collection should contain only Components: {non_components}')
+
+    full_constructs = [m.lookup() for m in sorted(build_plan.members)]
+    inserts = {c:vector_to_insert(c) for c in full_constructs}  # May contain non-vector full_constructs
+
+    # for GenBank export, copy build products to new Document, omitting ones without sequences
+    SEQUENCE_NUMBER_WARNING = 'Omitting {}: GenBank exports require 1 sequence, but found {}'
+    build_doc = sbol3.Document()
+    build_plan.copy(build_doc)
+    components_copied = set(full_constructs)
+    for c in [m.lookup() for m in build_plan.members]:
+        # if build is missing sequence, warn and skip
+        # TODO: turn back on again after sequence calculation is added
+        # if len(c.sequences) != 1:
+        #     logging.warning(SEQUENCE_NUMBER_WARNING.format(c.identity, len(c.sequences)))
+        #     continue
+        # c.copy(build_doc)
+        # c.sequences[0].lookup().copy(build_doc)
+        # copy over subcomponents and their sequences too  # TODO: make this work for multi-layer components
+        for sub_c in c.features:
+            if isinstance(sub_c, sbol3.SubComponent) and sub_c.instance_of.lookup() not in components_copied:
+                sub = sub_c.instance_of.lookup()
+                components_copied.add(sub)
+                # if subcomponent is missing sequence, warn and skip
+                if len(sub.sequences) != 1:
+                    logging.warning(SEQUENCE_NUMBER_WARNING.format(sub.identity, len(sub.sequences)))
+                    continue
+                sub.copy(build_doc)
+                sub.sequences[0].lookup().copy(build_doc)
+    # export the GenBank
+    convert_to_genbank(build_doc, os.path.join(root, DISTRIBUTION_GENBANK))
+
+    # for Twist Synthesis FASTA exports, we need to put the identity of the build product on the sequence of the insert
+    # descriptions must be blank, as they will otherwise be munged together with the display_id
+    with open(os.path.join(root, DISTRIBUTION_FASTA), 'w') as out:
+        for vector, insert in inserts.items():
+            # Find all sequences of nucleic acid type
+            na_seqs = [s.lookup() for s in insert.sequences if s.lookup().encoding == sbol3.IUPAC_DNA_ENCODING]
+            if len(na_seqs) == 0:  # ignore components with no sequence to serialize
+                logging.warning(f'Part cannot be synthesized because sequence is missing: {insert.identity}')
+            elif len(na_seqs) == 1:  # if there is precisely one sequence, write it to the FASTA w. a blank description
+                record = SeqIO.SeqRecord(Seq(na_seqs[0].elements), id=vector.display_id, description='')
+                out.write(record.format('fasta'))
+            else:  # warn about components with ambiguous sequences
+                logging.warning(f'Part cannot be synthesized because it has multiple sequences: {insert.identity}')
+
+    return build_doc

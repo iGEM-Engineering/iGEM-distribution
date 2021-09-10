@@ -6,18 +6,13 @@ import tyto
 import sbol_utilities.excel_to_sbol
 from sbol_utilities.helper_functions import id_sort
 from .package_production import BUILD_PRODUCTS_COLLECTION, DISTRIBUTION_NAMESPACE
+from .helpers import has_vector_role
 
 SUMMARY_FILE = 'README.md'
 """File name for markdown summaries"""
 
 DISTRIBUTION_SUMMARY = 'README_distribution.md'
 """File name for the distribution summary, to be located in the root directory"""
-
-# TODO: figure out a better place for this
-def has_vector_role(component: sbol3.Component) -> bool:
-    return any(r for r in component.roles
-               if tyto.SO.plasmid.is_ancestor_of(r) or tyto.SO.vector_replicon.is_ancestor_of(r))
-
 
 def generate_package_summary(package: str, doc: sbol3.Document):
     """Generate a Markdown README file summarizing package contents that is suitable for automatic display on GitHub

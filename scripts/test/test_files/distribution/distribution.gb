@@ -1,0 +1,327 @@
+LOCUS       BBa_J23100                35 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  constitutive promoter family member.
+ACCESSION   BBa_J23100
+VERSION     BBa_J23100.1
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 ttgacggcta gctcagtcct aggtacagtg ctagc
+//
+LOCUS       BBa_J23101                35 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  constitutive promoter family member.
+ACCESSION   BBa_J23101
+VERSION     BBa_J23101.1
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 tttacagcta gctcagtcct aggtattatg ctagc
+//
+LOCUS       BBa_J23102                35 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  constitutive promoter family member.
+ACCESSION   BBa_J23102
+VERSION     BBa_J23102.1
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 ttgacagcta gctcagtcct aggtactgtg ctagc
+//
+LOCUS       J23102_modified           40 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  J23102-modified a modified version of J23102.
+ACCESSION   J23102_modified
+VERSION     J23102_modified
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 ttgacagcta gctcagtcct aggtactgtg ctagcttcct
+//
+LOCUS       JWYZ01000115            3242 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  Escherichia coli strain CVM N37069PS N37069PS_contig_115, whole
+            genome shotgun sequence.
+ACCESSION   JWYZ01000115
+VERSION     JWYZ01000115.1
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+     source          1..3242
+                     /collection_date="20-Jan-2012"
+                     /country="USA"
+                     /db_xref="taxon:562"
+                     /isolation_source="Farm"
+                     /mol_type="genomic DNA"
+                     /organism="Escherichia coli"
+                     /strain="CVM N37069PS"
+                     /submitter_seqid="N37069PS_contig_115"
+     gene            complement(<1..115)
+                     /label="gene"
+                     /locus_tag="PU64_23660"
+     CDS             complement(<1..115)
+                     /codon_start=1
+                     /inference="EXISTENCE: similar to AA sequence:RefSeq:WP_00
+                     5059815.1"
+                     /locus_tag="PU64_23660"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /product="pyrBI operon leader peptide"
+                     /protein_id="KIG36579.1"
+                     /transl_table=11
+                     /translation="MVQCVRHFVLPRLKKDAGLPFFFPLITHSQPLNRGAFF"
+     gene            95..427
+                     /label="gene"
+                     /locus_tag="PU64_23665"
+     CDS             95..427
+                     /codon_start=1
+                     /inference="EXISTENCE: similar to AA sequence:RefSeq:WP_00
+                     1349257.1"
+                     /locus_tag="PU64_23665"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /product="hypothetical protein"
+                     /protein_id="KIG36585.1"
+                     /transl_table=11
+                     /translation="MSNTLNHTSSRQIVRHYTHRQKRRKHLMQYFVSANGLFELKVKVY
+                     AFLFDVILQGNCPSVSIIADIPCFFLFHFHAIRYAFYSIHPTYRAECESERLTLLLTAQ
+                     GCALSL"
+     gene            complement(396..791)
+                     /label="gene"
+                     /locus_tag="PU64_23670"
+     CDS             complement(396..791)
+                     /codon_start=1
+                     /inference="EXISTENCE: similar to AA sequence:RefSeq:WP_00
+                     1701843.1"
+                     /locus_tag="PU64_23670"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /product="mRNA endoribonuclease"
+                     /protein_id="KIG36580.1"
+                     /transl_table=11
+                     /translation="MVERTAVFPAGRHSLYAEHRYSAAIRSGDLLFVSGQVGSREDGTP
+                     EPDFQQQVRLAFDNLHATLAAAGCTFDDIIDVTSFHTDPENQFEDIMTVKNEIFSAPPY
+                     PNWTAVGVTWLAGFDFEIKVIARIPEQ"
+     gene            complement(922..1635)
+                     /label="gene"
+                     /locus_tag="PU64_23675"
+     CDS             complement(922..1635)
+                     /codon_start=1
+                     /inference="EXISTENCE: similar to AA sequence:SwissProt:P3
+                     9333.2"
+                     /locus_tag="PU64_23675"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /product="oxidoreductase"
+                     /protein_id="KIG36581.1"
+                     /transl_table=11
+                     /translation="MGAFTGKTVLILGGSRGIGAAIVRRFVTDGANVRFTYAGSKDAAK
+                     RLAQETGATAVFTDSADRDAVIDVVRKSGALDILVVNAGIGVFGEALELNADDIDRLFK
+                     INIHAPYHASVEAARQMPEGGRILIIGSVNGDRMPVAGMAAYAASKSALQGMARGLARD
+                     FGPRGITINVVQPGPIDTDANPANGPMRDMLHSLMAIKRHGQPEEVAGMVAWLAGPEAS
+                     FVTGAMHTIDGAFGA"
+     gene            1706..2299
+                     /label="gene"
+                     /locus_tag="PU64_23680"
+     CDS             1706..2299
+                     /codon_start=1
+                     /inference="EXISTENCE: similar to AA sequence:RefSeq:WP_00
+                     1544295.1"
+                     /locus_tag="PU64_23680"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /product="TetR family transcriptional regulator"
+                     /protein_id="KIG36582.1"
+                     /transl_table=11
+                     /translation="MVTKKQSRVPGRPRRFAPEQAISAAKVLFHQKGFDAVSVAEVTDY
+                     LGINPPSLYAAFGSKAGLFSRVLNEYVGTEAIPLADILRDDRPVGECLVEVLKEAARRY
+                     SQNGGCAGCMVLEGIHSHDPLARDIAVQYYHAAETTIYDYIARRHPQSAQCVTDFMSTV
+                     MSGLSAKAREGHSIEQLCATAALAGEAIKTLLKE"
+     gene            2444..2896
+                     /label="gene"
+                     /locus_tag="PU64_23685"
+     CDS             2444..2896
+                     /codon_start=1
+                     /inference="EXISTENCE: similar to AA sequence:RefSeq:WP_00
+                     1570607.1"
+                     /locus_tag="PU64_23685"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /product="toxin-antitoxin biofilm protein TabA"
+                     /protein_id="KIG36583.1"
+                     /transl_table=11
+                     /translation="MIIGNIHNLQPWLPQELRQAIEHIKAHVTAETPKGKHDIEGNHLF
+                     YLISEDMTEPYEARRAEYHARYLDIQIVLKGQEGMTFSTQPAGTPDTDWLADKDIAFLP
+                     EGVDEKTVILNEGDFVVFYPGEVHKPLCAVGAPAQVRKAVVKMLMA"
+     gene            3019..>3242
+                     /label="gene"
+                     /locus_tag="PU64_23690"
+     CDS             3019..>3242
+                     /codon_start=1
+                     /inference="EXISTENCE: similar to AA sequence:RefSeq:WP_00
+                     0036524.1"
+                     /locus_tag="PU64_23690"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /product="DNA-binding protein"
+                     /protein_id="KIG36584.1"
+                     /transl_table=11
+                     /translation="MSKISGWNFSQNITSADNCKQKNEDLDTWYVGMNDFARIAGGQNS
+                     RSNILSPRAFLEFLAKIFTLGYVDFSKRS"
+ORIGIN
+        1 aaaaaaaagc ccctcgattg aggggctggg aatgggtgat caacgggaag aaaaacggca
+       61 ggccagcgtc ttttttcaga cgcggtaaga caaaatgtcg aacacactga accatacatc
+      121 ctcccggcaa attgtccggc attatactca tcgtcagaag cggcgcaagc atttgatgca
+      181 atattttgtc agcgcaaacg gtttatttga attaaaagtc aaggtatatg catttttatt
+      241 tgatgtgatt ctgcagggga actgtccttc ggtatcaata attgcagaca ttccctgctt
+      301 tttccttttt cactttcacg caatcagata tgcattttat tccattcatc cgacttatag
+      361 ggcggagtgt gaaagcgaac ggctaacact attgcttact gctcagggat gcgcgctatc
+      421 actttaattt caaaatcaaa gcctgccagc catgtaacac ccaccgccgt ccagtttgga
+      481 taaggtgggg cgctaaatat ttcatttttc accgtcatga tgtcttcaaa ttggttttct
+      541 ggatcggtat ggaagctcgt aacatcaatg atatcgtcaa aagtgcatcc cgcagctgcc
+      601 agggtcgcat gcaaattatc aaatgccagt ctgacttgtt gctgaaaatc gggttctggt
+      661 gttccgtcct ctcgacttcc tacttgcccg gaaacaaaca gcaaatcgcc ggaacgaata
+      721 gccgcagaat aacgatgctc agcatatagt gaatgtcggc cagcagggaa aacagcggtt
+      781 ctttctacca tttggttatc ctcaagattt acgacatgaa cagaagattt ctctttaccg
+      841 ggagccgctt ttagcggacg acgtgagtaa acaaaaccca gacatcatgg ataatggctg
+      901 ggcttaattg agcgtagtcg gttatgcgcc aaacgcgcca tcaatggtat gcattgcgcc
+      961 ggtaacaaaa ctggcttctg gccctgctaa ccatgcgacc ataccagcga cctcttccgg
+     1021 ttgcccatgt cttttgatag ccatcaaact atgcaacata tcgcgcattg gcccgttggc
+     1081 gggattagcg tcggtatcaa ttggccctgg ctggacgacg ttaatggtga tcccacgcgg
+     1141 tccaaaatca cgggccagcc cgcgcgccat gccttgcagg gcagatttgc tggcggcata
+     1201 agcagccatg cctgcaacag gcatacgatc gccattcacg gagccgatga ttaagatgcg
+     1261 cccgccttcg ggcatctgcc gggcggcttc aacagaggca tgataaggag catgaatatt
+     1321 gattttgaaa aggcgatcaa tatcgtcggc atttaattcc agggcctcgc caaagacgcc
+     1381 aatacctgca tttaccacca ggatatccaa tgcgccgctc ttacgaacga catcaatgac
+     1441 agcgtctctg tcagcactat ctgtgaatac tgctgtcgct ccagtctctt gtgccaggcg
+     1501 tttagcggca tctttcgacc ccgcataggt gaatcgtaca ttggccccat cggtgacgaa
+     1561 acgacgtacg atagcggcac cgataccacg actgccaccg aggatgagaa ctgtcttacc
+     1621 tgtaaaagcg cccataagga ctccttgatt tattatgtaa catgcattac aaaactgttt
+     1681 taactttctg tcaacatgtt ttgtaatggt cactaaaaaa caatctcgcg ttccaggtcg
+     1741 tcccagacgt ttcgctcctg agcaggcaat ctctgcggca aaagtgcttt ttcaccaaaa
+     1801 aggtttcgat gctgtcagtg ttgctgaagt tactgattat cttggtatta accccccgag
+     1861 cctctacgcg gcttttggca gtaaagctgg gttatttagc cgtgtactca atgaatacgt
+     1921 cggtacggaa gctattccgc ttgccgatat tcttcgtgat gatcgtccag taggcgagtg
+     1981 cctggttgag gtattaaaag aagcggcgcg cagatatagc caaaacggcg gctgcgctgg
+     2041 ctgtatggtt cttgaaggta ttcatagtca tgatccacta gcgcgtgata ttgccgttca
+     2101 atattatcac gccgcagaaa cgaccattta tgactatatc gccaggcggc atccacaaag
+     2161 cgcacaatgt gtgactgatt ttatgagtac cgtgatgtca gggctttctg cgaaggcacg
+     2221 ggaggggcac tcaatcgaac aactctgtgc aacagctgca ctggcggggg aagcgataaa
+     2281 aactcttctc aaggagtgat gctggccttg atccgaaagg cgggaacgcg cctgccgata
+     2341 agttgtgata agacaataat tcacgcatta aggctagcgg aattgatcat cttttcgtat
+     2401 aacgatagaa atgaaacgtt gttttaatta aggagtggaa aagatgatca tcggaaatat
+     2461 tcataatctt cagccgtggc taccccagga gttacgccag gcgattgagc atatcaaagc
+     2521 acacgttacg gcagaaacgc caaagggcaa gcacgatatc gaaggcaatc atctgtttta
+     2581 tcttatctcg gaagatatga ccgagccgta cgaagcccgc cgtgcggagt accatgcccg
+     2641 ctatctcgac attcagattg tgttaaaagg tcaggaaggc atgaccttca gcacgcaacc
+     2701 tgcaggcacg ccggataccg actggttagc tgataaagac atcgcatttt tgccggaagg
+     2761 cgttgatgag aaaacagtta tccttaatga aggtgatttt gttgtgtttt atccggggga
+     2821 agtgcataaa ccgctgtgcg cagtgggtgc accagcccag gttcgcaaag cagtagtgaa
+     2881 gatgctgatg gcgtgatgac ttttcgccgt aaataactcc aggtttacgg cgagtttgtg
+     2941 aaaagagcgt tttttgatat ttttttgtga gtaaaatttg taatgcttag acgttcttat
+     3001 taactcaagg agtccgtcat gagcaaaata tcaggttgga atttttctca aaacattaca
+     3061 tcagccgaca attgtaaaca aaaaaatgaa gacttagata cctggtatgt gggaatgaat
+     3121 gattttgccc gaattgccgg agggcagaat agcagaagca atattctttc tcccagagca
+     3181 tttttggagt ttttggctaa gatatttacc ctgggttatg tggattttag caaacgctcc
+     3241 aa
+//
+LOCUS       LmrA                     567 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  .
+ACCESSION   LmrA
+VERSION     LmrA.1
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 atgagctatg gtgatagccg tgaaaaaatt ctgagcgcag caacccgtct gtttcagctg
+       61 cagggttatt atggcaccgg tctgaatcag attatcaaag aaagcggtgc accgaaaggt
+      121 agcctgtatt atcattttcc gggtggtaaa gaacagctgg caattgaagc agtgaacgaa
+      181 atgaaagaat atatccgcca gaaaatcgcc gattgtatgg aagcatgtac cgatccggca
+      241 gaaggtattc aggcatttct gaaagaactg agctgtcagt ttagctgtac cgaagatatt
+      301 gaaggtctgc cggttggtct gctggcagca gaaaccagcc tgaaaagcga accgctgcgt
+      361 gaagcatgtc atgaagcata taaagaatgg gccagcgtgt atgaagaaaa actgcgtcag
+      421 accggttgta gcgaaagccg tgcaaaagaa gcaagcaccg ttgttaatgc aatgattgaa
+      481 ggtggtattc tgctgagcct gaccgcaaaa aatagcacac cgctgctgca tattagcagc
+      541 tgtattccgg atctgctgaa acgttaa
+//
+LOCUS       pSB1C3                  2070 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  High copy BioBrick assembly plasmid.
+ACCESSION   pSB1C3
+VERSION     pSB1C3.1
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+     misc_feature    1..21
+                     /label="BioBrick suffix"
+     stem_loop       22..93
+                     /label="E. coli his operon terminator"
+     stem_loop       30..64
+                     /label="Stem loop"
+     primer_bind     157..176
+                     /label="Verification reverse (VR) primer binding site"
+     misc_feature    261..875
+                     /label="rep (pMB1)"
+     misc_feature    276
+                     /label="ORI"
+     stem_loop       1042..1147
+                     /label="T0 terminator"
+     CDS             1160..1819
+                     /label="Chloramphenicol resistance"
+     primer_bind     1933..1952
+                     /label="Verification forward (VF2) primer binding site"
+     stem_loop       2009..2012
+                     /label="end of terminator"
+     stem_loop       2022..2041
+                     /label="Stem loop"
+     misc_feature    2051..2072
+                     /label="BioBrick prefix"
+ORIGIN
+        1 tactagtagc ggccgctgca gtccggcaaa aaagggcaag gtgtcaccac cctgcccttt
+       61 ttctttaaaa ccgaaaagat tacttcgcgt tatgcaggct tcctcgctca ctgactcgct
+      121 gcgctcggtc gttcggctgc ggcgagcggt atcagctcac tcaaaggcgg taatacggtt
+      181 atccacagaa tcaggggata acgcaggaaa gaacatgtga gcaaaaggcc agcaaaaggc
+      241 caggaaccgt aaaaaggccg cgttgctggc gtttttccac aggctccgcc cccctgacga
+      301 gcatcacaaa aatcgacgct caagtcagag gtggcgaaac ccgacaggac tataaagata
+      361 ccaggcgttt ccccctggaa gctccctcgt gcgctctcct gttccgaccc tgccgcttac
+      421 cggatacctg tccgcctttc tcccttcggg aagcgtggcg ctttctcata gctcacgctg
+      481 taggtatctc agttcggtgt aggtcgttcg ctccaagctg ggctgtgtgc acgaaccccc
+      541 cgttcagccc gaccgctgcg ccttatccgg taactatcgt cttgagtcca acccggtaag
+      601 acacgactta tcgccactgg cagcagccac tggtaacagg attagcagag cgaggtatgt
+      661 aggcggtgct acagagttct tgaagtggtg gcctaactac ggctacacta gaagaacagt
+      721 atttggtatc tgcgctctgc tgaagccagt taccttcgga aaaagagttg gtagctcttg
+      781 atccggcaaa caaaccaccg ctggtagcgg tggttttttt gtttgcaagc agcagattac
+      841 gcgcagaaaa aaaggatctc aagaagatcc tttgatcttt tctacggggt ctgacgctca
+      901 gtggaacgaa aactcacgtt aagggatttt ggtcatgaga ttatcaaaaa ggatcttcac
+      961 ctagatcctt ttaaattaaa aatgaagttt taaatcaatc taaagtatat atgagtaaac
+     1021 ttggtctgac agctcgaggc ttggattctc accaataaaa aacgcccggc ggcaaccgag
+     1081 cgttctgaac aaatccagat ggagttctga ggtcattact ggatctatca acaggagtcc
+     1141 aagcgagctc gatatcaaat tacgccccgc cctgccactc atcgcagtac tgttgtaatt
+     1201 cattaagcat tctgccgaca tggaagccat cacaaacggc atgatgaacc tgaatcgcca
+     1261 gcggcatcag caccttgtcg ccttgcgtat aatatttgcc catggtgaaa acgggggcga
+     1321 agaagttgtc catattggcc acgtttaaat caaaactggt gaaactcacc cagggattgg
+     1381 ctgagacgaa aaacatattc tcaataaacc ctttagggaa ataggccagg ttttcaccgt
+     1441 aacacgccac atcttgcgaa tatatgtgta gaaactgccg gaaatcgtcg tggtattcac
+     1501 tccagagcga tgaaaacgtt tcagtttgct catggaaaac ggtgtaacaa gggtgaacac
+     1561 tatcccatat caccagctca ccgtctttca ttgccatacg aaattccgga tgagcattca
+     1621 tcaggcgggc aagaatgtga ataaaggccg gataaaactt gtgcttattt ttctttacgg
+     1681 tctttaaaaa ggccgtaata tccagctgaa cggtctggtt ataggtacat tgagcaactg
+     1741 actgaaatgc ctcaaaatgt tctttacgat gccattggga tatatcaacg gtggtatatc
+     1801 cagtgatttt tttctccatt ttagcttcct tagctcctga aaatctcgat aactcaaaaa
+     1861 atacgcccgg tagtgatctt atttcattat ggtgaaagtt ggaacctctt acgtgcccga
+     1921 tcaactcgag tgccacctga cgtctaagaa accattatta tcatgacatt aacctataaa
+     1981 aataggcgta tcacgaggca gaatttcaga taaaaaaaat ccttagcttt cgctaaggat
+     2041 gatttctgga attcgcggcc gcttctagag
+//

@@ -11,3 +11,4 @@ doc = scriptutils.build_distribution(root, packages)
 scriptutils.generate_distribution_summary(root, doc)
 
 # export materials in GenBank and FASTA for independent inspection and synthesis
+synth_doc = scriptutils.extract_synthesis_files(root, doc)
