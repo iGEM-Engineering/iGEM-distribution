@@ -1,8 +1,6 @@
 import unittest
-import tempfile
 import os
 import filecmp
-from shutil import copy
 
 import sbol3
 
@@ -72,9 +70,10 @@ class TestDistributionProduction(unittest.TestCase):
                     f'{pkg}Anderson_Promoters_in_vector_BBa_J23102_pOpen_v4',
                     f'{pkg}Other_stuff_LmrA',
                     f'{pkg}Other_stuff_JWYZ01000115'}
-        assert set(str(m) for m in collection.members) == expected, f'Build set does not match expected value: {collection.members}'
-        # Total: 39 from original document, plus 10 vectors, 2x2 expansion collections, 1 package build collection
-        assert len(doc.objects) == 54, f'Expected 52 TopLevel objects, but found {len(doc.objects)}'
+        built = set(str(m) for m in collection.members)
+        assert built == expected, f'Build set does not match expected value: {collection.members}'
+        # Total: 39 from original document, plus 10 vectors, 6 vector sequences, 2x2 expansion collections, 1 package build collection
+        assert len(doc.objects) == 60, f'Expected 60 TopLevel objects, but found {len(doc.objects)}'
 
         # check that the file is identical to expectation
         test_dir = os.path.dirname(os.path.realpath(__file__))
@@ -88,13 +87,13 @@ class TestDistributionProduction(unittest.TestCase):
         tmp_sub = copy_to_tmp(renames=m)
         root = os.path.dirname(tmp_sub)
         packages = [tmp_sub]
-        doc = package_production.build_distribution(root,packages)
+        doc = package_production.build_distribution(root, packages)
 
         # check if contents match expectation
         collection = doc.find(f'{DISTRIBUTION_NAMESPACE}/{BUILD_PRODUCTS_COLLECTION}')
         assert len(collection.members) == 10, f'Expected 10 build products, but found {len(collection.members)}'
-        # Total: 54 from package, plus 1 total build collection
-        assert len(doc.objects) == 55, f'Expected 55 TopLevel objects, but found {len(doc.objects)}'
+        # Total: 60 from package, plus 1 total build collection
+        assert len(doc.objects) == 61, f'Expected 55 TopLevel objects, but found {len(doc.objects)}'
 
         # check that the file is identical to expectation
         test_dir = os.path.dirname(os.path.realpath(__file__))
@@ -114,9 +113,9 @@ class TestDistributionProduction(unittest.TestCase):
         # check if contents match expectation
         collection = synth_doc.find(BUILD_PRODUCTS_COLLECTION)
         assert len(collection.members) == 10, f'Expected 10 build products, but found {len(collection.members)}'
-        # Total: 1 collection, 10 complete vectors, 6 inserts, 6 insert sequences, 2 plasmids, 1 plasmid sequence,
-        # TODO turn this back on when we've got vector sequences
-        #assert len(synth_doc.objects) == 26, f'Expected 26 TopLevel objects, but found {len(synth_doc.objects)}'
+        # Total: 1 collection, 6x2 complete vectors and sequences, 6x2 inserts and sequences, 1x2 plasmids and sequence
+        for i in synth_doc.objects: print(i.identity)
+        assert len(synth_doc.objects) == 27, f'Expected 27 TopLevel objects, but found {len(synth_doc.objects)}'
 
         # check that the files are identical to expectations
         test_dir = os.path.dirname(os.path.realpath(__file__))

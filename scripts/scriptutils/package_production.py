@@ -7,8 +7,9 @@ from Bio import SeqIO
 from Bio.Seq import Seq
 
 from sbol_utilities.expand_combinatorial_derivations import root_combinatorial_derivations, expand_derivations
+from sbol_utilities.calculate_sequences import calculate_sequences
 from sbol_utilities.helper_functions import flatten
-from . import convert_to_fasta, convert_to_genbank
+from . import convert_to_genbank
 
 from .part_retrieval import package_parts_inventory
 from .directories import EXPORT_DIRECTORY, SBOL_EXPORT_NAME, SBOL_PACKAGE_NAME, DISTRIBUTION_NAME, \
@@ -76,6 +77,7 @@ def collate_package(package: str) -> None:
 
 def expand_build_plan(package: str) -> sbol3.Document:
     """Expand the build plans (libraries & composites sheet) in a package's collated SBOL3 Document
+    Also attempt to compute all missing sequences (including those of the build plans)
 
     :param package: path of package to operate on
     :return: Updated document
@@ -90,6 +92,7 @@ def expand_build_plan(package: str) -> sbol3.Document:
     if roots:
         derivative_collections = expand_derivations(roots)
         doc.add(sbol3.Collection(BUILD_PRODUCTS_COLLECTION, members=flatten(c.members for c in derivative_collections)))
+        calculate_sequences(doc)
     else:
         logging.warning(f'No samples specified be built in package {package}')
         doc.add(sbol3.Collection(BUILD_PRODUCTS_COLLECTION))
@@ -173,21 +176,20 @@ def extract_synthesis_files(root: str, doc: sbol3.Document) -> sbol3.Document:
         raise ValueError(f'Linear products collection should contain only Components: {non_components}')
 
     full_constructs = [m.lookup() for m in sorted(build_plan.members)]
-    inserts = {c:vector_to_insert(c) for c in full_constructs}  # May contain non-vector full_constructs
+    inserts = {c: vector_to_insert(c) for c in full_constructs}  # May contain non-vector full_constructs
 
     # for GenBank export, copy build products to new Document, omitting ones without sequences
-    SEQUENCE_NUMBER_WARNING = 'Omitting {}: GenBank exports require 1 sequence, but found {}'
+    sequence_number_warning = 'Omitting {}: GenBank exports require 1 sequence, but found {}'
     build_doc = sbol3.Document()
     build_plan.copy(build_doc)
     components_copied = set(full_constructs)
     for c in [m.lookup() for m in build_plan.members]:
         # if build is missing sequence, warn and skip
-        # TODO: turn back on again after sequence calculation is added
-        # if len(c.sequences) != 1:
-        #     logging.warning(SEQUENCE_NUMBER_WARNING.format(c.identity, len(c.sequences)))
-        #     continue
-        # c.copy(build_doc)
-        # c.sequences[0].lookup().copy(build_doc)
+        if len(c.sequences) != 1:
+            logging.warning(sequence_number_warning.format(c.identity, len(c.sequences)))
+            continue
+        c.copy(build_doc)
+        c.sequences[0].lookup().copy(build_doc)
         # copy over subcomponents and their sequences too  # TODO: make this work for multi-layer components
         for sub_c in c.features:
             if isinstance(sub_c, sbol3.SubComponent) and sub_c.instance_of.lookup() not in components_copied:
@@ -195,7 +197,7 @@ def extract_synthesis_files(root: str, doc: sbol3.Document) -> sbol3.Document:
                 components_copied.add(sub)
                 # if subcomponent is missing sequence, warn and skip
                 if len(sub.sequences) != 1:
-                    logging.warning(SEQUENCE_NUMBER_WARNING.format(sub.identity, len(sub.sequences)))
+                    logging.warning(sequence_number_warning.format(sub.identity, len(sub.sequences)))
                     continue
                 sub.copy(build_doc)
                 sub.sequences[0].lookup().copy(build_doc)

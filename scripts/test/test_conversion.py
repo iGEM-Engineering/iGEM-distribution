@@ -49,7 +49,6 @@ class Test2To3Conversion(unittest.TestCase):
 
         testdir = os.path.dirname(os.path.realpath(__file__))
         comparison_file = os.path.join(testdir, 'test_files', 'BBa_J23101.nt')
-
         assert filecmp.cmp(os.path.join(tmpsub, 'BBa_J23101.nt'), comparison_file), \
             f'Converted file {comparison_file} is not identical'
 

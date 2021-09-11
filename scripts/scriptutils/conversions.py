@@ -117,13 +117,24 @@ def convert2to3(sbol2_doc: Union[str, sbol2.Document], namespaces=None) -> sbol3
                 loc.sequence = s.sequences[0]
     # remap sequence encodings:
     encoding_remapping = {
-        'http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html': 'https://identifiers.org/edam:format_1207',
-        'http://www.chem.qmul.ac.uk/iupac/AminoAcid/': 'https://identifiers.org/edam:format_1208',
-        'http://www.opensmiles.org/opensmiles.html': 'https://identifiers.org/edam:format_1196'
+        sbol2.SBOL_ENCODING_IUPAC: sbol3.IUPAC_DNA_ENCODING,
+        sbol2.SBOL_ENCODING_IUPAC_PROTEIN: sbol3.IUPAC_PROTEIN_ENCODING,
+        sbol3.SMILES_ENCODING: sbol3.SMILES_ENCODING
     }
     for s in (o for o in doc.objects if isinstance(o, sbol3.Sequence)):
         if s.encoding in encoding_remapping:
             s.encoding = encoding_remapping[s.encoding]
+    # remap component types:
+    type_remapping = {
+        sbol2.BIOPAX_DNA: sbol3.SBO_DNA,
+        sbol2.BIOPAX_RNA: sbol3.SBO_RNA,
+        sbol2.BIOPAX_PROTEIN: sbol3.SBO_PROTEIN,
+        sbol2.BIOPAX_SMALL_MOLECULE: sbol3.SBO_SIMPLE_CHEMICAL,
+        sbol2.BIOPAX_COMPLEX: sbol3.SBO_NON_COVALENT_COMPLEX
+    }
+    for c in (o for o in doc.objects if isinstance(o, sbol3.Component)):
+        c.types = [(type_remapping[t] if t in type_remapping else t) for t in c.types]
+
     return doc
 
 
