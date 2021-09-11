@@ -283,10 +283,7 @@ def convert_to_genbank(doc3: sbol3.Document, path: str) -> list[SeqRecord]:
         c.properties = {p:v for p,v in c.properties.items() if any(k for k in keepers if p.startswith(k))}
 
     gb_tmp = tempfile.mkstemp(suffix='.gb')[1]
-    if not doc2.componentDefinitions: # if there's no content, doc2.exportToFormat errors, so write an empty file
-        open(gb_tmp, 'w').close() # TODO: remove after resolution of https://github.com/SynBioDex/pySBOL2/issues/401
-    else:
-        doc2.exportToFormat('GenBank', gb_tmp)
+    doc2.exportToFormat('GenBank', gb_tmp)
 
     # Read and re-write in order to sort and to purge invalid date information and standardize GenBank formatting
     with open(gb_tmp, 'r') as tmp:
