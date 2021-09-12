@@ -91,8 +91,10 @@ def expand_build_plan(package: str) -> sbol3.Document:
     sbol3.set_namespace(package_stem(package))
     if roots:
         derivative_collections = expand_derivations(roots)
+        print(f'Expanded {len(derivative_collections)} collections containing a total of {sum(len(c.members) for c in derivative_collections)} parts')
         doc.add(sbol3.Collection(BUILD_PRODUCTS_COLLECTION, members=flatten(c.members for c in derivative_collections)))
-        calculate_sequences(doc)
+        new_sequences = calculate_sequences(doc)
+        print(f'Computed sequences for {len(new_sequences)} components')
     else:
         logging.warning(f'No samples specified be built in package {package}')
         doc.add(sbol3.Collection(BUILD_PRODUCTS_COLLECTION))
