@@ -161,6 +161,16 @@ def convert_package_sbol2_files(package: str) -> dict[str, str]:
                 logging.warning(issue)
             continue
 
+        # If there was a previous instance of the file, merge in all non-replaced objects
+        if os.path.isfile(file3):
+            merge_doc = sbol3.Document()
+            merge_doc.read(file3)
+            # figure out which ones to copy
+            non_replaced = set(o.identity for o in merge_doc.objects) - set(o.identity for o in doc3.objects)
+            for o in merge_doc.objects:
+                if o.identity in non_replaced:
+                    o.copy(doc3)
+
         print(f'Writing converted SBOL3 file to {file3}')
         doc3.write(file3, sbol3.SORTED_NTRIPLES)
         # record the conversion for later use
