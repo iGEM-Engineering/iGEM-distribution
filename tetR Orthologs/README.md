@@ -4,7 +4,7 @@ None
 
 ### Summary:
 
-- 37 parts **<span style="color:red">21 missing sequences</span>**
+- 37 parts
 - 1 vectors
 - 36 samples for distribution
 
@@ -27,26 +27,26 @@ None
 - pSmcR (promoter)
 - pTarA (promoter)
 - pSB1C3 (plasmid_vector)
-- AmtR (CDS) **<span style="color:red">missing sequence</span>**
-- AmeR (CDS) **<span style="color:red">missing sequence</span>**
-- BM3R1 (CDS) **<span style="color:red">missing sequence</span>**
-- BetI (CDS) **<span style="color:red">missing sequence</span>**
-- IcaRA (CDS) **<span style="color:red">missing sequence</span>**
-- LitR (CDS) **<span style="color:red">missing sequence</span>**
-- LmrA (CDS) **<span style="color:red">missing sequence</span>**
-- PhlF (CDS) **<span style="color:red">missing sequence</span>**
-- PsrA (CDS) **<span style="color:red">missing sequence</span>**
-- QacR (CDS) **<span style="color:red">missing sequence</span>**
-- SrpR (CDS) **<span style="color:red">missing sequence</span>**
-- pAmeR (promoter) **<span style="color:red">missing sequence</span>**
-- pAmtR (promoter) **<span style="color:red">missing sequence</span>**
-- pBM3R1 (promoter) **<span style="color:red">missing sequence</span>**
-- pBetI (promoter) **<span style="color:red">missing sequence</span>**
-- pIcaRA (promoter) **<span style="color:red">missing sequence</span>**
-- pLitR (promoter) **<span style="color:red">missing sequence</span>**
-- pPhlF (promoter) **<span style="color:red">missing sequence</span>**
-- pPsrA (promoter) **<span style="color:red">missing sequence</span>**
-- pQacR (promoter) **<span style="color:red">missing sequence</span>**
-- pSrpR (promoter) **<span style="color:red">missing sequence</span>**
+- AmtR (CDS)
+- AmeR (CDS)
+- BM3R1 (CDS)
+- BetI (CDS)
+- IcaRA (CDS)
+- LitR (CDS)
+- LmrA (CDS)
+- PhlF (CDS)
+- PsrA (CDS)
+- QacR (CDS)
+- SrpR (CDS)
+- pAmeR (promoter)
+- pAmtR (promoter)
+- pBM3R1 (promoter)
+- pBetI (promoter)
+- pIcaRA (promoter)
+- pLitR (promoter)
+- pPhlF (promoter)
+- pPsrA (promoter)
+- pQacR (promoter)
+- pSrpR (promoter)
 
 _Note: automatically generated from package Excel and sequence files; do not edit_
