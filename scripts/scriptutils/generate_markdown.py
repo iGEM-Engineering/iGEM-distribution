@@ -5,6 +5,7 @@ import tyto
 
 import sbol_utilities.excel_to_sbol
 from sbol_utilities.helper_functions import id_sort, is_plasmid
+from .helpers import contained_components, has_SO_uri
 from .package_production import BUILD_PRODUCTS_COLLECTION, DISTRIBUTION_NAMESPACE
 
 SUMMARY_FILE = 'README.md'
@@ -12,6 +13,10 @@ SUMMARY_FILE = 'README.md'
 
 DISTRIBUTION_SUMMARY = 'README_distribution.md'
 """File name for the distribution summary, to be located in the root directory"""
+
+def hilite(text: str):
+    """Emphasize a piece of markdown text with bold and red formatting"""
+    return f' **<span style="color:red">{text}</span>**'
 
 def generate_package_summary(package: str, doc: sbol3.Document):
     """Generate a Markdown README file summarizing package contents that is suitable for automatic display on GitHub
@@ -21,11 +26,20 @@ def generate_package_summary(package: str, doc: sbol3.Document):
     :return: None
     """
     # TODO: use combinatorial derivations and expansions
+    # Find the key elements
     parts_list = doc.find(sbol_utilities.excel_to_sbol.BASIC_PARTS_COLLECTION)
     build_plan = doc.find(BUILD_PRODUCTS_COLLECTION)
-    if not isinstance(parts_list, sbol3.Collection) or not isinstance(build_plan, sbol3.Collection):
-        raise ValueError # TODO: be better about information here
+    if not isinstance(parts_list, sbol3.Collection):
+        raise ValueError(f'Could not find parts collection in package {package}')
+    if not isinstance(build_plan, sbol3.Collection):
+        raise ValueError(f'Could not find build plan in package {package}')
 
+    # compute all required statistics
+    parts_used = contained_components(build_plan)
+    ids_of_parts_used = {c.identity for c in parts_used}
+    unused_parts = {str(m) for m in parts_list.members} - ids_of_parts_used
+
+    # write the README file
     summary_filename = os.path.join(package,SUMMARY_FILE)
     with open(summary_filename,'w') as f:
         # First the package name and description
@@ -47,8 +61,10 @@ def generate_package_summary(package: str, doc: sbol3.Document):
         # TODO: inventory the common types of parts, e.g., promoter, CDS, terminator
         # Build information
         f.write(f'- {len(build_plan.members)} samples for distribution')
+        if unused_parts:
+            f.write(hilite(f'{len(unused_parts)} parts not included'))
         if not build_plan.members:
-            f.write(f' **<span style="color:red">No samples planned to be built for distribution</span>**')
+            f.write(hilite(f'No samples planned to be built for distribution'))
         f.write('\n\n')  # section break
 
         # Finally, a list of all the parts and their UIDs
@@ -58,11 +74,14 @@ def generate_package_summary(package: str, doc: sbol3.Document):
             if p.name and sbol_utilities.excel_to_sbol.string_to_display_id(p.name) != p.display_id:
                 f.write(f': {p.name}')
             # TODO: more principled handling of role lookup
-            SO_roles = [tyto.SO.get_term_by_uri(t) for t in p.roles if t.startswith("https://identifiers.org/SO") or t.startswith("http://identifiers.org/so/SO")]
+            #SO_roles = []
+            SO_roles = [tyto.SO.get_term_by_uri(t) for t in p.roles if has_SO_uri(t)]
             if SO_roles:
                 f.write(f' ({", ".join(SO_roles)})')
             if p.identity in missing_seq or p.identity in missing_vec:
-                f.write(f' **<span style="color:red">missing sequence</span>**')
+                f.write(hilite(f'missing sequence'))
+            if p.identity in unused_parts:
+                f.write(hilite(f'not included in distribution'))
             f.write('\n')
         f.write('\n')  # section break
 
