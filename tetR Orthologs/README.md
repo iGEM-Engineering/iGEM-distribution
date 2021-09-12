@@ -4,13 +4,12 @@ None
 
 ### Summary:
 
-- 38 parts
-- 0 vectors
+- 37 parts
+- 1 vectors
 - 36 samples for distribution
 
 ### Parts:
 
-- pSB1C3
 - ButR (CDS)
 - HapR (CDS)
 - HlyllR (CDS)
@@ -27,6 +26,7 @@ None
 - pScbR (promoter)
 - pSmcR (promoter)
 - pTarA (promoter)
+- pSB1C3 (plasmid_vector)
 - AmtR (CDS)
 - AmeR (CDS)
 - BM3R1 (CDS)

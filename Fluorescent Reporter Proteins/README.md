@@ -4,13 +4,12 @@ None
 
 ### Summary:
 
-- 17 parts
-- 0 vectors
+- 16 parts
+- 1 vectors
 - 11 samples for distribution
 
 ### Parts:
 
-- pSB1C3
 - GFPmut3 (CDS)
 - mKate2 (engineered_region)
 - mRFP1 (engineered_region)
@@ -26,6 +25,7 @@ None
 - BBa_J97003 (engineered_region)
 - BBa_K592100: BFP (CDS)
 - BBa_K864100: SYFP2 (CDS)
+- pSB1C3 (plasmid_vector)
 - KY484012 (engineered_region)
 
 _Note: automatically generated from package Excel and sequence files; do not edit_

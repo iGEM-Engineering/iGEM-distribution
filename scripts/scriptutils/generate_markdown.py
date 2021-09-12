@@ -4,7 +4,7 @@ import sbol3
 import tyto
 
 import sbol_utilities.excel_to_sbol
-from sbol_utilities.helper_functions import id_sort
+from sbol_utilities.helper_functions import id_sort, is_plasmid
 from .package_production import BUILD_PRODUCTS_COLLECTION, DISTRIBUTION_NAMESPACE
 
 SUMMARY_FILE = 'README.md'
@@ -12,7 +12,6 @@ SUMMARY_FILE = 'README.md'
 
 DISTRIBUTION_SUMMARY = 'README_distribution.md'
 """File name for the distribution summary, to be located in the root directory"""
-
 
 def generate_package_summary(package: str, doc: sbol3.Document):
     """Generate a Markdown README file summarizing package contents that is suitable for automatic display on GitHub
@@ -37,7 +36,7 @@ def generate_package_summary(package: str, doc: sbol3.Document):
         f.write(f'### Summary:\n\n')
         # Part count
         # TODO: separate parts from vectors
-        vectors = [m for m in parts_list.members if tyto.SO.get_uri_by_term('plasmid') in m.lookup().roles]
+        vectors = [m for m in parts_list.members if is_plasmid(m.lookup())]
         non_vectors = [m for m in parts_list.members if m not in vectors]
         missing_seq = [str(m) for m in non_vectors if len(m.lookup().sequences) == 0]
         missing_vec = [str(m) for m in vectors if len(m.lookup().sequences) == 0]
@@ -62,7 +61,7 @@ def generate_package_summary(package: str, doc: sbol3.Document):
             SO_roles = [tyto.SO.get_term_by_uri(t) for t in p.roles if t.startswith("https://identifiers.org/SO") or t.startswith("http://identifiers.org/so/SO")]
             if SO_roles:
                 f.write(f' ({", ".join(SO_roles)})')
-            if p.identity in missing_seq:
+            if p.identity in missing_seq or p.identity in missing_vec:
                 f.write(f' **<span style="color:red">missing sequence</span>**')
             f.write('\n')
         f.write('\n')  # section break

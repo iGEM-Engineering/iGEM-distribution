@@ -4,13 +4,12 @@ A collection of iGEM Registry chromoproteins from Team Uppsala, useful for repor
 
 ### Summary:
 
-- 13 parts
-- 0 vectors
+- 12 parts
+- 1 vectors
 - 12 samples for distribution
 
 ### Parts:
 
-- pSB1C3
 - BBa_K1033902: meffBlue (CDS)
 - BBa_K1033906: tsPurple (CDS)
 - BBa_K1033910: fwYellow (CDS)
@@ -23,5 +22,6 @@ A collection of iGEM Registry chromoproteins from Team Uppsala, useful for repor
 - BBa_K592011: cjBlue (CDS)
 - BBa_K592012: eforRed (CDS)
 - BBa_K864401: aeBlue (CDS)
+- pSB1C3 (plasmid_vector)
 
 _Note: automatically generated from package Excel and sequence files; do not edit_

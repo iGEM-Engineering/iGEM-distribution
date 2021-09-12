@@ -1,4 +1,11 @@
 
+<http://parts.igem.org/BBa_J364007> <http://sbols.org/v3#description> "Added to make sure we've got a part in registry but not SynBioHub" .
+<http://parts.igem.org/BBa_J364007> <http://sbols.org/v3#displayId> "BBa_J364007" .
+<http://parts.igem.org/BBa_J364007> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/test_package> .
+<http://parts.igem.org/BBa_J364007> <http://sbols.org/v3#name> "BBa_J364007" .
+<http://parts.igem.org/BBa_J364007> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000804> .
+<http://parts.igem.org/BBa_J364007> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<http://parts.igem.org/BBa_J364007> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
 <http://parts.igem.org/J23100> <http://sbols.org/v3#description> "" .
 <http://parts.igem.org/J23100> <http://sbols.org/v3#displayId> "J23100" .
 <http://parts.igem.org/J23100> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/test_package> .
@@ -101,6 +108,7 @@
 <https://github.com/iGEM-Engineering/iGEM-distribution/test_package/BasicParts> <http://sbols.org/v3#description> "The Anderson Promoters are a well-established set of constitutive promoters at varying expression levels." .
 <https://github.com/iGEM-Engineering/iGEM-distribution/test_package/BasicParts> <http://sbols.org/v3#displayId> "BasicParts" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/test_package/BasicParts> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/test_package> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/test_package/BasicParts> <http://sbols.org/v3#member> <http://parts.igem.org/BBa_J364007> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/test_package/BasicParts> <http://sbols.org/v3#member> <http://parts.igem.org/J23100> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/test_package/BasicParts> <http://sbols.org/v3#member> <http://parts.igem.org/J23101> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/test_package/BasicParts> <http://sbols.org/v3#member> <http://parts.igem.org/J23102> .
@@ -209,6 +217,7 @@
 <https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/LmrA> <http://sbols.org/v3#displayId> "LmrA" .
 <https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/LmrA> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/test_package> .
 <https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/LmrA> <http://sbols.org/v3#name> "LmrA" .
+<https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/LmrA> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
 <https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/LmrA> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
 <https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/LmrA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
 <https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115_1> <http://sbols.org/v3#description> "" .

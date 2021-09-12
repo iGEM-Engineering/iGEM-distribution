@@ -175,7 +175,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add *.nt *.md
+          git add *.nt *.md *.fasta *.gb
           git diff-index --quiet HEAD . || git commit -m "Build distribution"
 
       - name: Push changes
