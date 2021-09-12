@@ -11,7 +11,7 @@ def vector_to_insert(component: sbol3.Component) -> sbol3.Component:
     :return: component if not vector; otherwise the vector
     """
     # is either the component or any feature thereof a vector? If not, then return component
-    subvectors = {f for f in component.features if is_plasmid(f.instance_of.lookup())}
+    subvectors = {f for f in component.features if is_plasmid(f)}
     if len(subvectors) == 0 and not is_plasmid(component):
         return component
     # otherwise, if there's precisely one non-vector subcomponent, return the Component it points to
