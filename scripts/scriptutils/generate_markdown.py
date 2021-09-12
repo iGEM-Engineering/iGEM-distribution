@@ -4,9 +4,8 @@ import sbol3
 import tyto
 
 import sbol_utilities.excel_to_sbol
-from sbol_utilities.helper_functions import id_sort
+from sbol_utilities.helper_functions import id_sort, is_plasmid
 from .package_production import BUILD_PRODUCTS_COLLECTION, DISTRIBUTION_NAMESPACE
-from .helpers import has_vector_role
 
 SUMMARY_FILE = 'README.md'
 """File name for markdown summaries"""
@@ -37,7 +36,7 @@ def generate_package_summary(package: str, doc: sbol3.Document):
         f.write(f'### Summary:\n\n')
         # Part count
         # TODO: separate parts from vectors
-        vectors = [m for m in parts_list.members if has_vector_role(m.lookup())]
+        vectors = [m for m in parts_list.members if is_plasmid(m.lookup())]
         non_vectors = [m for m in parts_list.members if m not in vectors]
         missing_seq = [str(m) for m in non_vectors if len(m.lookup().sequences) == 0]
         missing_vec = [str(m) for m in vectors if len(m.lookup().sequences) == 0]
