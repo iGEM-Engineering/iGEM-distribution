@@ -6,7 +6,7 @@ None
 
 - 37 parts
 - 1 vectors
-- 36 samples for distribution
+- 36 samples for distribution **<span style="color:red">1 parts not included</span>**
 
 ### Parts:
 
@@ -24,7 +24,7 @@ None
 - pMcbR (promoter)
 - pOrf2 (promoter)
 - pScbR (promoter)
-- pSmcR (promoter)
+- pSmcR (promoter) **<span style="color:red">not included in distribution</span>**
 - pTarA (promoter)
 - pSB1C3 (plasmid_vector)
 - AmtR (CDS)
