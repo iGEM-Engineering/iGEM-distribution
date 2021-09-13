@@ -8,7 +8,7 @@ None
     - CDS: 19
     - promoter: 18
 - 1 vectors
-- 36 samples for distribution _<span style="color:red">1 parts not included</span>_
+- 37 samples for distribution
 
 ### Parts:
 
@@ -26,7 +26,7 @@ None
 - pMcbR (promoter) in pSB1C3
 - pOrf2 (promoter) in pSB1C3
 - pScbR (promoter) in pSB1C3
-- pSmcR (promoter) _<span style="color:red">not included in distribution</span>_
+- pSmcR (promoter) in pSB1C3
 - pTarA (promoter) in pSB1C3
 - AmtR (CDS) in pSB1C3
 - AmeR (CDS) in pSB1C3
