@@ -6,7 +6,6 @@ None
 
 - 6 parts
     - terminator: 6
-    - unspecified role: 0
 - 0 vectors
 - 0 samples for distribution _<span style="color:red">6 parts not included</span>_ _<span style="color:red">No samples planned to be built for distribution</span>_
 

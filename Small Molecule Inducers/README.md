@@ -7,7 +7,6 @@ This package collects a few of the most common bacterial inducer parts and compo
 - 6 parts _<span style="color:red">2 missing sequences</span>_
     - CDS: 3
     - promoter: 3
-    - unspecified role: 0
 - 0 vectors
 - 0 samples for distribution _<span style="color:red">6 parts not included</span>_ _<span style="color:red">No samples planned to be built for distribution</span>_
 
