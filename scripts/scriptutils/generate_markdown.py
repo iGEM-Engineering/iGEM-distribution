@@ -79,7 +79,8 @@ def generate_package_summary(package: str, doc: sbol3.Document):
         f.write(f'- {len(non_vector_parts)} parts{missed}\n')
         for role in sorted(so_clusters):
             f.write(f'    - {role}: {len(so_clusters[role])}\n')
-        f.write(f'    - unspecified role: {unknown_role_count}\n')
+        if unknown_role_count:
+            f.write(f'    - {hilite(f"unspecified role: {unknown_role_count}")}\n')
         if missing_vec:
             missed = hilite(f'{len(missing_vec)} missing sequences: {", ".join(sorted(missing_vec))}')
         else:

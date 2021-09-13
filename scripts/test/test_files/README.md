@@ -8,7 +8,7 @@ The Anderson Promoters are a well-established set of constitutive promoters at v
     - CDS: 1
     - engineered_region: 1
     - promoter: 3
-    - unspecified role: 2
+    -  _<span style="color:red">unspecified role: 2</span>_
 - 2 vectors _<span style="color:red">1 missing sequences: pOpen_v4</span>_
 - 10 samples for distribution _<span style="color:red">1 parts not included</span>_
 
