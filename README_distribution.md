@@ -1,6 +1,6 @@
 # Distribution Summary
 
-- 99 samples planned for distribution
+- 125 samples planned for distribution
 
 ### Parts:
 
@@ -67,6 +67,32 @@
 - Fluorescent_Proteins_in_vector_BBa_J97003
 - Fluorescent_Proteins_in_vector_BBa_K592100
 - Fluorescent_Proteins_in_vector_BBa_K864100
+- Coding_sequences_AcuR_AM
+- Coding_sequences_AraC
+- Coding_sequences_BBa_K2680537
+- Coding_sequences_BBa_K3317004
+- Coding_sequences_BetI_AM
+- Coding_sequences_CinR_AM
+- Coding_sequences_CymR_AM
+- Coding_sequences_LuxR
+- Coding_sequences_MphR_AM
+- Coding_sequences_NahR_AM
+- Coding_sequences_PcaU_AM
+- Coding_sequences_TetR
+- Coding_sequences_TtgR_AM
+- Promoters_BBa_K2680520
+- Promoters_BBa_K2680523
+- Promoters_BBa_K3317006
+- Promoters_BBa_K3317007
+- Promoters_BBa_K3424010
+- Promoters_pAcu
+- Promoters_pBAD
+- Promoters_pBetI
+- Promoters_pCymRC
+- Promoters_pLuxB
+- Promoters_pMph
+- Promoters_pTac
+- Promoters_pTtg
 - TetR_Orthologs_and_Promoters_in_Vector_AmeR
 - TetR_Orthologs_and_Promoters_in_Vector_AmtR
 - TetR_Orthologs_and_Promoters_in_Vector_BM3R1
