@@ -19,6 +19,10 @@ SBOL_PACKAGE_NAME = 'package.nt'
 
 DISTRIBUTION_NAME = 'distribution.nt'
 """File name for the distribution as a whole, to be located in the root directory"""
+DISTRIBUTION_FASTA = 'distribution_synthesis_inserts.fasta'
+"""File name for the distribution FASTA export for synthesis, to be located in the root directory"""
+DISTRIBUTION_GENBANK = 'distribution.gb'
+"""File name for the distribution GenBank export for synthesis/review, to be located in the root directory"""
 
 # TODO: replace with EDAM format entries when SBOL2 and SBOL3 can be differentiated
 extensions = {
