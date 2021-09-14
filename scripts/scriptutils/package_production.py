@@ -7,8 +7,9 @@ from Bio import SeqIO
 from Bio.Seq import Seq
 
 from sbol_utilities.expand_combinatorial_derivations import root_combinatorial_derivations, expand_derivations
+from sbol_utilities.calculate_sequences import calculate_sequences
 from sbol_utilities.helper_functions import flatten
-from . import convert_to_fasta, convert_to_genbank
+from . import convert_to_genbank
 
 from .part_retrieval import package_parts_inventory
 from .directories import EXPORT_DIRECTORY, SBOL_EXPORT_NAME, SBOL_PACKAGE_NAME, DISTRIBUTION_NAME, \
@@ -76,6 +77,7 @@ def collate_package(package: str) -> None:
 
 def expand_build_plan(package: str) -> sbol3.Document:
     """Expand the build plans (libraries & composites sheet) in a package's collated SBOL3 Document
+    Also attempt to compute all missing sequences (including those of the build plans)
 
     :param package: path of package to operate on
     :return: Updated document
@@ -89,7 +91,10 @@ def expand_build_plan(package: str) -> sbol3.Document:
     sbol3.set_namespace(package_stem(package))
     if roots:
         derivative_collections = expand_derivations(roots)
+        print(f'Expanded {len(derivative_collections)} collections containing a total of {sum(len(c.members) for c in derivative_collections)} parts')
         doc.add(sbol3.Collection(BUILD_PRODUCTS_COLLECTION, members=flatten(c.members for c in derivative_collections)))
+        new_sequences = calculate_sequences(doc)
+        print(f'Computed sequences for {len(new_sequences)} components')
     else:
         logging.warning(f'No samples specified be built in package {package}')
         doc.add(sbol3.Collection(BUILD_PRODUCTS_COLLECTION))
@@ -163,7 +168,8 @@ def extract_synthesis_files(root: str, doc: sbol3.Document) -> sbol3.Document:
     :return: slimmed SBOL3 Document containing only direct materials exported in GenBank
     """
     # get the collection of linear build products - the things to actually be synthesized
-    build_plan = doc.find(BUILD_PRODUCTS_COLLECTION)
+    print(f'Exporting files for synthesis')
+    build_plan = doc.find(f'{DISTRIBUTION_NAMESPACE}/{BUILD_PRODUCTS_COLLECTION}')
     if not build_plan or not isinstance(build_plan, sbol3.Collection):
         raise ValueError(f'Document does not contain linear products collection "{BUILD_PRODUCTS_COLLECTION}"')
 
@@ -173,21 +179,22 @@ def extract_synthesis_files(root: str, doc: sbol3.Document) -> sbol3.Document:
         raise ValueError(f'Linear products collection should contain only Components: {non_components}')
 
     full_constructs = [m.lookup() for m in sorted(build_plan.members)]
-    inserts = {c:vector_to_insert(c) for c in full_constructs}  # May contain non-vector full_constructs
+    inserts = {c: vector_to_insert(c) for c in full_constructs}  # May contain non-vector full_constructs
 
     # for GenBank export, copy build products to new Document, omitting ones without sequences
-    SEQUENCE_NUMBER_WARNING = 'Omitting {}: GenBank exports require 1 sequence, but found {}'
+    sequence_number_warning = 'Omitting {}: GenBank exports require 1 sequence, but found {}'
     build_doc = sbol3.Document()
     build_plan.copy(build_doc)
     components_copied = set(full_constructs)
-    for c in [m.lookup() for m in build_plan.members]:
+    n_genbank_constructs = 0
+    for c in full_constructs:
         # if build is missing sequence, warn and skip
-        # TODO: turn back on again after sequence calculation is added
-        # if len(c.sequences) != 1:
-        #     logging.warning(SEQUENCE_NUMBER_WARNING.format(c.identity, len(c.sequences)))
-        #     continue
-        # c.copy(build_doc)
-        # c.sequences[0].lookup().copy(build_doc)
+        if len(c.sequences) != 1:
+            print(sequence_number_warning.format(c.identity, len(c.sequences)))
+            continue
+        c.copy(build_doc)
+        c.sequences[0].lookup().copy(build_doc)
+        n_genbank_constructs += 1
         # copy over subcomponents and their sequences too  # TODO: make this work for multi-layer components
         for sub_c in c.features:
             if isinstance(sub_c, sbol3.SubComponent) and sub_c.instance_of.lookup() not in components_copied:
@@ -195,25 +202,31 @@ def extract_synthesis_files(root: str, doc: sbol3.Document) -> sbol3.Document:
                 components_copied.add(sub)
                 # if subcomponent is missing sequence, warn and skip
                 if len(sub.sequences) != 1:
-                    logging.warning(SEQUENCE_NUMBER_WARNING.format(sub.identity, len(sub.sequences)))
+                    print(sequence_number_warning.format(sub.identity, len(sub.sequences)))
                     continue
                 sub.copy(build_doc)
                 sub.sequences[0].lookup().copy(build_doc)
     # export the GenBank
-    convert_to_genbank(build_doc, os.path.join(root, DISTRIBUTION_GENBANK))
+    gb_path = os.path.join(root, DISTRIBUTION_GENBANK)
+    convert_to_genbank(build_doc, gb_path)
+    print(f'Wrote GenBank export file with {n_genbank_constructs} constructs: {gb_path}')
 
     # for Twist Synthesis FASTA exports, we need to put the identity of the build product on the sequence of the insert
     # descriptions must be blank, as they will otherwise be munged together with the display_id
-    with open(os.path.join(root, DISTRIBUTION_FASTA), 'w') as out:
+    n_fasta_constructs = 0
+    fasta_path = os.path.join(root, DISTRIBUTION_FASTA)
+    with open(fasta_path, 'w') as out:
         for vector, insert in inserts.items():
             # Find all sequences of nucleic acid type
             na_seqs = [s.lookup() for s in insert.sequences if s.lookup().encoding == sbol3.IUPAC_DNA_ENCODING]
             if len(na_seqs) == 0:  # ignore components with no sequence to serialize
-                logging.warning(f'Part cannot be synthesized because sequence is missing: {insert.identity}')
+                print(f'Part cannot be synthesized because sequence is missing: {insert.identity}')
             elif len(na_seqs) == 1:  # if there is precisely one sequence, write it to the FASTA w. a blank description
                 record = SeqIO.SeqRecord(Seq(na_seqs[0].elements), id=vector.display_id, description='')
                 out.write(record.format('fasta'))
+                n_fasta_constructs += 1
             else:  # warn about components with ambiguous sequences
-                logging.warning(f'Part cannot be synthesized because it has multiple sequences: {insert.identity}')
+                print(f'Part cannot be synthesized because it has multiple sequences: {insert.identity}')
+    print(f'Wrote FASTA synthesis file with {n_fasta_constructs} constructs: {fasta_path}')
 
     return build_doc

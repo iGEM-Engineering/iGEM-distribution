@@ -15,7 +15,7 @@ These scripts run in sequential stages:
     2. `expand_combinations.py` produces a build plan for each package and saves it into the unified package SBOL file
     3. `generate_markdown.py` generates README files summarizing each package
 4. Build the distribution
-    1. `build_distribution.py` combines all of the packages into a single distribution file in the root directory
+    1. `build_distribution.py` combines all of the packages into a single distribution file in the root directory, generates a summary README file, and exports GenBank for inspection and FASTA for synthesis.
 
 The GitHub actions runs these scripts following the YAML files in `.github/workflows`.  The scripts run in the order listed on every user push.
 
