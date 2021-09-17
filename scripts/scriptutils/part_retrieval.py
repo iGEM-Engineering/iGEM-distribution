@@ -10,12 +10,11 @@ from Bio import Entrez, SeqIO
 import sbol2
 import sbol3
 from sbol_utilities.helper_functions import flatten, unambiguous_dna_sequence
-# TODO: switch to sbol3 after resolution of https://github.com/SynBioDex/pySBOL3/issues/191
+# TODO: switch string_to_display_id to sbol3 after resolution of https://github.com/SynBioDex/pySBOL3/issues/191
 from sbol_utilities.excel_to_sbol import string_to_display_id, BASIC_PARTS_COLLECTION
 from .directories import EXPORT_DIRECTORY, SBOL_EXPORT_NAME, extensions
 from .package_specification import package_stem
-from .sbol2to3 import convert2to3
-
+from .conversions import convert2to3, convert_from_fasta, convert_from_genbank
 
 GENBANK_CACHE_FILE = 'GenBank_imports.gb'
 IGEM_SBOL2_TRANSIENT_CACHE_FILE = 'iGEM_SBOL2_imports.xml'  # Not stored since SBOL2 doesn't have stable serialization
@@ -24,7 +23,7 @@ IGEM_SBOL3_CACHE_FILE = 'iGEM_SBOL3_imports.nt'
 IGEM_FASTA_CACHE_FILE = 'iGEM_raw_imports.fasta'
 
 FASTA_iGEM_PATTERN = 'http://parts.igem.org/cgi/partsdb/composite_edit/putseq.cgi?part={}'
-SBOL_iGEM_PATTERN = 'https://synbiohub.org/public/igem/BBa_{}'
+SBOL_iGEM_PATTERNS = ['https://synbiohub.org/public/igem/BBa_{}', 'https://synbiohub.org/public/igem/{}']
 iGEM_SOURCE_PREFIX = 'http://parts.igem.org/'
 NCBI_PREFIX = 'https://www.ncbi.nlm.nih.gov/nuccore/'
 
@@ -46,37 +45,25 @@ class ImportFile:
 
         :return: SBOL3 document for the file's contents
         """
-        if self.doc:  # If the document already loaded, just return it
-            return self.doc
+        if self.doc:  # If the document already loaded, we can just return it
+            pass
         # Otherwise, load the file, converting if necessary
-        if self.file_type == 'FASTA':  # FASTA should be read with NCBI and converted directly into SBOL3
-            doc = sbol3.Document()
-            with open(self.path, 'r') as f:
-                for r in SeqIO.parse(f, 'fasta'):
-                    identity = self.namespace+'/'+string_to_display_id(r.id)
-                    s = sbol3.Sequence(identity+'_sequence', name=r.name, description=r.description,
-                                       elements=str(r.seq), encoding=sbol3.IUPAC_DNA_ENCODING, namespace=self.namespace)
-                    doc.add(s)
-                    doc.add(sbol3.Component(identity, sbol3.SBO_DNA, sequences=[s.identity], namespace=self.namespace))
-            return doc
+        elif self.file_type == 'FASTA':  # FASTA should be read with NCBI and converted directly into SBOL3
+            self.doc = convert_from_fasta(self.path, self.namespace)
         elif self.file_type == 'GenBank':  # GenBank --> SBOL2 --> SBOL3
-            doc2 = sbol2.Document()
-            sbol2.setHomespace(self.namespace)
-            doc2.importFromFormat(self.path)
-            doc = convert2to3(doc2, [self.namespace])
-            return doc
+            self.doc = convert_from_genbank(self.path, self.namespace)
         elif self.file_type == 'SBOL2':  # SBOL2 files should all have been turned to SBOL3 already
             logging.warning(f'Should not be importing directly from SBOL2: {self.path}')
             doc2 = sbol2.Document()
             doc2.read(self.path)
-            doc = convert2to3(doc2)
-            return doc
+            self.doc = convert2to3(doc2)
         elif self.file_type == 'SBOL3':  # reading from SBOL3 is simple
-            doc = sbol3.Document()
-            doc.read(self.path)
-            return doc
+            self.doc = sbol3.Document()
+            self.doc.read(self.path)
         else:
             raise ValueError(f'Unknown file type: "{self.file_type}" for {self.path}')
+
+        return self.doc
 
 
 class PackageInventory:
@@ -103,7 +90,8 @@ class PackageInventory:
 # for canonicalizing IDs
 # TODO: get more systematic about this; maybe in the sheet?
 prefix_remappings = {
-    'https://synbiohub.org/public/igem/BBa_':iGEM_SOURCE_PREFIX
+    'https://synbiohub.org/public/igem/BBa_':iGEM_SOURCE_PREFIX,
+    'https://synbiohub.org/public/igem/': iGEM_SOURCE_PREFIX  # for any non-BBA parts
 }
 
 def remap_prefix(uri: str) -> str:
@@ -115,13 +103,18 @@ def remap_prefix(uri: str) -> str:
     return uri
 
 
-def sbol_uri_to_accession(uri: str, prefix: str = NCBI_PREFIX) -> str:
+def sbol_uri_to_accession(uri: str, prefix: str = NCBI_PREFIX, remaps: dict[str,str] = None) -> str:
     """Change an NCBI SBOL URI to an accession ID
     :param uri: to convert
     :param prefix: prefix to use with accession, defaulting to NCBI nuccore
     :return: equivalent accession ID
     """
-    return uri.removeprefix(prefix).replace('_', '.')
+    if remaps is None:
+        remaps = {'_': '.'}
+    accession = uri.removeprefix(prefix)
+    for k, v in remaps.items():
+        accession = accession.replace(k,v)
+    return accession
 
 
 def accession_to_sbol_uri(accession: str, prefix: str = NCBI_PREFIX) -> str:
@@ -181,33 +174,38 @@ def retrieve_igem_parts(ids: List[str], package: str) -> List[str]:
     sbol_count = 0
     fasta_count = 0
     for i in ids:
-        accession = sbol_uri_to_accession(i, iGEM_SOURCE_PREFIX)
-        try:
-            url = SBOL_iGEM_PATTERN.format(accession)
-            print(f'Attempting to retrieve iGEM SBOL from SynBioHub: {url}')
-            sbh_source.pull(url, doc)
-            retrieved_ids.append(i)
-            sbol_count += 1
-            print(f'  Successfully retrieved from SynBioHub')
-        except sbol2.SBOLError as err:
-            if err.error_code() == sbol2.SBOLErrorCode.SBOL_ERROR_NOT_FOUND:
-                try:
-                    url = FASTA_iGEM_PATTERN.format(accession)
-                    print(f'  SynBioHub retrieval failed; attempting to retrieve FASTA from iGEM Registry: {url}')
-                    with urllib.request.urlopen(url, timeout=5) as f:
-                        captured = f.read().decode('utf-8').strip()
+        accession = sbol_uri_to_accession(i, prefix=iGEM_SOURCE_PREFIX, remaps={})
+        # First try from SynBioHub:
+        for template in SBOL_iGEM_PATTERNS:
+            try:
+                url = template.format(accession)
+                print(f'Attempting to retrieve iGEM SBOL from SynBioHub: {url}')
+                sbh_source.pull(url, doc)
+                retrieved_ids.append(i)
+                sbol_count += 1
+                print(f'  Successfully retrieved from SynBioHub')
+            except sbol2.SBOLError as err:
+                if err.error_code() == sbol2.SBOLErrorCode.SBOL_ERROR_NOT_FOUND:
+                    continue
+                else:
+                    raise err  # if it wasn't a "not found" error, fail upward
+        # if that didn't work, try to get a FASTA from the iGEM parts repository:
+        if i not in retrieved_ids:
+            try:
+                url = FASTA_iGEM_PATTERN.format(accession)
+                print(f'  SynBioHub retrieval failed; attempting to retrieve FASTA from iGEM Registry: {url}')
+                with urllib.request.urlopen(url, timeout=5) as f:
+                    captured = f.read().decode('utf-8').strip()
 
-                    if unambiguous_dna_sequence(captured):
-                        retrieved_fasta += f'> {accession}\n{captured}\n'
-                        retrieved_ids.append(i)
-                        fasta_count += 1
-                        print(f'  Successfully retrieved from iGEM Registry')
-                    else:
-                        print(f'  Retrieved text is not a DNA sequence: {captured}')
-                except IOError:
-                    print('  Could not retrieve from iGEM Registry')
-            else:
-                raise err  # if it wasn't a "not found" error, fail upward
+                if unambiguous_dna_sequence(captured):
+                    retrieved_fasta += f'> {accession}\n{captured}\n'
+                    retrieved_ids.append(i)
+                    fasta_count += 1
+                    print(f'  Successfully retrieved from iGEM Registry')
+                else:
+                    print(f'  Retrieved text is not a DNA sequence: {captured}')
+            except IOError:
+                print('  Could not retrieve from iGEM Registry')
 
     # write retrieved materials
     if sbol_count > 0:

@@ -1,18 +1,16 @@
 import unittest
-import tempfile
 import os
 import filecmp
-from shutil import copy
 
 import sbol3
 
-import scripts.scriptutils
 from scripts.scriptutils import package_production, EXPORT_DIRECTORY, SBOL_PACKAGE_NAME, IGEM_FASTA_CACHE_FILE, \
-    GENBANK_CACHE_FILE, IGEM_SBOL2_CACHE_FILE, BUILD_PRODUCTS_COLLECTION, DISTRIBUTION_NAMESPACE, DISTRIBUTION_NAME
+    GENBANK_CACHE_FILE, IGEM_SBOL2_CACHE_FILE, BUILD_PRODUCTS_COLLECTION, DISTRIBUTION_NAMESPACE, DISTRIBUTION_NAME, \
+    DISTRIBUTION_FASTA, DISTRIBUTION_GENBANK
 from scripts.test.helpers import copy_to_tmp
 
 
-class TestImportParts(unittest.TestCase):
+class TestDistributionProduction(unittest.TestCase):
     def test_collation(self):
         """Test ability to collate parts based on a specification"""
         tmp_sub = copy_to_tmp(exports=['package_specification.nt'],
@@ -23,14 +21,15 @@ class TestImportParts(unittest.TestCase):
         package_production.collate_package(tmp_sub)
         doc = sbol3.Document()
         doc.read(os.path.join(tmp_sub, EXPORT_DIRECTORY, SBOL_PACKAGE_NAME))
-        # composite document should have 5 imported parts plus 6 parts that aren't yet imported, plus 2 templates
+        # composite document should have the following inventory:
         pkg = 'https://github.com/iGEM-Engineering/iGEM-distribution/test_package/'
         expected = {f'{pkg}Anderson_Promoters_in_vector_ins_template', f'{pkg}Anderson_Promoters_in_vector_template',
                     f'{pkg}Other_stuff_ins_template', f'{pkg}Other_stuff_template',
                     'https://synbiohub.org/public/igem/BBa_J23100',
                     'https://synbiohub.org/public/igem/BBa_J23101',
                     'https://synbiohub.org/public/igem/BBa_J23102',
-                    'http://parts.igem.org/pSB1C3', f'{pkg}pOpen_v4',
+                    'https://synbiohub.org/public/igem/pSB1C3',
+                    'http://parts.igem.org/BBa_J364007', f'{pkg}pOpen_v4',
                     'https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115',
                     'https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/LmrA',
                     f'{pkg}J23102_modified',
@@ -40,9 +39,9 @@ class TestImportParts(unittest.TestCase):
         collated = {o.identity for o in doc.objects if isinstance(o, sbol3.Component)}
         assert collated == expected, f'Collated parts set does not match expected value: {collated}'
         sequences = [o for o in doc.objects if isinstance(o, sbol3.Sequence)]
-        assert len(sequences) == 10, f'Collated document should have 10 sequences, but found {len(sequences)}'
-        # Total: 13 components, 10 sequences, 4 collections, 4 CDs, 2 Activity, 1 agent, 1 attachment = 33
-        assert len(doc.objects) == 37, f'Expected 37 TopLevel objects, but found {len(doc.objects)}'
+        assert len(sequences) == 11, f'Collated document should have 11 sequences, but found {len(sequences)}'
+        # Total: 14 components, 11 sequences, 4 collections, 4 CDs, 2 Activity, 1 agent, 1 attachment = 37
+        assert len(doc.objects) == 39, f'Expected 39 TopLevel objects, but found {len(doc.objects)}'
 
         # check that the file is identical to expectation
         test_dir = os.path.dirname(os.path.realpath(__file__))
@@ -71,9 +70,10 @@ class TestImportParts(unittest.TestCase):
                     f'{pkg}Anderson_Promoters_in_vector_BBa_J23102_pOpen_v4',
                     f'{pkg}Other_stuff_LmrA',
                     f'{pkg}Other_stuff_JWYZ01000115'}
-        assert set(str(m) for m in collection.members) == expected, f'Build set does not match expected value: {collection.members}'
-        # Total: 37 from original document, plus 10 vectors, 2x2 expansion collections, 1 package build collection
-        assert len(doc.objects) == 52, f'Expected 52 TopLevel objects, but found {len(doc.objects)}'
+        built = set(str(m) for m in collection.members)
+        assert built == expected, f'Build set does not match expected value: {collection.members}'
+        # Total: 39 from original document, plus 10 vectors, 6 vector sequences, 2x2 expansion collections, 1 package build collection
+        assert len(doc.objects) == 60, f'Expected 60 TopLevel objects, but found {len(doc.objects)}'
 
         # check that the file is identical to expectation
         test_dir = os.path.dirname(os.path.realpath(__file__))
@@ -83,23 +83,48 @@ class TestImportParts(unittest.TestCase):
 
     def test_build_distribution(self):
         """Test the assembly of a complete distribution"""
-        rm = {os.path.join(EXPORT_DIRECTORY, 'package-expanded.nt'): os.path.join(EXPORT_DIRECTORY, SBOL_PACKAGE_NAME)}
-        tmp_sub = copy_to_tmp(renames=rm)
+        m = {os.path.join(EXPORT_DIRECTORY, 'package-expanded.nt'): os.path.join(EXPORT_DIRECTORY, SBOL_PACKAGE_NAME)}
+        tmp_sub = copy_to_tmp(renames=m)
         root = os.path.dirname(tmp_sub)
         packages = [tmp_sub]
-        doc = package_production.build_distribution(root,packages)
+        doc = package_production.build_distribution(root, packages)
 
         # check if contents match expectation
         collection = doc.find(f'{DISTRIBUTION_NAMESPACE}/{BUILD_PRODUCTS_COLLECTION}')
         assert len(collection.members) == 10, f'Expected 10 build products, but found {len(collection.members)}'
-        # Total: 52 from package, plus 1 total build collection
-        assert len(doc.objects) == 53, f'Expected 53 TopLevel objects, but found {len(doc.objects)}'
+        # Total: 60 from package, plus 1 total build collection
+        assert len(doc.objects) == 61, f'Expected 55 TopLevel objects, but found {len(doc.objects)}'
 
         # check that the file is identical to expectation
         test_dir = os.path.dirname(os.path.realpath(__file__))
         comparison_file = os.path.join(test_dir, 'test_files', 'distribution', DISTRIBUTION_NAME)
         test_file = os.path.join(root, DISTRIBUTION_NAME)
         assert filecmp.cmp(test_file, comparison_file), f'Expanded file is not identical'
+
+    def test_synthesis_exports(self):
+        """Test the export of materials for a synthesis plan"""
+        remap = {os.path.join('distribution', DISTRIBUTION_NAME): DISTRIBUTION_NAME}
+        tmp_sub = copy_to_tmp(renames=remap)
+        root = tmp_sub  # we're just running in the package rather than true root for simplicity
+        doc = sbol3.Document()
+        doc.read(os.path.join(root, DISTRIBUTION_NAME))
+        synth_doc = package_production.extract_synthesis_files(root, doc)
+
+        # check if contents match expectation
+        collection = synth_doc.find(BUILD_PRODUCTS_COLLECTION)
+        assert len(collection.members) == 10, f'Expected 10 build products, but found {len(collection.members)}'
+        # Total: 1 collection, 6x2 complete vectors and sequences, 6x2 inserts and sequences, 1x2 plasmids and sequence
+        for i in synth_doc.objects: print(i.identity)
+        assert len(synth_doc.objects) == 27, f'Expected 27 TopLevel objects, but found {len(synth_doc.objects)}'
+
+        # check that the files are identical to expectations
+        test_dir = os.path.dirname(os.path.realpath(__file__))
+        comparison_file = os.path.join(test_dir, 'test_files', 'distribution', DISTRIBUTION_FASTA)
+        test_file = os.path.join(root, DISTRIBUTION_FASTA)
+        assert filecmp.cmp(test_file, comparison_file), f'Exported file is not identical'
+        comparison_file = os.path.join(test_dir, 'test_files', 'distribution', DISTRIBUTION_GENBANK)
+        test_file = os.path.join(root, DISTRIBUTION_GENBANK)
+        assert filecmp.cmp(test_file, comparison_file), f'Exported file is not identical'
 
 
 if __name__ == '__main__':
