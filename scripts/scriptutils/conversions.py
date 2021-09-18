@@ -4,7 +4,7 @@ import glob
 import os
 import tempfile
 import urllib
-from typing import Union
+from typing import Union, Dict
 
 import rdflib
 import sbol2
@@ -13,8 +13,7 @@ from Bio import SeqIO, SeqRecord
 from Bio.Seq import Seq
 
 from sbol_utilities.excel_to_sbol import string_to_display_id
-from sbol_utilities.helper_functions import flatten, strip_sbol2_version, id_sort
-from .directories import extensions
+from sbol_utilities.helper_functions import flatten, strip_sbol2_version, id_sort, GENETIC_DESIGN_FILE_TYPES
 
 # sbol javascript executable based on https://github.com/sboltools/sbolgraph
 # Location: scripts/sbol
@@ -147,7 +146,7 @@ def convert_package_sbol2_files(package: str) -> dict[str, str]:
     mappings = {}
 
     # import SBOL2
-    for file in flatten(glob.glob(os.path.join(package, f'*{ext}')) for ext in extensions['SBOL2']):
+    for file in flatten(glob.glob(os.path.join(package, f'*{ext}')) for ext in GENETIC_DESIGN_FILE_TYPES['SBOL2']):
         print(f'Attempting to convert SBOL2 file {file}')
         file3 = os.path.splitext(file)[0]+'.nt'  # make an SBOL3 version of the file name
         doc2 = sbol2.Document()
@@ -251,7 +250,7 @@ def convert_to_fasta(doc3: sbol3.Document, path: str) -> None:
                 logging.warning(f'Ambiguous component ({len(na_seqs)} sequences) not converted to FASTA: {c.identity}')
 
 
-def convert_from_fasta(path: str, namespace: str) -> sbol3.Document:
+def convert_from_fasta(path: str, namespace: str, identity_map: Dict[str, str] = None) -> sbol3.Document:
     """Convert a FASTA nucleotide document on disk into an SBOL3 document
     Specifically, every sequence in the FASTA will be converted into an SBOL Component and associated Sequence
 
@@ -262,7 +261,10 @@ def convert_from_fasta(path: str, namespace: str) -> sbol3.Document:
     doc = sbol3.Document()
     with open(path, 'r') as f:
         for r in SeqIO.parse(f, 'fasta'):
-            identity = namespace+'/'+string_to_display_id(r.id)
+            if identity_map and r.id in identity_map:
+                identity = identity_map[r.id]
+            else:
+                identity = f'{namespace}/{string_to_display_id(r.id)}'
             s = sbol3.Sequence(identity+'_sequence', name=r.name, description=r.description.strip(),
                                elements=str(r.seq), encoding=sbol3.IUPAC_DNA_ENCODING, namespace=namespace)
             doc.add(s)
@@ -271,6 +273,7 @@ def convert_from_fasta(path: str, namespace: str) -> sbol3.Document:
     return doc
 
 
+# TODO: this likely needs to be able to have an id_to_uri remapping option like we have for FASTA
 def convert_from_genbank(path: str, namespace: str) -> sbol3.Document:
     """Convert a GenBank document on disk into an SBOL3 document
     Specifically, the GenBank document is first imported to SBOL2, then converted from SBOL2 to SBOL3

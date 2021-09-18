@@ -1,3 +1,4 @@
+import io
 import logging
 import os
 import urllib.request
@@ -9,14 +10,16 @@ from urllib.error import HTTPError
 from Bio import Entrez, SeqIO
 import sbol2
 import sbol3
-from sbol_utilities.helper_functions import flatten, unambiguous_dna_sequence
+from sbol_utilities.helper_functions import flatten, unambiguous_dna_sequence, GENETIC_DESIGN_FILE_TYPES
 # TODO: switch string_to_display_id to sbol3 after resolution of https://github.com/SynBioDex/pySBOL3/issues/191
 from sbol_utilities.excel_to_sbol import string_to_display_id, BASIC_PARTS_COLLECTION
-from .directories import EXPORT_DIRECTORY, SBOL_EXPORT_NAME, extensions
+from .directories import EXPORT_DIRECTORY, SBOL_EXPORT_NAME
 from .package_specification import package_stem
 from .conversions import convert2to3, convert_from_fasta, convert_from_genbank
 
-GENBANK_CACHE_FILE = 'GenBank_imports.gb'
+NCBI_GENBANK_CACHE_FILE = 'NCBI_GenBank_imports.gb'
+OTHER_GENBANK_CACHE_FILE = 'Other_GenBank_imports.gb'
+OTHER_FASTA_CACHE_FILE = 'Other_FASTA_imports.fasta'
 IGEM_SBOL2_TRANSIENT_CACHE_FILE = 'iGEM_SBOL2_imports.xml'  # Not stored since SBOL2 doesn't have stable serialization
 IGEM_SBOL2_CACHE_FILE = 'iGEM_SBOL2_imports.nt'  # SBOL3 converted form of transient cache
 IGEM_SBOL3_CACHE_FILE = 'iGEM_SBOL3_imports.nt'
@@ -33,11 +36,13 @@ class ImportFile:
 
     def __init__(self, path: str, file_type: str = sbol3.SORTED_NTRIPLES, namespace: str = None):
         self.path = path
-        if file_type not in extensions.keys():
+        if file_type not in GENETIC_DESIGN_FILE_TYPES.keys():
             raise ValueError(f'Unknown file type: "{file_type}"')
         self.file_type = file_type
         self.namespace = namespace.removesuffix('/') if namespace else None
         self.doc = None
+        self.id_to_uri = {}
+        """For FASTA and GenBank, map from ID to full URI"""
 
     def get_sbol3_doc(self) -> sbol3.Document:
         """Access a file's contents in SBOL3 format. If not loaded, they will be loaded.
@@ -49,7 +54,7 @@ class ImportFile:
             pass
         # Otherwise, load the file, converting if necessary
         elif self.file_type == 'FASTA':  # FASTA should be read with NCBI and converted directly into SBOL3
-            self.doc = convert_from_fasta(self.path, self.namespace)
+            self.doc = convert_from_fasta(self.path, self.namespace, self.id_to_uri)
         elif self.file_type == 'GenBank':  # GenBank --> SBOL2 --> SBOL3
             self.doc = convert_from_genbank(self.path, self.namespace)
         elif self.file_type == 'SBOL2':  # SBOL2 files should all have been turned to SBOL3 already
@@ -76,6 +81,8 @@ class PackageInventory:
     def add(self, import_file, uri: str, *aliases: str) -> None:
         # make sure the file is tracked
         self.files.add(import_file)
+        # record display_id to URI mapping
+        import_file.id_to_uri[sbol3.Identified._extract_display_id(uri)] = uri  # TODO: unprotect method?
         # add the entry for the URI
         self.locations[uri] = import_file
         # add URI and all aliases to alias mapping
@@ -142,7 +149,7 @@ def retrieve_genbank_accessions(ids: List[str], package: str) -> List[str]:
         handle = Entrez.efetch(id=id_string, db='nucleotide', rettype='gb', retmode='text')
         retrieved = [r for r in SeqIO.parse(handle, 'gb')]
         # add retrieved records to cache
-        cache_file = os.path.join(package, GENBANK_CACHE_FILE)
+        cache_file = os.path.join(package, NCBI_GENBANK_CACHE_FILE)
         print(f'Retrieved {len(retrieved)} records from NCBI; writing to {cache_file}')
         with open(cache_file, 'a') as out:
             for r in retrieved:
@@ -189,7 +196,7 @@ def retrieve_igem_parts(ids: List[str], package: str) -> List[str]:
                     continue
                 else:
                     raise err  # if it wasn't a "not found" error, fail upward
-        # if that didn't work, try to get a FASTA from the iGEM parts repository:
+        # if that didn't work, try to make a FASTA from the iGEM parts repository:
         if i not in retrieved_ids:
             try:
                 url = FASTA_iGEM_PATTERN.format(accession)
@@ -235,7 +242,7 @@ def retrieve_synbiohub_parts(ids: List[str], package: str) -> List[str]:
         doc.read(sbol_cache_file)
 
     # pull one ID at a time, because SynBioHub will give an error if we try to pull multiple and one is missing
-    print(f'Attempting to retrieve {len(ids)} parts from iGEM')
+    print(f'Attempting to retrieve {len(ids)} parts from SynBioHub')
     retrieved_ids = []
     for url in ids:
         # figure out the server to access from the URL
@@ -258,11 +265,45 @@ def retrieve_synbiohub_parts(ids: List[str], package: str) -> List[str]:
 
     # write retrieved materials
     if len(retrieved_ids) > 0:
-        print(f'Retrieved {len(retrieved_ids)} iGEM SBOL2 records from SynBioHub, writing to {sbol_cache_file}')
+        print(f'Retrieved {len(retrieved_ids)} SBOL2 records from SynBioHub, writing to {sbol_cache_file}')
         doc.write(sbol_cache_file)
 
     return retrieved_ids
 
+
+def generic_part_download(urls: list[str], package: str) -> list[str]:
+    """Attempt to download parts of unknown format from generic URLs. Detect format by parsing retrieved material
+
+    :param url: list of URL to download from
+    :return: list of parts that were able to be downlaoded and parsed
+    """
+    # First, see how many can be collected from some SynBioHub instance:
+    retrieved_ids = retrieve_synbiohub_parts(urls, package)
+    # attempt to pull the rest via straight URL download
+    remaining_urls = [u for u in urls if u not in set(retrieved_ids)]
+    for url in remaining_urls:
+        print(f'Attempting to download part from: {url}')
+        try:
+            with urllib.request.urlopen(url, timeout=5) as f:
+                captured = f.read().decode('utf-8').strip()
+            # attempt to parse as FASTA or GenBank:
+            if any(SeqIO.parse(io.StringIO(captured), 'fasta')):
+                print('  Detected as FASTA format')
+                with open(os.path.join(package, OTHER_FASTA_CACHE_FILE), 'a') as out:
+                    out.write(captured+'\n')
+                retrieved_ids.append(url)
+            elif any(SeqIO.parse(io.StringIO(captured), 'gb')):
+                print('  Detected as GenBank format')
+                with open(os.path.join(package, OTHER_GENBANK_CACHE_FILE), 'a') as out:
+                    out.write(captured+'\n')
+                retrieved_ids.append(url)
+            else:
+                # TODO: add handlers for generic SBOL3 downloads also
+                print('  Could not interpret retrieved part')
+        except IOError:
+            print('  Could not retrieve part')
+
+    return retrieved_ids
 
 source_list = {
     NCBI_PREFIX: retrieve_genbank_accessions,
@@ -279,54 +320,50 @@ def retrieve_parts(ids: List[str], package: str) -> List[str]:
     :param package: path of package to retrieve from
     :return: list of URIs successfully retrieved
     """
-    "Attempt to collect all of the parts on the list"
     collected = []
+    # Start with parts that have recognized server IDs:
     for prefix, retriever in source_list.items():
         matches = [i for i in ids if i.startswith(prefix)]
         ids = [i for i in ids if i not in matches]  # remove the ones we're going to try to avoid double-searching
         if len(matches) > 0:
             successes = retriever(matches, package)
             collected += successes
+    # For all remaining parts, try to retrieve as direct downloads:
+    collected += generic_part_download(ids, package)
     return collected
 
 
-def package_parts_inventory(package: str) -> PackageInventory:
+def package_parts_inventory(package: str, targets: List[str] = None) -> PackageInventory:
     """Search all of the SBOL, GenBank, and FASTA files of a package to find what parts have been downloaded
 
     :param package: path of package to search
+    :param targets: list of parts we are looking for, for adding prefixes to FASTA and GenBank materials
     :return: dictionary mapping URIs and alias URIs to available URIs
     """
+    id_map = {sbol3.Identified._extract_display_id(uri): uri for uri in (targets or [])}
     inventory = PackageInventory()
 
     # import FASTAs and GenBank
-    for file in sorted(flatten(glob.glob(os.path.join(package, f'*{ext}')) for ext in extensions['FASTA'])):
+    for file in sorted(flatten(glob.glob(os.path.join(package, f'*{ext}')) for ext in GENETIC_DESIGN_FILE_TYPES['FASTA'])):
         is_igem_cache = os.path.basename(file) == IGEM_FASTA_CACHE_FILE
         prefix = iGEM_SOURCE_PREFIX if is_igem_cache else package_stem(package)
         with open(file) as f:
             import_file = ImportFile(file, file_type='FASTA', namespace=prefix)
             for record in SeqIO.parse(f, "fasta"):
-                inventory.add(import_file, accession_to_sbol_uri(record.id, prefix))
+                identity = id_map[record.id] if record.id in id_map else accession_to_sbol_uri(record.id, prefix)
+                inventory.add(import_file, identity)
 
-    for file in sorted(flatten(glob.glob(os.path.join(package, f'*{ext}')) for ext in extensions['GenBank'])):
-        is_ncbi_cache = os.path.basename(file) == GENBANK_CACHE_FILE
+    for file in sorted(flatten(glob.glob(os.path.join(package, f'*{ext}')) for ext in GENETIC_DESIGN_FILE_TYPES['GenBank'])):
+        is_ncbi_cache = os.path.basename(file) == NCBI_GENBANK_CACHE_FILE
         prefix = NCBI_PREFIX if is_ncbi_cache else package_stem(package)
         with open(file) as f:
             import_file = ImportFile(file, file_type='GenBank', namespace=prefix)
             for record in SeqIO.parse(f, "gb"):
-                inventory.add(import_file, accession_to_sbol_uri(record.name, prefix),
-                              accession_to_sbol_uri(record.id, prefix))
-
-    # import SBOL2
-    # for file in sorted(flatten(glob.glob(os.path.join(package, f'*{ext}')) for ext in extensions['SBOL2'])):
-    #     doc = sbol2.Document()
-    #     doc.read(file)
-    #     import_file = ImportFile(file, file_type='SBOL2')
-    #     cds = [obj for obj in doc if isinstance(obj,sbol2.ComponentDefinition)]
-    #     for cd in cds:
-    #         inventory.add(import_file, remap_prefix(cd.persistentIdentity), remap_prefix(cd.identity))
+                identity = id_map[record.name] if record.name in id_map else accession_to_sbol_uri(record.name, prefix)
+                inventory.add(import_file, identity, accession_to_sbol_uri(record.id, prefix))
 
     # import SBOL3
-    for rdf_type, patterns in extensions['SBOL3'].items():
+    for rdf_type, patterns in GENETIC_DESIGN_FILE_TYPES['SBOL3'].items():
         for file in sorted(flatten(glob.glob(os.path.join(package, f'*{ext}')) for ext in patterns)):
             doc = sbol3.Document()
             doc.read(file)
@@ -348,11 +385,12 @@ def import_parts(package: str) -> list[str]:
     package_spec = sbol3.Document()
     package_spec.read(os.path.join(package, EXPORT_DIRECTORY, SBOL_EXPORT_NAME))
     package_parts = [p.lookup() for p in package_spec.find(BASIC_PARTS_COLLECTION).members]
+    retrieval_uri = {p.identity: (p.derived_from[0] if p.derived_from else p.identity) for p in package_parts}
 
     print(f'Package specification contains {len(package_parts)} parts')
 
     # Then collect the parts in the package directory
-    inventory = package_parts_inventory(package)
+    inventory = package_parts_inventory(package, retrieval_uri.keys())
     print(f'Found {len(inventory.locations)} parts cached in package design files')
 
     # Compare the parts lists to each other to figure out which elements are missing
@@ -376,11 +414,11 @@ def import_parts(package: str) -> list[str]:
         return []
     else:
         print('Attempting to download missing parts')
-        download_list = list(missing_sequences)
-        download_list.sort()
-        retrieved = retrieve_parts(download_list, package)
-        print(f'Retrieved {len(retrieved)} out of {len(missing_sequences)} missing sequences')
-        print(retrieved)
+        download_list = sorted([retrieval_uri[id] for id in missing_sequences])
+        retrieved_uris = retrieve_parts(download_list, package)
+        retrieved_to_uri = {v: k for k, v in retrieval_uri.items()}  # make inverse map for interpreting retrieved
+        retrieved = [retrieved_to_uri[uri] for uri in retrieved_uris]
+        print(f'Retrieved {len(retrieved_uris)} out of {len(missing_sequences)} missing sequences')
         still_missing = missing_sequences - set(retrieved)
         if still_missing:
             print('Still missing:'+"".join(f' {p}\n' for p in still_missing))
