@@ -557,7 +557,7 @@
 <https://freegenes.github.io/genbank/BBF10K_000453> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
 <https://freegenes.github.io/genbank/BBF10K_000453> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
 <https://freegenes.github.io/genbank/BBF10K_000453> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://freegenes.github.io/genbank/BBF10K_000453.gb> .
-<https://freegenes.github.io/genbank/BBF10K_000454> <http://sbols.org/v3#description> "Taken from open yeast collection\nfor stable genome integration adjacent to S. cerevisiae HO locus." .
+<https://freegenes.github.io/genbank/BBF10K_000454> <http://sbols.org/v3#description> "sequence downloaded from freegenes has extra (non-compliant) newline, which can cause errors; edited by hand\nfor stable genome integration adjacent to S. cerevisiae HO locus." .
 <https://freegenes.github.io/genbank/BBF10K_000454> <http://sbols.org/v3#displayId> "BBF10K_000454" .
 <https://freegenes.github.io/genbank/BBF10K_000454> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Yeast%20Collection> .
 <https://freegenes.github.io/genbank/BBF10K_000454> <http://sbols.org/v3#name> "ScHR3'-HO" .
