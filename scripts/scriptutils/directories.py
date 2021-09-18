@@ -24,18 +24,6 @@ DISTRIBUTION_FASTA = 'distribution_synthesis_inserts.fasta'
 DISTRIBUTION_GENBANK = 'distribution.gb'
 """File name for the distribution GenBank export for synthesis/review, to be located in the root directory"""
 
-# TODO: replace with EDAM format entries when SBOL2 and SBOL3 can be differentiated
-extensions = {
-    'FASTA': {'.fasta', '.fa'},
-    'GenBank': {'.genbank', '.gb'},
-    'SBOL2': {'.xml'},
-    'SBOL3': {sbol3.NTRIPLES: {'.nt'},
-              sbol3.RDF_XML: {'.rdf'},
-              sbol3.TURTLE: {'.ttl'},
-              sbol3.JSONLD: {'.json', '.jsonld'}
-              }
-}
-
 
 def distribution_dir() -> str:
     """Returns the root directory for the distribution.
@@ -138,12 +126,12 @@ def copy_sheets_to_packages(sheets: Union[str,list[str]], template: str = None) 
 
 
 ###############
-## Copy a sheet with style, format, layout, ect. from one Excel file to another Excel file
+## Copy a sheet with style, format, layout, etc. from one Excel file to another Excel file
 ## Adapted from https://stackoverflow.com/a/68800310/2779147
 
 
 def copy_sheet(source_sheet, target_sheet):
-    copy_cells(source_sheet, target_sheet)  # copy all the cel values and styles
+    copy_cells(source_sheet, target_sheet)  # copy all the cell values and styles
     copy_sheet_attributes(source_sheet, target_sheet)
 
 def copy_sheet_attributes(source_sheet, target_sheet):
