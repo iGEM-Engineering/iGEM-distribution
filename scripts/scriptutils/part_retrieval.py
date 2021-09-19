@@ -294,14 +294,17 @@ def generic_part_download(urls: list[str], package: str) -> list[str]:
                 retrieved_ids.append(url)
             elif any(SeqIO.parse(io.StringIO(captured), 'gb')):
                 print('  Detected as GenBank format')
-                with open(os.path.join(package, OTHER_GENBANK_CACHE_FILE), 'a') as out:
+                file_name = url.rsplit('/', maxsplit=1)[1]  # get last component for file name
+                if not any(file_name.endswith(ext) for ext in GENETIC_DESIGN_FILE_TYPES['GenBank']):
+                    file_name = f'{file_name}.gb'
+                with open(os.path.join(package, file_name), 'w') as out:
                     out.write(captured+'\n')
                 retrieved_ids.append(url)
             else:
                 # TODO: add handlers for generic SBOL3 downloads also
                 print('  Could not interpret retrieved part')
-        except IOError:
-            print('  Could not retrieve part')
+        except IOError as e:
+            print(f'  Could not retrieve part: {e}')
 
     return retrieved_ids
 
@@ -359,7 +362,11 @@ def package_parts_inventory(package: str, targets: List[str] = None) -> PackageI
         with open(file) as f:
             import_file = ImportFile(file, file_type='GenBank', namespace=prefix)
             for record in SeqIO.parse(f, "gb"):
-                identity = id_map[record.name] if record.name in id_map else accession_to_sbol_uri(record.name, prefix)
+                if record.name in id_map:
+                    identity = id_map[record.name]
+                    import_file.namespace = identity.removesuffix(f'/{record.name}')
+                else:
+                    identity = accession_to_sbol_uri(record.name, prefix)
                 inventory.add(import_file, identity, accession_to_sbol_uri(record.id, prefix))
 
     # import SBOL3
