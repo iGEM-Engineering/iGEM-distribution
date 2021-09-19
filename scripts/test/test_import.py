@@ -3,7 +3,8 @@ import os
 import filecmp
 
 from scripts.scriptutils import part_retrieval, IGEM_FASTA_CACHE_FILE, NCBI_GENBANK_CACHE_FILE, \
-    convert_package_sbol2_files, IGEM_SBOL2_CACHE_FILE, export_sbol, OTHER_FASTA_CACHE_FILE, OTHER_GENBANK_CACHE_FILE
+    convert_package_sbol2_files, IGEM_SBOL2_CACHE_FILE, export_sbol, OTHER_FASTA_CACHE_FILE, OTHER_GENBANK_CACHE_FILE, \
+    collate_package, EXPORT_DIRECTORY, SBOL_PACKAGE_NAME
 from scripts.test.helpers import copy_to_tmp
 
 
@@ -86,7 +87,8 @@ class TestImportParts(unittest.TestCase):
         convert_package_sbol2_files(tmp_sub)
         targets = {IGEM_FASTA_CACHE_FILE: os.path.join('imports', 'imports_test_igem.fasta'),
                    NCBI_GENBANK_CACHE_FILE: os.path.join('imports', 'imports_test_ncbi.gb'),
-                   OTHER_GENBANK_CACHE_FILE: os.path.join('imports', 'imports_test_other.gb'),
+                   'BBF10K_000152.gb': os.path.join('imports', 'BBF10K_000152.gb'),
+                   'second_genbank.gb': os.path.join('imports', 'second_genbank.gb'),
                    OTHER_FASTA_CACHE_FILE: os.path.join('imports', 'imports_test.fasta'),
                    IGEM_SBOL2_CACHE_FILE: os.path.join('imports', 'imports_test.nt')}
         for t in targets:
@@ -101,6 +103,12 @@ class TestImportParts(unittest.TestCase):
             test_file = os.path.join(tmp_sub, t)
             comparison_file = os.path.join(test_dir, 'test_files', targets[t])
             assert filecmp.cmp(test_file, comparison_file), f'Parts cache file {t} is not identical'
+
+        # make sure we get appropriate integration in the package:
+        collate_package(tmp_sub)
+        test_file = os.path.join(tmp_sub, EXPORT_DIRECTORY, SBOL_PACKAGE_NAME)
+        comparison_file = os.path.join(test_dir, 'test_files', 'imports', SBOL_PACKAGE_NAME)
+        assert filecmp.cmp(test_file, comparison_file), f'Integated package is not identical'
 
 
 if __name__ == '__main__':

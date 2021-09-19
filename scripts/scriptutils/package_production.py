@@ -6,6 +6,7 @@ import sbol3
 from Bio import SeqIO
 from Bio.Seq import Seq
 
+from sbol_utilities.excel_to_sbol import BASIC_PARTS_COLLECTION
 from sbol_utilities.expand_combinatorial_derivations import root_combinatorial_derivations, expand_derivations
 from sbol_utilities.calculate_sequences import calculate_sequences
 from sbol_utilities.helper_functions import flatten
@@ -33,7 +34,8 @@ def collate_package(package: str) -> None:
     doc.read(spec_name, sbol3.SORTED_NTRIPLES)
 
     # collect the inventory
-    inventory = package_parts_inventory(package)
+    basic_part_ids = [str(p) for p in doc.find(BASIC_PARTS_COLLECTION).members]
+    inventory = package_parts_inventory(package, basic_part_ids)
 
     # search old object for aliases; if found, remove and add to rewriting plan
     to_remove = [o for o in doc.objects if o.identity in inventory.aliases]
@@ -43,6 +45,7 @@ def collate_package(package: str) -> None:
 
     # copy the contents of each file into the main document
     for f in inventory.files:
+        print(f'  Loading file {f.path}')
         import_doc = f.get_sbol3_doc()
         print(f'  Importing {len(import_doc.objects)} objects from file {f.path}')
         for o in import_doc.objects:

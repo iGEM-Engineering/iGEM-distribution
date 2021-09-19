@@ -256,6 +256,7 @@ def convert_from_fasta(path: str, namespace: str, identity_map: Dict[str, str] =
 
     :param path: path to read FASTA file from
     :param namespace: URIs of Components will be set to {namespace}/{fasta_id}
+    :param identity_map: dictionary mapping from displayId to identity, using for getting non-default namespaces
     :return: SBOL3 document containing converted materials
     """
     doc = sbol3.Document()
@@ -273,7 +274,7 @@ def convert_from_fasta(path: str, namespace: str, identity_map: Dict[str, str] =
     return doc
 
 
-# TODO: this likely needs to be able to have an id_to_uri remapping option like we have for FASTA
+# TODO: Figure out how to support multiple namespaces like we do for FASTA: currently, importing from multiple namespaces will not work correctly
 def convert_from_genbank(path: str, namespace: str) -> sbol3.Document:
     """Convert a GenBank document on disk into an SBOL3 document
     Specifically, the GenBank document is first imported to SBOL2, then converted from SBOL2 to SBOL3
