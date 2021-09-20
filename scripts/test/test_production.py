@@ -5,7 +5,7 @@ import filecmp
 import sbol3
 
 from scripts.scriptutils import package_production, EXPORT_DIRECTORY, SBOL_PACKAGE_NAME, IGEM_FASTA_CACHE_FILE, \
-    GENBANK_CACHE_FILE, IGEM_SBOL2_CACHE_FILE, BUILD_PRODUCTS_COLLECTION, DISTRIBUTION_NAMESPACE, DISTRIBUTION_NAME, \
+    NCBI_GENBANK_CACHE_FILE, IGEM_SBOL2_CACHE_FILE, BUILD_PRODUCTS_COLLECTION, DISTRIBUTION_NAMESPACE, DISTRIBUTION_NAME, \
     DISTRIBUTION_FASTA, DISTRIBUTION_GENBANK
 from scripts.test.helpers import copy_to_tmp
 
@@ -15,7 +15,7 @@ class TestDistributionProduction(unittest.TestCase):
         """Test ability to collate parts based on a specification"""
         tmp_sub = copy_to_tmp(exports=['package_specification.nt'],
                               package=['test_sequence.fasta', 'J23102-modified.fasta', 'two_sequences.gb',
-                                       'BBa_J23101.nt', IGEM_FASTA_CACHE_FILE, GENBANK_CACHE_FILE,
+                                       'BBa_J23101.nt', IGEM_FASTA_CACHE_FILE, NCBI_GENBANK_CACHE_FILE,
                                        IGEM_SBOL2_CACHE_FILE])
 
         package_production.collate_package(tmp_sub)
