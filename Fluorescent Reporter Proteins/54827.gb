@@ -1,0 +1,26 @@
+LOCUS       mKate2          699 bp ds-DNA     circular     09-AUG-2021
+DEFINITION  .
+KEYWORDS    "accession:addgene_54827_271345"                                   
+SOURCE      synthetic DNA construct                                            
+  ORGANISM  synthetic DNA construct                                            
+FEATURES             Location/Qualifiers
+     source          1..699
+                     /label="source"
+     CDS             1..699
+                     /label="mKate2"
+     CDS             1..699
+                     /label="Translation 1-699"
+ORIGIN
+        1 atggtgagcg agctgattaa ggagaacatg cacatgaagc tgtacatgga gggcaccgtg
+       61 aacaaccacc acttcaagtg cacatccgag ggcgaaggca agccctacga gggcacccag
+      121 accatgagaa tcaaggcggt cgagggcggc cctctcccct tcgccttcga catcctggct
+      181 accagcttca tgtacggcag caaaaccttc atcaaccaca cccagggcat ccccgacttc
+      241 tttaagcagt ccttccccga gggcttcaca tgggagagag tcaccacata cgaagacggg
+      301 ggcgtgctga ccgctaccca ggacaccagc ctccaggacg gctgcctcat ctacaacgtc
+      361 aagatcagag gggtgaactt cccatccaac ggccctgtga tgcagaagaa aacactcggc
+      421 tgggaggcct ccaccgagac cctgtacccc gctgacggcg gcctggaagg cagagccgac
+      481 atggccctga agctcgtggg cgggggccac ctgatctgca acttgaagac cacatacaga
+      541 tccaagaaac ccgctaagaa cctcaagatg cccggcgtct actatgtgga cagaagactg
+      601 gaaagaatca aggaggccga caaagagacc tacgtcgagc agcacgaggt ggctgtggcc
+      661 agatactgcg acctccctag caaactgggg cacagatga
+//

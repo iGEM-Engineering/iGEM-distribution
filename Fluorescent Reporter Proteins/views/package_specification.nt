@@ -16,14 +16,14 @@
 <http://parts.igem.org/E0040> <http://sbols.org/v3#description> "S2R mutation\nExcit. 501 / Emiss. 511" .
 <http://parts.igem.org/E0040> <http://sbols.org/v3#displayId> "E0040" .
 <http://parts.igem.org/E0040> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins> .
-<http://parts.igem.org/E0040> <http://sbols.org/v3#name> "GFPmut3b*" .
+<http://parts.igem.org/E0040> <http://sbols.org/v3#name> "GFPmut3b" .
 <http://parts.igem.org/E0040> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
 <http://parts.igem.org/E0040> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
 <http://parts.igem.org/E0040> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
-<http://parts.igem.org/E1010> <http://sbols.org/v3#description> "Includes barcode after double stop\nExcit. 584 / Emiss. 607" .
+<http://parts.igem.org/E1010> <http://sbols.org/v3#description> "includes barcode after double stop, 4 BbsI cut sites\nExcit. 584 / Emiss. 607" .
 <http://parts.igem.org/E1010> <http://sbols.org/v3#displayId> "E1010" .
 <http://parts.igem.org/E1010> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins> .
-<http://parts.igem.org/E1010> <http://sbols.org/v3#name> "mRFP1*" .
+<http://parts.igem.org/E1010> <http://sbols.org/v3#name> "mRFP1" .
 <http://parts.igem.org/E1010> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
 <http://parts.igem.org/E1010> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
 <http://parts.igem.org/E1010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
@@ -98,11 +98,11 @@
 <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/BasicParts> <http://sbols.org/v3#member> <http://parts.igem.org/K592100> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/BasicParts> <http://sbols.org/v3#member> <http://parts.igem.org/K864100> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/BasicParts> <http://sbols.org/v3#member> <http://parts.igem.org/pSB1C3> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/BasicParts> <http://sbols.org/v3#member> <https://www.ncbi.nlm.nih.gov/nuccore/AAB18957_1> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/BasicParts> <http://sbols.org/v3#member> <https://www.ncbi.nlm.nih.gov/nuccore/AEX25288_1> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/BasicParts> <http://sbols.org/v3#member> <https://www.ncbi.nlm.nih.gov/nuccore/APD76535_1> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/BasicParts> <http://sbols.org/v3#member> <https://www.ncbi.nlm.nih.gov/nuccore/ATP07149_1> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/BasicParts> <http://sbols.org/v3#member> <https://www.ncbi.nlm.nih.gov/nuccore/CAH64892> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/GFPmut3> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/mKate2> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/mRFP1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/mScarlet> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/BasicParts> <http://sbols.org/v3#member> <https://www.ncbi.nlm.nih.gov/nuccore/KY484012> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/BasicParts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Collection> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/CompositeParts> <http://sbols.org/v3#displayId> "CompositeParts" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/CompositeParts> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins> .
@@ -122,11 +122,11 @@
 <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/FinalProducts> <http://sbols.org/v3#member> <http://parts.igem.org/J97003> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/FinalProducts> <http://sbols.org/v3#member> <http://parts.igem.org/K592100> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/FinalProducts> <http://sbols.org/v3#member> <http://parts.igem.org/K864100> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/FinalProducts> <http://sbols.org/v3#member> <https://www.ncbi.nlm.nih.gov/nuccore/AAB18957_1> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/FinalProducts> <http://sbols.org/v3#member> <https://www.ncbi.nlm.nih.gov/nuccore/AEX25288_1> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/FinalProducts> <http://sbols.org/v3#member> <https://www.ncbi.nlm.nih.gov/nuccore/APD76535_1> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/FinalProducts> <http://sbols.org/v3#member> <https://www.ncbi.nlm.nih.gov/nuccore/ATP07149_1> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/FinalProducts> <http://sbols.org/v3#member> <https://www.ncbi.nlm.nih.gov/nuccore/CAH64892> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/FinalProducts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/GFPmut3> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/FinalProducts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/mKate2> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/FinalProducts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/mRFP1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/FinalProducts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/mScarlet> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/FinalProducts> <http://sbols.org/v3#member> <https://www.ncbi.nlm.nih.gov/nuccore/KY484012> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/FinalProducts> <http://sbols.org/v3#name> "Final Products" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/FinalProducts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Collection> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/Fluorescent_Proteins_in_vector/VariableFeature1> <http://sbols.org/v3#cardinality> <http://sbols.org/v3#one> .
@@ -154,6 +154,10 @@
 <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/Fluorescent_Proteins_in_vector_ins/VariableFeature1> <http://sbols.org/v3#variant> <http://parts.igem.org/J97003> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/Fluorescent_Proteins_in_vector_ins/VariableFeature1> <http://sbols.org/v3#variant> <http://parts.igem.org/K592100> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/Fluorescent_Proteins_in_vector_ins/VariableFeature1> <http://sbols.org/v3#variant> <http://parts.igem.org/K864100> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/Fluorescent_Proteins_in_vector_ins/VariableFeature1> <http://sbols.org/v3#variant> <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/GFPmut3> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/Fluorescent_Proteins_in_vector_ins/VariableFeature1> <http://sbols.org/v3#variant> <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/mKate2> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/Fluorescent_Proteins_in_vector_ins/VariableFeature1> <http://sbols.org/v3#variant> <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/mScarlet> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/Fluorescent_Proteins_in_vector_ins/VariableFeature1> <http://sbols.org/v3#variant> <https://www.ncbi.nlm.nih.gov/nuccore/KY484012> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/Fluorescent_Proteins_in_vector_ins/VariableFeature1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#VariableFeature> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/Fluorescent_Proteins_in_vector_ins> <http://sbols.org/v3#description> "" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/Fluorescent_Proteins_in_vector_ins> <http://sbols.org/v3#displayId> "Fluorescent_Proteins_in_vector_ins" .
@@ -198,6 +202,13 @@
 <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/Fluorescent_Proteins_in_vector_template> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/Fluorescent_Proteins_in_vector_template> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/Fluorescent_Proteins_in_vector_template> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/GFPmut3> <http://sbols.org/v3#description> "Source: AddGene-26495 / Sequence was missing bases, but matched to repressilator\nExcit. 500 / Emiss. 513, brightness 35, maturation time 4.1 min, weak dimer (from FPBase)" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/GFPmut3> <http://sbols.org/v3#displayId> "GFPmut3" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/GFPmut3> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/GFPmut3> <http://sbols.org/v3#name> "GFPmut3" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/GFPmut3> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/GFPmut3> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/GFPmut3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/LinearDNAProducts> <http://sbols.org/v3#description> "Linear DNA constructs to be fabricated" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/LinearDNAProducts> <http://sbols.org/v3#displayId> "LinearDNAProducts" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/LinearDNAProducts> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins> .
@@ -212,45 +223,38 @@
 <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/LinearDNAProducts> <http://sbols.org/v3#member> <http://parts.igem.org/J97003> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/LinearDNAProducts> <http://sbols.org/v3#member> <http://parts.igem.org/K592100> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/LinearDNAProducts> <http://sbols.org/v3#member> <http://parts.igem.org/K864100> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/LinearDNAProducts> <http://sbols.org/v3#member> <https://www.ncbi.nlm.nih.gov/nuccore/AAB18957_1> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/LinearDNAProducts> <http://sbols.org/v3#member> <https://www.ncbi.nlm.nih.gov/nuccore/AEX25288_1> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/LinearDNAProducts> <http://sbols.org/v3#member> <https://www.ncbi.nlm.nih.gov/nuccore/APD76535_1> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/LinearDNAProducts> <http://sbols.org/v3#member> <https://www.ncbi.nlm.nih.gov/nuccore/ATP07149_1> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/LinearDNAProducts> <http://sbols.org/v3#member> <https://www.ncbi.nlm.nih.gov/nuccore/CAH64892> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/LinearDNAProducts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/GFPmut3> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/LinearDNAProducts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/mKate2> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/LinearDNAProducts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/mRFP1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/LinearDNAProducts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/mScarlet> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/LinearDNAProducts> <http://sbols.org/v3#member> <https://www.ncbi.nlm.nih.gov/nuccore/KY484012> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/LinearDNAProducts> <http://sbols.org/v3#name> "Linear DNA Products" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/LinearDNAProducts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Collection> .
-<https://www.ncbi.nlm.nih.gov/nuccore/AAB18957_1> <http://sbols.org/v3#description> "Excit. 500 / Emiss. 513, brightness 35, maturation time 4.1 min, weak dimer (from FPBase)" .
-<https://www.ncbi.nlm.nih.gov/nuccore/AAB18957_1> <http://sbols.org/v3#displayId> "AAB18957_1" .
-<https://www.ncbi.nlm.nih.gov/nuccore/AAB18957_1> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins> .
-<https://www.ncbi.nlm.nih.gov/nuccore/AAB18957_1> <http://sbols.org/v3#name> "GFPmut3b" .
-<https://www.ncbi.nlm.nih.gov/nuccore/AAB18957_1> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
-<https://www.ncbi.nlm.nih.gov/nuccore/AAB18957_1> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
-<https://www.ncbi.nlm.nih.gov/nuccore/AAB18957_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
-<https://www.ncbi.nlm.nih.gov/nuccore/AEX25288_1> <http://sbols.org/v3#description> "Excit. 588 / Emiss. 633, brightness 25, maturation time 20 min, pKa 5.4 (from FPBase)" .
-<https://www.ncbi.nlm.nih.gov/nuccore/AEX25288_1> <http://sbols.org/v3#displayId> "AEX25288_1" .
-<https://www.ncbi.nlm.nih.gov/nuccore/AEX25288_1> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins> .
-<https://www.ncbi.nlm.nih.gov/nuccore/AEX25288_1> <http://sbols.org/v3#name> "mKate2" .
-<https://www.ncbi.nlm.nih.gov/nuccore/AEX25288_1> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
-<https://www.ncbi.nlm.nih.gov/nuccore/AEX25288_1> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
-<https://www.ncbi.nlm.nih.gov/nuccore/AEX25288_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
-<https://www.ncbi.nlm.nih.gov/nuccore/APD76535_1> <http://sbols.org/v3#description> "Excit. 569 / Emiss. 594, brightness 70, maturation time 174 min, pKa 5.3 (from FPBase)" .
-<https://www.ncbi.nlm.nih.gov/nuccore/APD76535_1> <http://sbols.org/v3#displayId> "APD76535_1" .
-<https://www.ncbi.nlm.nih.gov/nuccore/APD76535_1> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins> .
-<https://www.ncbi.nlm.nih.gov/nuccore/APD76535_1> <http://sbols.org/v3#name> "mScarlet" .
-<https://www.ncbi.nlm.nih.gov/nuccore/APD76535_1> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
-<https://www.ncbi.nlm.nih.gov/nuccore/APD76535_1> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
-<https://www.ncbi.nlm.nih.gov/nuccore/APD76535_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
-<https://www.ncbi.nlm.nih.gov/nuccore/ATP07149_1> <http://sbols.org/v3#description> "Excit. 433 / Emiss. 475, brightness 35, maturation time 70 min, pKa 3.2 (from FPBase)" .
-<https://www.ncbi.nlm.nih.gov/nuccore/ATP07149_1> <http://sbols.org/v3#displayId> "ATP07149_1" .
-<https://www.ncbi.nlm.nih.gov/nuccore/ATP07149_1> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins> .
-<https://www.ncbi.nlm.nih.gov/nuccore/ATP07149_1> <http://sbols.org/v3#name> "mCerulean3" .
-<https://www.ncbi.nlm.nih.gov/nuccore/ATP07149_1> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
-<https://www.ncbi.nlm.nih.gov/nuccore/ATP07149_1> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
-<https://www.ncbi.nlm.nih.gov/nuccore/ATP07149_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
-<https://www.ncbi.nlm.nih.gov/nuccore/CAH64892> <http://sbols.org/v3#description> "Excit. 584 / Emiss. 607, brightness 12.5, maturation time 60 min, pKa 4.5 (from FPBase)" .
-<https://www.ncbi.nlm.nih.gov/nuccore/CAH64892> <http://sbols.org/v3#displayId> "CAH64892" .
-<https://www.ncbi.nlm.nih.gov/nuccore/CAH64892> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins> .
-<https://www.ncbi.nlm.nih.gov/nuccore/CAH64892> <http://sbols.org/v3#name> "mRFP1" .
-<https://www.ncbi.nlm.nih.gov/nuccore/CAH64892> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
-<https://www.ncbi.nlm.nih.gov/nuccore/CAH64892> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
-<https://www.ncbi.nlm.nih.gov/nuccore/CAH64892> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/mKate2> <http://sbols.org/v3#description> "Source: AddGene-54827\nExcit. 588 / Emiss. 633, brightness 25, maturation time 20 min, pKa 5.4 (from FPBase)" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/mKate2> <http://sbols.org/v3#displayId> "mKate2" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/mKate2> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/mKate2> <http://sbols.org/v3#name> "mKate2" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/mKate2> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/mKate2> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/mKate2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/mRFP1> <http://sbols.org/v3#description> "Source: AddGene-120957 / Type IIS compatible version from Murray Lab\nExcit. 584 / Emiss. 607, brightness 12.5, maturation time 60 min, pKa 4.5 (from FPBase)" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/mRFP1> <http://sbols.org/v3#displayId> "mRFP1" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/mRFP1> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/mRFP1> <http://sbols.org/v3#name> "mRFP1" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/mRFP1> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/mRFP1> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/mRFP1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/mScarlet> <http://sbols.org/v3#description> "Source: GenBank-KY021423 / stop codons added\nExcit. 569 / Emiss. 594, brightness 70, maturation time 174 min, pKa 5.3 (from FPBase)" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/mScarlet> <http://sbols.org/v3#displayId> "mScarlet" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/mScarlet> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/mScarlet> <http://sbols.org/v3#name> "mScarlet" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/mScarlet> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/mScarlet> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/mScarlet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://www.ncbi.nlm.nih.gov/nuccore/KY484012> <http://sbols.org/v3#description> "Excit. 433 / Emiss. 475, brightness 35, maturation time 70 min, pKa 3.2 (from FPBase)" .
+<https://www.ncbi.nlm.nih.gov/nuccore/KY484012> <http://sbols.org/v3#displayId> "KY484012" .
+<https://www.ncbi.nlm.nih.gov/nuccore/KY484012> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins> .
+<https://www.ncbi.nlm.nih.gov/nuccore/KY484012> <http://sbols.org/v3#name> "mCerulean3" .
+<https://www.ncbi.nlm.nih.gov/nuccore/KY484012> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://www.ncbi.nlm.nih.gov/nuccore/KY484012> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://www.ncbi.nlm.nih.gov/nuccore/KY484012> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
