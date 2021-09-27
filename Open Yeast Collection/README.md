@@ -6,7 +6,7 @@ Currently, there are no truly free open source synthetic biology toolkits for en
 
 - 86 parts
     - engineered_region: 86
-- 10 vectors _<span style="color:red">1 missing sequences: ScARS_CEN</span>_
+- 10 vectors
 - 0 samples for distribution _<span style="color:red">96 parts not included</span>_ _<span style="color:red">No samples planned to be built for distribution</span>_
 
 ### Parts:
