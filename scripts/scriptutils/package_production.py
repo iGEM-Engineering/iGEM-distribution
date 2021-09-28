@@ -73,7 +73,7 @@ def collate_package(package: str) -> None:
     nt_text = g.serialize(format=sbol3.NTRIPLES)
     lines = nt_text.splitlines(keepends=True)
     lines.sort()
-    serialized = b''.join(lines).decode()
+    serialized = ''.join(lines)
     with open(target_name, 'w') as outfile:
         outfile.write(serialized)
 
