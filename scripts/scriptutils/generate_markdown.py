@@ -6,7 +6,8 @@ import tyto
 import sbol_utilities.excel_to_sbol
 from sbol_utilities.helper_functions import is_plasmid
 from sbol_utilities.workarounds import id_sort
-from .helpers import contained_components, has_SO_uri
+from sbol_utilities.component import contained_components
+from .helpers import has_SO_uri
 from .package_production import BUILD_PRODUCTS_COLLECTION, DISTRIBUTION_NAMESPACE
 
 SUMMARY_FILE = 'README.md'
