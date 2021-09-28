@@ -1,3 +1,4 @@
+import itertools
 import logging
 import os
 
@@ -9,7 +10,6 @@ from Bio.Seq import Seq
 from sbol_utilities.excel_to_sbol import BASIC_PARTS_COLLECTION
 from sbol_utilities.expand_combinatorial_derivations import root_combinatorial_derivations, expand_derivations
 from sbol_utilities.calculate_sequences import calculate_sequences
-from sbol_utilities.helper_functions import flatten
 from . import convert_to_genbank
 
 from .part_retrieval import package_parts_inventory
@@ -95,7 +95,7 @@ def expand_build_plan(package: str) -> sbol3.Document:
     if roots:
         derivative_collections = expand_derivations(roots)
         print(f'Expanded {len(derivative_collections)} collections containing a total of {sum(len(c.members) for c in derivative_collections)} parts')
-        doc.add(sbol3.Collection(BUILD_PRODUCTS_COLLECTION, members=flatten(c.members for c in derivative_collections)))
+        doc.add(sbol3.Collection(BUILD_PRODUCTS_COLLECTION, members=itertools.chain(*(c.members for c in derivative_collections))))
         new_sequences = calculate_sequences(doc)
         print(f'Computed sequences for {len(new_sequences)} components')
     else:
