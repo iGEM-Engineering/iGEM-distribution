@@ -1,6 +1,6 @@
 # Distribution Summary
 
-- 126 samples planned for distribution
+- 138 samples planned for distribution
 
 ### Parts:
 
@@ -51,6 +51,18 @@
 - Fluorescent_Proteins_in_vector_KY484012
 - Fluorescent_Proteins_in_vector_mKate2
 - Fluorescent_Proteins_in_vector_mScarlet
+- BHETase_library_K3039005
+- BHETase_library_K3039006
+- PETase_library_BBa_K2010999
+- PETase_library_K2910000
+- PETase_library_K2910002
+- PETase_library_K2910003
+- PETase_library_K3039002
+- PETase_library_K3039003
+- PETase_library_K3039017
+- PETase_library_PETase_EcCO_WT
+- PETase_library_PETase_S238F_W159H
+- PETase_library_PETase_WT
 - Coding_sequences_AcuR_AM
 - Coding_sequences_AraC
 - Coding_sequences_AraC_AM_AraE
