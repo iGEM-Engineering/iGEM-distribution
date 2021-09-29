@@ -1,11 +1,4 @@
 
-<http://parts.igem.org/K2306015> <http://sbols.org/v3#description> "The placeholder spacer can be removed with a BsaI digest and then the new spacer can be inserted." .
-<http://parts.igem.org/K2306015> <http://sbols.org/v3#displayId> "K2306015" .
-<http://parts.igem.org/K2306015> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas> .
-<http://parts.igem.org/K2306015> <http://sbols.org/v3#name> "LwCas13a_gRNA" .
-<http://parts.igem.org/K2306015> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000979> .
-<http://parts.igem.org/K2306015> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
-<http://parts.igem.org/K2306015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
 <http://parts.igem.org/K2558003> <http://sbols.org/v3#description> "Source = Bba_K2558003\nCas9 DNA nuclease from Streptococcus pyogenes. Used mostly for genome engineering application where its targeting feature and/or double strand break activity are needed. PAM = NGG" .
 <http://parts.igem.org/K2558003> <http://sbols.org/v3#displayId> "K2558003" .
 <http://parts.igem.org/K2558003> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas> .
@@ -13,22 +6,12 @@
 <http://parts.igem.org/K2558003> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
 <http://parts.igem.org/K2558003> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
 <http://parts.igem.org/K2558003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
-<http://parts.igem.org/K2927006> <http://sbols.org/v3#description> "Source = Bba_K2927006. \nLbCpf1 crRNA scaffold. Spacer sequence should be added 3\u2019 to the scaffold (scaffold-spacer)." .
-<http://parts.igem.org/K2927006> <http://sbols.org/v3#displayId> "K2927006" .
-<http://parts.igem.org/K2927006> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas> .
-<http://parts.igem.org/K2927006> <http://sbols.org/v3#name> "LbCpf1_gRNA_scaffold" .
-<http://parts.igem.org/K2927006> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000979> .
-<http://parts.igem.org/K2927006> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
-<http://parts.igem.org/K2927006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/BasicParts> <http://sbols.org/v3#description> "The collection contains various Cas proteins variants and their associated guide/cr RNA. " .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/BasicParts> <http://sbols.org/v3#description> "The collection contains various Cas proteins variants. \nTheir associated guide RNA scaffold sequences as well as the position of the spacer (targeting) sequence are indicated below : \n- SpCas9_gRNA : 5\u2019-spacer_sequence-gttttagagctagaaatagcaagttaaaataaggctagtccgttatcaacttgaaaaagtggcaccgagtcggtgc-3\u2019 (see Addgene 62988)\n- LbCpf1_gRNA : 5\u2019-taatttctactaagtgtagat-spacer_sequence-3\u2019 (see iGEM Registry Bba_K2927006)\n- LwCas13a_gRNA : 5\u2019-GATTTAGACTACCCCAAAAACGAAGGGGACTAAAAC-spacer_sequence-3\u2019 (see iGEM Registry K2306015 and supp info of doi: 10.1038/nature24049)" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/BasicParts> <http://sbols.org/v3#displayId> "BasicParts" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/BasicParts> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/BasicParts> <http://sbols.org/v3#member> <http://parts.igem.org/K2306015> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/BasicParts> <http://sbols.org/v3#member> <http://parts.igem.org/K2558003> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/BasicParts> <http://sbols.org/v3#member> <http://parts.igem.org/K2927006> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/LbCpf1_or_LbCas12a> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/SpCas9> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/SpCas9_sgRNA> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/dLbCpf1_or_dLbCas12a> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/dSpCas9> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/dhLwCas13a> .
@@ -37,7 +20,7 @@
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/hSpCas9> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/BasicParts> <http://sbols.org/v3#name> "CRISPR-Cas" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/BasicParts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Collection> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/CompositeParts> <http://sbols.org/v3#description> "The collection contains various Cas proteins variants and their associated guide/cr RNA. " .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/CompositeParts> <http://sbols.org/v3#description> "The collection contains various Cas proteins variants. \nTheir associated guide RNA scaffold sequences as well as the position of the spacer (targeting) sequence are indicated below : \n- SpCas9_gRNA : 5\u2019-spacer_sequence-gttttagagctagaaatagcaagttaaaataaggctagtccgttatcaacttgaaaaagtggcaccgagtcggtgc-3\u2019 (see Addgene 62988)\n- LbCpf1_gRNA : 5\u2019-taatttctactaagtgtagat-spacer_sequence-3\u2019 (see iGEM Registry Bba_K2927006)\n- LwCas13a_gRNA : 5\u2019-GATTTAGACTACCCCAAAAACGAAGGGGACTAAAAC-spacer_sequence-3\u2019 (see iGEM Registry K2306015 and supp info of doi: 10.1038/nature24049)" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/CompositeParts> <http://sbols.org/v3#displayId> "CompositeParts" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/CompositeParts> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/CompositeParts> <http://sbols.org/v3#name> "CRISPR-Cas" .
@@ -84,13 +67,6 @@
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/SpCas9> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/SpCas9> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/SpCas9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/SpCas9_sgRNA> <http://sbols.org/v3#description> "Source = Addgene 62988. Added (N)20 as a spacer (targeting sequence) placeholder\nSingle guide RNA sequence to be used with SpCas9. Replace (N)20 with your target sequence." .
-<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/SpCas9_sgRNA> <http://sbols.org/v3#displayId> "SpCas9_sgRNA" .
-<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/SpCas9_sgRNA> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/SpCas9_sgRNA> <http://sbols.org/v3#name> "SpCas9_sgRNA" .
-<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/SpCas9_sgRNA> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000979> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/SpCas9_sgRNA> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/SpCas9_sgRNA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/dLbCpf1_or_dLbCas12a> <http://sbols.org/v3#description> "Source = Addgene 140220. Added stop codon (taa)\nDNA nuclease dead humanized version of LbCpf1 DNA nuclease. For application where only the targeting feature of Cas12a is needed but not the DNA nuclease activity. It\u2019s also a good candidate for multiplexing application because of its RNA nuclease activity for CRISPR array processing. PAM = TTTV" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/dLbCpf1_or_dLbCas12a> <http://sbols.org/v3#displayId> "dLbCpf1_or_dLbCas12a" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/dLbCpf1_or_dLbCas12a> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas> .

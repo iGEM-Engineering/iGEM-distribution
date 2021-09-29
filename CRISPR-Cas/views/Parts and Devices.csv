@@ -2,7 +2,11 @@ Collection Name,CRISPR-Cas,,Blue = Do not change; Green = free text,,,,,,,,,
 Authors,Gael Chambonnier,,,,,,,,,,,
 ,,,,,,,,,,,,
 Collection Description,,,,,,,,,,,,
-The collection contains various Cas proteins variants and their associated guide/cr RNA. ,,,,,,,,,,,,
+"The collection contains various Cas proteins variants. 
+Their associated guide RNA scaffold sequences as well as the position of the spacer (targeting) sequence are indicated below : 
+- SpCas9_gRNA : 5’-spacer_sequence-gttttagagctagaaatagcaagttaaaataaggctagtccgttatcaacttgaaaaagtggcaccgagtcggtgc-3’ (see Addgene 62988)
+- LbCpf1_gRNA : 5’-taatttctactaagtgtagat-spacer_sequence-3’ (see iGEM Registry Bba_K2927006)
+- LwCas13a_gRNA : 5’-GATTTAGACTACCCCAAAAACGAAGGGGACTAAAAC-spacer_sequence-3’ (see iGEM Registry K2306015 and supp info of doi: 10.1038/nature24049)",,,,,,,,,,,,
 ,,,,,,,,,,,,
 Example Data,,,,,,,,,,,,
 J23101,Promoter,High consitutive promoter from Anderson library,,,iGEM registry,J23101,,Escherichia coli,0,0,0,
@@ -21,9 +25,9 @@ dhLwCas13a,CDS,Source = Addgene 91905. Added stop codon (taa). There is a D403G 
 LbCpf1 or LbCas12a,CDS,Source = Addgene 69988. Added stop codon (taa).,Cutout of Plasmid,Humanized version of LbCpf1 DNA nuclease. Used mostly for genome engineering application where its targeting feature and/or double strand break activity are needed. It’s also a good candidate for multiplexing application because of its RNA nuclease activity for CRISPR array processing. PAM = TTTV,AddGene,69988,Synthetic,Mammalia,1,0,0,
 dLbCpf1 or dLbCas12a,CDS,Source = Addgene 140220. Added stop codon (taa),Cutout of Plasmid,DNA nuclease dead humanized version of LbCpf1 DNA nuclease. For application where only the targeting feature of Cas12a is needed but not the DNA nuclease activity. It’s also a good candidate for multiplexing application because of its RNA nuclease activity for CRISPR array processing. PAM = TTTV,AddGene,140220,Synthetic,Mammalia,1,0,0,
 dSpCas9_RFC10,CDS,Source = Bba_K2558003,Direct,Cas9 DNA nuclease from Streptococcus pyogenes. Used mostly for genome engineering application where its targeting feature and/or double strand break activity are needed. PAM = NGG,iGEM registry,K2558003,Synthetic,Bacteria,1,0,0,
-SpCas9_sgRNA,gRNA_encoding,Source = Addgene 62988. Added (N)20 as a spacer (targeting sequence) placeholder,Cutout of Plasmid,Single guide RNA sequence to be used with SpCas9. Replace (N)20 with your target sequence. ,AddGene,62988,Synthetic,,0,0,0,
-LbCpf1_gRNA_scaffold,gRNA_encoding,Source = Bba_K2927006. ,Direct,LbCpf1 crRNA scaffold. Spacer sequence should be added 3’ to the scaffold (scaffold-spacer).,iGEM registry,K2927006,,,0,0,0,
-LwCas13a_gRNA,gRNA_encoding,The placeholder spacer can be removed with a BsaI digest and then the new spacer can be inserted. ,Direct,,iGEM registry,K2306015,Synthetic,,0,0,0,
+,,,,,,,,,0,0,0,
+,,,,,,,,,0,0,0,
+,,,,,,,,,0,0,0,
 ,,,,,,,,,0,0,0,
 ,,,,,,,,,0,0,0,
 ,,,,,,,,,0,0,0,
