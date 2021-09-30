@@ -4,6 +4,7 @@ import glob
 import os
 import tempfile
 import urllib
+import itertools
 from typing import Union, Dict
 
 import rdflib
@@ -13,7 +14,8 @@ from Bio import SeqIO, SeqRecord
 from Bio.Seq import Seq
 
 from sbol_utilities.excel_to_sbol import string_to_display_id
-from sbol_utilities.helper_functions import flatten, strip_sbol2_version, id_sort, GENETIC_DESIGN_FILE_TYPES
+from sbol_utilities.helper_functions import strip_sbol2_version, GENETIC_DESIGN_FILE_TYPES
+from sbol_utilities.workarounds import id_sort
 
 # sbol javascript executable based on https://github.com/sboltools/sbolgraph
 # Location: scripts/sbol
@@ -27,7 +29,7 @@ def convert_identities2to3(sbol3_data: str) -> str:
     SBOL3 identities, and returns RDF-XML as a string.
     """
     # Convert the /[version] identities of SBOL2 into identities for SBOL3
-    g = rdflib.Graph().parse(data=sbol3_data)
+    g = rdflib.Graph().parse(data=sbol3_data, format=sbol3.RDF_XML)
 
     # TODO: remove workaround after conversion errors fixed in https://github.com/sboltools/sbolgraph/issues/14
     # for all objects in the prov namespace, add an SBOL type
@@ -146,7 +148,7 @@ def convert_package_sbol2_files(package: str) -> dict[str, str]:
     mappings = {}
 
     # import SBOL2
-    for file in flatten(glob.glob(os.path.join(package, f'*{ext}')) for ext in GENETIC_DESIGN_FILE_TYPES['SBOL2']):
+    for file in itertools.chain(*(glob.glob(os.path.join(package, f'*{ext}')) for ext in GENETIC_DESIGN_FILE_TYPES['SBOL2'])):
         print(f'Attempting to convert SBOL2 file {file}')
         file3 = os.path.splitext(file)[0]+'.nt'  # make an SBOL3 version of the file name
         doc2 = sbol2.Document()
