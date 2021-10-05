@@ -1,11 +1,7 @@
 import os
 import sys
-import git
-import sbol3
 
 import scriptutils
-import sbol_utilities.expand_combinatorial_derivations
-from sbol_utilities.helper_functions import flatten
 
 error = False
 packages = scriptutils.package_dirs()

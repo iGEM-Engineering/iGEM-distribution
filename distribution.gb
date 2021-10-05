@@ -6567,10 +6567,10 @@ FEATURES             Location/Qualifiers
                      /label="BioBrick prefix"
      misc_feature    64..2133
                      /label="pSB1C3"
-     promoter        1..63
+     misc_feature    1..63
                      /label="pBetI"
 ORIGIN
-        1 agcgcgggtg agagggattc gttaccaatt gacaattgat tggacgttca atataatgct
+        1 agcgcgggtg agagggattc gttaccaata gacaattgat tggacgttca atataatgct
        61 agctactagt agcggccgct gcagtccggc aaaaaagggc aaggtgtcac caccctgccc
       121 tttttcttta aaaccgaaaa gattacttcg cgttatgcag gcttcctcgc tcactgactc
       181 gctgcgctcg gtcgttcggc tgcggcgagc ggtatcagct cactcaaagg cggtaatacg
