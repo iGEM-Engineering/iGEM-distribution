@@ -6,10 +6,19 @@
 <http://parts.igem.org/K2558003> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
 <http://parts.igem.org/K2558003> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
 <http://parts.igem.org/K2558003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/BasicParts> <http://sbols.org/v3#description> "The collection contains various Cas proteins variants. \nTheir associated guide RNA scaffold sequences as well as the position of the spacer (targeting) sequence are indicated below : \n- SpCas9_gRNA : 5\u2019-spacer_sequence-gttttagagctagaaatagcaagttaaaataaggctagtccgttatcaacttgaaaaagtggcaccgagtcggtgc-3\u2019 (see Addgene 62988)\n- LbCpf1_gRNA : 5\u2019-taatttctactaagtgtagat-spacer_sequence-3\u2019 (see iGEM Registry Bba_K2927006)\n- LwCas13a_gRNA : 5\u2019-GATTTAGACTACCCCAAAAACGAAGGGGACTAAAAC-spacer_sequence-3\u2019 (see iGEM Registry K2306015 and supp info of doi: 10.1038/nature24049)" .
+<http://parts.igem.org/pSB1C3> <http://sbols.org/v3#description> "" .
+<http://parts.igem.org/pSB1C3> <http://sbols.org/v3#displayId> "pSB1C3" .
+<http://parts.igem.org/pSB1C3> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas> .
+<http://parts.igem.org/pSB1C3> <http://sbols.org/v3#name> "pSB1C3" .
+<http://parts.igem.org/pSB1C3> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000155> .
+<http://parts.igem.org/pSB1C3> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<http://parts.igem.org/pSB1C3> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<http://parts.igem.org/pSB1C3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/BasicParts> <http://sbols.org/v3#description> "The collection contains various Cas proteins variants. \nTheir associated guide RNA scaffold sequences as well as the position of the spacer (targeting) sequence are indicated below : \n- SpCas9_gRNA : 5’-spacer_sequence-gttttagagctagaaatagcaagttaaaataaggctagtccgttatcaacttgaaaaagtggcaccgagtcggtgc-3’ (see Addgene 62988)\n- LbCpf1_gRNA : 5’-taatttctactaagtgtagat-spacer_sequence-3’ (see iGEM Registry Bba_K2927006)\n- LwCas13a_gRNA : 5’-GATTTAGACTACCCCAAAAACGAAGGGGACTAAAAC-spacer_sequence-3’ (see iGEM Registry K2306015 and supp info of doi: 10.1038/nature24049)" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/BasicParts> <http://sbols.org/v3#displayId> "BasicParts" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/BasicParts> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/BasicParts> <http://sbols.org/v3#member> <http://parts.igem.org/K2558003> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/BasicParts> <http://sbols.org/v3#member> <http://parts.igem.org/pSB1C3> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/LbCpf1_or_LbCas12a> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/SpCas9> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/dLbCpf1_or_dLbCas12a> .
@@ -20,15 +29,84 @@
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/hSpCas9> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/BasicParts> <http://sbols.org/v3#name> "CRISPR-Cas" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/BasicParts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Collection> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/CompositeParts> <http://sbols.org/v3#description> "The collection contains various Cas proteins variants. \nTheir associated guide RNA scaffold sequences as well as the position of the spacer (targeting) sequence are indicated below : \n- SpCas9_gRNA : 5\u2019-spacer_sequence-gttttagagctagaaatagcaagttaaaataaggctagtccgttatcaacttgaaaaagtggcaccgagtcggtgc-3\u2019 (see Addgene 62988)\n- LbCpf1_gRNA : 5\u2019-taatttctactaagtgtagat-spacer_sequence-3\u2019 (see iGEM Registry Bba_K2927006)\n- LwCas13a_gRNA : 5\u2019-GATTTAGACTACCCCAAAAACGAAGGGGACTAAAAC-spacer_sequence-3\u2019 (see iGEM Registry K2306015 and supp info of doi: 10.1038/nature24049)" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants/VariableFeature1> <http://sbols.org/v3#cardinality> <http://sbols.org/v3#one> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants/VariableFeature1> <http://sbols.org/v3#displayId> "VariableFeature1" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants/VariableFeature1> <http://sbols.org/v3#variable> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants_template/LocalSubComponent1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants/VariableFeature1> <http://sbols.org/v3#variantDerivation> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants_ins> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants/VariableFeature1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#VariableFeature> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants> <http://sbols.org/v3#displayId> "Cas_variants" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants> <http://sbols.org/v3#hasVariableFeature> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants/VariableFeature1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants> <http://sbols.org/v3#name> "Cas variants" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants> <http://sbols.org/v3#template> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants_template> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#CombinatorialDerivation> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants_ins/VariableFeature1> <http://sbols.org/v3#cardinality> <http://sbols.org/v3#one> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants_ins/VariableFeature1> <http://sbols.org/v3#displayId> "VariableFeature1" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants_ins/VariableFeature1> <http://sbols.org/v3#variable> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants_ins_template/LocalSubComponent1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants_ins/VariableFeature1> <http://sbols.org/v3#variant> <http://parts.igem.org/K2558003> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants_ins/VariableFeature1> <http://sbols.org/v3#variant> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/LbCpf1_or_LbCas12a> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants_ins/VariableFeature1> <http://sbols.org/v3#variant> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/SpCas9> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants_ins/VariableFeature1> <http://sbols.org/v3#variant> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/dLbCpf1_or_dLbCas12a> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants_ins/VariableFeature1> <http://sbols.org/v3#variant> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/dSpCas9> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants_ins/VariableFeature1> <http://sbols.org/v3#variant> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/dhLwCas13a> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants_ins/VariableFeature1> <http://sbols.org/v3#variant> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/dhSpCas9> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants_ins/VariableFeature1> <http://sbols.org/v3#variant> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/hLwCas13a> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants_ins/VariableFeature1> <http://sbols.org/v3#variant> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/hSpCas9> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants_ins/VariableFeature1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#VariableFeature> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants_ins> <http://sbols.org/v3#description> "" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants_ins> <http://sbols.org/v3#displayId> "Cas_variants_ins" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants_ins> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants_ins> <http://sbols.org/v3#hasVariableFeature> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants_ins/VariableFeature1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants_ins> <http://sbols.org/v3#name> "Cas variants insert" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants_ins> <http://sbols.org/v3#strategy> <http://sbols.org/v3#enumerate> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants_ins> <http://sbols.org/v3#template> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants_ins_template> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants_ins> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#CombinatorialDerivation> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants_ins_template/LocalSubComponent1> <http://sbols.org/v3#displayId> "LocalSubComponent1" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants_ins_template/LocalSubComponent1> <http://sbols.org/v3#name> "Part 1" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants_ins_template/LocalSubComponent1> <http://sbols.org/v3#orientation> <http://sbols.org/v3#inline> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants_ins_template/LocalSubComponent1> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants_ins_template/LocalSubComponent1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#LocalSubComponent> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants_ins_template> <http://sbols.org/v3#displayId> "Cas_variants_ins_template" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants_ins_template> <http://sbols.org/v3#hasFeature> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants_ins_template/LocalSubComponent1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants_ins_template> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants_ins_template> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants_ins_template> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants_template/Constraint1> <http://sbols.org/v3#displayId> "Constraint1" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants_template/Constraint1> <http://sbols.org/v3#object> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants_template/SubComponent1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants_template/Constraint1> <http://sbols.org/v3#restriction> <http://sbols.org/v3#meets> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants_template/Constraint1> <http://sbols.org/v3#subject> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants_template/LocalSubComponent1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants_template/Constraint1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Constraint> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants_template/Constraint2> <http://sbols.org/v3#displayId> "Constraint2" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants_template/Constraint2> <http://sbols.org/v3#object> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants_template/LocalSubComponent1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants_template/Constraint2> <http://sbols.org/v3#restriction> <http://sbols.org/v3#meets> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants_template/Constraint2> <http://sbols.org/v3#subject> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants_template/SubComponent1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants_template/Constraint2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Constraint> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants_template/LocalSubComponent1> <http://sbols.org/v3#displayId> "LocalSubComponent1" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants_template/LocalSubComponent1> <http://sbols.org/v3#name> "Inserted Construct" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants_template/LocalSubComponent1> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants_template/LocalSubComponent1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#LocalSubComponent> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants_template/SubComponent1> <http://sbols.org/v3#displayId> "SubComponent1" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants_template/SubComponent1> <http://sbols.org/v3#instanceOf> <http://parts.igem.org/pSB1C3> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants_template/SubComponent1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#SubComponent> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants_template> <http://sbols.org/v3#displayId> "Cas_variants_template" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants_template> <http://sbols.org/v3#hasConstraint> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants_template/Constraint1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants_template> <http://sbols.org/v3#hasConstraint> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants_template/Constraint2> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants_template> <http://sbols.org/v3#hasFeature> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants_template/LocalSubComponent1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants_template> <http://sbols.org/v3#hasFeature> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants_template/SubComponent1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants_template> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants_template> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants_template> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/CompositeParts> <http://sbols.org/v3#description> "The collection contains various Cas proteins variants. \nTheir associated guide RNA scaffold sequences as well as the position of the spacer (targeting) sequence are indicated below : \n- SpCas9_gRNA : 5’-spacer_sequence-gttttagagctagaaatagcaagttaaaataaggctagtccgttatcaacttgaaaaagtggcaccgagtcggtgc-3’ (see Addgene 62988)\n- LbCpf1_gRNA : 5’-taatttctactaagtgtagat-spacer_sequence-3’ (see iGEM Registry Bba_K2927006)\n- LwCas13a_gRNA : 5’-GATTTAGACTACCCCAAAAACGAAGGGGACTAAAAC-spacer_sequence-3’ (see iGEM Registry K2306015 and supp info of doi: 10.1038/nature24049)" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/CompositeParts> <http://sbols.org/v3#displayId> "CompositeParts" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/CompositeParts> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/CompositeParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants_ins> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/CompositeParts> <http://sbols.org/v3#name> "CRISPR-Cas" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/CompositeParts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Collection> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/FinalProducts> <http://sbols.org/v3#description> "Final products desired for actual fabrication" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/FinalProducts> <http://sbols.org/v3#displayId> "FinalProducts" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/FinalProducts> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/FinalProducts> <http://sbols.org/v3#member> <http://parts.igem.org/K2558003> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/FinalProducts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/FinalProducts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/LbCpf1_or_LbCas12a> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/FinalProducts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/SpCas9> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/FinalProducts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/dLbCpf1_or_dLbCas12a> .
@@ -39,7 +117,7 @@
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/FinalProducts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/hSpCas9> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/FinalProducts> <http://sbols.org/v3#name> "Final Products" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/FinalProducts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Collection> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/LbCpf1_or_LbCas12a> <http://sbols.org/v3#description> "Source = Addgene 69988. Added stop codon (taa).\nHumanized version of LbCpf1 DNA nuclease. Used mostly for genome engineering application where its targeting feature and/or double strand break activity are needed. It\u2019s also a good candidate for multiplexing application because of its RNA nuclease activity for CRISPR array processing. PAM = TTTV" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/LbCpf1_or_LbCas12a> <http://sbols.org/v3#description> "Source = Addgene 69988. Added stop codon (taa).\nHumanized version of LbCpf1 DNA nuclease. Used mostly for genome engineering application where its targeting feature and/or double strand break activity are needed. It’s also a good candidate for multiplexing application because of its RNA nuclease activity for CRISPR array processing. PAM = TTTV" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/LbCpf1_or_LbCas12a> <http://sbols.org/v3#displayId> "LbCpf1_or_LbCas12a" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/LbCpf1_or_LbCas12a> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/LbCpf1_or_LbCas12a> <http://sbols.org/v3#name> "LbCpf1 or LbCas12a" .
@@ -50,6 +128,7 @@
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/LinearDNAProducts> <http://sbols.org/v3#displayId> "LinearDNAProducts" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/LinearDNAProducts> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/LinearDNAProducts> <http://sbols.org/v3#member> <http://parts.igem.org/K2558003> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/LinearDNAProducts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants_ins> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/LinearDNAProducts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/LbCpf1_or_LbCas12a> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/LinearDNAProducts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/SpCas9> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/LinearDNAProducts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/dLbCpf1_or_dLbCas12a> .
@@ -67,7 +146,7 @@
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/SpCas9> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/SpCas9> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/SpCas9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/dLbCpf1_or_dLbCas12a> <http://sbols.org/v3#description> "Source = Addgene 140220. Added stop codon (taa)\nDNA nuclease dead humanized version of LbCpf1 DNA nuclease. For application where only the targeting feature of Cas12a is needed but not the DNA nuclease activity. It\u2019s also a good candidate for multiplexing application because of its RNA nuclease activity for CRISPR array processing. PAM = TTTV" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/dLbCpf1_or_dLbCas12a> <http://sbols.org/v3#description> "Source = Addgene 140220. Added stop codon (taa)\nDNA nuclease dead humanized version of LbCpf1 DNA nuclease. For application where only the targeting feature of Cas12a is needed but not the DNA nuclease activity. It’s also a good candidate for multiplexing application because of its RNA nuclease activity for CRISPR array processing. PAM = TTTV" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/dLbCpf1_or_dLbCas12a> <http://sbols.org/v3#displayId> "dLbCpf1_or_dLbCas12a" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/dLbCpf1_or_dLbCas12a> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/dLbCpf1_or_dLbCas12a> <http://sbols.org/v3#name> "dLbCpf1 or dLbCas12a" .
@@ -102,7 +181,7 @@
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/hLwCas13a> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/hLwCas13a> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/hLwCas13a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/hSpCas9> <http://sbols.org/v3#description> "Source = Addgene 42230. I\u2019ve added the start codon (atg) and the stop codon (taa).  \nHumanized version of SpCas9.  PAM = NGG" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/hSpCas9> <http://sbols.org/v3#description> "Source = Addgene 42230. I’ve added the start codon (atg) and the stop codon (taa).  \nHumanized version of SpCas9.  PAM = NGG" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/hSpCas9> <http://sbols.org/v3#displayId> "hSpCas9" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/hSpCas9> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/hSpCas9> <http://sbols.org/v3#name> "hSpCas9" .
