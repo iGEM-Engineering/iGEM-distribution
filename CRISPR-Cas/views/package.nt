@@ -94,7 +94,7 @@
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/FinalProducts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/hSpCas9> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/FinalProducts> <http://sbols.org/v3#name> "Final Products" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/FinalProducts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Collection> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/LbCpf1_or_LbCas12a> <http://sbols.org/v3#description> "Source = Addgene 69988. Added stop codon (taa).\nHumanized version of LbCpf1 DNA nuclease. Used mostly for genome engineering application where its targeting feature and/or double strand break activity are needed. It\u2019s also a good candidate for multiplexing application because of its RNA nuclease activity for CRISPR array processing. PAM = TTTV" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/LbCpf1_or_LbCas12a> <http://sbols.org/v3#description> "Source = Addgene 69988. Added stop codon (taa).\nHumanized version of LbCpf1 DNA nuclease. Used mostly for genome engineering application where its targeting feature and/or double strand break activity are needed. It’s also a good candidate for multiplexing application because of its RNA nuclease activity for CRISPR array processing. PAM = TTTV" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/LbCpf1_or_LbCas12a> <http://sbols.org/v3#displayId> "LbCpf1_or_LbCas12a" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/LbCpf1_or_LbCas12a> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/LbCpf1_or_LbCas12a> <http://sbols.org/v3#name> "LbCpf1 or LbCas12a" .
@@ -563,7 +563,7 @@
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/_91905_seq> <http://sbols.org/v3#encoding> <https://identifiers.org/edam:format_1207> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/_91905_seq> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/_91905_seq> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Sequence> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/dLbCpf1_or_dLbCas12a> <http://sbols.org/v3#description> "Source = Addgene 140220. Added stop codon (taa)\nDNA nuclease dead humanized version of LbCpf1 DNA nuclease. For application where only the targeting feature of Cas12a is needed but not the DNA nuclease activity. It\u2019s also a good candidate for multiplexing application because of its RNA nuclease activity for CRISPR array processing. PAM = TTTV" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/dLbCpf1_or_dLbCas12a> <http://sbols.org/v3#description> "Source = Addgene 140220. Added stop codon (taa)\nDNA nuclease dead humanized version of LbCpf1 DNA nuclease. For application where only the targeting feature of Cas12a is needed but not the DNA nuclease activity. It’s also a good candidate for multiplexing application because of its RNA nuclease activity for CRISPR array processing. PAM = TTTV" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/dLbCpf1_or_dLbCas12a> <http://sbols.org/v3#displayId> "dLbCpf1_or_dLbCas12a" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/dLbCpf1_or_dLbCas12a> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/dLbCpf1_or_dLbCas12a> <http://sbols.org/v3#name> "dLbCpf1 or dLbCas12a" .
@@ -598,7 +598,7 @@
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/hLwCas13a> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/hLwCas13a> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/hLwCas13a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/hSpCas9> <http://sbols.org/v3#description> "Source = Addgene 42230. I\u2019ve added the start codon (atg) and the stop codon (taa).  \nHumanized version of SpCas9.  PAM = NGG" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/hSpCas9> <http://sbols.org/v3#description> "Source = Addgene 42230. I’ve added the start codon (atg) and the stop codon (taa).  \nHumanized version of SpCas9.  PAM = NGG" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/hSpCas9> <http://sbols.org/v3#displayId> "hSpCas9" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/hSpCas9> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/hSpCas9> <http://sbols.org/v3#name> "hSpCas9" .
