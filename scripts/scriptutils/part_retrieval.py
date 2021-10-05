@@ -4,15 +4,16 @@ import os
 import urllib.request
 import urllib.parse
 import glob
+import itertools
 from typing import List
 from urllib.error import HTTPError
 
 from Bio import Entrez, SeqIO
 import sbol2
 import sbol3
-from sbol_utilities.helper_functions import flatten, unambiguous_dna_sequence, GENETIC_DESIGN_FILE_TYPES
-# TODO: switch string_to_display_id to sbol3 after resolution of https://github.com/SynBioDex/pySBOL3/issues/191
-from sbol_utilities.excel_to_sbol import string_to_display_id, BASIC_PARTS_COLLECTION
+from sbol_utilities.sequence import unambiguous_dna_sequence
+from sbol_utilities.helper_functions import GENETIC_DESIGN_FILE_TYPES
+from sbol_utilities.excel_to_sbol import BASIC_PARTS_COLLECTION
 from .directories import EXPORT_DIRECTORY, SBOL_EXPORT_NAME
 from .package_specification import package_stem
 from .conversions import convert2to3, convert_from_fasta, convert_from_genbank
@@ -82,7 +83,8 @@ class PackageInventory:
         # make sure the file is tracked
         self.files.add(import_file)
         # record display_id to URI mapping
-        import_file.id_to_uri[sbol3.Identified._extract_display_id(uri)] = uri  # TODO: unprotect method?
+        # TODO: update after resolution of https://github.com/SynBioDex/pySBOL3/issues/310
+        import_file.id_to_uri[sbol3.Identified._extract_display_id(uri)] = uri
         # add the entry for the URI
         self.locations[uri] = import_file
         # add URI and all aliases to alias mapping
@@ -132,7 +134,7 @@ def accession_to_sbol_uri(accession: str, prefix: str = NCBI_PREFIX) -> str:
     """
     if not prefix.endswith('/'):
         prefix += '/'
-    return f'{prefix}{string_to_display_id(accession)}'
+    return f'{prefix}{sbol3.string_to_display_id(accession)}'
 
 
 def retrieve_genbank_accessions(ids: List[str], package: str) -> List[str]:
@@ -347,7 +349,7 @@ def package_parts_inventory(package: str, targets: List[str] = None) -> PackageI
     inventory = PackageInventory()
 
     # import FASTAs and GenBank
-    for file in sorted(flatten(glob.glob(os.path.join(package, f'*{ext}')) for ext in GENETIC_DESIGN_FILE_TYPES['FASTA'])):
+    for file in sorted(itertools.chain(*(glob.glob(os.path.join(package, f'*{ext}')) for ext in GENETIC_DESIGN_FILE_TYPES['FASTA']))):
         is_igem_cache = os.path.basename(file) == IGEM_FASTA_CACHE_FILE
         prefix = iGEM_SOURCE_PREFIX if is_igem_cache else package_stem(package)
         with open(file) as f:
@@ -356,7 +358,7 @@ def package_parts_inventory(package: str, targets: List[str] = None) -> PackageI
                 identity = id_map[record.id] if record.id in id_map else accession_to_sbol_uri(record.id, prefix)
                 inventory.add(import_file, identity)
 
-    for file in sorted(flatten(glob.glob(os.path.join(package, f'*{ext}')) for ext in GENETIC_DESIGN_FILE_TYPES['GenBank'])):
+    for file in sorted(itertools.chain(*(glob.glob(os.path.join(package, f'*{ext}')) for ext in GENETIC_DESIGN_FILE_TYPES['GenBank']))):
         is_ncbi_cache = os.path.basename(file) == NCBI_GENBANK_CACHE_FILE
         prefix = NCBI_PREFIX if is_ncbi_cache else package_stem(package)
         with open(file) as f:
@@ -371,7 +373,7 @@ def package_parts_inventory(package: str, targets: List[str] = None) -> PackageI
 
     # import SBOL3
     for rdf_type, patterns in GENETIC_DESIGN_FILE_TYPES['SBOL3'].items():
-        for file in sorted(flatten(glob.glob(os.path.join(package, f'*{ext}')) for ext in patterns)):
+        for file in sorted(itertools.chain(*(glob.glob(os.path.join(package, f'*{ext}')) for ext in patterns))):
             doc = sbol3.Document()
             doc.read(file)
             import_file = ImportFile(file, file_type='SBOL3')

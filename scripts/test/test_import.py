@@ -69,7 +69,6 @@ class TestImportParts(unittest.TestCase):
 
         # first round of import should obtain all but one missing part
         retrieved = part_retrieval.import_parts(tmp_sub)
-        print(retrieved)  # TODO: remove after completion
         #assert len(retrieved) == 8  # all but the local file
         github_prefix = 'https://raw.githubusercontent.com/iGEM-Engineering/iGEM-distribution/develop/scripts/test/test_files'
         expected = ['https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115_1',  # NCBI

@@ -1,5 +1,6 @@
 openpyxl
 gitpython
 sbol2
-sbol-utilities
+sbol3>=1.0b8
+sbol-utilities>=1.0a11
 biopython
