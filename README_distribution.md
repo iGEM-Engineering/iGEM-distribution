@@ -1,6 +1,6 @@
 # Distribution Summary
 
-- 90 samples planned for distribution
+- 126 samples planned for distribution
 
 ### Parts:
 
@@ -51,6 +51,42 @@
 - Fluorescent_Proteins_in_vector_KY484012
 - Fluorescent_Proteins_in_vector_mKate2
 - Fluorescent_Proteins_in_vector_mScarlet
+- Coding_sequences_AcuR_AM
+- Coding_sequences_AraC
+- Coding_sequences_AraC_AM_AraE
+- Coding_sequences_AraE
+- Coding_sequences_BBa_C0012
+- Coding_sequences_BBa_C0040
+- Coding_sequences_BBa_C0080
+- Coding_sequences_BBa_K2680537
+- Coding_sequences_BBa_K3317004
+- Coding_sequences_BetI_AM
+- Coding_sequences_CinR_AM
+- Coding_sequences_CymR_AM
+- Coding_sequences_EryR
+- Coding_sequences_LuxR
+- Coding_sequences_MphR_AM
+- Coding_sequences_MphR_AM_EryR
+- Coding_sequences_NahR_AM
+- Coding_sequences_PcaU_AM
+- Coding_sequences_TetR
+- Coding_sequences_TtgR_AM
+- Promoters_BBa_I0500
+- Promoters_BBa_K2680520
+- Promoters_BBa_K2680523
+- Promoters_BBa_K3317006
+- Promoters_BBa_K3317007
+- Promoters_BBa_K3424010
+- Promoters_BBa_R0010
+- Promoters_BBa_R0040
+- Promoters_pAcu
+- Promoters_pBAD
+- Promoters_pBetI
+- Promoters_pCymRC
+- Promoters_pLuxB
+- Promoters_pMph
+- Promoters_pTac
+- Promoters_pTtg
 - Terminators_in_vector_B0010
 - Terminators_in_vector_B0012
 - Terminators_in_vector_B0015

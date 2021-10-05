@@ -4,8 +4,10 @@ import sbol3
 import tyto
 
 import sbol_utilities.excel_to_sbol
-from sbol_utilities.helper_functions import id_sort, is_plasmid
-from .helpers import contained_components, has_SO_uri
+from sbol_utilities.helper_functions import is_plasmid
+from sbol_utilities.workarounds import id_sort
+from sbol_utilities.component import contained_components
+from .helpers import has_SO_uri
 from .package_production import BUILD_PRODUCTS_COLLECTION, DISTRIBUTION_NAMESPACE
 
 SUMMARY_FILE = 'README.md'
@@ -99,7 +101,7 @@ def generate_package_summary(package: str, doc: sbol3.Document):
         for p in id_sort(non_vector_parts):
             # id / name
             f.write(f'- {p.display_id}')
-            if p.name and sbol_utilities.excel_to_sbol.string_to_display_id(p.name) != p.display_id:
+            if p.name and sbol3.string_to_display_id(p.name) != p.display_id:
                 f.write(f': {p.name}')
             # roles
             if so_roles.get(p.identity, None):
@@ -118,7 +120,7 @@ def generate_package_summary(package: str, doc: sbol3.Document):
 
 
 def generate_distribution_summary(root: str, doc: sbol3.Document):
-    """Generate a Markdown README file summarizing distribution contents that is suitable for automatic display on GitHub
+    """Generate a Markdown README file summarizing distribution contents, suitable for automatic display on GitHub
 
     :param root: path for summary to be written to
     :param doc: package document to summarize
@@ -126,11 +128,11 @@ def generate_distribution_summary(root: str, doc: sbol3.Document):
     """
     # TODO: use combinatorial derivations and expansions
     build_plan = doc.find(f'{DISTRIBUTION_NAMESPACE}/{BUILD_PRODUCTS_COLLECTION}')
-    if not isinstance(build_plan,sbol3.Collection):
+    if not isinstance(build_plan, sbol3.Collection):
         raise ValueError
 
-    summary_filename = os.path.join(root,DISTRIBUTION_SUMMARY)
-    with open(summary_filename,'w') as f:
+    summary_filename = os.path.join(root, DISTRIBUTION_SUMMARY)
+    with open(summary_filename, 'w') as f:
         # First the package name and description
         f.write(f'# Distribution Summary\n\n')
 
