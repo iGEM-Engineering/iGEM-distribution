@@ -1,0 +1,182 @@
+LOCUS       BBF10K_000479           3018 bp    DNA     circular UNK 22-AUG-2020
+DEFINITION  OYC resistance CamR in pOpen-v3.
+ACCESSION   BBF10K_000479
+VERSION     BBF10K_000479.1
+KEYWORDS    BBFD_0017; Open Yeast Collection Part; OpenMTA; FreeGenes; Golden
+            Gate Assembly.
+SOURCE      synthetic DNA construct
+  ORGANISM  recombinant plasmid
+            .
+REFERENCE   1  (bases 1 to 2001)
+  AUTHORS   Keoni Gandall
+  TITLE     Direct Submission
+REFERENCE   2  (bases 2002 to 3018)
+  AUTHORS   Scott Pownall, Open Science Network
+  TITLE     Direct Submission
+  JOURNAL   https://biobricks.org/freegenes/
+FEATURES             Location/Qualifiers
+     source          1..2001
+                     /organism="recombinant plasmid"
+                     /mol_type="other DNA"
+                     /original_record="pOpen_v3.1"
+     primer_bind     complement(24..42)
+                     /label="T7 Reverse"
+                     /note="/ApEinfo_fwdcolor=#b7e6d7 /ApEinfo_revcolor=#b7e6d7"
+                     /original_record="pOpen_v3.1"
+     terminator      38..85
+                     /label="T7 terminator"
+                     /note="/ApEinfo_fwdcolor=#d6b295 /ApEinfo_revcolor=#d6b295"
+                     /original_record="pOpen_v3.1"
+     primer_bind     complement(86..106)
+                     /label="M13 rev"
+                     /note="/ApEinfo_fwdcolor=#ff9ccd /ApEinfo_revcolor=#ff9ccd"
+                     /original_record="pOpen_v3.1"
+     misc_feature    107..121
+                     /label="AarI"
+                     /note="/ApEinfo_fwdcolor=#b1ff67 /ApEinfo_revcolor=#b1ff67"
+                     /original_record="pOpen_v3.1"
+     misc_feature    122..172
+                     /label="spacer"
+                     /note="/ApEinfo_fwdcolor=#b1ff67 /ApEinfo_revcolor=#b1ff67"
+                     /original_record="pOpen_v3.1"
+     rep_origin      complement(173..761)
+                     /direction=LEFT
+                     /label="ori"
+                     /note="/ApEinfo_fwdcolor=#84b0dc /ApEinfo_revcolor=#84b0dc"
+                     /original_record="pOpen_v3.1"
+     CDS             complement(952..1812)
+                     /label="AmpR"
+                     /note="/ApEinfo_fwdcolor=#ff9ccd /ApEinfo_revcolor=#ff9ccd"
+                     /translation="MSIQHFRVALIPFFAAFCLPVFAHPETLVKVKDAEDQLGARVGYI
+                     ELDLNSGKILESFRPEERFPMMSTFKVLLCGAVLSRIDAGQEQLGRRIHYSQNDLVEYS
+                     PVTEKHLTDGMTVRELCSAAITMSDNTAANLLLTTIGGPKELTAFLHNMGDHVTRLDRW
+                     EPELNEAIPNDERDTTMPVAMATTLRKLLTGELLTLASRQQLIDWMEADKVAGPLLRSA
+                     LPAGWFIADKSGAGERGSRGIIAALGPDGKPSRIVVIYTTGSQATMDERNRQIAEIGAS
+                     LIKHW*"
+                     /original_record="pOpen_v3.1"
+     misc_feature    1918..1932
+                     /label="AarI"
+                     /note="/ApEinfo_fwdcolor=#d6b295 /ApEinfo_revcolor=#d6b295"
+                     /original_record="pOpen_v3.1"
+     primer_bind     1933..1949
+                     /label="M13 fwd"
+                     /note="/ApEinfo_fwdcolor=#84b0dc /ApEinfo_revcolor=#84b0dc"
+                     /original_record="pOpen_v3.1"
+     terminator      1950..1981
+                     /label="tonB terminator"
+                     /note="/ApEinfo_fwdcolor=#b4abac /ApEinfo_revcolor=#b4abac"
+                     /original_record="pOpen_v3.1"
+     source          2002..3018
+                     /organism="synthetic DNA construct"
+                     /mol_type="other DNA"
+                     /original_record="part"
+     primer_bind     complement(2033..2053)
+                     /label="M13 rev"
+                     /ApEinfo_fwdcolor="#ff9ccd"
+                     /ApEinfo_revcolor="#ff9ccd"
+                     /original_record="part"
+     terminator      complement(2058..2092)
+                     /label="lambda t0 terminator"
+                     /note="minimal transcription terminator from phage lambda
+                     (Scholtissek and Grosse, 1987)"
+                     /original_record="part"
+     CDS             complement(2163..2822)
+                     /codon_start=1
+                     /gene="cat"
+                     /product="chloramphenicol acetyltransferase"
+                     /label="CamR"
+                     /note="confers resistance to chloramphenicol"
+                     /translation="MEKKITGYTTVDISQWHRKEHFEAFQSVAQCTYNQTVQLDITAFL
+                     KTVKKNKHKFYPAFIHILARLMNAHPEFRMAMKDGELVIWDSVHPCYTVFHEQTETFSS
+                     LWSEYHDDFRQFLHIYSQDVACYGENLAYFPKGFIENMFFVSANPWVSFTSFDLNVANM
+                     DNFFAPVFTMGKYYTQGDKVLMPLAIQVHHAVCDGFHVGRMLNELQQYCDEWQGGA"
+                     /original_record="part"
+     gene            complement(2163..2822)
+                     /gene="cat"
+                     /label="cat"
+                     /original_record="part"
+     promoter        complement(2823..2927)
+                     /label="cat promoter"
+                     /note="promoter of the E. coli cat gene encoding
+                     chloramphenicol acetyltransferase"
+                     /original_record="part"
+     protein_bind    2981..2998
+                     /label="I-SceI"
+                     /original_record="part"
+     misc_feature    2002..2021
+                     /label="FreeGenes dialout primer"
+                     /ApEinfo_fwdcolor="#0048BA"
+                     /ApEinfo_revcolor="#0048BA"
+     misc_feature    complement(2939..2958)
+                     /label="FreeGenes dialout primer"
+                     /ApEinfo_fwdcolor="#0048BA"
+                     /ApEinfo_revcolor="#0048BA"
+     misc_feature    2959..3018
+                     /label="FreeGenes barcode"
+                     /ApEinfo_fwdcolor="#FF7E00"
+                     /ApEinfo_revcolor="#FF7E00"
+     protein_bind    join(2022..2027,2029..2032)
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     protein_bind    complement(join(2928..2931,2933..2938))
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     protein_bind    2980..2997
+                     /label="I-SceI"
+                     /ApEinfo_fwdcolor="#4F0080"
+                     /ApEinfo_revcolor="#4F0080"
+ORIGIN
+        1 cgctgaggtg tcaatcgtcg gagccgctga gcaataacta gcataacccc ttggggcctc
+       61 taaacgggtc ttgaggggtt ttttgcatgg tcatagctgt ttcctgagag cttggcaggt
+      121 gatgacacac attaacaaat ttcgtgagga gtctccagaa gaatgccatt aatttccata
+      181 ggctccgccc ccctgacgag catcacaaaa atcgacgctc aagtcagagg tggcgaaacc
+      241 cgacaggact ataaagatac caggcgtttc cccctggaag ctccctcgtg cgctctcctg
+      301 ttccgaccct gccgcttacc ggatacctgt ccgcctttct cccttcggga agcgtggcgc
+      361 tttctcatag ctcacgctgt aggtatctca gttcggtgta ggtcgttcgc tccaagctgg
+      421 gctgtgtgca cgaacccccc gttcagcccg accgctgcgc cttatccggt aactatcgtc
+      481 ttgagtccaa cccggtaaga cacgacttat cgccactggc agcagccact ggtaacagga
+      541 ttagcagagc gaggtatgta ggcggtgcta cagagttctt gaagtggtgg cctaactacg
+      601 gctacactag aagaacagta tttggtatct gcgctctgct gaagccagtt accttcggaa
+      661 aaagagttgg tagctcttga tccggcaaac aaaccaccgc tggtagcggt ggtttttttg
+      721 tttgcaagca gcagattacg cgcagaaaaa aaggatctca agaaggccta ctattagcaa
+      781 caacgatcct ttgatctttt ctacggggtc tgacgctcag tggaacgaaa actcacgtta
+      841 agggattttg gtcatgagat tatcaaaaag gatcttcacc tagatccttt taaattaaaa
+      901 atgaagtttt aaatcaatct aaagtatata tgagtaaact tggtctgaca gttaccaatg
+      961 cttaatcagt gaggcaccta tctcagcgat ctgtctattt cgttcatcca tagttgcctg
+     1021 actccccgtc gtgtagataa ctacgatacg ggagggctta ccatctggcc ccagtgctgc
+     1081 aatgataccg cgagaaccac gctcaccggc tccagattta tcagcaataa accagccagc
+     1141 cggaagggcc gagcgcagaa gtggtcctgc aactttatcc gcctccatcc agtctattaa
+     1201 ttgttgccgg gaagctagag taagtagttc gccagttaat agtttgcgca acgttgttgc
+     1261 cattgctaca ggcatcgtgg tgtcacgctc gtcgtttggt atggcttcat tcagctccgg
+     1321 ttcccaacga tcaaggcgag ttacatgatc ccccatgttg tgcaaaaaag cggttagctc
+     1381 cttcggtcct ccgatcgttg tcagaagtaa gttggccgca gtgttatcac tcatggttat
+     1441 ggcagcactg cataattctc ttactgtcat gccatccgta agatgctttt ctgtgactgg
+     1501 tgagtactca accaagtcat tctgagaata gtgtatgcgg cgaccgagtt gctcttgccc
+     1561 ggcgtcaata cgggataata ccgcgccaca tagcagaact ttaaaagtgc tcatcattgg
+     1621 aaaacgttct tcggggcgaa aactctcaag gatcttaccg ctgttgagat ccagttcgat
+     1681 gtaacccact cgtgcaccca actgatcttc agcatctttt actttcacca gcgtttctgg
+     1741 gtgagcaaaa acaggaaggc aaaatgccgc aaaaaaggga ataagggcga cacggaaatg
+     1801 ttgaatactc atactcttcc tttttcaata ttattgaagc atttatcagg gttattgtct
+     1861 catgagcgga tacatatttg aatgtattta gaaaaataaa caaatagggg ttccgcgcac
+     1921 ctgcaccagt cagtaaaacg acggccagta gtcaaaagcc tccgaccgga ggcttttgac
+     1981 ttggttcagg tggagtggga gaagaattac tgacccctcg gggtctcagc aacatggtca
+     2041 tagctgtttc ctgaccaata aaaaacgccc ggcggcaacc gagcgttctg aacaaatcca
+     2101 gatggagttc tgaggtcatt actggatcta tcaacaggag tccaagcgag ctcgatatca
+     2161 aattacgccc cgccctgcca ctcgtcgcag tactgttgta attcattaag cattctgccg
+     2221 acatggaagc catcacaaac ggcatgatga acctgaatcg ccagcggcat cagcaccttg
+     2281 tcgccttgcg tataatattt gcccatggtg aaaacggggg cgaagaagtt gtccatattg
+     2341 gccacgttta aatcaaaact ggtgaaactc acccagggat tggctgaaac gaaaaacata
+     2401 ttctcaataa accctttagg gaaataggcc aggttttcac cgtaacacgc cacatcttgc
+     2461 gaatatatgt gtagaaactg ccggaaatcg tcgtggtatt cactccagag cgatgaaaac
+     2521 gtttcagttt gctcatggaa aacggtgtaa caagggtgaa cactatccca tatcaccagc
+     2581 tcaccgtctt tcattgccat acgaaattcc ggatgagcat tcatcaggcg ggcaagaatg
+     2641 tgaataaagg ccggataaaa cttgtgctta tttttcttta cggtctttaa aaaggccgta
+     2701 atatccagct gaacggtctg gttataggta cattgagcaa ctgactgaaa tgcctcaaaa
+     2761 tgttctttac gatgccattg ggatatatca acggtggtat atccagtgat ttttttctcc
+     2821 attttagctt ccttagctcc tgaaaatctc gataactcaa aaaatacgcc cggtagtgat
+     2881 cttatttcat tatggtgaaa gttggaacct cttacgtgcc cgatcaaact atgagaccac
+     2941 cacaggtcaa gattcacgga ttggtacggc gaccaatcct agggataaca gggtaatcag
+     3001 cgcgagctcg acactcac
+//

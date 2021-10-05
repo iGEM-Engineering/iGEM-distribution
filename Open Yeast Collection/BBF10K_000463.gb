@@ -1,0 +1,192 @@
+LOCUS       BBF10K_000463           3152 bp    DNA     circular UNK 27-MAY-2018
+DEFINITION  Sc2micron in pOpen-v3.
+ACCESSION   BBF10K_000463
+VERSION     BBF10K_000463.1
+KEYWORDS    BBFD_0017; Open Yeast Collection Part; OpenMTA; FreeGenes; Golden
+            Gate Assembly.
+SOURCE      synthetic DNA construct
+  ORGANISM  recombinant plasmid
+            .
+REFERENCE   1  (bases 1 to 2001)
+  AUTHORS   Keoni Gandall
+  TITLE     Direct Submission
+REFERENCE   2  (bases 2002 to 3152)
+  AUTHORS   Scott Pownall, Open Science Network
+  TITLE     Direct Submission
+  JOURNAL   https://biobricks.org/freegenes/
+FEATURES             Location/Qualifiers
+     CDS             complement(483..1343)
+                     /label="AmpR"
+                     /note="/ApEinfo_fwdcolor=#ff9ccd /ApEinfo_revcolor=#ff9ccd"
+                     /translation="MSIQHFRVALIPFFAAFCLPVFAHPETLVKVKDAEDQLGARVGYI
+                     ELDLNSGKILESFRPEERFPMMSTFKVLLCGAVLSRIDAGQEQLGRRIHYSQNDLVEYS
+                     PVTEKHLTDGMTVRELCSAAITMSDNTAANLLLTTIGGPKELTAFLHNMGDHVTRLDRW
+                     EPELNEAIPNDERDTTMPVAMATTLRKLLTGELLTLASRQQLIDWMEADKVAGPLLRSA
+                     LPAGWFIADKSGAGERGSRGIIAALGPDGKPSRIVVIYTTGSQATMDERNRQIAEIGAS
+                     LIKHW*"
+                     /original_record="pOpen_v3.1"
+     misc_feature    1449..1463
+                     /label="AarI"
+                     /note="/ApEinfo_fwdcolor=#d6b295 /ApEinfo_revcolor=#d6b295"
+                     /original_record="pOpen_v3.1"
+     primer_bind     1464..1480
+                     /label="M13 fwd"
+                     /note="/ApEinfo_fwdcolor=#84b0dc /ApEinfo_revcolor=#84b0dc"
+                     /original_record="pOpen_v3.1"
+     terminator      1481..1512
+                     /label="tonB terminator"
+                     /note="/ApEinfo_fwdcolor=#b4abac /ApEinfo_revcolor=#b4abac"
+                     /original_record="pOpen_v3.1"
+     primer_bind     complement(2707..2725)
+                     /label="T7 Reverse"
+                     /note="/ApEinfo_fwdcolor=#b7e6d7 /ApEinfo_revcolor=#b7e6d7"
+                     /original_record="pOpen_v3.1"
+     terminator      2721..2768
+                     /label="T7 terminator"
+                     /note="/ApEinfo_fwdcolor=#d6b295 /ApEinfo_revcolor=#d6b295"
+                     /original_record="pOpen_v3.1"
+     primer_bind     complement(2769..2789)
+                     /label="M13 rev"
+                     /note="/ApEinfo_fwdcolor=#ff9ccd /ApEinfo_revcolor=#ff9ccd"
+                     /original_record="pOpen_v3.1"
+     misc_feature    2790..2804
+                     /label="AarI"
+                     /note="/ApEinfo_fwdcolor=#b1ff67 /ApEinfo_revcolor=#b1ff67"
+                     /original_record="pOpen_v3.1"
+     misc_feature    2805..2855
+                     /label="spacer"
+                     /note="/ApEinfo_fwdcolor=#b1ff67 /ApEinfo_revcolor=#b1ff67"
+                     /original_record="pOpen_v3.1"
+     primer_bind     1541..1560
+                     /label="FreeGenes dialout primer"
+                     /ApEinfo_fwdcolor="#0048BA"
+                     /ApEinfo_revcolor="#0048BA"
+                     /original_record="part"
+     protein_bind    join(1561..1566,1568..1571)
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+                     /original_record="part"
+     protein_bind    1572..1577
+                     /label="AvrII"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+                     /original_record="part"
+     origin          1578..2578
+                     /label="2micron origin"
+                     /original_record="part"
+     misc_feature    1578..1641
+                     /label="repeat-1"
+                     /ApEinfo_fwdcolor="#800080"
+                     /ApEinfo_revcolor="#800080"
+                     /original_record="part"
+     misc_feature    1642..1701
+                     /label="repeat-2"
+                     /ApEinfo_fwdcolor="#B284BE"
+                     /ApEinfo_revcolor="#B284BE"
+                     /original_record="part"
+     misc_feature    1702..1766
+                     /label="repeat-3"
+                     /ApEinfo_fwdcolor="#800080"
+                     /ApEinfo_revcolor="#800080"
+                     /original_record="part"
+     misc_feature    1767..1826
+                     /label="repeat-4"
+                     /ApEinfo_fwdcolor="#B284BE"
+                     /ApEinfo_revcolor="#B284BE"
+                     /original_record="part"
+     misc_feature    1827..1890
+                     /label="repeat-5"
+                     /ApEinfo_fwdcolor="#800080"
+                     /ApEinfo_revcolor="#800080"
+                     /original_record="part"
+     protein_bind    2579..2584
+                     /label="AgeI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+                     /original_record="part"
+     protein_bind    complement(join(2585..2588,2590..2595))
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+                     /original_record="part"
+     primer_bind     complement(2596..2616)
+                     /label="FreeGenes dialout primer"
+                     /ApEinfo_fwdcolor="#0048BA"
+                     /ApEinfo_revcolor="#0048BA"
+                     /original_record="part"
+     misc_feature    2617..2675
+                     /label="FreeGenes barcode"
+                     /ApEinfo_fwdcolor="#FF7E00"
+                     /ApEinfo_revcolor="#FF7E00"
+                     /original_record="part"
+     protein_bind    2637..2654
+                     /label="I-SceI"
+                     /original_record="part"
+     misc_feature    2002..2021
+                     /label="FreeGenes dialout primer"
+                     /ApEinfo_fwdcolor="#0048BA"
+                     /ApEinfo_revcolor="#0048BA"
+     misc_feature    complement(3073..3092)
+                     /label="FreeGenes dialout primer"
+                     /ApEinfo_fwdcolor="#0048BA"
+                     /ApEinfo_revcolor="#0048BA"
+     misc_feature    3093..3152
+                     /label="FreeGenes barcode"
+                     /ApEinfo_fwdcolor="#FF7E00"
+                     /ApEinfo_revcolor="#FF7E00"
+ORIGIN
+        1 taactatcgt cttgagtcca acccggtaag acacgactta tcgccactgg cagcagccac
+       61 tggtaacagg attagcagag cgaggtatgt aggcggtgct acagagttct tgaagtggtg
+      121 gcctaactac ggctacacta gaagaacagt atttggtatc tgcgctctgc tgaagccagt
+      181 taccttcgga aaaagagttg gtagctcttg atccggcaaa caaaccaccg ctggtagcgg
+      241 tggttttttt gtttgcaagc agcagattac gcgcagaaaa aaaggatctc aagaaggcct
+      301 actattagca acaacgatcc tttgatcttt tctacggggt ctgacgctca gtggaacgaa
+      361 aactcacgtt aagggatttt ggtcatgaga ttatcaaaaa ggatcttcac ctagatcctt
+      421 ttaaattaaa aatgaagttt taaatcaatc taaagtatat atgagtaaac ttggtctgac
+      481 agttaccaat gcttaatcag tgaggcacct atctcagcga tctgtctatt tcgttcatcc
+      541 atagttgcct gactccccgt cgtgtagata actacgatac gggagggctt accatctggc
+      601 cccagtgctg caatgatacc gcgagaacca cgctcaccgg ctccagattt atcagcaata
+      661 aaccagccag ccggaagggc cgagcgcaga agtggtcctg caactttatc cgcctccatc
+      721 cagtctatta attgttgccg ggaagctaga gtaagtagtt cgccagttaa tagtttgcgc
+      781 aacgttgttg ccattgctac aggcatcgtg gtgtcacgct cgtcgtttgg tatggcttca
+      841 ttcagctccg gttcccaacg atcaaggcga gttacatgat cccccatgtt gtgcaaaaaa
+      901 gcggttagct ccttcggtcc tccgatcgtt gtcagaagta agttggccgc agtgttatca
+      961 ctcatggtta tggcagcact gcataattct cttactgtca tgccatccgt aagatgcttt
+     1021 tctgtgactg gtgagtactc aaccaagtca ttctgagaat agtgtatgcg gcgaccgagt
+     1081 tgctcttgcc cggcgtcaat acgggataat accgcgccac atagcagaac tttaaaagtg
+     1141 ctcatcattg gaaaacgttc ttcggggcga aaactctcaa ggatcttacc gctgttgaga
+     1201 tccagttcga tgtaacccac tcgtgcaccc aactgatctt cagcatcttt tactttcacc
+     1261 agcgtttctg ggtgagcaaa aacaggaagg caaaatgccg caaaaaaggg aataagggcg
+     1321 acacggaaat gttgaatact catactcttc ctttttcaat attattgaag catttatcag
+     1381 ggttattgtc tcatgagcgg atacatattt gaatgtattt agaaaaataa acaaataggg
+     1441 gttccgcgca cctgcaccag tcagtaaaac gacggccagt agtcaaaagc ctccgaccgg
+     1501 aggcttttga cttggttcag gtggagtggg agtagtcttc aagaattact gacccctcgg
+     1561 ggtctctaaa acctaggaac gaagcatctg tgcttcattt tgtagaacaa aaatgcaacg
+     1621 cgagagcgct aatttttcaa acaaagaatc tgagctgcat ttttacagaa cagaaatgca
+     1681 acgcgaaagc gctattttac caacgaagaa tctgtgcttc atttttgtaa aacaaaaatg
+     1741 caacgcgaga gcgctaattt ttcaaacaaa gaatctgagc tgcattttta cagaacagaa
+     1801 atgcaacgcg agagcgctat tttaccaaca aagaatctat acttcttttt tgttctacaa
+     1861 aaatgcatcc cgagagcgct atttttctaa caaagcatct tagattactt tttttctcct
+     1921 ttgtgcgctc tataatgcag tctcttgata actttttgca ctgtaggtcc gttaaggtta
+     1981 gaagaaggct actttggtgt ctattttctc ttccataaaa aaagcctgac tccacttccc
+     2041 gcgtttactg attactagcg aagctgcggg tgcatttttt caagataaag gcatccccga
+     2101 ttatattcta taccgatgtg gattgcgcat actttgtgaa cagaaagtga tagcgttgat
+     2161 gattcttcat tggtcagaaa attatgaacg gtttcttcta ttttgtctct atatactacg
+     2221 tataggaaat gtttacattt tcgtattgtt ttcgattcac tctatgaata gttcttacta
+     2281 caattttttt gtctaaagag taatactaga gataaacata aaaaatgtag aggtcgagtt
+     2341 tagatgcaag ttcaaggagc gaaaggtgga tgggtaggtt atatagggat atagcacaga
+     2401 gatatatagc aaagagatac ttttgagcaa tgtttgtgga agcggtattc gcaatatttt
+     2461 agtagctcgt tacagtccgg tgcgtttttg gttttttgaa agtgcgtcat cagagcgctt
+     2521 ttggttttca aaagcgctct gaagttccta tactttctag ctagagaata ggaacttcac
+     2581 cggtaaggtg agaccaaggc ccagaaggat acaactagca ctgcacatta aaagactagg
+     2641 gataacaggg taattgtagc gtcgtctaat tctcagaaga ccacgctgag gtgtcaatcg
+     2701 tcggagccgc tgagcaataa ctagcataac cccttggggc ctctaaacgg gtcttgaggg
+     2761 gttttttgca tggtcatagc tgtttcctga gagcttggca ggtgatgaca cacattaaca
+     2821 aatttcgtga ggagtctcca gaagaatgcc attaatttcc ataggctccg cccccctgac
+     2881 gagcatcaca aaaatcgacg ctcaagtcag aggtggcgaa acccgacagg actataaaga
+     2941 taccaggcgt ttccccctgg aagctccctc gtgcgctctc ctgttccgac cctgccgctt
+     3001 accggatacc tgtccgcctt tctcccttcg ggaagcgtgg cgctttctca tagctcacgc
+     3061 tgtaggtatc tcagttcggt gtaggtcgtt cgctccaagc tgggctgtgt gcacgaaccc
+     3121 cccgttcagc ccgaccgctg cgccttatcc gg
+//
