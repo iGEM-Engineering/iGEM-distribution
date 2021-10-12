@@ -4,7 +4,7 @@ The Anderson Promoters are a well-established set of constitutive promoters at v
 
 ### Summary:
 
-- 7 parts
+- 7 parts _<span style="color:red">1 missing sequences</span>_
     - CDS: 1
     - engineered_region: 1
     - promoter: 3
@@ -16,10 +16,10 @@ The Anderson Promoters are a well-established set of constitutive promoters at v
 
 - BBa_J364007 _<span style="color:red">not included in distribution</span>_
 - J23102_modified in pOpen_v4, pSB1C3
+- LmrA (CDS) in pSB1C3 _<span style="color:red">missing sequence</span>_
 - BBa_J23100 (promoter) in pOpen_v4, pSB1C3
 - BBa_J23101 (promoter) in pOpen_v4, pSB1C3
 - BBa_J23102 (promoter) in pOpen_v4, pSB1C3
-- LmrA (CDS) in pSB1C3
 - JWYZ01000115 (engineered_region) in pSB1C3
 
 _Note: automatically generated from package Excel and sequence files; do not edit_

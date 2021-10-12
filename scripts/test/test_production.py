@@ -31,17 +31,16 @@ class TestDistributionProduction(unittest.TestCase):
                     'https://synbiohub.org/public/igem/pSB1C3',
                     'http://parts.igem.org/BBa_J364007', f'{pkg}pOpen_v4',
                     'https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115',
-                    'https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/LmrA',
-                    f'{pkg}J23102_modified',
+                    f'{pkg}LmrA', f'{pkg}J23102_modified',
                     # TODO: should these be bare or versioned?
                     f'{pkg}NM_005341_4', f'{pkg}NM_005342', f'{pkg}NM_005343'
                     }
         collated = {o.identity for o in doc.objects if isinstance(o, sbol3.Component)}
         assert collated == expected, f'Collated parts set does not match expected value: {collated}'
         sequences = [o for o in doc.objects if isinstance(o, sbol3.Sequence)]
-        assert len(sequences) == 11, f'Collated document should have 11 sequences, but found {len(sequences)}'
-        # Total: 14 components, 11 sequences, 4 collections, 4 CDs, 2 Activity, 1 agent, 1 attachment = 37
-        assert len(doc.objects) == 39, f'Expected 39 TopLevel objects, but found {len(doc.objects)}'
+        assert len(sequences) == 10, f'Collated document should have 10 sequences, but found {len(sequences)}'
+        # Total: 14 components, 10 sequences, 4 collections, 4 CDs, 1 Activity = 35
+        assert len(doc.objects) == 35, f'Expected 35 TopLevel objects, but found {len(doc.objects)}'
 
         # check that the file is identical to expectation
         test_dir = os.path.dirname(os.path.realpath(__file__))
@@ -72,8 +71,8 @@ class TestDistributionProduction(unittest.TestCase):
                     f'{pkg}Other_stuff_JWYZ01000115'}
         built = set(str(m) for m in collection.members)
         assert built == expected, f'Build set does not match expected value: {collection.members}'
-        # Total: 39 from original document, plus 10 vectors, 6 vector sequences, 2x2 expansion collections, 1 package build collection
-        assert len(doc.objects) == 60, f'Expected 60 TopLevel objects, but found {len(doc.objects)}'
+        # Total: 35 from original document, plus 10 vectors, 5 vector sequences, 2x2 expansion collections, 1 package build collection
+        assert len(doc.objects) == 55, f'Expected 55 TopLevel objects, but found {len(doc.objects)}'
 
         # check that the file is identical to expectation
         test_dir = os.path.dirname(os.path.realpath(__file__))
@@ -92,8 +91,8 @@ class TestDistributionProduction(unittest.TestCase):
         # check if contents match expectation
         collection = doc.find(f'{DISTRIBUTION_NAMESPACE}/{BUILD_PRODUCTS_COLLECTION}')
         assert len(collection.members) == 10, f'Expected 10 build products, but found {len(collection.members)}'
-        # Total: 60 from package, plus 1 total build collection
-        assert len(doc.objects) == 61, f'Expected 55 TopLevel objects, but found {len(doc.objects)}'
+        # Total: 55 from package, plus 1 total build collection
+        assert len(doc.objects) == 56, f'Expected 56 TopLevel objects, but found {len(doc.objects)}'
 
         # check that the file is identical to expectation
         test_dir = os.path.dirname(os.path.realpath(__file__))
@@ -113,9 +112,9 @@ class TestDistributionProduction(unittest.TestCase):
         # check if contents match expectation
         collection = synth_doc.find(BUILD_PRODUCTS_COLLECTION)
         assert len(collection.members) == 10, f'Expected 10 build products, but found {len(collection.members)}'
-        # Total: 1 collection, 6x2 complete vectors and sequences, 6x2 inserts and sequences, 1x2 plasmids and sequence
+        # Total: 1 collection, 5x2 complete vectors and sequences, 5x2 inserts and sequences, 1x2 plasmids and sequence
         for i in synth_doc.objects: print(i.identity)
-        assert len(synth_doc.objects) == 27, f'Expected 27 TopLevel objects, but found {len(synth_doc.objects)}'
+        assert len(synth_doc.objects) == 23, f'Expected 23 TopLevel objects, but found {len(synth_doc.objects)}'
 
         # check that the files are identical to expectations
         test_dir = os.path.dirname(os.path.realpath(__file__))
