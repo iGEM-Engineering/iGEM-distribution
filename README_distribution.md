@@ -1,9 +1,13 @@
 # Distribution Summary
 
-- 135 samples planned for distribution
+- 139 samples planned for distribution
 
 ### Parts:
 
+- _2A_parts_E2A
+- _2A_parts_F2A
+- _2A_parts_P2A
+- _2A_parts_T2A
 - Anderson_Promoters_in_vector_BBa_J23100
 - Anderson_Promoters_in_vector_BBa_J23101
 - Anderson_Promoters_in_vector_BBa_J23102
