@@ -1,6 +1,6 @@
 # Distribution Summary
 
-- 130 samples planned for distribution
+- 139 samples planned for distribution
 
 ### Parts:
 
@@ -28,6 +28,15 @@
 - Anderson_Promoters_in_vector_BBa_J23117
 - Anderson_Promoters_in_vector_BBa_J23118
 - Anderson_Promoters_in_vector_BBa_J23119
+- Cas_variants_K2558003
+- Cas_variants_LbCpf1_or_LbCas12a
+- Cas_variants_SpCas9
+- Cas_variants_dLbCpf1_or_dLbCas12a
+- Cas_variants_dSpCas9
+- Cas_variants_dhLwCas13a
+- Cas_variants_dhSpCas9
+- Cas_variants_hLwCas13a
+- Cas_variants_hSpCas9
 - Chromoproteins_in_vector_BBa_K1033902
 - Chromoproteins_in_vector_BBa_K1033906
 - Chromoproteins_in_vector_BBa_K1033910
