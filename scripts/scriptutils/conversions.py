@@ -13,7 +13,6 @@ import sbol3
 from Bio import SeqIO, SeqRecord
 from Bio.Seq import Seq
 
-from sbol_utilities.excel_to_sbol import string_to_display_id
 from sbol_utilities.helper_functions import strip_sbol2_version, GENETIC_DESIGN_FILE_TYPES
 from sbol_utilities.workarounds import id_sort
 
@@ -267,7 +266,7 @@ def convert_from_fasta(path: str, namespace: str, identity_map: Dict[str, str] =
             if identity_map and r.id in identity_map:
                 identity = identity_map[r.id]
             else:
-                identity = f'{namespace}/{string_to_display_id(r.id)}'
+                identity = f'{namespace}/{sbol3.string_to_display_id(r.id)}'
             s = sbol3.Sequence(identity+'_sequence', name=r.name, description=r.description.strip(),
                                elements=str(r.seq), encoding=sbol3.IUPAC_DNA_ENCODING, namespace=namespace)
             doc.add(s)

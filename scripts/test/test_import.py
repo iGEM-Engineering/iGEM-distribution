@@ -38,12 +38,11 @@ class TestImportParts(unittest.TestCase):
             exports=['package_specification.nt']
         )
 
-        # first round of import should obtain all but one missing part
+        # first round of import should obtain all but two missing parts
         retrieved = part_retrieval.import_parts(tmp_sub)
-        assert len(retrieved) == 6
+        assert len(retrieved) == 5
         expected = ['https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115_1', 'http://parts.igem.org/BBa_J364007',
-                    'http://parts.igem.org/J23100', 'http://parts.igem.org/J23102', 'http://parts.igem.org/pSB1C3',
-                    'https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/LmrA']
+                    'http://parts.igem.org/J23100', 'http://parts.igem.org/J23102', 'http://parts.igem.org/pSB1C3']
         assert retrieved == expected, f'Retrieved parts list does not match expected value: {retrieved}'
         test_dir = os.path.dirname(os.path.realpath(__file__))
         # convert the retrieved SBOL2 file to SBOL3
@@ -54,7 +53,7 @@ class TestImportParts(unittest.TestCase):
             comparison_file = os.path.join(test_dir, 'test_files', t)
             assert filecmp.cmp(test_file, comparison_file), f'Parts cache file {t} is not identical'
 
-        # running import again should download nothing new but continue with just the one missing part
+        # running import again should download nothing new but continue with just the two missing parts
         retrieved = part_retrieval.import_parts(tmp_sub)
         assert len(retrieved) == 0
         for t in targets:
@@ -69,13 +68,11 @@ class TestImportParts(unittest.TestCase):
 
         # first round of import should obtain all but one missing part
         retrieved = part_retrieval.import_parts(tmp_sub)
-        print(retrieved)  # TODO: remove after completion
-        #assert len(retrieved) == 8  # all but the local file
+        #assert len(retrieved) == 7  # all but the local file and LCP SynBioHub
         github_prefix = 'https://raw.githubusercontent.com/iGEM-Engineering/iGEM-distribution/develop/scripts/test/test_files'
         expected = ['https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115_1',  # NCBI
                     'http://parts.igem.org/BBa_J364007',  # iGEM FASTA
                     'http://parts.igem.org/J23100',  # iGEM SynBioHub
-                    'https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/LmrA',  # any SynBioHub URL
                     'http://sevahub.es/public/Canonical/cd_pRO1600_ColE1',  # any SynBioHub, not starting w. synbiohub
                     'http://sevahub.es/public/Canonical/pSEVA247Y',  # SEVA
                     'https://freegenes.github.io/genbank/BBF10K_000152',  # any GenBank URL
