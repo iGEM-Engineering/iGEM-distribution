@@ -22,7 +22,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -i https://test.pypi.org/simple/ SYNBICT
+          pip install -i https://test.pypi.org/simple/ SYNBICT==1.5.1
 
       - name: Curate GenBank
         run: python3 scripts/curate_genbank.py
@@ -31,7 +31,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add *.nt
+          git add *.curated.xml
           git diff-index --quiet HEAD . || git commit -m "Curate GenBank"
 
       - name: Push changes
