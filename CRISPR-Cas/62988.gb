@@ -1,0 +1,14 @@
+LOCUS       62988                     96 bp ds-DNA     circular     24-SEP-2021
+DEFINITION  .
+KEYWORDS    "accession:addgene_62988_190542"                                   
+SOURCE      synthetic DNA construct                                            
+  ORGANISM  synthetic DNA construct                                            
+FEATURES             Location/Qualifiers
+     misc_RNA        21..96
+                     /label="gRNA scaffold"
+                     /ApEinfo_revcolor=#f8d3a9
+                     /ApEinfo_fwdcolor=#f8d3a9
+ORIGIN
+        1 NNNNNNNNNN NNNNNNNNNN gttttagagc tagaaatagc aagttaaaat aaggctagtc
+       61 cgttatcaac ttgaaaaagt ggcaccgagt cggtgc
+//
