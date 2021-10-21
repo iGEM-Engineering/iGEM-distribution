@@ -1,6 +1,7 @@
 openpyxl
 gitpython
-sbol2
+sbol2>=1.3
 sbol3>=1.0b8
 sbol-utilities>=1.0a11
-biopython
+biopython>=1.78
+synbict>=1.5.1
