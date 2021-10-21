@@ -22,7 +22,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r synbict_scripts/requirements.txt
+          pip install --index-url https://test.pypi.org/simple/ -r synbict_scripts/requirements.txt
 
       - name: Curate GenBank
         run: python3 synbict_scripts/curate_genbank.py
