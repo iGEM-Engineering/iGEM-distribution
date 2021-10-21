@@ -1,0 +1,174 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://wiki.synbiohub.org/wiki/Terms/igem#" xmlns:sbh="http://wiki.synbiohub.org/wiki/Terms/synbiohub#">
+  <sbol:ComponentDefinition rdf:about="http://synbict.org/GFPmut3/1">
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://synbict.org/GFPmut3/annotation0/1">
+        <dcterms:title>gfpMut3</dcterms:title>
+        <sbol:version>1</sbol:version>
+        <gbConv:label>gfpMut3</gbConv:label>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <sbol:location>
+          <sbol:Range rdf:about="http://synbict.org/GFPmut3/annotation0/range/1">
+            <sbol:persistentIdentity rdf:resource="http://synbict.org/GFPmut3/annotation0/range"/>
+            <sbol:end>685</sbol:end>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>1</sbol:start>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:version>1</sbol:version>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:displayId>annotation0</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://synbict.org/GFPmut3/annotation0"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+    <dcterms:description>.</dcterms:description>
+    <sbol:version>1</sbol:version>
+    <sbol:sequence rdf:resource="http://synbict.org/GFPmut3_seq/1"/>
+    <genbank:locus>GFPmut3</genbank:locus>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <sbol:persistentIdentity rdf:resource="http://synbict.org/GFPmut3"/>
+    <sbol:displayId>GFPmut3</sbol:displayId>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <genbank:date>09-AUG-2021</genbank:date>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://synbict.org/GFPmut3/2">
+    <genbank:locus>GFPmut3</genbank:locus>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://synbict.org/GFPmut3/BBa_K1789004_anno_1/2">
+        <dcterms:title>BBa_K1789004</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="http://synbict.org/GFPmut3/BBa_K1789004_anno_1"/>
+        <sbol:displayId>BBa_K1789004_anno_1</sbol:displayId>
+        <sbol:version>2</sbol:version>
+        <sbol:location>
+          <sbol:Range rdf:about="http://synbict.org/GFPmut3/BBa_K1789004_anno_1/BBa_K1789004_anno_1_loc/2">
+            <sbol:persistentIdentity rdf:resource="http://synbict.org/GFPmut3/BBa_K1789004_anno_1/BBa_K1789004_anno_1_loc"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:end>720</sbol:end>
+            <sbol:start>472</sbol:start>
+            <sbol:displayId>BBa_K1789004_anno_1_loc</sbol:displayId>
+            <sbol:version>2</sbol:version>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:component rdf:resource="http://synbict.org/GFPmut3/BBa_K1789004_comp_1/2"/>
+        <dcterms:description>GFP2</dcterms:description>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:persistentIdentity rdf:resource="http://synbict.org/GFPmut3"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <prov:wasDerivedFrom rdf:resource="http://synbict.org/GFPmut3/1"/>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+    <sbol:version>2</sbol:version>
+    <sbol:component>
+      <sbol:Component rdf:about="http://synbict.org/GFPmut3/BBa_K1789004_comp_1/2">
+        <dcterms:title>BBa_K1789004</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="http://synbict.org/GFPmut3/BBa_K1789004_comp_1"/>
+        <sbol:displayId>BBa_K1789004_comp_1</sbol:displayId>
+        <sbol:definition rdf:resource="https://synbiohub.org/public/igem/BBa_K1789004/1"/>
+        <sbol:version>2</sbol:version>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+      </sbol:Component>
+    </sbol:component>
+    <genbank:date>09-AUG-2021</genbank:date>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <dcterms:description>.</dcterms:description>
+    <sbol:displayId>GFPmut3</sbol:displayId>
+    <sbol:sequence rdf:resource="http://synbict.org/GFPmut3_seq/1"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://synbict.org/GFPmut3/annotation0/2">
+        <sbol:location>
+          <sbol:Range rdf:about="http://synbict.org/GFPmut3/annotation0/range/2">
+            <sbol:end>685</sbol:end>
+            <sbol:displayId>range</sbol:displayId>
+            <prov:wasDerivedFrom rdf:resource="http://synbict.org/GFPmut3/annotation0/range/1"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="http://synbict.org/GFPmut3/annotation0/range"/>
+            <sbol:start>1</sbol:start>
+            <sbol:version>2</sbol:version>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:version>2</sbol:version>
+        <dcterms:title>gfpMut3</dcterms:title>
+        <gbConv:label>gfpMut3</gbConv:label>
+        <prov:wasDerivedFrom rdf:resource="http://synbict.org/GFPmut3/annotation0/1"/>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <sbol:displayId>annotation0</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://synbict.org/GFPmut3/annotation0"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_K1789004/1">
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/BBa_K1789004/annotation2454067/1">
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/BBa_K1789004/annotation2454067/range2454067/1">
+            <sbol:version>1</sbol:version>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1789004/1"/>
+            <sbol:end>249</sbol:end>
+            <sbol:start>1</sbol:start>
+            <sbol:displayId>range2454067</sbol:displayId>
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1789004/annotation2454067/range2454067"/>
+            <ns0:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#feature/cds"/>
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1789004/annotation2454067"/>
+        <sbol:displayId>annotation2454067</sbol:displayId>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <sbol:version>1</sbol:version>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1789004/1"/>
+        <dcterms:title>GFP2</dcterms:title>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbh:mutableDescription>This part is the Carboxyl Half of GFP</sbh:mutableDescription>
+    <ns0:m_user_id>4206</ns0:m_user_id>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1789004/1"/>
+    <dc:creator>Xinyuan Qiu</dc:creator>
+    <sbol:displayId>BBa_K1789004</sbol:displayId>
+    <dcterms:modified>2016-01-25T01:04:48Z</dcterms:modified>
+    <sbh:mutableProvenance>This part is gained from part BBa_I715020.</sbh:mutableProvenance>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1789004"/>
+    <ns0:discontinued>false</ns0:discontinued>
+    <dcterms:title>BBa_K1789004</dcterms:title>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <dcterms:description>GFP2</dcterms:description>
+    <sbh:bookmark>false</sbh:bookmark>
+    <ns0:owner_id>21134</ns0:owner_id>
+    <sbh:mutableNotes>we REMOVED the extra base from part BBa_I715020(easier to fuse with other proteins) when designing PCR primers to make the protein fusion easier.</sbh:mutableNotes>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K1789004"/>
+    <ns0:dominant>false</ns0:dominant>
+    <sbh:star>false</sbh:star>
+    <ns0:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Planning"/>
+    <sbol:sequence rdf:resource="https://synbiohub.org/public/igem/BBa_K1789004_sequence/1"/>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <ns0:owning_group_id>9</ns0:owning_group_id>
+    <sbol:version>1</sbol:version>
+    <dcterms:created>2015-09-13T11:00:00Z</dcterms:created>
+    <ns0:group_u_list>_2214_</ns0:group_u_list>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Coding"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://synbict.org/GFPmut3_seq/1">
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://synbict.org/GFPmut3_seq"/>
+    <sbol:elements>ATGAGTAAAGGAGAAGAACTTTTCACTGGAGTTGTCCCAATTCTTGTTGAATTAGATGGTGATGTTAATGGGCACAAATTTTCTGTCAGTGGAGAGGGTGAAGGTGATGCAACATACGGAAAACTTACCCTTAAATTTATTTGCACTACTGGAAAACTACCTGTTCCATGGCCAACACTTGTCACTACTTTCGGTTATGGTGTTCAATGCTTTGCGAGATACCCAGATCATATGAAACAGCATGACTTTTTCAAGAGTGCCATGCCCGAAGGTTATGTACAGGAAAGAACTATATTTTTCAAAGATGACGGGAACTACAAGACACGTGCTGAAGTCAAGTTTGAAGGTGATACCCTTGTTAATAGAATCGAGTTAAAAGGTATTGATTTTAAAGAAGATGGAAACATTCTTGGACACAAATTGGAATACAACTATAACTCACACAATGTATACATCATGGCAGACAAACAAAAGAATGGAATCAAAGTTAACTTCAAAATTAGACACAACATTGAAGATGGAAGCGTTCAACTAGCAGACCATTATCAACAAAATACTCCAATTGGCGATGGCCCTGTCCTTTTACCAGACAACCATTACCTGTCCACACAATCTGCCCTTTCGAAAGATCCCAACGAAAAGAGAGACCACATGGTCCTTCTTGAGTTTGTAACAGCTGCTGGGAttacacatggcatggatgaactatacaaataataa</sbol:elements>
+    <sbol:displayId>GFPmut3_seq</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://synbiohub.org/public/igem/BBa_K1789004_sequence/1">
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbol:displayId>BBa_K1789004_sequence</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1789004_sequence"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1789004_sequence/1"/>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K1789004"/>
+    <sbol:elements>aagaatggaatcaaagttaacttcaaaattagacacaacattgaagatggaagcgttcaactagcagaccattatcaacaaaatactccaattggcgatggccctgtccttttaccagacaaccattacctgtccacacaatctgccctttcgaaagatcccaacgaaaagagagaccacatggtccttcttgagtttgtaacagctgctgggattacacatggcatggatgaactatacaaataataa</sbol:elements>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbol:version>1</sbol:version>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+</rdf:RDF>
