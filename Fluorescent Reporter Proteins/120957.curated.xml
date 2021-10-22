@@ -1,0 +1,65 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:igem="http://wiki.synbiohub.org/wiki/Terms/igem#" xmlns:sbh="http://wiki.synbiohub.org/wiki/Terms/synbiohub#">
+  <sbol:ComponentDefinition rdf:about="http://synbict.org/mRFP1/1">
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>mRFP1</sbol:displayId>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://synbict.org/mRFP1/annotation1/1">
+        <sbol:persistentIdentity rdf:resource="http://synbict.org/mRFP1/annotation1"/>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <sbol:version>1</sbol:version>
+        <sbol:displayId>annotation1</sbol:displayId>
+        <dcterms:title>mRFP1</dcterms:title>
+        <sbol:location>
+          <sbol:Range rdf:about="http://synbict.org/mRFP1/annotation1/range/1">
+            <sbol:persistentIdentity rdf:resource="http://synbict.org/mRFP1/annotation1/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>1</sbol:start>
+            <sbol:version>1</sbol:version>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:end>678</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <gbConv:label>mRFP1</gbConv:label>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000988"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <genbank:date>06-AUG-2021</genbank:date>
+    <genbank:keywords>"accession:addgene_120957_231025"</genbank:keywords>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <genbank:locus>mRFP1</genbank:locus>
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://synbict.org/mRFP1/annotation0/1">
+        <gbConv:label>source</gbConv:label>
+        <dcterms:title>source</dcterms:title>
+        <sbol:persistentIdentity rdf:resource="http://synbict.org/mRFP1/annotation0"/>
+        <sbol:location>
+          <sbol:Range rdf:about="http://synbict.org/mRFP1/annotation0/range/1">
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:start>1</sbol:start>
+            <sbol:end>681</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="http://synbict.org/mRFP1/annotation0/range"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:displayId>annotation0</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequence rdf:resource="http://synbict.org/mRFP1_seq/1"/>
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <sbol:persistentIdentity rdf:resource="http://synbict.org/mRFP1"/>
+    <dcterms:description>.</dcterms:description>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://synbict.org/mRFP1_seq/1">
+    <sbol:displayId>mRFP1_seq</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://synbict.org/mRFP1_seq"/>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>atggcttcctccgaagatgttatcaaagagttcatgcgtttcaaagttcgtatggaaggttccgttaacggtcacgagttcgaaatcgaaggtgaaggtgaaggtcgtccgtacgaaggtacccagaccgctaaactgaaagttaccaaaggtggtccgctgccgttcgcttgggacatcctgtccccgcagttccagtacggttccaaagcttacgttaaacacccggctgacatcccggactacctgaaactgtccttcccggaaggtttcaaatgggaacgtgttatgaacttcgaggacggtggtgttgttaccgttacccaggactcctccctgcaagacggtgagttcatctacaaagttaaactgcgtggtaccaacttcccgtccgacggtccggttatgcagaaaaaaaccatgggttgggaagcttccaccgaacgtatgtacccggaagatggtgctctgaaaggtgaaatcaaaatgcgtctgaaactgaaagacggtggtcactacgacgctgaagttaaaaccacctacatggctaaaaaaccggttcagctgccgggtgcttacaaaaccgacatcaaactggacatcacctcccacaacgaggactacaccatcgttgaacagtacgaacgtgctgaaggtcgtcactccaccggtgcttaatga</sbol:elements>
+  </sbol:Sequence>
+</rdf:RDF>
