@@ -5,7 +5,7 @@ import sequences_to_features
 fp_package = os.path.join(os.getcwd(), 'Fluorescent Reporter Proteins')
 
 target_files = [os.path.join(fp_package, f) for f in os.listdir(fp_package)
-			    if os.path.isfile(join(fp_package, f)) and f.endswith('.gb')]
+			    if os.path.isfile(os.path.join(fp_package, f)) and f.endswith('.gb')]
 
 output_files = [f.replace('.gb', '.curated.xml') for f in target_files]
 
