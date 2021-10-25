@@ -1,8 +1,19 @@
+import tempfile
+import sbol2
+import sbol3
+import scriptutils
+
 import os
 
 import sequences_to_features
 
 fp_package = os.path.join(os.path.dirname(os.getcwd()), 'Fluorescent Reporter Proteins')
+
+print('PACKAGE1: ' + fp_package)
+
+for package in scriptutils.package_dirs():
+	if 'Fluorescent Reporter Proteins' in package:
+		print('PACKAGE2: ' + package)
 
 target_files = [os.path.join(fp_package, f) for f in os.listdir(fp_package)
 			    if os.path.isfile(join(fp_package, f)) and f.endswith('.gb')]
