@@ -25,7 +25,6 @@ args = args + ['-o'] + output_files
 args = args + ['-m', '0']
 args = args + ['-M', '30']
 args = args + ['-U', 'https://synbiohub.org']
-# args = args + ['-f', 'fp_library.xml']
 args = args + ['-F', 'https://synbiohub.org/public/igem/cds_reporter/1']
 args = args + ['-ni', '-cm', '-a']
 
