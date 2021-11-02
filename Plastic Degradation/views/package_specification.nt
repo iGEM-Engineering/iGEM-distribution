@@ -1,70 +1,70 @@
 
 <http://parts.igem.org/K2010999> <http://sbols.org/v3#description> "Codon optimized for E. coli, TGA Stop, see BBa_K2010000 for characterization" .
 <http://parts.igem.org/K2010999> <http://sbols.org/v3#displayId> "K2010999" .
-<http://parts.igem.org/K2010999> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation> .
+<http://parts.igem.org/K2010999> <http://sbols.org/v3#hasNamespace> <http://parts.igem.org> .
 <http://parts.igem.org/K2010999> <http://sbols.org/v3#name> "PETase-K2010999" .
 <http://parts.igem.org/K2010999> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
 <http://parts.igem.org/K2010999> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
 <http://parts.igem.org/K2010999> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
 <http://parts.igem.org/K2910000> <http://sbols.org/v3#description> "Codon optimized for E. coli, Includes C-terminal Hexahistidine Tag, TGA Stop" .
 <http://parts.igem.org/K2910000> <http://sbols.org/v3#displayId> "K2910000" .
-<http://parts.igem.org/K2910000> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation> .
+<http://parts.igem.org/K2910000> <http://sbols.org/v3#hasNamespace> <http://parts.igem.org> .
 <http://parts.igem.org/K2910000> <http://sbols.org/v3#name> "IsPETase-W159H-S238F" .
 <http://parts.igem.org/K2910000> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
 <http://parts.igem.org/K2910000> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
 <http://parts.igem.org/K2910000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
 <http://parts.igem.org/K2910002> <http://sbols.org/v3#description> "Codon optimized for E. coli, Includes C-terminal Hexahistidine Tag, TGA Stop" .
 <http://parts.igem.org/K2910002> <http://sbols.org/v3#displayId> "K2910002" .
-<http://parts.igem.org/K2910002> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation> .
+<http://parts.igem.org/K2910002> <http://sbols.org/v3#hasNamespace> <http://parts.igem.org> .
 <http://parts.igem.org/K2910002> <http://sbols.org/v3#name> "IsPETase-ML_Mu_1" .
 <http://parts.igem.org/K2910002> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
 <http://parts.igem.org/K2910002> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
 <http://parts.igem.org/K2910002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
 <http://parts.igem.org/K2910003> <http://sbols.org/v3#description> "Codon optimized for E. coli, Includes C-terminal Hexahistidine Tag, TGA Stop" .
 <http://parts.igem.org/K2910003> <http://sbols.org/v3#displayId> "K2910003" .
-<http://parts.igem.org/K2910003> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation> .
+<http://parts.igem.org/K2910003> <http://sbols.org/v3#hasNamespace> <http://parts.igem.org> .
 <http://parts.igem.org/K2910003> <http://sbols.org/v3#name> "IsPETase-T88F-I208Y-S238F-S245Y-R280A" .
 <http://parts.igem.org/K2910003> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
 <http://parts.igem.org/K2910003> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
 <http://parts.igem.org/K2910003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
 <http://parts.igem.org/K3039002> <http://sbols.org/v3#description> "Codon optimized for E. coli, Includes N-terminal his-tag" .
 <http://parts.igem.org/K3039002> <http://sbols.org/v3#displayId> "K3039002" .
-<http://parts.igem.org/K3039002> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation> .
+<http://parts.igem.org/K3039002> <http://sbols.org/v3#hasNamespace> <http://parts.igem.org> .
 <http://parts.igem.org/K3039002> <http://sbols.org/v3#name> "PETase-T88A_S93M_S121E_W159F_D186H_R280A" .
 <http://parts.igem.org/K3039002> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
 <http://parts.igem.org/K3039002> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
 <http://parts.igem.org/K3039002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
 <http://parts.igem.org/K3039003> <http://sbols.org/v3#description> "Codon optimized for E. coli, Includes N-terminal his-tag" .
 <http://parts.igem.org/K3039003> <http://sbols.org/v3#displayId> "K3039003" .
-<http://parts.igem.org/K3039003> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation> .
+<http://parts.igem.org/K3039003> <http://sbols.org/v3#hasNamespace> <http://parts.igem.org> .
 <http://parts.igem.org/K3039003> <http://sbols.org/v3#name> "PETase-S121E_D186H_R280A" .
 <http://parts.igem.org/K3039003> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
 <http://parts.igem.org/K3039003> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
 <http://parts.igem.org/K3039003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
 <http://parts.igem.org/K3039005> <http://sbols.org/v3#description> "Codon optimized for E. coli, Includes N-terminal his-tag" .
 <http://parts.igem.org/K3039005> <http://sbols.org/v3#displayId> "K3039005" .
-<http://parts.igem.org/K3039005> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation> .
+<http://parts.igem.org/K3039005> <http://sbols.org/v3#hasNamespace> <http://parts.igem.org> .
 <http://parts.igem.org/K3039005> <http://sbols.org/v3#name> "BHETase_1" .
 <http://parts.igem.org/K3039005> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
 <http://parts.igem.org/K3039005> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
 <http://parts.igem.org/K3039005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
 <http://parts.igem.org/K3039006> <http://sbols.org/v3#description> "Codon optimized for E. coli, Includes N-terminal his-tag" .
 <http://parts.igem.org/K3039006> <http://sbols.org/v3#displayId> "K3039006" .
-<http://parts.igem.org/K3039006> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation> .
+<http://parts.igem.org/K3039006> <http://sbols.org/v3#hasNamespace> <http://parts.igem.org> .
 <http://parts.igem.org/K3039006> <http://sbols.org/v3#name> "BHETase_2" .
 <http://parts.igem.org/K3039006> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
 <http://parts.igem.org/K3039006> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
 <http://parts.igem.org/K3039006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
 <http://parts.igem.org/K3039017> <http://sbols.org/v3#description> "Codon optimized for E. coli, Includes N-terminal his-tag" .
 <http://parts.igem.org/K3039017> <http://sbols.org/v3#displayId> "K3039017" .
-<http://parts.igem.org/K3039017> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation> .
+<http://parts.igem.org/K3039017> <http://sbols.org/v3#hasNamespace> <http://parts.igem.org> .
 <http://parts.igem.org/K3039017> <http://sbols.org/v3#name> "PETase_Reconstructed_Ancestor_1" .
 <http://parts.igem.org/K3039017> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
 <http://parts.igem.org/K3039017> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
 <http://parts.igem.org/K3039017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
 <http://parts.igem.org/pSB1C3> <http://sbols.org/v3#description> "" .
 <http://parts.igem.org/pSB1C3> <http://sbols.org/v3#displayId> "pSB1C3" .
-<http://parts.igem.org/pSB1C3> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation> .
+<http://parts.igem.org/pSB1C3> <http://sbols.org/v3#hasNamespace> <http://parts.igem.org> .
 <http://parts.igem.org/pSB1C3> <http://sbols.org/v3#name> "pSB1C3" .
 <http://parts.igem.org/pSB1C3> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000155> .
 <http://parts.igem.org/pSB1C3> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
