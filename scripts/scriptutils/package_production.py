@@ -10,7 +10,7 @@ from Bio.Seq import Seq
 from sbol_utilities.excel_to_sbol import BASIC_PARTS_COLLECTION
 from sbol_utilities.expand_combinatorial_derivations import root_combinatorial_derivations, expand_derivations
 from sbol_utilities.calculate_sequences import calculate_sequences
-from . import convert_to_genbank
+from sbol_utilities.conversion import convert_to_genbank
 
 from .part_retrieval import package_parts_inventory
 from .directories import EXPORT_DIRECTORY, SBOL_EXPORT_NAME, SBOL_PACKAGE_NAME, DISTRIBUTION_NAME, \
@@ -211,7 +211,7 @@ def extract_synthesis_files(root: str, doc: sbol3.Document) -> sbol3.Document:
                 sub.sequences[0].lookup().copy(build_doc)
     # export the GenBank
     gb_path = os.path.join(root, DISTRIBUTION_GENBANK)
-    convert_to_genbank(build_doc, gb_path)
+    convert_to_genbank(build_doc, gb_path, allow_genbank_online=True)
     print(f'Wrote GenBank export file with {n_genbank_constructs} constructs: {gb_path}')
 
     # for Twist Synthesis FASTA exports, we need to put the identity of the build product on the sequence of the insert
