@@ -1,14 +1,14 @@
 
 <http://parts.igem.org/K2558003> <http://sbols.org/v3#description> "Source = Bba_K2558003\nCas9 DNA nuclease from Streptococcus pyogenes. Used mostly for genome engineering application where its targeting feature and/or double strand break activity are needed. PAM = NGG" .
 <http://parts.igem.org/K2558003> <http://sbols.org/v3#displayId> "K2558003" .
-<http://parts.igem.org/K2558003> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas> .
+<http://parts.igem.org/K2558003> <http://sbols.org/v3#hasNamespace> <http://parts.igem.org> .
 <http://parts.igem.org/K2558003> <http://sbols.org/v3#name> "dSpCas9_RFC10" .
 <http://parts.igem.org/K2558003> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
 <http://parts.igem.org/K2558003> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
 <http://parts.igem.org/K2558003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
 <http://parts.igem.org/pSB1C3> <http://sbols.org/v3#description> "" .
 <http://parts.igem.org/pSB1C3> <http://sbols.org/v3#displayId> "pSB1C3" .
-<http://parts.igem.org/pSB1C3> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas> .
+<http://parts.igem.org/pSB1C3> <http://sbols.org/v3#hasNamespace> <http://parts.igem.org> .
 <http://parts.igem.org/pSB1C3> <http://sbols.org/v3#name> "pSB1C3" .
 <http://parts.igem.org/pSB1C3> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000155> .
 <http://parts.igem.org/pSB1C3> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
