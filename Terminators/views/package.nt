@@ -1,7 +1,7 @@
 
 <http://parts.igem.org/B0010> <http://sbols.org/v3#description> "TWIST ok\nT1 from E. coli rrnB" .
 <http://parts.igem.org/B0010> <http://sbols.org/v3#displayId> "B0010" .
-<http://parts.igem.org/B0010> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Terminators> .
+<http://parts.igem.org/B0010> <http://sbols.org/v3#hasNamespace> <http://parts.igem.org> .
 <http://parts.igem.org/B0010> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/B0010_sequence> .
 <http://parts.igem.org/B0010> <http://sbols.org/v3#name> "BBa_B0010" .
 <http://parts.igem.org/B0010> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000141> .
@@ -10,11 +10,11 @@
 <http://parts.igem.org/B0010_sequence> <http://sbols.org/v3#displayId> "B0010_sequence" .
 <http://parts.igem.org/B0010_sequence> <http://sbols.org/v3#elements> "CCAGGCATCAAATAAAACGAAAGGCTCAGTCGAAAGACTGGGCCTTTCGTTTTATCTGTTGTTTGTCGGTGAACGCTCTC" .
 <http://parts.igem.org/B0010_sequence> <http://sbols.org/v3#encoding> <https://identifiers.org/edam:format_1207> .
-<http://parts.igem.org/B0010_sequence> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Terminators> .
+<http://parts.igem.org/B0010_sequence> <http://sbols.org/v3#hasNamespace> <http://parts.igem.org> .
 <http://parts.igem.org/B0010_sequence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Sequence> .
 <http://parts.igem.org/B0012> <http://sbols.org/v3#description> "TWIST ok\nTE from coliphageT7" .
 <http://parts.igem.org/B0012> <http://sbols.org/v3#displayId> "B0012" .
-<http://parts.igem.org/B0012> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Terminators> .
+<http://parts.igem.org/B0012> <http://sbols.org/v3#hasNamespace> <http://parts.igem.org> .
 <http://parts.igem.org/B0012> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/B0012_sequence> .
 <http://parts.igem.org/B0012> <http://sbols.org/v3#name> "BBa_B0012" .
 <http://parts.igem.org/B0012> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000141> .
@@ -23,11 +23,11 @@
 <http://parts.igem.org/B0012_sequence> <http://sbols.org/v3#displayId> "B0012_sequence" .
 <http://parts.igem.org/B0012_sequence> <http://sbols.org/v3#elements> "TCACACTGGCTCACCTTCGGGTGGGCCTTTCTGCGTTTATA" .
 <http://parts.igem.org/B0012_sequence> <http://sbols.org/v3#encoding> <https://identifiers.org/edam:format_1207> .
-<http://parts.igem.org/B0012_sequence> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Terminators> .
+<http://parts.igem.org/B0012_sequence> <http://sbols.org/v3#hasNamespace> <http://parts.igem.org> .
 <http://parts.igem.org/B0012_sequence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Sequence> .
 <http://parts.igem.org/B0015> <http://sbols.org/v3#description> "Used more than 4.5k times, TWIST ok\ndouble terminator (B0010-B0012)" .
 <http://parts.igem.org/B0015> <http://sbols.org/v3#displayId> "B0015" .
-<http://parts.igem.org/B0015> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Terminators> .
+<http://parts.igem.org/B0015> <http://sbols.org/v3#hasNamespace> <http://parts.igem.org> .
 <http://parts.igem.org/B0015> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/B0015_sequence> .
 <http://parts.igem.org/B0015> <http://sbols.org/v3#name> "BBa_B0015" .
 <http://parts.igem.org/B0015> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000141> .
@@ -36,7 +36,7 @@
 <http://parts.igem.org/B0015_sequence> <http://sbols.org/v3#displayId> "B0015_sequence" .
 <http://parts.igem.org/B0015_sequence> <http://sbols.org/v3#elements> "CCAGGCATCAAATAAAACGAAAGGCTCAGTCGAAAGACTGGGCCTTTCGTTTTATCTGTTGTTTGTCGGTGAACGCTCTCTACTAGAGTCACACTGGCTCACCTTCGGGTGGGCCTTTCTGCGTTTATA" .
 <http://parts.igem.org/B0015_sequence> <http://sbols.org/v3#encoding> <https://identifiers.org/edam:format_1207> .
-<http://parts.igem.org/B0015_sequence> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Terminators> .
+<http://parts.igem.org/B0015_sequence> <http://sbols.org/v3#hasNamespace> <http://parts.igem.org> .
 <http://parts.igem.org/B0015_sequence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Sequence> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/BBa_B1006_T_U10> <http://sbols.org/v3#description> "99.42% efficiency (Homopolimer of more than 10 bases at the end,  TWIST noOK)" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/BBa_B1006_T_U10> <http://sbols.org/v3#displayId> "BBa_B1006_T_U10" .

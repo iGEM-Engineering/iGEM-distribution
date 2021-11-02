@@ -1,3 +1,4 @@
+import logging
 import unittest
 import os
 import filecmp
@@ -10,6 +11,8 @@ import datetime
 import scripts.scriptutils
 from scripts.test.helpers import copy_to_tmp
 
+
+logging.warning('Conversion is deprecated: will shift to sbol-utilities in 1.0a12')
 
 class Test2To3Conversion(unittest.TestCase):
     def test_convert_identities(self):

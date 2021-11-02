@@ -16,6 +16,8 @@ from Bio.Seq import Seq
 from sbol_utilities.helper_functions import strip_sbol2_version, GENETIC_DESIGN_FILE_TYPES
 from sbol_utilities.workarounds import id_sort
 
+logging.warning('Conversion is deprecated: will shift to sbol-utilities in 1.0a12')
+
 # sbol javascript executable based on https://github.com/sboltools/sbolgraph
 # Location: scripts/sbol
 SBOL_CONVERTER = os.path.join(os.path.dirname(os.path.dirname(os.path.realpath(__file__))), 'sbol')
@@ -265,13 +267,15 @@ def convert_from_fasta(path: str, namespace: str, identity_map: Dict[str, str] =
         for r in SeqIO.parse(f, 'fasta'):
             if identity_map and r.id in identity_map:
                 identity = identity_map[r.id]
+                namespace_to_use = None
             else:
                 identity = f'{namespace}/{sbol3.string_to_display_id(r.id)}'
+                namespace_to_use = namespace
             s = sbol3.Sequence(identity+'_sequence', name=r.name, description=r.description.strip(),
-                               elements=str(r.seq), encoding=sbol3.IUPAC_DNA_ENCODING, namespace=namespace)
+                               elements=str(r.seq), encoding=sbol3.IUPAC_DNA_ENCODING, namespace=namespace_to_use)
             doc.add(s)
             doc.add(sbol3.Component(identity, sbol3.SBO_DNA, name=r.name, description=r.description.strip(),
-                                    sequences=[s.identity], namespace=namespace))
+                                    sequences=[s.identity], namespace=namespace_to_use))
     return doc
 
 
