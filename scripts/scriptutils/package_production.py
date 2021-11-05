@@ -77,6 +77,15 @@ def collate_package(package: str) -> None:
     with open(target_name, 'w') as outfile:
         outfile.write(serialized)
 
+    # test for file validity:
+    test_doc = sbol3.Document()
+    test_doc.read(target_name)
+    report = test_doc.validate()
+    if len(report):
+        for r in report:
+            print(r)
+        raise ValueError(f'Collated package {target_name} is invalid')
+
 
 def expand_build_plan(package: str) -> sbol3.Document:
     """Expand the build plans (libraries & composites sheet) in a package's collated SBOL3 Document
@@ -187,28 +196,41 @@ def extract_synthesis_files(root: str, doc: sbol3.Document) -> sbol3.Document:
     # for GenBank export, copy build products to new Document, omitting ones without sequences
     sequence_number_warning = 'Omitting {}: GenBank exports require 1 sequence, but found {}'
     build_doc = sbol3.Document()
-    build_plan.copy(build_doc)
-    components_copied = set(full_constructs)
+    components_copied = set(full_constructs)  # all of these will be copied directly in the next iterator
     n_genbank_constructs = 0
     for c in full_constructs:
         # if build is missing sequence, warn and skip
         if len(c.sequences) != 1:
             print(sequence_number_warning.format(c.identity, len(c.sequences)))
+            build_plan.members.remove(c.identity)
             continue
         c.copy(build_doc)
         c.sequences[0].lookup().copy(build_doc)
         n_genbank_constructs += 1
-        # copy over subcomponents and their sequences too  # TODO: make this work for multi-layer components
-        for sub_c in c.features:
+        sub_c_queue = c.features[::-1]  # add in reverse since we will be popping them off back to front
+        # copy over tree of subcomponents and their sequences too
+        while len(sub_c_queue):
+            sub_c = sub_c_queue.pop()
             if isinstance(sub_c, sbol3.SubComponent) and sub_c.instance_of.lookup() not in components_copied:
                 sub = sub_c.instance_of.lookup()
                 components_copied.add(sub)
+                # TODO: consider filtering before adding
+                sub_c_queue += sub.features[::-1]  # add in reverse since we will be popping them off back to front
                 # if subcomponent is missing sequence, warn and skip
                 if len(sub.sequences) != 1:
                     print(sequence_number_warning.format(sub.identity, len(sub.sequences)))
                     continue
                 sub.copy(build_doc)
                 sub.sequences[0].lookup().copy(build_doc)
+    # copy over final build plan, which omits the missing sequences
+    build_plan.copy(build_doc)  # TODO: decide if we want to bring this back at some point; it is unneeded
+    # make sure that the file is valid
+    report = build_doc.validate()
+    if len(report):
+        for r in report:
+            print(r)
+        raise ValueError('Extracted document for GenBank conversion is invalid')
+
     # export the GenBank
     gb_path = os.path.join(root, DISTRIBUTION_GENBANK)
     convert_to_genbank(build_doc, gb_path)

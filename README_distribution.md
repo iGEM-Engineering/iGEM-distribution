@@ -1,6 +1,6 @@
 # Distribution Summary
 
-- 151 samples planned for distribution
+- 159 samples planned for distribution
 
 ### Parts:
 
@@ -118,6 +118,14 @@
 - Terminators_in_vector_BBa_B1006_T_U10
 - Terminators_in_vector_rnpB_T1
 - Terminators_in_vector_rpoC_T
+- _2018_Interlab_Devices_BBa_I20270
+- _2018_Interlab_Devices_BBa_R0040
+- _2018_Interlab_Devices_J364000
+- _2018_Interlab_Devices_J364001
+- _2018_Interlab_Devices_J364002
+- _2018_Interlab_Devices_J364007
+- _2018_Interlab_Devices_J364008
+- _2018_Interlab_Devices_J364009
 - Promoters_pAmeR
 - Promoters_pAmtR
 - Promoters_pBM3R1
