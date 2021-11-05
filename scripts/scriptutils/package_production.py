@@ -196,13 +196,13 @@ def extract_synthesis_files(root: str, doc: sbol3.Document) -> sbol3.Document:
     # for GenBank export, copy build products to new Document, omitting ones without sequences
     sequence_number_warning = 'Omitting {}: GenBank exports require 1 sequence, but found {}'
     build_doc = sbol3.Document()
-    # build_plan.copy(build_doc)  # TODO: decide if we want to bring this back at some point; it is unneeded
-    components_copied = set(full_constructs)
+    components_copied = set(full_constructs)  # all of these will be copied directly in the next iterator
     n_genbank_constructs = 0
     for c in full_constructs:
         # if build is missing sequence, warn and skip
         if len(c.sequences) != 1:
             print(sequence_number_warning.format(c.identity, len(c.sequences)))
+            build_plan.members.remove(c.identity)
             continue
         c.copy(build_doc)
         c.sequences[0].lookup().copy(build_doc)
@@ -222,6 +222,8 @@ def extract_synthesis_files(root: str, doc: sbol3.Document) -> sbol3.Document:
                     continue
                 sub.copy(build_doc)
                 sub.sequences[0].lookup().copy(build_doc)
+    # copy over final build plan, which omits the missing sequences
+    build_plan.copy(build_doc)  # TODO: decide if we want to bring this back at some point; it is unneeded
     # make sure that the file is valid
     report = build_doc.validate()
     if len(report):
