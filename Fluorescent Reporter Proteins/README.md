@@ -4,14 +4,17 @@ None
 
 ### Summary:
 
-- 16 parts
+- 18 parts
     - CDS: 7
     - engineered_region: 9
+    -  _<span style="color:red">unspecified role: 2</span>_
 - 1 vectors
 - 15 samples for distribution _<span style="color:red">1 parts not included</span>_
 
 ### Parts:
 
+- D1005 in pSB1C3
+- D1006 in pSB1C3
 - GFPmut3 (CDS) in pSB1C3
 - mKate2 (engineered_region) in pSB1C3
 - mRFP1 (engineered_region) _<span style="color:red">not included in distribution</span>_
