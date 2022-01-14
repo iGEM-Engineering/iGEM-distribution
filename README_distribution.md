@@ -1,6 +1,6 @@
 # Distribution Summary
 
-- 159 samples planned for distribution
+- 165 samples planned for distribution
 
 ### Parts:
 
@@ -28,8 +28,14 @@
 - Anderson_Promoters_in_vector_BBa_J23117
 - Anderson_Promoters_in_vector_BBa_J23118
 - Anderson_Promoters_in_vector_BBa_J23119
+- Cas_variants_ABE8_20_m
+- Cas_variants_ABE8e_TadA_8e_V106W
+- Cas_variants_ABEmax
+- Cas_variants_BE4max
 - Cas_variants_K2558003
 - Cas_variants_LbCpf1_or_LbCas12a
+- Cas_variants_PE2
+- Cas_variants_SaABE8e_TadA_8e_V106W
 - Cas_variants_SpCas9
 - Cas_variants_dLbCpf1_or_dLbCas12a
 - Cas_variants_dSpCas9
