@@ -1,6 +1,6 @@
 # Distribution Summary
 
-- 165 samples planned for distribution
+- 166 samples planned for distribution
 
 ### Parts:
 
@@ -32,6 +32,7 @@
 - Cas_variants_ABE8e_TadA_8e_V106W
 - Cas_variants_ABEmax
 - Cas_variants_BE4max
+- Cas_variants_CP1028_ABE8e
 - Cas_variants_K2558003
 - Cas_variants_LbCpf1_or_LbCas12a
 - Cas_variants_PE2
