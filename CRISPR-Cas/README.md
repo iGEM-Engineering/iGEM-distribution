@@ -14,7 +14,7 @@ Their associated guide RNA scaffold sequences as well as the position of the spa
     - engineered_region: 5
     -  _<span style="color:red">unspecified role: 2</span>_
 - 0 vectors
-- 15 samples for distribution _<span style="color:red">1 parts not included</span>_
+- 16 samples for distribution
 
 ### Parts:
 
@@ -24,7 +24,7 @@ Their associated guide RNA scaffold sequences as well as the position of the spa
 - ABE8e_TadA_8e_V106W (CDS) in  _<span style="color:red">missing sequence</span>_
 - ABEmax (engineered_region) in 
 - BE4max (engineered_region) in 
-- CP1028_ABE8e (engineered_region) _<span style="color:red">not included in distribution</span>_
+- CP1028_ABE8e (engineered_region) in 
 - LbCpf1_or_LbCas12a (CDS) in  _<span style="color:red">missing sequence</span>_
 - PE2 (engineered_region) in 
 - SaABE8e_TadA_8e_V106W (CDS) in  _<span style="color:red">missing sequence</span>_
