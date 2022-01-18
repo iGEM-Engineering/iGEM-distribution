@@ -7,7 +7,8 @@ Their associated guide RNA scaffold sequences as well as the position of the spa
 - SpCas9_gRNA : 5’-spacer_sequence-gttttagagctagaaatagcaagttaaaataaggctagtccgttatcaacttgaaaaagtggcaccgagtcggtgc-3’ (see Addgene 62988) 
 - LbCpf1_gRNA : 5’-taatttctactaagtgtagat-spacer_sequence-3’ (see iGEM Registry Bba_K2927006)
 - LwCas13a_gRNA : 5’-GATTTAGACTACCCCAAAAACGAAGGGGACTAAAAC-spacer_sequence-3’ (see iGEM Registry K2306015 and supp info of doi: 10.1038/nature24049)
-- SpCas9_pegRNA: 5'-gRNA_spacer- GTTTTAGAGCTAGAAATAGCAAGTTAAAATAAGGCTAGTCCGTTATCAACTTGAAAAAGTGGCACCGAGTCGGTGC-RT_template-Primer_Binding_Site-3'",,,,,,,,,,,,
+- SaCas9_gRNA : 5'-spacer_sequence-GTTTTAGTACTCTGTAATTTTAGGTATGAGGTAGACGAAAATTGTACTTATACCTAAAATTACAGAATCTACTAAAACAAGGCAAAATGCCGTGTTTATCTCGTCAACTTGTTGGCGAGA-3'
+- SpCas9_pegRNA : 5'-gRNA_spacer- GTTTTAGAGCTAGAAATAGCAAGTTAAAATAAGGCTAGTCCGTTATCAACTTGAAAAAGTGGCACCGAGTCGGTGC-RT_template-Primer_Binding_Site-3'",,,,,,,,,,,,
 ,,,,,,,,,,,,
 Example Data,,,,,,,,,,,,
 J23101,Promoter,High consitutive promoter from Anderson library,,,iGEM registry,J23101,,Escherichia coli,False,False,0,
@@ -34,7 +35,7 @@ SaABE8e TadA-8e V106W ,CDS,Source = Addgene 138509. Added annotations based off 
 PE2,CDS,Source = Addgene 132775. Added annotations based off supplement of Anzalone et al. 2019,Cutout of Plasmid,"SpCas based Prime Editor (PE). Prime editors use a pegRNA to template small genomic (<200bp) edits of any type without creating double stranded breaks This protein is used in PE2, PE3 and PE3b. PAM = NGG",AddGene,132775,Synthetic,Mammalia,True,False,0,
 pSB1C3,plasmid,,,,iGEM registry,pSB1C3,,Escherichia coli,False,True,0,
 CP1028-ABE8e,CDS,Source = Addgene 138492. Added annotations based off prior Liu Lab plasmids (namely Koblan et al. 2018),Cutout of Plasmid,"Evolved circularly permuted (CP) SpCas9 adenine base editor (ABE) from Richter et al. 2020. ABEs convert A:T base pairs to G:C. This editor has had its NLS location and codon frequencies optimized for use in human cells (see Koblan et al. 2018 for more details). CP editors have broader base editing windows than standard editors. The core editing window for this editor is positions 4–11. This editor was also noted to show increased editing beyond the core editing window at positions 9-14, see Figures 2g and S4 from Richter et al., 2018 for details. PAM = NGG",AddGene,138492,Synthetic,Mammalia,True,False,0,
-,,,,,,,,,False,False,0,
+hSaCas9,CDS,Source = Addgene 65770,Cutout of Plasmid,Humanized version of SaCas9. SaCas9 is often used for gene therapy applications due to its relatively small size. This sequence is originally derived from Kleinstiver et al 2015.,AddGene,65770,Synthetic,Mammalia,True,False,0,
 ,,,,,,,,,False,False,0,
 ,,,,,,,,,False,False,0,
 ,,,,,,,,,False,False,0,
