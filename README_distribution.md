@@ -1,6 +1,6 @@
 # Distribution Summary
 
-- 166 samples planned for distribution
+- 167 samples planned for distribution
 
 ### Parts:
 
@@ -43,6 +43,7 @@
 - Cas_variants_dhLwCas13a
 - Cas_variants_dhSpCas9
 - Cas_variants_hLwCas13a
+- Cas_variants_hSaCas9
 - Cas_variants_hSpCas9
 - Chromoproteins_in_vector_BBa_K1033902
 - Chromoproteins_in_vector_BBa_K1033906
