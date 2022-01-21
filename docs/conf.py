@@ -10,9 +10,9 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-# import os
-# import sys
-# sys.path.insert(0, os.path.abspath('.'))
+import os
+import sys
+sys.path.insert(0, os.path.abspath('.'))
 
 
 # -- Project information -----------------------------------------------------
@@ -28,11 +28,18 @@ author = 'To be added'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'sphinx.ext.napoleon',
-    'sphinx.ext.autodoc',
-    'sphinx.ext.viewcode',
-    'sphinx.ext.coverage',
+    'autoapi.extension'
 ]
+
+# See https://sphinx-autoapi.readthedocs.io/en/latest/reference/config.html
+autoapi_dirs = ['../scripts/scriptutils']
+autoapi_options = ['members', 'undoc-members', 'show-inheritance',
+                   'show-module-summary', 'special-members']
+autoapi_python_class_content = 'both'
+autoapi_member_order = 'alphabetical'
+# If true, the current module name will be prepended to all description
+# unit titles (such as .. function::).
+add_module_names = False
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
