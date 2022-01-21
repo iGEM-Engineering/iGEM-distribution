@@ -1,6 +1,6 @@
-# Package: None
+# Package: Fluorescent Reporter Proteins
 
-None
+A collection of fluorescent reporter proteins several of which are recommended by the iGEM Engineering Committee due to their properties (less sprectral overlap for emissions, maturation, etc.)					
 
 ### Summary:
 

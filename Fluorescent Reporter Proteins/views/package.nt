@@ -27,6 +27,7 @@
 <http://parts.igem.org/D1006_sequence> <http://sbols.org/v3#hasNamespace> <http://parts.igem.org> .
 <http://parts.igem.org/D1006_sequence> <http://sbols.org/v3#name> "D1006" .
 <http://parts.igem.org/D1006_sequence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Sequence> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/BasicParts> <http://sbols.org/v3#description> "A collection of fluorescent reporter proteins several of which are recommended by the iGEM Engineering Committee due to their properties (less sprectral overlap for emissions, maturation, etc.)					" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/BasicParts> <http://sbols.org/v3#displayId> "BasicParts" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/BasicParts> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/BasicParts> <http://sbols.org/v3#member> <http://parts.igem.org/D1005> .
@@ -48,6 +49,7 @@
 <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/BasicParts> <http://sbols.org/v3#member> <https://synbiohub.org/public/igem/BBa_K864100> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/BasicParts> <http://sbols.org/v3#member> <https://synbiohub.org/public/igem/pSB1C3> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/BasicParts> <http://sbols.org/v3#member> <https://www.ncbi.nlm.nih.gov/nuccore/KY484012> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/BasicParts> <http://sbols.org/v3#name> "Fluorescent Reporter Proteins" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/BasicParts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Collection> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/BuildProducts> <http://sbols.org/v3#displayId> "BuildProducts" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/BuildProducts> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins> .
@@ -67,13 +69,16 @@
 <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/BuildProducts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/Fluorescent_Proteins_in_vector_Fluorescent_Proteins_in_vector_ins_mKate2> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/BuildProducts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/Fluorescent_Proteins_in_vector_Fluorescent_Proteins_in_vector_ins_mScarlet> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/BuildProducts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/CompositeParts> <http://sbols.org/v3#description> "A collection of fluorescent reporter proteins several of which are recommended by the iGEM Engineering Committee due to their properties (less sprectral overlap for emissions, maturation, etc.)					" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/CompositeParts> <http://sbols.org/v3#displayId> "CompositeParts" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/CompositeParts> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/CompositeParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/Fluorescent_Proteins_in_vector_ins> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/CompositeParts> <http://sbols.org/v3#name> "Fluorescent Reporter Proteins" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/CompositeParts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Collection> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/FinalProducts> <http://sbols.org/v3#description> "Final products desired for actual fabrication" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/FinalProducts> <http://sbols.org/v3#displayId> "FinalProducts" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/FinalProducts> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/FinalProducts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/Fluorescent_Proteins_in_vector> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/FinalProducts> <http://sbols.org/v3#name> "Final Products" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/FinalProducts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Collection> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/Fluorescent_Proteins_in_vector/VariableFeature1> <http://sbols.org/v3#cardinality> <http://sbols.org/v3#one> .
@@ -1681,6 +1686,7 @@
 <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/LinearDNAProducts> <http://sbols.org/v3#description> "Linear DNA constructs to be fabricated" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/LinearDNAProducts> <http://sbols.org/v3#displayId> "LinearDNAProducts" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/LinearDNAProducts> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/LinearDNAProducts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/Fluorescent_Proteins_in_vector_ins> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/LinearDNAProducts> <http://sbols.org/v3#name> "Linear DNA Products" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/LinearDNAProducts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Collection> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/mKate2/annotation0/range> <http://sbols.org/v3#displayId> "range" .
