@@ -6981,6 +6981,81 @@ ORIGIN
      2161 tcatgacatt aacctataaa aataggcgta tcacgaggca gaatttcaga taaaaaaaat
      2221 ccttagcttt cgctaaggat gatttctgga attcgcggcc gcttctagag
 //
+LOCUS       Promoters_BBa_R         2125 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  .
+ACCESSION   Promoters_BBa_R0011
+VERSION     Promoters_BBa_R0011
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+     misc_feature    56..76
+                     /label="BioBrick suffix"
+     stem_loop       77..148
+                     /label="E. coli his operon terminator"
+     stem_loop       85..119
+                     /label="Stem loop"
+     primer_bind     212..231
+                     /label="Verification reverse (VR) primer binding site"
+     misc_feature    316..930
+                     /label="rep (pMB1)"
+     misc_feature    331
+                     /label="ORI"
+     stem_loop       1097..1202
+                     /label="T0 terminator"
+     CDS             1215..1874
+                     /label="Chloramphenicol resistance"
+     primer_bind     1988..2007
+                     /label="Verification forward (VF2) primer binding site"
+     stem_loop       2064..2067
+                     /label="end of terminator"
+     stem_loop       2077..2096
+                     /label="Stem loop"
+     misc_feature    2106..2127
+                     /label="BioBrick prefix"
+     misc_feature    56..2125
+                     /label="pSB1C3"
+     misc_feature    1..55
+                     /label="pL-lac0-1"
+ORIGIN
+        1 aattgtgagc ggataacaat tgacattgtg agcggataac aagatactga gcacatacta
+       61 gtagcggccg ctgcagtccg gcaaaaaagg gcaaggtgtc accaccctgc cctttttctt
+      121 taaaaccgaa aagattactt cgcgttatgc aggcttcctc gctcactgac tcgctgcgct
+      181 cggtcgttcg gctgcggcga gcggtatcag ctcactcaaa ggcggtaata cggttatcca
+      241 cagaatcagg ggataacgca ggaaagaaca tgtgagcaaa aggccagcaa aaggccagga
+      301 accgtaaaaa ggccgcgttg ctggcgtttt tccacaggct ccgcccccct gacgagcatc
+      361 acaaaaatcg acgctcaagt cagaggtggc gaaacccgac aggactataa agataccagg
+      421 cgtttccccc tggaagctcc ctcgtgcgct ctcctgttcc gaccctgccg cttaccggat
+      481 acctgtccgc ctttctccct tcgggaagcg tggcgctttc tcatagctca cgctgtaggt
+      541 atctcagttc ggtgtaggtc gttcgctcca agctgggctg tgtgcacgaa ccccccgttc
+      601 agcccgaccg ctgcgcctta tccggtaact atcgtcttga gtccaacccg gtaagacacg
+      661 acttatcgcc actggcagca gccactggta acaggattag cagagcgagg tatgtaggcg
+      721 gtgctacaga gttcttgaag tggtggccta actacggcta cactagaaga acagtatttg
+      781 gtatctgcgc tctgctgaag ccagttacct tcggaaaaag agttggtagc tcttgatccg
+      841 gcaaacaaac caccgctggt agcggtggtt tttttgtttg caagcagcag attacgcgca
+      901 gaaaaaaagg atctcaagaa gatcctttga tcttttctac ggggtctgac gctcagtgga
+      961 acgaaaactc acgttaaggg attttggtca tgagattatc aaaaaggatc ttcacctaga
+     1021 tccttttaaa ttaaaaatga agttttaaat caatctaaag tatatatgag taaacttggt
+     1081 ctgacagctc gaggcttgga ttctcaccaa taaaaaacgc ccggcggcaa ccgagcgttc
+     1141 tgaacaaatc cagatggagt tctgaggtca ttactggatc tatcaacagg agtccaagcg
+     1201 agctcgatat caaattacgc cccgccctgc cactcatcgc agtactgttg taattcatta
+     1261 agcattctgc cgacatggaa gccatcacaa acggcatgat gaacctgaat cgccagcggc
+     1321 atcagcacct tgtcgccttg cgtataatat ttgcccatgg tgaaaacggg ggcgaagaag
+     1381 ttgtccatat tggccacgtt taaatcaaaa ctggtgaaac tcacccaggg attggctgag
+     1441 acgaaaaaca tattctcaat aaacccttta gggaaatagg ccaggttttc accgtaacac
+     1501 gccacatctt gcgaatatat gtgtagaaac tgccggaaat cgtcgtggta ttcactccag
+     1561 agcgatgaaa acgtttcagt ttgctcatgg aaaacggtgt aacaagggtg aacactatcc
+     1621 catatcacca gctcaccgtc tttcattgcc atacgaaatt ccggatgagc attcatcagg
+     1681 cgggcaagaa tgtgaataaa ggccggataa aacttgtgct tatttttctt tacggtcttt
+     1741 aaaaaggccg taatatccag ctgaacggtc tggttatagg tacattgagc aactgactga
+     1801 aatgcctcaa aatgttcttt acgatgccat tgggatatat caacggtggt atatccagtg
+     1861 atttttttct ccattttagc ttccttagct cctgaaaatc tcgataactc aaaaaatacg
+     1921 cccggtagtg atcttatttc attatggtga aagttggaac ctcttacgtg cccgatcaac
+     1981 tcgagtgcca cctgacgtct aagaaaccat tattatcatg acattaacct ataaaaatag
+     2041 gcgtatcacg aggcagaatt tcagataaaa aaaatcctta gctttcgcta aggatgattt
+     2101 ctggaattcg cggccgcttc tagag
+//
 LOCUS       Promoters_BBa_R         2124 bp    DNA     linear   UNK 01-JAN-1980
 DEFINITION  .
 ACCESSION   Promoters_BBa_R0040
@@ -7480,10 +7555,10 @@ FEATURES             Location/Qualifiers
                      /label="BioBrick prefix"
      misc_feature    64..2133
                      /label="pSB1C3"
-     promoter        1..63
+     misc_feature    1..63
                      /label="pBetI"
 ORIGIN
-        1 agcgcgggtg agagggattc gttaccaatt gacaattgat tggacgttca atataatgct
+        1 agcgcgggtg agagggattc gttaccaata gacaattgat tggacgttca atataatgct
        61 agctactagt agcggccgct gcagtccggc aaaaaagggc aaggtgtcac caccctgccc
       121 tttttcttta aaaccgaaaa gattacttcg cgttatgcag gcttcctcgc tcactgactc
       181 gctgcgctcg gtcgttcggc tgcggcgagc ggtatcagct cactcaaagg cggtaatacg
