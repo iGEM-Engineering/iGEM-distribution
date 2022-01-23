@@ -4,7 +4,7 @@ This package collects a few of the most common bacterial inducer parts and compo
 
 ### Summary:
 
-- 37 parts _<span style="color:red">1 missing sequences</span>_
+- 37 parts
     - CDS: 18
     - promoter: 12
     -  _<span style="color:red">unspecified role: 7</span>_
@@ -20,7 +20,7 @@ This package collects a few of the most common bacterial inducer parts and compo
 - BBa_K3317006 in pSB1C3
 - BBa_K3317007 in pSB1C3
 - BBa_K3424010 in pSB1C3
-- BBa_R0011: pL-lac0-1 (promoter) in pSB1C3 _<span style="color:red">missing sequence</span>_
+- BBa_R0011: pL-lac0-1 (promoter) in pSB1C3
 - AcuR_AM (CDS) in pSB1C3
 - AraC (CDS) in pSB1C3
 - AraC_AM_AraE (CDS) in pSB1C3
