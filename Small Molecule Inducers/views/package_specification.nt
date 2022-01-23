@@ -48,13 +48,19 @@
 <http://parts.igem.org/BBa_K3424010> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000167> .
 <http://parts.igem.org/BBa_K3424010> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
 <http://parts.igem.org/BBa_K3424010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
-<http://parts.igem.org/BBa_R0011> <http://sbols.org/v3#description> "Target for LacI\nStrong LacI and Lambda-CI repressible promoter. Promoter was originally derived by hybridizing the pL promoter from lambda phage with lacO sites." .
+<http://parts.igem.org/BBa_R0011> <http://sbols.org/v3#description> "Target for LacI\nStrong LacI and Lambda-CI repressible promoter. Promoter was originally derived by hybridizing the pL promoter from lambda phage with lacO sites. Originally created in Elowitz et al. 2000 represilator paper" .
 <http://parts.igem.org/BBa_R0011> <http://sbols.org/v3#displayId> "BBa_R0011" .
 <http://parts.igem.org/BBa_R0011> <http://sbols.org/v3#hasNamespace> <http://parts.igem.org> .
+<http://parts.igem.org/BBa_R0011> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/BBa_R0011_sequence> .
 <http://parts.igem.org/BBa_R0011> <http://sbols.org/v3#name> "pL-lac0-1" .
 <http://parts.igem.org/BBa_R0011> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000167> .
 <http://parts.igem.org/BBa_R0011> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
 <http://parts.igem.org/BBa_R0011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<http://parts.igem.org/BBa_R0011_sequence> <http://sbols.org/v3#displayId> "BBa_R0011_sequence" .
+<http://parts.igem.org/BBa_R0011_sequence> <http://sbols.org/v3#elements> "AATTGTGAGCGGATAACAATTGACATTGTGAGCGGATAACAAGATACTGAGCACA" .
+<http://parts.igem.org/BBa_R0011_sequence> <http://sbols.org/v3#encoding> <https://identifiers.org/edam:format_1207> .
+<http://parts.igem.org/BBa_R0011_sequence> <http://sbols.org/v3#hasNamespace> <http://parts.igem.org> .
+<http://parts.igem.org/BBa_R0011_sequence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Sequence> .
 <http://parts.igem.org/C0012> <http://sbols.org/v3#description> "Repressor induced by IPTG; Note that C0012 also includes an LVA tag and a barcode" .
 <http://parts.igem.org/C0012> <http://sbols.org/v3#displayId> "C0012" .
 <http://parts.igem.org/C0012> <http://sbols.org/v3#hasNamespace> <http://parts.igem.org> .
