@@ -123,6 +123,7 @@
 - Promoters_BBa_K3317007
 - Promoters_BBa_K3424010
 - Promoters_BBa_R0010
+- Promoters_BBa_R0011
 - Promoters_BBa_R0040
 - Promoters_pAcu
 - Promoters_pBAD
