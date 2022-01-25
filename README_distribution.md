@@ -1,6 +1,6 @@
 # Distribution Summary
 
-- 180 samples planned for distribution
+- 188 samples planned for distribution
 
 ### Parts:
 
