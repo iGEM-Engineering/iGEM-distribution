@@ -1,6 +1,6 @@
 # Distribution Summary
 
-- 167 samples planned for distribution
+- 180 samples planned for distribution
 
 ### Parts:
 
@@ -84,6 +84,26 @@
 - PETase_library_PETase_EcCO_WT
 - PETase_library_PETase_S238F_W159H
 - PETase_library_PETase_WT
+- RBSs_in_vector_BBa_B0030
+- RBSs_in_vector_BBa_B0031
+- RBSs_in_vector_BBa_B0032
+- RBSs_in_vector_BBa_B0033
+- RBSs_in_vector_BBa_B0034
+- RBSs_in_vector_BBa_J15001
+- RBSs_in_vector_BBa_J176012
+- RBSs_in_vector_BBa_J61100
+- RBSs_in_vector_BBa_J61101
+- RBSs_in_vector_BBa_K1045010
+- RBSs_in_vector_BBa_K1362090
+- RBSs_in_vector_BBa_K143021
+- RBSs_in_vector_BBa_K165002
+- RBSs_in_vector_BBa_K2066527
+- RBSs_in_vector_BBa_Z0261
+- RBSs_in_vector_BBa_Z0262
+- RBSs_in_vector_K2406216
+- RBSs_in_vector_K2656011
+- RBSs_in_vector_K2933024
+- RBSs_in_vector_K2963006
 - Coding_sequences_AcuR_AM
 - Coding_sequences_AraC
 - Coding_sequences_AraC_AM_AraE
@@ -111,6 +131,7 @@
 - Promoters_BBa_K3317007
 - Promoters_BBa_K3424010
 - Promoters_BBa_R0010
+- Promoters_BBa_R0011
 - Promoters_BBa_R0040
 - Promoters_pAcu
 - Promoters_pBAD
