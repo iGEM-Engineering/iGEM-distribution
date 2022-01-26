@@ -5,21 +5,20 @@ This package collects a few of the most common bacterial inducer parts and compo
 ### Summary:
 
 - 37 parts
-    - CDS: 18
-    - promoter: 12
-    -  _<span style="color:red">unspecified role: 7</span>_
+    - CDS: 20
+    - promoter: 17
 - 1 vectors
 - 37 samples for distribution
 
 ### Parts:
 
-- BBa_K2680520 in pSB1C3
-- BBa_K2680523 in pSB1C3
-- BBa_K2680537 in pSB1C3
-- BBa_K3317004 in pSB1C3
-- BBa_K3317006 in pSB1C3
-- BBa_K3317007 in pSB1C3
-- BBa_K3424010 in pSB1C3
+- BBa_K2680520 (promoter) in pSB1C3
+- BBa_K2680523 (promoter) in pSB1C3
+- BBa_K2680537 (CDS) in pSB1C3
+- BBa_K3317004 (CDS) in pSB1C3
+- BBa_K3317006 (promoter) in pSB1C3
+- BBa_K3317007 (promoter) in pSB1C3
+- BBa_K3424010 (promoter) in pSB1C3
 - BBa_R0011: pL-lac0-1 (promoter) in pSB1C3
 - AcuR_AM (CDS) in pSB1C3
 - AraC (CDS) in pSB1C3

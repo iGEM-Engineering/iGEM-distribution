@@ -6,15 +6,15 @@ A collection of fluorescent reporter proteins several of which are recommended b
 
 - 19 parts
     - CDS: 7
+    - designed_sequence: 2
     - engineered_region: 10
-    -  _<span style="color:red">unspecified role: 2</span>_
 - 0 vectors
 - 15 samples for distribution _<span style="color:red">1 parts not included</span>_
 
 ### Parts:
 
-- D1005 in 
-- D1006 in 
+- D1005 (designed_sequence) in 
+- D1006 (designed_sequence) in 
 - GFPmut3 (CDS) in 
 - mKate2 (engineered_region) in 
 - mRFP1 (engineered_region) _<span style="color:red">not included in distribution</span>_
