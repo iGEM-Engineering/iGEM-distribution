@@ -1,6 +1,6 @@
 # Distribution Summary
 
-- 159 samples planned for distribution
+- 188 samples planned for distribution
 
 ### Parts:
 
@@ -28,14 +28,22 @@
 - Anderson_Promoters_in_vector_BBa_J23117
 - Anderson_Promoters_in_vector_BBa_J23118
 - Anderson_Promoters_in_vector_BBa_J23119
+- Cas_variants_ABE8_20_m
+- Cas_variants_ABE8e_TadA_8e_V106W
+- Cas_variants_ABEmax
+- Cas_variants_BE4max
+- Cas_variants_CP1028_ABE8e
 - Cas_variants_K2558003
 - Cas_variants_LbCpf1_or_LbCas12a
+- Cas_variants_PE2
+- Cas_variants_SaABE8e_TadA_8e_V106W
 - Cas_variants_SpCas9
 - Cas_variants_dLbCpf1_or_dLbCas12a
 - Cas_variants_dSpCas9
 - Cas_variants_dhLwCas13a
 - Cas_variants_dhSpCas9
 - Cas_variants_hLwCas13a
+- Cas_variants_hSaCas9
 - Cas_variants_hSpCas9
 - Chromoproteins_in_vector_BBa_K1033902
 - Chromoproteins_in_vector_BBa_K1033906
@@ -76,6 +84,26 @@
 - PETase_library_PETase_EcCO_WT
 - PETase_library_PETase_S238F_W159H
 - PETase_library_PETase_WT
+- RBSs_in_vector_BBa_B0030
+- RBSs_in_vector_BBa_B0031
+- RBSs_in_vector_BBa_B0032
+- RBSs_in_vector_BBa_B0033
+- RBSs_in_vector_BBa_B0034
+- RBSs_in_vector_BBa_J15001
+- RBSs_in_vector_BBa_J176012
+- RBSs_in_vector_BBa_J61100
+- RBSs_in_vector_BBa_J61101
+- RBSs_in_vector_BBa_K1045010
+- RBSs_in_vector_BBa_K1362090
+- RBSs_in_vector_BBa_K143021
+- RBSs_in_vector_BBa_K165002
+- RBSs_in_vector_BBa_K2066527
+- RBSs_in_vector_BBa_Z0261
+- RBSs_in_vector_BBa_Z0262
+- RBSs_in_vector_K2406216
+- RBSs_in_vector_K2656011
+- RBSs_in_vector_K2933024
+- RBSs_in_vector_K2963006
 - Coding_sequences_AcuR_AM
 - Coding_sequences_AraC
 - Coding_sequences_AraC_AM_AraE
@@ -103,6 +131,7 @@
 - Promoters_BBa_K3317007
 - Promoters_BBa_K3424010
 - Promoters_BBa_R0010
+- Promoters_BBa_R0011
 - Promoters_BBa_R0040
 - Promoters_pAcu
 - Promoters_pBAD
