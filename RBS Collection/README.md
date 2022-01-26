@@ -5,17 +5,16 @@ Collection of most used RBSs
 ### Summary:
 
 - 20 parts
-    - ribosome_entry_site: 16
-    -  _<span style="color:red">unspecified role: 4</span>_
+    - ribosome_entry_site: 20
 - 1 vectors
 - 20 samples for distribution
 
 ### Parts:
 
-- K2406216 in pSB1C3
-- K2656011 in pSB1C3
-- K2933024 in pSB1C3
-- K2963006 in pSB1C3
+- K2406216 (ribosome_entry_site) in pSB1C3
+- K2656011 (ribosome_entry_site) in pSB1C3
+- K2933024 (ribosome_entry_site) in pSB1C3
+- K2963006 (ribosome_entry_site) in pSB1C3
 - BBa_B0030 (ribosome_entry_site) in pSB1C3
 - BBa_B0031 (ribosome_entry_site) in pSB1C3
 - BBa_B0032 (ribosome_entry_site) in pSB1C3

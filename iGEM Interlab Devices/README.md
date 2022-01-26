@@ -5,20 +5,19 @@ A collection of the devices used in the 2018 iGEM Interlab (https://doi.org/10.1
 ### Summary:
 
 - 8 parts
-    - engineered_region: 1
+    - engineered_region: 7
     - promoter: 1
-    -  _<span style="color:red">unspecified role: 6</span>_
 - 1 vectors
 - 8 samples for distribution
 
 ### Parts:
 
-- J364000 in pSB1C3
-- J364001 in pSB1C3
-- J364002 in pSB1C3
-- J364007 in pSB1C3
-- J364008 in pSB1C3
-- J364009 in pSB1C3
+- J364000 (engineered_region) in pSB1C3
+- J364001 (engineered_region) in pSB1C3
+- J364002 (engineered_region) in pSB1C3
+- J364007 (engineered_region) in pSB1C3
+- J364008 (engineered_region) in pSB1C3
+- J364009 (engineered_region) in pSB1C3
 - BBa_I20270 (engineered_region) in pSB1C3
 - BBa_R0040: p(tetR) (promoter) in pSB1C3
 
