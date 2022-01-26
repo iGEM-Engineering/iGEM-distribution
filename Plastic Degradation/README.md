@@ -5,24 +5,23 @@ Plastic degradation enzymes, specifically PETase from papers (Yoshida et al. 201
 ### Summary:
 
 - 12 parts _<span style="color:red">2 missing sequences</span>_
-    - CDS: 2
-    -  _<span style="color:red">unspecified role: 10</span>_
+    - CDS: 12
 - 1 vectors
 - 12 samples for distribution
 
 ### Parts:
 
-- K2910000 in pSB1C3
-- K2910002 in pSB1C3
-- K2910003 in pSB1C3
-- K3039002 in pSB1C3
-- K3039003 in pSB1C3
-- K3039005 in pSB1C3
-- K3039006 in pSB1C3
-- K3039017 in pSB1C3
-- PETase_EcCO_WT in pSB1C3
+- K2910000 (CDS) in pSB1C3
+- K2910002 (CDS) in pSB1C3
+- K2910003 (CDS) in pSB1C3
+- K3039002 (CDS) in pSB1C3
+- K3039003 (CDS) in pSB1C3
+- K3039005 (CDS) in pSB1C3
+- K3039006 (CDS) in pSB1C3
+- K3039017 (CDS) in pSB1C3
+- PETase_EcCO_WT (CDS) in pSB1C3
 - PETase_S238F_W159H (CDS) in pSB1C3 _<span style="color:red">missing sequence</span>_
-- PETase_WT in pSB1C3
+- PETase_WT (CDS) in pSB1C3
 - BBa_K2010999 (CDS) in pSB1C3 _<span style="color:red">missing sequence</span>_
 
 _Note: automatically generated from package Excel and sequence files; do not edit_
