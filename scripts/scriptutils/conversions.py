@@ -121,7 +121,7 @@ def convert2to3(sbol2_doc: Union[str, sbol2.Document], namespaces=None) -> sbol3
     encoding_remapping = {
         sbol2.SBOL_ENCODING_IUPAC: sbol3.IUPAC_DNA_ENCODING,
         sbol2.SBOL_ENCODING_IUPAC_PROTEIN: sbol3.IUPAC_PROTEIN_ENCODING,
-        sbol3.SMILES_ENCODING: sbol3.SMILES_ENCODING
+        sbol2.SBOL_ENCODING_SMILES: sbol3.SMILES_ENCODING
     }
     for s in (o for o in doc.objects if isinstance(o, sbol3.Sequence)):
         if s.encoding in encoding_remapping:
@@ -136,6 +136,15 @@ def convert2to3(sbol2_doc: Union[str, sbol2.Document], namespaces=None) -> sbol3
     }
     for c in (o for o in doc.objects if isinstance(o, sbol3.Component)):
         c.types = [(type_remapping[t] if t in type_remapping else t) for t in c.types]
+    # TODO: remove workaround after conversion error fixed in https://github.com/sboltools/sbolgraph/issues/17
+    # remap orientation types:
+    orientation_remapping = {
+        sbol2.SBOL_ORIENTATION_INLINE: sbol3.SBOL_INLINE,
+        sbol2.SBOL_ORIENTATION_REVERSE_COMPLEMENT: sbol3.SBOL_REVERSE_COMPLEMENT
+    }
+    for c in (o for o in doc.objects if isinstance(o, sbol3.Location)):
+        if c.orientation in orientation_remapping:
+            c.orientation = orientation_remapping[c.orientation]
 
     return doc
 
@@ -192,7 +201,7 @@ def convert3to2(doc3: sbol3.Document) -> sbol2.Document:
     encoding_remapping = {
         sbol3.IUPAC_DNA_ENCODING: sbol2.SBOL_ENCODING_IUPAC,
         sbol3.IUPAC_PROTEIN_ENCODING: sbol2.SBOL_ENCODING_IUPAC_PROTEIN,
-        sbol3.SMILES_ENCODING: sbol3.SMILES_ENCODING
+        sbol3.SMILES_ENCODING: sbol2.SBOL_ENCODING_SMILES
     }
     for s in (o for o in doc3.objects if isinstance(o, sbol3.Sequence)):
         if s.encoding in encoding_remapping:
@@ -207,6 +216,16 @@ def convert3to2(doc3: sbol3.Document) -> sbol2.Document:
     }
     for c in (o for o in doc3.objects if isinstance(o, sbol3.Component)):
         c.types = [(type_remapping[t] if t in type_remapping else t) for t in c.types]
+    # remap orientation types:
+    orientation_remapping = {
+        sbol3.SBOL_INLINE: sbol2.SBOL_ORIENTATION_INLINE,
+        sbol3.SBOL_REVERSE_COMPLEMENT: sbol2.SBOL_ORIENTATION_REVERSE_COMPLEMENT
+    }
+    def change_if_location(o):
+        if isinstance(o, sbol3.Location):
+            if o.orientation in orientation_remapping:
+                o.orientation = orientation_remapping[o.orientation]
+    doc3.traverse(change_if_location)
 
     # Write to an RDF-XML temp file to run through the converter:
     sbol3_path = tempfile.mkstemp(suffix='.xml')[1]
@@ -228,6 +247,9 @@ def convert3to2(doc3: sbol3.Document) -> sbol2.Document:
         for sa in c.sequenceAnnotations:
             for loc in sa.locations:
                 loc.sequence = None  # remove optional sequences, per https://github.com/SynBioDex/libSBOLj/issues/621
+                # TODO: remove workaround after conversion error fixed in https://github.com/sboltools/sbolgraph/issues/16
+                if loc.orientation in orientation_remapping:
+                    loc.orientation = orientation_remapping[loc.orientation]
     doc2.validate()
     return doc2
 
