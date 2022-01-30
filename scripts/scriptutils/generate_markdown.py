@@ -109,7 +109,7 @@ def generate_package_summary(package: str, doc: sbol3.Document):
             if p in insert_vectors:
                 f.write(f' in {", ".join(sorted(insert_vectors[p]))}')
             if p.identity in missing_seq:
-                f.write(hilite(f'missing sequence, esnure file name in package directory is identical to Data Source ID in Excel/Parts and Devices spreadsheet.'))
+                f.write(hilite(f'missing sequence'))
             if p.identity in unused_parts:
                 f.write(hilite(f'not included in distribution'))
             f.write('\n')
