@@ -20,8 +20,8 @@ Plastic degradation enzymes, specifically PETase from papers (Yoshida et al. 201
 - K3039006 (CDS) in pSB1C3
 - K3039017 (CDS) in pSB1C3
 - PETase_EcCO_WT (CDS) in pSB1C3
-- PETase_S238F_W159H (CDS) in pSB1C3 _<span style="color:red">missing sequence</span>_
+- PETase_S238F_W159H (CDS) in pSB1C3 _<span style="color:red">missing sequence, ensure file name matches Data Source ID from Excel File</span>_
 - PETase_WT (CDS) in pSB1C3
-- BBa_K2010999 (CDS) in pSB1C3 _<span style="color:red">missing sequence</span>_
+- BBa_K2010999 (CDS) in pSB1C3 _<span style="color:red">missing sequence, ensure file name matches Data Source ID from Excel File</span>_
 
 _Note: automatically generated from package Excel and sequence files; do not edit_

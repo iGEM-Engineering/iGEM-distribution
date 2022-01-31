@@ -11,9 +11,9 @@ Collection of 2A peptides for the construction of polycistronic expression casse
 
 ### Parts:
 
-- E2A (2A_self_cleaving_peptide_region) in pSB1C3 _<span style="color:red">missing sequence</span>_
-- F2A (2A_self_cleaving_peptide_region) in pSB1C3 _<span style="color:red">missing sequence</span>_
-- P2A (2A_self_cleaving_peptide_region) in pSB1C3 _<span style="color:red">missing sequence</span>_
-- T2A (2A_self_cleaving_peptide_region) in pSB1C3 _<span style="color:red">missing sequence</span>_
+- E2A (2A_self_cleaving_peptide_region) in pSB1C3 _<span style="color:red">missing sequence, ensure file name matches Data Source ID from Excel File</span>_
+- F2A (2A_self_cleaving_peptide_region) in pSB1C3 _<span style="color:red">missing sequence, ensure file name matches Data Source ID from Excel File</span>_
+- P2A (2A_self_cleaving_peptide_region) in pSB1C3 _<span style="color:red">missing sequence, ensure file name matches Data Source ID from Excel File</span>_
+- T2A (2A_self_cleaving_peptide_region) in pSB1C3 _<span style="color:red">missing sequence, ensure file name matches Data Source ID from Excel File</span>_
 
 _Note: automatically generated from package Excel and sequence files; do not edit_
