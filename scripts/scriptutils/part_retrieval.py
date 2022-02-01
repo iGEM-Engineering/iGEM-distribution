@@ -84,7 +84,7 @@ class PackageInventory:
         self.files.add(import_file)
         # record display_id to URI mapping
         # TODO: update after resolution of https://github.com/SynBioDex/pySBOL3/issues/310
-        import_file.id_to_uri[sbol3.Identified._extract_display_id(uri)] = uri
+        import_file.id_to_uri[sbol3.Identified._extract_display_id(uri)] = sbol3.string_to_display_id(uri)
         # add the entry for the URI
         self.locations[uri] = import_file
         # add URI and all aliases to alias mapping
@@ -356,7 +356,6 @@ def package_parts_inventory(package: str, targets: List[str] = None) -> PackageI
             import_file = ImportFile(file, file_type='FASTA', namespace=prefix)
             for record in SeqIO.parse(f, "fasta"):
                 identity = id_map[record.id] if record.id in id_map else accession_to_sbol_uri(record.id, prefix)
-                identity = sbol3.string_to_display_id(identity)
                 inventory.add(import_file, identity)
 
     for file in sorted(itertools.chain(*(glob.glob(os.path.join(package, f'*{ext}')) for ext in GENETIC_DESIGN_FILE_TYPES['GenBank']))):
@@ -367,11 +366,9 @@ def package_parts_inventory(package: str, targets: List[str] = None) -> PackageI
             for record in SeqIO.parse(f, "gb"):
                 if record.name in id_map:
                     identity = id_map[record.name]
-                    identity = sbol3.string_to_display_id(identity)
                     import_file.namespace = identity.removesuffix(f'/{record.name}')
                 else:
                     identity = accession_to_sbol_uri(record.name, prefix)
-                    identity = sbol3.string_to_display_id(identity)
                 inventory.add(import_file, identity, accession_to_sbol_uri(record.id, prefix))
 
     # import SBOL3
