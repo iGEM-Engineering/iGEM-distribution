@@ -399,7 +399,7 @@ def import_parts(package: str) -> list[str]:
     print(f'Package specification contains {len(package_parts)} parts')
 
     # Then collect the parts in the package directory
-    inventory = package_parts_inventory(package, retrieval_uri.keys())
+    inventory = package_parts_inventory(package, sbol3.string_to_display_id(retrieval_uri.keys()))
     print(f'Found {len(inventory.locations)} parts cached in package design files')
 
     # Compare the parts lists to each other to figure out which elements are missing
