@@ -356,6 +356,7 @@ def package_parts_inventory(package: str, targets: List[str] = None) -> PackageI
             import_file = ImportFile(file, file_type='FASTA', namespace=prefix)
             for record in SeqIO.parse(f, "fasta"):
                 identity = id_map[record.id] if record.id in id_map else accession_to_sbol_uri(record.id, prefix)
+                identity = sbol3.string_to_display_id(identity)
                 inventory.add(import_file, identity)
 
     for file in sorted(itertools.chain(*(glob.glob(os.path.join(package, f'*{ext}')) for ext in GENETIC_DESIGN_FILE_TYPES['GenBank']))):
@@ -366,9 +367,11 @@ def package_parts_inventory(package: str, targets: List[str] = None) -> PackageI
             for record in SeqIO.parse(f, "gb"):
                 if record.name in id_map:
                     identity = id_map[record.name]
+                    identity = sbol3.string_to_display_id(identity)
                     import_file.namespace = identity.removesuffix(f'/{record.name}')
                 else:
                     identity = accession_to_sbol_uri(record.name, prefix)
+                    identity = sbol3.string_to_display_id(identity)
                 inventory.add(import_file, identity, accession_to_sbol_uri(record.id, prefix))
 
     # import SBOL3
@@ -403,9 +406,9 @@ def import_parts(package: str) -> list[str]:
     print(f'Found {len(inventory.locations)} parts cached in package design files')
 
     # Compare the parts lists to each other to figure out which elements are missing
-    package_part_ids = {sbol3.string_to_display_id(p.identity) for p in package_parts}
-    package_sequence_ids = {sbol3.string_to_display_id(p.identity) for p in package_parts if p.sequences}
-    package_no_sequence_ids = {sbol3.string_to_display_id(p.identity) for p in package_parts if not p.sequences}
+    package_part_ids = {p.identity for p in package_parts}
+    package_sequence_ids = {p.identity for p in package_parts if p.sequences}
+    package_no_sequence_ids = {p.identity for p in package_parts if not p.sequences}
     inventory_part_ids_and_aliases = set(inventory.aliases.keys())
     both = package_part_ids & inventory_part_ids_and_aliases
     # note: package_only list isn't actually needed
