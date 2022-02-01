@@ -406,7 +406,7 @@ def import_parts(package: str) -> list[str]:
     package_part_ids = {sbol3.string_to_display_id(p.identity) for p in package_parts}
     package_sequence_ids = {sbol3.string_to_display_id(p.identity) for p in package_parts if p.sequences}
     package_no_sequence_ids = {sbol3.string_to_display_id(p.identity) for p in package_parts if not p.sequences}
-    inventory_part_ids_and_aliases = set(sbol3.string_to_display_id(inventory.aliases.keys()))
+    inventory_part_ids_and_aliases = set(inventory.aliases.keys())
     both = package_part_ids & inventory_part_ids_and_aliases
     # note: package_only list isn't actually needed
     inventory_only = set(inventory.locations.keys()) - {inventory.aliases[i] for i in both}
