@@ -84,7 +84,7 @@ class PackageInventory:
         self.files.add(import_file)
         # record display_id to URI mapping
         # TODO: update after resolution of https://github.com/SynBioDex/pySBOL3/issues/310
-        import_file.id_to_uri[sbol3.Identified._extract_display_id(uri)] = sbol3.string_to_display_id(uri)
+        import_file.id_to_uri[sbol3.Identified._extract_display_id(uri)] = uri
         # add the entry for the URI
         self.locations[uri] = import_file
         # add URI and all aliases to alias mapping
