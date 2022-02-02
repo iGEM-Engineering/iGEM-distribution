@@ -394,22 +394,22 @@ def import_parts(package: str) -> list[str]:
     package_spec = sbol3.Document()
     package_spec.read(os.path.join(package, EXPORT_DIRECTORY, SBOL_EXPORT_NAME))
     package_parts = [p.lookup() for p in package_spec.find(BASIC_PARTS_COLLECTION).members]
-    retrieval_uri = {p.identity: (p.derived_from[0] if p.derived_from else p.identity) for p in package_parts}
-    retrieval_uri_clean_keys = []
-    for key in retrieval_uri.keys():
-        sbol3.string_to_display_id(key)
-        retrieval_uri_clean_keys.append(key)
+    package_parts_clean = []
+    for p in package_parts:
+        sbol-utilities.helper_functions.url_to_identity(p)
+        package_parts_clean.append(p)
+    retrieval_uri = {p.identity: (p.derived_from[0] if p.derived_from else p.identity) for p in package_parts_clean}
 
-    print(f'Package specification contains {len(package_parts)} parts')
+    print(f'Package specification contains {len(package_parts_clean)} parts')
 
     # Then collect the parts in the package directory
-    inventory = package_parts_inventory(package, retrieval_uri_clean_keys)
+    inventory = package_parts_inventory(package, retrieval_uri.keys())
     print(f'Found {len(inventory.locations)} parts cached in package design files')
 
     # Compare the parts lists to each other to figure out which elements are missing
-    package_part_ids = {p.identity for p in package_parts}
-    package_sequence_ids = {p.identity for p in package_parts if p.sequences}
-    package_no_sequence_ids = {p.identity for p in package_parts if not p.sequences}
+    package_part_ids = {p.identity for p in package_parts_clean}
+    package_sequence_ids = {p.identity for p in package_parts_clean if p.sequences}
+    package_no_sequence_ids = {p.identity for p in package_parts_clean if not p.sequences}
     inventory_part_ids_and_aliases = set(inventory.aliases.keys())
     both = package_part_ids & inventory_part_ids_and_aliases
     # note: package_only list isn't actually needed
