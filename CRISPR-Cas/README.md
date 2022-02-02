@@ -11,21 +11,20 @@ Their associated guide RNA scaffold sequences as well as the position of the spa
 ### Summary:
 
 - 17 parts _<span style="color:red">11 missing sequences</span>_
-    - CDS: 12
-    - engineered_region: 5
+    - CDS: 17
 - 1 vectors
 - 17 samples for distribution
 
 ### Parts:
 
 - K2558003 (CDS) in pSB1C3
-- ABE8_20_m (engineered_region) in pSB1C3
+- ABE8_20_m (CDS) in pSB1C3
 - ABE8e_TadA_8e_V106W (CDS) in pSB1C3 _<span style="color:red">missing sequence</span>_
-- ABEmax (engineered_region) in pSB1C3
-- BE4max (engineered_region) in pSB1C3
-- CP1028_ABE8e (engineered_region) in pSB1C3
+- ABEmax (CDS) in pSB1C3
+- BE4max (CDS) in pSB1C3
+- CP1028_ABE8e (CDS) in pSB1C3
 - LbCpf1_or_LbCas12a (CDS) in pSB1C3 _<span style="color:red">missing sequence</span>_
-- PE2 (engineered_region) in pSB1C3
+- PE2 (CDS) in pSB1C3
 - SaABE8e_TadA_8e_V106W (CDS) in pSB1C3 _<span style="color:red">missing sequence</span>_
 - SpCas9 (CDS) in pSB1C3 _<span style="color:red">missing sequence</span>_
 - dLbCpf1_or_dLbCas12a (CDS) in pSB1C3 _<span style="color:red">missing sequence</span>_
