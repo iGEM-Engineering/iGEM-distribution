@@ -13,6 +13,7 @@ import sbol2
 import sbol3
 from sbol_utilities.sequence import unambiguous_dna_sequence
 from sbol_utilities.helper_functions import GENETIC_DESIGN_FILE_TYPES
+from sbol_utilities.helper_functions import url_to_identity
 from sbol_utilities.excel_to_sbol import BASIC_PARTS_COLLECTION
 from .directories import EXPORT_DIRECTORY, SBOL_EXPORT_NAME
 from .package_specification import package_stem
@@ -396,7 +397,7 @@ def import_parts(package: str) -> list[str]:
     package_parts = [p.lookup() for p in package_spec.find(BASIC_PARTS_COLLECTION).members]
     package_parts_clean = []
     for p in package_parts:
-        sbol-utilities.helper_functions.url_to_identity(p)
+        url_to_identity(p)
         package_parts_clean.append(p)
     retrieval_uri = {p.identity: (p.derived_from[0] if p.derived_from else p.identity) for p in package_parts_clean}
 
