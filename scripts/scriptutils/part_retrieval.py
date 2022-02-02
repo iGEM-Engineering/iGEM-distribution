@@ -396,7 +396,7 @@ def import_parts(package: str) -> list[str]:
     package_parts = [p.lookup() for p in package_spec.find(BASIC_PARTS_COLLECTION).members]
     retrieval_uri = {p.identity: (p.derived_from[0] if p.derived_from else p.identity) for p in package_parts}
     retrieval_uri_clean_keys = []
-    for key in retrieved_uris.keys():
+    for key in retrieval_uri.keys():
         sbol3.string_to_display_id(key)
         retrieval_uri_clean_keys.append(key)
 
