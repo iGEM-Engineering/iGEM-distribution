@@ -73,8 +73,8 @@ class TestImportParts(unittest.TestCase):
         expected = ['https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115_1',  # NCBI
                     'http://parts.igem.org/BBa_J364007',  # iGEM FASTA
                     'http://parts.igem.org/J23100',  # iGEM SynBioHub
-                    'http://sevahub.es/public/Canonical/cd_pRO1600_ColE1',  # any SynBioHub, not starting w. synbiohub
-                    'http://sevahub.es/public/Canonical/pSEVA247Y',  # SEVA
+                    'http://sevahub.es/public/Canonical/cd_OriT',  # SEVA
+                    'http://sevahub.es/public/Canonical/lacZ_pUC19',  # any SynBioHub, not starting w. synbiohub
                     'https://freegenes.github.io/genbank/BBF10K_000152',  # any GenBank URL
                     f'{github_prefix}/BBa_J23101', f'{github_prefix}/imports/second_fasta',
                     f'{github_prefix}/imports/second_genbank']  # any FASTA URL

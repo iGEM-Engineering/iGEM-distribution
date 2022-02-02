@@ -1,0 +1,260 @@
+
+<http://parts.igem.org/K2010999> <http://sbols.org/v3#description> "Codon optimized for E. coli, TGA Stop, see BBa_K2010000 for characterization" .
+<http://parts.igem.org/K2010999> <http://sbols.org/v3#displayId> "K2010999" .
+<http://parts.igem.org/K2010999> <http://sbols.org/v3#hasNamespace> <http://parts.igem.org> .
+<http://parts.igem.org/K2010999> <http://sbols.org/v3#name> "PETase-K2010999" .
+<http://parts.igem.org/K2010999> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<http://parts.igem.org/K2010999> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<http://parts.igem.org/K2010999> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<http://parts.igem.org/K2910000> <http://sbols.org/v3#description> "Codon optimized for E. coli, Includes C-terminal Hexahistidine Tag, TGA Stop" .
+<http://parts.igem.org/K2910000> <http://sbols.org/v3#displayId> "K2910000" .
+<http://parts.igem.org/K2910000> <http://sbols.org/v3#hasNamespace> <http://parts.igem.org> .
+<http://parts.igem.org/K2910000> <http://sbols.org/v3#name> "IsPETase-W159H-S238F" .
+<http://parts.igem.org/K2910000> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<http://parts.igem.org/K2910000> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<http://parts.igem.org/K2910000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<http://parts.igem.org/K2910002> <http://sbols.org/v3#description> "Codon optimized for E. coli, Includes C-terminal Hexahistidine Tag, TGA Stop" .
+<http://parts.igem.org/K2910002> <http://sbols.org/v3#displayId> "K2910002" .
+<http://parts.igem.org/K2910002> <http://sbols.org/v3#hasNamespace> <http://parts.igem.org> .
+<http://parts.igem.org/K2910002> <http://sbols.org/v3#name> "IsPETase-ML_Mu_1" .
+<http://parts.igem.org/K2910002> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<http://parts.igem.org/K2910002> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<http://parts.igem.org/K2910002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<http://parts.igem.org/K2910003> <http://sbols.org/v3#description> "Codon optimized for E. coli, Includes C-terminal Hexahistidine Tag, TGA Stop" .
+<http://parts.igem.org/K2910003> <http://sbols.org/v3#displayId> "K2910003" .
+<http://parts.igem.org/K2910003> <http://sbols.org/v3#hasNamespace> <http://parts.igem.org> .
+<http://parts.igem.org/K2910003> <http://sbols.org/v3#name> "IsPETase-T88F-I208Y-S238F-S245Y-R280A" .
+<http://parts.igem.org/K2910003> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<http://parts.igem.org/K2910003> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<http://parts.igem.org/K2910003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<http://parts.igem.org/K3039002> <http://sbols.org/v3#description> "Codon optimized for E. coli, Includes N-terminal his-tag" .
+<http://parts.igem.org/K3039002> <http://sbols.org/v3#displayId> "K3039002" .
+<http://parts.igem.org/K3039002> <http://sbols.org/v3#hasNamespace> <http://parts.igem.org> .
+<http://parts.igem.org/K3039002> <http://sbols.org/v3#name> "PETase-T88A_S93M_S121E_W159F_D186H_R280A" .
+<http://parts.igem.org/K3039002> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<http://parts.igem.org/K3039002> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<http://parts.igem.org/K3039002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<http://parts.igem.org/K3039003> <http://sbols.org/v3#description> "Codon optimized for E. coli, Includes N-terminal his-tag" .
+<http://parts.igem.org/K3039003> <http://sbols.org/v3#displayId> "K3039003" .
+<http://parts.igem.org/K3039003> <http://sbols.org/v3#hasNamespace> <http://parts.igem.org> .
+<http://parts.igem.org/K3039003> <http://sbols.org/v3#name> "PETase-S121E_D186H_R280A" .
+<http://parts.igem.org/K3039003> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<http://parts.igem.org/K3039003> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<http://parts.igem.org/K3039003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<http://parts.igem.org/K3039005> <http://sbols.org/v3#description> "Codon optimized for E. coli, Includes N-terminal his-tag" .
+<http://parts.igem.org/K3039005> <http://sbols.org/v3#displayId> "K3039005" .
+<http://parts.igem.org/K3039005> <http://sbols.org/v3#hasNamespace> <http://parts.igem.org> .
+<http://parts.igem.org/K3039005> <http://sbols.org/v3#name> "BHETase_1" .
+<http://parts.igem.org/K3039005> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<http://parts.igem.org/K3039005> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<http://parts.igem.org/K3039005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<http://parts.igem.org/K3039006> <http://sbols.org/v3#description> "Codon optimized for E. coli, Includes N-terminal his-tag" .
+<http://parts.igem.org/K3039006> <http://sbols.org/v3#displayId> "K3039006" .
+<http://parts.igem.org/K3039006> <http://sbols.org/v3#hasNamespace> <http://parts.igem.org> .
+<http://parts.igem.org/K3039006> <http://sbols.org/v3#name> "BHETase_2" .
+<http://parts.igem.org/K3039006> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<http://parts.igem.org/K3039006> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<http://parts.igem.org/K3039006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<http://parts.igem.org/K3039017> <http://sbols.org/v3#description> "Codon optimized for E. coli, Includes N-terminal his-tag" .
+<http://parts.igem.org/K3039017> <http://sbols.org/v3#displayId> "K3039017" .
+<http://parts.igem.org/K3039017> <http://sbols.org/v3#hasNamespace> <http://parts.igem.org> .
+<http://parts.igem.org/K3039017> <http://sbols.org/v3#name> "PETase_Reconstructed_Ancestor_1" .
+<http://parts.igem.org/K3039017> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<http://parts.igem.org/K3039017> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<http://parts.igem.org/K3039017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<http://parts.igem.org/pSB1C3> <http://sbols.org/v3#description> "" .
+<http://parts.igem.org/pSB1C3> <http://sbols.org/v3#displayId> "pSB1C3" .
+<http://parts.igem.org/pSB1C3> <http://sbols.org/v3#hasNamespace> <http://parts.igem.org> .
+<http://parts.igem.org/pSB1C3> <http://sbols.org/v3#name> "pSB1C3" .
+<http://parts.igem.org/pSB1C3> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000155> .
+<http://parts.igem.org/pSB1C3> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<http://parts.igem.org/pSB1C3> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<http://parts.igem.org/pSB1C3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BHETase_library/VariableFeature1> <http://sbols.org/v3#cardinality> <http://sbols.org/v3#one> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BHETase_library/VariableFeature1> <http://sbols.org/v3#displayId> "VariableFeature1" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BHETase_library/VariableFeature1> <http://sbols.org/v3#variable> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BHETase_library_template/LocalSubComponent1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BHETase_library/VariableFeature1> <http://sbols.org/v3#variantDerivation> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BHETase_library_ins> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BHETase_library/VariableFeature1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#VariableFeature> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BHETase_library> <http://sbols.org/v3#displayId> "BHETase_library" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BHETase_library> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BHETase_library> <http://sbols.org/v3#hasVariableFeature> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BHETase_library/VariableFeature1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BHETase_library> <http://sbols.org/v3#name> "BHETase library" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BHETase_library> <http://sbols.org/v3#template> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BHETase_library_template> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BHETase_library> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#CombinatorialDerivation> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BHETase_library_ins/VariableFeature1> <http://sbols.org/v3#cardinality> <http://sbols.org/v3#one> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BHETase_library_ins/VariableFeature1> <http://sbols.org/v3#displayId> "VariableFeature1" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BHETase_library_ins/VariableFeature1> <http://sbols.org/v3#variable> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BHETase_library_ins_template/LocalSubComponent1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BHETase_library_ins/VariableFeature1> <http://sbols.org/v3#variant> <http://parts.igem.org/K3039005> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BHETase_library_ins/VariableFeature1> <http://sbols.org/v3#variant> <http://parts.igem.org/K3039006> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BHETase_library_ins/VariableFeature1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#VariableFeature> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BHETase_library_ins> <http://sbols.org/v3#description> "" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BHETase_library_ins> <http://sbols.org/v3#displayId> "BHETase_library_ins" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BHETase_library_ins> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BHETase_library_ins> <http://sbols.org/v3#hasVariableFeature> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BHETase_library_ins/VariableFeature1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BHETase_library_ins> <http://sbols.org/v3#name> "BHETase library insert" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BHETase_library_ins> <http://sbols.org/v3#strategy> <http://sbols.org/v3#enumerate> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BHETase_library_ins> <http://sbols.org/v3#template> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BHETase_library_ins_template> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BHETase_library_ins> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#CombinatorialDerivation> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BHETase_library_ins_template/LocalSubComponent1> <http://sbols.org/v3#displayId> "LocalSubComponent1" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BHETase_library_ins_template/LocalSubComponent1> <http://sbols.org/v3#name> "Part 1" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BHETase_library_ins_template/LocalSubComponent1> <http://sbols.org/v3#orientation> <http://sbols.org/v3#inline> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BHETase_library_ins_template/LocalSubComponent1> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BHETase_library_ins_template/LocalSubComponent1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#LocalSubComponent> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BHETase_library_ins_template> <http://sbols.org/v3#displayId> "BHETase_library_ins_template" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BHETase_library_ins_template> <http://sbols.org/v3#hasFeature> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BHETase_library_ins_template/LocalSubComponent1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BHETase_library_ins_template> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BHETase_library_ins_template> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BHETase_library_ins_template> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BHETase_library_template/Constraint1> <http://sbols.org/v3#displayId> "Constraint1" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BHETase_library_template/Constraint1> <http://sbols.org/v3#object> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BHETase_library_template/SubComponent1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BHETase_library_template/Constraint1> <http://sbols.org/v3#restriction> <http://sbols.org/v3#meets> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BHETase_library_template/Constraint1> <http://sbols.org/v3#subject> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BHETase_library_template/LocalSubComponent1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BHETase_library_template/Constraint1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Constraint> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BHETase_library_template/Constraint2> <http://sbols.org/v3#displayId> "Constraint2" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BHETase_library_template/Constraint2> <http://sbols.org/v3#object> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BHETase_library_template/LocalSubComponent1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BHETase_library_template/Constraint2> <http://sbols.org/v3#restriction> <http://sbols.org/v3#meets> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BHETase_library_template/Constraint2> <http://sbols.org/v3#subject> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BHETase_library_template/SubComponent1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BHETase_library_template/Constraint2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Constraint> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BHETase_library_template/LocalSubComponent1> <http://sbols.org/v3#displayId> "LocalSubComponent1" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BHETase_library_template/LocalSubComponent1> <http://sbols.org/v3#name> "Inserted Construct" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BHETase_library_template/LocalSubComponent1> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BHETase_library_template/LocalSubComponent1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#LocalSubComponent> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BHETase_library_template/SubComponent1> <http://sbols.org/v3#displayId> "SubComponent1" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BHETase_library_template/SubComponent1> <http://sbols.org/v3#instanceOf> <http://parts.igem.org/pSB1C3> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BHETase_library_template/SubComponent1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#SubComponent> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BHETase_library_template> <http://sbols.org/v3#displayId> "BHETase_library_template" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BHETase_library_template> <http://sbols.org/v3#hasConstraint> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BHETase_library_template/Constraint1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BHETase_library_template> <http://sbols.org/v3#hasConstraint> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BHETase_library_template/Constraint2> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BHETase_library_template> <http://sbols.org/v3#hasFeature> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BHETase_library_template/LocalSubComponent1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BHETase_library_template> <http://sbols.org/v3#hasFeature> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BHETase_library_template/SubComponent1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BHETase_library_template> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BHETase_library_template> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BHETase_library_template> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BasicParts> <http://sbols.org/v3#description> "Plastic degradation enzymes, specifically PETase from papers (Yoshida et al. 2016, Austin et al. 2018) and iGEM teams (Exeter 2019, Toronto 2019). Some are protein twins, but have been optimized for E coli differently. This is not a complete collection and should include validated MHETase and BHETase. " .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BasicParts> <http://sbols.org/v3#displayId> "BasicParts" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BasicParts> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BasicParts> <http://sbols.org/v3#member> <http://parts.igem.org/K2010999> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BasicParts> <http://sbols.org/v3#member> <http://parts.igem.org/K2910000> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BasicParts> <http://sbols.org/v3#member> <http://parts.igem.org/K2910002> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BasicParts> <http://sbols.org/v3#member> <http://parts.igem.org/K2910003> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BasicParts> <http://sbols.org/v3#member> <http://parts.igem.org/K3039002> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BasicParts> <http://sbols.org/v3#member> <http://parts.igem.org/K3039003> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BasicParts> <http://sbols.org/v3#member> <http://parts.igem.org/K3039005> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BasicParts> <http://sbols.org/v3#member> <http://parts.igem.org/K3039006> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BasicParts> <http://sbols.org/v3#member> <http://parts.igem.org/K3039017> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BasicParts> <http://sbols.org/v3#member> <http://parts.igem.org/pSB1C3> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_EcCO_WT> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_S238F_W159H> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_WT> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BasicParts> <http://sbols.org/v3#name> "Plastics Degradation" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BasicParts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/CompositeParts> <http://sbols.org/v3#description> "Plastic degradation enzymes, specifically PETase from papers (Yoshida et al. 2016, Austin et al. 2018) and iGEM teams (Exeter 2019, Toronto 2019). Some are protein twins, but have been optimized for E coli differently. This is not a complete collection and should include validated MHETase and BHETase. " .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/CompositeParts> <http://sbols.org/v3#displayId> "CompositeParts" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/CompositeParts> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/CompositeParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BHETase_library_ins> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/CompositeParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_ins> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/CompositeParts> <http://sbols.org/v3#name> "Plastics Degradation" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/CompositeParts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/FinalProducts> <http://sbols.org/v3#description> "Final products desired for actual fabrication" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/FinalProducts> <http://sbols.org/v3#displayId> "FinalProducts" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/FinalProducts> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/FinalProducts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BHETase_library> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/FinalProducts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/FinalProducts> <http://sbols.org/v3#name> "Final Products" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/FinalProducts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/LinearDNAProducts> <http://sbols.org/v3#description> "Linear DNA constructs to be fabricated" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/LinearDNAProducts> <http://sbols.org/v3#displayId> "LinearDNAProducts" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/LinearDNAProducts> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/LinearDNAProducts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BHETase_library_ins> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/LinearDNAProducts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_ins> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/LinearDNAProducts> <http://sbols.org/v3#name> "Linear DNA Products" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/LinearDNAProducts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_EcCO_WT> <http://sbols.org/v3#description> "Austin et al. 2018, Codon optimized for E. coli, Includes C-terminal Hexahistidine Tag, TGA Stop" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_EcCO_WT> <http://sbols.org/v3#displayId> "PETase_EcCO_WT" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_EcCO_WT> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_EcCO_WT> <http://sbols.org/v3#name> "PETase-EcCO-WT" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_EcCO_WT> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_EcCO_WT> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_EcCO_WT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_S238F_W159H> <http://sbols.org/v3#description> "Austin et al. 2018, Codon optimized for E. coli, Includes C-terminal Hexahistidine Tag, TGA Stop" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_S238F_W159H> <http://sbols.org/v3#displayId> "PETase_S238F_W159H" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_S238F_W159H> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_S238F_W159H> <http://sbols.org/v3#name> "PETase-S238F_W159H" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_S238F_W159H> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_S238F_W159H> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_S238F_W159H> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_WT> <http://sbols.org/v3#description> "Yoshida et al. 2016, AA seq: GAP38373.1, TGA Stop" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_WT> <http://sbols.org/v3#displayId> "PETase_WT" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_WT> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_WT> <http://sbols.org/v3#name> "PETase-WT" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_WT> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_WT> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_WT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library/VariableFeature1> <http://sbols.org/v3#cardinality> <http://sbols.org/v3#one> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library/VariableFeature1> <http://sbols.org/v3#displayId> "VariableFeature1" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library/VariableFeature1> <http://sbols.org/v3#variable> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_template/LocalSubComponent1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library/VariableFeature1> <http://sbols.org/v3#variantDerivation> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_ins> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library/VariableFeature1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#VariableFeature> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library> <http://sbols.org/v3#displayId> "PETase_library" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library> <http://sbols.org/v3#hasVariableFeature> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library/VariableFeature1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library> <http://sbols.org/v3#name> "PETase library" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library> <http://sbols.org/v3#template> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_template> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#CombinatorialDerivation> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_ins/VariableFeature1> <http://sbols.org/v3#cardinality> <http://sbols.org/v3#one> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_ins/VariableFeature1> <http://sbols.org/v3#displayId> "VariableFeature1" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_ins/VariableFeature1> <http://sbols.org/v3#variable> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_ins_template/LocalSubComponent1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_ins/VariableFeature1> <http://sbols.org/v3#variant> <http://parts.igem.org/K2010999> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_ins/VariableFeature1> <http://sbols.org/v3#variant> <http://parts.igem.org/K2910000> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_ins/VariableFeature1> <http://sbols.org/v3#variant> <http://parts.igem.org/K2910002> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_ins/VariableFeature1> <http://sbols.org/v3#variant> <http://parts.igem.org/K2910003> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_ins/VariableFeature1> <http://sbols.org/v3#variant> <http://parts.igem.org/K3039002> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_ins/VariableFeature1> <http://sbols.org/v3#variant> <http://parts.igem.org/K3039003> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_ins/VariableFeature1> <http://sbols.org/v3#variant> <http://parts.igem.org/K3039017> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_ins/VariableFeature1> <http://sbols.org/v3#variant> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_EcCO_WT> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_ins/VariableFeature1> <http://sbols.org/v3#variant> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_S238F_W159H> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_ins/VariableFeature1> <http://sbols.org/v3#variant> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_WT> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_ins/VariableFeature1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#VariableFeature> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_ins> <http://sbols.org/v3#description> "" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_ins> <http://sbols.org/v3#displayId> "PETase_library_ins" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_ins> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_ins> <http://sbols.org/v3#hasVariableFeature> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_ins/VariableFeature1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_ins> <http://sbols.org/v3#name> "PETase library insert" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_ins> <http://sbols.org/v3#strategy> <http://sbols.org/v3#enumerate> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_ins> <http://sbols.org/v3#template> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_ins_template> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_ins> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#CombinatorialDerivation> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_ins_template/LocalSubComponent1> <http://sbols.org/v3#displayId> "LocalSubComponent1" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_ins_template/LocalSubComponent1> <http://sbols.org/v3#name> "Part 1" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_ins_template/LocalSubComponent1> <http://sbols.org/v3#orientation> <http://sbols.org/v3#inline> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_ins_template/LocalSubComponent1> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_ins_template/LocalSubComponent1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#LocalSubComponent> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_ins_template> <http://sbols.org/v3#displayId> "PETase_library_ins_template" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_ins_template> <http://sbols.org/v3#hasFeature> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_ins_template/LocalSubComponent1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_ins_template> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_ins_template> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_ins_template> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_template/Constraint1> <http://sbols.org/v3#displayId> "Constraint1" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_template/Constraint1> <http://sbols.org/v3#object> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_template/SubComponent1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_template/Constraint1> <http://sbols.org/v3#restriction> <http://sbols.org/v3#meets> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_template/Constraint1> <http://sbols.org/v3#subject> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_template/LocalSubComponent1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_template/Constraint1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Constraint> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_template/Constraint2> <http://sbols.org/v3#displayId> "Constraint2" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_template/Constraint2> <http://sbols.org/v3#object> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_template/LocalSubComponent1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_template/Constraint2> <http://sbols.org/v3#restriction> <http://sbols.org/v3#meets> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_template/Constraint2> <http://sbols.org/v3#subject> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_template/SubComponent1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_template/Constraint2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Constraint> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_template/LocalSubComponent1> <http://sbols.org/v3#displayId> "LocalSubComponent1" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_template/LocalSubComponent1> <http://sbols.org/v3#name> "Inserted Construct" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_template/LocalSubComponent1> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_template/LocalSubComponent1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#LocalSubComponent> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_template/SubComponent1> <http://sbols.org/v3#displayId> "SubComponent1" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_template/SubComponent1> <http://sbols.org/v3#instanceOf> <http://parts.igem.org/pSB1C3> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_template/SubComponent1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#SubComponent> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_template> <http://sbols.org/v3#displayId> "PETase_library_template" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_template> <http://sbols.org/v3#hasConstraint> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_template/Constraint1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_template> <http://sbols.org/v3#hasConstraint> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_template/Constraint2> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_template> <http://sbols.org/v3#hasFeature> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_template/LocalSubComponent1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_template> <http://sbols.org/v3#hasFeature> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_template/SubComponent1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_template> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_template> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_template> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
