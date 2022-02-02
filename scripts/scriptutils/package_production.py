@@ -39,7 +39,7 @@ def collate_package(package: str) -> None:
     inventory = package_parts_inventory(package, basic_part_ids)
 
     # search old object for aliases; if found, remove and add to rewriting plan
-    to_remove = {o.identity:o for o in doc.objects if o.identity in inventory.aliases}
+    to_remove = {o.identity: o for o in doc.objects if o.identity in inventory.aliases}
     print(f'  Removing {len(to_remove)} objects to be replaced by imports')
     for o in to_remove.values():
         doc.objects.remove(o)
@@ -58,14 +58,16 @@ def collate_package(package: str) -> None:
                 # special case partial solution for https://github.com/iGEM-Engineering/iGEM-distribution/issues/131
                 if isinstance(copied, sbol3.Component) and isinstance(to_remove[copied.identity], sbol3.Component):
                     # if the role is defaulting to the generic "engineered region", replace with sheet role
-                    if not copied.roles or copied.roles == [tyto.SO.engineered_region]:
-                        copied.roles = to_remove[copied.identity].roles
-                        print(f'   Generic role in {copied.identity} replaced by roles {copied.roles} specified in Excel sheet')
+                    if not copied.roles or (len(copied.roles) == 1 and tyto.SO.engineered_region.is_a(copied.roles[0])):
+                        if to_remove[copied.identity].roles:  # only replace if there's something to substitute
+                            print(f'   Missing role information {copied.roles} in {copied.identity} replaced by roles '
+                                  f'{to_remove[copied.identity].roles} specified in Excel sheet')
+                            copied.roles = to_remove[copied.identity].roles
 
     # TODO: remove graph workaround on resolution of https://github.com/SynBioDex/pySBOL3/issues/207
     # Change to a graph in order to rewrite identities:
     g = doc.graph()
-    rewriting_plan = {id: inventory.aliases[id] for id in to_remove if inventory.aliases[id] != id}
+    rewriting_plan = {uid: inventory.aliases[uid] for uid in to_remove if inventory.aliases[uid] != uid}
     print(f'  Rewriting {len(rewriting_plan)} objects to their aliases: {rewriting_plan}')
     for old_identity, new_identity in rewriting_plan.items():
         # Update all triples where old_identity is the object
@@ -110,8 +112,10 @@ def expand_build_plan(package: str) -> sbol3.Document:
     sbol3.set_namespace(package_stem(package))
     if roots:
         derivative_collections = expand_derivations(roots)
-        print(f'Expanded {len(derivative_collections)} collections containing a total of {sum(len(c.members) for c in derivative_collections)} parts')
-        doc.add(sbol3.Collection(BUILD_PRODUCTS_COLLECTION, members=itertools.chain(*(c.members for c in derivative_collections))))
+        print(f'Expanded {len(derivative_collections)} collections containing a total '
+              f'of {sum(len(c.members) for c in derivative_collections)} parts')
+        doc.add(sbol3.Collection(BUILD_PRODUCTS_COLLECTION,
+                                 members=itertools.chain(*(c.members for c in derivative_collections))))
         new_sequences = calculate_sequences(doc)
         print(f'Computed sequences for {len(new_sequences)} components')
     else:
