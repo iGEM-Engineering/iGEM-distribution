@@ -394,12 +394,16 @@ def import_parts(package: str) -> list[str]:
     package_spec = sbol3.Document()
     package_spec.read(os.path.join(package, EXPORT_DIRECTORY, SBOL_EXPORT_NAME))
     package_parts = [p.lookup() for p in package_spec.find(BASIC_PARTS_COLLECTION).members]
-    retrieval_uri = {sbol3.string_to_display_id(p.identity): (p.derived_from[0] if p.derived_from else p.identity) for p in package_parts}
+    retrieval_uri = {p.identity: (p.derived_from[0] if p.derived_from else p.identity) for p in package_parts}
+    retrieval_uri_clean_keys = []
+    for key in retrieved_uris.keys():
+        sbol3.string_to_display_id(key)
+        retrieval_uri_clean_keys.append(key)
 
     print(f'Package specification contains {len(package_parts)} parts')
 
     # Then collect the parts in the package directory
-    inventory = package_parts_inventory(package, retrieval_uri.keys())
+    inventory = package_parts_inventory(package, retrieval_uri_clean_keys)
     print(f'Found {len(inventory.locations)} parts cached in package design files')
 
     # Compare the parts lists to each other to figure out which elements are missing
