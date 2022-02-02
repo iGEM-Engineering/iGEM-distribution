@@ -1498,6 +1498,243 @@ ORIGIN
      2041 tcagataaaa aaaatcctta gctttcgcta aggatgattt ctggaattcg cggccgcttc
      2101 tagag
 //
+LOCUS       Anti_CRISPR_Acr         2442 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  .
+ACCESSION   Anti_CRISPR_AcrIIA2_bacterial
+VERSION     Anti_CRISPR_AcrIIA2_bacterial
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+     misc_feature    373..2442
+                     /label="pSB1C3"
+     CDS             1..372
+                     /label="AcrIIA2_bacterial"
+     exon            1..372
+                     /label="Translation 1-372"
+     misc_feature    1..372
+ORIGIN
+        1 atgacattaa caagagcaca aaaaaagtat gcagaagcga tgcacgagtt tataaatatg
+       61 gtggatgact ttgaagagtc tacaccggat tttgcaaagg aagttctaca tgattctgac
+      121 tatgtagtta ttacaaaaaa tgaaaaatat gcagtagctc tttgctctct tagcactgat
+      181 gaatgtgaat atgatactaa cttatactta gatgaaaaat tggttgatta ctcaacagtt
+      241 gacgtaaacg gtgtgacata ctacatcaac attgttgaaa ctaacgatat cgatgattta
+      301 gaaatcgcta cggatgaaga tgagatgaaa agtggcaacc aagaaattat tttaaaaagt
+      361 gagttgaagt aatactagta gcggccgctg cagtccggca aaaaagggca aggtgtcacc
+      421 accctgccct ttttctttaa aaccgaaaag attacttcgc gttatgcagg cttcctcgct
+      481 cactgactcg ctgcgctcgg tcgttcggct gcggcgagcg gtatcagctc actcaaaggc
+      541 ggtaatacgg ttatccacag aatcagggga taacgcagga aagaacatgt gagcaaaagg
+      601 ccagcaaaag gccaggaacc gtaaaaaggc cgcgttgctg gcgtttttcc acaggctccg
+      661 cccccctgac gagcatcaca aaaatcgacg ctcaagtcag aggtggcgaa acccgacagg
+      721 actataaaga taccaggcgt ttccccctgg aagctccctc gtgcgctctc ctgttccgac
+      781 cctgccgctt accggatacc tgtccgcctt tctcccttcg ggaagcgtgg cgctttctca
+      841 tagctcacgc tgtaggtatc tcagttcggt gtaggtcgtt cgctccaagc tgggctgtgt
+      901 gcacgaaccc cccgttcagc ccgaccgctg cgccttatcc ggtaactatc gtcttgagtc
+      961 caacccggta agacacgact tatcgccact ggcagcagcc actggtaaca ggattagcag
+     1021 agcgaggtat gtaggcggtg ctacagagtt cttgaagtgg tggcctaact acggctacac
+     1081 tagaagaaca gtatttggta tctgcgctct gctgaagcca gttaccttcg gaaaaagagt
+     1141 tggtagctct tgatccggca aacaaaccac cgctggtagc ggtggttttt ttgtttgcaa
+     1201 gcagcagatt acgcgcagaa aaaaaggatc tcaagaagat cctttgatct tttctacggg
+     1261 gtctgacgct cagtggaacg aaaactcacg ttaagggatt ttggtcatga gattatcaaa
+     1321 aaggatcttc acctagatcc ttttaaatta aaaatgaagt tttaaatcaa tctaaagtat
+     1381 atatgagtaa acttggtctg acagctcgag gcttggattc tcaccaataa aaaacgcccg
+     1441 gcggcaaccg agcgttctga acaaatccag atggagttct gaggtcatta ctggatctat
+     1501 caacaggagt ccaagcgagc tcgatatcaa attacgcccc gccctgccac tcatcgcagt
+     1561 actgttgtaa ttcattaagc attctgccga catggaagcc atcacaaacg gcatgatgaa
+     1621 cctgaatcgc cagcggcatc agcaccttgt cgccttgcgt ataatatttg cccatggtga
+     1681 aaacgggggc gaagaagttg tccatattgg ccacgtttaa atcaaaactg gtgaaactca
+     1741 cccagggatt ggctgagacg aaaaacatat tctcaataaa ccctttaggg aaataggcca
+     1801 ggttttcacc gtaacacgcc acatcttgcg aatatatgtg tagaaactgc cggaaatcgt
+     1861 cgtggtattc actccagagc gatgaaaacg tttcagtttg ctcatggaaa acggtgtaac
+     1921 aagggtgaac actatcccat atcaccagct caccgtcttt cattgccata cgaaattccg
+     1981 gatgagcatt catcaggcgg gcaagaatgt gaataaaggc cggataaaac ttgtgcttat
+     2041 ttttctttac ggtctttaaa aaggccgtaa tatccagctg aacggtctgg ttataggtac
+     2101 attgagcaac tgactgaaat gcctcaaaat gttctttacg atgccattgg gatatatcaa
+     2161 cggtggtata tccagtgatt tttttctcca ttttagcttc cttagctcct gaaaatctcg
+     2221 ataactcaaa aaatacgccc ggtagtgatc ttatttcatt atggtgaaag ttggaacctc
+     2281 ttacgtgccc gatcaactcg agtgccacct gacgtctaag aaaccattat tatcatgaca
+     2341 ttaacctata aaaataggcg tatcacgagg cagaatttca gataaaaaaa atccttagct
+     2401 ttcgctaagg atgatttctg gaattcgcgg ccgcttctag ag
+//
+LOCUS       Anti_CRISPR_Acr         2499 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  .
+ACCESSION   Anti_CRISPR_AcrIIA2_mammalian
+VERSION     Anti_CRISPR_AcrIIA2_mammalian
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+     misc_feature    430..2499
+                     /label="pSB1C3"
+     CDS             1..429
+                     /label="AcrIIA2_mammalian"
+     exon            1..429
+                     /label="Translation 1-429"
+     misc_feature    1..429
+ORIGIN
+        1 atgacgctga cccgcgctca gaaaaaatac gccgaggcga tgcatgagtt tatcaatatg
+       61 gttgatgact ttgaagaatc aacgcctgac tttgcaaaag aggttctgca cgactccgac
+      121 tatgtggtca ttacaaaaaa cgagaaatat gccgtggcac tctgtagtct ctccacagat
+      181 gaatgtgagt acgatactaa cttgtatttg gatgaaaagc tcgtcgatta cagcacagtt
+      241 gatgtcaacg gagtgacata ttacatcaat atagtggaaa caaatgacat agatgatctt
+      301 gaaattgcga ccgacgagga cgagatgaag tctggaaacc aagagattat tcttaagtcc
+      361 gaactgaagt aagaattctg cagatatcca gcacagtggc ggccgctcga gtctagaggg
+      421 cccgtttaat actagtagcg gccgctgcag tccggcaaaa aagggcaagg tgtcaccacc
+      481 ctgccctttt tctttaaaac cgaaaagatt acttcgcgtt atgcaggctt cctcgctcac
+      541 tgactcgctg cgctcggtcg ttcggctgcg gcgagcggta tcagctcact caaaggcggt
+      601 aatacggtta tccacagaat caggggataa cgcaggaaag aacatgtgag caaaaggcca
+      661 gcaaaaggcc aggaaccgta aaaaggccgc gttgctggcg tttttccaca ggctccgccc
+      721 ccctgacgag catcacaaaa atcgacgctc aagtcagagg tggcgaaacc cgacaggact
+      781 ataaagatac caggcgtttc cccctggaag ctccctcgtg cgctctcctg ttccgaccct
+      841 gccgcttacc ggatacctgt ccgcctttct cccttcggga agcgtggcgc tttctcatag
+      901 ctcacgctgt aggtatctca gttcggtgta ggtcgttcgc tccaagctgg gctgtgtgca
+      961 cgaacccccc gttcagcccg accgctgcgc cttatccggt aactatcgtc ttgagtccaa
+     1021 cccggtaaga cacgacttat cgccactggc agcagccact ggtaacagga ttagcagagc
+     1081 gaggtatgta ggcggtgcta cagagttctt gaagtggtgg cctaactacg gctacactag
+     1141 aagaacagta tttggtatct gcgctctgct gaagccagtt accttcggaa aaagagttgg
+     1201 tagctcttga tccggcaaac aaaccaccgc tggtagcggt ggtttttttg tttgcaagca
+     1261 gcagattacg cgcagaaaaa aaggatctca agaagatcct ttgatctttt ctacggggtc
+     1321 tgacgctcag tggaacgaaa actcacgtta agggattttg gtcatgagat tatcaaaaag
+     1381 gatcttcacc tagatccttt taaattaaaa atgaagtttt aaatcaatct aaagtatata
+     1441 tgagtaaact tggtctgaca gctcgaggct tggattctca ccaataaaaa acgcccggcg
+     1501 gcaaccgagc gttctgaaca aatccagatg gagttctgag gtcattactg gatctatcaa
+     1561 caggagtcca agcgagctcg atatcaaatt acgccccgcc ctgccactca tcgcagtact
+     1621 gttgtaattc attaagcatt ctgccgacat ggaagccatc acaaacggca tgatgaacct
+     1681 gaatcgccag cggcatcagc accttgtcgc cttgcgtata atatttgccc atggtgaaaa
+     1741 cgggggcgaa gaagttgtcc atattggcca cgtttaaatc aaaactggtg aaactcaccc
+     1801 agggattggc tgagacgaaa aacatattct caataaaccc tttagggaaa taggccaggt
+     1861 tttcaccgta acacgccaca tcttgcgaat atatgtgtag aaactgccgg aaatcgtcgt
+     1921 ggtattcact ccagagcgat gaaaacgttt cagtttgctc atggaaaacg gtgtaacaag
+     1981 ggtgaacact atcccatatc accagctcac cgtctttcat tgccatacga aattccggat
+     2041 gagcattcat caggcgggca agaatgtgaa taaaggccgg ataaaacttg tgcttatttt
+     2101 tctttacggt ctttaaaaag gccgtaatat ccagctgaac ggtctggtta taggtacatt
+     2161 gagcaactga ctgaaatgcc tcaaaatgtt ctttacgatg ccattgggat atatcaacgg
+     2221 tggtatatcc agtgattttt ttctccattt tagcttcctt agctcctgaa aatctcgata
+     2281 actcaaaaaa tacgcccggt agtgatctta tttcattatg gtgaaagttg gaacctctta
+     2341 cgtgcccgat caactcgagt gccacctgac gtctaagaaa ccattattat catgacatta
+     2401 acctataaaa ataggcgtat cacgaggcag aatttcagat aaaaaaaatc cttagctttc
+     2461 gctaaggatg atttctggaa ttcgcggccg cttctagag
+//
+LOCUS       Anti_CRISPR_Acr         2442 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  .
+ACCESSION   Anti_CRISPR_AcrIIA4_bacterial
+VERSION     Anti_CRISPR_AcrIIA4_bacterial
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+     misc_feature    373..2442
+                     /label="pSB1C3"
+     CDS             1..372
+                     /label="AcrIIA2_bacterial"
+     exon            1..372
+                     /label="Translation 1-372"
+     misc_feature    1..372
+ORIGIN
+        1 atgacattaa caagagcaca aaaaaagtat gcagaagcga tgcacgagtt tataaatatg
+       61 gtggatgact ttgaagagtc tacaccggat tttgcaaagg aagttctaca tgattctgac
+      121 tatgtagtta ttacaaaaaa tgaaaaatat gcagtagctc tttgctctct tagcactgat
+      181 gaatgtgaat atgatactaa cttatactta gatgaaaaat tggttgatta ctcaacagtt
+      241 gacgtaaacg gtgtgacata ctacatcaac attgttgaaa ctaacgatat cgatgattta
+      301 gaaatcgcta cggatgaaga tgagatgaaa agtggcaacc aagaaattat tttaaaaagt
+      361 gagttgaagt aatactagta gcggccgctg cagtccggca aaaaagggca aggtgtcacc
+      421 accctgccct ttttctttaa aaccgaaaag attacttcgc gttatgcagg cttcctcgct
+      481 cactgactcg ctgcgctcgg tcgttcggct gcggcgagcg gtatcagctc actcaaaggc
+      541 ggtaatacgg ttatccacag aatcagggga taacgcagga aagaacatgt gagcaaaagg
+      601 ccagcaaaag gccaggaacc gtaaaaaggc cgcgttgctg gcgtttttcc acaggctccg
+      661 cccccctgac gagcatcaca aaaatcgacg ctcaagtcag aggtggcgaa acccgacagg
+      721 actataaaga taccaggcgt ttccccctgg aagctccctc gtgcgctctc ctgttccgac
+      781 cctgccgctt accggatacc tgtccgcctt tctcccttcg ggaagcgtgg cgctttctca
+      841 tagctcacgc tgtaggtatc tcagttcggt gtaggtcgtt cgctccaagc tgggctgtgt
+      901 gcacgaaccc cccgttcagc ccgaccgctg cgccttatcc ggtaactatc gtcttgagtc
+      961 caacccggta agacacgact tatcgccact ggcagcagcc actggtaaca ggattagcag
+     1021 agcgaggtat gtaggcggtg ctacagagtt cttgaagtgg tggcctaact acggctacac
+     1081 tagaagaaca gtatttggta tctgcgctct gctgaagcca gttaccttcg gaaaaagagt
+     1141 tggtagctct tgatccggca aacaaaccac cgctggtagc ggtggttttt ttgtttgcaa
+     1201 gcagcagatt acgcgcagaa aaaaaggatc tcaagaagat cctttgatct tttctacggg
+     1261 gtctgacgct cagtggaacg aaaactcacg ttaagggatt ttggtcatga gattatcaaa
+     1321 aaggatcttc acctagatcc ttttaaatta aaaatgaagt tttaaatcaa tctaaagtat
+     1381 atatgagtaa acttggtctg acagctcgag gcttggattc tcaccaataa aaaacgcccg
+     1441 gcggcaaccg agcgttctga acaaatccag atggagttct gaggtcatta ctggatctat
+     1501 caacaggagt ccaagcgagc tcgatatcaa attacgcccc gccctgccac tcatcgcagt
+     1561 actgttgtaa ttcattaagc attctgccga catggaagcc atcacaaacg gcatgatgaa
+     1621 cctgaatcgc cagcggcatc agcaccttgt cgccttgcgt ataatatttg cccatggtga
+     1681 aaacgggggc gaagaagttg tccatattgg ccacgtttaa atcaaaactg gtgaaactca
+     1741 cccagggatt ggctgagacg aaaaacatat tctcaataaa ccctttaggg aaataggcca
+     1801 ggttttcacc gtaacacgcc acatcttgcg aatatatgtg tagaaactgc cggaaatcgt
+     1861 cgtggtattc actccagagc gatgaaaacg tttcagtttg ctcatggaaa acggtgtaac
+     1921 aagggtgaac actatcccat atcaccagct caccgtcttt cattgccata cgaaattccg
+     1981 gatgagcatt catcaggcgg gcaagaatgt gaataaaggc cggataaaac ttgtgcttat
+     2041 ttttctttac ggtctttaaa aaggccgtaa tatccagctg aacggtctgg ttataggtac
+     2101 attgagcaac tgactgaaat gcctcaaaat gttctttacg atgccattgg gatatatcaa
+     2161 cggtggtata tccagtgatt tttttctcca ttttagcttc cttagctcct gaaaatctcg
+     2221 ataactcaaa aaatacgccc ggtagtgatc ttatttcatt atggtgaaag ttggaacctc
+     2281 ttacgtgccc gatcaactcg agtgccacct gacgtctaag aaaccattat tatcatgaca
+     2341 ttaacctata aaaataggcg tatcacgagg cagaatttca gataaaaaaa atccttagct
+     2401 ttcgctaagg atgatttctg gaattcgcgg ccgcttctag ag
+//
+LOCUS       Anti_CRISPR_Acr         2442 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  .
+ACCESSION   Anti_CRISPR_AcrIIA4_mammalian
+VERSION     Anti_CRISPR_AcrIIA4_mammalian
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+     misc_feature    373..2442
+                     /label="pSB1C3"
+     CDS             1..372
+                     /label="AcrIIA2_bacterial"
+     exon            1..372
+                     /label="Translation 1-372"
+     misc_feature    1..372
+ORIGIN
+        1 atgacattaa caagagcaca aaaaaagtat gcagaagcga tgcacgagtt tataaatatg
+       61 gtggatgact ttgaagagtc tacaccggat tttgcaaagg aagttctaca tgattctgac
+      121 tatgtagtta ttacaaaaaa tgaaaaatat gcagtagctc tttgctctct tagcactgat
+      181 gaatgtgaat atgatactaa cttatactta gatgaaaaat tggttgatta ctcaacagtt
+      241 gacgtaaacg gtgtgacata ctacatcaac attgttgaaa ctaacgatat cgatgattta
+      301 gaaatcgcta cggatgaaga tgagatgaaa agtggcaacc aagaaattat tttaaaaagt
+      361 gagttgaagt aatactagta gcggccgctg cagtccggca aaaaagggca aggtgtcacc
+      421 accctgccct ttttctttaa aaccgaaaag attacttcgc gttatgcagg cttcctcgct
+      481 cactgactcg ctgcgctcgg tcgttcggct gcggcgagcg gtatcagctc actcaaaggc
+      541 ggtaatacgg ttatccacag aatcagggga taacgcagga aagaacatgt gagcaaaagg
+      601 ccagcaaaag gccaggaacc gtaaaaaggc cgcgttgctg gcgtttttcc acaggctccg
+      661 cccccctgac gagcatcaca aaaatcgacg ctcaagtcag aggtggcgaa acccgacagg
+      721 actataaaga taccaggcgt ttccccctgg aagctccctc gtgcgctctc ctgttccgac
+      781 cctgccgctt accggatacc tgtccgcctt tctcccttcg ggaagcgtgg cgctttctca
+      841 tagctcacgc tgtaggtatc tcagttcggt gtaggtcgtt cgctccaagc tgggctgtgt
+      901 gcacgaaccc cccgttcagc ccgaccgctg cgccttatcc ggtaactatc gtcttgagtc
+      961 caacccggta agacacgact tatcgccact ggcagcagcc actggtaaca ggattagcag
+     1021 agcgaggtat gtaggcggtg ctacagagtt cttgaagtgg tggcctaact acggctacac
+     1081 tagaagaaca gtatttggta tctgcgctct gctgaagcca gttaccttcg gaaaaagagt
+     1141 tggtagctct tgatccggca aacaaaccac cgctggtagc ggtggttttt ttgtttgcaa
+     1201 gcagcagatt acgcgcagaa aaaaaggatc tcaagaagat cctttgatct tttctacggg
+     1261 gtctgacgct cagtggaacg aaaactcacg ttaagggatt ttggtcatga gattatcaaa
+     1321 aaggatcttc acctagatcc ttttaaatta aaaatgaagt tttaaatcaa tctaaagtat
+     1381 atatgagtaa acttggtctg acagctcgag gcttggattc tcaccaataa aaaacgcccg
+     1441 gcggcaaccg agcgttctga acaaatccag atggagttct gaggtcatta ctggatctat
+     1501 caacaggagt ccaagcgagc tcgatatcaa attacgcccc gccctgccac tcatcgcagt
+     1561 actgttgtaa ttcattaagc attctgccga catggaagcc atcacaaacg gcatgatgaa
+     1621 cctgaatcgc cagcggcatc agcaccttgt cgccttgcgt ataatatttg cccatggtga
+     1681 aaacgggggc gaagaagttg tccatattgg ccacgtttaa atcaaaactg gtgaaactca
+     1741 cccagggatt ggctgagacg aaaaacatat tctcaataaa ccctttaggg aaataggcca
+     1801 ggttttcacc gtaacacgcc acatcttgcg aatatatgtg tagaaactgc cggaaatcgt
+     1861 cgtggtattc actccagagc gatgaaaacg tttcagtttg ctcatggaaa acggtgtaac
+     1921 aagggtgaac actatcccat atcaccagct caccgtcttt cattgccata cgaaattccg
+     1981 gatgagcatt catcaggcgg gcaagaatgt gaataaaggc cggataaaac ttgtgcttat
+     2041 ttttctttac ggtctttaaa aaggccgtaa tatccagctg aacggtctgg ttataggtac
+     2101 attgagcaac tgactgaaat gcctcaaaat gttctttacg atgccattgg gatatatcaa
+     2161 cggtggtata tccagtgatt tttttctcca ttttagcttc cttagctcct gaaaatctcg
+     2221 ataactcaaa aaatacgccc ggtagtgatc ttatttcatt atggtgaaag ttggaacctc
+     2281 ttacgtgccc gatcaactcg agtgccacct gacgtctaag aaaccattat tatcatgaca
+     2341 ttaacctata aaaataggcg tatcacgagg cagaatttca gataaaaaaa atccttagct
+     2401 ttcgctaagg atgatttctg gaattcgcgg ccgcttctag ag
+//
 LOCUS       BHETase_library         3828 bp    DNA     linear   UNK 01-JAN-1980
 DEFINITION  .
 ACCESSION   BHETase_library_K3039005

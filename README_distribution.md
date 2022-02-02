@@ -1,6 +1,6 @@
 # Distribution Summary
 
-- 188 samples planned for distribution
+- 192 samples planned for distribution
 
 ### Parts:
 
@@ -28,6 +28,10 @@
 - Anderson_Promoters_in_vector_BBa_J23117
 - Anderson_Promoters_in_vector_BBa_J23118
 - Anderson_Promoters_in_vector_BBa_J23119
+- Anti_CRISPR_AcrIIA2_bacterial
+- Anti_CRISPR_AcrIIA2_mammalian
+- Anti_CRISPR_AcrIIA4_bacterial
+- Anti_CRISPR_AcrIIA4_mammalian
 - Cas_variants_ABE8_20_m
 - Cas_variants_ABE8e_TadA_8e_V106W
 - Cas_variants_ABEmax
