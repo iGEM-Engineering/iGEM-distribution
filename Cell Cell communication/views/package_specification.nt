@@ -91,6 +91,7 @@
 <http://parts.igem.org/pSB1C3> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
 <http://parts.igem.org/pSB1C3> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
 <http://parts.igem.org/pSB1C3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Cell%20Cell%20communication/BasicParts> <http://sbols.org/v3#description> "\"cpmbat proven\" at iGEM Tokyo tech and Waseda " .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Cell%20Cell%20communication/BasicParts> <http://sbols.org/v3#displayId> "BasicParts" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Cell%20Cell%20communication/BasicParts> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Cell%20Cell%20communication> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Cell%20Cell%20communication/BasicParts> <http://sbols.org/v3#member> <http://parts.igem.org/B0015> .
@@ -108,8 +109,9 @@
 <https://github.com/iGEM-Engineering/iGEM-distribution/Cell%20Cell%20communication/BasicParts> <http://sbols.org/v3#member> <http://parts.igem.org/R0040> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Cell%20Cell%20communication/BasicParts> <http://sbols.org/v3#member> <http://parts.igem.org/R0062> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Cell%20Cell%20communication/BasicParts> <http://sbols.org/v3#member> <http://parts.igem.org/pSB1C3> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Cell%20Cell%20communication/BasicParts> <http://sbols.org/v3#name> "Metal-sensing" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Cell%20Cell%20communication/BasicParts> <http://sbols.org/v3#name> "cell cell communication" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Cell%20Cell%20communication/BasicParts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Cell%20Cell%20communication/CompositeParts> <http://sbols.org/v3#description> "\"cpmbat proven\" at iGEM Tokyo tech and Waseda " .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Cell%20Cell%20communication/CompositeParts> <http://sbols.org/v3#displayId> "CompositeParts" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Cell%20Cell%20communication/CompositeParts> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Cell%20Cell%20communication> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Cell%20Cell%20communication/CompositeParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Cell%20Cell%20communication/K081008_ins> .
@@ -121,7 +123,7 @@
 <https://github.com/iGEM-Engineering/iGEM-distribution/Cell%20Cell%20communication/CompositeParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Cell%20Cell%20communication/K934022_ins> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Cell%20Cell%20communication/CompositeParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Cell%20Cell%20communication/K934025_ins> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Cell%20Cell%20communication/CompositeParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Cell%20Cell%20communication/S03119_ins> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Cell%20Cell%20communication/CompositeParts> <http://sbols.org/v3#name> "Metal-sensing" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Cell%20Cell%20communication/CompositeParts> <http://sbols.org/v3#name> "cell cell communication" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Cell%20Cell%20communication/CompositeParts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Collection> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Cell%20Cell%20communication/FinalProducts> <http://sbols.org/v3#description> "Final products desired for actual fabrication" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Cell%20Cell%20communication/FinalProducts> <http://sbols.org/v3#displayId> "FinalProducts" .
