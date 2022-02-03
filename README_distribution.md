@@ -1,6 +1,6 @@
 # Distribution Summary
 
-- 188 samples planned for distribution
+- 206 samples planned for distribution
 
 ### Parts:
 
@@ -45,6 +45,24 @@
 - Cas_variants_hLwCas13a
 - Cas_variants_hSaCas9
 - Cas_variants_hSpCas9
+- K081008_pSB1C3
+- K081008_pSB3K3
+- K081016_pSB1C3
+- K081016_pSB3K3
+- K193000_pSB1C3
+- K193000_pSB3K3
+- K395100_pSB1C3
+- K395100_pSB3K3
+- K553003_pSB1C3
+- K553003_pSB6A1
+- K934012_pSB1C3
+- K934012_pSB3K3
+- K934022_pSB1C3
+- K934022_pSB3K3
+- K934025_pSB1C3
+- K934025_pSB3K3
+- S03119_pSB1C3
+- S03119_pSB6A1
 - Chromoproteins_in_vector_BBa_K1033902
 - Chromoproteins_in_vector_BBa_K1033906
 - Chromoproteins_in_vector_BBa_K1033910
