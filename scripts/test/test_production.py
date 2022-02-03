@@ -111,7 +111,8 @@ class TestDistributionProduction(unittest.TestCase):
 
         # check if contents match expectation
         collection = synth_doc.find(BUILD_PRODUCTS_COLLECTION)
-        assert len(collection.members) == 10, f'Expected 10 build products, but found {len(collection.members)}'
+        # 10 products were planned, but only 5 have sequences
+        assert len(collection.members) == 5, f'Expected 5 build products, but found {len(collection.members)}'
         # Total: 1 collection, 5x2 complete vectors and sequences, 5x2 inserts and sequences, 1x2 plasmids and sequence
         for i in synth_doc.objects: print(i.identity)
         assert len(synth_doc.objects) == 23, f'Expected 23 TopLevel objects, but found {len(synth_doc.objects)}'

@@ -1,98 +1,111 @@
 
 <http://parts.igem.org/BBa_K2680520> <http://sbols.org/v3#description> "Marionette: Target of CinR" .
 <http://parts.igem.org/BBa_K2680520> <http://sbols.org/v3#displayId> "BBa_K2680520" .
-<http://parts.igem.org/BBa_K2680520> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers> .
+<http://parts.igem.org/BBa_K2680520> <http://sbols.org/v3#hasNamespace> <http://parts.igem.org> .
 <http://parts.igem.org/BBa_K2680520> <http://sbols.org/v3#name> "pCin" .
 <http://parts.igem.org/BBa_K2680520> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000167> .
 <http://parts.igem.org/BBa_K2680520> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
 <http://parts.igem.org/BBa_K2680520> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
 <http://parts.igem.org/BBa_K2680523> <http://sbols.org/v3#description> "Marionette: Target of NahR" .
 <http://parts.igem.org/BBa_K2680523> <http://sbols.org/v3#displayId> "BBa_K2680523" .
-<http://parts.igem.org/BBa_K2680523> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers> .
+<http://parts.igem.org/BBa_K2680523> <http://sbols.org/v3#hasNamespace> <http://parts.igem.org> .
 <http://parts.igem.org/BBa_K2680523> <http://sbols.org/v3#name> "pSalTTC" .
 <http://parts.igem.org/BBa_K2680523> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000167> .
 <http://parts.igem.org/BBa_K2680523> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
 <http://parts.igem.org/BBa_K2680523> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
 <http://parts.igem.org/BBa_K2680537> <http://sbols.org/v3#description> "Marionette: IPTG regulator" .
 <http://parts.igem.org/BBa_K2680537> <http://sbols.org/v3#displayId> "BBa_K2680537" .
-<http://parts.igem.org/BBa_K2680537> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers> .
+<http://parts.igem.org/BBa_K2680537> <http://sbols.org/v3#hasNamespace> <http://parts.igem.org> .
 <http://parts.igem.org/BBa_K2680537> <http://sbols.org/v3#name> "LacI-AM" .
 <http://parts.igem.org/BBa_K2680537> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
 <http://parts.igem.org/BBa_K2680537> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
 <http://parts.igem.org/BBa_K2680537> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
 <http://parts.igem.org/BBa_K3317004> <http://sbols.org/v3#description> "Marionette: Vanilic acid repressor" .
 <http://parts.igem.org/BBa_K3317004> <http://sbols.org/v3#displayId> "BBa_K3317004" .
-<http://parts.igem.org/BBa_K3317004> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers> .
+<http://parts.igem.org/BBa_K3317004> <http://sbols.org/v3#hasNamespace> <http://parts.igem.org> .
 <http://parts.igem.org/BBa_K3317004> <http://sbols.org/v3#name> "VanR-AM" .
 <http://parts.igem.org/BBa_K3317004> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
 <http://parts.igem.org/BBa_K3317004> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
 <http://parts.igem.org/BBa_K3317004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
 <http://parts.igem.org/BBa_K3317006> <http://sbols.org/v3#description> "Marionette: Target of VanR" .
 <http://parts.igem.org/BBa_K3317006> <http://sbols.org/v3#displayId> "BBa_K3317006" .
-<http://parts.igem.org/BBa_K3317006> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers> .
+<http://parts.igem.org/BBa_K3317006> <http://sbols.org/v3#hasNamespace> <http://parts.igem.org> .
 <http://parts.igem.org/BBa_K3317006> <http://sbols.org/v3#name> "pVanCC" .
 <http://parts.igem.org/BBa_K3317006> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000167> .
 <http://parts.igem.org/BBa_K3317006> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
 <http://parts.igem.org/BBa_K3317006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
 <http://parts.igem.org/BBa_K3317007> <http://sbols.org/v3#description> "Marionette: Target of PcaU" .
 <http://parts.igem.org/BBa_K3317007> <http://sbols.org/v3#displayId> "BBa_K3317007" .
-<http://parts.igem.org/BBa_K3317007> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers> .
+<http://parts.igem.org/BBa_K3317007> <http://sbols.org/v3#hasNamespace> <http://parts.igem.org> .
 <http://parts.igem.org/BBa_K3317007> <http://sbols.org/v3#name> "p3B5B" .
 <http://parts.igem.org/BBa_K3317007> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000167> .
 <http://parts.igem.org/BBa_K3317007> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
 <http://parts.igem.org/BBa_K3317007> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
 <http://parts.igem.org/BBa_K3424010> <http://sbols.org/v3#description> "Marionette: Target of TetR" .
 <http://parts.igem.org/BBa_K3424010> <http://sbols.org/v3#displayId> "BBa_K3424010" .
-<http://parts.igem.org/BBa_K3424010> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers> .
+<http://parts.igem.org/BBa_K3424010> <http://sbols.org/v3#hasNamespace> <http://parts.igem.org> .
 <http://parts.igem.org/BBa_K3424010> <http://sbols.org/v3#name> "pTet" .
 <http://parts.igem.org/BBa_K3424010> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000167> .
 <http://parts.igem.org/BBa_K3424010> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
 <http://parts.igem.org/BBa_K3424010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<http://parts.igem.org/BBa_R0011> <http://sbols.org/v3#description> "Target for LacI\nStrong LacI and Lambda-CI repressible promoter. Promoter was originally derived by hybridizing the pL promoter from lambda phage with lacO sites. Originally created in Elowitz et al. 2000 represilator paper" .
+<http://parts.igem.org/BBa_R0011> <http://sbols.org/v3#displayId> "BBa_R0011" .
+<http://parts.igem.org/BBa_R0011> <http://sbols.org/v3#hasNamespace> <http://parts.igem.org> .
+<http://parts.igem.org/BBa_R0011> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/BBa_R0011_sequence> .
+<http://parts.igem.org/BBa_R0011> <http://sbols.org/v3#name> "pL-lac0-1" .
+<http://parts.igem.org/BBa_R0011> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000167> .
+<http://parts.igem.org/BBa_R0011> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<http://parts.igem.org/BBa_R0011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<http://parts.igem.org/BBa_R0011_sequence> <http://sbols.org/v3#displayId> "BBa_R0011_sequence" .
+<http://parts.igem.org/BBa_R0011_sequence> <http://sbols.org/v3#elements> "AATTGTGAGCGGATAACAATTGACATTGTGAGCGGATAACAAGATACTGAGCACA" .
+<http://parts.igem.org/BBa_R0011_sequence> <http://sbols.org/v3#encoding> <https://identifiers.org/edam:format_1207> .
+<http://parts.igem.org/BBa_R0011_sequence> <http://sbols.org/v3#hasNamespace> <http://parts.igem.org> .
+<http://parts.igem.org/BBa_R0011_sequence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Sequence> .
 <http://parts.igem.org/C0012> <http://sbols.org/v3#description> "Repressor induced by IPTG; Note that C0012 also includes an LVA tag and a barcode" .
 <http://parts.igem.org/C0012> <http://sbols.org/v3#displayId> "C0012" .
-<http://parts.igem.org/C0012> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers> .
+<http://parts.igem.org/C0012> <http://sbols.org/v3#hasNamespace> <http://parts.igem.org> .
 <http://parts.igem.org/C0012> <http://sbols.org/v3#name> "LacI" .
 <http://parts.igem.org/C0012> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
 <http://parts.igem.org/C0012> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
 <http://parts.igem.org/C0012> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
 <http://parts.igem.org/C0040> <http://sbols.org/v3#description> "Activator induced by arabinose" .
 <http://parts.igem.org/C0040> <http://sbols.org/v3#displayId> "C0040" .
-<http://parts.igem.org/C0040> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers> .
+<http://parts.igem.org/C0040> <http://sbols.org/v3#hasNamespace> <http://parts.igem.org> .
 <http://parts.igem.org/C0040> <http://sbols.org/v3#name> "AraC" .
 <http://parts.igem.org/C0040> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
 <http://parts.igem.org/C0040> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
 <http://parts.igem.org/C0040> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
 <http://parts.igem.org/C0080> <http://sbols.org/v3#description> "Repressor induced by aTc" .
 <http://parts.igem.org/C0080> <http://sbols.org/v3#displayId> "C0080" .
-<http://parts.igem.org/C0080> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers> .
+<http://parts.igem.org/C0080> <http://sbols.org/v3#hasNamespace> <http://parts.igem.org> .
 <http://parts.igem.org/C0080> <http://sbols.org/v3#name> "TetR" .
 <http://parts.igem.org/C0080> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
 <http://parts.igem.org/C0080> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
 <http://parts.igem.org/C0080> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
 <http://parts.igem.org/I0500> <http://sbols.org/v3#description> "Target for AraC" .
 <http://parts.igem.org/I0500> <http://sbols.org/v3#displayId> "I0500" .
-<http://parts.igem.org/I0500> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers> .
+<http://parts.igem.org/I0500> <http://sbols.org/v3#hasNamespace> <http://parts.igem.org> .
 <http://parts.igem.org/I0500> <http://sbols.org/v3#name> "pBAD" .
 <http://parts.igem.org/I0500> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000167> .
 <http://parts.igem.org/I0500> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
 <http://parts.igem.org/I0500> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
 <http://parts.igem.org/R0010> <http://sbols.org/v3#description> "Target for LacI" .
 <http://parts.igem.org/R0010> <http://sbols.org/v3#displayId> "R0010" .
-<http://parts.igem.org/R0010> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers> .
+<http://parts.igem.org/R0010> <http://sbols.org/v3#hasNamespace> <http://parts.igem.org> .
 <http://parts.igem.org/R0010> <http://sbols.org/v3#name> "pLac" .
 <http://parts.igem.org/R0010> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000167> .
 <http://parts.igem.org/R0010> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
 <http://parts.igem.org/R0010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
 <http://parts.igem.org/R0040> <http://sbols.org/v3#description> "Target for TetR" .
 <http://parts.igem.org/R0040> <http://sbols.org/v3#displayId> "R0040" .
-<http://parts.igem.org/R0040> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers> .
+<http://parts.igem.org/R0040> <http://sbols.org/v3#hasNamespace> <http://parts.igem.org> .
 <http://parts.igem.org/R0040> <http://sbols.org/v3#name> "pTet" .
 <http://parts.igem.org/R0040> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000167> .
 <http://parts.igem.org/R0040> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
 <http://parts.igem.org/R0040> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
 <http://parts.igem.org/pSB1C3> <http://sbols.org/v3#description> "" .
 <http://parts.igem.org/pSB1C3> <http://sbols.org/v3#displayId> "pSB1C3" .
-<http://parts.igem.org/pSB1C3> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers> .
+<http://parts.igem.org/pSB1C3> <http://sbols.org/v3#hasNamespace> <http://parts.igem.org> .
 <http://parts.igem.org/pSB1C3> <http://sbols.org/v3#name> "pSB1C3" .
 <http://parts.igem.org/pSB1C3> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000155> .
 <http://parts.igem.org/pSB1C3> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
@@ -160,6 +173,7 @@
 <https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers/BasicParts> <http://sbols.org/v3#member> <http://parts.igem.org/BBa_K3317006> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers/BasicParts> <http://sbols.org/v3#member> <http://parts.igem.org/BBa_K3317007> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers/BasicParts> <http://sbols.org/v3#member> <http://parts.igem.org/BBa_K3424010> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers/BasicParts> <http://sbols.org/v3#member> <http://parts.igem.org/BBa_R0011> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers/BasicParts> <http://sbols.org/v3#member> <http://parts.igem.org/C0012> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers/BasicParts> <http://sbols.org/v3#member> <http://parts.igem.org/C0040> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers/BasicParts> <http://sbols.org/v3#member> <http://parts.igem.org/C0080> .
@@ -427,6 +441,7 @@
 <https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers/Promoters_ins/VariableFeature1> <http://sbols.org/v3#variant> <http://parts.igem.org/BBa_K3317006> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers/Promoters_ins/VariableFeature1> <http://sbols.org/v3#variant> <http://parts.igem.org/BBa_K3317007> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers/Promoters_ins/VariableFeature1> <http://sbols.org/v3#variant> <http://parts.igem.org/BBa_K3424010> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers/Promoters_ins/VariableFeature1> <http://sbols.org/v3#variant> <http://parts.igem.org/BBa_R0011> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers/Promoters_ins/VariableFeature1> <http://sbols.org/v3#variant> <http://parts.igem.org/I0500> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers/Promoters_ins/VariableFeature1> <http://sbols.org/v3#variant> <http://parts.igem.org/R0010> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Small%20Molecule%20Inducers/Promoters_ins/VariableFeature1> <http://sbols.org/v3#variant> <http://parts.igem.org/R0040> .
