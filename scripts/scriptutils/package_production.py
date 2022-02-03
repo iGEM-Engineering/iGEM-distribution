@@ -4,6 +4,7 @@ import os
 
 import rdflib
 import sbol3
+import tyto
 from Bio import SeqIO
 from Bio.Seq import Seq
 
@@ -38,9 +39,9 @@ def collate_package(package: str) -> None:
     inventory = package_parts_inventory(package, basic_part_ids)
 
     # search old object for aliases; if found, remove and add to rewriting plan
-    to_remove = [o for o in doc.objects if o.identity in inventory.aliases]
+    to_remove = {o.identity: o for o in doc.objects if o.identity in inventory.aliases}
     print(f'  Removing {len(to_remove)} objects to be replaced by imports')
-    for o in to_remove:
+    for o in to_remove.values():
         doc.objects.remove(o)
 
     # copy the contents of each file into the main document
@@ -51,14 +52,22 @@ def collate_package(package: str) -> None:
         for o in import_doc.objects:
             if o.identity in (o.identity for o in doc.objects):
                 continue  # TODO: add a more principled way of handling duplicates
-            o.copy(doc)
+            copied = o.copy(doc)
             # TODO: figure out how to merge information from Excel specs
+            if copied.identity in to_remove:
+                # special case partial solution for https://github.com/iGEM-Engineering/iGEM-distribution/issues/131
+                if isinstance(copied, sbol3.Component) and isinstance(to_remove[copied.identity], sbol3.Component):
+                    # if the role is defaulting to the generic "engineered region", replace with sheet role
+                    if not copied.roles or (len(copied.roles) == 1 and tyto.SO.engineered_region.is_a(copied.roles[0])):
+                        if to_remove[copied.identity].roles:  # only replace if there's something to substitute
+                            print(f'   Missing role information {copied.roles} in {copied.identity} replaced by roles '
+                                  f'{to_remove[copied.identity].roles} specified in Excel sheet')
+                            copied.roles = to_remove[copied.identity].roles
 
     # TODO: remove graph workaround on resolution of https://github.com/SynBioDex/pySBOL3/issues/207
     # Change to a graph in order to rewrite identities:
     g = doc.graph()
-    rewriting_plan = {o.identity: inventory.aliases[o.identity]
-                      for o in to_remove if inventory.aliases[o.identity] != o.identity}
+    rewriting_plan = {uid: inventory.aliases[uid] for uid in to_remove if inventory.aliases[uid] != uid}
     print(f'  Rewriting {len(rewriting_plan)} objects to their aliases: {rewriting_plan}')
     for old_identity, new_identity in rewriting_plan.items():
         # Update all triples where old_identity is the object
@@ -77,6 +86,15 @@ def collate_package(package: str) -> None:
     with open(target_name, 'w') as outfile:
         outfile.write(serialized)
 
+    # test for file validity:
+    test_doc = sbol3.Document()
+    test_doc.read(target_name)
+    report = test_doc.validate()
+    if len(report):
+        for r in report:
+            print(r)
+        raise ValueError(f'Collated package {target_name} is invalid')
+
 
 def expand_build_plan(package: str) -> sbol3.Document:
     """Expand the build plans (libraries & composites sheet) in a package's collated SBOL3 Document
@@ -94,8 +112,10 @@ def expand_build_plan(package: str) -> sbol3.Document:
     sbol3.set_namespace(package_stem(package))
     if roots:
         derivative_collections = expand_derivations(roots)
-        print(f'Expanded {len(derivative_collections)} collections containing a total of {sum(len(c.members) for c in derivative_collections)} parts')
-        doc.add(sbol3.Collection(BUILD_PRODUCTS_COLLECTION, members=itertools.chain(*(c.members for c in derivative_collections))))
+        print(f'Expanded {len(derivative_collections)} collections containing a total '
+              f'of {sum(len(c.members) for c in derivative_collections)} parts')
+        doc.add(sbol3.Collection(BUILD_PRODUCTS_COLLECTION,
+                                 members=itertools.chain(*(c.members for c in derivative_collections))))
         new_sequences = calculate_sequences(doc)
         print(f'Computed sequences for {len(new_sequences)} components')
     else:
@@ -187,28 +207,41 @@ def extract_synthesis_files(root: str, doc: sbol3.Document) -> sbol3.Document:
     # for GenBank export, copy build products to new Document, omitting ones without sequences
     sequence_number_warning = 'Omitting {}: GenBank exports require 1 sequence, but found {}'
     build_doc = sbol3.Document()
-    build_plan.copy(build_doc)
-    components_copied = set(full_constructs)
+    components_copied = set(full_constructs)  # all of these will be copied directly in the next iterator
     n_genbank_constructs = 0
     for c in full_constructs:
         # if build is missing sequence, warn and skip
         if len(c.sequences) != 1:
             print(sequence_number_warning.format(c.identity, len(c.sequences)))
+            build_plan.members.remove(c.identity)
             continue
         c.copy(build_doc)
         c.sequences[0].lookup().copy(build_doc)
         n_genbank_constructs += 1
-        # copy over subcomponents and their sequences too  # TODO: make this work for multi-layer components
-        for sub_c in c.features:
+        sub_c_queue = c.features[::-1]  # add in reverse since we will be popping them off back to front
+        # copy over tree of subcomponents and their sequences too
+        while len(sub_c_queue):
+            sub_c = sub_c_queue.pop()
             if isinstance(sub_c, sbol3.SubComponent) and sub_c.instance_of.lookup() not in components_copied:
                 sub = sub_c.instance_of.lookup()
                 components_copied.add(sub)
+                # TODO: consider filtering before adding
+                sub_c_queue += sub.features[::-1]  # add in reverse since we will be popping them off back to front
                 # if subcomponent is missing sequence, warn and skip
                 if len(sub.sequences) != 1:
                     print(sequence_number_warning.format(sub.identity, len(sub.sequences)))
                     continue
                 sub.copy(build_doc)
                 sub.sequences[0].lookup().copy(build_doc)
+    # copy over final build plan, which omits the missing sequences
+    build_plan.copy(build_doc)  # TODO: decide if we want to bring this back at some point; it is unneeded
+    # make sure that the file is valid
+    report = build_doc.validate()
+    if len(report):
+        for r in report:
+            print(r)
+        raise ValueError('Extracted document for GenBank conversion is invalid')
+
     # export the GenBank
     gb_path = os.path.join(root, DISTRIBUTION_GENBANK)
     convert_to_genbank(build_doc, gb_path, allow_genbank_online=True)

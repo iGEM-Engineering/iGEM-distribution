@@ -41,7 +41,7 @@ def package_dirs() -> List[str]:
     List of package directory path names
     """
     root = git.Repo('.', search_parent_directories=True).working_tree_dir
-    exclusions = {'scripts'}
+    exclusions = {'scripts', 'docs'}
     return [d.path for d in os.scandir(root) if d.is_dir() and not (d.name in exclusions or d.name.startswith('.'))]
 
 
