@@ -27,7 +27,7 @@ GFPmut3b,CDS,,,,iGEM registry,K2656022,,,False,False,0,
 mCherry,CDS,,,,iGEM registry,J06504,,,False,False,0,
 rnpB_T1,terminator,99.17% efficiency,,,PubMed,23511967,,,False,False,82,TCGGTCAGTTTCACCTGATTTACGTAAAAACCCGCTTCGGCGGGTTTTTGCTTTTGGAGGGGCAGAAAGATGAATGACTGTC
 rpoC_T,terminator,98.99% efficiency,,,PubMed,23511967,,,False,False,83,GTAATCGTTAATCCGCAAATAACGTAAAAACCCGCTTCGGCGGGTTTTTTTATGGGGGGAGTTTAGGGAAAGAGCATTTGTCA
-pSB1C3,plasmid,"pMB1 replicon, 100-300 copy",,,,,,,False,False,0,
+pSB1C3,plasmid,"pMB1 replicon, 100-300 copy",,,iGEM registry,pSB1C3,,,False,False,0,
 OP_Connector_MC,insulator,Operon connector resulting from MC OC3' 1-OC5'2,,,,,,,False,False,14,GCTTaaTACTTACT
 Connector_Prom_OH,restriction_enzyme_five_prime_single_strand_overhang,Connector - Promoter overhang 5',,,,,,,False,False,4,GGAG
 Prom_RBS_OH,restriction_enzyme_five_prime_single_strand_overhang,Promoter - RBS overhang 5',,,,,,,False,False,4,TACT
