@@ -1,6 +1,6 @@
 # Distribution Summary
 
-- 188 samples planned for distribution
+- 199 samples planned for distribution
 
 ### Parts:
 
@@ -72,6 +72,17 @@
 - Fluorescent_Proteins_in_vector_Fluorescent_Proteins_in_vector_ins_KY484012
 - Fluorescent_Proteins_in_vector_Fluorescent_Proteins_in_vector_ins_mKate2
 - Fluorescent_Proteins_in_vector_Fluorescent_Proteins_in_vector_ins_mScarlet
+- Double_Constructs_B_RG_Double_Constructs_B_RG_ins_BBa_J06504
+- Double_Constructs_B_RG_Double_Constructs_B_RG_ins_K2656022
+- Double_Constructs_G_BR_Double_Constructs_G_BR_ins_BBa_J06504
+- Double_Constructs_G_BR_Double_Constructs_G_BR_ins_BBa_K592100
+- Double_Constructs_R_BG_Double_Constructs_R_BG_ins_BBa_K592100
+- Double_Constructs_R_BG_Double_Constructs_R_BG_ins_K2656022
+- Three_Colors_Three_Colors_ins_BBa_E1010
+- Three_Colors_Three_Colors_ins_BBa_J06504
+- Three_Colors_Three_Colors_ins_BBa_K592100
+- Three_Colors_Three_Colors_ins_ECFP
+- Three_Colors_Three_Colors_ins_K2656022
 - BHETase_library_K3039005
 - BHETase_library_K3039006
 - PETase_library_BBa_K2010999
