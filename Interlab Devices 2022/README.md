@@ -16,7 +16,7 @@ Candidate devices for interlaboratory studies to be carried out on 2022.  Includ
     - ribozyme: 2
     - stop_codon: 1
     - terminator: 3
-- 1 vectors _<span style="color:red">1 missing sequences: pSB1C3</span>_
+- 1 vectors
 - 11 samples for distribution _<span style="color:red">6 parts not included</span>_
 
 ### Parts:
