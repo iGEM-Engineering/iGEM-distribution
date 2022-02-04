@@ -1,0 +1,44 @@
+Collection Name,Interlab 2022 Devices,,Blue = Do not change; Green = free text,,,,,,,,,
+Authors,Alejandro Vignoni - Sonja Billerbeck,,,,,,,,,,,
+,,,,,,,,,,,,
+Collection Description,,,,,,,,,,,,
+"Candidate devices for interlaboratory studies to be carried out on 2022.  Including transcriptional units with fluorescent reporters,  ",,,,,,,,,,,,
+,,,,,,,,,,,,
+Example Data,,,,,,,,,,,,
+J23101,Promoter,High consitutive promoter from Anderson library,,,iGEM registry,J23101,,Escherichia coli,False,False,0,
+pRO1600,Engineered Region,Designed with a high GC content for higher melting points,,plasmid used to test promoter strength in  E coli,SEVA,pSEVA247Y,Aequorea victoria,Escherichia coli,True,True,1279,GTGAAAGGCAGGCCGGTCCGTGGTGGCCACGGCCTCTAGGCCAGATCCAGCGGCATCTGGGTTAGTCGAGCGCGGGCCGCTTCCCATGTCTCACCAGGGCGAGCCTGTTTCGCGATCTCAGCATCTGAAATCTTCCCGGCCTTGCGCTTCGCTGGGGCCTTACCCACCGCCTTGGCGGGCTTCTTCGGTCCAAAACTGAACAACAGATGTGTGACCTTGCGCCCGGTCTTTCGCTGCGCCCACTCCACCTGTAGCGGGCTGTGCTCGTTGATCTGCGTCACGGCTGGATCAAGCACTCGCAACTTGAAGTCCTTGATCGAGGGATACCGGCCTTCCAGTTGAAACCACTTTCGCAGCTGGTCAATTTCTATTTCGCGCTGGCCGATGCTGTCCCATTGCATGAGCAGCTCGTAAAGCCTGATCGCGTGGGTGCTGTCCATCTTGGCCACGTCAGCCAAGGCGTATTTGGTGAACTGTTTGGTGAGTTCCGTCAGGTACGGCAGCATGTCTTTGGTGAACCTGAGTTCTACACGGCCCTCACCCTCCCGGTAGATGATTGTTTGCACCCAGCCGGTAATCATCACACTCGGTCTTTTCCCCTTGCCATTGGGCTCTTGGGTTAACCGGACTTCCCGCCGTTTCAGGCGCAGGGCCGCTTCTTTGAGCTGGTTGTAGGAAGATTCGATAGGGACACCCGCCATCGTCGCTATGTCCTCCGCCGTCACTGAATACATCACTTCATCGGTGACAGGCTCGCTCCTCTTCACCTGGCTAATACAGGCCAGAACGATCCGCTGTTCCTGAACACTGAGGCGATACGCGGCCTCGACCAGGGCATTGCTTTTGTAAACCATTGGGGGTGAGGCCACGTTCGACATTCCTTGTGTATAAGGGGACACTGTATCTGCGTCCCACAATACAACAAATCCGTCCCTTTACAACAACAAATCCGTCCCTTCTTAACAACAAATCCGTCCCTTAATGGCAACAAATCCGTCCCTTTTTAAACTCTACAGGCCACGGATTACGTGGCCTGTAGACGTCCTAAAAGGTTTAAAAGGGAAAAGGAAGAAAAGGGTGGAAACGCAAAAAACGCACCACTACGTGGCCCCGTTGGGGCCGCATTTGTGCCCCTGAAGGGGCGGGGGAGGCGTCTGGGCAATCCCCGTTTTACCAGTCCCCTATCGCCGCCTGAGAGGGCGCAGGAAGCGAGTAATCAGGGTATCGAGGCGGATTCACCCTTGGCGTCCAACCAGCGGCACCAGCGGCGCCTGAGAGG
+,,,,,,,,,,,,
+,Blue text column headers are optional,,,,,,,,,,,
+DNA Parts and Devices,Click on column headers for more information as to what to put into the column,,,,,,,,,,,
+"Short and human friendly name for the part, e.g., ""GFP Reporter""",This is the role of the part according to the sequence ontology (see Ontology tab for full list). Select from the drop down menu or type have it validated.,Comments about design decisions. E.g. GC content or restriction sites removed,"If no changes were made use Direct, otherwise say changes that were made (can choose for drop down menu)",A description of how the part is meant to function and any information about the part that is not to do with how it was designed.,Where is the information about this part coming from? Provide a tag and e.g. AG for an Addgene plasmid. Tags found in the Source Sheet,Where is the information about this part coming from? Provide a te.g. 87906 for an Addgene plasmid. This is interpreted together with the column to the left,"Where is the genetic information coming from, e.g. gene taken from Aequorea victoria if available add in strain name too. This should match the scientific name for the txid in the next column","Where will the part be used, e.g. construct for use in Escherichia coli 98NK2. Where available include the strain name. This should match the scientific name for the txid in the next column","True if this is a final product to be produced, false if this is an intermediate stage being specified for compactness",Whether or not the part is circular. Select TRUE (circular) or FALSE (linear).,Automatically calculated length of the sequence pasted to the right. Use this column for checking there are no paste errors.,The series of ATGCs that make up the part. Spaces can be used within the sequence but no other characters.
+Part Name,Role,Design Notes,Altered Sequence,Part Description,Data Source Prefix,Data Source ID,Source Organism,Target Organism,Final Product,Circular,length (bp),Sequence
+UNSX,5_prime_UTR_variant,,,,PubMed,PMC4899833,,,False,False,40,CCAGGATACATAGATTACCACAACTCCGAGCCCTTCCACC
+UNS2,5_prime_UTR_variant,Alternate for UNSX,,,PubMed,PMC4899833,,,False,False,40,GCTGGGAGTTCGTAGACGGAAACAAACGCAGAATCCAAGC
+UP element consensus,promoter_element,consensus without runs of As and Ts -59 to -36,,,,,,,False,False,24,TG AAA TATA TTTT CG AAAA GCC gc
+J23101,promoter,"Anderson promoter 5.5 SLM (high, but variable)",,,iGEM registry,J23101,,,False,False,0,
+J23106,promoter,Anderson promoter 5 SLM (high),,,iGEM registry,J23106,,,False,False,0,
+RiboJ,ribozyme,Original RiboJ,,,PubMed,6206723,,,False,False,75,AGCTGTCACCGGATGTGCTTTCCGGTCTGATGAGTCCGTGAGGACGAAACAGCCTCTACAAATAATTTTGTTTAA
+RiboJ10,ribozyme,RiboJ variant from Cello paper,,,PubMed,,,,False,False,75,AGCGCTCAACGGGTGTGCTTCCCGTTCTGATGAGTCCGTGAGGACGAAAGCGCCTCTACAAATAATTTTGTTTAA
+B0032,ribosome_entry_site,,,,iGEM registry,B0032,,,False,False,0,
+BioBricks_scar_short,insulator,"BioBricks scar (short one, w/o ag, before CDS)",,,,,,,False,False,6,TACTAG
+BioBricks_scar_long,insulator,BioBricks scar including ag (not before CDS) TACTAG,,,,,,,False,False,8,TACTAG AG
+mTagBFP,CDS,,,,iGEM registry,K592100,,,False,False,0,
+GFPmut3b,CDS,,,,iGEM registry,K2656022,,,False,False,0,
+mCherry,CDS,,,,iGEM registry,J06504,,,False,False,0,
+rnpB_T1,terminator,99.17% efficiency,,,PubMed,23511967,,,False,False,82,TCGGTCAGTTTCACCTGATTTACGTAAAAACCCGCTTCGGCGGGTTTTTGCTTTTGGAGGGGCAGAAAGATGAATGACTGTC
+rpoC_T,terminator,98.99% efficiency,,,PubMed,23511967,,,False,False,83,GTAATCGTTAATCCGCAAATAACGTAAAAACCCGCTTCGGCGGGTTTTTTTATGGGGGGAGTTTAGGGAAAGAGCATTTGTCA
+pSB1C3,plasmid,"pMB1 replicon, 100-300 copy",,,,,,,False,False,0,
+OP_Connector_MC,insulator,Operon connector resulting from MC OC3' 1-OC5'2,,,,,,,False,False,14,GCTTaaTACTTACT
+Connector_Prom_OH,restriction_enzyme_five_prime_single_strand_overhang,Connector - Promoter overhang 5',,,,,,,False,False,4,GGAG
+Prom_RBS_OH,restriction_enzyme_five_prime_single_strand_overhang,Promoter - RBS overhang 5',,,,,,,False,False,4,TACT
+RBS_CDS_OH,restriction_enzyme_five_prime_single_strand_overhang,"RBS - CDS overhang 5' (just A, the methionine is in the CDS)",,,,,,,False,False,1,A
+CDS_Terminator_OH,restriction_enzyme_five_prime_single_strand_overhang,CDS - Terminator 5',,,,,,,False,False,4,GCTT
+Pre_RBS,insulator,Pre RBS sequence agag,,,,,,,False,False,4,AGAG
+Post_RBS_MC,insulator,Post RBS sequence TAA TC (gets completed with RBS_CDS_OH),,,,,,,False,False,5,TAATC
+STOP_MC,stop_codon,To make the stop codon when placed after CDS_TT_OH,,,,,,,False,False,2,AA
+Terminator_Conn_OH,restriction_enzyme_five_prime_single_strand_overhang,Terminator to 3' Connector or Backbone,,,,,,,False,False,4,GCTT
+ECFP,CDS,Cyan FP; codon optimized using IDT tool <https://www.idtdna.com/CodonOpt>,Codon Optimisation,ECFP,,,,,False,False,717,"ATG GTT AGT AAA GGG GAA GAG TTG TTT ACG GGC GTT GTT CCA ATC TTG GTG GAG TTG GAC GGG GAC GTT AAT GGG CAC AAA TTT TCG GTC TCT GGG GAA GGC GAG GGG GAC GCC ACG TAT GGT AAG CTG ACC TTG AAG TTC ATT TGC ACT ACT GGG AAA TTG CCG GTT CCC TGG CCT ACG CTT GTT ACC ACG TTG ACC TGG GGC GTA CAA TGT TTC TCG CGC TAT CCT GAC CAC ATG AAA CAA CAT GAT TTC TTT AAG TCA GCT ATG CCT GAG GGC TAC GTG CAG GAG CGC ACT ATC TTC TTC AAG GAT GAC GGG AAT TAC AAA ACC CGT GCG GAG GTA AAG TTC GAG GGT GAC ACG CTT GTC AAC CGC ATC GAG TTG AAG GGC ATT GAT TTT AAG GAG GAT GGC AAC ATT TTA GGA CAT AAA TTA GAG TAT AAC TAT ATT TCG CAT AAT GTC TAC ATT ACT GCT GAC AAA CAA AAG AAC GGC ATC AAG GCT AAT TTC AAA ATT CGC CAC AAC ATC GAG GAT GGA TCG GTT CAG TTA GCA GAT CAT TAC CAG CAA AAC ACG CCC ATC GGT GAC GGA CCA GTT CTG TTA CCT GAC AAC CAC TAT CTT TCT ACA CAG AGT GCT CTT AGC AAG GAC CCT AAC GAA AAA CGT GAC CAC ATG GTC CTG CTG GAG TTT GTG ACA GCC GCA GGT ATT ACA TTG GGG ATG GAC GAA TTG TAT AAG 
+"
+E1010,CDS,Red FP (off patent),,mRFP1,iGEM registry,E1010,,,False,False,0,
+B0015,terminator,,,Double terminator,iGEM registry,B0015,,,False,False,0,
+,,,,,,,,,,,,
