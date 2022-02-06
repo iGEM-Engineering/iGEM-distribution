@@ -7,7 +7,7 @@ Collection of 2A peptides for the construction of polycistronic expression casse
 - 4 parts _<span style="color:red">4 missing sequences</span>_
     - 2A_self_cleaving_peptide_region: 4
 - 1 vectors
-- 8 samples for distribution
+- 4 samples for distribution
 
 ### Parts:
 
