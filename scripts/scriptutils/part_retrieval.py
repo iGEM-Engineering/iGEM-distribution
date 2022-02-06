@@ -16,7 +16,7 @@ from sbol_utilities.helper_functions import GENETIC_DESIGN_FILE_TYPES
 from sbol_utilities.excel_to_sbol import BASIC_PARTS_COLLECTION
 from .directories import EXPORT_DIRECTORY, SBOL_EXPORT_NAME
 from .package_specification import package_stem
-from .conversions import convert2to3, convert_from_fasta, convert_from_genbank
+from sbol_utilities.conversion import convert2to3, convert_from_fasta, convert_from_genbank
 
 NCBI_GENBANK_CACHE_FILE = 'NCBI_GenBank_imports.gb'
 OTHER_GENBANK_CACHE_FILE = 'Other_GenBank_imports.gb'
@@ -57,7 +57,7 @@ class ImportFile:
         elif self.file_type == 'FASTA':  # FASTA should be read with NCBI and converted directly into SBOL3
             self.doc = convert_from_fasta(self.path, self.namespace, self.id_to_uri)
         elif self.file_type == 'GenBank':  # GenBank --> SBOL2 --> SBOL3
-            self.doc = convert_from_genbank(self.path, self.namespace)
+            self.doc = convert_from_genbank(self.path, self.namespace, allow_genbank_online=True)
         elif self.file_type == 'SBOL2':  # SBOL2 files should all have been turned to SBOL3 already
             logging.warning(f'Should not be importing directly from SBOL2: {self.path}')
             doc2 = sbol2.Document()
