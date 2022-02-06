@@ -8,46 +8,46 @@ None
     - CDS: 19
     - promoter: 18
 - 1 vectors
-- 37 samples for distribution
+- 0 samples for distribution _<span style="color:red">38 parts not included</span>_ _<span style="color:red">No samples planned to be built for distribution</span>_
 
 ### Parts:
 
-- ButR (CDS) in pSB1C3
-- HapR (CDS) in pSB1C3
-- HlyllR (CDS) in pSB1C3
-- McbR (CDS) in pSB1C3
-- Orf2 (CDS) in pSB1C3
-- ScbR (CDS) in pSB1C3
-- SmcR (CDS) in pSB1C3
-- TarA (CDS) in pSB1C3
-- pButR (promoter) in pSB1C3
-- pHapR (promoter) in pSB1C3
-- pHlyllR (promoter) in pSB1C3
-- pMcbR (promoter) in pSB1C3
-- pOrf2 (promoter) in pSB1C3
-- pScbR (promoter) in pSB1C3
-- pSmcR (promoter) in pSB1C3
-- pTarA (promoter) in pSB1C3
-- AmtR (CDS) in pSB1C3
-- AmeR (CDS) in pSB1C3
-- BM3R1 (CDS) in pSB1C3
-- BetI (CDS) in pSB1C3
-- IcaRA (CDS) in pSB1C3
-- LitR (CDS) in pSB1C3
-- LmrA (CDS) in pSB1C3
-- PhlF (CDS) in pSB1C3
-- PsrA (CDS) in pSB1C3
-- QacR (CDS) in pSB1C3
-- SrpR (CDS) in pSB1C3
-- pAmeR (promoter) in pSB1C3
-- pAmtR (promoter) in pSB1C3
-- pBM3R1 (promoter) in pSB1C3
-- pBetI (promoter) in pSB1C3
-- pIcaRA (promoter) in pSB1C3
-- pLitR (promoter) in pSB1C3
-- pPhlF (promoter) in pSB1C3
-- pPsrA (promoter) in pSB1C3
-- pQacR (promoter) in pSB1C3
-- pSrpR (promoter) in pSB1C3
+- ButR (CDS) _<span style="color:red">not included in distribution</span>_
+- HapR (CDS) _<span style="color:red">not included in distribution</span>_
+- HlyllR (CDS) _<span style="color:red">not included in distribution</span>_
+- McbR (CDS) _<span style="color:red">not included in distribution</span>_
+- Orf2 (CDS) _<span style="color:red">not included in distribution</span>_
+- ScbR (CDS) _<span style="color:red">not included in distribution</span>_
+- SmcR (CDS) _<span style="color:red">not included in distribution</span>_
+- TarA (CDS) _<span style="color:red">not included in distribution</span>_
+- pButR (promoter) _<span style="color:red">not included in distribution</span>_
+- pHapR (promoter) _<span style="color:red">not included in distribution</span>_
+- pHlyllR (promoter) _<span style="color:red">not included in distribution</span>_
+- pMcbR (promoter) _<span style="color:red">not included in distribution</span>_
+- pOrf2 (promoter) _<span style="color:red">not included in distribution</span>_
+- pScbR (promoter) _<span style="color:red">not included in distribution</span>_
+- pSmcR (promoter) _<span style="color:red">not included in distribution</span>_
+- pTarA (promoter) _<span style="color:red">not included in distribution</span>_
+- AmtR (CDS) _<span style="color:red">not included in distribution</span>_
+- AmeR (CDS) _<span style="color:red">not included in distribution</span>_
+- BM3R1 (CDS) _<span style="color:red">not included in distribution</span>_
+- BetI (CDS) _<span style="color:red">not included in distribution</span>_
+- IcaRA (CDS) _<span style="color:red">not included in distribution</span>_
+- LitR (CDS) _<span style="color:red">not included in distribution</span>_
+- LmrA (CDS) _<span style="color:red">not included in distribution</span>_
+- PhlF (CDS) _<span style="color:red">not included in distribution</span>_
+- PsrA (CDS) _<span style="color:red">not included in distribution</span>_
+- QacR (CDS) _<span style="color:red">not included in distribution</span>_
+- SrpR (CDS) _<span style="color:red">not included in distribution</span>_
+- pAmeR (promoter) _<span style="color:red">not included in distribution</span>_
+- pAmtR (promoter) _<span style="color:red">not included in distribution</span>_
+- pBM3R1 (promoter) _<span style="color:red">not included in distribution</span>_
+- pBetI (promoter) _<span style="color:red">not included in distribution</span>_
+- pIcaRA (promoter) _<span style="color:red">not included in distribution</span>_
+- pLitR (promoter) _<span style="color:red">not included in distribution</span>_
+- pPhlF (promoter) _<span style="color:red">not included in distribution</span>_
+- pPsrA (promoter) _<span style="color:red">not included in distribution</span>_
+- pQacR (promoter) _<span style="color:red">not included in distribution</span>_
+- pSrpR (promoter) _<span style="color:red">not included in distribution</span>_
 
 _Note: automatically generated from package Excel and sequence files; do not edit_
