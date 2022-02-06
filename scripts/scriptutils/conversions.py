@@ -9,8 +9,6 @@ from sbol_utilities.conversion import convert2to3
 
 from sbol_utilities.helper_functions import GENETIC_DESIGN_FILE_TYPES
 
-logging.warning('Conversion is deprecated: will shift to sbol-utilities in 1.0a12')
-
 
 def convert_package_sbol2_files(package: str) -> dict[str, str]:
     """Find all SBOL2 import files in a package directory and convert them to SBOL3 sorted n-triples
