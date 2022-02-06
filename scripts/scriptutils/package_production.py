@@ -8,8 +8,8 @@ import tyto
 from Bio import SeqIO
 from Bio.Seq import Seq
 
-from sbol_utilities.excel_to_sbol import BASIC_PARTS_COLLECTION
-from sbol_utilities.expand_combinatorial_derivations import root_combinatorial_derivations, expand_derivations
+from sbol_utilities.excel_to_sbol import BASIC_PARTS_COLLECTION, FINAL_PRODUCTS_COLLECTION
+from sbol_utilities.expand_combinatorial_derivations import expand_derivations
 from sbol_utilities.calculate_sequences import calculate_sequences
 from sbol_utilities.conversion import convert_to_genbank
 
@@ -106,16 +106,41 @@ def expand_build_plan(package: str) -> sbol3.Document:
     path = os.path.join(package, EXPORT_DIRECTORY, SBOL_PACKAGE_NAME)
     doc = sbol3.Document()
     doc.read(path)
-    # Add a build plan collection that contains all of the expanded derivations
-    roots = list(root_combinatorial_derivations(doc))
+
+    # Take inventory of all of the objects to be added to the build plan
+    build_products = doc.find(FINAL_PRODUCTS_COLLECTION)
+    if not isinstance(build_products, sbol3.Collection):
+        raise ValueError(f'Could not find final products collection in package {package}')
+    basic_parts = doc.find(BASIC_PARTS_COLLECTION)
+    if not isinstance(basic_parts, sbol3.Collection):
+        raise ValueError(f'Could not find parts and devices collection in package {package}')
+    # sort products into things that do/don't need expansion
+    build_product_objects = [m.lookup() for m in build_products.members]
+    expansion_targets = [o for o in build_product_objects if isinstance(o, sbol3.CombinatorialDerivation)]
+    basic_part_ids = {o.identity for o in build_product_objects}.intersection({str(m) for m in basic_parts.members})
+    non_library_parts = [o for o in build_product_objects if o not in expansion_targets]
+    composite_part_ids = {o.identity for o in non_library_parts} - basic_part_ids
+    print(f'Package contains {len(build_product_objects)} products: {len(expansion_targets)} libraries, '
+          f'{len(composite_part_ids)} composites, and {len(basic_part_ids)} individual parts')
+
+    # expand any libraries
     # TODO: change namespace handling after resolution of https://github.com/SynBioDex/pySBOL3/issues/288
     sbol3.set_namespace(package_stem(package))
-    if roots:
-        derivative_collections = expand_derivations(roots)
-        print(f'Expanded {len(derivative_collections)} collections containing a total '
+    if expansion_targets:
+        # TODO: handle (and test) layered expansions of build products
+        derivative_collections = expand_derivations(expansion_targets)
+        print(f'Expanded {len(derivative_collections)} libraries containing a total '
               f'of {sum(len(c.members) for c in derivative_collections)} parts')
-        doc.add(sbol3.Collection(BUILD_PRODUCTS_COLLECTION,
-                                 members=itertools.chain(*(c.members for c in derivative_collections))))
+        library_parts = list(itertools.chain(*(c.members for c in derivative_collections)))
+    else:
+        library_parts = []
+        print(f'No libraries to expand')
+
+    # Next add the build collection
+    build_parts = non_library_parts + library_parts
+    if len(build_parts):
+        doc.add(sbol3.Collection(BUILD_PRODUCTS_COLLECTION, members=build_parts))
+        print(f'Build plan for {package} has {len(build_parts)} components')
         new_sequences = calculate_sequences(doc)
         print(f'Computed sequences for {len(new_sequences)} components')
     else:

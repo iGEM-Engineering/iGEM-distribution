@@ -5,8 +5,9 @@ import filecmp
 import sbol3
 
 from scripts.scriptutils import package_production, EXPORT_DIRECTORY, SBOL_PACKAGE_NAME, IGEM_FASTA_CACHE_FILE, \
-    NCBI_GENBANK_CACHE_FILE, IGEM_SBOL2_CACHE_FILE, BUILD_PRODUCTS_COLLECTION, DISTRIBUTION_NAMESPACE, DISTRIBUTION_NAME, \
-    DISTRIBUTION_FASTA, DISTRIBUTION_GENBANK
+    NCBI_GENBANK_CACHE_FILE, IGEM_SBOL2_CACHE_FILE, BUILD_PRODUCTS_COLLECTION, DISTRIBUTION_NAMESPACE, \
+    DISTRIBUTION_NAME, \
+    DISTRIBUTION_FASTA, DISTRIBUTION_GENBANK, export_sbol
 from scripts.test.helpers import copy_to_tmp
 
 
@@ -71,12 +72,47 @@ class TestDistributionProduction(unittest.TestCase):
                     f'{pkg}Other_stuff_JWYZ01000115'}
         built = set(str(m) for m in collection.members)
         assert built == expected, f'Build set does not match expected value: {collection.members}'
-        # Total: 35 from original document, plus 10 vectors, 5 vector sequences, 2x2 expansion collections, 1 package build collection
+        # Total: 35 from original document, plus 10 vectors, 5 vector sequences, 2x2 expansion collections,
+        # 1 package build collection
         assert len(doc.objects) == 55, f'Expected 55 TopLevel objects, but found {len(doc.objects)}'
 
         # check that the file is identical to expectation
         test_dir = os.path.dirname(os.path.realpath(__file__))
         comparison_file = os.path.join(test_dir, 'test_files', EXPORT_DIRECTORY, 'package-expanded.nt')
+        test_file = os.path.join(tmp_sub, EXPORT_DIRECTORY, SBOL_PACKAGE_NAME)
+        assert filecmp.cmp(test_file, comparison_file), f'Expanded file is not identical'
+
+    def test_non_cd_build_plans(self):
+        """Test that build plan works when some or all entries are not CombinatorialDerivations"""
+        tmp_sub = copy_to_tmp(renames={'non_combinatorial_package.xlsx': 'test_package.xlsx'},
+                              package=['BBa_J23101.nt', IGEM_FASTA_CACHE_FILE, IGEM_SBOL2_CACHE_FILE])
+        pkg = 'https://github.com/iGEM-Engineering/iGEM-distribution/test_package/'
+        export_sbol(tmp_sub)
+        package_production.collate_package(tmp_sub)
+        doc = package_production.expand_build_plan(tmp_sub)
+
+        # check if contents of collection match expectation
+        collection = doc.find(BUILD_PRODUCTS_COLLECTION)
+        # 1 collection, s: 1 vectors x 4 parts, 4 individual builds
+        assert len(collection.members) == 8, f'Expected 8 build products, but found {len(collection.members)}'
+        # TODO: allow expansions to use short names by omitting CD name
+        expected = {f'{pkg}Anderson_Promoters_in_vector_J23102_modified',
+                    f'{pkg}Anderson_Promoters_in_vector_BBa_J23100',
+                    f'{pkg}Anderson_Promoters_in_vector_BBa_J23101',
+                    f'{pkg}Anderson_Promoters_in_vector_BBa_J23102',
+                    f'{pkg}LmrA_in_vector',
+                    f'{pkg}J23101_in_vector',
+                    f'{pkg}J23102_in_vector',
+                    f'{pkg}Random_Assemblage'}
+        built = set(str(m) for m in collection.members)
+        assert built == expected, f'Build set does not match expected value: {collection.members}'
+        # Total: 31 pre-expansion, plus 4 vectors, 4 vector sequences, 1 expansion collection, 1 insert,
+        # 1 package build collection
+        assert len(doc.objects) == 42, f'Expected 42 TopLevel objects, but found {len(doc.objects)}'
+
+        # check that the file is identical to expectation
+        test_dir = os.path.dirname(os.path.realpath(__file__))
+        comparison_file = os.path.join(test_dir, 'test_files', EXPORT_DIRECTORY, 'non-combinatorial-package.nt')
         test_file = os.path.join(tmp_sub, EXPORT_DIRECTORY, SBOL_PACKAGE_NAME)
         assert filecmp.cmp(test_file, comparison_file), f'Expanded file is not identical'
 
@@ -114,7 +150,6 @@ class TestDistributionProduction(unittest.TestCase):
         # 10 products were planned, but only 5 have sequences
         assert len(collection.members) == 5, f'Expected 5 build products, but found {len(collection.members)}'
         # Total: 1 collection, 5x2 complete vectors and sequences, 5x2 inserts and sequences, 1x2 plasmids and sequence
-        for i in synth_doc.objects: print(i.identity)
         assert len(synth_doc.objects) == 23, f'Expected 23 TopLevel objects, but found {len(synth_doc.objects)}'
 
         # check that the files are identical to expectations
