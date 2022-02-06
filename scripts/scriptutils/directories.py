@@ -1,12 +1,8 @@
 import os
 import glob
-import warnings
-from typing import List, Union
-from copy import copy
+from typing import List
 
 import git
-import openpyxl
-import sbol3
 
 EXPORT_DIRECTORY = 'views'
 """Export directory into which sheets and other products will be placed"""
@@ -32,6 +28,7 @@ def distribution_dir() -> str:
     """
     root = git.Repo('.', search_parent_directories=True).working_tree_dir
     return root
+
 
 def package_dirs() -> List[str]:
     """Find all packages in the repository
