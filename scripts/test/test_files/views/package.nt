@@ -109,6 +109,7 @@
 <https://github.com/iGEM-Engineering/iGEM-distribution/test_package/FinalProducts> <http://sbols.org/v3#displayId> "FinalProducts" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/test_package/FinalProducts> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/test_package> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/test_package/FinalProducts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/test_package/Anderson_Promoters_in_vector> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/test_package/FinalProducts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/test_package/Other_stuff> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/test_package/FinalProducts> <http://sbols.org/v3#name> "Final Products" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/test_package/FinalProducts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Collection> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/test_package/J23102_modified> <http://sbols.org/v3#description> "J23102-modified a modified version of J23102" .
@@ -130,6 +131,7 @@
 <https://github.com/iGEM-Engineering/iGEM-distribution/test_package/LinearDNAProducts> <http://sbols.org/v3#displayId> "LinearDNAProducts" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/test_package/LinearDNAProducts> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/test_package> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/test_package/LinearDNAProducts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/test_package/Anderson_Promoters_in_vector_ins> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/test_package/LinearDNAProducts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/test_package/Other_stuff_ins> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/test_package/LinearDNAProducts> <http://sbols.org/v3#name> "Linear DNA Products" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/test_package/LinearDNAProducts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Collection> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/test_package/LmrA> <http://sbols.org/v3#description> "Removed https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/LmrA/1 since this SynBioHub instance has gone unstable" .
