@@ -417,9 +417,11 @@ def import_parts(package: str) -> list[str]:
     print(f'PP_IDS_noseq{package_part_ids}')
     inventory_part_ids_and_aliases = set(inventory.aliases.keys())
     both = package_part_ids & inventory_part_ids_and_aliases
+    print(f'parts in both are {both}')
     # note: package_only list isn't actually needed
     inventory_only = set(inventory.locations.keys()) - {inventory.aliases[i] for i in both}
     missing_sequences = package_no_sequence_ids - inventory_part_ids_and_aliases
+    print(f'missing_sequences are {missing_sequences}')
     print(f' {len(package_sequence_ids)} have sequences in Excel, {len(both)} found in directory, '
           f'{len(missing_sequences)} not found')
     print(f' {len(inventory_only)} parts in directory are not used in package')
