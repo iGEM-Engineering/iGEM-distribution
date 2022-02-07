@@ -12,7 +12,6 @@
 <http://parts.igem.org/pSB1C3> <http://sbols.org/v3#name> "pSB1C3" .
 <http://parts.igem.org/pSB1C3> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000155> .
 <http://parts.igem.org/pSB1C3> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
-<http://parts.igem.org/pSB1C3> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
 <http://parts.igem.org/pSB1C3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/ABE8_20_m> <http://sbols.org/v3#description> "Source = Addgene 136300.\nEvolved SpCas adenine base editor (ABE) from Gaudelli et al. 2020. ABEs convert A:T base pairs to G:C. ABE8.20-m is noted to have higher efficiency than 7th generation ABEs (ABE7.10 and ABEmax), with a great deal of the increased efficiency coming from increased editing efficiency on bases at the periphery of the core editing window. The core editing window of this SpCas version is positions 4-8, as is typical of ABEs. See the review 2018 Nature Review by Rees, H. A. & Liu, D. R. for details on base editor windows. PAM = NGG" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/ABE8_20_m> <http://sbols.org/v3#displayId> "ABE8_20_m" .
@@ -251,6 +250,7 @@
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/FinalProducts> <http://sbols.org/v3#description> "Final products desired for actual fabrication" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/FinalProducts> <http://sbols.org/v3#displayId> "FinalProducts" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/FinalProducts> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/FinalProducts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Anti_CRISPR> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/FinalProducts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/FinalProducts> <http://sbols.org/v3#name> "Final Products" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/FinalProducts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Collection> .
@@ -264,6 +264,7 @@
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/LinearDNAProducts> <http://sbols.org/v3#description> "Linear DNA constructs to be fabricated" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/LinearDNAProducts> <http://sbols.org/v3#displayId> "LinearDNAProducts" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/LinearDNAProducts> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/LinearDNAProducts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Anti_CRISPR_ins> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/LinearDNAProducts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants_ins> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/LinearDNAProducts> <http://sbols.org/v3#name> "Linear DNA Products" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/LinearDNAProducts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Collection> .

@@ -11,13 +11,13 @@ from urllib.error import HTTPError
 from Bio import Entrez, SeqIO
 import sbol2
 import sbol3
+from sbol_utilities.conversion import convert_from_fasta, convert_from_genbank
 from sbol_utilities.sequence import unambiguous_dna_sequence
 from sbol_utilities.helper_functions import GENETIC_DESIGN_FILE_TYPES
-from sbol_utilities.helper_functions import url_to_identity
 from sbol_utilities.excel_to_sbol import BASIC_PARTS_COLLECTION
 from .directories import EXPORT_DIRECTORY, SBOL_EXPORT_NAME
 from .package_specification import package_stem
-from .conversions import convert2to3, convert_from_fasta, convert_from_genbank
+from .conversions import convert2to3
 
 NCBI_GENBANK_CACHE_FILE = 'NCBI_GenBank_imports.gb'
 OTHER_GENBANK_CACHE_FILE = 'Other_GenBank_imports.gb'
@@ -75,8 +75,10 @@ class ImportFile:
 
 class PackageInventory:
     """List of all of the parts imported into a package in various files"""
+
     def __init__(self):
         self.files: set[ImportFile] = set()
+        # locations returns the path to part location
         self.locations: dict[str, ImportFile] = {}
         self.aliases: dict[str, str] = {}
 
@@ -100,20 +102,21 @@ class PackageInventory:
 # for canonicalizing IDs
 # TODO: get more systematic about this; maybe in the sheet?
 prefix_remappings = {
-    'https://synbiohub.org/public/igem/BBa_':iGEM_SOURCE_PREFIX,
+    'https://synbiohub.org/public/igem/BBa_': iGEM_SOURCE_PREFIX,
     'https://synbiohub.org/public/igem/': iGEM_SOURCE_PREFIX  # for any non-BBA parts
 }
 
+
 def remap_prefix(uri: str) -> str:
     # see if the URI hits any remapping
-    for old,new in prefix_remappings.items():
+    for old, new in prefix_remappings.items():
         if uri.startswith(old):
-            return new+uri.removeprefix(old)
+            return new + uri.removeprefix(old)
     # if not, return as before
     return uri
 
 
-def sbol_uri_to_accession(uri: str, prefix: str = NCBI_PREFIX, remaps: dict[str,str] = None) -> str:
+def sbol_uri_to_accession(uri: str, prefix: str = NCBI_PREFIX, remaps: dict[str, str] = None) -> str:
     """Change an NCBI SBOL URI to an accession ID
     :param uri: to convert
     :param prefix: prefix to use with accession, defaulting to NCBI nuccore
@@ -123,7 +126,7 @@ def sbol_uri_to_accession(uri: str, prefix: str = NCBI_PREFIX, remaps: dict[str,
         remaps = {'_': '.'}
     accession = uri.removeprefix(prefix)
     for k, v in remaps.items():
-        accession = accession.replace(k,v)
+        accession = accession.replace(k, v)
     return accession
 
 
@@ -293,7 +296,7 @@ def generic_part_download(urls: list[str], package: str) -> list[str]:
             if any(SeqIO.parse(io.StringIO(captured), 'fasta')):
                 print('  Detected as FASTA format')
                 with open(os.path.join(package, OTHER_FASTA_CACHE_FILE), 'a') as out:
-                    out.write(captured+'\n')
+                    out.write(captured + '\n')
                 retrieved_ids.append(url)
             elif any(SeqIO.parse(io.StringIO(captured), 'gb')):
                 print('  Detected as GenBank format')
@@ -301,7 +304,7 @@ def generic_part_download(urls: list[str], package: str) -> list[str]:
                 if not any(file_name.endswith(ext) for ext in GENETIC_DESIGN_FILE_TYPES['GenBank']):
                     file_name = f'{file_name}.gb'
                 with open(os.path.join(package, file_name), 'w') as out:
-                    out.write(captured+'\n')
+                    out.write(captured + '\n')
                 retrieved_ids.append(url)
             else:
                 # TODO: add handlers for generic SBOL3 downloads also
@@ -310,6 +313,7 @@ def generic_part_download(urls: list[str], package: str) -> list[str]:
             print(f'  Could not retrieve part: {e}')
 
     return retrieved_ids
+
 
 source_list = {
     NCBI_PREFIX: retrieve_genbank_accessions,
@@ -350,7 +354,8 @@ def package_parts_inventory(package: str, targets: List[str] = None) -> PackageI
     inventory = PackageInventory()
 
     # import FASTAs and GenBank
-    for file in sorted(itertools.chain(*(glob.glob(os.path.join(package, f'*{ext}')) for ext in GENETIC_DESIGN_FILE_TYPES['FASTA']))):
+    for file in sorted(itertools.chain(
+            *(glob.glob(os.path.join(package, f'*{ext}')) for ext in GENETIC_DESIGN_FILE_TYPES['FASTA']))):
         is_igem_cache = os.path.basename(file) == IGEM_FASTA_CACHE_FILE
         prefix = iGEM_SOURCE_PREFIX if is_igem_cache else package_stem(package)
         with open(file) as f:
@@ -360,7 +365,8 @@ def package_parts_inventory(package: str, targets: List[str] = None) -> PackageI
                 print(f'Fasta Part identity is {identity}')
                 inventory.add(import_file, identity)
 
-    for file in sorted(itertools.chain(*(glob.glob(os.path.join(package, f'*{ext}')) for ext in GENETIC_DESIGN_FILE_TYPES['GenBank']))):
+    for file in sorted(itertools.chain(
+            *(glob.glob(os.path.join(package, f'*{ext}')) for ext in GENETIC_DESIGN_FILE_TYPES['GenBank']))):
         is_ncbi_cache = os.path.basename(file) == NCBI_GENBANK_CACHE_FILE
         prefix = NCBI_PREFIX if is_ncbi_cache else package_stem(package)
         with open(file) as f:
@@ -368,11 +374,11 @@ def package_parts_inventory(package: str, targets: List[str] = None) -> PackageI
             for record in SeqIO.parse(f, "gb"):
                 if record.name in id_map:
                     identity = id_map[record.name]
-                    print(f'GB Part identity is {identity}')
+                    # print(f'GB Part identity is {identity}')
                     import_file.namespace = identity.removesuffix(f'/{record.name}')
                 else:
                     identity = accession_to_sbol_uri(record.name, prefix)
-                    print(f'else GB identity {identity}')
+                    # print(f'else GB identity {identity}')
                 inventory.add(import_file, identity, accession_to_sbol_uri(record.id, prefix))
 
     # import SBOL3
@@ -397,31 +403,34 @@ def import_parts(package: str) -> list[str]:
     # First collect the package specification
     package_spec = sbol3.Document()
     package_spec.read(os.path.join(package, EXPORT_DIRECTORY, SBOL_EXPORT_NAME))
+    # package_parts contains the members of the each package collection, based on the path that is given above
     package_parts = [p.lookup() for p in package_spec.find(BASIC_PARTS_COLLECTION).members]
+    # retrieve part identity. This will be part name or Data Source ID and will be stored in a dictionary,
+    # where the keys are what we will likely use for finding which sequences are missing
     retrieval_uri = {p.identity: (p.derived_from[0] if p.derived_from else p.identity) for p in package_parts}
-    print(f' Retrieval_uri keys are {retrieval_uri.keys()}')
-    print(f'Package specification contains {len(package_parts)} parts')
+    # print(f' Retrieval_uri keys are {retrieval_uri.keys()}')
+    # print(f'Package specification contains {len(package_parts)} parts')
 
     # Then collect the parts in the package directory
     inventory = package_parts_inventory(package, retrieval_uri.keys())
-    print(f'Inventory.locations are {inventory.locations.keys()}')
-    print(f'inventory.aliases are {inventory.aliases.keys()}')
+    # print(f'Inventory.locations are {inventory.locations.keys()}')
+    # print(f'inventory.aliases are {inventory.aliases.keys()}')
     print(f'Found {len(inventory.locations)} parts cached in package design files')
 
     # Compare the parts lists to each other to figure out which elements are missing
     package_part_ids = {p.identity for p in package_parts}
-    print(f'PP_IDS{package_part_ids}')
+    # print(f'PP_IDS{package_part_ids}')
     package_sequence_ids = {p.identity for p in package_parts if p.sequences}
-    print(f'PP_IDS_seq{package_part_ids}')
+    # print(f'PP_IDS_seq{package_part_ids}')
     package_no_sequence_ids = {p.identity for p in package_parts if not p.sequences}
-    print(f'PP_IDS_noseq{package_part_ids}')
+    # print(f'PP_IDS_noseq{package_part_ids}')
     inventory_part_ids_and_aliases = set(inventory.aliases.keys())
     both = package_part_ids & inventory_part_ids_and_aliases
-    print(f'parts in both are {both}')
+    # print(f'parts in both are {both}')
     # note: package_only list isn't actually needed
     inventory_only = set(inventory.locations.keys()) - {inventory.aliases[i] for i in both}
     missing_sequences = package_no_sequence_ids - inventory_part_ids_and_aliases
-    print(f'missing_sequences are {missing_sequences}')
+    # print(f'missing_sequences are {missing_sequences}')
     print(f' {len(package_sequence_ids)} have sequences in Excel, {len(both)} found in directory, '
           f'{len(missing_sequences)} not found')
     print(f' {len(inventory_only)} parts in directory are not used in package')
@@ -441,5 +450,5 @@ def import_parts(package: str) -> list[str]:
         print(f'Retrieved {len(retrieved_uris)} out of {len(missing_sequences)} missing sequences')
         still_missing = missing_sequences - set(retrieved)
         if still_missing:
-            print('Still missing:'+"".join(f' {p}\n' for p in still_missing))
+            print('Still missing:' + "".join(f' {p}\n' for p in still_missing))
         return retrieved
