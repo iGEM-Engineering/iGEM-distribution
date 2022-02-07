@@ -1,0 +1,142 @@
+
+<http://parts.igem.org/BBa_K1467101> <http://sbols.org/v3#description> "Source = BBa_K1467101, Golden Gate compatible\n35S is a plant specific promoter obtained from the Cauliflower Mosaic Virus. The part is intended for use as a constitutive promoter for gene expression experiments in plants. This part is compatible with GoldenGate MoClo Assembly Standard as it is free from internal BsaI and BpiI recognition sequences." .
+<http://parts.igem.org/BBa_K1467101> <http://sbols.org/v3#displayId> "BBa_K1467101" .
+<http://parts.igem.org/BBa_K1467101> <http://sbols.org/v3#hasNamespace> <http://parts.igem.org> .
+<http://parts.igem.org/BBa_K1467101> <http://sbols.org/v3#name> "CaMV 35S" .
+<http://parts.igem.org/BBa_K1467101> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000167> .
+<http://parts.igem.org/BBa_K1467101> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<http://parts.igem.org/BBa_K1467101> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<http://parts.igem.org/BBa_K1467102> <http://sbols.org/v3#description> "Source = BBa_K1467102, Golden Gate compatible\nBS3 is a plant specific promoter which is induced by the TALE AvrBS3. The promoter is a useful tool in testing a system in which protein expression is activated in response to plant cell infection (in this case represented by presence of AvrBS3)." .
+<http://parts.igem.org/BBa_K1467102> <http://sbols.org/v3#displayId> "BBa_K1467102" .
+<http://parts.igem.org/BBa_K1467102> <http://sbols.org/v3#hasNamespace> <http://parts.igem.org> .
+<http://parts.igem.org/BBa_K1467102> <http://sbols.org/v3#name> "BS3" .
+<http://parts.igem.org/BBa_K1467102> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000167> .
+<http://parts.igem.org/BBa_K1467102> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<http://parts.igem.org/BBa_K1467102> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<http://parts.igem.org/BBa_K1467103> <http://sbols.org/v3#description> "Source = BBa_K1467103, Golden Gate compatible\nPDF 1.2 is a plant specific promoter which is induced by the compound Methyl Jasmonate - produced naturally by plants in response to various biotic and abiotic stresses such as wounding and pathogen infection. For this reason, the PDF1.2 promoter is useful for testing a system in which protein expression is initiated in response to pathogen infection (represented by the presence of methyl jasmonate)." .
+<http://parts.igem.org/BBa_K1467103> <http://sbols.org/v3#displayId> "BBa_K1467103" .
+<http://parts.igem.org/BBa_K1467103> <http://sbols.org/v3#hasNamespace> <http://parts.igem.org> .
+<http://parts.igem.org/BBa_K1467103> <http://sbols.org/v3#name> "PDF 1.2" .
+<http://parts.igem.org/BBa_K1467103> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000167> .
+<http://parts.igem.org/BBa_K1467103> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<http://parts.igem.org/BBa_K1467103> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<http://parts.igem.org/BBa_K1467104> <http://sbols.org/v3#description> "Source = BBa_K1467104, Golden Gate compatible\nMAS (Mannopine synthase) is a plant specific promoter which is constitutively expressed. This part is compatible with the GoldenGate MoClo Assembly Standard as it is free from internal BsaI and BpiI recognition sequences." .
+<http://parts.igem.org/BBa_K1467104> <http://sbols.org/v3#displayId> "BBa_K1467104" .
+<http://parts.igem.org/BBa_K1467104> <http://sbols.org/v3#hasNamespace> <http://parts.igem.org> .
+<http://parts.igem.org/BBa_K1467104> <http://sbols.org/v3#name> "MAS" .
+<http://parts.igem.org/BBa_K1467104> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000167> .
+<http://parts.igem.org/BBa_K1467104> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<http://parts.igem.org/BBa_K1467104> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<http://parts.igem.org/pSB1C3> <http://sbols.org/v3#description> "pSB1C3" .
+<http://parts.igem.org/pSB1C3> <http://sbols.org/v3#displayId> "pSB1C3" .
+<http://parts.igem.org/pSB1C3> <http://sbols.org/v3#hasNamespace> <http://parts.igem.org> .
+<http://parts.igem.org/pSB1C3> <http://sbols.org/v3#name> "pSB1C3" .
+<http://parts.igem.org/pSB1C3> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000155> .
+<http://parts.igem.org/pSB1C3> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<http://parts.igem.org/pSB1C3> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<http://parts.igem.org/pSB1C3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/AtU6> <http://sbols.org/v3#description> "Source = GB1001, pUPD_U626\nU6 promoter derived from Arabidopsis thaliana. Used for gRNA expression in CRISPR systems" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/AtU6> <http://sbols.org/v3#displayId> "AtU6" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/AtU6> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/AtU6> <http://sbols.org/v3#name> "AtU6" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/AtU6> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000167> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/AtU6> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/AtU6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/BasicParts> <http://sbols.org/v3#description> "This collection contains useful parts (shuttle vectors, promoters, UTRs, CDSs, terminators) for plant genetic engineering" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/BasicParts> <http://sbols.org/v3#displayId> "BasicParts" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/BasicParts> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/BasicParts> <http://sbols.org/v3#member> <http://parts.igem.org/BBa_K1467101> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/BasicParts> <http://sbols.org/v3#member> <http://parts.igem.org/BBa_K1467102> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/BasicParts> <http://sbols.org/v3#member> <http://parts.igem.org/BBa_K1467103> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/BasicParts> <http://sbols.org/v3#member> <http://parts.igem.org/BBa_K1467104> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/BasicParts> <http://sbols.org/v3#member> <http://parts.igem.org/pSB1C3> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/AtU6> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/hph> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/BasicParts> <http://sbols.org/v3#name> "Plant Parts" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/BasicParts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/CompositeParts> <http://sbols.org/v3#description> "This collection contains useful parts (shuttle vectors, promoters, UTRs, CDSs, terminators) for plant genetic engineering" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/CompositeParts> <http://sbols.org/v3#displayId> "CompositeParts" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/CompositeParts> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/CompositeParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters_ins> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/CompositeParts> <http://sbols.org/v3#name> "Plant Parts" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/CompositeParts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/FinalProducts> <http://sbols.org/v3#description> "Final products desired for actual fabrication" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/FinalProducts> <http://sbols.org/v3#displayId> "FinalProducts" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/FinalProducts> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/FinalProducts> <http://sbols.org/v3#name> "Final Products" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/FinalProducts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/LinearDNAProducts> <http://sbols.org/v3#description> "Linear DNA constructs to be fabricated" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/LinearDNAProducts> <http://sbols.org/v3#displayId> "LinearDNAProducts" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/LinearDNAProducts> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/LinearDNAProducts> <http://sbols.org/v3#name> "Linear DNA Products" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/LinearDNAProducts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters/VariableFeature1> <http://sbols.org/v3#cardinality> <http://sbols.org/v3#one> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters/VariableFeature1> <http://sbols.org/v3#displayId> "VariableFeature1" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters/VariableFeature1> <http://sbols.org/v3#variable> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters_template/LocalSubComponent1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters/VariableFeature1> <http://sbols.org/v3#variantDerivation> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters_ins> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters/VariableFeature1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#VariableFeature> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters> <http://sbols.org/v3#displayId> "Plant_promoters" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters> <http://sbols.org/v3#hasVariableFeature> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters/VariableFeature1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters> <http://sbols.org/v3#name> "Plant promoters" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters> <http://sbols.org/v3#template> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters_template> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#CombinatorialDerivation> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters_ins/VariableFeature1> <http://sbols.org/v3#cardinality> <http://sbols.org/v3#one> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters_ins/VariableFeature1> <http://sbols.org/v3#displayId> "VariableFeature1" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters_ins/VariableFeature1> <http://sbols.org/v3#variable> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters_ins_template/LocalSubComponent1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters_ins/VariableFeature1> <http://sbols.org/v3#variant> <http://parts.igem.org/BBa_K1467101> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters_ins/VariableFeature1> <http://sbols.org/v3#variant> <http://parts.igem.org/BBa_K1467102> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters_ins/VariableFeature1> <http://sbols.org/v3#variant> <http://parts.igem.org/BBa_K1467103> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters_ins/VariableFeature1> <http://sbols.org/v3#variant> <http://parts.igem.org/BBa_K1467104> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters_ins/VariableFeature1> <http://sbols.org/v3#variant> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/AtU6> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters_ins/VariableFeature1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#VariableFeature> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters_ins> <http://sbols.org/v3#description> "" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters_ins> <http://sbols.org/v3#displayId> "Plant_promoters_ins" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters_ins> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters_ins> <http://sbols.org/v3#hasVariableFeature> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters_ins/VariableFeature1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters_ins> <http://sbols.org/v3#name> "Plant promoters insert" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters_ins> <http://sbols.org/v3#strategy> <http://sbols.org/v3#enumerate> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters_ins> <http://sbols.org/v3#template> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters_ins_template> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters_ins> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#CombinatorialDerivation> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters_ins_template/LocalSubComponent1> <http://sbols.org/v3#displayId> "LocalSubComponent1" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters_ins_template/LocalSubComponent1> <http://sbols.org/v3#name> "Part 1" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters_ins_template/LocalSubComponent1> <http://sbols.org/v3#orientation> <http://sbols.org/v3#inline> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters_ins_template/LocalSubComponent1> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters_ins_template/LocalSubComponent1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#LocalSubComponent> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters_ins_template> <http://sbols.org/v3#displayId> "Plant_promoters_ins_template" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters_ins_template> <http://sbols.org/v3#hasFeature> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters_ins_template/LocalSubComponent1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters_ins_template> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters_ins_template> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters_ins_template> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters_template/Constraint1> <http://sbols.org/v3#displayId> "Constraint1" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters_template/Constraint1> <http://sbols.org/v3#object> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters_template/SubComponent1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters_template/Constraint1> <http://sbols.org/v3#restriction> <http://sbols.org/v3#meets> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters_template/Constraint1> <http://sbols.org/v3#subject> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters_template/LocalSubComponent1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters_template/Constraint1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Constraint> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters_template/Constraint2> <http://sbols.org/v3#displayId> "Constraint2" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters_template/Constraint2> <http://sbols.org/v3#object> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters_template/LocalSubComponent1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters_template/Constraint2> <http://sbols.org/v3#restriction> <http://sbols.org/v3#meets> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters_template/Constraint2> <http://sbols.org/v3#subject> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters_template/SubComponent1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters_template/Constraint2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Constraint> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters_template/LocalSubComponent1> <http://sbols.org/v3#displayId> "LocalSubComponent1" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters_template/LocalSubComponent1> <http://sbols.org/v3#name> "Inserted Construct" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters_template/LocalSubComponent1> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters_template/LocalSubComponent1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#LocalSubComponent> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters_template/SubComponent1> <http://sbols.org/v3#displayId> "SubComponent1" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters_template/SubComponent1> <http://sbols.org/v3#instanceOf> <http://parts.igem.org/pSB1C3> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters_template/SubComponent1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#SubComponent> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters_template> <http://sbols.org/v3#displayId> "Plant_promoters_template" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters_template> <http://sbols.org/v3#hasConstraint> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters_template/Constraint1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters_template> <http://sbols.org/v3#hasConstraint> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters_template/Constraint2> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters_template> <http://sbols.org/v3#hasFeature> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters_template/LocalSubComponent1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters_template> <http://sbols.org/v3#hasFeature> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters_template/SubComponent1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters_template> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters_template> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters_template> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/hph> <http://sbols.org/v3#description> "CDS that confers hygromycin resistance when expressed with a plant promoter and terminator" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/hph> <http://sbols.org/v3#displayId> "hph" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/hph> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/hph> <http://sbols.org/v3#name> "hph" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/hph> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/hph> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/hph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
