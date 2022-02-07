@@ -12645,12 +12645,12 @@ FEATURES             Location/Qualifiers
                      /original_record="part"
      gene            2033..3091
                      /label="URA3 marker"
+                     /note="/ApEinfo_fwdcolor/original_record=part"
                      /note="URA3 encodes orotidine-5’phosphate decarboxylase, an
                      enzyme which is required for the biosynthesis of uracil.
                      Complements Ura3 auxotrophic mutations in yeast. It also
                      acts as negative selection is based on the inhibit or
                      5-fluoro-orotic acid (FOA)"
-                     /note="/ApEinfo_fwdcolor/original_record=part"
      promoter        2033..2209
                      /label="URA3 promoter"
                      /original_record="part"
@@ -13739,9 +13739,9 @@ FEATURES             Location/Qualifiers
                      /original_record="part"
      misc_feature    2033..3745
                      /label="pWV01-ori"
+                     /note="color: #a6acb3"
                      /note="https://www.ncbi.nlm.nih.gov/nuccore/NC_002192.1htt
                      p://www.dartmouth.edu/~gotoole/vectors.html"
-                     /note="color: #a6acb3"
                      /original_record="part"
      CDS             2339..2548
                      /codon_start=1
@@ -18605,6 +18605,84 @@ ORIGIN
      2881 agataaaaaa aatccttagc tttcgctaag gatgatttct ggaattcgcg gccgcttcta
      2941 gag
 //
+LOCUS       Plant_promoters         2272 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  .
+ACCESSION   Plant_promoters_AtU6
+VERSION     Plant_promoters_AtU6
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+     misc_feature    203..223
+                     /label="BioBrick suffix"
+     stem_loop       224..295
+                     /label="E. coli his operon terminator"
+     stem_loop       232..266
+                     /label="Stem loop"
+     primer_bind     359..378
+                     /label="Verification reverse (VR) primer binding site"
+     misc_feature    463..1077
+                     /label="rep (pMB1)"
+     misc_feature    478
+                     /label="ORI"
+     stem_loop       1244..1349
+                     /label="T0 terminator"
+     CDS             1362..2021
+                     /label="Chloramphenicol resistance"
+     primer_bind     2135..2154
+                     /label="Verification forward (VF2) primer binding site"
+     stem_loop       2211..2214
+                     /label="end of terminator"
+     stem_loop       2224..2243
+                     /label="Stem loop"
+     misc_feature    2253..2274
+                     /label="BioBrick prefix"
+     misc_feature    203..2272
+                     /label="pSB1C3"
+     promoter        1..202
+                     /label="U626\(Arabidopsis\	haliana)"
+     promoter        1..202
+ORIGIN
+        1 catcttcatt cttaagatat gaagataatc ttcaaaaggc ccctgggaat ctgaaagaag
+       61 agaagcaggc ccatttatat gggaaagaac aatagtattt cttatatagg cccatttaag
+      121 ttgaaaacaa tcttcaaaag tcccacatcg cttagataag aaaacgaagc tgagtttata
+      181 tacagctaga gtcgaagtag tgtactagta gcggccgctg cagtccggca aaaaagggca
+      241 aggtgtcacc accctgccct ttttctttaa aaccgaaaag attacttcgc gttatgcagg
+      301 cttcctcgct cactgactcg ctgcgctcgg tcgttcggct gcggcgagcg gtatcagctc
+      361 actcaaaggc ggtaatacgg ttatccacag aatcagggga taacgcagga aagaacatgt
+      421 gagcaaaagg ccagcaaaag gccaggaacc gtaaaaaggc cgcgttgctg gcgtttttcc
+      481 acaggctccg cccccctgac gagcatcaca aaaatcgacg ctcaagtcag aggtggcgaa
+      541 acccgacagg actataaaga taccaggcgt ttccccctgg aagctccctc gtgcgctctc
+      601 ctgttccgac cctgccgctt accggatacc tgtccgcctt tctcccttcg ggaagcgtgg
+      661 cgctttctca tagctcacgc tgtaggtatc tcagttcggt gtaggtcgtt cgctccaagc
+      721 tgggctgtgt gcacgaaccc cccgttcagc ccgaccgctg cgccttatcc ggtaactatc
+      781 gtcttgagtc caacccggta agacacgact tatcgccact ggcagcagcc actggtaaca
+      841 ggattagcag agcgaggtat gtaggcggtg ctacagagtt cttgaagtgg tggcctaact
+      901 acggctacac tagaagaaca gtatttggta tctgcgctct gctgaagcca gttaccttcg
+      961 gaaaaagagt tggtagctct tgatccggca aacaaaccac cgctggtagc ggtggttttt
+     1021 ttgtttgcaa gcagcagatt acgcgcagaa aaaaaggatc tcaagaagat cctttgatct
+     1081 tttctacggg gtctgacgct cagtggaacg aaaactcacg ttaagggatt ttggtcatga
+     1141 gattatcaaa aaggatcttc acctagatcc ttttaaatta aaaatgaagt tttaaatcaa
+     1201 tctaaagtat atatgagtaa acttggtctg acagctcgag gcttggattc tcaccaataa
+     1261 aaaacgcccg gcggcaaccg agcgttctga acaaatccag atggagttct gaggtcatta
+     1321 ctggatctat caacaggagt ccaagcgagc tcgatatcaa attacgcccc gccctgccac
+     1381 tcatcgcagt actgttgtaa ttcattaagc attctgccga catggaagcc atcacaaacg
+     1441 gcatgatgaa cctgaatcgc cagcggcatc agcaccttgt cgccttgcgt ataatatttg
+     1501 cccatggtga aaacgggggc gaagaagttg tccatattgg ccacgtttaa atcaaaactg
+     1561 gtgaaactca cccagggatt ggctgagacg aaaaacatat tctcaataaa ccctttaggg
+     1621 aaataggcca ggttttcacc gtaacacgcc acatcttgcg aatatatgtg tagaaactgc
+     1681 cggaaatcgt cgtggtattc actccagagc gatgaaaacg tttcagtttg ctcatggaaa
+     1741 acggtgtaac aagggtgaac actatcccat atcaccagct caccgtcttt cattgccata
+     1801 cgaaattccg gatgagcatt catcaggcgg gcaagaatgt gaataaaggc cggataaaac
+     1861 ttgtgcttat ttttctttac ggtctttaaa aaggccgtaa tatccagctg aacggtctgg
+     1921 ttataggtac attgagcaac tgactgaaat gcctcaaaat gttctttacg atgccattgg
+     1981 gatatatcaa cggtggtata tccagtgatt tttttctcca ttttagcttc cttagctcct
+     2041 gaaaatctcg ataactcaaa aaatacgccc ggtagtgatc ttatttcatt atggtgaaag
+     2101 ttggaacctc ttacgtgccc gatcaactcg agtgccacct gacgtctaag aaaccattat
+     2161 tatcatgaca ttaacctata aaaataggcg tatcacgagg cagaatttca gataaaaaaa
+     2221 atccttagct ttcgctaagg atgatttctg gaattcgcgg ccgcttctag ag
+//
 LOCUS       Promoters_BBa_I         3280 bp    DNA     linear   UNK 01-JAN-1980
 DEFINITION  .
 ACCESSION   Promoters_BBa_I0500
@@ -19750,10 +19828,10 @@ FEATURES             Location/Qualifiers
                      /label="BioBrick prefix"
      misc_feature    64..2133
                      /label="pSB1C3"
-     misc_feature    1..63
+     promoter        1..63
                      /label="pBetI"
 ORIGIN
-        1 agcgcgggtg agagggattc gttaccaata gacaattgat tggacgttca atataatgct
+        1 agcgcgggtg agagggattc gttaccaatt gacaattgat tggacgttca atataatgct
        61 agctactagt agcggccgct gcagtccggc aaaaaagggc aaggtgtcac caccctgccc
       121 tttttcttta aaaccgaaaa gattacttcg cgttatgcag gcttcctcgc tcactgactc
       181 gctgcgctcg gtcgttcggc tgcggcgagc ggtatcagct cactcaaagg cggtaatacg

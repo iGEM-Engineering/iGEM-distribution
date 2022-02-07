@@ -1,6 +1,6 @@
 # Distribution Summary
 
-- 284 samples planned for distribution
+- 289 samples planned for distribution
 
 ### Parts:
 
@@ -168,6 +168,11 @@
 - Sc_pGAL1
 - Sc_tADH1
 - oriT
+- Plant_promoters_AtU6
+- Plant_promoters_BBa_K1467101
+- Plant_promoters_BBa_K1467102
+- Plant_promoters_BBa_K1467103
+- Plant_promoters_BBa_K1467104
 - BHETase_library_K3039005
 - BHETase_library_K3039006
 - PETase_library_BBa_K2010999
