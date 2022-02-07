@@ -12658,14 +12658,14 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="Ura3"
                      /label="URA3"
-                     /note="Complements URA3 auxotrophic mutations in yeast.
-                     URA3 mutants require uracil for growth"
                      /note="/ApEinfo_fwdcolor/translation=MSKATYKERAATHPSPVAAKL
                      FNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKA
                      LSAKYNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAA
                      EEVTKEPRGLLMLAELSCKGSLSTGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGY
                      DWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRK
                      AGWEAYLRRCGQQN"
+                     /note="Complements URA3 auxotrophic mutations in yeast.
+                     URA3 mutants require uracil for growth"
                      /original_record="part"
                      /product="Orotidine-5'-phosphate (OMP) decarboxylase"
      misc_feature    3014..3091
@@ -13739,9 +13739,9 @@ FEATURES             Location/Qualifiers
                      /original_record="part"
      misc_feature    2033..3745
                      /label="pWV01-ori"
-                     /note="color: #a6acb3"
                      /note="https://www.ncbi.nlm.nih.gov/nuccore/NC_002192.1htt
                      p://www.dartmouth.edu/~gotoole/vectors.html"
+                     /note="color: #a6acb3"
                      /original_record="part"
      CDS             2339..2548
                      /codon_start=1
@@ -18604,6 +18604,107 @@ ORIGIN
      2821 gaaaccatta ttatcatgac attaacctat aaaaataggc gtatcacgag gcagaatttc
      2881 agataaaaaa aatccttagc tttcgctaag gatgatttct ggaattcgcg gccgcttcta
      2941 gag
+//
+LOCUS       Plant_CDSs              3030 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  .
+ACCESSION   Plant_CDSs
+VERSION     Plant_CDSs
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+     gene            1..960
+                     /ApEinfo_fwdcolor="#ffef86"
+                     /ApEinfo_revcolor="#ffef86"
+                     /label="hph"
+     CDS             1..960
+                     /ApEinfo_fwdcolor="#ff9ccd"
+                     /ApEinfo_revcolor="#ff9ccd"
+                     /label="hph"
+     exon            1..960
+                     /label="Translation 1-960"
+     misc_feature    1..960
+     misc_feature    1..960
+                     /label="Plant CDSs insert"
+     misc_feature    961..981
+                     /label="BioBrick suffix"
+     stem_loop       982..1053
+                     /label="E. coli his operon terminator"
+     stem_loop       990..1024
+                     /label="Stem loop"
+     primer_bind     1117..1136
+                     /label="Verification reverse (VR) primer binding site"
+     misc_feature    1221..1835
+                     /label="rep (pMB1)"
+     misc_feature    1236
+                     /label="ORI"
+     stem_loop       2002..2107
+                     /label="T0 terminator"
+     CDS             2120..2779
+                     /label="Chloramphenicol resistance"
+     primer_bind     2893..2912
+                     /label="Verification forward (VF2) primer binding site"
+     stem_loop       2969..2972
+                     /label="end of terminator"
+     stem_loop       2982..3001
+                     /label="Stem loop"
+     misc_feature    3011..3032
+                     /label="BioBrick prefix"
+     misc_feature    961..3030
+                     /label="pSB1C3"
+ORIGIN
+        1 tccgacctga tgcagctctc ggagggcgaa gaatctcgtg ctttcagctt cgatgtagga
+       61 gggcgtggat atgtcctgcg ggtaaatagc tgcgccgatg gtttctacaa agatcgttat
+      121 gtttatcggc actttgcatc ggccgcgctc ccgattccgg aagtgcttga cattggggag
+      181 ttcagcgaga gcctgaccta ttgcatctcc cgccgtgcac agggtgtcac gttgcaagac
+      241 ctgcctgaaa ccgaactgcc cgctgttctg gagccggtcg cggaggccat ggatgcgatt
+      301 gctgcggccg atcttagcca gacgagcggg ttcggcccat tcggaccgca aggaatcggt
+      361 caatacacta catggcgtga tttcatatgc gcgattgctg atccccatgt gtatcactgg
+      421 caaactgtga tggacgacac cgtcagtgcg tccgtcgcgc aggctctcga tgagctgatg
+      481 ctttgggccg aggactgccc cgaagtccgg cacctcgtgc acgcggattt cggctccaac
+      541 aatgtcctga cggacaatgg ccgcataaca gcggtcattg actggagcga ggcgatgttc
+      601 ggggattccc aatacgaggt cgccaacatc ttcttctgga ggccgtggtt ggcttgtatg
+      661 gagcagcaga cgcgctactt cgagcggagg catccggagc ttgcaggatc gccgcgcctc
+      721 cgggcgtata tgctccgcat tggtcttgac caactctatc agagcttggt tgacggcaat
+      781 ttcgatgatg cagcttgggc gcagggtcga tgcgacgcaa tcgtccgatc cggagccggg
+      841 actgtcgggc gtacacaaat cgcccgcaga agcgcggccg tctggaccga tggctgtgta
+      901 gaagtactcg ccgatagtgg aaaccgacgc cccagcactc gtccgagggc aaaggaatag
+      961 tactagtagc ggccgctgca gtccggcaaa aaagggcaag gtgtcaccac cctgcccttt
+     1021 ttctttaaaa ccgaaaagat tacttcgcgt tatgcaggct tcctcgctca ctgactcgct
+     1081 gcgctcggtc gttcggctgc ggcgagcggt atcagctcac tcaaaggcgg taatacggtt
+     1141 atccacagaa tcaggggata acgcaggaaa gaacatgtga gcaaaaggcc agcaaaaggc
+     1201 caggaaccgt aaaaaggccg cgttgctggc gtttttccac aggctccgcc cccctgacga
+     1261 gcatcacaaa aatcgacgct caagtcagag gtggcgaaac ccgacaggac tataaagata
+     1321 ccaggcgttt ccccctggaa gctccctcgt gcgctctcct gttccgaccc tgccgcttac
+     1381 cggatacctg tccgcctttc tcccttcggg aagcgtggcg ctttctcata gctcacgctg
+     1441 taggtatctc agttcggtgt aggtcgttcg ctccaagctg ggctgtgtgc acgaaccccc
+     1501 cgttcagccc gaccgctgcg ccttatccgg taactatcgt cttgagtcca acccggtaag
+     1561 acacgactta tcgccactgg cagcagccac tggtaacagg attagcagag cgaggtatgt
+     1621 aggcggtgct acagagttct tgaagtggtg gcctaactac ggctacacta gaagaacagt
+     1681 atttggtatc tgcgctctgc tgaagccagt taccttcgga aaaagagttg gtagctcttg
+     1741 atccggcaaa caaaccaccg ctggtagcgg tggttttttt gtttgcaagc agcagattac
+     1801 gcgcagaaaa aaaggatctc aagaagatcc tttgatcttt tctacggggt ctgacgctca
+     1861 gtggaacgaa aactcacgtt aagggatttt ggtcatgaga ttatcaaaaa ggatcttcac
+     1921 ctagatcctt ttaaattaaa aatgaagttt taaatcaatc taaagtatat atgagtaaac
+     1981 ttggtctgac agctcgaggc ttggattctc accaataaaa aacgcccggc ggcaaccgag
+     2041 cgttctgaac aaatccagat ggagttctga ggtcattact ggatctatca acaggagtcc
+     2101 aagcgagctc gatatcaaat tacgccccgc cctgccactc atcgcagtac tgttgtaatt
+     2161 cattaagcat tctgccgaca tggaagccat cacaaacggc atgatgaacc tgaatcgcca
+     2221 gcggcatcag caccttgtcg ccttgcgtat aatatttgcc catggtgaaa acgggggcga
+     2281 agaagttgtc catattggcc acgtttaaat caaaactggt gaaactcacc cagggattgg
+     2341 ctgagacgaa aaacatattc tcaataaacc ctttagggaa ataggccagg ttttcaccgt
+     2401 aacacgccac atcttgcgaa tatatgtgta gaaactgccg gaaatcgtcg tggtattcac
+     2461 tccagagcga tgaaaacgtt tcagtttgct catggaaaac ggtgtaacaa gggtgaacac
+     2521 tatcccatat caccagctca ccgtctttca ttgccatacg aaattccgga tgagcattca
+     2581 tcaggcgggc aagaatgtga ataaaggccg gataaaactt gtgcttattt ttctttacgg
+     2641 tctttaaaaa ggccgtaata tccagctgaa cggtctggtt ataggtacat tgagcaactg
+     2701 actgaaatgc ctcaaaatgt tctttacgat gccattggga tatatcaacg gtggtatatc
+     2761 cagtgatttt tttctccatt ttagcttcct tagctcctga aaatctcgat aactcaaaaa
+     2821 atacgcccgg tagtgatctt atttcattat ggtgaaagtt ggaacctctt acgtgcccga
+     2881 tcaactcgag tgccacctga cgtctaagaa accattatta tcatgacatt aacctataaa
+     2941 aataggcgta tcacgaggca gaatttcaga taaaaaaaat ccttagcttt cgctaaggat
+     3001 gatttctgga attcgcggcc gcttctagag
 //
 LOCUS       Plant_promoters         2272 bp    DNA     linear   UNK 01-JAN-1980
 DEFINITION  .

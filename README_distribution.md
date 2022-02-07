@@ -1,6 +1,6 @@
 # Distribution Summary
 
-- 289 samples planned for distribution
+- 290 samples planned for distribution
 
 ### Parts:
 
@@ -168,6 +168,7 @@
 - Sc_pGAL1
 - Sc_tADH1
 - oriT
+- Plant_CDSs
 - Plant_promoters_AtU6
 - Plant_promoters_BBa_K1467101
 - Plant_promoters_BBa_K1467102
