@@ -1,0 +1,38 @@
+name : Python linter Flake8 and Pylint
+
+on:
+  push:
+    path: "**.py"
+  pull_request:
+    path: "**.py"
+
+jobs:
+  Pylint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out source repository
+        uses: actions/checkout@v2
+      - name: Set up Python 3.9
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.9
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pylint
+      - name: Pylint
+        run: pylint scripts/*.py #--disable=C0114,E0401,W0611
+  Flake8:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out source repository
+        uses: actions/checkout@v2
+      - name: Set up Python 3.9
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.9
+      - name: flake8 lint
+        uses: py-actions/flake8@v2
+        with:
+          path: "scripts"
+          #ignore : F401,E501
