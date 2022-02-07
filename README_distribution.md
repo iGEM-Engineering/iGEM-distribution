@@ -1,6 +1,6 @@
 # Distribution Summary
 
-- 284 samples planned for distribution
+- 295 samples planned for distribution
 
 ### Parts:
 
@@ -158,6 +158,17 @@
 - Fluorescent_Proteins_in_vector_Fluorescent_Proteins_in_vector_ins_KY484012
 - Fluorescent_Proteins_in_vector_Fluorescent_Proteins_in_vector_ins_mKate2
 - Fluorescent_Proteins_in_vector_Fluorescent_Proteins_in_vector_ins_mScarlet
+- DC_B_DC_B_ins_BBa_J06504
+- DC_B_DC_B_ins_K2656022
+- DC_G_DC_G_ins_BBa_J06504
+- DC_G_DC_G_ins_BBa_K592100
+- DC_R_DC_R_ins_BBa_K592100
+- DC_R_DC_R_ins_K2656022
+- Three_Colors_Three_Colors_ins_BBa_E1010
+- Three_Colors_Three_Colors_ins_BBa_J06504
+- Three_Colors_Three_Colors_ins_BBa_K592100
+- Three_Colors_Three_Colors_ins_ECFP
+- Three_Colors_Three_Colors_ins_K2656022
 - AB_Sc_pGAL1
 - OYC_bridge_CGAA_GCAA
 - OYC_high_copy_origin
