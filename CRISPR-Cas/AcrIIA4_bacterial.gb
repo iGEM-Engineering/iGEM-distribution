@@ -1,0 +1,16 @@
+LOCUS       AcrIIA4_bacterial        372 bp ds-DNA     linear       02-FEB-2022
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     CDS             1..372
+                     /label="AcrIIA2_bacterial"
+     exon            1..372
+                     /label="Translation 1-372"
+ORIGIN
+        1 atgacattaa caagagcaca aaaaaagtat gcagaagcga tgcacgagtt tataaatatg
+       61 gtggatgact ttgaagagtc tacaccggat tttgcaaagg aagttctaca tgattctgac
+      121 tatgtagtta ttacaaaaaa tgaaaaatat gcagtagctc tttgctctct tagcactgat
+      181 gaatgtgaat atgatactaa cttatactta gatgaaaaat tggttgatta ctcaacagtt
+      241 gacgtaaacg gtgtgacata ctacatcaac attgttgaaa ctaacgatat cgatgattta
+      301 gaaatcgcta cggatgaaga tgagatgaaa agtggcaacc aagaaattat tttaaaaagt
+      361 gagttgaagt aa
+//
