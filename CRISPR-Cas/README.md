@@ -13,7 +13,7 @@ Their associated guide RNA scaffold sequences as well as the position of the spa
 - 21 parts _<span style="color:red">11 missing sequences</span>_
     - CDS: 21
 - 1 vectors
-- 21 samples for distribution
+- 17 samples for distribution _<span style="color:red">4 parts not included</span>_
 
 ### Parts:
 
@@ -21,10 +21,10 @@ Their associated guide RNA scaffold sequences as well as the position of the spa
 - ABE8_20_m (CDS) in pSB1C3
 - ABE8e_TadA_8e_V106W (CDS) in pSB1C3 _<span style="color:red">missing sequence</span>_
 - ABEmax (CDS) in pSB1C3
-- AcrIIA2_bacterial (CDS) in pSB1C3
-- AcrIIA2_mammalian (CDS) in pSB1C3
-- AcrIIA4_bacterial (CDS) in pSB1C3
-- AcrIIA4_mammalian (CDS) in pSB1C3
+- AcrIIA2_bacterial (CDS) _<span style="color:red">not included in distribution</span>_
+- AcrIIA2_mammalian (CDS) _<span style="color:red">not included in distribution</span>_
+- AcrIIA4_bacterial (CDS) _<span style="color:red">not included in distribution</span>_
+- AcrIIA4_mammalian (CDS) _<span style="color:red">not included in distribution</span>_
 - BE4max (CDS) in pSB1C3
 - CP1028_ABE8e (CDS) in pSB1C3
 - LbCpf1_or_LbCas12a (CDS) in pSB1C3 _<span style="color:red">missing sequence</span>_
