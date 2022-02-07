@@ -63,11 +63,13 @@
 <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/FinalProducts> <http://sbols.org/v3#description> "Final products desired for actual fabrication" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/FinalProducts> <http://sbols.org/v3#displayId> "FinalProducts" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/FinalProducts> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/FinalProducts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/FinalProducts> <http://sbols.org/v3#name> "Final Products" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/FinalProducts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Collection> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/LinearDNAProducts> <http://sbols.org/v3#description> "Linear DNA constructs to be fabricated" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/LinearDNAProducts> <http://sbols.org/v3#displayId> "LinearDNAProducts" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/LinearDNAProducts> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/LinearDNAProducts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters_ins> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/LinearDNAProducts> <http://sbols.org/v3#name> "Linear DNA Products" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/LinearDNAProducts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Collection> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters/VariableFeature1> <http://sbols.org/v3#cardinality> <http://sbols.org/v3#one> .
