@@ -1,6 +1,6 @@
 # Distribution Summary
 
-- 284 samples planned for distribution
+- 288 samples planned for distribution
 
 ### Parts:
 
@@ -114,6 +114,10 @@
 - Anderson_Promoters_in_vector_BBa_J23117
 - Anderson_Promoters_in_vector_BBa_J23118
 - Anderson_Promoters_in_vector_BBa_J23119
+- Anti_CRISPR_AcrIIA2_bacterial
+- Anti_CRISPR_AcrIIA2_mammalian
+- Anti_CRISPR_AcrIIA4_bacterial
+- Anti_CRISPR_AcrIIA4_mammalian
 - Cas_variants_ABE8_20_m
 - Cas_variants_ABE8e_TadA_8e_V106W
 - Cas_variants_ABEmax
@@ -178,7 +182,7 @@
 - PETase_library_K3039003
 - PETase_library_K3039017
 - PETase_library_PETase_EcCO_WT
-- PETase_library_PETase_S238F_W159H
+- PETase_library_PETase_W159H_S238F
 - PETase_library_PETase_WT
 - RBSs_in_vector_BBa_B0030
 - RBSs_in_vector_BBa_B0031
