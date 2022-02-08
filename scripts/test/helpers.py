@@ -8,8 +8,9 @@ from scripts.scriptutils import EXPORT_DIRECTORY
 def copy_to_tmp(package: list[str] = None, exports: list[str] = None, renames: dict[str,str] = None) -> str:
     """Copy test files into a temporary package directory
 
-    :param package: files to go into the package directory
-    :param exports: files to go into the exports subdirectory
+    :param package: list of files to go into the package directory
+    :param exports: list of files to go into the exports subdirectory
+    :param renames: dictionary of copy/renaming, mapping local path to local path
     :return: temporary package directory
     """
     # make a temporary package directory and export directory

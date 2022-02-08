@@ -8,10 +8,10 @@ import tyto
 from Bio import SeqIO
 from Bio.Seq import Seq
 
-from sbol_utilities.excel_to_sbol import BASIC_PARTS_COLLECTION
-from sbol_utilities.expand_combinatorial_derivations import root_combinatorial_derivations, expand_derivations
+from sbol_utilities.excel_to_sbol import BASIC_PARTS_COLLECTION, FINAL_PRODUCTS_COLLECTION
+from sbol_utilities.expand_combinatorial_derivations import expand_derivations
 from sbol_utilities.calculate_sequences import calculate_sequences
-from . import convert_to_genbank
+from sbol_utilities.conversion import convert_to_genbank
 
 from .part_retrieval import package_parts_inventory
 from .directories import EXPORT_DIRECTORY, SBOL_EXPORT_NAME, SBOL_PACKAGE_NAME, DISTRIBUTION_NAME, \
@@ -39,7 +39,7 @@ def collate_package(package: str) -> None:
     inventory = package_parts_inventory(package, basic_part_ids)
 
     # search old object for aliases; if found, remove and add to rewriting plan
-    to_remove = {o.identity:o for o in doc.objects if o.identity in inventory.aliases}
+    to_remove = {o.identity: o for o in doc.objects if o.identity in inventory.aliases}
     print(f'  Removing {len(to_remove)} objects to be replaced by imports')
     for o in to_remove.values():
         doc.objects.remove(o)
@@ -58,14 +58,16 @@ def collate_package(package: str) -> None:
                 # special case partial solution for https://github.com/iGEM-Engineering/iGEM-distribution/issues/131
                 if isinstance(copied, sbol3.Component) and isinstance(to_remove[copied.identity], sbol3.Component):
                     # if the role is defaulting to the generic "engineered region", replace with sheet role
-                    if not copied.roles or copied.roles == [tyto.SO.engineered_region]:
-                        copied.roles = to_remove[copied.identity].roles
-                        print(f'   Generic role in {copied.identity} replaced by roles {copied.roles} specified in Excel sheet')
+                    if not copied.roles or (len(copied.roles) == 1 and tyto.SO.engineered_region.is_a(copied.roles[0])):
+                        if to_remove[copied.identity].roles:  # only replace if there's something to substitute
+                            print(f'   Missing role information {copied.roles} in {copied.identity} replaced by roles '
+                                  f'{to_remove[copied.identity].roles} specified in Excel sheet')
+                            copied.roles = to_remove[copied.identity].roles
 
     # TODO: remove graph workaround on resolution of https://github.com/SynBioDex/pySBOL3/issues/207
     # Change to a graph in order to rewrite identities:
     g = doc.graph()
-    rewriting_plan = {id: inventory.aliases[id] for id in to_remove if inventory.aliases[id] != id}
+    rewriting_plan = {uid: inventory.aliases[uid] for uid in to_remove if inventory.aliases[uid] != uid}
     print(f'  Rewriting {len(rewriting_plan)} objects to their aliases: {rewriting_plan}')
     for old_identity, new_identity in rewriting_plan.items():
         # Update all triples where old_identity is the object
@@ -104,14 +106,41 @@ def expand_build_plan(package: str) -> sbol3.Document:
     path = os.path.join(package, EXPORT_DIRECTORY, SBOL_PACKAGE_NAME)
     doc = sbol3.Document()
     doc.read(path)
-    # Add a build plan collection that contains all of the expanded derivations
-    roots = list(root_combinatorial_derivations(doc))
+
+    # Take inventory of all of the objects to be added to the build plan
+    build_products = doc.find(FINAL_PRODUCTS_COLLECTION)
+    if not isinstance(build_products, sbol3.Collection):
+        raise ValueError(f'Could not find final products collection in package {package}')
+    basic_parts = doc.find(BASIC_PARTS_COLLECTION)
+    if not isinstance(basic_parts, sbol3.Collection):
+        raise ValueError(f'Could not find parts and devices collection in package {package}')
+    # sort products into things that do/don't need expansion
+    build_product_objects = [m.lookup() for m in build_products.members]
+    expansion_targets = [o for o in build_product_objects if isinstance(o, sbol3.CombinatorialDerivation)]
+    basic_part_ids = {o.identity for o in build_product_objects}.intersection({str(m) for m in basic_parts.members})
+    non_library_parts = [o for o in build_product_objects if o not in expansion_targets]
+    composite_part_ids = {o.identity for o in non_library_parts} - basic_part_ids
+    print(f'Package contains {len(build_product_objects)} products: {len(expansion_targets)} libraries, '
+          f'{len(composite_part_ids)} composites, and {len(basic_part_ids)} individual parts')
+
+    # expand any libraries
     # TODO: change namespace handling after resolution of https://github.com/SynBioDex/pySBOL3/issues/288
     sbol3.set_namespace(package_stem(package))
-    if roots:
-        derivative_collections = expand_derivations(roots)
-        print(f'Expanded {len(derivative_collections)} collections containing a total of {sum(len(c.members) for c in derivative_collections)} parts')
-        doc.add(sbol3.Collection(BUILD_PRODUCTS_COLLECTION, members=itertools.chain(*(c.members for c in derivative_collections))))
+    if expansion_targets:
+        # TODO: handle (and test) layered expansions of build products
+        derivative_collections = expand_derivations(expansion_targets)
+        print(f'Expanded {len(derivative_collections)} libraries containing a total '
+              f'of {sum(len(c.members) for c in derivative_collections)} parts')
+        library_parts = list(itertools.chain(*(c.members for c in derivative_collections)))
+    else:
+        library_parts = []
+        print(f'No libraries to expand')
+
+    # Next add the build collection
+    build_parts = non_library_parts + library_parts
+    if len(build_parts):
+        doc.add(sbol3.Collection(BUILD_PRODUCTS_COLLECTION, members=build_parts))
+        print(f'Build plan for {package} has {len(build_parts)} components')
         new_sequences = calculate_sequences(doc)
         print(f'Computed sequences for {len(new_sequences)} components')
     else:
@@ -240,7 +269,7 @@ def extract_synthesis_files(root: str, doc: sbol3.Document) -> sbol3.Document:
 
     # export the GenBank
     gb_path = os.path.join(root, DISTRIBUTION_GENBANK)
-    convert_to_genbank(build_doc, gb_path)
+    convert_to_genbank(build_doc, gb_path, allow_genbank_online=True)
     print(f'Wrote GenBank export file with {n_genbank_constructs} constructs: {gb_path}')
 
     # for Twist Synthesis FASTA exports, we need to put the identity of the build product on the sequence of the insert
