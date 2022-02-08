@@ -1,6 +1,6 @@
 # Distribution Summary
 
-- 288 samples planned for distribution
+- 295 samples planned for distribution
 
 ### Parts:
 
@@ -114,10 +114,6 @@
 - Anderson_Promoters_in_vector_BBa_J23117
 - Anderson_Promoters_in_vector_BBa_J23118
 - Anderson_Promoters_in_vector_BBa_J23119
-- Anti_CRISPR_AcrIIA2_bacterial
-- Anti_CRISPR_AcrIIA2_mammalian
-- Anti_CRISPR_AcrIIA4_bacterial
-- Anti_CRISPR_AcrIIA4_mammalian
 - Cas_variants_ABE8_20_m
 - Cas_variants_ABE8e_TadA_8e_V106W
 - Cas_variants_ABEmax
@@ -162,6 +158,17 @@
 - Fluorescent_Proteins_in_vector_Fluorescent_Proteins_in_vector_ins_KY484012
 - Fluorescent_Proteins_in_vector_Fluorescent_Proteins_in_vector_ins_mKate2
 - Fluorescent_Proteins_in_vector_Fluorescent_Proteins_in_vector_ins_mScarlet
+- DC_B_DC_B_ins_BBa_J06504
+- DC_B_DC_B_ins_K2656022
+- DC_G_DC_G_ins_BBa_J06504
+- DC_G_DC_G_ins_BBa_K592100
+- DC_R_DC_R_ins_BBa_K592100
+- DC_R_DC_R_ins_K2656022
+- Three_Colors_Three_Colors_ins_BBa_E1010
+- Three_Colors_Three_Colors_ins_BBa_J06504
+- Three_Colors_Three_Colors_ins_BBa_K592100
+- Three_Colors_Three_Colors_ins_ECFP
+- Three_Colors_Three_Colors_ins_K2656022
 - AB_Sc_pGAL1
 - OYC_bridge_CGAA_GCAA
 - OYC_high_copy_origin
@@ -182,7 +189,7 @@
 - PETase_library_K3039003
 - PETase_library_K3039017
 - PETase_library_PETase_EcCO_WT
-- PETase_library_PETase_W159H_S238F
+- PETase_library_PETase_S238F_W159H
 - PETase_library_PETase_WT
 - RBSs_in_vector_BBa_B0030
 - RBSs_in_vector_BBa_B0031
