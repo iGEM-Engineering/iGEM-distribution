@@ -11,13 +11,13 @@ from urllib.error import HTTPError
 from Bio import Entrez, SeqIO
 import sbol2
 import sbol3
-from sbol_utilities.conversion import convert_from_fasta, convert_from_genbank
 from sbol_utilities.sequence import unambiguous_dna_sequence
 from sbol_utilities.helper_functions import GENETIC_DESIGN_FILE_TYPES
 from sbol_utilities.excel_to_sbol import BASIC_PARTS_COLLECTION
 from .directories import EXPORT_DIRECTORY, SBOL_EXPORT_NAME
 from .package_specification import package_stem
 from .conversions import convert2to3
+from sbol_utilities.conversion import convert_from_fasta, convert_from_genbank
 
 NCBI_GENBANK_CACHE_FILE = 'NCBI_GenBank_imports.gb'
 OTHER_GENBANK_CACHE_FILE = 'Other_GenBank_imports.gb'
@@ -403,7 +403,7 @@ def import_parts(package: str) -> list[str]:
     # First collect the package specification
     package_spec = sbol3.Document()
     package_spec.read(os.path.join(package, EXPORT_DIRECTORY, SBOL_EXPORT_NAME))
-    # package_parts contains the members of the each package collection, based on the path that is given above
+    # package_parts contains the members of each package collection, based on the path that is given above
     package_parts = [p.lookup() for p in package_spec.find(BASIC_PARTS_COLLECTION).members]
     # retrieve part identity. This will be part name or Data Source ID and will be stored in a dictionary,
     # where the keys are what we will likely use for finding which sequences are missing
