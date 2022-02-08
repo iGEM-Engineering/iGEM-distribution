@@ -251,6 +251,7 @@
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/FinalProducts> <http://sbols.org/v3#description> "Final products desired for actual fabrication" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/FinalProducts> <http://sbols.org/v3#displayId> "FinalProducts" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/FinalProducts> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/FinalProducts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Anti_CRISPR> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/FinalProducts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/FinalProducts> <http://sbols.org/v3#name> "Final Products" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/FinalProducts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Collection> .
@@ -264,6 +265,7 @@
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/LinearDNAProducts> <http://sbols.org/v3#description> "Linear DNA constructs to be fabricated" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/LinearDNAProducts> <http://sbols.org/v3#displayId> "LinearDNAProducts" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/LinearDNAProducts> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/LinearDNAProducts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Anti_CRISPR_ins> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/LinearDNAProducts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants_ins> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/LinearDNAProducts> <http://sbols.org/v3#name> "Linear DNA Products" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/LinearDNAProducts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Collection> .
