@@ -12895,14 +12895,14 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="Ura3"
                      /label="URA3"
+                     /note="Complements URA3 auxotrophic mutations in yeast.
+                     URA3 mutants require uracil for growth"
                      /note="/ApEinfo_fwdcolor/translation=MSKATYKERAATHPSPVAAKL
                      FNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKA
                      LSAKYNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAA
                      EEVTKEPRGLLMLAELSCKGSLSTGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGY
                      DWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRK
                      AGWEAYLRRCGQQN"
-                     /note="Complements URA3 auxotrophic mutations in yeast.
-                     URA3 mutants require uracil for growth"
                      /original_record="part"
                      /product="Orotidine-5'-phosphate (OMP) decarboxylase"
      misc_feature    3014..3091
@@ -21444,10 +21444,10 @@ FEATURES             Location/Qualifiers
                      /label="BioBrick prefix"
      misc_feature    64..2133
                      /label="pSB1C3"
-     promoter        1..63
+     misc_feature    1..63
                      /label="pBetI"
 ORIGIN
-        1 agcgcgggtg agagggattc gttaccaatt gacaattgat tggacgttca atataatgct
+        1 agcgcgggtg agagggattc gttaccaata gacaattgat tggacgttca atataatgct
        61 agctactagt agcggccgct gcagtccggc aaaaaagggc aaggtgtcac caccctgccc
       121 tttttcttta aaaccgaaaa gattacttcg cgttatgcag gcttcctcgc tcactgactc
       181 gctgcgctcg gtcgttcggc tgcggcgagc ggtatcagct cactcaaagg cggtaatacg
