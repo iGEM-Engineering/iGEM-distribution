@@ -16,8 +16,7 @@ from sbol_utilities.helper_functions import GENETIC_DESIGN_FILE_TYPES
 from sbol_utilities.excel_to_sbol import BASIC_PARTS_COLLECTION
 from .directories import EXPORT_DIRECTORY, SBOL_EXPORT_NAME
 from .package_specification import package_stem
-from .conversions import convert2to3
-from sbol_utilities.conversion import convert_from_fasta, convert_from_genbank
+from sbol_utilities.conversion import convert_from_fasta, convert_from_genbank, convert2to3
 
 NCBI_GENBANK_CACHE_FILE = 'NCBI_GenBank_imports.gb'
 OTHER_GENBANK_CACHE_FILE = 'Other_GenBank_imports.gb'
@@ -362,7 +361,6 @@ def package_parts_inventory(package: str, targets: List[str] = None) -> PackageI
             import_file = ImportFile(file, file_type='FASTA', namespace=prefix)
             for record in SeqIO.parse(f, "fasta"):
                 identity = id_map[record.id] if record.id in id_map else accession_to_sbol_uri(record.id, prefix)
-                print(f'Fasta Part identity is {identity}')
                 inventory.add(import_file, identity)
 
     for file in sorted(itertools.chain(
@@ -374,11 +372,9 @@ def package_parts_inventory(package: str, targets: List[str] = None) -> PackageI
             for record in SeqIO.parse(f, "gb"):
                 if record.name in id_map:
                     identity = id_map[record.name]
-                    # print(f'GB Part identity is {identity}')
                     import_file.namespace = identity.removesuffix(f'/{record.name}')
                 else:
                     identity = accession_to_sbol_uri(record.name, prefix)
-                    # print(f'else GB identity {identity}')
                 inventory.add(import_file, identity, accession_to_sbol_uri(record.id, prefix))
 
     # import SBOL3
@@ -408,29 +404,22 @@ def import_parts(package: str) -> list[str]:
     # retrieve part identity. This will be part name or Data Source ID and will be stored in a dictionary,
     # where the keys are what we will likely use for finding which sequences are missing
     retrieval_uri = {p.identity: (p.derived_from[0] if p.derived_from else p.identity) for p in package_parts}
-    # print(f' Retrieval_uri keys are {retrieval_uri.keys()}')
     # print(f'Package specification contains {len(package_parts)} parts')
 
     # Then collect the parts in the package directory
     inventory = package_parts_inventory(package, retrieval_uri.keys())
-    # print(f'Inventory.locations are {inventory.locations.keys()}')
-    # print(f'inventory.aliases are {inventory.aliases.keys()}')
     print(f'Found {len(inventory.locations)} parts cached in package design files')
 
     # Compare the parts lists to each other to figure out which elements are missing
     package_part_ids = {p.identity for p in package_parts}
-    # print(f'PP_IDS{package_part_ids}')
     package_sequence_ids = {p.identity for p in package_parts if p.sequences}
-    # print(f'PP_IDS_seq{package_part_ids}')
+
     package_no_sequence_ids = {p.identity for p in package_parts if not p.sequences}
-    # print(f'PP_IDS_noseq{package_part_ids}')
     inventory_part_ids_and_aliases = set(inventory.aliases.keys())
     both = package_part_ids & inventory_part_ids_and_aliases
-    # print(f'parts in both are {both}')
     # note: package_only list isn't actually needed
     inventory_only = set(inventory.locations.keys()) - {inventory.aliases[i] for i in both}
     missing_sequences = package_no_sequence_ids - inventory_part_ids_and_aliases
-    # print(f'missing_sequences are {missing_sequences}')
     print(f' {len(package_sequence_ids)} have sequences in Excel, {len(both)} found in directory, '
           f'{len(missing_sequences)} not found')
     print(f' {len(inventory_only)} parts in directory are not used in package')
