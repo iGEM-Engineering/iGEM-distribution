@@ -12,8 +12,8 @@ A collection of iGEM Registry chromoproteins from Team Uppsala, useful for repor
 
 ### Parts:
 
-- D1005 (designed_sequence) in pSB1C5 _<span style="color:red">missing sequence</span>_
-- D1006 (designed_sequence) in pSB1C5 _<span style="color:red">missing sequence</span>_
+- D1005 (designed_sequence) in pSB1C5 _<span style="color:red">missing sequence, ensure file name matches Data Source ID from Excel File</span>_
+- D1006 (designed_sequence) in pSB1C5 _<span style="color:red">missing sequence, ensure file name matches Data Source ID from Excel File</span>_
 - BBa_K1033902: meffBlue (CDS) in pSB1C5
 - BBa_K1033906: tsPurple (CDS) in pSB1C5
 - BBa_K1033910: fwYellow (CDS) in pSB1C5

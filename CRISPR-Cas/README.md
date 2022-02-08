@@ -19,7 +19,7 @@ Their associated guide RNA scaffold sequences as well as the position of the spa
 
 - K2558003 (CDS) in pSB1C3
 - ABE8_20_m (CDS) in pSB1C3
-- ABE8e_TadA_8e_V106W (CDS) in pSB1C3 _<span style="color:red">missing sequence</span>_
+- ABE8e_TadA_8e_V106W (CDS) in pSB1C3 _<span style="color:red">missing sequence, ensure file name matches Data Source ID from Excel File</span>_
 - ABEmax (CDS) in pSB1C3
 - AcrIIA2_bacterial (CDS) _<span style="color:red">not included in distribution</span>_
 - AcrIIA2_mammalian (CDS) _<span style="color:red">not included in distribution</span>_
@@ -27,16 +27,16 @@ Their associated guide RNA scaffold sequences as well as the position of the spa
 - AcrIIA4_mammalian (CDS) _<span style="color:red">not included in distribution</span>_
 - BE4max (CDS) in pSB1C3
 - CP1028_ABE8e (CDS) in pSB1C3
-- LbCpf1_or_LbCas12a (CDS) in pSB1C3 _<span style="color:red">missing sequence</span>_
+- LbCpf1_or_LbCas12a (CDS) in pSB1C3 _<span style="color:red">missing sequence, ensure file name matches Data Source ID from Excel File</span>_
 - PE2 (CDS) in pSB1C3
-- SaABE8e_TadA_8e_V106W (CDS) in pSB1C3 _<span style="color:red">missing sequence</span>_
-- SpCas9 (CDS) in pSB1C3 _<span style="color:red">missing sequence</span>_
-- dLbCpf1_or_dLbCas12a (CDS) in pSB1C3 _<span style="color:red">missing sequence</span>_
-- dSpCas9 (CDS) in pSB1C3 _<span style="color:red">missing sequence</span>_
-- dhLwCas13a (CDS) in pSB1C3 _<span style="color:red">missing sequence</span>_
-- dhSpCas9 (CDS) in pSB1C3 _<span style="color:red">missing sequence</span>_
-- hLwCas13a (CDS) in pSB1C3 _<span style="color:red">missing sequence</span>_
-- hSaCas9 (CDS) in pSB1C3 _<span style="color:red">missing sequence</span>_
-- hSpCas9 (CDS) in pSB1C3 _<span style="color:red">missing sequence</span>_
+- SaABE8e_TadA_8e_V106W (CDS) in pSB1C3 _<span style="color:red">missing sequence, ensure file name matches Data Source ID from Excel File</span>_
+- SpCas9 (CDS) in pSB1C3 _<span style="color:red">missing sequence, ensure file name matches Data Source ID from Excel File</span>_
+- dLbCpf1_or_dLbCas12a (CDS) in pSB1C3 _<span style="color:red">missing sequence, ensure file name matches Data Source ID from Excel File</span>_
+- dSpCas9 (CDS) in pSB1C3 _<span style="color:red">missing sequence, ensure file name matches Data Source ID from Excel File</span>_
+- dhLwCas13a (CDS) in pSB1C3 _<span style="color:red">missing sequence, ensure file name matches Data Source ID from Excel File</span>_
+- dhSpCas9 (CDS) in pSB1C3 _<span style="color:red">missing sequence, ensure file name matches Data Source ID from Excel File</span>_
+- hLwCas13a (CDS) in pSB1C3 _<span style="color:red">missing sequence, ensure file name matches Data Source ID from Excel File</span>_
+- hSaCas9 (CDS) in pSB1C3 _<span style="color:red">missing sequence, ensure file name matches Data Source ID from Excel File</span>_
+- hSpCas9 (CDS) in pSB1C3 _<span style="color:red">missing sequence, ensure file name matches Data Source ID from Excel File</span>_
 
 _Note: automatically generated from package Excel and sequence files; do not edit_
