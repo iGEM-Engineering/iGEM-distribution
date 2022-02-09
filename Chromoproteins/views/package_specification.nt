@@ -1,4 +1,18 @@
 
+<http://parts.igem.org/D1005> <http://sbols.org/v3#description> "Includes BsaI and fusion site" .
+<http://parts.igem.org/D1005> <http://sbols.org/v3#displayId> "D1005" .
+<http://parts.igem.org/D1005> <http://sbols.org/v3#hasNamespace> <http://parts.igem.org> .
+<http://parts.igem.org/D1005> <http://sbols.org/v3#name> "D1005" .
+<http://parts.igem.org/D1005> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000546> .
+<http://parts.igem.org/D1005> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<http://parts.igem.org/D1005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<http://parts.igem.org/D1006> <http://sbols.org/v3#description> "Includes BsaI and fusion site" .
+<http://parts.igem.org/D1006> <http://sbols.org/v3#displayId> "D1006" .
+<http://parts.igem.org/D1006> <http://sbols.org/v3#hasNamespace> <http://parts.igem.org> .
+<http://parts.igem.org/D1006> <http://sbols.org/v3#name> "D1006" .
+<http://parts.igem.org/D1006> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000546> .
+<http://parts.igem.org/D1006> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<http://parts.igem.org/D1006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
 <http://parts.igem.org/K1033902> <http://sbols.org/v3#description> "This version is codon optimized for E coli" .
 <http://parts.igem.org/K1033902> <http://sbols.org/v3#displayId> "K1033902" .
 <http://parts.igem.org/K1033902> <http://sbols.org/v3#hasNamespace> <http://parts.igem.org> .
@@ -86,6 +100,8 @@
 <https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/BasicParts> <http://sbols.org/v3#description> "A collection of iGEM Registry chromoproteins from Team Uppsala, useful for reporters and projects that require pigments (dyes, bio-art, etc.). This collection should be expanded upon to include chromoproteins outside of the iGEM Registry, particularly newly developed ones." .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/BasicParts> <http://sbols.org/v3#displayId> "BasicParts" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/BasicParts> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/BasicParts> <http://sbols.org/v3#member> <http://parts.igem.org/D1005> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/BasicParts> <http://sbols.org/v3#member> <http://parts.igem.org/D1006> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/BasicParts> <http://sbols.org/v3#member> <http://parts.igem.org/K1033902> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/BasicParts> <http://sbols.org/v3#member> <http://parts.igem.org/K1033906> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/BasicParts> <http://sbols.org/v3#member> <http://parts.igem.org/K1033910> .
@@ -98,8 +114,6 @@
 <https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/BasicParts> <http://sbols.org/v3#member> <http://parts.igem.org/K592011> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/BasicParts> <http://sbols.org/v3#member> <http://parts.igem.org/K592012> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/BasicParts> <http://sbols.org/v3#member> <http://parts.igem.org/K864401> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/D1005> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/D1006> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/pSB1C5> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/BasicParts> <http://sbols.org/v3#name> "Chromoprotein Collection" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/BasicParts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Collection> .
@@ -154,11 +168,11 @@
 <https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/Chromoproteins_in_vector_ins_template/LocalSubComponent1> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/Chromoproteins_in_vector_ins_template/LocalSubComponent1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#LocalSubComponent> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/Chromoproteins_in_vector_ins_template/SubComponent1> <http://sbols.org/v3#displayId> "SubComponent1" .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/Chromoproteins_in_vector_ins_template/SubComponent1> <http://sbols.org/v3#instanceOf> <https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/D1005> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/Chromoproteins_in_vector_ins_template/SubComponent1> <http://sbols.org/v3#instanceOf> <http://parts.igem.org/D1005> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/Chromoproteins_in_vector_ins_template/SubComponent1> <http://sbols.org/v3#orientation> <http://sbols.org/v3#inline> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/Chromoproteins_in_vector_ins_template/SubComponent1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#SubComponent> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/Chromoproteins_in_vector_ins_template/SubComponent2> <http://sbols.org/v3#displayId> "SubComponent2" .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/Chromoproteins_in_vector_ins_template/SubComponent2> <http://sbols.org/v3#instanceOf> <https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/D1006> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/Chromoproteins_in_vector_ins_template/SubComponent2> <http://sbols.org/v3#instanceOf> <http://parts.igem.org/D1006> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/Chromoproteins_in_vector_ins_template/SubComponent2> <http://sbols.org/v3#orientation> <http://sbols.org/v3#inline> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/Chromoproteins_in_vector_ins_template/SubComponent2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#SubComponent> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/Chromoproteins_in_vector_ins_template> <http://sbols.org/v3#displayId> "Chromoproteins_in_vector_ins_template" .
@@ -201,20 +215,6 @@
 <https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/CompositeParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/Chromoproteins_in_vector_ins> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/CompositeParts> <http://sbols.org/v3#name> "Chromoprotein Collection" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/CompositeParts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Collection> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/D1005> <http://sbols.org/v3#description> "Includes BsaI and fusion site" .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/D1005> <http://sbols.org/v3#displayId> "D1005" .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/D1005> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/D1005> <http://sbols.org/v3#name> "D1005" .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/D1005> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000546> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/D1005> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/D1005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/D1006> <http://sbols.org/v3#description> "Includes BsaI and fusion site" .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/D1006> <http://sbols.org/v3#displayId> "D1006" .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/D1006> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/D1006> <http://sbols.org/v3#name> "D1006" .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/D1006> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000546> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/D1006> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/D1006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/FinalProducts> <http://sbols.org/v3#description> "Final products desired for actual fabrication" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/FinalProducts> <http://sbols.org/v3#displayId> "FinalProducts" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins/FinalProducts> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Chromoproteins> .
