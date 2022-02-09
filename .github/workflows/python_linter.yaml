@@ -22,7 +22,7 @@ jobs:
           pip install -r scripts/requirements.txt
           pip install pylint
       - name: Pylint
-        run: pylint scripts/ #--disable=C0114,E0401,W0611
+        run: pylint scripts/ --max-line-length=99 #--disable=C0114,E0401,W0611
   Flake8:
     runs-on: ubuntu-latest
     steps:
@@ -36,4 +36,5 @@ jobs:
         uses: py-actions/flake8@v2
         with:
           path: "scripts"
+          max-line-length: 99
           #ignore : F401,E501
