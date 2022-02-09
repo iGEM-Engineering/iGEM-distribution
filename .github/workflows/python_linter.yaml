@@ -32,13 +32,10 @@ jobs:
         uses: actions/setup-python@v2
         with:
           python-version: 3.9
-      - name: Ugrade pip and install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r scripts/requirements.txt
       - name: flake8 lint
         uses: py-actions/flake8@v2
         with:
           path: "scripts"
           max-line-length: 99
+          update-pip: TRUE
           #ignore : F401,E501
