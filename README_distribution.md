@@ -1,6 +1,6 @@
 # Distribution Summary
 
-- 299 samples planned for distribution
+- 303 samples planned for distribution
 
 ### Parts:
 
@@ -166,8 +166,12 @@
 - DC_B_DC_B_ins_K2656022
 - DC_G_DC_G_ins_BBa_J06504
 - DC_G_DC_G_ins_BBa_K592100
+- DC_PC_DC_PC_ins_BBa_J06504
+- DC_PC_DC_PC_ins_BBa_K592100
+- DC_PC_DC_PC_ins_K2656022
 - DC_R_DC_R_ins_BBa_K592100
 - DC_R_DC_R_ins_K2656022
+- Interlab_NegC
 - Three_Colors_Three_Colors_ins_BBa_E1010
 - Three_Colors_Three_Colors_ins_BBa_J06504
 - Three_Colors_Three_Colors_ins_BBa_K592100

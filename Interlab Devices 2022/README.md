@@ -4,9 +4,9 @@ Candidate devices for interlaboratory studies to be carried out on 2022.  Includ
 
 ### Summary:
 
-- 27 parts
+- 28 parts
     - 5_prime_UTR_variant: 2
-    - CDS: 4
+    - CDS: 5
     - engineered_region: 1
     - insulator: 5
     - promoter: 2
@@ -17,7 +17,7 @@ Candidate devices for interlaboratory studies to be carried out on 2022.  Includ
     - stop_codon: 1
     - terminator: 3
 - 1 vectors
-- 11 samples for distribution _<span style="color:red">6 parts not included</span>_
+- 15 samples for distribution _<span style="color:red">6 parts not included</span>_
 
 ### Parts:
 
@@ -43,6 +43,7 @@ Candidate devices for interlaboratory studies to be carried out on 2022.  Includ
 - rpoC_T (terminator) in pSB1C3
 - BBa_B0015 (terminator) in pSB1C3
 - BBa_B0032 (ribosome_entry_site) in pSB1C3
+- BBa_C0062: luxr (CDS) in pSB1C3
 - BBa_E1010: mRFP1 (CDS) in pSB1C3
 - BBa_J06504: mCherry (engineered_region) in pSB1C3
 - BBa_J23101 (promoter) in pSB1C3
