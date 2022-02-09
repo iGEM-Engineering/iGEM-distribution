@@ -12882,12 +12882,12 @@ FEATURES             Location/Qualifiers
                      /original_record="part"
      gene            2033..3091
                      /label="URA3 marker"
+                     /note="/ApEinfo_fwdcolor/original_record=part"
                      /note="URA3 encodes orotidine-5’phosphate decarboxylase, an
                      enzyme which is required for the biosynthesis of uracil.
                      Complements Ura3 auxotrophic mutations in yeast. It also
                      acts as negative selection is based on the inhibit or
                      5-fluoro-orotic acid (FOA)"
-                     /note="/ApEinfo_fwdcolor/original_record=part"
      promoter        2033..2209
                      /label="URA3 promoter"
                      /original_record="part"
@@ -12895,14 +12895,14 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="Ura3"
                      /label="URA3"
-                     /note="Complements URA3 auxotrophic mutations in yeast.
-                     URA3 mutants require uracil for growth"
                      /note="/ApEinfo_fwdcolor/translation=MSKATYKERAATHPSPVAAKL
                      FNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKA
                      LSAKYNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAA
                      EEVTKEPRGLLMLAELSCKGSLSTGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGY
                      DWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRK
                      AGWEAYLRRCGQQN"
+                     /note="Complements URA3 auxotrophic mutations in yeast.
+                     URA3 mutants require uracil for growth"
                      /original_record="part"
                      /product="Orotidine-5'-phosphate (OMP) decarboxylase"
      misc_feature    3014..3091
