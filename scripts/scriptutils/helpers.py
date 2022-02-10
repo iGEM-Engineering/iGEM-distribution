@@ -19,6 +19,8 @@ def vector_to_insert(component: sbol3.Component) -> sbol3.Component:
     inserts = {f for f in set(component.features)-subvectors if isinstance(f, sbol3.SubComponent)}
     if len(inserts) == 1:
         return inserts.pop().instance_of.lookup()
+    elif len(inserts) == 0:
+        return component  # Does not appear to be a vector
     else:
         raise ValueError(f'Vector should have one insert, but found {len(inserts)}: {component.identity}')
 

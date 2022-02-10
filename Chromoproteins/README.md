@@ -4,7 +4,7 @@ A collection of iGEM Registry chromoproteins from Team Uppsala, useful for repor
 
 ### Summary:
 
-- 14 parts _<span style="color:red">2 missing sequences</span>_
+- 14 parts
     - CDS: 12
     - designed_sequence: 2
 - 1 vectors
@@ -12,8 +12,8 @@ A collection of iGEM Registry chromoproteins from Team Uppsala, useful for repor
 
 ### Parts:
 
-- D1005 (designed_sequence) in pSB1C5 _<span style="color:red">missing sequence</span>_
-- D1006 (designed_sequence) in pSB1C5 _<span style="color:red">missing sequence</span>_
+- D1005 (designed_sequence) in pSB1C5
+- D1006 (designed_sequence) in pSB1C5
 - BBa_K1033902: meffBlue (CDS) in pSB1C5
 - BBa_K1033906: tsPurple (CDS) in pSB1C5
 - BBa_K1033910: fwYellow (CDS) in pSB1C5

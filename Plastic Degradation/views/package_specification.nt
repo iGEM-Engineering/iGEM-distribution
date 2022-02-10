@@ -144,7 +144,7 @@
 <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BasicParts> <http://sbols.org/v3#member> <http://parts.igem.org/K3039017> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BasicParts> <http://sbols.org/v3#member> <http://parts.igem.org/pSB1C3> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_EcCO_WT> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_S238F_W159H> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_W159H_S238F> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_WT> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BasicParts> <http://sbols.org/v3#name> "Plastics Degradation" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/BasicParts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Collection> .
@@ -176,13 +176,13 @@
 <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_EcCO_WT> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_EcCO_WT> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_EcCO_WT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_S238F_W159H> <http://sbols.org/v3#description> "Austin et al. 2018, Codon optimized for E. coli, Includes C-terminal Hexahistidine Tag, TGA Stop" .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_S238F_W159H> <http://sbols.org/v3#displayId> "PETase_S238F_W159H" .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_S238F_W159H> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_S238F_W159H> <http://sbols.org/v3#name> "PETase-S238F_W159H" .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_S238F_W159H> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_S238F_W159H> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_S238F_W159H> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_W159H_S238F> <http://sbols.org/v3#description> "Austin et al. 2018, Codon optimized for E. coli, Includes C-terminal Hexahistidine Tag, TGA Stop" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_W159H_S238F> <http://sbols.org/v3#displayId> "PETase_W159H_S238F" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_W159H_S238F> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_W159H_S238F> <http://sbols.org/v3#name> "PETase-W159H_S238F" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_W159H_S238F> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_W159H_S238F> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_W159H_S238F> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_WT> <http://sbols.org/v3#description> "Yoshida et al. 2016, AA seq: GAP38373.1, TGA Stop" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_WT> <http://sbols.org/v3#displayId> "PETase_WT" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_WT> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation> .
@@ -212,7 +212,7 @@
 <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_ins/VariableFeature1> <http://sbols.org/v3#variant> <http://parts.igem.org/K3039003> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_ins/VariableFeature1> <http://sbols.org/v3#variant> <http://parts.igem.org/K3039017> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_ins/VariableFeature1> <http://sbols.org/v3#variant> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_EcCO_WT> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_ins/VariableFeature1> <http://sbols.org/v3#variant> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_S238F_W159H> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_ins/VariableFeature1> <http://sbols.org/v3#variant> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_W159H_S238F> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_ins/VariableFeature1> <http://sbols.org/v3#variant> <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_WT> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_ins/VariableFeature1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#VariableFeature> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Plastic%20Degradation/PETase_library_ins> <http://sbols.org/v3#description> "" .
