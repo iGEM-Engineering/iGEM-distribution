@@ -4,7 +4,7 @@ This collection contains useful parts (promoters, UTRs, CDSs, terminators) for p
 
 ### Summary:
 
-- 30 parts _<span style="color:red">1 missing sequences</span>_
+- 30 parts
     - 5_prime_UTR_elongation: 1
     - CDS: 5
     - biological_region: 3
@@ -27,7 +27,7 @@ This collection contains useful parts (promoters, UTRs, CDSs, terminators) for p
 - D1006 (designed_sequence) in pSB1C5
 - D1007 (designed_sequence) in pSB1C5
 - D1008 (designed_sequence) in pSB1C5
-- AtRbcS2B_UTR (5_prime_UTR_elongation) in pSB1C5 _<span style="color:red">missing sequence, ensure file name matches Data Source ID from Excel File</span>_
+- AtRbcS2B_5UTR (5_prime_UTR_elongation) in pSB1C5
 - AtRbcS2B_proUTR (biological_region) in pSB1C5
 - AtU6 (promoter) in pSB1C5
 - BS3_proUTR (promoter) in pSB1C5
