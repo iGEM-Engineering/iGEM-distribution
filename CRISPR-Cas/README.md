@@ -17,7 +17,6 @@ Their associated guide RNA scaffold sequences as well as the position of the spa
 
 ### Parts:
 
-- K2323010 (CDS) in pSB1C5
 - K2558003 (CDS) in pSB1C5
 - ABE8_20_m (CDS) in pSB1C5
 - ABE8e_TadA_8e_V106W (CDS) in pSB1C5
@@ -30,6 +29,7 @@ Their associated guide RNA scaffold sequences as well as the position of the spa
 - CP1028_ABE8e (CDS) in pSB1C5
 - His_TwinStrep_SUMO_LwCas13a (CDS) in pSB1C5
 - LbCpf1_or_LbCas12a (CDS) in pSB1C5
+- LwCas13a (CDS) in pSB1C5
 - PE2 (CDS) in pSB1C5
 - SaABE8e_TadA_8e_V106W (CDS) in pSB1C5
 - SpCas9 (CDS) in pSB1C5
