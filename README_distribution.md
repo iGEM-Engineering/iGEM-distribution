@@ -1,6 +1,6 @@
 # Distribution Summary
 
-- 305 samples planned for distribution
+- 319 samples planned for distribution
 
 ### Parts:
 
@@ -189,6 +189,20 @@
 - Sc_pGAL1
 - Sc_tADH1
 - oriT
+- Plant_CDSs_Plant_CDSs_ins_Bar
+- Plant_CDSs_Plant_CDSs_ins_GFP
+- Plant_CDSs_Plant_CDSs_ins_NPTII
+- Plant_CDSs_Plant_CDSs_ins_RUBY
+- Plant_CDSs_Plant_CDSs_ins_hph
+- Plant_CDSs_Plant_CDSs_ins_mCherry
+- Plant_promoters_Plant_promoters_ins_AtRbcS2B_proUTR
+- Plant_promoters_Plant_promoters_ins_AtU6
+- Plant_promoters_Plant_promoters_ins_BS3_proUTR
+- Plant_promoters_Plant_promoters_ins_CaMV35S
+- Plant_promoters_Plant_promoters_ins_LHB1B2_promoter
+- Plant_promoters_Plant_promoters_ins_MAS_pro
+- Plant_promoters_Plant_promoters_ins_PDF1_2_pro
+- Plant_promoters_Plant_promoters_ins_Pnos
 - BHETase_library_K3039005
 - BHETase_library_K3039006
 - PETase_library_BBa_K2010999
