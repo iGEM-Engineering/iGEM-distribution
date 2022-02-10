@@ -1,0 +1,19 @@
+LOCUS       TMV_SV40            126 bp    DNA     linear   UNA 10-FEB-2022
+DEFINITION  .
+ACCESSION   urn.local...xd-eg1sops
+VERSION     urn.local...xd-eg1sops
+KEYWORDS    .
+SOURCE      
+  ORGANISM  .
+FEATURES             Location/Qualifiers
+     5'UTR           1..82
+                     /vntifkey=52
+                     /label="omega\TMV\(w.t.)"
+     CDS             83..>126
+                     /created_by="René"
+                     /label="Sv40NLS"
+ORIGIN      
+        1 gtataagagc tcatttttac aacaattacc aacaacaaca aacaacaaac aacattacaa
+       61 ttacatttac aattatcgat acatggcttc tagcccaccg aagaagaagc ggaaggtcag
+      121 ctggaa
+//
