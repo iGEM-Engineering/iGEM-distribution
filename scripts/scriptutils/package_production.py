@@ -269,7 +269,7 @@ def extract_synthesis_files(root: str, doc: sbol3.Document) -> sbol3.Document:
 
     # export the GenBank
     gb_path = os.path.join(root, DISTRIBUTION_GENBANK)
-    convert_to_genbank(build_doc, gb_path, allow_genbank_online=True)
+    convert_to_genbank(build_doc, gb_path)
     print(f'Wrote GenBank export file with {n_genbank_constructs} constructs: {gb_path}')
 
     # for Twist Synthesis FASTA exports, we need to put the identity of the build product on the sequence of the insert

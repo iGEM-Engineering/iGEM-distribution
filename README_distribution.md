@@ -1,6 +1,6 @@
 # Distribution Summary
 
-- 305 samples planned for distribution
+- 307 samples planned for distribution
 
 ### Parts:
 
@@ -114,29 +114,31 @@
 - Anderson_Promoters_in_vector_BBa_J23117
 - Anderson_Promoters_in_vector_BBa_J23118
 - Anderson_Promoters_in_vector_BBa_J23119
-- Anti_CRISPR_AcrIIA2_bacterial
-- Anti_CRISPR_AcrIIA2_mammalian
-- Anti_CRISPR_AcrIIA4_bacterial
-- Anti_CRISPR_AcrIIA4_mammalian
-- Cas_variants_ABE8_20_m
-- Cas_variants_ABE8e_TadA_8e_V106W
-- Cas_variants_ABEmax
-- Cas_variants_BE4max
-- Cas_variants_CP1028_ABE8e
-- Cas_variants_His_TwinStrep_SUMO_LwCas13a
-- Cas_variants_K2558003
-- Cas_variants_LbCpf1_or_LbCas12a
-- Cas_variants_LwCas13a
-- Cas_variants_PE2
-- Cas_variants_SaABE8e_TadA_8e_V106W
-- Cas_variants_SpCas9
-- Cas_variants_dLbCpf1_or_dLbCas12a
-- Cas_variants_dSpCas9
-- Cas_variants_dhLwCas13a
-- Cas_variants_dhSpCas9
-- Cas_variants_hLwCas13a
-- Cas_variants_hSaCas9
-- Cas_variants_hSpCas9
+- Anti_CRISPR_Anti_CRISPR_ins_AcrIIA2_bacterial
+- Anti_CRISPR_Anti_CRISPR_ins_AcrIIA2_mammalian
+- Anti_CRISPR_Anti_CRISPR_ins_AcrIIA4_bacterial
+- Anti_CRISPR_Anti_CRISPR_ins_AcrIIA4_mammalian
+- Cas_variants_Cas_variants_ins_ABE8_20_m
+- Cas_variants_Cas_variants_ins_ABE8e_TadA_8e_V106W
+- Cas_variants_Cas_variants_ins_ABEmax
+- Cas_variants_Cas_variants_ins_BE4max
+- Cas_variants_Cas_variants_ins_CP1028_ABE8e
+- Cas_variants_Cas_variants_ins_His_TwinStrep_SUMO_LwCas13a
+- Cas_variants_Cas_variants_ins_K2558003
+- Cas_variants_Cas_variants_ins_LbCpf1_or_LbCas12a
+- Cas_variants_Cas_variants_ins_LwCas13a
+- Cas_variants_Cas_variants_ins_PE2
+- Cas_variants_Cas_variants_ins_SaABE8e_TadA_8e_V106W
+- Cas_variants_Cas_variants_ins_SpCas9
+- Cas_variants_Cas_variants_ins_dLbCpf1_or_dLbCas12a
+- Cas_variants_Cas_variants_ins_dSpCas9
+- Cas_variants_Cas_variants_ins_dhLwCas13a
+- Cas_variants_Cas_variants_ins_dhSpCas9
+- Cas_variants_Cas_variants_ins_hLwCas13a
+- Cas_variants_Cas_variants_ins_hSaCas9
+- Cas_variants_Cas_variants_ins_hSpCas9
+- Nickases_Nickases_ins_Cas9n_D10A
+- Nickases_Nickases_ins_Cas9n_H840A
 - Chromoproteins_in_vector_Chromoproteins_in_vector_ins_BBa_K1033902
 - Chromoproteins_in_vector_Chromoproteins_in_vector_ins_BBa_K1033906
 - Chromoproteins_in_vector_Chromoproteins_in_vector_ins_BBa_K1033910
