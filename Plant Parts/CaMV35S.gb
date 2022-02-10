@@ -1,22 +1,33 @@
-LOCUS       CaMV35S         430 bp    DNA     linear   UNA 10-FEB-2022
+LOCUS       CaMV35S                 430 bp ds-DNA     linear   UNA 10-FEB-2022
 DEFINITION  .
 ACCESSION   urn.local...tr-eg1is7a
-VERSION     urn.local...tr-eg1is7a
+VERSION     .
 KEYWORDS    .
-SOURCE      
-  ORGANISM  .
+SOURCE      natural DNA sequence
+  ORGANISM  unspecified
+REFERENCE   1  (bases 1 to 430)
+  AUTHORS   .
+  TITLE     Direct Submission
+  JOURNAL   Exported Thursday, Feb 10, 2022 from SnapGene Viewer 5.2.0
+            https://www.snapgene.com
 FEATURES             Location/Qualifiers
+     source          1..430
+                     /organism="unspecified"
+                     /label=Source
+                     /note="/dnas_title=pICH41388"
+                     /note="color: #ffffff"
      promoter        1..430
-                     /dnas_title="35S pro short (no BpiI and BsaI)"
-                     /vntifkey=29
-                     /modified_by="René"
-                     /label="CaMV 35S "
-     Source          <1..430
-                     /dnas_title="pICH41388"
-                     /label="Source"
-     5'_UTR          424..430
-                     /label="CaMV 35s 5'UT"
-ORIGIN      
+                     /label=CaMV 35S
+                     
+                     /note="/dnas_title=35S pro short (no BpiI and BsaI)"
+                     /note="/modified_by=Rene"
+                     /note="/vntifkey=29"
+                     /note="color: #ffffff"
+     misc_feature    424..430
+                     /label=CaMV 35s 5'UT
+                     /label=nonstandard type: 5'_UTR
+                     /note="color: #a6acb3"
+ORIGIN
         1 ggaggtcaac atggtggagc acgacactct ggtctactcc aaaaatgtca aagatacagt
        61 ctcagaagat caaagggcta ttgagacttt tcaacaaagg ataatttcgg gaaacctcct
       121 cggattccat tgcccagcta tctgtcactt catcgaaagg acagtagaaa aggaaggtgg
