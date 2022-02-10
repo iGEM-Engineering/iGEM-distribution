@@ -1,17 +1,13 @@
-LOCUS       AtRbcS2B_proUTR                695 bp    DNA     linear   UNA 10-FEB-2022
+LOCUS       AtRbcS2B_proUTR          695 bp ds-DNA     linear       10-FEB-2022
 DEFINITION  .
-ACCESSION   urn.local...v2-eg1mft1
-VERSION     urn.local...v2-eg1mft1
-KEYWORDS    .
-SOURCE      
-  ORGANISM  .
+ACCESSION   urn.local...v2-eg1mft1                                             
+VERSION     urn.local...v2-eg1mft1                                             
 FEATURES             Location/Qualifiers
      misc_feature    1..695
-                     /vntifkey=29
-                     /modified_by="René"
                      /label="AtRbcS2B"
-                     /note="Geneious type: Promoter + 5'UTR"
-ORIGIN      
+                     /ApEinfo_revcolor=#9eafd2
+                     /ApEinfo_fwdcolor=#9eafd2
+ORIGIN
         1 gcttaagtgg gccgtaagtg caattgcgtt gtgctccaaa aggaacggtg ccgtgggttc
        61 ctcttgttca tcagaaatat attaattagc cgtaaaacct gaaaattcac aagcatttgg
       121 attgttttct aatttaatat ccattatgtg actaaaagtt ctagtgatcg tacatactac

@@ -1,15 +1,15 @@
-LOCUS       RUBY                   3951 bp    DNA     linear   UNA 10-FEB-2022
+LOCUS       RUBY                    3951 bp ds-DNA     linear       10-FEB-2022
 DEFINITION  .
-ACCESSION   urn.local...wb-eg1q3ce
-VERSION     urn.local...wb-eg1q3ce
-KEYWORDS    .
-SOURCE      
-  ORGANISM  .
+ACCESSION   urn.local...wb-eg1q3ce                                             
+VERSION     urn.local...wb-eg1q3ce                                             
 FEATURES             Location/Qualifiers
      CDS             1..3951
-                     /created_by="René"
                      /label="Ruby reporter"
-ORIGIN      
+                     /ApEinfo_revcolor=#ff9ccd
+                     /ApEinfo_fwdcolor=#ff9ccd
+     exon            1..3951
+                     /label="Translation 1-3951"
+ORIGIN
         1 atggatcatg cgaccctcgc catgatcctc gcgatctggt tcatcagctt ccacttcatc
        61 aagctgctgt tctcccagca gaccaccaag ctgcttccgc caggaccaaa gccgcttccg
       121 atcatcggca acatccttga ggtgggcaag aagccgcatc ggtccttcgc caacctcgcc

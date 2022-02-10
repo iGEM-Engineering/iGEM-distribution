@@ -1,16 +1,13 @@
-LOCUS       Tnos                 263 bp    DNA     linear   UNA 10-FEB-2022
+LOCUS       Tnos                     263 bp ds-DNA     linear       10-FEB-2022
 DEFINITION  .
-ACCESSION   urn.local...y5-eg1uhfc
-VERSION     urn.local...y5-eg1uhfc
-KEYWORDS    .
-SOURCE      
-  ORGANISM  .
+ACCESSION   urn.local...y5-eg1uhfc                                             
+VERSION     urn.local...y5-eg1uhfc                                             
 FEATURES             Location/Qualifiers
      terminator      1..263
-                     /vntifkey=43
-                     /modified_by="René"
                      /label="nos 3UTR"
-ORIGIN      
+                     /ApEinfo_revcolor=#84b0dc
+                     /ApEinfo_fwdcolor=#84b0dc
+ORIGIN
         1 gtcaagcaga tcgttcaaac atttggcaat aaagtttctt aagattgaat cctgttgccg
        61 gtcttgcgat gattatcata taatttctgt tgaattacgt taagcatgta ataattaaca
       121 tgtaatgcat gacgttattt atgagatggg tttttatgat tagagtcccg caattataca

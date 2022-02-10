@@ -1,16 +1,13 @@
-LOCUS       OCS                 714 bp    DNA     linear   UNA 10-FEB-2022
+LOCUS       OCS                      714 bp ds-DNA     linear       10-FEB-2022
 DEFINITION  .
-ACCESSION   urn.local...yb-eg1urij
-VERSION     urn.local...yb-eg1urij
-KEYWORDS    .
-SOURCE      
-  ORGANISM  .
+ACCESSION   urn.local...yb-eg1urij                                             
+VERSION     urn.local...yb-eg1urij                                             
 FEATURES             Location/Qualifiers
      terminator      1..714
-                     /vntifkey=43
-                     /modified_by="René"
                      /label="ocs 3UTR"
-ORIGIN      
+                     /ApEinfo_revcolor=#85dae9
+                     /ApEinfo_fwdcolor=#85dae9
+ORIGIN
         1 gtcctgcttt aatgagatat gcgagaagcc tatgatcgca tgatatttgc tttcaattct
        61 gttgtgcacg ttgtaaaaaa cctgagcatg tgtagctcag atccttaccg ccggtttcgg
       121 ttcattctaa tgaatatatc acccgttact atcgtatttt tatgaataat attctccgtt
