@@ -147,6 +147,7 @@
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/BE4max> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/CP1028_ABE8e> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/LbCpf1_or_LbCas12a> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/LwCas13a> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/PE2> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/SaABE8e_TadA_8e_V106W> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/SpCas9> .
@@ -269,6 +270,13 @@
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/LinearDNAProducts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/Cas_variants_ins> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/LinearDNAProducts> <http://sbols.org/v3#name> "Linear DNA Products" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/LinearDNAProducts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/LwCas13a> <http://sbols.org/v3#description> "Source = Bba_K2323010\nE. coli codon optimized LwCas13a" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/LwCas13a> <http://sbols.org/v3#displayId> "LwCas13a" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/LwCas13a> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/LwCas13a> <http://sbols.org/v3#name> "LwCas13a" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/LwCas13a> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/LwCas13a> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/LwCas13a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/PE2> <http://sbols.org/v3#description> "Source = Addgene 132775. Added annotations based off supplement of Anzalone et al. 2019\nSpCas based Prime Editor (PE). Prime editors use a pegRNA to template small genomic (<200bp) edits of any type without creating double stranded breaks This protein is used in PE2, PE3 and PE3b. PAM = NGG" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/PE2> <http://sbols.org/v3#displayId> "PE2" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/PE2> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas> .
