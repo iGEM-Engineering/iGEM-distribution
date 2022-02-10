@@ -28,7 +28,7 @@ Tnos,eukaryotic_terminator,,direct,,Local Sequence File,Tnos,,Synthetic,False,Fa
 CMV1_UTR,5_prime_UTR_elongation,,direct,,Local Sequence File,CMV1_UTR,,Synthetic,False,False,0,
 mCherry,CDS,,Codon Optimisation,Codon-optimized for plants,Local Sequence File,mCherry,,Synthetic,False,False,0,
 RUBY,CDS,,direct,RUBY reporter for plant transformation,Local Sequence File,RUBY,,Synthetic,False,False,0,
-T35S,eukaryotic_terminator,,direct,35S terminator,Local Sequence File,T35S,,Synthetic,False,False,0,
+CaMV35S_3UTR,eukaryotic_terminator,,direct,35S terminator,Local Sequence File,T35S,,Synthetic,False,False,0,
 AtRbcS2B_proUTR,promoter,,direct,,Local Sequence File,AtRbcS2B_proUTR,,Synthetic,False,False,0,
 TMV_SV40,signal_peptide_region_of_CDS,,direct,signal peptide for nuclear localization and enhanced translation,Local Sequence File,TMV_SV40,,Synthetic,False,False,0,
 TMV_chloroplast_transit,signal_peptide_region_of_CDS,,direct,signal peptide for chloroplast transport/localization,Local Sequence File,TMV_chloroplast_transit,,Synthetic,False,False,0,
