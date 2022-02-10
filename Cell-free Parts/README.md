@@ -4,8 +4,9 @@ Contains all the major biomolecules required for a cell-free transcription-trans
 
 ### Summary:
 
-- 40 parts
+- 42 parts
     - CDS: 40
+    - designed_sequence: 2
 - 1 vectors
 - 39 samples for distribution _<span style="color:red">1 parts not included</span>_
 
@@ -51,5 +52,7 @@ Contains all the major biomolecules required for a cell-free transcription-trans
 - BBa_K2443037 (CDS) in pSB1C5
 - BBa_K2443038 (CDS) in pSB1C5
 - Bba_K2443039 (CDS) _<span style="color:red">not included in distribution</span>_
+- D1005 (designed_sequence) in pSB1C5
+- D1006 (designed_sequence) in pSB1C5
 
 _Note: automatically generated from package Excel and sequence files; do not edit_
