@@ -40,5 +40,5 @@ AcrIIA4_mammalian,CDS,Source = Addgene 86842,Cutout of Plasmid,Humanized anti-CR
 AcrIIA4_bacterial,CDS,Source = Addgene 86836,Cutout of Plasmid,Anti-CRISPR protein class IIA4. Strong inactivation of SpCas9,Local Sequence File,AcrIIA4_bacterial,Synthetic,Escherichia coli,0,0,0,
 AcrIIA2_mammalian,CDS,Source = Addgene 86840	,Cutout of Plasmid,Humanized anti-CRISPR protein class IIA4. Weak-medium inactivation of SpCas9,Local Sequence File,AcrIIA2_mammalian,Synthetic,Mammalia,0,0,0,
 AcrIIA2_bacterial,CDS,Source = Addgene 86835,Cutout of Plasmid,Anti-CRISPR protein class IIA4. Weak-medium inactivation of SpCas9,Local Sequence File,AcrIIA2_bacterial,Synthetic,Escherichia coli,0,0,0,
-LwCas13a,CDS,Source = Bba_K2323010,Direct,E. coli codon optimized LwCas13a,,K2323010,Synthetic,Escherichia coli,0,0,0,
-6His_TwinStrep_SUMO_LwCas13a,CDS,Source = Bba_2306012,Direct,E. coli codon optimized LwCas13a with Nter tags for solubility and purification. ,,K2306012,Synthetic,Escherichia coli,0,0,0,
+LwCas13a,CDS,Source = Bba_K2323010,Direct,E. coli codon optimized LwCas13a,iGEM registry,K2323010,Synthetic,Escherichia coli,0,0,0,
+6His_TwinStrep_SUMO_LwCas13a,CDS,Source = Bba_2306012,Direct,E. coli codon optimized LwCas13a with Nter tags for solubility and purification. ,Local Sequence File,K2306012,Synthetic,Escherichia coli,0,0,0,
