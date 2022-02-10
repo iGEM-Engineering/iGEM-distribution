@@ -1,6 +1,6 @@
 # Distribution Summary
 
-- 305 samples planned for distribution
+- 344 samples planned for distribution
 
 ### Parts:
 
@@ -137,6 +137,45 @@
 - Cas_variants_hLwCas13a
 - Cas_variants_hSaCas9
 - Cas_variants_hSpCas9
+- Cell_free_parts_BBa_K2443000
+- Cell_free_parts_BBa_K2443001
+- Cell_free_parts_BBa_K2443002
+- Cell_free_parts_BBa_K2443003
+- Cell_free_parts_BBa_K2443004
+- Cell_free_parts_BBa_K2443005
+- Cell_free_parts_BBa_K2443006
+- Cell_free_parts_BBa_K2443007
+- Cell_free_parts_BBa_K2443008
+- Cell_free_parts_BBa_K2443009
+- Cell_free_parts_BBa_K2443010
+- Cell_free_parts_BBa_K2443011
+- Cell_free_parts_BBa_K2443012
+- Cell_free_parts_BBa_K2443013
+- Cell_free_parts_BBa_K2443014
+- Cell_free_parts_BBa_K2443015
+- Cell_free_parts_BBa_K2443016
+- Cell_free_parts_BBa_K2443017
+- Cell_free_parts_BBa_K2443018
+- Cell_free_parts_BBa_K2443019
+- Cell_free_parts_BBa_K2443020
+- Cell_free_parts_BBa_K2443021
+- Cell_free_parts_BBa_K2443022
+- Cell_free_parts_BBa_K2443023
+- Cell_free_parts_BBa_K2443024
+- Cell_free_parts_BBa_K2443025
+- Cell_free_parts_BBa_K2443026
+- Cell_free_parts_BBa_K2443027
+- Cell_free_parts_BBa_K2443028
+- Cell_free_parts_BBa_K2443029
+- Cell_free_parts_BBa_K2443030
+- Cell_free_parts_BBa_K2443031
+- Cell_free_parts_BBa_K2443032
+- Cell_free_parts_BBa_K2443033
+- Cell_free_parts_BBa_K2443034
+- Cell_free_parts_BBa_K2443035
+- Cell_free_parts_BBa_K2443036
+- Cell_free_parts_BBa_K2443037
+- Cell_free_parts_BBa_K2443038
 - Chromoproteins_in_vector_Chromoproteins_in_vector_ins_BBa_K1033902
 - Chromoproteins_in_vector_Chromoproteins_in_vector_ins_BBa_K1033906
 - Chromoproteins_in_vector_Chromoproteins_in_vector_ins_BBa_K1033910
