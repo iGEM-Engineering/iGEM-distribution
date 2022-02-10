@@ -1,6 +1,6 @@
 # Distribution Summary
 
-- 319 samples planned for distribution
+- 327 samples planned for distribution
 
 ### Parts:
 
@@ -195,6 +195,11 @@
 - Plant_CDSs_Plant_CDSs_ins_RUBY
 - Plant_CDSs_Plant_CDSs_ins_hph
 - Plant_CDSs_Plant_CDSs_ins_mCherry
+- Plant_fiveUTRs_Plant_fiveUTRs_ins_AtRbcS2B_UTR
+- Plant_fiveUTRs_Plant_fiveUTRs_ins_CMV1_UTR
+- Plant_fiveUTRs_Plant_fiveUTRs_ins_TMV
+- Plant_fiveUTRs_Plant_fiveUTRs_ins_TMV_SV40
+- Plant_fiveUTRs_Plant_fiveUTRs_ins_TMV_chloroplast_transit
 - Plant_promoters_Plant_promoters_ins_AtRbcS2B_proUTR
 - Plant_promoters_Plant_promoters_ins_AtU6
 - Plant_promoters_Plant_promoters_ins_BS3_proUTR
@@ -203,6 +208,9 @@
 - Plant_promoters_Plant_promoters_ins_MAS_pro
 - Plant_promoters_Plant_promoters_ins_PDF1_2_pro
 - Plant_promoters_Plant_promoters_ins_Pnos
+- Plant_threeUTRs_Plant_threeUTRs_ins_CaMV35S_3UTR
+- Plant_threeUTRs_Plant_threeUTRs_ins_OCS
+- Plant_threeUTRs_Plant_threeUTRs_ins_Tnos
 - BHETase_library_K3039005
 - BHETase_library_K3039006
 - PETase_library_BBa_K2010999

@@ -12891,14 +12891,14 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="Ura3"
                      /label="URA3"
-                     /note="Complements URA3 auxotrophic mutations in yeast.
-                     URA3 mutants require uracil for growth"
                      /note="/ApEinfo_fwdcolor/translation=MSKATYKERAATHPSPVAAKL
                      FNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKA
                      LSAKYNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAA
                      EEVTKEPRGLLMLAELSCKGSLSTGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGY
                      DWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRK
                      AGWEAYLRRCGQQN"
+                     /note="Complements URA3 auxotrophic mutations in yeast.
+                     URA3 mutants require uracil for growth"
                      /original_record="part"
                      /product="Orotidine-5'-phosphate (OMP) decarboxylase"
      misc_feature    3014..3091
@@ -23597,6 +23597,279 @@ ORIGIN
      2701 aaaaataggc gtatcacgag gcagaatttc agataaaaaa aatccttagc tttcgctaag
      2761 gatgatttct g
 //
+LOCUS       Plant_fiveUTRs_         2142 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  .
+ACCESSION   Plant_fiveUTRs_Plant_fiveUTRs_ins_CMV1_UTR
+VERSION     Plant_fiveUTRs_Plant_fiveUTRs_ins_CMV1_UTR
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+     stem_loop       116..173
+                     /label="his operon terminator"
+     misc_feature    368..956
+                     /label="pMB1 replication origin"
+     misc_feature    complement(1254..1913)
+                     /label="chloramphenicol resistance marker"
+     misc_feature    116..2142
+     misc_feature    1..11
+                     /label="D1003"
+     misc_feature    105..115
+                     /label="D1004"
+     5'UTR           12..104
+                     /ApEinfo_fwdcolor="#d6b295"
+                     /ApEinfo_revcolor="#d6b295"
+                     /label="CMV1 5'UTR"
+     5'UTR           12..104
+     misc_feature    1..115
+ORIGIN
+        1 ggtctcgtac tgtttattta caagagcgta cggttcaatc cctgcctccc ctgtaaaact
+       61 accctttgaa aacctctctt tcttaatctt ttctttgtaa ttccaatgtg agacctccgg
+      121 caaaaaaggg caaggtgtca ccaccctgcc ctttttcttt aaaaccgaaa agattacttc
+      181 gcgttatgca ggcttcctcg ctcactgact cgctgcgctc ggtcgttcgg ctgcggcgag
+      241 cggtatcagc tcactcaaag gcggtaatac ggttatccac agaatcaggg gataacgcag
+      301 gaaagaacat gtgagcaaaa ggccagcaaa aggccaggaa ccgtaaaaag gccgcgttgc
+      361 tggcgttttt ccacaggctc cgcccccctg acgagcatca caaaaatcga cgctcaagtc
+      421 agaggtggcg aaacccgaca ggactataaa gataccaggc gtttccccct ggaagctccc
+      481 tcgtgcgctc tcctgttccg accctgccgc ttaccggata cctgtccgcc tttctccctt
+      541 cgggaagcgt ggcgctttct catagctcac gctgtaggta tctcagttcg gtgtaggtcg
+      601 ttcgctccaa gctgggctgt gtgcacgaac cccccgttca gcccgaccgc tgcgccttat
+      661 ccggtaacta tcgtcttgag tccaacccgg taagacacga cttatcgcca ctggcagcag
+      721 ccactggtaa caggattagc agagcgaggt atgtaggcgg tgctacagag ttcttgaagt
+      781 ggtggcctaa ctacggctac actagaagaa cagtatttgg tatctgcgct ctgctgaagc
+      841 cagttacctt cggaaaaaga gttggtagct cttgatccgg caaacaaacc accgctggta
+      901 gcggtggttt ttttgtttgc aagcagcaga ttacgcgcag aaaaaaagga tctcaagaag
+      961 atcctttgat cttttctacg gggtctgacg ctcagtggaa cgaaaactca cgttaaggga
+     1021 ttttggtcat gagattatca aaaaggatct tcacctagat ccttttaaat taaaaatgaa
+     1081 gttttaaatc aatctaaagt atatatgagt aaacttggtc tgacagctcg aggcttggat
+     1141 tctcaccaat aaaaaacgcc cggcggcaac cgagcgttct gaacaaatcc agatggagtt
+     1201 ctgaggtcat tactggatct atcaacagga gtccaagcga gctcgatatc aaattacgcc
+     1261 ccgccctgcc actcatcgca gtactgttgt aattcattaa gcattctgcc gacatggaag
+     1321 ccatcacaaa cggcatgatg aacctgaatc gccagcggca tcagcacctt gtcgccttgc
+     1381 gtataatatt tgcccatggt gaaaacgggg gcgaagaagt tgtccatatt ggccacgttt
+     1441 aaatcaaaac tggtgaaact cacccaggga ttggctgaga cgaaaaacat attctcaata
+     1501 aaccctttag ggaaataggc caggttttca ccgtaacacg ccacatcttg cgaatatatg
+     1561 tgtagaaact gccggaaatc gtcgtggtat tcactccaga gcgatgaaaa cgtttcagtt
+     1621 tgctcatgga aaacggtgta acaagggtga acactatccc atatcaccag ctcaccgtct
+     1681 ttcattgcca tacgaaattc cggatgagca ttcatcaggc gggcaagaat gtgaataaag
+     1741 gccggataaa acttgtgctt atttttcttt acggtcttta aaaaggccgt aatatccagc
+     1801 tgaacggtct ggttataggt acattgagca actgactgaa atgcctcaaa atgttcttta
+     1861 cgatgccatt gggatatatc aacggtggta tatccagtga tttttttctc cattttagct
+     1921 tccttagctc ctgaaaatct cgataactca aaaaatacgc ccggtagtga tcttatttca
+     1981 ttatggtgaa agttggaacc tcttacgtgc ccgatcaact cgagtgccac ctgacgtcta
+     2041 agaaaccatt attatcatga cattaaccta taaaaatagg cgtatcacga ggcagaattt
+     2101 cagataaaaa aaatccttag ctttcgctaa ggatgatttc tg
+//
+LOCUS       Plant_fiveUTRs_         2116 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  .
+ACCESSION   Plant_fiveUTRs_Plant_fiveUTRs_ins_TMV
+VERSION     Plant_fiveUTRs_Plant_fiveUTRs_ins_TMV
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+     stem_loop       90..147
+                     /label="his operon terminator"
+     misc_feature    342..930
+                     /label="pMB1 replication origin"
+     misc_feature    complement(1228..1887)
+                     /label="chloramphenicol resistance marker"
+     misc_feature    90..2116
+     misc_feature    1..11
+                     /label="D1003"
+     misc_feature    79..89
+                     /label="D1004"
+     misc_feature    12..78
+                     /ApEinfo_fwdcolor="#b7e6d7"
+                     /ApEinfo_revcolor="#b7e6d7"
+                     /label="TMV 5UTR"
+     misc_feature    12..78
+     misc_feature    1..89
+ORIGIN
+        1 ggtctcgtac tgtattttta caacaattac caacaacaac aaacaacaaa caacattaca
+       61 attactattt acaattacaa tgtgagacct ccggcaaaaa agggcaaggt gtcaccaccc
+      121 tgcccttttt ctttaaaacc gaaaagatta cttcgcgtta tgcaggcttc ctcgctcact
+      181 gactcgctgc gctcggtcgt tcggctgcgg cgagcggtat cagctcactc aaaggcggta
+      241 atacggttat ccacagaatc aggggataac gcaggaaaga acatgtgagc aaaaggccag
+      301 caaaaggcca ggaaccgtaa aaaggccgcg ttgctggcgt ttttccacag gctccgcccc
+      361 cctgacgagc atcacaaaaa tcgacgctca agtcagaggt ggcgaaaccc gacaggacta
+      421 taaagatacc aggcgtttcc ccctggaagc tccctcgtgc gctctcctgt tccgaccctg
+      481 ccgcttaccg gatacctgtc cgcctttctc ccttcgggaa gcgtggcgct ttctcatagc
+      541 tcacgctgta ggtatctcag ttcggtgtag gtcgttcgct ccaagctggg ctgtgtgcac
+      601 gaaccccccg ttcagcccga ccgctgcgcc ttatccggta actatcgtct tgagtccaac
+      661 ccggtaagac acgacttatc gccactggca gcagccactg gtaacaggat tagcagagcg
+      721 aggtatgtag gcggtgctac agagttcttg aagtggtggc ctaactacgg ctacactaga
+      781 agaacagtat ttggtatctg cgctctgctg aagccagtta ccttcggaaa aagagttggt
+      841 agctcttgat ccggcaaaca aaccaccgct ggtagcggtg gtttttttgt ttgcaagcag
+      901 cagattacgc gcagaaaaaa aggatctcaa gaagatcctt tgatcttttc tacggggtct
+      961 gacgctcagt ggaacgaaaa ctcacgttaa gggattttgg tcatgagatt atcaaaaagg
+     1021 atcttcacct agatcctttt aaattaaaaa tgaagtttta aatcaatcta aagtatatat
+     1081 gagtaaactt ggtctgacag ctcgaggctt ggattctcac caataaaaaa cgcccggcgg
+     1141 caaccgagcg ttctgaacaa atccagatgg agttctgagg tcattactgg atctatcaac
+     1201 aggagtccaa gcgagctcga tatcaaatta cgccccgccc tgccactcat cgcagtactg
+     1261 ttgtaattca ttaagcattc tgccgacatg gaagccatca caaacggcat gatgaacctg
+     1321 aatcgccagc ggcatcagca ccttgtcgcc ttgcgtataa tatttgccca tggtgaaaac
+     1381 gggggcgaag aagttgtcca tattggccac gtttaaatca aaactggtga aactcaccca
+     1441 gggattggct gagacgaaaa acatattctc aataaaccct ttagggaaat aggccaggtt
+     1501 ttcaccgtaa cacgccacat cttgcgaata tatgtgtaga aactgccgga aatcgtcgtg
+     1561 gtattcactc cagagcgatg aaaacgtttc agtttgctca tggaaaacgg tgtaacaagg
+     1621 gtgaacacta tcccatatca ccagctcacc gtctttcatt gccatacgaa attccggatg
+     1681 agcattcatc aggcgggcaa gaatgtgaat aaaggccgga taaaacttgt gcttattttt
+     1741 ctttacggtc tttaaaaagg ccgtaatatc cagctgaacg gtctggttat aggtacattg
+     1801 agcaactgac tgaaatgcct caaaatgttc tttacgatgc cattgggata tatcaacggt
+     1861 ggtatatcca gtgatttttt tctccatttt agcttcctta gctcctgaaa atctcgataa
+     1921 ctcaaaaaat acgcccggta gtgatcttat ttcattatgg tgaaagttgg aacctcttac
+     1981 gtgcccgatc aactcgagtg ccacctgacg tctaagaaac cattattatc atgacattaa
+     2041 cctataaaaa taggcgtatc acgaggcaga atttcagata aaaaaaatcc ttagctttcg
+     2101 ctaaggatga tttctg
+//
+LOCUS       Plant_fiveUTRs_         2175 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  .
+ACCESSION   Plant_fiveUTRs_Plant_fiveUTRs_ins_TMV_SV40
+VERSION     Plant_fiveUTRs_Plant_fiveUTRs_ins_TMV_SV40
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+     stem_loop       149..206
+                     /label="his operon terminator"
+     misc_feature    401..989
+                     /label="pMB1 replication origin"
+     misc_feature    complement(1287..1946)
+                     /label="chloramphenicol resistance marker"
+     misc_feature    149..2175
+     misc_feature    1..11
+                     /label="D1003"
+     misc_feature    138..148
+                     /label="D1004"
+     5'UTR           12..93
+                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor="#75c6a9"
+                     /label="omega\TMV\(w.t.)"
+     CDS             94..137
+                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor="#75c6a9"
+                     /label="Sv40NLS"
+     exon            94..137
+                     /label="Translation 83-126"
+     misc_feature    12..137
+     misc_feature    1..148
+ORIGIN
+        1 ggtctcgtac tgtataagag ctcattttta caacaattac caacaacaac aaacaacaaa
+       61 caacattaca attacattta caattatcga tacatggctt ctagcccacc gaagaagaag
+      121 cggaaggtca gctggaaaat gtgagacctc cggcaaaaaa gggcaaggtg tcaccaccct
+      181 gccctttttc tttaaaaccg aaaagattac ttcgcgttat gcaggcttcc tcgctcactg
+      241 actcgctgcg ctcggtcgtt cggctgcggc gagcggtatc agctcactca aaggcggtaa
+      301 tacggttatc cacagaatca ggggataacg caggaaagaa catgtgagca aaaggccagc
+      361 aaaaggccag gaaccgtaaa aaggccgcgt tgctggcgtt tttccacagg ctccgccccc
+      421 ctgacgagca tcacaaaaat cgacgctcaa gtcagaggtg gcgaaacccg acaggactat
+      481 aaagatacca ggcgtttccc cctggaagct ccctcgtgcg ctctcctgtt ccgaccctgc
+      541 cgcttaccgg atacctgtcc gcctttctcc cttcgggaag cgtggcgctt tctcatagct
+      601 cacgctgtag gtatctcagt tcggtgtagg tcgttcgctc caagctgggc tgtgtgcacg
+      661 aaccccccgt tcagcccgac cgctgcgcct tatccggtaa ctatcgtctt gagtccaacc
+      721 cggtaagaca cgacttatcg ccactggcag cagccactgg taacaggatt agcagagcga
+      781 ggtatgtagg cggtgctaca gagttcttga agtggtggcc taactacggc tacactagaa
+      841 gaacagtatt tggtatctgc gctctgctga agccagttac cttcggaaaa agagttggta
+      901 gctcttgatc cggcaaacaa accaccgctg gtagcggtgg tttttttgtt tgcaagcagc
+      961 agattacgcg cagaaaaaaa ggatctcaag aagatccttt gatcttttct acggggtctg
+     1021 acgctcagtg gaacgaaaac tcacgttaag ggattttggt catgagatta tcaaaaagga
+     1081 tcttcaccta gatcctttta aattaaaaat gaagttttaa atcaatctaa agtatatatg
+     1141 agtaaacttg gtctgacagc tcgaggcttg gattctcacc aataaaaaac gcccggcggc
+     1201 aaccgagcgt tctgaacaaa tccagatgga gttctgaggt cattactgga tctatcaaca
+     1261 ggagtccaag cgagctcgat atcaaattac gccccgccct gccactcatc gcagtactgt
+     1321 tgtaattcat taagcattct gccgacatgg aagccatcac aaacggcatg atgaacctga
+     1381 atcgccagcg gcatcagcac cttgtcgcct tgcgtataat atttgcccat ggtgaaaacg
+     1441 ggggcgaaga agttgtccat attggccacg tttaaatcaa aactggtgaa actcacccag
+     1501 ggattggctg agacgaaaaa catattctca ataaaccctt tagggaaata ggccaggttt
+     1561 tcaccgtaac acgccacatc ttgcgaatat atgtgtagaa actgccggaa atcgtcgtgg
+     1621 tattcactcc agagcgatga aaacgtttca gtttgctcat ggaaaacggt gtaacaaggg
+     1681 tgaacactat cccatatcac cagctcaccg tctttcattg ccatacgaaa ttccggatga
+     1741 gcattcatca ggcgggcaag aatgtgaata aaggccggat aaaacttgtg cttatttttc
+     1801 tttacggtct ttaaaaaggc cgtaatatcc agctgaacgg tctggttata ggtacattga
+     1861 gcaactgact gaaatgcctc aaaatgttct ttacgatgcc attgggatat atcaacggtg
+     1921 gtatatccag tgattttttt ctccatttta gcttccttag ctcctgaaaa tctcgataac
+     1981 tcaaaaaata cgcccggtag tgatcttatt tcattatggt gaaagttgga acctcttacg
+     2041 tgcccgatca actcgagtgc cacctgacgt ctaagaaacc attattatca tgacattaac
+     2101 ctataaaaat aggcgtatca cgaggcagaa tttcagataa aaaaaatcct tagctttcgc
+     2161 taaggatgat ttctg
+//
+LOCUS       Plant_fiveUTRs_         2311 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  .
+ACCESSION   Plant_fiveUTRs_Plant_fiveUTRs_ins_TMV_chloroplast_transit
+VERSION     Plant_fiveUTRs_Plant_fiveUTRs_ins_TMV_chloroplast_transit
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+     stem_loop       285..342
+                     /label="his operon terminator"
+     misc_feature    537..1125
+                     /label="pMB1 replication origin"
+     misc_feature    complement(1423..2082)
+                     /label="chloramphenicol resistance marker"
+     misc_feature    285..2311
+     misc_feature    1..11
+                     /label="D1003"
+     misc_feature    274..284
+                     /label="D1004"
+     5'UTR           <12..94
+                     /label="TMV 5UTR"
+                     /modified_by="René"
+                     /vntifkey="52"
+     transit_peptide 95..271
+                     /label="chloroplast targeting signal"
+                     /modified_by="René"
+                     /vntifkey="95"
+     misc_feature    272..>273
+                     /label="6xHis"
+                     /vntifkey="21"
+     misc_feature    12..273
+     misc_feature    1..284
+ORIGIN
+        1 ggtctcgtac tgtataagag ctcattttta caacaattac caacaacaac aaacaacaaa
+       61 caacattaca attacattta caattatcga taacatggct tcttctatgc tttcttctgc
+      121 tgctgttgtt gctactcgtg ctagtgctgc tcaagctagt atggttgctc cttttactgg
+      181 acttaagtct gctgcttctt ttcctgttac tagaaagcaa aacaaccttg atattacttc
+      241 tattgctagt aacggaggaa gagttcgagc aggaatgtga gacctccggc aaaaaagggc
+      301 aaggtgtcac caccctgccc tttttcttta aaaccgaaaa gattacttcg cgttatgcag
+      361 gcttcctcgc tcactgactc gctgcgctcg gtcgttcggc tgcggcgagc ggtatcagct
+      421 cactcaaagg cggtaatacg gttatccaca gaatcagggg ataacgcagg aaagaacatg
+      481 tgagcaaaag gccagcaaaa ggccaggaac cgtaaaaagg ccgcgttgct ggcgtttttc
+      541 cacaggctcc gcccccctga cgagcatcac aaaaatcgac gctcaagtca gaggtggcga
+      601 aacccgacag gactataaag ataccaggcg tttccccctg gaagctccct cgtgcgctct
+      661 cctgttccga ccctgccgct taccggatac ctgtccgcct ttctcccttc gggaagcgtg
+      721 gcgctttctc atagctcacg ctgtaggtat ctcagttcgg tgtaggtcgt tcgctccaag
+      781 ctgggctgtg tgcacgaacc ccccgttcag cccgaccgct gcgccttatc cggtaactat
+      841 cgtcttgagt ccaacccggt aagacacgac ttatcgccac tggcagcagc cactggtaac
+      901 aggattagca gagcgaggta tgtaggcggt gctacagagt tcttgaagtg gtggcctaac
+      961 tacggctaca ctagaagaac agtatttggt atctgcgctc tgctgaagcc agttaccttc
+     1021 ggaaaaagag ttggtagctc ttgatccggc aaacaaacca ccgctggtag cggtggtttt
+     1081 tttgtttgca agcagcagat tacgcgcaga aaaaaaggat ctcaagaaga tcctttgatc
+     1141 ttttctacgg ggtctgacgc tcagtggaac gaaaactcac gttaagggat tttggtcatg
+     1201 agattatcaa aaaggatctt cacctagatc cttttaaatt aaaaatgaag ttttaaatca
+     1261 atctaaagta tatatgagta aacttggtct gacagctcga ggcttggatt ctcaccaata
+     1321 aaaaacgccc ggcggcaacc gagcgttctg aacaaatcca gatggagttc tgaggtcatt
+     1381 actggatcta tcaacaggag tccaagcgag ctcgatatca aattacgccc cgccctgcca
+     1441 ctcatcgcag tactgttgta attcattaag cattctgccg acatggaagc catcacaaac
+     1501 ggcatgatga acctgaatcg ccagcggcat cagcaccttg tcgccttgcg tataatattt
+     1561 gcccatggtg aaaacggggg cgaagaagtt gtccatattg gccacgttta aatcaaaact
+     1621 ggtgaaactc acccagggat tggctgagac gaaaaacata ttctcaataa accctttagg
+     1681 gaaataggcc aggttttcac cgtaacacgc cacatcttgc gaatatatgt gtagaaactg
+     1741 ccggaaatcg tcgtggtatt cactccagag cgatgaaaac gtttcagttt gctcatggaa
+     1801 aacggtgtaa caagggtgaa cactatccca tatcaccagc tcaccgtctt tcattgccat
+     1861 acgaaattcc ggatgagcat tcatcaggcg ggcaagaatg tgaataaagg ccggataaaa
+     1921 cttgtgctta tttttcttta cggtctttaa aaaggccgta atatccagct gaacggtctg
+     1981 gttataggta cattgagcaa ctgactgaaa tgcctcaaaa tgttctttac gatgccattg
+     2041 ggatatatca acggtggtat atccagtgat ttttttctcc attttagctt ccttagctcc
+     2101 tgaaaatctc gataactcaa aaaatacgcc cggtagtgat cttatttcat tatggtgaaa
+     2161 gttggaacct cttacgtgcc cgatcaactc gagtgccacc tgacgtctaa gaaaccatta
+     2221 ttatcatgac attaacctat aaaaataggc gtatcacgag gcagaatttc agataaaaaa
+     2281 aatccttagc tttcgctaag gatgatttct g
+//
 LOCUS       Plant_promoters         2744 bp    DNA     linear   UNK 01-JAN-1980
 DEFINITION  .
 ACCESSION   Plant_promoters_Plant_promoters_ins_AtRbcS2B_proUTR
@@ -24174,6 +24447,218 @@ ORIGIN
      2161 tcattatggt gaaagttgga acctcttacg tgcccgatca actcgagtgc cacctgacgt
      2221 ctaagaaacc attattatca tgacattaac ctataaaaat aggcgtatca cgaggcagaa
      2281 tttcagataa aaaaaatcct tagctttcgc taaggatgat ttctg
+//
+LOCUS       Plant_threeUTRs         2253 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  .
+ACCESSION   Plant_threeUTRs_Plant_threeUTRs_ins_CaMV35S_3UTR
+VERSION     Plant_threeUTRs_Plant_threeUTRs_ins_CaMV35S_3UTR
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+     stem_loop       227..284
+                     /label="his operon terminator"
+     misc_feature    479..1067
+                     /label="pMB1 replication origin"
+     misc_feature    complement(1365..2024)
+                     /label="chloramphenicol resistance marker"
+     misc_feature    227..2253
+     misc_feature    1..11
+                     /label="D1007"
+     misc_feature    216..226
+                     /label="D1008"
+     terminator      12..215
+                     /ApEinfo_fwdcolor="#f8d3a9"
+                     /ApEinfo_revcolor="#f8d3a9"
+                     /label="35S 3UTR"
+     source          12..215
+                     /ApEinfo_fwdcolor="#faac61"
+                     /ApEinfo_revcolor="#faac61"
+                     /label="source"
+     misc_feature    12..215
+     misc_feature    1..226
+ORIGIN
+        1 ggtctcggct tctctagcta gagtcgatcg acaagctcga gtttctccat aataatgtgt
+       61 gagtagttcc cagataaggg aattagggtt cctatagggt ttcgctcatg tgttgagcat
+      121 ataagaaacc cttagtatgt atttgtattt gtaaaatact tctatcaata aaatttctaa
+      181 ttcctaaaac caaaatccag tactaaaatc cagatcgctt gagacctccg gcaaaaaagg
+      241 gcaaggtgtc accaccctgc cctttttctt taaaaccgaa aagattactt cgcgttatgc
+      301 aggcttcctc gctcactgac tcgctgcgct cggtcgttcg gctgcggcga gcggtatcag
+      361 ctcactcaaa ggcggtaata cggttatcca cagaatcagg ggataacgca ggaaagaaca
+      421 tgtgagcaaa aggccagcaa aaggccagga accgtaaaaa ggccgcgttg ctggcgtttt
+      481 tccacaggct ccgcccccct gacgagcatc acaaaaatcg acgctcaagt cagaggtggc
+      541 gaaacccgac aggactataa agataccagg cgtttccccc tggaagctcc ctcgtgcgct
+      601 ctcctgttcc gaccctgccg cttaccggat acctgtccgc ctttctccct tcgggaagcg
+      661 tggcgctttc tcatagctca cgctgtaggt atctcagttc ggtgtaggtc gttcgctcca
+      721 agctgggctg tgtgcacgaa ccccccgttc agcccgaccg ctgcgcctta tccggtaact
+      781 atcgtcttga gtccaacccg gtaagacacg acttatcgcc actggcagca gccactggta
+      841 acaggattag cagagcgagg tatgtaggcg gtgctacaga gttcttgaag tggtggccta
+      901 actacggcta cactagaaga acagtatttg gtatctgcgc tctgctgaag ccagttacct
+      961 tcggaaaaag agttggtagc tcttgatccg gcaaacaaac caccgctggt agcggtggtt
+     1021 tttttgtttg caagcagcag attacgcgca gaaaaaaagg atctcaagaa gatcctttga
+     1081 tcttttctac ggggtctgac gctcagtgga acgaaaactc acgttaaggg attttggtca
+     1141 tgagattatc aaaaaggatc ttcacctaga tccttttaaa ttaaaaatga agttttaaat
+     1201 caatctaaag tatatatgag taaacttggt ctgacagctc gaggcttgga ttctcaccaa
+     1261 taaaaaacgc ccggcggcaa ccgagcgttc tgaacaaatc cagatggagt tctgaggtca
+     1321 ttactggatc tatcaacagg agtccaagcg agctcgatat caaattacgc cccgccctgc
+     1381 cactcatcgc agtactgttg taattcatta agcattctgc cgacatggaa gccatcacaa
+     1441 acggcatgat gaacctgaat cgccagcggc atcagcacct tgtcgccttg cgtataatat
+     1501 ttgcccatgg tgaaaacggg ggcgaagaag ttgtccatat tggccacgtt taaatcaaaa
+     1561 ctggtgaaac tcacccaggg attggctgag acgaaaaaca tattctcaat aaacccttta
+     1621 gggaaatagg ccaggttttc accgtaacac gccacatctt gcgaatatat gtgtagaaac
+     1681 tgccggaaat cgtcgtggta ttcactccag agcgatgaaa acgtttcagt ttgctcatgg
+     1741 aaaacggtgt aacaagggtg aacactatcc catatcacca gctcaccgtc tttcattgcc
+     1801 atacgaaatt ccggatgagc attcatcagg cgggcaagaa tgtgaataaa ggccggataa
+     1861 aacttgtgct tatttttctt tacggtcttt aaaaaggccg taatatccag ctgaacggtc
+     1921 tggttatagg tacattgagc aactgactga aatgcctcaa aatgttcttt acgatgccat
+     1981 tgggatatat caacggtggt atatccagtg atttttttct ccattttagc ttccttagct
+     2041 cctgaaaatc tcgataactc aaaaaatacg cccggtagtg atcttatttc attatggtga
+     2101 aagttggaac ctcttacgtg cccgatcaac tcgagtgcca cctgacgtct aagaaaccat
+     2161 tattatcatg acattaacct ataaaaatag gcgtatcacg aggcagaatt tcagataaaa
+     2221 aaaatcctta gctttcgcta aggatgattt ctg
+//
+LOCUS       Plant_threeUTRs         2763 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  .
+ACCESSION   Plant_threeUTRs_Plant_threeUTRs_ins_OCS
+VERSION     Plant_threeUTRs_Plant_threeUTRs_ins_OCS
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+     stem_loop       737..794
+                     /label="his operon terminator"
+     misc_feature    989..1577
+                     /label="pMB1 replication origin"
+     misc_feature    complement(1875..2534)
+                     /label="chloramphenicol resistance marker"
+     misc_feature    737..2763
+     misc_feature    1..11
+                     /label="D1007"
+     misc_feature    726..736
+                     /label="D1008"
+     terminator      12..725
+                     /ApEinfo_fwdcolor="#85dae9"
+                     /ApEinfo_revcolor="#85dae9"
+                     /label="ocs 3UTR"
+     terminator      12..725
+     misc_feature    1..736
+ORIGIN
+        1 ggtctcggct tgtcctgctt taatgagata tgcgagaagc ctatgatcgc atgatatttg
+       61 ctttcaattc tgttgtgcac gttgtaaaaa acctgagcat gtgtagctca gatccttacc
+      121 gccggtttcg gttcattcta atgaatatat cacccgttac tatcgtattt ttatgaataa
+      181 tattctccgt tcaatttact gattgtaccc tactacttat atgtacaata ttaaaatgaa
+      241 aacaatatat tgtgctgaat aggtttatag cgacatctat gatagagcgc cacaataaca
+      301 aacaattgcg ttttattatt acaaatccaa ttttaaaaaa agcggcagaa ccggtcaaac
+      361 ctaaaagact gattacataa atcttattca aatttcaaaa gtgccccagg ggctagtatc
+      421 tacgacacac cgagcggcga actaataacg ctcactgaag ggaactccgg ttccccgccg
+      481 gcgcgcatgg gtgagattcc ttgaagttga gtattggccg tccgctctac cgaaagttac
+      541 gggcaccatt caacccggtc cagcacggcg gccgggtaac cgacttgctg ccccgagaat
+      601 tatgcagcat ttttttggtg tatgtgggcc ccaaatgaag tgcaggtcaa accttgacag
+      661 tgacgacaaa tcgttgggcg ggtccagggc gaattttgcg acaacatgtc gaggctcagc
+      721 aggaccgctt gagacctccg gcaaaaaagg gcaaggtgtc accaccctgc cctttttctt
+      781 taaaaccgaa aagattactt cgcgttatgc aggcttcctc gctcactgac tcgctgcgct
+      841 cggtcgttcg gctgcggcga gcggtatcag ctcactcaaa ggcggtaata cggttatcca
+      901 cagaatcagg ggataacgca ggaaagaaca tgtgagcaaa aggccagcaa aaggccagga
+      961 accgtaaaaa ggccgcgttg ctggcgtttt tccacaggct ccgcccccct gacgagcatc
+     1021 acaaaaatcg acgctcaagt cagaggtggc gaaacccgac aggactataa agataccagg
+     1081 cgtttccccc tggaagctcc ctcgtgcgct ctcctgttcc gaccctgccg cttaccggat
+     1141 acctgtccgc ctttctccct tcgggaagcg tggcgctttc tcatagctca cgctgtaggt
+     1201 atctcagttc ggtgtaggtc gttcgctcca agctgggctg tgtgcacgaa ccccccgttc
+     1261 agcccgaccg ctgcgcctta tccggtaact atcgtcttga gtccaacccg gtaagacacg
+     1321 acttatcgcc actggcagca gccactggta acaggattag cagagcgagg tatgtaggcg
+     1381 gtgctacaga gttcttgaag tggtggccta actacggcta cactagaaga acagtatttg
+     1441 gtatctgcgc tctgctgaag ccagttacct tcggaaaaag agttggtagc tcttgatccg
+     1501 gcaaacaaac caccgctggt agcggtggtt tttttgtttg caagcagcag attacgcgca
+     1561 gaaaaaaagg atctcaagaa gatcctttga tcttttctac ggggtctgac gctcagtgga
+     1621 acgaaaactc acgttaaggg attttggtca tgagattatc aaaaaggatc ttcacctaga
+     1681 tccttttaaa ttaaaaatga agttttaaat caatctaaag tatatatgag taaacttggt
+     1741 ctgacagctc gaggcttgga ttctcaccaa taaaaaacgc ccggcggcaa ccgagcgttc
+     1801 tgaacaaatc cagatggagt tctgaggtca ttactggatc tatcaacagg agtccaagcg
+     1861 agctcgatat caaattacgc cccgccctgc cactcatcgc agtactgttg taattcatta
+     1921 agcattctgc cgacatggaa gccatcacaa acggcatgat gaacctgaat cgccagcggc
+     1981 atcagcacct tgtcgccttg cgtataatat ttgcccatgg tgaaaacggg ggcgaagaag
+     2041 ttgtccatat tggccacgtt taaatcaaaa ctggtgaaac tcacccaggg attggctgag
+     2101 acgaaaaaca tattctcaat aaacccttta gggaaatagg ccaggttttc accgtaacac
+     2161 gccacatctt gcgaatatat gtgtagaaac tgccggaaat cgtcgtggta ttcactccag
+     2221 agcgatgaaa acgtttcagt ttgctcatgg aaaacggtgt aacaagggtg aacactatcc
+     2281 catatcacca gctcaccgtc tttcattgcc atacgaaatt ccggatgagc attcatcagg
+     2341 cgggcaagaa tgtgaataaa ggccggataa aacttgtgct tatttttctt tacggtcttt
+     2401 aaaaaggccg taatatccag ctgaacggtc tggttatagg tacattgagc aactgactga
+     2461 aatgcctcaa aatgttcttt acgatgccat tgggatatat caacggtggt atatccagtg
+     2521 atttttttct ccattttagc ttccttagct cctgaaaatc tcgataactc aaaaaatacg
+     2581 cccggtagtg atcttatttc attatggtga aagttggaac ctcttacgtg cccgatcaac
+     2641 tcgagtgcca cctgacgtct aagaaaccat tattatcatg acattaacct ataaaaatag
+     2701 gcgtatcacg aggcagaatt tcagataaaa aaaatcctta gctttcgcta aggatgattt
+     2761 ctg
+//
+LOCUS       Plant_threeUTRs         2312 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  .
+ACCESSION   Plant_threeUTRs_Plant_threeUTRs_ins_Tnos
+VERSION     Plant_threeUTRs_Plant_threeUTRs_ins_Tnos
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+     stem_loop       286..343
+                     /label="his operon terminator"
+     misc_feature    538..1126
+                     /label="pMB1 replication origin"
+     misc_feature    complement(1424..2083)
+                     /label="chloramphenicol resistance marker"
+     misc_feature    286..2312
+     misc_feature    1..11
+                     /label="D1007"
+     misc_feature    275..285
+                     /label="D1008"
+     terminator      12..274
+                     /ApEinfo_fwdcolor="#84b0dc"
+                     /ApEinfo_revcolor="#84b0dc"
+                     /label="nos 3UTR"
+     terminator      12..274
+     misc_feature    1..285
+ORIGIN
+        1 ggtctcggct tgtcaagcag atcgttcaaa catttggcaa taaagtttct taagattgaa
+       61 tcctgttgcc ggtcttgcga tgattatcat ataatttctg ttgaattacg ttaagcatgt
+      121 aataattaac atgtaatgca tgacgttatt tatgagatgg gtttttatga ttagagtccc
+      181 gcaattatac atttaatacg cgatagaaaa caaaatatag cgcgcaaact aggataaatt
+      241 atcgcgcgcg gtgtcatcta tgttactaga tcgacgcttg agacctccgg caaaaaaggg
+      301 caaggtgtca ccaccctgcc ctttttcttt aaaaccgaaa agattacttc gcgttatgca
+      361 ggcttcctcg ctcactgact cgctgcgctc ggtcgttcgg ctgcggcgag cggtatcagc
+      421 tcactcaaag gcggtaatac ggttatccac agaatcaggg gataacgcag gaaagaacat
+      481 gtgagcaaaa ggccagcaaa aggccaggaa ccgtaaaaag gccgcgttgc tggcgttttt
+      541 ccacaggctc cgcccccctg acgagcatca caaaaatcga cgctcaagtc agaggtggcg
+      601 aaacccgaca ggactataaa gataccaggc gtttccccct ggaagctccc tcgtgcgctc
+      661 tcctgttccg accctgccgc ttaccggata cctgtccgcc tttctccctt cgggaagcgt
+      721 ggcgctttct catagctcac gctgtaggta tctcagttcg gtgtaggtcg ttcgctccaa
+      781 gctgggctgt gtgcacgaac cccccgttca gcccgaccgc tgcgccttat ccggtaacta
+      841 tcgtcttgag tccaacccgg taagacacga cttatcgcca ctggcagcag ccactggtaa
+      901 caggattagc agagcgaggt atgtaggcgg tgctacagag ttcttgaagt ggtggcctaa
+      961 ctacggctac actagaagaa cagtatttgg tatctgcgct ctgctgaagc cagttacctt
+     1021 cggaaaaaga gttggtagct cttgatccgg caaacaaacc accgctggta gcggtggttt
+     1081 ttttgtttgc aagcagcaga ttacgcgcag aaaaaaagga tctcaagaag atcctttgat
+     1141 cttttctacg gggtctgacg ctcagtggaa cgaaaactca cgttaaggga ttttggtcat
+     1201 gagattatca aaaaggatct tcacctagat ccttttaaat taaaaatgaa gttttaaatc
+     1261 aatctaaagt atatatgagt aaacttggtc tgacagctcg aggcttggat tctcaccaat
+     1321 aaaaaacgcc cggcggcaac cgagcgttct gaacaaatcc agatggagtt ctgaggtcat
+     1381 tactggatct atcaacagga gtccaagcga gctcgatatc aaattacgcc ccgccctgcc
+     1441 actcatcgca gtactgttgt aattcattaa gcattctgcc gacatggaag ccatcacaaa
+     1501 cggcatgatg aacctgaatc gccagcggca tcagcacctt gtcgccttgc gtataatatt
+     1561 tgcccatggt gaaaacgggg gcgaagaagt tgtccatatt ggccacgttt aaatcaaaac
+     1621 tggtgaaact cacccaggga ttggctgaga cgaaaaacat attctcaata aaccctttag
+     1681 ggaaataggc caggttttca ccgtaacacg ccacatcttg cgaatatatg tgtagaaact
+     1741 gccggaaatc gtcgtggtat tcactccaga gcgatgaaaa cgtttcagtt tgctcatgga
+     1801 aaacggtgta acaagggtga acactatccc atatcaccag ctcaccgtct ttcattgcca
+     1861 tacgaaattc cggatgagca ttcatcaggc gggcaagaat gtgaataaag gccggataaa
+     1921 acttgtgctt atttttcttt acggtcttta aaaaggccgt aatatccagc tgaacggtct
+     1981 ggttataggt acattgagca actgactgaa atgcctcaaa atgttcttta cgatgccatt
+     2041 gggatatatc aacggtggta tatccagtga tttttttctc cattttagct tccttagctc
+     2101 ctgaaaatct cgataactca aaaaatacgc ccggtagtga tcttatttca ttatggtgaa
+     2161 agttggaacc tcttacgtgc ccgatcaact cgagtgccac ctgacgtcta agaaaccatt
+     2221 attatcatga cattaaccta taaaaatagg cgtatcacga ggcagaattt cagataaaaa
+     2281 aaatccttag ctttcgctaa ggatgatttc tg
 //
 LOCUS       Promoters_BBa_I         3280 bp    DNA     linear   UNK 01-JAN-1980
 DEFINITION  .
