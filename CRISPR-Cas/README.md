@@ -10,10 +10,10 @@ Their associated guide RNA scaffold sequences as well as the position of the spa
 
 ### Summary:
 
-- 21 parts
-    - CDS: 21
+- 22 parts _<span style="color:red">1 missing sequences</span>_
+    - CDS: 22
 - 1 vectors
-- 21 samples for distribution
+- 21 samples for distribution _<span style="color:red">1 parts not included</span>_
 
 ### Parts:
 
@@ -28,6 +28,7 @@ Their associated guide RNA scaffold sequences as well as the position of the spa
 - BE4max (CDS) in pSB1C3
 - CP1028_ABE8e (CDS) in pSB1C3
 - LbCpf1_or_LbCas12a (CDS) in pSB1C3
+- LwCas13a (CDS) _<span style="color:red">missing sequence, ensure file name matches Data Source ID from Excel File</span>_ _<span style="color:red">not included in distribution</span>_
 - PE2 (CDS) in pSB1C3
 - SaABE8e_TadA_8e_V106W (CDS) in pSB1C3
 - SpCas9 (CDS) in pSB1C3
