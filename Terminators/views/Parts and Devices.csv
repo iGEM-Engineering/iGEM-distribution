@@ -19,3 +19,4 @@ BBa_B1006_T_U10,terminator,"99.42% efficiency (Homopolimer of more than 10 bases
 rnpB_T1,terminator,"99.17% efficiency, TWIST ok",,,PubMed,PMID: 23511967,,Escherichia coli,False,False,82,TCGGTCAGTTTCACCTGATTTACGTAAAAACCCGCTTCGGCGGGTTTTTGCTTTTGGAGGGGCAGAAAGATGAATGACTGTC,PubMed:PMID: 23511967,,,,,,,,,,,,,
 rpoC_T,terminator,"98.99% efficiency,  TWIST ok",,,PubMed,PMID: 23511967,,Escherichia coli,False,False,83,GTAATCGTTAATCCGCAAATAACGTAAAAACCCGCTTCGGCGGGTTTTTTTATGGGGGGAGTTTAGGGAAAGAGCATTTGTCA,PubMed:PMID: 23511967,,,,,,,,,,,,,
 pSB1C3,plasmid,,,,iGEM registry,pSB1C3,,,False,True,0,,,,,,,,,,,,,,,
+STOP_MC,stop_codon,To make the stop codon when placed after CDS_TT_OH,,,,,,,False,False,2,AA,,,,,,,,,,,,,,
