@@ -10,13 +10,16 @@ Their associated guide RNA scaffold sequences as well as the position of the spa
 
 ### Summary:
 
-- 23 parts
+- 25 parts
     - CDS: 23
+    - designed_sequence: 2
 - 1 vectors
 - 23 samples for distribution
 
 ### Parts:
 
+- D1005 (designed_sequence) in pSB1C5
+- D1006 (designed_sequence) in pSB1C5
 - K2323010 (CDS) in pSB1C5
 - K2558003 (CDS) in pSB1C5
 - ABE8_20_m (CDS) in pSB1C5
