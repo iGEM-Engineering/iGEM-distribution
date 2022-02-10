@@ -1,16 +1,13 @@
-LOCUS       Pnos         276 bp    DNA     linear   UNA 10-FEB-2022
+LOCUS       Pnos                     276 bp ds-DNA     linear       10-FEB-2022
 DEFINITION  .
-ACCESSION   urn.local...u5-eg1jvmg
-VERSION     urn.local...u5-eg1jvmg
-KEYWORDS    .
-SOURCE      
-  ORGANISM  .
+ACCESSION   urn.local...u5-eg1jvmg                                             
+VERSION     urn.local...u5-eg1jvmg                                             
 FEATURES             Location/Qualifiers
      promoter        1..276
-                     /vntifkey=29
-                     /modified_by="René"
                      /label="nos promoter"
-ORIGIN      
+                     /ApEinfo_revcolor=#d59687
+                     /ApEinfo_fwdcolor=#d59687
+ORIGIN
         1 agcggagaat taagggagtc acgttatgac ccccgccgat gacgcgggac aagccgtttt
        61 acgtttggaa ctgacagaac cgcaacgttg aaggagccac tcagccgcgg gtttctggag
       121 tttaatgagc taagcacata cgtcagaaac cattattgcg cgttcaaaag tcgcctaagg

@@ -1,16 +1,13 @@
-LOCUS       MAS_pro                387 bp    DNA     linear   UNA 10-FEB-2022
+LOCUS       MAS_pro                  387 bp ds-DNA     linear       10-FEB-2022
 DEFINITION  .
-ACCESSION   urn.local...ug-eg1kjao
-VERSION     urn.local...ug-eg1kjao
-KEYWORDS    .
-SOURCE      
-  ORGANISM  .
+ACCESSION   urn.local...ug-eg1kjao                                             
+VERSION     urn.local...ug-eg1kjao                                             
 FEATURES             Location/Qualifiers
      promoter        1..387
-                     /vntifkey=29
-                     /modified_by="René"
                      /label="mas promoter"
-ORIGIN      
+                     /ApEinfo_revcolor=#ff9ccd
+                     /ApEinfo_fwdcolor=#ff9ccd
+ORIGIN
         1 ggagattttt caaatcagtg cgcaagacgt gacgtaagta tccgagtcag tttttatttt
        61 tctactaatt tggtcgttta tttcggcgtg taggacatgg caaccgggcc tgaatttcgc
       121 gggtattctg tttctattcc aactttttct tgatccgcag ccattaacga cttttgaata

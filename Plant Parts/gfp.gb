@@ -1,15 +1,15 @@
-LOCUS       GFP                    717 bp    DNA     linear   UNA 10-FEB-2022
+LOCUS       GFP                      717 bp ds-DNA     linear       10-FEB-2022
 DEFINITION  .
-ACCESSION   urn.local...v6-eg1mv20
-VERSION     urn.local...v6-eg1mv20
-KEYWORDS    .
-SOURCE      
-  ORGANISM  .
+ACCESSION   urn.local...v6-eg1mv20                                             
+VERSION     urn.local...v6-eg1mv20                                             
 FEATURES             Location/Qualifiers
      CDS             1..717
-                     /vntifkey=4
                      /label="GFP"
-ORIGIN      
+                     /ApEinfo_revcolor=#b7e6d7
+                     /ApEinfo_fwdcolor=#b7e6d7
+     exon            1..717
+                     /label="Translation 1-717"
+ORIGIN
         1 gtgagcaagg gcgaggagct gttcaccggg gtggtgccca tcctggtcga gctggacggc
        61 gacgtaaacg gccacaagtt cagcgtgtcc ggcgagggcg agggcgatgc cacctacggc
       121 aagctgaccc tgaagttcat ctgcaccacc ggcaagctgc ccgtgccctg gcccaccctc
