@@ -109,7 +109,7 @@ def generate_package_summary(package: str, doc: sbol3.Document):
             if p in insert_vectors:
                 f.write(f' in {", ".join(sorted(insert_vectors[p]))}')
             if p.identity in missing_seq:
-                f.write(hilite(f'missing sequence'))
+                f.write(hilite(f'missing sequence, ensure file name matches Data Source ID from Excel File'))
             if p.identity in unused_parts:
                 f.write(hilite(f'not included in distribution'))
             f.write('\n')

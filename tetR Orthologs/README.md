@@ -1,53 +1,58 @@
-# Package: None
+# Package: tetR Orthologs
 
 None
 
 ### Summary:
 
-- 37 parts
+- 41 parts
     - CDS: 19
+    - designed_sequence: 4
     - promoter: 18
 - 1 vectors
 - 37 samples for distribution
 
 ### Parts:
 
-- ButR (CDS) in pSB1C3
-- HapR (CDS) in pSB1C3
-- HlyllR (CDS) in pSB1C3
-- McbR (CDS) in pSB1C3
-- Orf2 (CDS) in pSB1C3
-- ScbR (CDS) in pSB1C3
-- SmcR (CDS) in pSB1C3
-- TarA (CDS) in pSB1C3
-- pButR (promoter) in pSB1C3
-- pHapR (promoter) in pSB1C3
-- pHlyllR (promoter) in pSB1C3
-- pMcbR (promoter) in pSB1C3
-- pOrf2 (promoter) in pSB1C3
-- pScbR (promoter) in pSB1C3
-- pSmcR (promoter) in pSB1C3
-- pTarA (promoter) in pSB1C3
-- AmtR (CDS) in pSB1C3
-- AmeR (CDS) in pSB1C3
-- BM3R1 (CDS) in pSB1C3
-- BetI (CDS) in pSB1C3
-- IcaRA (CDS) in pSB1C3
-- LitR (CDS) in pSB1C3
-- LmrA (CDS) in pSB1C3
-- PhlF (CDS) in pSB1C3
-- PsrA (CDS) in pSB1C3
-- QacR (CDS) in pSB1C3
-- SrpR (CDS) in pSB1C3
-- pAmeR (promoter) in pSB1C3
-- pAmtR (promoter) in pSB1C3
-- pBM3R1 (promoter) in pSB1C3
-- pBetI (promoter) in pSB1C3
-- pIcaRA (promoter) in pSB1C3
-- pLitR (promoter) in pSB1C3
-- pPhlF (promoter) in pSB1C3
-- pPsrA (promoter) in pSB1C3
-- pQacR (promoter) in pSB1C3
-- pSrpR (promoter) in pSB1C3
+- D1001 (designed_sequence) in pSB1C5
+- D1002 (designed_sequence) in pSB1C5
+- D1005 (designed_sequence) in pSB1C5
+- D1006 (designed_sequence) in pSB1C5
+- ButR (CDS) in pSB1C5
+- HapR (CDS) in pSB1C5
+- HlyllR (CDS) in pSB1C5
+- McbR (CDS) in pSB1C5
+- Orf2 (CDS) in pSB1C5
+- ScbR (CDS) in pSB1C5
+- SmcR (CDS) in pSB1C5
+- TarA (CDS) in pSB1C5
+- pButR (promoter) in pSB1C5
+- pHapR (promoter) in pSB1C5
+- pHlyllR (promoter) in pSB1C5
+- pMcbR (promoter) in pSB1C5
+- pOrf2 (promoter) in pSB1C5
+- pScbR (promoter) in pSB1C5
+- pSmcR (promoter) in pSB1C5
+- pTarA (promoter) in pSB1C5
+- AmtR (CDS) in pSB1C5
+- AmeR (CDS) in pSB1C5
+- BM3R1 (CDS) in pSB1C5
+- BetI (CDS) in pSB1C5
+- IcaRA (CDS) in pSB1C5
+- LitR (CDS) in pSB1C5
+- LmrA (CDS) in pSB1C5
+- PhlF (CDS) in pSB1C5
+- PsrA (CDS) in pSB1C5
+- QacR (CDS) in pSB1C5
+- SrpR (CDS) in pSB1C5
+- pAmeR (promoter) in pSB1C5
+- pAmtR (promoter) in pSB1C5
+- pBM3R1 (promoter) in pSB1C5
+- pBetI (promoter) in pSB1C5
+- pIcaRA (promoter) in pSB1C5
+- pLitR (promoter) in pSB1C5
+- pPhlF (promoter) in pSB1C5
+- pPsrA (promoter) in pSB1C5
+- pQacR (promoter) in pSB1C5
+- pSrpR (promoter) in pSB1C5
 
 _Note: automatically generated from package Excel and sequence files; do not edit_

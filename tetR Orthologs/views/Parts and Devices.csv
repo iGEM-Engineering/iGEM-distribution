@@ -1,5 +1,5 @@
-Collection Name,,,Blue = Do not change; Green = free text,,,,,,,,,
-Authors,,,,,,,,,,,,
+Collection Name,tetR Orthologs,,Blue = Do not change; Green = free text,,,,,,,,,
+Authors,Traci Haddock,,,,,,,,,,,
 ,,,,,,,,,,,,
 Collection Description,,,,,,,,,,,,
 ,,,,,,,,,,,,
@@ -31,7 +31,7 @@ HapR,CDS,not in SynBioHub; sequence pulled from supplemental info from original 
 HlyllR,CDS,not in SynBioHub; sequence pulled from supplemental info from original paper,,,Local Sequence File,,Bacillus cereus,Escherichia coli,False,False,636,ATGAAATACATCCTGTTTGAGGTGTGCGAAATGGGTAAAAGCCGTGAACAGACCATGGAAAATATTCTGAAAGCAGCCAAAAAGAAATTCGGCGAACGTGGTTATGAAGGCACCAGCATTCAAGAAATTGCCAAAGAAGCCAAAGTTAACGTTGCAATGGCCAGCTATTACTTTAATGGCAAAGAGAACCTGTACTACGAGGTGTTCAAAAAATACGGTCTGGCAAATGAACTGCCGAACTTTCTGGAAAAAAACCAGTTTAATCCGATTAATGCCCTGCGTGAATATCTGACCGTTTTTACCACCCACATTAAAGAAAATCCGGAAATTGGCACCCTGGCCTATGAAGAAATTATCAAAGAAAGCGCACGCCTGGAAAAAATCAAACCGTATTTTATCGGCAGCTTCGAACAGCTGAAAGAAATTCTGCAAGAGGGTGAAAAACAGGGTGTGTTTCACTTTTTTAGCATCAACCATACCATCCATTGGATTACCAGCATTGTTCTGTTTCCGAAATTCAAAAAATTCATCGATAGCCTGGGTCCGAATGAAACCAATGATACCAATCATGAATGGATGCCGGAAGATCTGGTTAGCCGTATTATTAGCGCACTGACCGATAAACCGAACATTTAA
 AmeR,CDS,,,,SynBioHub,https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/AmeR/1,Agrobacterium tumefaciens,Escherichia coli,False,False,0,
 BM3R1,CDS,,,,SynBioHub,https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/BM3R1/1,Bacillus megaterium,Escherichia coli,False,False,0,
-pSB1C3,plasmid,,,,iGEM registry,pSB1C3,,,False,False,0,
+pSB1C5,plasmid_vector,,,,Local Sequence File,pSB1C5,,Escherichia coli,False,True,0,
 pQacR,promoter,,,,SynBioHub,https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/pQacR/1,Staphylococcus aureus,Escherichia coli,False,False,0,
 pAmtR,promoter, ,,,SynBioHub,https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/pAmtR/1,Corynebacterium glutamicum,Escherichia coli,False,False,0,
 pSrpR,promoter,,,,SynBioHub,https://synbiohub.programmingbiology.org/public/Eco1C1G1T1/pSrpR/1,Pseudomonas putida,Escherichia coli,False,False,0,
@@ -50,3 +50,11 @@ pOrf2,promoter,not in SynBioHub; sequence pulled from the AddGene entry for the 
 pHapR,promoter,not in SynBioHub; sequence pulled from the AddGene entry for the original plasmid,,,AddGene,http://www.addgene.org/49360/sequences/,Vibrio cholerae,Escherichia coli,False,False,47,ttcgttaccaattgacagctagctcTTATTGATTTTTAATCAAATAA
 pHlyllR,promoter,not in SynBioHub; sequence pulled from the AddGene entry for the original plasmid,,,AddGene,http://www.addgene.org/49361/sequences/,Bacillus cereus,Escherichia coli,False,False,46,ttcgttaccaattgacATATTTAAAATTCTTGTTTAAAatgctagc
 pSmcR,promoter,not in SynBioHub; sequence pulled from the AddGene entry for the original plasmid,,,AddGene,http://www.addgene.org/49371/sequences/ ,Vibrio vulnificus,Escherichia coli,False,False,46,ttcgttaccaattgacaTTATTGATAAATCTGCGTAAAATgctagc
+D1005,designed_sequence,Includes BsaI and fusion site,,L0 CDS 5' Flanking Region,iGEM registry,D1005,Synthetic,Escherichia coli,False,False,0,
+D1006,designed_sequence,Includes BsaI and fusion site,,L0 CDS 3' Flanking Region,iGEM registry,D1006,Synthetic,Escherichia coli,False,False,0,
+D1001,designed_sequence,Includes BsaI and fusion site,,L0 Promoter 5' Flanking Region,iGEM registry,D1001,Synthetic,Escherichia coli,False,False,0,
+D1002,designed_sequence,Includes BsaI and fusion site,,L0 Promoter 3' Flanking Region,iGEM registry,D1002,Synthetic,Escherichia coli,False,False,0,
+,,,,,,,,,False,False,0,
+,,,,,,,,,False,False,0,
+,,,,,,,,,False,False,0,
+,,,,,,,,,False,False,0,

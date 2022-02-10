@@ -1,16 +1,16 @@
-LOCUS       39312                   4107 bp ds-DNA     circular     24-SEP-2021
-DEFINITION  .
+LOCUS       dSpCas9                 4107 bp ds-DNA     circular     24-SEP-2021
+DEFINITION  Addgene accession : 39318
 SOURCE      synthetic DNA construct                                            
   ORGANISM  synthetic DNA construct                                            
 FEATURES             Location/Qualifiers
      CDS             1..4107
-                     /label="Cas9"
-                     /ApEinfo_revcolor=#9eafd2
-                     /ApEinfo_fwdcolor=#9eafd2
-     exon            1..4107
+                     /label="dCas9"
+                     /ApEinfo_revcolor=#c6c9d1
+                     /ApEinfo_fwdcolor=#c6c9d1
+     CDS             1..4107
                      /label="Translation 1-4107"
 ORIGIN
-        1 atggataaga aatactcaat aggcttagat atcggcacaa atagcgtcgg atgggcggtg
+        1 atggataaga aatactcaat aggcttagct atcggcacaa atagcgtcgg atgggcggtg
        61 atcactgatg aatataaggt tccgtctaaa aagttcaagg ttctgggaaa tacagaccgc
       121 cacagtatca aaaaaaatct tataggggct cttttatttg acagtggaga gacagcggaa
       181 gcgactcgtc tcaaacggac agctcgtaga aggtatacac gtcggaagaa tcgtatttgt
@@ -51,7 +51,7 @@ ORIGIN
      2281 attgaaatgg cacgtgaaaa tcagacaact caaaagggcc agaaaaattc gcgagagcgt
      2341 atgaaacgaa tcgaagaagg tatcaaagaa ttaggaagtc agattcttaa agagcatcct
      2401 gttgaaaata ctcaattgca aaatgaaaag ctctatctct attatctcca aaatggaaga
-     2461 gacatgtatg tggaccaaga attagatatt aatcgtttaa gtgattatga tgtcgatcac
+     2461 gacatgtatg tggaccaaga attagatatt aatcgtttaa gtgattatga tgtcgatgcc
      2521 attgttccac aaagtttcct taaagacgat tcaatagaca ataaggtctt aacgcgttct
      2581 gataaaaatc gtggtaaatc ggataacgtt ccaagtgaag aagtagtcaa aaagatgaaa
      2641 aactattgga gacaacttct aaacgccaag ttaatcactc aacgtaagtt tgataattta
