@@ -10,13 +10,16 @@ Their associated guide RNA scaffold sequences as well as the position of the spa
 
 ### Summary:
 
-- 25 parts
+- 27 parts
     - CDS: 25
+    - designed_sequence: 2
 - 1 vectors
-- 23 samples for distribution _<span style="color:red">2 parts not included</span>_
+- 25 samples for distribution
 
 ### Parts:
 
+- D1005 (designed_sequence) in pSB1C5
+- D1006 (designed_sequence) in pSB1C5
 - K2558003 (CDS) in pSB1C5
 - ABE8_20_m (CDS) in pSB1C5
 - ABE8e_TadA_8e_V106W (CDS) in pSB1C5
@@ -27,8 +30,8 @@ Their associated guide RNA scaffold sequences as well as the position of the spa
 - AcrIIA4_mammalian (CDS) in pSB1C5
 - BE4max (CDS) in pSB1C5
 - CP1028_ABE8e (CDS) in pSB1C5
-- Cas9n_D10A (CDS) _<span style="color:red">not included in distribution</span>_
-- Cas9n_H840A (CDS) _<span style="color:red">not included in distribution</span>_
+- Cas9n_D10A (CDS) in pSB1C5
+- Cas9n_H840A (CDS) in pSB1C5
 - His_TwinStrep_SUMO_LwCas13a (CDS) in pSB1C5
 - LbCpf1_or_LbCas12a (CDS) in pSB1C5
 - LwCas13a (CDS) in pSB1C5
