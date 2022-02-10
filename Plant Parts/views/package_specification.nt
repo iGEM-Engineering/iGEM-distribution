@@ -145,7 +145,6 @@
 <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/CompositeParts> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/CompositeParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_CDSs_ins> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/CompositeParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters_ins> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/CompositeParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_ins> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/CompositeParts> <http://sbols.org/v3#name> "Plant Parts" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/CompositeParts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Collection> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/FinalProducts> <http://sbols.org/v3#description> "Final products desired for actual fabrication" .
@@ -153,7 +152,6 @@
 <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/FinalProducts> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/FinalProducts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_CDSs> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/FinalProducts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/FinalProducts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/FinalProducts> <http://sbols.org/v3#name> "Final Products" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/FinalProducts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Collection> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/GFP> <http://sbols.org/v3#description> "Codon-optimized for plants" .
@@ -175,7 +173,6 @@
 <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/LinearDNAProducts> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/LinearDNAProducts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_CDSs_ins> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/LinearDNAProducts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters_ins> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/LinearDNAProducts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_ins> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/LinearDNAProducts> <http://sbols.org/v3#name> "Linear DNA Products" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/LinearDNAProducts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Collection> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/MAS_pro> <http://sbols.org/v3#description> "MAS (Mannopine synthase) is a plant specific promoter which is constitutively expressed. This part is compatible with the GoldenGate MoClo Assembly Standard as it is free from internal BsaI and BpiI recognition sequences." .
@@ -380,89 +377,6 @@
 <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters_template> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters_template> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_promoters_template> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators/VariableFeature1> <http://sbols.org/v3#cardinality> <http://sbols.org/v3#one> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators/VariableFeature1> <http://sbols.org/v3#displayId> "VariableFeature1" .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators/VariableFeature1> <http://sbols.org/v3#variable> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_template/LocalSubComponent1> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators/VariableFeature1> <http://sbols.org/v3#variantDerivation> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_ins> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators/VariableFeature1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#VariableFeature> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators> <http://sbols.org/v3#displayId> "Plant_terminators" .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators> <http://sbols.org/v3#hasVariableFeature> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators/VariableFeature1> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators> <http://sbols.org/v3#name> "Plant terminators" .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators> <http://sbols.org/v3#template> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_template> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#CombinatorialDerivation> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_ins/VariableFeature1> <http://sbols.org/v3#cardinality> <http://sbols.org/v3#one> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_ins/VariableFeature1> <http://sbols.org/v3#displayId> "VariableFeature1" .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_ins/VariableFeature1> <http://sbols.org/v3#variable> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_ins_template/LocalSubComponent1> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_ins/VariableFeature1> <http://sbols.org/v3#variant> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/OCS> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_ins/VariableFeature1> <http://sbols.org/v3#variant> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/T35S> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_ins/VariableFeature1> <http://sbols.org/v3#variant> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Tnos> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_ins/VariableFeature1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#VariableFeature> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_ins> <http://sbols.org/v3#description> "" .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_ins> <http://sbols.org/v3#displayId> "Plant_terminators_ins" .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_ins> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_ins> <http://sbols.org/v3#hasVariableFeature> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_ins/VariableFeature1> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_ins> <http://sbols.org/v3#name> "Plant terminators insert" .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_ins> <http://sbols.org/v3#strategy> <http://sbols.org/v3#enumerate> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_ins> <http://sbols.org/v3#template> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_ins_template> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_ins> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#CombinatorialDerivation> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_ins_template/Constraint1> <http://sbols.org/v3#displayId> "Constraint1" .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_ins_template/Constraint1> <http://sbols.org/v3#object> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_ins_template/LocalSubComponent1> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_ins_template/Constraint1> <http://sbols.org/v3#restriction> <http://sbols.org/v3#meets> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_ins_template/Constraint1> <http://sbols.org/v3#subject> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_ins_template/SubComponent1> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_ins_template/Constraint1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Constraint> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_ins_template/Constraint2> <http://sbols.org/v3#displayId> "Constraint2" .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_ins_template/Constraint2> <http://sbols.org/v3#object> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_ins_template/SubComponent2> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_ins_template/Constraint2> <http://sbols.org/v3#restriction> <http://sbols.org/v3#meets> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_ins_template/Constraint2> <http://sbols.org/v3#subject> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_ins_template/LocalSubComponent1> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_ins_template/Constraint2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Constraint> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_ins_template/LocalSubComponent1> <http://sbols.org/v3#displayId> "LocalSubComponent1" .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_ins_template/LocalSubComponent1> <http://sbols.org/v3#name> "Part 2" .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_ins_template/LocalSubComponent1> <http://sbols.org/v3#orientation> <http://sbols.org/v3#inline> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_ins_template/LocalSubComponent1> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_ins_template/LocalSubComponent1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#LocalSubComponent> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_ins_template/SubComponent1> <http://sbols.org/v3#displayId> "SubComponent1" .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_ins_template/SubComponent1> <http://sbols.org/v3#instanceOf> <http://parts.igem.org/D1007> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_ins_template/SubComponent1> <http://sbols.org/v3#orientation> <http://sbols.org/v3#inline> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_ins_template/SubComponent1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#SubComponent> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_ins_template/SubComponent2> <http://sbols.org/v3#displayId> "SubComponent2" .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_ins_template/SubComponent2> <http://sbols.org/v3#instanceOf> <http://parts.igem.org/D1008> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_ins_template/SubComponent2> <http://sbols.org/v3#orientation> <http://sbols.org/v3#inline> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_ins_template/SubComponent2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#SubComponent> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_ins_template> <http://sbols.org/v3#displayId> "Plant_terminators_ins_template" .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_ins_template> <http://sbols.org/v3#hasConstraint> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_ins_template/Constraint1> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_ins_template> <http://sbols.org/v3#hasConstraint> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_ins_template/Constraint2> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_ins_template> <http://sbols.org/v3#hasFeature> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_ins_template/LocalSubComponent1> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_ins_template> <http://sbols.org/v3#hasFeature> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_ins_template/SubComponent1> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_ins_template> <http://sbols.org/v3#hasFeature> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_ins_template/SubComponent2> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_ins_template> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_ins_template> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_ins_template> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_template/Constraint1> <http://sbols.org/v3#displayId> "Constraint1" .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_template/Constraint1> <http://sbols.org/v3#object> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_template/SubComponent1> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_template/Constraint1> <http://sbols.org/v3#restriction> <http://sbols.org/v3#meets> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_template/Constraint1> <http://sbols.org/v3#subject> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_template/LocalSubComponent1> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_template/Constraint1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Constraint> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_template/Constraint2> <http://sbols.org/v3#displayId> "Constraint2" .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_template/Constraint2> <http://sbols.org/v3#object> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_template/LocalSubComponent1> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_template/Constraint2> <http://sbols.org/v3#restriction> <http://sbols.org/v3#meets> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_template/Constraint2> <http://sbols.org/v3#subject> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_template/SubComponent1> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_template/Constraint2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Constraint> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_template/LocalSubComponent1> <http://sbols.org/v3#displayId> "LocalSubComponent1" .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_template/LocalSubComponent1> <http://sbols.org/v3#name> "Inserted Construct" .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_template/LocalSubComponent1> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_template/LocalSubComponent1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#LocalSubComponent> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_template/SubComponent1> <http://sbols.org/v3#displayId> "SubComponent1" .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_template/SubComponent1> <http://sbols.org/v3#instanceOf> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/pSB1C5> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_template/SubComponent1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#SubComponent> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_template> <http://sbols.org/v3#displayId> "Plant_terminators_template" .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_template> <http://sbols.org/v3#hasConstraint> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_template/Constraint1> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_template> <http://sbols.org/v3#hasConstraint> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_template/Constraint2> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_template> <http://sbols.org/v3#hasFeature> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_template/LocalSubComponent1> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_template> <http://sbols.org/v3#hasFeature> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_template/SubComponent1> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_template> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_template> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Plant_terminators_template> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Pnos> <http://sbols.org/v3#description> "promoter of nopaline synthase, from A. tumefaciens" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Pnos> <http://sbols.org/v3#displayId> "Pnos" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/Pnos> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts> .
