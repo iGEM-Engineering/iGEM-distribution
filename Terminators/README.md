@@ -4,7 +4,8 @@ None
 
 ### Summary:
 
-- 7 parts
+- 9 parts
+    - designed_sequence: 2
     - stop_codon: 1
     - terminator: 6
 - 1 vectors
@@ -15,6 +16,8 @@ None
 - B0010: BBa_B0010 (terminator) in pSB1C3
 - B0012: BBa_B0012 (terminator) in pSB1C3
 - B0015: BBa_B0015 (terminator) in pSB1C3
+- D1007 (designed_sequence) in pSB1C3
+- D1008 (designed_sequence) in pSB1C3
 - BBa_B1006_T_U10 (terminator) in pSB1C3
 - STOP_MC (stop_codon) in pSB1C3
 - rnpB_T1 (terminator) in pSB1C3
