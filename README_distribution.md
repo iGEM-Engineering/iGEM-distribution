@@ -1,6 +1,6 @@
 # Distribution Summary
 
-- 347 samples planned for distribution
+- 346 samples planned for distribution
 
 ### Parts:
 
@@ -106,7 +106,6 @@
 - Anderson_Promoters_in_vector_Anderson_Promoters_in_vector_ins_BBa_J23109
 - Anderson_Promoters_in_vector_Anderson_Promoters_in_vector_ins_BBa_J23110
 - Anderson_Promoters_in_vector_Anderson_Promoters_in_vector_ins_BBa_J23111
-- Anderson_Promoters_in_vector_Anderson_Promoters_in_vector_ins_BBa_J23112
 - Anderson_Promoters_in_vector_Anderson_Promoters_in_vector_ins_BBa_J23113
 - Anderson_Promoters_in_vector_Anderson_Promoters_in_vector_ins_BBa_J23114
 - Anderson_Promoters_in_vector_Anderson_Promoters_in_vector_ins_BBa_J23115
