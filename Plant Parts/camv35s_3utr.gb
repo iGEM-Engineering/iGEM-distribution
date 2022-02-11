@@ -1,0 +1,19 @@
+LOCUS       CaMV35S_3UTR             204 bp ds-DNA     linear       10-FEB-2022
+DEFINITION  .
+SOURCE      natural DNA sequence                                               
+  ORGANISM  unspecified                                                        
+FEATURES             Location/Qualifiers
+     terminator      1..204
+                     /label="35S 3UTR"
+                     /ApEinfo_revcolor=#f8d3a9
+                     /ApEinfo_fwdcolor=#f8d3a9
+     source          1..204
+                     /label="source"
+                     /ApEinfo_revcolor=#faac61
+                     /ApEinfo_fwdcolor=#faac61
+ORIGIN
+        1 ctctagctag agtcgatcga caagctcgag tttctccata ataatgtgtg agtagttccc
+       61 agataaggga attagggttc ctatagggtt tcgctcatgt gttgagcata taagaaaccc
+      121 ttagtatgta tttgtatttg taaaatactt ctatcaataa aatttctaat tcctaaaacc
+      181 aaaatccagt actaaaatcc agat
+//

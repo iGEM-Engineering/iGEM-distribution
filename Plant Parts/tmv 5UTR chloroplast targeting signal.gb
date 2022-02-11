@@ -1,0 +1,24 @@
+LOCUS       TMV_chloroplast_transit         262 bp    DNA     linear   UNA 10-FEB-2022
+DEFINITION  .
+KEYWORDS    .
+SOURCE      
+  ORGANISM  .
+FEATURES             Location/Qualifiers
+     5'UTR           <1..83
+                     /vntifkey=52
+                     /modified_by="René"
+                     /label="TMV 5UTR"
+     transit_peptide 84..260
+                     /vntifkey=95
+                     /modified_by="René"
+                     /label="chloroplast targeting signal"
+     misc_feature    261..>262
+                     /vntifkey=21
+                     /label="6xHis"
+ORIGIN      
+        1 gtataagagc tcatttttac aacaattacc aacaacaaca aacaacaaac aacattacaa
+       61 ttacatttac aattatcgat aacatggctt cttctatgct ttcttctgct gctgttgttg
+      121 ctactcgtgc tagtgctgct caagctagta tggttgctcc ttttactgga cttaagtctg
+      181 ctgcttcttt tcctgttact agaaagcaaa acaaccttga tattacttct attgctagta
+      241 acggaggaag agttcgagca gg
+//

@@ -1,6 +1,6 @@
 # Distribution Summary
 
-- 326 samples planned for distribution
+- 327 samples planned for distribution
 
 ### Parts:
 
@@ -114,46 +114,29 @@
 - Anderson_Promoters_in_vector_BBa_J23117
 - Anderson_Promoters_in_vector_BBa_J23118
 - Anderson_Promoters_in_vector_BBa_J23119
-- Anti_CRISPR_Anti_CRISPR_ins_AcrIIA2_bacterial
-- Anti_CRISPR_Anti_CRISPR_ins_AcrIIA2_mammalian
-- Anti_CRISPR_Anti_CRISPR_ins_AcrIIA4_bacterial
-- Anti_CRISPR_Anti_CRISPR_ins_AcrIIA4_mammalian
-- Cas_variants_Cas_variants_ins_ABE8_20_m
-- Cas_variants_Cas_variants_ins_ABE8e_TadA_8e_V106W
-- Cas_variants_Cas_variants_ins_ABEmax
-- Cas_variants_Cas_variants_ins_BE4max
-- Cas_variants_Cas_variants_ins_CP1028_ABE8e
-- Cas_variants_Cas_variants_ins_His_TwinStrep_SUMO_LwCas13a
-- Cas_variants_Cas_variants_ins_K2558003
-- Cas_variants_Cas_variants_ins_LbCpf1_or_LbCas12a
-- Cas_variants_Cas_variants_ins_LwCas13a
-- Cas_variants_Cas_variants_ins_PE2
-- Cas_variants_Cas_variants_ins_SaABE8e_TadA_8e_V106W
-- Cas_variants_Cas_variants_ins_SpCas9
-- Cas_variants_Cas_variants_ins_dLbCpf1_or_dLbCas12a
-- Cas_variants_Cas_variants_ins_dSpCas9
-- Cas_variants_Cas_variants_ins_dhLwCas13a
-- Cas_variants_Cas_variants_ins_dhSpCas9
-- Cas_variants_Cas_variants_ins_hLwCas13a
-- Cas_variants_Cas_variants_ins_hSaCas9
-- Cas_variants_Cas_variants_ins_hSpCas9
-- Nickases_Nickases_ins_Cas9n_D10A
-- Nickases_Nickases_ins_Cas9n_H840A
-- K081008
-- K081016
-- K1529300
-- K1529310
-- K1529797
-- K193000
-- K395100
-- K553003
-- K934012
-- K934022
-- K934025
-- Ptet_RhlR
-- Ptet_RhlR_LVA
-- S03119
-- variant_of_K1529300
+- Anti_CRISPR_AcrIIA2_bacterial
+- Anti_CRISPR_AcrIIA2_mammalian
+- Anti_CRISPR_AcrIIA4_bacterial
+- Anti_CRISPR_AcrIIA4_mammalian
+- Cas_variants_ABE8_20_m
+- Cas_variants_ABE8e_TadA_8e_V106W
+- Cas_variants_ABEmax
+- Cas_variants_BE4max
+- Cas_variants_CP1028_ABE8e
+- Cas_variants_His_TwinStrep_SUMO_LwCas13a
+- Cas_variants_K2323010
+- Cas_variants_K2558003
+- Cas_variants_LbCpf1_or_LbCas12a
+- Cas_variants_PE2
+- Cas_variants_SaABE8e_TadA_8e_V106W
+- Cas_variants_SpCas9
+- Cas_variants_dLbCpf1_or_dLbCas12a
+- Cas_variants_dSpCas9
+- Cas_variants_dhLwCas13a
+- Cas_variants_dhSpCas9
+- Cas_variants_hLwCas13a
+- Cas_variants_hSaCas9
+- Cas_variants_hSpCas9
 - Chromoproteins_in_vector_Chromoproteins_in_vector_ins_BBa_K1033902
 - Chromoproteins_in_vector_Chromoproteins_in_vector_ins_BBa_K1033906
 - Chromoproteins_in_vector_Chromoproteins_in_vector_ins_BBa_K1033910
@@ -206,6 +189,28 @@
 - Sc_pGAL1
 - Sc_tADH1
 - oriT
+- Plant_CDSs_Plant_CDSs_ins_Bar
+- Plant_CDSs_Plant_CDSs_ins_GFP
+- Plant_CDSs_Plant_CDSs_ins_NPTII
+- Plant_CDSs_Plant_CDSs_ins_RUBY
+- Plant_CDSs_Plant_CDSs_ins_hph
+- Plant_CDSs_Plant_CDSs_ins_mCherry
+- Plant_fiveUTRs_Plant_fiveUTRs_ins_AtRbcS2B_UTR
+- Plant_fiveUTRs_Plant_fiveUTRs_ins_CMV1_UTR
+- Plant_fiveUTRs_Plant_fiveUTRs_ins_TMV
+- Plant_fiveUTRs_Plant_fiveUTRs_ins_TMV_SV40
+- Plant_fiveUTRs_Plant_fiveUTRs_ins_TMV_chloroplast_transit
+- Plant_promoters_Plant_promoters_ins_AtRbcS2B_proUTR
+- Plant_promoters_Plant_promoters_ins_AtU6
+- Plant_promoters_Plant_promoters_ins_BS3_proUTR
+- Plant_promoters_Plant_promoters_ins_CaMV35S
+- Plant_promoters_Plant_promoters_ins_LHB1B2_promoter
+- Plant_promoters_Plant_promoters_ins_MAS_pro
+- Plant_promoters_Plant_promoters_ins_PDF1_2_pro
+- Plant_promoters_Plant_promoters_ins_Pnos
+- Plant_threeUTRs_Plant_threeUTRs_ins_CaMV35S_3UTR
+- Plant_threeUTRs_Plant_threeUTRs_ins_OCS
+- Plant_threeUTRs_Plant_threeUTRs_ins_Tnos
 - BHETase_library_K3039005
 - BHETase_library_K3039006
 - PETase_library_BBa_K2010999
@@ -289,9 +294,6 @@
 - _2018_Interlab_Devices_J364007
 - _2018_Interlab_Devices_J364008
 - _2018_Interlab_Devices_J364009
-- K1460004_c
-- K1758105
-- K1758313
 - Promoters_Promoters_ins_pAmeR
 - Promoters_Promoters_ins_pAmtR
 - Promoters_Promoters_ins_pBM3R1
@@ -329,6 +331,5 @@
 - TetR_Orthologs_TetR_Orthologs_ins_SmcR
 - TetR_Orthologs_TetR_Orthologs_ins_SrpR
 - TetR_Orthologs_TetR_Orthologs_ins_TarA
-- BBa_K1460004
 
 _Note: automatically generated from distribution SBOL file; do not edit_
