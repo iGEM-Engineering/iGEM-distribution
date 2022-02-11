@@ -22,7 +22,7 @@ pSB1C5,plasmid_vector,,,,Local Sequence File,pSB1C5,,Escherichia coli,False,Fals
 D1007,designed_sequence,Includes BsaI and fusion site,,L0 Terminator 5' Flanking Region,iGEM registry,D1007,Synthetic,Escherichia coli,False,False,0,
 D1008,designed_sequence,Includes BsaI and fusion site,,L0 Terminator 3' Flanking Region,iGEM registry,D1008,Synthetic,Escherichia coli,False,False,0,
 STOP_MC,stop_codon,To make the stop codon when placed after CDS_TT_OH,,,,,,,False,False,2,AA
-,,,,,,,,,False,False,0,
+BBa_B1006,terminator,"Terminator (artificial, large, %T~>90)",,,iGEM registry,B1006,Synthetic,Escherichia coli,False,False,0,
 ,,,,,,,,,False,False,0,
 ,,,,,,,,,False,False,0,
 ,,,,,,,,,False,False,0,

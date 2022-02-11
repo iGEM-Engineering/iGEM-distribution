@@ -4,12 +4,12 @@ None
 
 ### Summary:
 
-- 9 parts
+- 10 parts
     - designed_sequence: 2
     - stop_codon: 1
-    - terminator: 6
+    - terminator: 7
 - 1 vectors
-- 6 samples for distribution
+- 7 samples for distribution
 
 ### Parts:
 
@@ -22,5 +22,6 @@ None
 - BBa_B0010 (terminator) in pSB1C5
 - BBa_B0012 (terminator) in pSB1C5
 - BBa_B0015 (terminator) in pSB1C5
+- BBa_B1006 (terminator) in pSB1C5
 
 _Note: automatically generated from package Excel and sequence files; do not edit_
