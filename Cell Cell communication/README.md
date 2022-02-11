@@ -4,19 +4,17 @@
 
 ### Summary:
 
-- 23 parts _<span style="color:red">1 missing sequences</span>_
-    - CDS: 7
+- 23 parts
+    - CDS: 8
     - engineered_region: 3
     - promoter: 8
     - ribosome_entry_site: 2
     - terminator: 2
-    -  _<span style="color:red">unspecified role: 1</span>_
 - 1 vectors
 - 15 samples for distribution
 
 ### Parts:
 
-- C00171 in pSB1C3 _<span style="color:red">missing sequence, ensure file name matches Data Source ID from Excel File</span>_
 - BBa_B0015 (terminator) in pSB1C3
 - BBa_B0030 (ribosome_entry_site) in pSB1C3
 - BBa_B0034 (ribosome_entry_site) in pSB1C3
@@ -26,6 +24,7 @@
 - BBa_C0070: rhII (CDS) in pSB1C3
 - BBa_C0071: rhlR (CDS) in pSB1C3
 - BBa_C0078: lasI (CDS) in pSB1C3
+- BBa_C0171: rhIR (CDS) in pSB1C3
 - BBa_C0179: lasR (CDS) in pSB1C3
 - BBa_E0040: GFP (CDS) in pSB1C3
 - BBa_J23100 (promoter) in pSB1C3
