@@ -1,6 +1,6 @@
 # Distribution Summary
 
-- 348 samples planned for distribution
+- 347 samples planned for distribution
 
 ### Parts:
 
@@ -139,21 +139,19 @@
 - Cas_variants_Cas_variants_ins_hSpCas9
 - Nickases_Nickases_ins_Cas9n_D10A
 - Nickases_Nickases_ins_Cas9n_H840A
-- K081008
-- K081016
-- K1529300
-- K1529310
-- K1529797
-- K193000
-- K395100
-- K553003
-- K934012
-- K934022
-- K934025
-- Ptet_RhlR
-- Ptet_RhlR_LVA
-- S03119
-- variant_of_K1529300
+- Cell_Comm_CDS_Cell_Comm_CDS_ins_BBa_C0061
+- Cell_Comm_CDS_Cell_Comm_CDS_ins_BBa_C0062
+- Cell_Comm_CDS_Cell_Comm_CDS_ins_BBa_C0070
+- Cell_Comm_CDS_Cell_Comm_CDS_ins_BBa_C0071
+- Cell_Comm_CDS_Cell_Comm_CDS_ins_BBa_C0078
+- Cell_Comm_CDS_Cell_Comm_CDS_ins_BBa_C0171
+- Cell_Comm_CDS_Cell_Comm_CDS_ins_BBa_C0179
+- Cell_Comm_Promoters_Cell_Comm_Promoters_ins_BBa_K1529300
+- Cell_Comm_Promoters_Cell_Comm_Promoters_ins_BBa_K1529310
+- Cell_Comm_Promoters_Cell_Comm_Promoters_ins_BBa_K649000
+- Cell_Comm_Promoters_Cell_Comm_Promoters_ins_BBa_K934024
+- Cell_Comm_Promoters_Cell_Comm_Promoters_ins_BBa_R0051
+- Cell_Comm_Promoters_Cell_Comm_Promoters_ins_BBa_R0062
 - Chromoproteins_in_vector_Chromoproteins_in_vector_ins_BBa_K1033902
 - Chromoproteins_in_vector_Chromoproteins_in_vector_ins_BBa_K1033906
 - Chromoproteins_in_vector_Chromoproteins_in_vector_ins_BBa_K1033910
@@ -300,6 +298,7 @@
 - Terminators_in_vector_Terminators_in_vector_ins_BBa_B0010
 - Terminators_in_vector_Terminators_in_vector_ins_BBa_B0012
 - Terminators_in_vector_Terminators_in_vector_ins_BBa_B0015
+- Terminators_in_vector_Terminators_in_vector_ins_BBa_B1006
 - Terminators_in_vector_Terminators_in_vector_ins_BBa_B1006_T_U10
 - Terminators_in_vector_Terminators_in_vector_ins_rnpB_T1
 - Terminators_in_vector_Terminators_in_vector_ins_rpoC_T
