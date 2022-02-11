@@ -1,0 +1,16 @@
+LOCUS       AtRbcS2B_5UTR             56 bp ds-DNA     linear       10-FEB-2022
+DEFINITION  .
+SOURCE      natural DNA sequence                                               
+  ORGANISM  unspecified                                                        
+FEATURES             Location/Qualifiers
+     source          1..56
+                     /label="source"
+                     /ApEinfo_revcolor=#85dae9
+                     /ApEinfo_fwdcolor=#85dae9
+     misc_feature    1..56
+                     /label="nonstandard type: 5'_UTR"
+                     /ApEinfo_revcolor=#f8d3a9
+                     /ApEinfo_fwdcolor=#f8d3a9
+ORIGIN
+        1 acaaacaagt aagtaagaga aaaaccaaaa gaagaagaga aacaacaaga agaagt
+//

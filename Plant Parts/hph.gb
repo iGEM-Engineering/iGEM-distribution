@@ -1,0 +1,31 @@
+LOCUS       hph                      960 bp ds-DNA     linear       07-FEB-2022
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     gene            1..960
+                     /label="hph"
+                     /ApEinfo_revcolor=#ffef86
+                     /ApEinfo_fwdcolor=#ffef86
+     CDS             1..960
+                     /label="hph"
+                     /ApEinfo_revcolor=#ff9ccd
+                     /ApEinfo_fwdcolor=#ff9ccd
+     exon            1..960
+                     /label="Translation 1-960"
+ORIGIN
+        1 tccgacctga tgcagctctc ggagggcgaa gaatctcgtg ctttcagctt cgatgtagga
+       61 gggcgtggat atgtcctgcg ggtaaatagc tgcgccgatg gtttctacaa agatcgttat
+      121 gtttatcggc actttgcatc ggccgcgctc ccgattccgg aagtgcttga cattggggag
+      181 ttcagcgaga gcctgaccta ttgcatctcc cgccgtgcac agggtgtcac gttgcaagac
+      241 ctgcctgaaa ccgaactgcc cgctgttctg gagccggtcg cggaggccat ggatgcgatt
+      301 gctgcggccg atcttagcca gacgagcggg ttcggcccat tcggaccgca aggaatcggt
+      361 caatacacta catggcgtga tttcatatgc gcgattgctg atccccatgt gtatcactgg
+      421 caaactgtga tggacgacac cgtcagtgcg tccgtcgcgc aggctctcga tgagctgatg
+      481 ctttgggccg aggactgccc cgaagtccgg cacctcgtgc acgcggattt cggctccaac
+      541 aatgtcctga cggacaatgg ccgcataaca gcggtcattg actggagcga ggcgatgttc
+      601 ggggattccc aatacgaggt cgccaacatc ttcttctgga ggccgtggtt ggcttgtatg
+      661 gagcagcaga cgcgctactt cgagcggagg catccggagc ttgcaggatc gccgcgcctc
+      721 cgggcgtata tgctccgcat tggtcttgac caactctatc agagcttggt tgacggcaat
+      781 ttcgatgatg cagcttgggc gcagggtcga tgcgacgcaa tcgtccgatc cggagccggg
+      841 actgtcgggc gtacacaaat cgcccgcaga agcgcggccg tctggaccga tggctgtgta
+      901 gaagtactcg ccgatagtgg aaaccgacgc cccagcactc gtccgagggc aaaggaatag
+//

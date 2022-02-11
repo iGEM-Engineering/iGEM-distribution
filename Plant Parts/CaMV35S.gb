@@ -1,0 +1,27 @@
+LOCUS       CaMV35S                  430 bp ds-DNA     linear       10-FEB-2022
+DEFINITION  .
+SOURCE      natural DNA sequence                                               
+  ORGANISM  unspecified                                                        
+FEATURES             Location/Qualifiers
+     source          1..430
+                     /label="Source"
+                     /ApEinfo_revcolor=#faac61
+                     /ApEinfo_fwdcolor=#faac61
+     promoter        1..430
+                     /label="CaMV 35S"
+                     /ApEinfo_revcolor=#f58a5e
+                     /ApEinfo_fwdcolor=#f58a5e
+     misc_feature    424..430
+                     /label="nonstandard type: 5'_UTR"
+                     /ApEinfo_revcolor=#f58a5e
+                     /ApEinfo_fwdcolor=#f58a5e
+ORIGIN
+        1 ggaggtcaac atggtggagc acgacactct ggtctactcc aaaaatgtca aagatacagt
+       61 ctcagaagat caaagggcta ttgagacttt tcaacaaagg ataatttcgg gaaacctcct
+      121 cggattccat tgcccagcta tctgtcactt catcgaaagg acagtagaaa aggaaggtgg
+      181 ctcctacaaa tgccatcatt gcgataaagg aaaggctatc attcaagatc tctctgccga
+      241 cagtggtccc aaagatggac ccccacccac gaggagcatc gtggaaaaag aagaggttcc
+      301 aaccacgtct acaaagcaag tggattgatg tgacatctcc actgacgtaa gggatgacgc
+      361 acaatcccac tatccttcgc aagacccttc ctctatataa ggaagttcat ttcatttgga
+      421 gaggacacgc
+//
