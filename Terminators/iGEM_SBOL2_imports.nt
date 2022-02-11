@@ -283,6 +283,127 @@
 <https://synbiohub.org/public/igem/BBa_B0015_sequence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Sequence> .
 <https://synbiohub.org/public/igem/BBa_B0015_sequence> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://parts.igem.org/Part:BBa_B0015> .
 <https://synbiohub.org/public/igem/BBa_B0015_sequence> <http://www.w3.org/ns/prov#wasGeneratedBy> <https://synbiohub.org/public/igem/igem2sbol> .
+<https://synbiohub.org/public/igem/BBa_B1006/annotation1898428/range1898428> <http://sbols.org/v3#displayId> "range1898428" .
+<https://synbiohub.org/public/igem/BBa_B1006/annotation1898428/range1898428> <http://sbols.org/v3#end> "39" .
+<https://synbiohub.org/public/igem/BBa_B1006/annotation1898428/range1898428> <http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/BBa_B1006_sequence> .
+<https://synbiohub.org/public/igem/BBa_B1006/annotation1898428/range1898428> <http://sbols.org/v3#orientation> <http://sbols.org/v3#inline> .
+<https://synbiohub.org/public/igem/BBa_B1006/annotation1898428/range1898428> <http://sbols.org/v3#start> "1" .
+<https://synbiohub.org/public/igem/BBa_B1006/annotation1898428/range1898428> <http://sboltools.org/backport#sbol2version> "1" .
+<https://synbiohub.org/public/igem/BBa_B1006/annotation1898428/range1898428> <http://wiki.synbiohub.org/wiki/Terms/igem#direction> <http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward> .
+<https://synbiohub.org/public/igem/BBa_B1006/annotation1898428/range1898428> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/BBa_B1006> .
+<https://synbiohub.org/public/igem/BBa_B1006/annotation1898428/range1898428> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Range> .
+<https://synbiohub.org/public/igem/BBa_B1006/annotation1898428> <http://purl.org/dc/terms/title> "B1006" .
+<https://synbiohub.org/public/igem/BBa_B1006/annotation1898428> <http://sbols.org/v3#displayId> "annotation1898428" .
+<https://synbiohub.org/public/igem/BBa_B1006/annotation1898428> <http://sbols.org/v3#hasLocation> <https://synbiohub.org/public/igem/BBa_B1006/annotation1898428/range1898428> .
+<https://synbiohub.org/public/igem/BBa_B1006/annotation1898428> <http://sbols.org/v3#name> "B1006" .
+<https://synbiohub.org/public/igem/BBa_B1006/annotation1898428> <http://sbols.org/v3#role> <http://identifiers.org/so/SO:0000804> .
+<https://synbiohub.org/public/igem/BBa_B1006/annotation1898428> <http://sbols.org/v3#role> <http://wiki.synbiohub.org/wiki/Terms/igem#feature/BioBrick> .
+<https://synbiohub.org/public/igem/BBa_B1006/annotation1898428> <http://sboltools.org/backport#sbol2version> "1" .
+<https://synbiohub.org/public/igem/BBa_B1006/annotation1898428> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/BBa_B1006> .
+<https://synbiohub.org/public/igem/BBa_B1006/annotation1898428> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#SequenceFeature> .
+<https://synbiohub.org/public/igem/BBa_B1006/annotation1898429/range1898429> <http://sbols.org/v3#displayId> "range1898429" .
+<https://synbiohub.org/public/igem/BBa_B1006/annotation1898429/range1898429> <http://sbols.org/v3#end> "31" .
+<https://synbiohub.org/public/igem/BBa_B1006/annotation1898429/range1898429> <http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/BBa_B1006_sequence> .
+<https://synbiohub.org/public/igem/BBa_B1006/annotation1898429/range1898429> <http://sbols.org/v3#orientation> <http://sbols.org/v3#inline> .
+<https://synbiohub.org/public/igem/BBa_B1006/annotation1898429/range1898429> <http://sbols.org/v3#start> "10" .
+<https://synbiohub.org/public/igem/BBa_B1006/annotation1898429/range1898429> <http://sboltools.org/backport#sbol2version> "1" .
+<https://synbiohub.org/public/igem/BBa_B1006/annotation1898429/range1898429> <http://wiki.synbiohub.org/wiki/Terms/igem#direction> <http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward> .
+<https://synbiohub.org/public/igem/BBa_B1006/annotation1898429/range1898429> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/BBa_B1006> .
+<https://synbiohub.org/public/igem/BBa_B1006/annotation1898429/range1898429> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Range> .
+<https://synbiohub.org/public/igem/BBa_B1006/annotation1898429> <http://purl.org/dc/terms/title> "modified thr terminator" .
+<https://synbiohub.org/public/igem/BBa_B1006/annotation1898429> <http://sbols.org/v3#displayId> "annotation1898429" .
+<https://synbiohub.org/public/igem/BBa_B1006/annotation1898429> <http://sbols.org/v3#hasLocation> <https://synbiohub.org/public/igem/BBa_B1006/annotation1898429/range1898429> .
+<https://synbiohub.org/public/igem/BBa_B1006/annotation1898429> <http://sbols.org/v3#name> "modified thr terminator" .
+<https://synbiohub.org/public/igem/BBa_B1006/annotation1898429> <http://sbols.org/v3#role> <http://identifiers.org/so/SO:0000313> .
+<https://synbiohub.org/public/igem/BBa_B1006/annotation1898429> <http://sbols.org/v3#role> <http://wiki.synbiohub.org/wiki/Terms/igem#feature/stem_loop> .
+<https://synbiohub.org/public/igem/BBa_B1006/annotation1898429> <http://sboltools.org/backport#sbol2version> "1" .
+<https://synbiohub.org/public/igem/BBa_B1006/annotation1898429> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/BBa_B1006> .
+<https://synbiohub.org/public/igem/BBa_B1006/annotation1898429> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#SequenceFeature> .
+<https://synbiohub.org/public/igem/BBa_B1006/annotation1898430/range1898430> <http://sbols.org/v3#displayId> "range1898430" .
+<https://synbiohub.org/public/igem/BBa_B1006/annotation1898430/range1898430> <http://sbols.org/v3#end> "39" .
+<https://synbiohub.org/public/igem/BBa_B1006/annotation1898430/range1898430> <http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/BBa_B1006_sequence> .
+<https://synbiohub.org/public/igem/BBa_B1006/annotation1898430/range1898430> <http://sbols.org/v3#orientation> <http://sbols.org/v3#inline> .
+<https://synbiohub.org/public/igem/BBa_B1006/annotation1898430/range1898430> <http://sbols.org/v3#start> "32" .
+<https://synbiohub.org/public/igem/BBa_B1006/annotation1898430/range1898430> <http://sboltools.org/backport#sbol2version> "1" .
+<https://synbiohub.org/public/igem/BBa_B1006/annotation1898430/range1898430> <http://wiki.synbiohub.org/wiki/Terms/igem#direction> <http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward> .
+<https://synbiohub.org/public/igem/BBa_B1006/annotation1898430/range1898430> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/BBa_B1006> .
+<https://synbiohub.org/public/igem/BBa_B1006/annotation1898430/range1898430> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Range> .
+<https://synbiohub.org/public/igem/BBa_B1006/annotation1898430> <http://purl.org/dc/terms/title> "PolyA" .
+<https://synbiohub.org/public/igem/BBa_B1006/annotation1898430> <http://sbols.org/v3#displayId> "annotation1898430" .
+<https://synbiohub.org/public/igem/BBa_B1006/annotation1898430> <http://sbols.org/v3#hasLocation> <https://synbiohub.org/public/igem/BBa_B1006/annotation1898430/range1898430> .
+<https://synbiohub.org/public/igem/BBa_B1006/annotation1898430> <http://sbols.org/v3#name> "PolyA" .
+<https://synbiohub.org/public/igem/BBa_B1006/annotation1898430> <http://sbols.org/v3#role> <http://identifiers.org/so/SO:0000553> .
+<https://synbiohub.org/public/igem/BBa_B1006/annotation1898430> <http://sbols.org/v3#role> <http://wiki.synbiohub.org/wiki/Terms/igem#feature/polya> .
+<https://synbiohub.org/public/igem/BBa_B1006/annotation1898430> <http://sboltools.org/backport#sbol2version> "1" .
+<https://synbiohub.org/public/igem/BBa_B1006/annotation1898430> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/BBa_B1006> .
+<https://synbiohub.org/public/igem/BBa_B1006/annotation1898430> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#SequenceFeature> .
+<https://synbiohub.org/public/igem/BBa_B1006/annotation1898431/range1898431> <http://sbols.org/v3#displayId> "range1898431" .
+<https://synbiohub.org/public/igem/BBa_B1006/annotation1898431/range1898431> <http://sbols.org/v3#end> "9" .
+<https://synbiohub.org/public/igem/BBa_B1006/annotation1898431/range1898431> <http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/BBa_B1006_sequence> .
+<https://synbiohub.org/public/igem/BBa_B1006/annotation1898431/range1898431> <http://sbols.org/v3#orientation> <http://sbols.org/v3#inline> .
+<https://synbiohub.org/public/igem/BBa_B1006/annotation1898431/range1898431> <http://sbols.org/v3#start> "1" .
+<https://synbiohub.org/public/igem/BBa_B1006/annotation1898431/range1898431> <http://sboltools.org/backport#sbol2version> "1" .
+<https://synbiohub.org/public/igem/BBa_B1006/annotation1898431/range1898431> <http://wiki.synbiohub.org/wiki/Terms/igem#direction> <http://wiki.synbiohub.org/wiki/Terms/igem#direction/reverse> .
+<https://synbiohub.org/public/igem/BBa_B1006/annotation1898431/range1898431> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/BBa_B1006> .
+<https://synbiohub.org/public/igem/BBa_B1006/annotation1898431/range1898431> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Range> .
+<https://synbiohub.org/public/igem/BBa_B1006/annotation1898431> <http://purl.org/dc/terms/title> "PolyA" .
+<https://synbiohub.org/public/igem/BBa_B1006/annotation1898431> <http://sbols.org/v3#displayId> "annotation1898431" .
+<https://synbiohub.org/public/igem/BBa_B1006/annotation1898431> <http://sbols.org/v3#hasLocation> <https://synbiohub.org/public/igem/BBa_B1006/annotation1898431/range1898431> .
+<https://synbiohub.org/public/igem/BBa_B1006/annotation1898431> <http://sbols.org/v3#name> "PolyA" .
+<https://synbiohub.org/public/igem/BBa_B1006/annotation1898431> <http://sbols.org/v3#role> <http://identifiers.org/so/SO:0000553> .
+<https://synbiohub.org/public/igem/BBa_B1006/annotation1898431> <http://sbols.org/v3#role> <http://wiki.synbiohub.org/wiki/Terms/igem#feature/polya> .
+<https://synbiohub.org/public/igem/BBa_B1006/annotation1898431> <http://sboltools.org/backport#sbol2version> "1" .
+<https://synbiohub.org/public/igem/BBa_B1006/annotation1898431> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/BBa_B1006> .
+<https://synbiohub.org/public/igem/BBa_B1006/annotation1898431> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#SequenceFeature> .
+<https://synbiohub.org/public/igem/BBa_B1006> <http://purl.org/dc/elements/1.1/creator> "Haiyao Huang" .
+<https://synbiohub.org/public/igem/BBa_B1006> <http://purl.org/dc/terms/created> "2006-08-30T11:00:00Z" .
+<https://synbiohub.org/public/igem/BBa_B1006> <http://purl.org/dc/terms/modified> "2015-08-31T04:07:21Z" .
+<https://synbiohub.org/public/igem/BBa_B1006> <http://sbols.org/v3#description> "Terminator (artificial, large, %T~>90)" .
+<https://synbiohub.org/public/igem/BBa_B1006> <http://sbols.org/v3#displayId> "BBa_B1006" .
+<https://synbiohub.org/public/igem/BBa_B1006> <http://sbols.org/v3#hasFeature> <https://synbiohub.org/public/igem/BBa_B1006/annotation1898428> .
+<https://synbiohub.org/public/igem/BBa_B1006> <http://sbols.org/v3#hasFeature> <https://synbiohub.org/public/igem/BBa_B1006/annotation1898429> .
+<https://synbiohub.org/public/igem/BBa_B1006> <http://sbols.org/v3#hasFeature> <https://synbiohub.org/public/igem/BBa_B1006/annotation1898430> .
+<https://synbiohub.org/public/igem/BBa_B1006> <http://sbols.org/v3#hasFeature> <https://synbiohub.org/public/igem/BBa_B1006/annotation1898431> .
+<https://synbiohub.org/public/igem/BBa_B1006> <http://sbols.org/v3#hasNamespace> <https://synbiohub.org> .
+<https://synbiohub.org/public/igem/BBa_B1006> <http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/BBa_B1006_sequence> .
+<https://synbiohub.org/public/igem/BBa_B1006> <http://sbols.org/v3#name> "BBa_B1006" .
+<https://synbiohub.org/public/igem/BBa_B1006> <http://sbols.org/v3#role> <http://identifiers.org/so/SO:0000141> .
+<https://synbiohub.org/public/igem/BBa_B1006> <http://sbols.org/v3#role> <http://wiki.synbiohub.org/wiki/Terms/igem#partType/Terminator> .
+<https://synbiohub.org/public/igem/BBa_B1006> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://synbiohub.org/public/igem/BBa_B1006> <http://sboltools.org/backport#sbol2type> <http://sbols.org/v2#ComponentDefinition> .
+<https://synbiohub.org/public/igem/BBa_B1006> <http://sboltools.org/backport#sbol2version> "1" .
+<https://synbiohub.org/public/igem/BBa_B1006> <http://wiki.synbiohub.org/wiki/Terms/igem#discontinued> "false" .
+<https://synbiohub.org/public/igem/BBa_B1006> <http://wiki.synbiohub.org/wiki/Terms/igem#dominant> "true" .
+<https://synbiohub.org/public/igem/BBa_B1006> <http://wiki.synbiohub.org/wiki/Terms/igem#experience> <http://wiki.synbiohub.org/wiki/Terms/igem#experience/Works> .
+<https://synbiohub.org/public/igem/BBa_B1006> <http://wiki.synbiohub.org/wiki/Terms/igem#group_u_list> "_41_" .
+<https://synbiohub.org/public/igem/BBa_B1006> <http://wiki.synbiohub.org/wiki/Terms/igem#m_user_id> "0" .
+<https://synbiohub.org/public/igem/BBa_B1006> <http://wiki.synbiohub.org/wiki/Terms/igem#owner_id> "745" .
+<https://synbiohub.org/public/igem/BBa_B1006> <http://wiki.synbiohub.org/wiki/Terms/igem#owning_group_id> "41" .
+<https://synbiohub.org/public/igem/BBa_B1006> <http://wiki.synbiohub.org/wiki/Terms/igem#partStatus> "Released HQ 2013" .
+<https://synbiohub.org/public/igem/BBa_B1006> <http://wiki.synbiohub.org/wiki/Terms/igem#sampleStatus> "In stock" .
+<https://synbiohub.org/public/igem/BBa_B1006> <http://wiki.synbiohub.org/wiki/Terms/igem#status> <http://wiki.synbiohub.org/wiki/Terms/igem#status/Available> .
+<https://synbiohub.org/public/igem/BBa_B1006> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#bookmark> "false" .
+<https://synbiohub.org/public/igem/BBa_B1006> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#mutableDescription> "Artificial terminator, estimated %T~>90%\n*8bp stem, 6nt loop\n*Bidirectional, estimated reverse %T~>90%" .
+<https://synbiohub.org/public/igem/BBa_B1006> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#mutableNotes> "Bidirectional, with the reverse estimated to be less effective than the forward. Has a polyA tail of 9 residues." .
+<https://synbiohub.org/public/igem/BBa_B1006> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#mutableProvenance> "modified E. coli thr terminator, replaced all A-T pairs in stem with C-G pairs" .
+<https://synbiohub.org/public/igem/BBa_B1006> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy> <https://synbiohub.org/user/james> .
+<https://synbiohub.org/public/igem/BBa_B1006> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy> <https://synbiohub.org/user/myers> .
+<https://synbiohub.org/public/igem/BBa_B1006> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#star> "true" .
+<https://synbiohub.org/public/igem/BBa_B1006> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/BBa_B1006> .
+<https://synbiohub.org/public/igem/BBa_B1006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://synbiohub.org/public/igem/BBa_B1006> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://parts.igem.org/Part:BBa_B1006> .
+<https://synbiohub.org/public/igem/BBa_B1006> <http://www.w3.org/ns/prov#wasGeneratedBy> <https://synbiohub.org/public/igem/igem2sbol> .
+<https://synbiohub.org/public/igem/BBa_B1006_sequence> <http://sbols.org/v3#displayId> "BBa_B1006_sequence" .
+<https://synbiohub.org/public/igem/BBa_B1006_sequence> <http://sbols.org/v3#elements> "aaaaaaaaaccccgcccctgacagggcggggtttttttt" .
+<https://synbiohub.org/public/igem/BBa_B1006_sequence> <http://sbols.org/v3#encoding> <https://identifiers.org/edam:format_1207> .
+<https://synbiohub.org/public/igem/BBa_B1006_sequence> <http://sbols.org/v3#hasNamespace> <https://synbiohub.org> .
+<https://synbiohub.org/public/igem/BBa_B1006_sequence> <http://sboltools.org/backport#sbol2version> "1" .
+<https://synbiohub.org/public/igem/BBa_B1006_sequence> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy> <https://synbiohub.org/user/james> .
+<https://synbiohub.org/public/igem/BBa_B1006_sequence> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy> <https://synbiohub.org/user/myers> .
+<https://synbiohub.org/public/igem/BBa_B1006_sequence> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/BBa_B1006_sequence> .
+<https://synbiohub.org/public/igem/BBa_B1006_sequence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Sequence> .
+<https://synbiohub.org/public/igem/BBa_B1006_sequence> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://parts.igem.org/Part:BBa_B1006> .
+<https://synbiohub.org/public/igem/BBa_B1006_sequence> <http://www.w3.org/ns/prov#wasGeneratedBy> <https://synbiohub.org/public/igem/igem2sbol> .
 <https://synbiohub.org/public/igem/igem2sbol> <http://purl.org/dc/elements/1.1/creator> "Chris J. Myers" .
 <https://synbiohub.org/public/igem/igem2sbol> <http://purl.org/dc/elements/1.1/creator> "James Alastair McLaughlin" .
 <https://synbiohub.org/public/igem/igem2sbol> <http://purl.org/dc/terms/description> "Conversion of the iGEM parts registry to SBOL2.1" .
