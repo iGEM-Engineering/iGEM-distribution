@@ -4,12 +4,12 @@
 
 ### Summary:
 
-- 17 parts
+- 18 parts
     - CDS: 7
     - designed_sequence: 4
-    - promoter: 6
+    - promoter: 7
 - 1 vectors _<span style="color:red">1 missing sequences: pSB1C5</span>_
-- 13 samples for distribution
+- 14 samples for distribution
 
 ### Parts:
 
@@ -17,6 +17,7 @@
 - D1002 (designed_sequence) in pSB1C5
 - D1005 (designed_sequence) in pSB1C5
 - D1006 (designed_sequence) in pSB1C5
+- Prhl_NM (promoter) in pSB1C5
 - BBa_C0061: luxI (CDS) in pSB1C5
 - BBa_C0062: luxr (CDS) in pSB1C5
 - BBa_C0070: rhII (CDS) in pSB1C5
