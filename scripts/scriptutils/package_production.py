@@ -1,3 +1,4 @@
+from __future__ import annotations
 import itertools
 import logging
 import os
@@ -17,7 +18,7 @@ from .part_retrieval import package_parts_inventory
 from .directories import EXPORT_DIRECTORY, SBOL_EXPORT_NAME, SBOL_PACKAGE_NAME, DISTRIBUTION_NAME, \
     DISTRIBUTION_GENBANK, DISTRIBUTION_FASTA
 from .package_specification import package_stem, DISTRIBUTION_NAMESPACE
-from .helpers import vector_to_insert
+from .helpers import vector_to_insert, sanitize_identifiers_for_synthesis
 
 BUILD_PRODUCTS_COLLECTION = 'BuildProducts'
 
@@ -243,15 +244,16 @@ def extract_synthesis_files(root: str, doc: sbol3.Document) -> sbol3.Document:
         c.copy(build_doc)
         c.sequences[0].lookup().copy(build_doc)
         n_genbank_constructs += 1
-        sub_c_queue = c.features[::-1]  # add in reverse since we will be popping them off back to front
+        sub_c_queue = c.features[::-1]  # add in reverse, we pop them off back to front
         # copy over tree of subcomponents and their sequences too
         while len(sub_c_queue):
             sub_c = sub_c_queue.pop()
-            if isinstance(sub_c, sbol3.SubComponent) and sub_c.instance_of.lookup() not in components_copied:
+            if isinstance(sub_c, sbol3.SubComponent) and \
+                    sub_c.instance_of.lookup() not in components_copied:
                 sub = sub_c.instance_of.lookup()
                 components_copied.add(sub)
                 # TODO: consider filtering before adding
-                sub_c_queue += sub.features[::-1]  # add in reverse since we will be popping them off back to front
+                sub_c_queue += sub.features[::-1]  # add in reverse, we pop them off back to front
                 # if subcomponent is missing sequence, warn and skip
                 if len(sub.sequences) != 1:
                     print(sequence_number_warning.format(sub.identity, len(sub.sequences)))
@@ -272,22 +274,27 @@ def extract_synthesis_files(root: str, doc: sbol3.Document) -> sbol3.Document:
     convert_to_genbank(build_doc, gb_path)
     print(f'Wrote GenBank export file with {n_genbank_constructs} constructs: {gb_path}')
 
-    # for Twist Synthesis FASTA exports, we need to put the identity of the build product on the sequence of the insert
-    # descriptions must be blank, as they will otherwise be munged together with the display_id
+    # for Twist Synthesis FASTA exports, we need to put the just a short, sanitized identity of the
+    # build product on the sequence of the insert, while descriptions must be blank, as they will
+    # otherwise be munged together with the display_id
+    synthesis_ids = sanitize_identifiers_for_synthesis(inserts.keys())
     n_fasta_constructs = 0
     fasta_path = os.path.join(root, DISTRIBUTION_FASTA)
     with open(fasta_path, 'w') as out:
         for vector, insert in inserts.items():
             # Find all sequences of nucleic acid type
-            na_seqs = [s.lookup() for s in insert.sequences if s.lookup().encoding == sbol3.IUPAC_DNA_ENCODING]
+            na_seqs = [s.lookup() for s in insert.sequences
+                       if s.lookup().encoding == sbol3.IUPAC_DNA_ENCODING]
             if len(na_seqs) == 0:  # ignore components with no sequence to serialize
-                print(f'Part cannot be synthesized because sequence is missing: {insert.identity}')
-            elif len(na_seqs) == 1:  # if there is precisely one sequence, write it to the FASTA w. a blank description
-                record = SeqIO.SeqRecord(Seq(na_seqs[0].elements), id=vector.display_id, description='')
+                print(f'Part cannot be synthesized, sequence is missing: {insert.identity}')
+            # if there is precisely one sequence, write it to the FASTA w. a blank description
+            elif len(na_seqs) == 1:
+                record = SeqIO.SeqRecord(Seq(na_seqs[0].elements), id=synthesis_ids[vector],
+                                         description='')
                 out.write(record.format('fasta'))
                 n_fasta_constructs += 1
             else:  # warn about components with ambiguous sequences
-                print(f'Part cannot be synthesized because it has multiple sequences: {insert.identity}')
+                print(f'Part cannot be synthesized, it has multiple sequences: {insert.identity}')
     print(f'Wrote FASTA synthesis file with {n_fasta_constructs} constructs: {fasta_path}')
 
     return build_doc
