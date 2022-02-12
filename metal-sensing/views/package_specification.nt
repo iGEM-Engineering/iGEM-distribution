@@ -76,9 +76,6 @@
 <https://github.com/iGEM-Engineering/iGEM-distribution/metal-sensing/FinalProducts> <http://sbols.org/v3#displayId> "FinalProducts" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/metal-sensing/FinalProducts> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/metal-sensing> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/metal-sensing/FinalProducts> <http://sbols.org/v3#member> <http://parts.igem.org/K1460004> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/metal-sensing/FinalProducts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/metal-sensing/K1460004_c> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/metal-sensing/FinalProducts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/metal-sensing/K1758105> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/metal-sensing/FinalProducts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/metal-sensing/K1758313> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/metal-sensing/FinalProducts> <http://sbols.org/v3#name> "Final Products" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/metal-sensing/FinalProducts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Collection> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/metal-sensing/K1460004_c/Constraint1> <http://sbols.org/v3#displayId> "Constraint1" .
@@ -240,8 +237,5 @@
 <https://github.com/iGEM-Engineering/iGEM-distribution/metal-sensing/LinearDNAProducts> <http://sbols.org/v3#displayId> "LinearDNAProducts" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/metal-sensing/LinearDNAProducts> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/metal-sensing> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/metal-sensing/LinearDNAProducts> <http://sbols.org/v3#member> <http://parts.igem.org/K1460004> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/metal-sensing/LinearDNAProducts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/metal-sensing/K1460004_c_ins> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/metal-sensing/LinearDNAProducts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/metal-sensing/K1758105_ins> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/metal-sensing/LinearDNAProducts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/metal-sensing/K1758313_ins> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/metal-sensing/LinearDNAProducts> <http://sbols.org/v3#name> "Linear DNA Products" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/metal-sensing/LinearDNAProducts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Collection> .
