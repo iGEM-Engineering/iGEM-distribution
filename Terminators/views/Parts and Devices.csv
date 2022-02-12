@@ -23,8 +23,8 @@ D1007,designed_sequence,Includes BsaI and fusion site,,L0 Terminator 5' Flanking
 D1008,designed_sequence,Includes BsaI and fusion site,,L0 Terminator 3' Flanking Region,iGEM registry,D1008,Synthetic,Escherichia coli,False,False,0,
 STOP_MC,stop_codon,To make the stop codon when placed after CDS_TT_OH,,,,,,,False,False,2,AA
 BBa_B1006,terminator,"Terminator (artificial, large, %T~>90)",,,iGEM registry,B1006,Synthetic,Escherichia coli,False,False,0,
-,,,,,,,,,False,False,0,
-,,,,,,,,,False,False,0,
+D2001,designed_sequence,Extra nonsense bases for synthesis,,,iGEM registry,D2001,Synthetic,,False,False,0,
+D2002,designed_sequence,Extra nonsense bases for synthesis,,,iGEM registry,D2002,Synthetic,,False,False,0,
 ,,,,,,,,,False,False,0,
 ,,,,,,,,,False,False,0,
 ,,,,,,,,,False,False,0,
