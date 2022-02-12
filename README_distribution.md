@@ -1,6 +1,6 @@
 # Distribution Summary
 
-- 328 samples planned for distribution
+- 346 samples planned for distribution
 
 ### Parts:
 
@@ -138,21 +138,19 @@
 - Cas_variants_Cas_variants_ins_hSpCas9
 - Nickases_Nickases_ins_Cas9n_D10A
 - Nickases_Nickases_ins_Cas9n_H840A
-- K081008
-- K081016
-- K1529300
-- K1529310
-- K1529797
-- K193000
-- K395100
-- K553003
-- K934012
-- K934022
-- K934025
-- Ptet_RhlR
-- Ptet_RhlR_LVA
-- S03119
-- variant_of_K1529300
+- Cell_Comm_CDS_Cell_Comm_CDS_ins_BBa_C0061
+- Cell_Comm_CDS_Cell_Comm_CDS_ins_BBa_C0062
+- Cell_Comm_CDS_Cell_Comm_CDS_ins_BBa_C0070
+- Cell_Comm_CDS_Cell_Comm_CDS_ins_BBa_C0071
+- Cell_Comm_CDS_Cell_Comm_CDS_ins_BBa_C0078
+- Cell_Comm_CDS_Cell_Comm_CDS_ins_BBa_C0171
+- Cell_Comm_CDS_Cell_Comm_CDS_ins_BBa_C0179
+- Cell_Comm_Promoters_Cell_Comm_Promoters_ins_BBa_K1529300
+- Cell_Comm_Promoters_Cell_Comm_Promoters_ins_BBa_K1529310
+- Cell_Comm_Promoters_Cell_Comm_Promoters_ins_BBa_K649000
+- Cell_Comm_Promoters_Cell_Comm_Promoters_ins_BBa_K934024
+- Cell_Comm_Promoters_Cell_Comm_Promoters_ins_BBa_R0051
+- Cell_Comm_Promoters_Cell_Comm_Promoters_ins_BBa_R0062
 - Chromoproteins_in_vector_Chromoproteins_in_vector_ins_BBa_K1033902
 - Chromoproteins_in_vector_Chromoproteins_in_vector_ins_BBa_K1033906
 - Chromoproteins_in_vector_Chromoproteins_in_vector_ins_BBa_K1033910
@@ -239,7 +237,26 @@
 - PETase_library_PETase_library_ins_PETase_EcCO_WT
 - PETase_library_PETase_library_ins_PETase_W159H_S238F
 - PETase_wildtype
-- RBSs_in_vector
+- RBSs_in_vector_BBa_B0030
+- RBSs_in_vector_BBa_B0031
+- RBSs_in_vector_BBa_B0032
+- RBSs_in_vector_BBa_B0033
+- RBSs_in_vector_BBa_B0034
+- RBSs_in_vector_BBa_J15001
+- RBSs_in_vector_BBa_J176012
+- RBSs_in_vector_BBa_J61100
+- RBSs_in_vector_BBa_J61101
+- RBSs_in_vector_BBa_K1045010
+- RBSs_in_vector_BBa_K1362090
+- RBSs_in_vector_BBa_K143021
+- RBSs_in_vector_BBa_K165002
+- RBSs_in_vector_BBa_K2066527
+- RBSs_in_vector_BBa_Z0261
+- RBSs_in_vector_BBa_Z0262
+- RBSs_in_vector_K2406216
+- RBSs_in_vector_K2656011
+- RBSs_in_vector_K2933024
+- RBSs_in_vector_K2963006
 - Coding_sequences_Coding_sequences_ins_AcuR_AM
 - Coding_sequences_Coding_sequences_ins_AraC
 - Coding_sequences_Coding_sequences_ins_AraC_AM_AraE
@@ -280,6 +297,7 @@
 - Terminators_in_vector_Terminators_in_vector_ins_BBa_B0010
 - Terminators_in_vector_Terminators_in_vector_ins_BBa_B0012
 - Terminators_in_vector_Terminators_in_vector_ins_BBa_B0015
+- Terminators_in_vector_Terminators_in_vector_ins_BBa_B1006
 - Terminators_in_vector_Terminators_in_vector_ins_BBa_B1006_T_U10
 - Terminators_in_vector_Terminators_in_vector_ins_rnpB_T1
 - Terminators_in_vector_Terminators_in_vector_ins_rpoC_T
