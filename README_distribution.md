@@ -1,6 +1,6 @@
 # Distribution Summary
 
-- 346 samples planned for distribution
+- 339 samples planned for distribution
 
 ### Parts:
 
@@ -151,6 +151,7 @@
 - Cell_Comm_Promoters_Cell_Comm_Promoters_ins_BBa_K934024
 - Cell_Comm_Promoters_Cell_Comm_Promoters_ins_BBa_R0051
 - Cell_Comm_Promoters_Cell_Comm_Promoters_ins_BBa_R0062
+- Cell_Comm_Promoters_Cell_Comm_Promoters_ins_Prhl_NM
 - Chromoproteins_in_vector_Chromoproteins_in_vector_ins_BBa_K1033902
 - Chromoproteins_in_vector_Chromoproteins_in_vector_ins_BBa_K1033906
 - Chromoproteins_in_vector_Chromoproteins_in_vector_ins_BBa_K1033910
@@ -237,26 +238,18 @@
 - PETase_library_PETase_library_ins_PETase_EcCO_WT
 - PETase_library_PETase_library_ins_PETase_W159H_S238F
 - PETase_wildtype
-- RBSs_in_vector_BBa_B0030
-- RBSs_in_vector_BBa_B0031
-- RBSs_in_vector_BBa_B0032
-- RBSs_in_vector_BBa_B0033
-- RBSs_in_vector_BBa_B0034
-- RBSs_in_vector_BBa_J15001
-- RBSs_in_vector_BBa_J176012
-- RBSs_in_vector_BBa_J61100
-- RBSs_in_vector_BBa_J61101
-- RBSs_in_vector_BBa_K1045010
-- RBSs_in_vector_BBa_K1362090
-- RBSs_in_vector_BBa_K143021
-- RBSs_in_vector_BBa_K165002
-- RBSs_in_vector_BBa_K2066527
-- RBSs_in_vector_BBa_Z0261
-- RBSs_in_vector_BBa_Z0262
-- RBSs_in_vector_K2406216
-- RBSs_in_vector_K2656011
-- RBSs_in_vector_K2933024
-- RBSs_in_vector_K2963006
+- RBSs_in_vector_RBSs_in_vector_ins_BBa_B0030_m0
+- RBSs_in_vector_RBSs_in_vector_ins_BBa_B0031_m0
+- RBSs_in_vector_RBSs_in_vector_ins_BBa_B0032_m0
+- RBSs_in_vector_RBSs_in_vector_ins_BBa_B0033_m0
+- RBSs_in_vector_RBSs_in_vector_ins_BBa_B0034_m0
+- RBSs_in_vector_RBSs_in_vector_ins_BBa_B0034_m1
+- RBSs_in_vector_RBSs_in_vector_ins_BBa_Z0262
+- RBSs_in_vector_RBSs_in_vector_ins_BCD1
+- RBSs_in_vector_RBSs_in_vector_ins_BCD12
+- RBSs_in_vector_RBSs_in_vector_ins_BCD13
+- RBSs_in_vector_RBSs_in_vector_ins_BCD8
+- RBSs_in_vector_RBSs_in_vector_ins_SpoVG
 - Coding_sequences_Coding_sequences_ins_AcuR_AM
 - Coding_sequences_Coding_sequences_ins_AraC
 - Coding_sequences_Coding_sequences_ins_AraC_AM_AraE
