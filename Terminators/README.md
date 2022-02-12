@@ -4,8 +4,8 @@ None
 
 ### Summary:
 
-- 10 parts
-    - designed_sequence: 2
+- 12 parts
+    - designed_sequence: 4
     - stop_codon: 1
     - terminator: 7
 - 1 vectors
@@ -15,6 +15,8 @@ None
 
 - D1007 (designed_sequence) in pSB1C5
 - D1008 (designed_sequence) in pSB1C5
+- D2001 (designed_sequence) in pSB1C5
+- D2002 (designed_sequence) in pSB1C5
 - BBa_B1006_T_U10 (terminator) in pSB1C5
 - STOP_MC (stop_codon) in pSB1C5
 - rnpB_T1 (terminator) in pSB1C5

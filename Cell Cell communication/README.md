@@ -8,7 +8,7 @@
     - CDS: 7
     - designed_sequence: 4
     - promoter: 7
-- 1 vectors _<span style="color:red">1 missing sequences: pSB1C5</span>_
+- 1 vectors
 - 14 samples for distribution
 
 ### Parts:

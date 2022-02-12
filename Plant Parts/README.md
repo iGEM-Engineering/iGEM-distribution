@@ -4,18 +4,18 @@ This collection contains useful parts (promoters, UTRs, CDSs, terminators) for p
 
 ### Summary:
 
-- 30 parts
+- 32 parts
     - 5_prime_UTR_elongation: 1
     - CDS: 5
     - biological_region: 3
-    - designed_sequence: 8
+    - designed_sequence: 10
     - eukaryotic_terminator: 1
     - five_prime_UTR: 1
     - promoter: 7
     - signal_peptide_region_of_CDS: 2
     - terminator: 2
 - 1 vectors
-- 22 samples for distribution
+- 22 samples for distribution _<span style="color:red">2 parts not included</span>_
 
 ### Parts:
 
@@ -27,6 +27,8 @@ This collection contains useful parts (promoters, UTRs, CDSs, terminators) for p
 - D1006 (designed_sequence) in pSB1C5
 - D1007 (designed_sequence) in pSB1C5
 - D1008 (designed_sequence) in pSB1C5
+- D2001 (designed_sequence) _<span style="color:red">not included in distribution</span>_
+- D2002 (designed_sequence) _<span style="color:red">not included in distribution</span>_
 - AtRbcS2B_5UTR (5_prime_UTR_elongation) in pSB1C5
 - AtRbcS2B_proUTR (biological_region) in pSB1C5
 - AtU6 (promoter) in pSB1C5

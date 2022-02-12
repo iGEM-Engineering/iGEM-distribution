@@ -4,9 +4,9 @@ None
 
 ### Summary:
 
-- 41 parts
+- 43 parts
     - CDS: 19
-    - designed_sequence: 4
+    - designed_sequence: 6
     - promoter: 18
 - 1 vectors
 - 37 samples for distribution
@@ -17,6 +17,8 @@ None
 - D1002 (designed_sequence) in pSB1C5
 - D1005 (designed_sequence) in pSB1C5
 - D1006 (designed_sequence) in pSB1C5
+- D2001 (designed_sequence) in pSB1C5
+- D2002 (designed_sequence) in pSB1C5
 - ButR (CDS) in pSB1C5
 - HapR (CDS) in pSB1C5
 - HlyllR (CDS) in pSB1C5

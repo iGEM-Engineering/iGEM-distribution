@@ -4,9 +4,9 @@ This package collects a few of the most common bacterial inducer parts and compo
 
 ### Summary:
 
-- 41 parts _<span style="color:red">1 missing sequences</span>_
+- 43 parts _<span style="color:red">1 missing sequences</span>_
     - CDS: 20
-    - designed_sequence: 4
+    - designed_sequence: 6
     - promoter: 17
 - 1 vectors
 - 37 samples for distribution
@@ -25,6 +25,8 @@ This package collects a few of the most common bacterial inducer parts and compo
 - D1002 (designed_sequence) in pSB1C5
 - D1005 (designed_sequence) in pSB1C5
 - D1006 (designed_sequence) in pSB1C5
+- D2001 (designed_sequence) in pSB1C5
+- D2002 (designed_sequence) in pSB1C5
 - AcuR_AM (CDS) in pSB1C5
 - AraC (CDS) in pSB1C5
 - AraC_AM_AraE (CDS) in pSB1C5
