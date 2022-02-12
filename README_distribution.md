@@ -1,13 +1,9 @@
 # Distribution Summary
 
-- 243 samples planned for distribution
+- 234 samples planned for distribution
 
 ### Parts:
 
-- _2A_parts_E2A
-- _2A_parts_F2A
-- _2A_parts_P2A
-- _2A_parts_T2A
 - Anderson_Promoters_in_vector_Anderson_Promoters_in_vector_ins_BBa_J23100
 - Anderson_Promoters_in_vector_Anderson_Promoters_in_vector_ins_BBa_J23101
 - Anderson_Promoters_in_vector_Anderson_Promoters_in_vector_ins_BBa_J23102
@@ -29,8 +25,6 @@
 - Anderson_Promoters_in_vector_Anderson_Promoters_in_vector_ins_BBa_J23119
 - Anti_CRISPR_Anti_CRISPR_ins_AcrIIA2_bacterial
 - Anti_CRISPR_Anti_CRISPR_ins_AcrIIA2_mammalian
-- Anti_CRISPR_Anti_CRISPR_ins_AcrIIA4_bacterial
-- Anti_CRISPR_Anti_CRISPR_ins_AcrIIA4_mammalian
 - Cas_variants_Cas_variants_ins_ABE8_20_m
 - Cas_variants_Cas_variants_ins_ABE8e_TadA_8e_V106W
 - Cas_variants_Cas_variants_ins_ABEmax
@@ -206,9 +200,6 @@
 - _2018_Interlab_Devices_J364007
 - _2018_Interlab_Devices_J364008
 - _2018_Interlab_Devices_J364009
-- K1460004_c
-- K1758105
-- K1758313
 - Promoters_Promoters_ins_pAmeR
 - Promoters_Promoters_ins_pAmtR
 - Promoters_Promoters_ins_pBM3R1
