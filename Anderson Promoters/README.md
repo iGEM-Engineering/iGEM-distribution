@@ -4,11 +4,11 @@ The Anderson Promoters are a well-established set of constitutive promoters at v
 
 ### Summary:
 
-- 24 parts
+- 23 parts
     - designed_sequence: 4
-    - promoter: 20
+    - promoter: 19
 - 1 vectors
-- 20 samples for distribution
+- 19 samples for distribution
 
 ### Parts:
 
@@ -28,7 +28,6 @@ The Anderson Promoters are a well-established set of constitutive promoters at v
 - BBa_J23109 (promoter) in pSB1C5
 - BBa_J23110 (promoter) in pSB1C5
 - BBa_J23111 (promoter) in pSB1C5
-- BBa_J23112 (promoter) in pSB1C5
 - BBa_J23113 (promoter) in pSB1C5
 - BBa_J23114 (promoter) in pSB1C5
 - BBa_J23115 (promoter) in pSB1C5
