@@ -1,6 +1,6 @@
 # Distribution Summary
 
-- 234 samples planned for distribution
+- 233 samples planned for distribution
 
 ### Parts:
 
@@ -114,16 +114,16 @@
 - Plant_fiveUTRs_Plant_fiveUTRs_ins_TMV_SV40
 - Plant_fiveUTRs_Plant_fiveUTRs_ins_TMV_chloroplast_transit
 - Plant_promoters_Plant_promoters_ins_AtRbcS2B_proUTR
-- Plant_promoters_Plant_promoters_ins_AtU6
 - Plant_promoters_Plant_promoters_ins_BS3_proUTR
 - Plant_promoters_Plant_promoters_ins_CaMV35S
 - Plant_promoters_Plant_promoters_ins_LHB1B2_promoter
 - Plant_promoters_Plant_promoters_ins_MAS_pro
 - Plant_promoters_Plant_promoters_ins_PDF1_2_pro
-- Plant_promoters_Plant_promoters_ins_Pnos
-- Plant_threeUTRs_Plant_threeUTRs_ins_CaMV35S_3UTR
-- Plant_threeUTRs_Plant_threeUTRs_ins_OCS
-- Plant_threeUTRs_Plant_threeUTRs_ins_Tnos
+- Plant_promoters_short_Plant_promoters_short_ins_AtU6
+- Plant_promoters_short_Plant_promoters_short_ins_Pnos
+- Plant_threeUTRs
+- Plant_threeUTRs_short_Plant_threeUTRs_short_ins_CaMV35S_3UTR
+- Plant_threeUTRs_short_Plant_threeUTRs_short_ins_Tnos
 - BHETase_library_BHETase_library_ins_K3039005
 - BHETase_library_BHETase_library_ins_K3039006
 - PETase_library_PETase_library_ins_BBa_K2010999
@@ -237,6 +237,5 @@
 - TetR_Orthologs_TetR_Orthologs_ins_SmcR
 - TetR_Orthologs_TetR_Orthologs_ins_SrpR
 - TetR_Orthologs_TetR_Orthologs_ins_TarA
-- BBa_K1460004
 
 _Note: automatically generated from distribution SBOL file; do not edit_
