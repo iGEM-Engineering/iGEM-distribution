@@ -4,7 +4,7 @@ This package collects a few of the most common bacterial inducer parts and compo
 
 ### Summary:
 
-- 43 parts _<span style="color:red">1 missing sequences</span>_
+- 43 parts
     - CDS: 20
     - designed_sequence: 6
     - promoter: 17
@@ -20,7 +20,6 @@ This package collects a few of the most common bacterial inducer parts and compo
 - BBa_K3317006 (promoter) in pSB1C5
 - BBa_K3317007 (promoter) in pSB1C5
 - BBa_K3424010 (promoter) in pSB1C5
-- BBa_R0011: pL-lac0-1 (promoter) in pSB1C5 _<span style="color:red">missing sequence, ensure file name matches Data Source ID from Excel File</span>_
 - D1001 (designed_sequence) in pSB1C5
 - D1002 (designed_sequence) in pSB1C5
 - D1005 (designed_sequence) in pSB1C5
@@ -46,6 +45,7 @@ This package collects a few of the most common bacterial inducer parts and compo
 - pBAD (promoter) in pSB1C5
 - pBetI (promoter) in pSB1C5
 - pCymRC (promoter) in pSB1C5
+- pL_lac0_1 (promoter) in pSB1C5
 - pLuxB (promoter) in pSB1C5
 - pMph (promoter) in pSB1C5
 - pTac (promoter) in pSB1C5
