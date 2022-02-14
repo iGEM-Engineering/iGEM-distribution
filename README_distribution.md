@@ -1,6 +1,6 @@
 # Distribution Summary
 
-- 233 samples planned for distribution
+- 234 samples planned for distribution
 
 ### Parts:
 
@@ -86,6 +86,7 @@
 - Fluorescent_Proteins_in_vector_Fluorescent_Proteins_in_vector_ins_GFPmut3
 - Fluorescent_Proteins_in_vector_Fluorescent_Proteins_in_vector_ins_KY484012
 - Fluorescent_Proteins_in_vector_Fluorescent_Proteins_in_vector_ins_mKate2
+- Fluorescent_Proteins_in_vector_Fluorescent_Proteins_in_vector_ins_mRFP1
 - Fluorescent_Proteins_in_vector_Fluorescent_Proteins_in_vector_ins_mScarlet
 - DC_B_DC_B_ins_BBa_J06504
 - DC_B_DC_B_ins_K2656022
@@ -175,12 +176,12 @@
 - Promoters_Promoters_ins_BBa_K3317007
 - Promoters_Promoters_ins_BBa_K3424010
 - Promoters_Promoters_ins_BBa_R0010
-- Promoters_Promoters_ins_BBa_R0011
 - Promoters_Promoters_ins_BBa_R0040
 - Promoters_Promoters_ins_pAcu
 - Promoters_Promoters_ins_pBAD
 - Promoters_Promoters_ins_pBetI
 - Promoters_Promoters_ins_pCymRC
+- Promoters_Promoters_ins_pL_lac0_1
 - Promoters_Promoters_ins_pLuxB
 - Promoters_Promoters_ins_pMph
 - Promoters_Promoters_ins_pTac

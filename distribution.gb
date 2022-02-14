@@ -1337,8 +1337,13 @@ SOURCE      .
   ORGANISM  .
             .
 FEATURES             Location/Qualifiers
+     stem_loop       392..449
+                     /label="his operon terminator"
+     misc_feature    644..1232
+                     /label="pMB1 replication origin"
+     misc_feature    complement(1530..2189)
+                     /label="chloramphenicol resistance marker"
      misc_feature    392..2418
-                     /label="pSB1C5"
      misc_feature    1..8
                      /label="D1005"
      misc_feature    381..391
@@ -1401,8 +1406,13 @@ SOURCE      .
   ORGANISM  .
             .
 FEATURES             Location/Qualifiers
+     stem_loop       449..506
+                     /label="his operon terminator"
+     misc_feature    701..1289
+                     /label="pMB1 replication origin"
+     misc_feature    complement(1587..2246)
+                     /label="chloramphenicol resistance marker"
      misc_feature    449..2475
-                     /label="pSB1C5"
      misc_feature    1..8
                      /label="D1005"
      misc_feature    438..448
@@ -1645,8 +1655,13 @@ SOURCE      .
   ORGANISM  .
             .
 FEATURES             Location/Qualifiers
+     stem_loop       4787..4844
+                     /label="his operon terminator"
+     misc_feature    5039..5627
+                     /label="pMB1 replication origin"
+     misc_feature    complement(5925..6584)
+                     /label="chloramphenicol resistance marker"
      misc_feature    4787..6813
-                     /label="pSB1C5"
      misc_feature    1..8
                      /label="D1005"
      misc_feature    4776..4786
@@ -1804,8 +1819,13 @@ SOURCE      .
   ORGANISM  .
             .
 FEATURES             Location/Qualifiers
+     stem_loop       4838..4895
+                     /label="his operon terminator"
+     misc_feature    5090..5678
+                     /label="pMB1 replication origin"
+     misc_feature    complement(5976..6635)
+                     /label="chloramphenicol resistance marker"
      misc_feature    4838..6864
-                     /label="pSB1C5"
      misc_feature    1..8
                      /label="D1005"
      misc_feature    4827..4837
@@ -1972,8 +1992,13 @@ SOURCE      .
   ORGANISM  .
             .
 FEATURES             Location/Qualifiers
+     stem_loop       5432..5489
+                     /label="his operon terminator"
+     misc_feature    5684..6272
+                     /label="pMB1 replication origin"
+     misc_feature    complement(6570..7229)
+                     /label="chloramphenicol resistance marker"
      misc_feature    5432..7458
-                     /label="pSB1C5"
      misc_feature    1..8
                      /label="D1005"
      misc_feature    5421..5431
@@ -2144,8 +2169,13 @@ SOURCE      .
   ORGANISM  .
             .
 FEATURES             Location/Qualifiers
+     stem_loop       5582..5639
+                     /label="his operon terminator"
+     misc_feature    5834..6422
+                     /label="pMB1 replication origin"
+     misc_feature    complement(6720..7379)
+                     /label="chloramphenicol resistance marker"
      misc_feature    5582..7608
-                     /label="pSB1C5"
      misc_feature    1..8
                      /label="D1005"
      misc_feature    5571..5581
@@ -2334,8 +2364,13 @@ SOURCE      .
   ORGANISM  .
             .
 FEATURES             Location/Qualifiers
+     stem_loop       4901..4958
+                     /label="his operon terminator"
+     misc_feature    5153..5741
+                     /label="pMB1 replication origin"
+     misc_feature    complement(6039..6698)
+                     /label="chloramphenicol resistance marker"
      misc_feature    4901..6927
-                     /label="pSB1C5"
      misc_feature    1..8
                      /label="D1005"
      misc_feature    4890..4900
@@ -2493,8 +2528,13 @@ SOURCE      .
   ORGANISM  .
             .
 FEATURES             Location/Qualifiers
+     stem_loop       3935..3992
+                     /label="his operon terminator"
+     misc_feature    4187..4775
+                     /label="pMB1 replication origin"
+     misc_feature    complement(5073..5732)
+                     /label="chloramphenicol resistance marker"
      misc_feature    3935..5961
-                     /label="pSB1C5"
      misc_feature    1..8
                      /label="D1005"
      misc_feature    3924..3934
@@ -2624,8 +2664,13 @@ SOURCE      .
   ORGANISM  .
             .
 FEATURES             Location/Qualifiers
+     stem_loop       4127..4184
+                     /label="his operon terminator"
+     misc_feature    4379..4967
+                     /label="pMB1 replication origin"
+     misc_feature    complement(5265..5924)
+                     /label="chloramphenicol resistance marker"
      misc_feature    4127..6153
-                     /label="pSB1C5"
      misc_feature    1..8
                      /label="D1005"
      misc_feature    4116..4126
@@ -2747,8 +2792,13 @@ SOURCE      .
   ORGANISM  .
             .
 FEATURES             Location/Qualifiers
+     stem_loop       3707..3764
+                     /label="his operon terminator"
+     misc_feature    3959..4547
+                     /label="pMB1 replication origin"
+     misc_feature    complement(4845..5504)
+                     /label="chloramphenicol resistance marker"
      misc_feature    3707..5733
-                     /label="pSB1C5"
      misc_feature    1..8
                      /label="D1005"
      misc_feature    3696..3706
@@ -2868,8 +2918,13 @@ SOURCE      .
   ORGANISM  .
             .
 FEATURES             Location/Qualifiers
+     stem_loop       3536..3593
+                     /label="his operon terminator"
+     misc_feature    3788..4376
+                     /label="pMB1 replication origin"
+     misc_feature    complement(4674..5333)
+                     /label="chloramphenicol resistance marker"
      misc_feature    3536..5562
-                     /label="pSB1C5"
      misc_feature    1..8
                      /label="D1005"
      misc_feature    3525..3535
@@ -2982,8 +3037,13 @@ SOURCE      .
   ORGANISM  .
             .
 FEATURES             Location/Qualifiers
+     stem_loop       6374..6431
+                     /label="his operon terminator"
+     misc_feature    6626..7214
+                     /label="pMB1 replication origin"
+     misc_feature    complement(7512..8171)
+                     /label="chloramphenicol resistance marker"
      misc_feature    6374..8400
-                     /label="pSB1C5"
      misc_feature    1..8
                      /label="D1005"
      misc_feature    6363..6373
@@ -3157,8 +3217,13 @@ SOURCE      .
   ORGANISM  .
             .
 FEATURES             Location/Qualifiers
+     stem_loop       3896..3953
+                     /label="his operon terminator"
+     misc_feature    4148..4736
+                     /label="pMB1 replication origin"
+     misc_feature    complement(5034..5693)
+                     /label="chloramphenicol resistance marker"
      misc_feature    3896..5922
-                     /label="pSB1C5"
      misc_feature    1..8
                      /label="D1005"
      misc_feature    3885..3895
@@ -3309,8 +3374,13 @@ SOURCE      .
   ORGANISM  .
             .
 FEATURES             Location/Qualifiers
+     stem_loop       4127..4184
+                     /label="his operon terminator"
+     misc_feature    4379..4967
+                     /label="pMB1 replication origin"
+     misc_feature    complement(5265..5924)
+                     /label="chloramphenicol resistance marker"
      misc_feature    4127..6153
-                     /label="pSB1C5"
      misc_feature    1..8
                      /label="D1005"
      misc_feature    4116..4126
@@ -3437,8 +3507,13 @@ SOURCE      .
   ORGANISM  .
             .
 FEATURES             Location/Qualifiers
+     stem_loop       3707..3764
+                     /label="his operon terminator"
+     misc_feature    3959..4547
+                     /label="pMB1 replication origin"
+     misc_feature    complement(4845..5504)
+                     /label="chloramphenicol resistance marker"
      misc_feature    3707..5733
-                     /label="pSB1C5"
      misc_feature    1..8
                      /label="D1005"
      misc_feature    3696..3706
@@ -3558,8 +3633,13 @@ SOURCE      .
   ORGANISM  .
             .
 FEATURES             Location/Qualifiers
+     stem_loop       4127..4184
+                     /label="his operon terminator"
+     misc_feature    4379..4967
+                     /label="pMB1 replication origin"
+     misc_feature    complement(5265..5924)
+                     /label="chloramphenicol resistance marker"
      misc_feature    4127..6153
-                     /label="pSB1C5"
      misc_feature    1..8
                      /label="D1005"
      misc_feature    4116..4126
@@ -3686,8 +3766,13 @@ SOURCE      .
   ORGANISM  .
             .
 FEATURES             Location/Qualifiers
+     stem_loop       3479..3536
+                     /label="his operon terminator"
+     misc_feature    3731..4319
+                     /label="pMB1 replication origin"
+     misc_feature    complement(4617..5276)
+                     /label="chloramphenicol resistance marker"
      misc_feature    3479..5505
-                     /label="pSB1C5"
      misc_feature    1..8
                      /label="D1005"
      misc_feature    3468..3478
@@ -3803,8 +3888,13 @@ SOURCE      .
   ORGANISM  .
             .
 FEATURES             Location/Qualifiers
+     stem_loop       4127..4184
+                     /label="his operon terminator"
+     misc_feature    4379..4967
+                     /label="pMB1 replication origin"
+     misc_feature    complement(5265..5924)
+                     /label="chloramphenicol resistance marker"
      misc_feature    4127..6153
-                     /label="pSB1C5"
      misc_feature    1..8
                      /label="D1005"
      misc_feature    4116..4126
@@ -3931,8 +4021,13 @@ SOURCE      .
   ORGANISM  .
             .
 FEATURES             Location/Qualifiers
+     stem_loop       3479..3536
+                     /label="his operon terminator"
+     misc_feature    3731..4319
+                     /label="pMB1 replication origin"
+     misc_feature    complement(4617..5276)
+                     /label="chloramphenicol resistance marker"
      misc_feature    3479..5505
-                     /label="pSB1C5"
      misc_feature    1..8
                      /label="D1005"
      misc_feature    3468..3478
@@ -4048,8 +4143,13 @@ SOURCE      .
   ORGANISM  .
             .
 FEATURES             Location/Qualifiers
+     stem_loop       3284..3341
+                     /label="his operon terminator"
+     misc_feature    3536..4124
+                     /label="pMB1 replication origin"
+     misc_feature    complement(4422..5081)
+                     /label="chloramphenicol resistance marker"
      misc_feature    3284..5310
-                     /label="pSB1C5"
      misc_feature    1..8
                      /label="D1005"
      misc_feature    3273..3283
@@ -4160,8 +4260,13 @@ SOURCE      .
   ORGANISM  .
             .
 FEATURES             Location/Qualifiers
+     stem_loop       4127..4184
+                     /label="his operon terminator"
+     misc_feature    4379..4967
+                     /label="pMB1 replication origin"
+     misc_feature    complement(5265..5924)
+                     /label="chloramphenicol resistance marker"
      misc_feature    4127..6153
-                     /label="pSB1C5"
      misc_feature    1..8
                      /label="D1005"
      misc_feature    4116..4126
@@ -10157,6 +10262,80 @@ ORIGIN
      2641 ctaagaaacc attattatca tgacattaac ctataaaaat aggcgtatca cgaggcagaa
      2701 tttcagataa aaaaaatcct tagctttcgc taaggatgat ttctg
 //
+LOCUS       Fluorescent_Pro         2727 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  .
+ACCESSION   Fluorescent_Proteins_in_vector_Fluorescent_Proteins_in_vector_ins_mRFP1
+VERSION     Fluorescent_Proteins_in_vector_Fluorescent_Proteins_in_vector_ins_mRFP1
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+     stem_loop       701..758
+                     /label="his operon terminator"
+     misc_feature    953..1541
+                     /label="pMB1 replication origin"
+     misc_feature    complement(1839..2498)
+                     /label="chloramphenicol resistance marker"
+     misc_feature    701..2727
+     misc_feature    1..8
+                     /label="D1005"
+     misc_feature    690..700
+                     /label="D1006"
+     source          9..689
+                     /label="source"
+     CDS             9..686
+                     /label="mRFP1"
+     misc_feature    9..689
+     misc_feature    1..700
+ORIGIN
+        1 ggtctcgaat ggcttcctcc gaagatgtta tcaaagagtt catgcgtttc aaagttcgta
+       61 tggaaggttc cgttaacggt cacgagttcg aaatcgaagg tgaaggtgaa ggtcgtccgt
+      121 acgaaggtac ccagaccgct aaactgaaag ttaccaaagg tggtccgctg ccgttcgctt
+      181 gggacatcct gtccccgcag ttccagtacg gttccaaagc ttacgttaaa cacccggctg
+      241 acatcccgga ctacctgaaa ctgtccttcc cggaaggttt caaatgggaa cgtgttatga
+      301 acttcgagga cggtggtgtt gttaccgtta cccaggactc ctccctgcaa gacggtgagt
+      361 tcatctacaa agttaaactg cgtggtacca acttcccgtc cgacggtccg gttatgcaga
+      421 aaaaaaccat gggttgggaa gcttccaccg aacgtatgta cccggaagat ggtgctctga
+      481 aaggtgaaat caaaatgcgt ctgaaactga aagacggtgg tcactacgac gctgaagtta
+      541 aaaccaccta catggctaaa aaaccggttc agctgccggg tgcttacaaa accgacatca
+      601 aactggacat cacctcccac aacgaggact acaccatcgt tgaacagtac gaacgtgctg
+      661 aaggtcgtca ctccaccggt gcttaatgag ctttgagacc tccggcaaaa aagggcaagg
+      721 tgtcaccacc ctgccctttt tctttaaaac cgaaaagatt acttcgcgtt atgcaggctt
+      781 cctcgctcac tgactcgctg cgctcggtcg ttcggctgcg gcgagcggta tcagctcact
+      841 caaaggcggt aatacggtta tccacagaat caggggataa cgcaggaaag aacatgtgag
+      901 caaaaggcca gcaaaaggcc aggaaccgta aaaaggccgc gttgctggcg tttttccaca
+      961 ggctccgccc ccctgacgag catcacaaaa atcgacgctc aagtcagagg tggcgaaacc
+     1021 cgacaggact ataaagatac caggcgtttc cccctggaag ctccctcgtg cgctctcctg
+     1081 ttccgaccct gccgcttacc ggatacctgt ccgcctttct cccttcggga agcgtggcgc
+     1141 tttctcatag ctcacgctgt aggtatctca gttcggtgta ggtcgttcgc tccaagctgg
+     1201 gctgtgtgca cgaacccccc gttcagcccg accgctgcgc cttatccggt aactatcgtc
+     1261 ttgagtccaa cccggtaaga cacgacttat cgccactggc agcagccact ggtaacagga
+     1321 ttagcagagc gaggtatgta ggcggtgcta cagagttctt gaagtggtgg cctaactacg
+     1381 gctacactag aagaacagta tttggtatct gcgctctgct gaagccagtt accttcggaa
+     1441 aaagagttgg tagctcttga tccggcaaac aaaccaccgc tggtagcggt ggtttttttg
+     1501 tttgcaagca gcagattacg cgcagaaaaa aaggatctca agaagatcct ttgatctttt
+     1561 ctacggggtc tgacgctcag tggaacgaaa actcacgtta agggattttg gtcatgagat
+     1621 tatcaaaaag gatcttcacc tagatccttt taaattaaaa atgaagtttt aaatcaatct
+     1681 aaagtatata tgagtaaact tggtctgaca gctcgaggct tggattctca ccaataaaaa
+     1741 acgcccggcg gcaaccgagc gttctgaaca aatccagatg gagttctgag gtcattactg
+     1801 gatctatcaa caggagtcca agcgagctcg atatcaaatt acgccccgcc ctgccactca
+     1861 tcgcagtact gttgtaattc attaagcatt ctgccgacat ggaagccatc acaaacggca
+     1921 tgatgaacct gaatcgccag cggcatcagc accttgtcgc cttgcgtata atatttgccc
+     1981 atggtgaaaa cgggggcgaa gaagttgtcc atattggcca cgtttaaatc aaaactggtg
+     2041 aaactcaccc agggattggc tgagacgaaa aacatattct caataaaccc tttagggaaa
+     2101 taggccaggt tttcaccgta acacgccaca tcttgcgaat atatgtgtag aaactgccgg
+     2161 aaatcgtcgt ggtattcact ccagagcgat gaaaacgttt cagtttgctc atggaaaacg
+     2221 gtgtaacaag ggtgaacact atcccatatc accagctcac cgtctttcat tgccatacga
+     2281 aattccggat gagcattcat caggcgggca agaatgtgaa taaaggccgg ataaaacttg
+     2341 tgcttatttt tctttacggt ctttaaaaag gccgtaatat ccagctgaac ggtctggtta
+     2401 taggtacatt gagcaactga ctgaaatgcc tcaaaatgtt ctttacgatg ccattgggat
+     2461 atatcaacgg tggtatatcc agtgattttt ttctccattt tagcttcctt agctcctgaa
+     2521 aatctcgata actcaaaaaa tacgcccggt agtgatctta tttcattatg gtgaaagttg
+     2581 gaacctctta cgtgcccgat caactcgagt gccacctgac gtctaagaaa ccattattat
+     2641 catgacatta acctataaaa ataggcgtat cacgaggcag aatttcagat aaaaaaaatc
+     2701 cttagctttc gctaaggatg atttctg
+//
 LOCUS       Fluorescent_Pro         2748 bp    DNA     linear   UNK 01-JAN-1980
 DEFINITION  .
 ACCESSION   Fluorescent_Proteins_in_vector_Fluorescent_Proteins_in_vector_ins_mScarlet
@@ -10384,8 +10563,13 @@ SOURCE      .
   ORGANISM  .
             .
 FEATURES             Location/Qualifiers
+     stem_loop       4127..4184
+                     /label="his operon terminator"
+     misc_feature    4379..4967
+                     /label="pMB1 replication origin"
+     misc_feature    complement(5265..5924)
+                     /label="chloramphenicol resistance marker"
      misc_feature    4127..6153
-                     /label="pSB1C5"
      misc_feature    1..8
                      /label="D1005"
      misc_feature    4116..4126
@@ -10512,8 +10696,13 @@ SOURCE      .
   ORGANISM  .
             .
 FEATURES             Location/Qualifiers
+     stem_loop       4127..4184
+                     /label="his operon terminator"
+     misc_feature    4379..4967
+                     /label="pMB1 replication origin"
+     misc_feature    complement(5265..5924)
+                     /label="chloramphenicol resistance marker"
      misc_feature    4127..6153
-                     /label="pSB1C5"
      misc_feature    1..8
                      /label="D1005"
      misc_feature    4116..4126
@@ -14424,6 +14613,76 @@ ORIGIN
      2281 gtgatcttat ttcattatgg tgaaagttgg aacctcttac gtgcccgatc aactcgagtg
      2341 ccacctgacg tctaagaaac cattattatc atgacattaa cctataaaaa taggcgtatc
      2401 acgaggcaga atttcagata aaaaaaatcc ttagctttcg ctaaggatga tttctg
+//
+LOCUS       Promoters_Promo         2444 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  .
+ACCESSION   Promoters_Promoters_ins_pL_lac0_1
+VERSION     Promoters_Promoters_ins_pL_lac0_1
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+     stem_loop       418..475
+                     /label="his operon terminator"
+     misc_feature    670..1258
+                     /label="pMB1 replication origin"
+     misc_feature    complement(1556..2215)
+                     /label="chloramphenicol resistance marker"
+     misc_feature    418..2444
+     misc_feature    1..169
+                     /label="D2001"
+     misc_feature    170..180
+                     /label="D1001"
+     misc_feature    236..246
+                     /label="D1002"
+     misc_feature    247..417
+                     /label="D2002"
+     misc_feature    181..235
+                     /label="pL-lac0-1"
+     misc_feature    1..417
+ORIGIN
+        1 aacgatgatg ctcactctcg ggtaccagca ttttcggagg ttctctaaca gtatggataa
+       61 ccgtgttttc actgtgctgc ggttacccat cgcctgaaat ccagttggtg tcaagccatt
+      121 ccctgtctag gacgccgcat gtagtaaaac atatacattg ctcgggttcg gtctcgggag
+      181 aattgtgagc ggataacaat tgacattgtg agcggataac aagatactga gcacatactt
+      241 gagacctata aacgccaggt tgtatccgca tttgatgcta ccatggatga gtcagcgtcg
+      301 agcacgcggc atttattgca tgagtagggt tgactaagaa ccgttagatg cctcgctgta
+      361 ctaataattg tcaacagatc gtcaagatta gaaaataggg tttagtccgg caatacttcc
+      421 ggcaaaaaag ggcaaggtgt caccaccctg ccctttttct ttaaaaccga aaagattact
+      481 tcgcgttatg caggcttcct cgctcactga ctcgctgcgc tcggtcgttc ggctgcggcg
+      541 agcggtatca gctcactcaa aggcggtaat acggttatcc acagaatcag gggataacgc
+      601 aggaaagaac atgtgagcaa aaggccagca aaaggccagg aaccgtaaaa aggccgcgtt
+      661 gctggcgttt ttccacaggc tccgcccccc tgacgagcat cacaaaaatc gacgctcaag
+      721 tcagaggtgg cgaaacccga caggactata aagataccag gcgtttcccc ctggaagctc
+      781 cctcgtgcgc tctcctgttc cgaccctgcc gcttaccgga tacctgtccg cctttctccc
+      841 ttcgggaagc gtggcgcttt ctcatagctc acgctgtagg tatctcagtt cggtgtaggt
+      901 cgttcgctcc aagctgggct gtgtgcacga accccccgtt cagcccgacc gctgcgcctt
+      961 atccggtaac tatcgtcttg agtccaaccc ggtaagacac gacttatcgc cactggcagc
+     1021 agccactggt aacaggatta gcagagcgag gtatgtaggc ggtgctacag agttcttgaa
+     1081 gtggtggcct aactacggct acactagaag aacagtattt ggtatctgcg ctctgctgaa
+     1141 gccagttacc ttcggaaaaa gagttggtag ctcttgatcc ggcaaacaaa ccaccgctgg
+     1201 tagcggtggt ttttttgttt gcaagcagca gattacgcgc agaaaaaaag gatctcaaga
+     1261 agatcctttg atcttttcta cggggtctga cgctcagtgg aacgaaaact cacgttaagg
+     1321 gattttggtc atgagattat caaaaaggat cttcacctag atccttttaa attaaaaatg
+     1381 aagttttaaa tcaatctaaa gtatatatga gtaaacttgg tctgacagct cgaggcttgg
+     1441 attctcacca ataaaaaacg cccggcggca accgagcgtt ctgaacaaat ccagatggag
+     1501 ttctgaggtc attactggat ctatcaacag gagtccaagc gagctcgata tcaaattacg
+     1561 ccccgccctg ccactcatcg cagtactgtt gtaattcatt aagcattctg ccgacatgga
+     1621 agccatcaca aacggcatga tgaacctgaa tcgccagcgg catcagcacc ttgtcgcctt
+     1681 gcgtataata tttgcccatg gtgaaaacgg gggcgaagaa gttgtccata ttggccacgt
+     1741 ttaaatcaaa actggtgaaa ctcacccagg gattggctga gacgaaaaac atattctcaa
+     1801 taaacccttt agggaaatag gccaggtttt caccgtaaca cgccacatct tgcgaatata
+     1861 tgtgtagaaa ctgccggaaa tcgtcgtggt attcactcca gagcgatgaa aacgtttcag
+     1921 tttgctcatg gaaaacggtg taacaagggt gaacactatc ccatatcacc agctcaccgt
+     1981 ctttcattgc catacgaaat tccggatgag cattcatcag gcgggcaaga atgtgaataa
+     2041 aggccggata aaacttgtgc ttatttttct ttacggtctt taaaaaggcc gtaatatcca
+     2101 gctgaacggt ctggttatag gtacattgag caactgactg aaatgcctca aaatgttctt
+     2161 tacgatgcca ttgggatata tcaacggtgg tatatccagt gatttttttc tccattttag
+     2221 cttccttagc tcctgaaaat ctcgataact caaaaaatac gcccggtagt gatcttattt
+     2281 cattatggtg aaagttggaa cctcttacgt gcccgatcaa ctcgagtgcc acctgacgtc
+     2341 taagaaacca ttattatcat gacattaacc tataaaaata ggcgtatcac gaggcagaat
+     2401 ttcagataaa aaaaatcctt agctttcgct aaggatgatt tctg
 //
 LOCUS       Promoters_Promo         2452 bp    DNA     linear   UNK 01-JAN-1980
 DEFINITION  .
