@@ -37,7 +37,7 @@
 <http://parts.igem.org/E1010> <http://sbols.org/v3#description> "includes barcode after double stop, 4 BbsI cut sites\nExcit. 584 / Emiss. 607" .
 <http://parts.igem.org/E1010> <http://sbols.org/v3#displayId> "E1010" .
 <http://parts.igem.org/E1010> <http://sbols.org/v3#hasNamespace> <http://parts.igem.org> .
-<http://parts.igem.org/E1010> <http://sbols.org/v3#name> "mRFP1" .
+<http://parts.igem.org/E1010> <http://sbols.org/v3#name> "E1010" .
 <http://parts.igem.org/E1010> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
 <http://parts.igem.org/E1010> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
 <http://parts.igem.org/E1010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
@@ -153,6 +153,7 @@
 <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/Fluorescent_Proteins_in_vector_ins/VariableFeature1> <http://sbols.org/v3#variant> <http://parts.igem.org/K864100> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/Fluorescent_Proteins_in_vector_ins/VariableFeature1> <http://sbols.org/v3#variant> <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/GFPmut3> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/Fluorescent_Proteins_in_vector_ins/VariableFeature1> <http://sbols.org/v3#variant> <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/mKate2> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/Fluorescent_Proteins_in_vector_ins/VariableFeature1> <http://sbols.org/v3#variant> <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/mRFP1> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/Fluorescent_Proteins_in_vector_ins/VariableFeature1> <http://sbols.org/v3#variant> <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/mScarlet> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/Fluorescent_Proteins_in_vector_ins/VariableFeature1> <http://sbols.org/v3#variant> <https://www.ncbi.nlm.nih.gov/nuccore/KY484012> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Fluorescent%20Reporter%20Proteins/Fluorescent_Proteins_in_vector_ins/VariableFeature1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#VariableFeature> .
