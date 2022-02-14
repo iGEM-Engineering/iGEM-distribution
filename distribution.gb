@@ -6738,6 +6738,164 @@ ORIGIN
      3121 taacctataa aaataggcgt atcacgaggc agaatttcag ataaaaaaaa tccttagctt
      3181 tcgctaagga tgatttctg
 //
+LOCUS       Coding_sequence         2731 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  .
+ACCESSION   Coding_sequences_Coding_sequences_ins_BBa_C0040
+VERSION     Coding_sequences_Coding_sequences_ins_BBa_C0040
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+     stem_loop       705..762
+                     /label="his operon terminator"
+     misc_feature    957..1545
+                     /label="pMB1 replication origin"
+     misc_feature    complement(1843..2502)
+                     /label="chloramphenicol resistance marker"
+     misc_feature    705..2731
+     misc_feature    1..8
+                     /label="D1005"
+     misc_feature    694..704
+                     /label="D1006"
+     CDS             12..628
+                     /label="tetR"
+     misc_feature    629..662
+                     /label="SsrA"
+     misc_feature    669..693
+                     /label="Help:Barcodes"
+     CDS             9..693
+                     /label="tetR"
+     misc_feature    1..704
+ORIGIN
+        1 ggtctcgaat gtccagatta gataaaagta aagtgattaa cagcgcatta gagctgctta
+       61 atgaggtcgg aatcgaaggt ttaacaaccc gtaaactcgc ccagaagcta ggtgtagagc
+      121 agcctacatt gtattggcat gtaaaaaata agcgggcttt gctcgacgcc ttagccattg
+      181 agatgttaga taggcaccat actcactttt gccctttaga aggggaaagc tggcaagatt
+      241 ttttacgtaa taacgctaaa agttttagat gtgctttact aagtcatcgc gatggagcaa
+      301 aagtacattt aggtacacgg cctacagaaa aacagtatga aactctcgaa aatcaattag
+      361 cctttttatg ccaacaaggt ttttcactag agaatgcatt atatgcactc agcgctgtgg
+      421 ggcattttac tttaggttgc gtattggaag atcaagagca tcaagtcgct aaagaagaaa
+      481 gggaaacacc tactactgat agtatgccgc cattattacg acaagctatc gaattatttg
+      541 atcaccaagg tgcagagcca gccttcttat tcggccttga attgatcata tgcggattag
+      601 aaaaacaact taaatgtgaa agtgggtccg ctgcaaacga cgaaaactac gctttagtag
+      661 cttaataaca ctgatagtgc tagtgtagat cacgctttga gacctccggc aaaaaagggc
+      721 aaggtgtcac caccctgccc tttttcttta aaaccgaaaa gattacttcg cgttatgcag
+      781 gcttcctcgc tcactgactc gctgcgctcg gtcgttcggc tgcggcgagc ggtatcagct
+      841 cactcaaagg cggtaatacg gttatccaca gaatcagggg ataacgcagg aaagaacatg
+      901 tgagcaaaag gccagcaaaa ggccaggaac cgtaaaaagg ccgcgttgct ggcgtttttc
+      961 cacaggctcc gcccccctga cgagcatcac aaaaatcgac gctcaagtca gaggtggcga
+     1021 aacccgacag gactataaag ataccaggcg tttccccctg gaagctccct cgtgcgctct
+     1081 cctgttccga ccctgccgct taccggatac ctgtccgcct ttctcccttc gggaagcgtg
+     1141 gcgctttctc atagctcacg ctgtaggtat ctcagttcgg tgtaggtcgt tcgctccaag
+     1201 ctgggctgtg tgcacgaacc ccccgttcag cccgaccgct gcgccttatc cggtaactat
+     1261 cgtcttgagt ccaacccggt aagacacgac ttatcgccac tggcagcagc cactggtaac
+     1321 aggattagca gagcgaggta tgtaggcggt gctacagagt tcttgaagtg gtggcctaac
+     1381 tacggctaca ctagaagaac agtatttggt atctgcgctc tgctgaagcc agttaccttc
+     1441 ggaaaaagag ttggtagctc ttgatccggc aaacaaacca ccgctggtag cggtggtttt
+     1501 tttgtttgca agcagcagat tacgcgcaga aaaaaaggat ctcaagaaga tcctttgatc
+     1561 ttttctacgg ggtctgacgc tcagtggaac gaaaactcac gttaagggat tttggtcatg
+     1621 agattatcaa aaaggatctt cacctagatc cttttaaatt aaaaatgaag ttttaaatca
+     1681 atctaaagta tatatgagta aacttggtct gacagctcga ggcttggatt ctcaccaata
+     1741 aaaaacgccc ggcggcaacc gagcgttctg aacaaatcca gatggagttc tgaggtcatt
+     1801 actggatcta tcaacaggag tccaagcgag ctcgatatca aattacgccc cgccctgcca
+     1861 ctcatcgcag tactgttgta attcattaag cattctgccg acatggaagc catcacaaac
+     1921 ggcatgatga acctgaatcg ccagcggcat cagcaccttg tcgccttgcg tataatattt
+     1981 gcccatggtg aaaacggggg cgaagaagtt gtccatattg gccacgttta aatcaaaact
+     2041 ggtgaaactc acccagggat tggctgagac gaaaaacata ttctcaataa accctttagg
+     2101 gaaataggcc aggttttcac cgtaacacgc cacatcttgc gaatatatgt gtagaaactg
+     2161 ccggaaatcg tcgtggtatt cactccagag cgatgaaaac gtttcagttt gctcatggaa
+     2221 aacggtgtaa caagggtgaa cactatccca tatcaccagc tcaccgtctt tcattgccat
+     2281 acgaaattcc ggatgagcat tcatcaggcg ggcaagaatg tgaataaagg ccggataaaa
+     2341 cttgtgctta tttttcttta cggtctttaa aaaggccgta atatccagct gaacggtctg
+     2401 gttataggta cattgagcaa ctgactgaaa tgcctcaaaa tgttctttac gatgccattg
+     2461 ggatatatca acggtggtat atccagtgat ttttttctcc attttagctt ccttagctcc
+     2521 tgaaaatctc gataactcaa aaaatacgcc cggtagtgat cttatttcat tatggtgaaa
+     2581 gttggaacct cttacgtgcc cgatcaactc gagtgccacc tgacgtctaa gaaaccatta
+     2641 ttatcatgac attaacctat aaaaataggc gtatcacgag gcagaatttc agataaaaaa
+     2701 aatccttagc tttcgctaag gatgatttct g
+//
+LOCUS       Coding_sequence         2986 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  .
+ACCESSION   Coding_sequences_Coding_sequences_ins_BBa_C0080
+VERSION     Coding_sequences_Coding_sequences_ins_BBa_C0080
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+     stem_loop       960..1017
+                     /label="his operon terminator"
+     misc_feature    1212..1800
+                     /label="pMB1 replication origin"
+     misc_feature    complement(2098..2757)
+                     /label="chloramphenicol resistance marker"
+     misc_feature    960..2986
+     misc_feature    1..8
+                     /label="D1005"
+     misc_feature    949..959
+                     /label="D1006"
+     CDS             9..884
+                     /label="araC"
+     misc_feature    885..917
+                     /label="LVA"
+     misc_feature    924..948
+                     /label="Help:Barcodes"
+     CDS             9..948
+                     /label="araC"
+     misc_feature    1..959
+ORIGIN
+        1 ggtctcgaat ggctgaagcg caaaatgatc ccctgctgcc gggatactcg tttaacgccc
+       61 atctggtggc gggtttaacg ccgattgagg ccaatggtta tctcgatttt tttatcgacc
+      121 gaccgctggg aatgaaaggt tatattctca atctcaccat tcgcggtcag ggggtggtga
+      181 aaaatcaggg acgagaattt gtctgccgac cgggtgatat tttgctgttc ccgccaggag
+      241 agattcatca ctacggtcgt catccggagg ctcgcgaatg gtatcaccag tgggtttact
+      301 ttcgtccgcg cgcctactgg catgaatggc ttaactggcc gtcaatattt gccaatacgg
+      361 gtttctttcg cccggatgaa gcgcaccagc cgcatttcag cgacctgttt gggcaaatca
+      421 ttaacgccgg gcaaggggaa gggcgctatt cggagctgct ggcgataaat ctgcttgagc
+      481 aattgttact gcggcgcatg gaagcgatta acgagtcgct ccatccaccg atggataatc
+      541 gggtacgcga ggcttgtcag tacatcagcg atcacctggc agacagcaat tttgatatcg
+      601 ccagcgtcgc acagcatgtt tgcctgtcgc cgtcgcgtct gtcacatctt ttccgccagc
+      661 agttagggat tagcgtctta agctggcgcg aggaccaacg catcagccag gcgaagctgc
+      721 ttttgagcac tacccggatg cctatcgcca ccgtcggtcg caatgttggt tttgacgatc
+      781 aactctattt ctcgcgagta tttaaaaaat gcaccggggc cagcccgagc gagttccgtg
+      841 ccggttgtga agaaaaagtg aatgatgtag ccgtcaagtt gtcagctgca aacgacgaaa
+      901 actacgcttt agtagcttaa taacactgat agtgctagtg tagatcacgc tttgagacct
+      961 ccggcaaaaa agggcaaggt gtcaccaccc tgcccttttt ctttaaaacc gaaaagatta
+     1021 cttcgcgtta tgcaggcttc ctcgctcact gactcgctgc gctcggtcgt tcggctgcgg
+     1081 cgagcggtat cagctcactc aaaggcggta atacggttat ccacagaatc aggggataac
+     1141 gcaggaaaga acatgtgagc aaaaggccag caaaaggcca ggaaccgtaa aaaggccgcg
+     1201 ttgctggcgt ttttccacag gctccgcccc cctgacgagc atcacaaaaa tcgacgctca
+     1261 agtcagaggt ggcgaaaccc gacaggacta taaagatacc aggcgtttcc ccctggaagc
+     1321 tccctcgtgc gctctcctgt tccgaccctg ccgcttaccg gatacctgtc cgcctttctc
+     1381 ccttcgggaa gcgtggcgct ttctcatagc tcacgctgta ggtatctcag ttcggtgtag
+     1441 gtcgttcgct ccaagctggg ctgtgtgcac gaaccccccg ttcagcccga ccgctgcgcc
+     1501 ttatccggta actatcgtct tgagtccaac ccggtaagac acgacttatc gccactggca
+     1561 gcagccactg gtaacaggat tagcagagcg aggtatgtag gcggtgctac agagttcttg
+     1621 aagtggtggc ctaactacgg ctacactaga agaacagtat ttggtatctg cgctctgctg
+     1681 aagccagtta ccttcggaaa aagagttggt agctcttgat ccggcaaaca aaccaccgct
+     1741 ggtagcggtg gtttttttgt ttgcaagcag cagattacgc gcagaaaaaa aggatctcaa
+     1801 gaagatcctt tgatcttttc tacggggtct gacgctcagt ggaacgaaaa ctcacgttaa
+     1861 gggattttgg tcatgagatt atcaaaaagg atcttcacct agatcctttt aaattaaaaa
+     1921 tgaagtttta aatcaatcta aagtatatat gagtaaactt ggtctgacag ctcgaggctt
+     1981 ggattctcac caataaaaaa cgcccggcgg caaccgagcg ttctgaacaa atccagatgg
+     2041 agttctgagg tcattactgg atctatcaac aggagtccaa gcgagctcga tatcaaatta
+     2101 cgccccgccc tgccactcat cgcagtactg ttgtaattca ttaagcattc tgccgacatg
+     2161 gaagccatca caaacggcat gatgaacctg aatcgccagc ggcatcagca ccttgtcgcc
+     2221 ttgcgtataa tatttgccca tggtgaaaac gggggcgaag aagttgtcca tattggccac
+     2281 gtttaaatca aaactggtga aactcaccca gggattggct gagacgaaaa acatattctc
+     2341 aataaaccct ttagggaaat aggccaggtt ttcaccgtaa cacgccacat cttgcgaata
+     2401 tatgtgtaga aactgccgga aatcgtcgtg gtattcactc cagagcgatg aaaacgtttc
+     2461 agtttgctca tggaaaacgg tgtaacaagg gtgaacacta tcccatatca ccagctcacc
+     2521 gtctttcatt gccatacgaa attccggatg agcattcatc aggcgggcaa gaatgtgaat
+     2581 aaaggccgga taaaacttgt gcttattttt ctttacggtc tttaaaaagg ccgtaatatc
+     2641 cagctgaacg gtctggttat aggtacattg agcaactgac tgaaatgcct caaaatgttc
+     2701 tttacgatgc cattgggata tatcaacggt ggtatatcca gtgatttttt tctccatttt
+     2761 agcttcctta gctcctgaaa atctcgataa ctcaaaaaat acgcccggta gtgatcttat
+     2821 ttcattatgg tgaaagttgg aacctcttac gtgcccgatc aactcgagtg ccacctgacg
+     2881 tctaagaaac cattattatc atgacattaa cctataaaaa taggcgtatc acgaggcaga
+     2941 atttcagata aaaaaaatcc ttagctttcg ctaaggatga tttctg
+//
 LOCUS       Coding_sequence         3128 bp    DNA     linear   UNK 01-JAN-1980
 DEFINITION  .
 ACCESSION   Coding_sequences_Coding_sequences_ins_BBa_K2680537
