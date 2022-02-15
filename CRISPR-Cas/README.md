@@ -14,7 +14,7 @@ Their associated guide RNA scaffold sequences as well as the position of the spa
     - CDS: 25
     - designed_sequence: 2
 - 1 vectors
-- 25 samples for distribution
+- 23 samples for distribution _<span style="color:red">2 parts not included</span>_
 
 ### Parts:
 
@@ -26,8 +26,8 @@ Their associated guide RNA scaffold sequences as well as the position of the spa
 - ABEmax (CDS) in pSB1C5
 - AcrIIA2_bacterial (CDS) in pSB1C5
 - AcrIIA2_mammalian (CDS) in pSB1C5
-- AcrIIA4_bacterial (CDS) in pSB1C5
-- AcrIIA4_mammalian (CDS) in pSB1C5
+- AcrIIA4_bacterial (CDS) _<span style="color:red">not included in distribution</span>_
+- AcrIIA4_mammalian (CDS) _<span style="color:red">not included in distribution</span>_
 - BE4max (CDS) in pSB1C5
 - CP1028_ABE8e (CDS) in pSB1C5
 - Cas9n_D10A (CDS) in pSB1C5
