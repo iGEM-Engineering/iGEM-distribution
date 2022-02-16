@@ -1,0 +1,16 @@
+LOCUS       MAS_pro                  387 bp ds-DNA     linear       10-FEB-2022
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     promoter        1..387
+                     /label="mas promoter"
+                     /ApEinfo_revcolor=#ff9ccd
+                     /ApEinfo_fwdcolor=#ff9ccd
+ORIGIN
+        1 ggagattttt caaatcagtg cgcaagacgt gacgtaagta tccgagtcag tttttatttt
+       61 tctactaatt tggtcgttta tttcggcgtg taggacatgg caaccgggcc tgaatttcgc
+      121 gggtattctg tttctattcc aactttttct tgatccgcag ccattaacga cttttgaata
+      181 gatacgctga cacgccaagc ctcgctagtc aaaagtgtac caaacaacgc tttacagcaa
+      241 gaacggaatg cgcgtgacgc tcgcggtgac gccatttcgc cttttcagaa atggataaat
+      301 agccttgctt cctattatat cttcccaaat taccaataca ttacactagc atctgaattt
+      361 cataaccaat ctcgatacac caaatcg
+//

@@ -1,0 +1,125 @@
+
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/BasicParts> <http://sbols.org/v3#description> "Collection of 2A peptides for the construction of polycistronic expression cassettes. " .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/BasicParts> <http://sbols.org/v3#displayId> "BasicParts" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/BasicParts> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/E2A> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/F2A> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/P2A> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/T2A> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/pSB1C5> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/BasicParts> <http://sbols.org/v3#name> "2A_peptides" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/BasicParts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/CompositeParts> <http://sbols.org/v3#description> "Collection of 2A peptides for the construction of polycistronic expression cassettes. " .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/CompositeParts> <http://sbols.org/v3#displayId> "CompositeParts" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/CompositeParts> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/CompositeParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/_2A_parts_ins> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/CompositeParts> <http://sbols.org/v3#name> "2A_peptides" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/CompositeParts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/E2A> <http://sbols.org/v3#description> "Source : Addgene 111818\n2A peptide from equine rhinitis A virus" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/E2A> <http://sbols.org/v3#displayId> "E2A" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/E2A> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/E2A> <http://sbols.org/v3#name> "E2A" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/E2A> <http://sbols.org/v3#role> <https://identifiers.org/SO:0002224> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/E2A> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/E2A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/F2A> <http://sbols.org/v3#description> "Source : Addgene 52092\n2A peptide from foot-and-mouth disease virus" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/F2A> <http://sbols.org/v3#displayId> "F2A" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/F2A> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/F2A> <http://sbols.org/v3#name> "F2A" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/F2A> <http://sbols.org/v3#role> <https://identifiers.org/SO:0002224> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/F2A> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/F2A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/FinalProducts> <http://sbols.org/v3#description> "Final products desired for actual fabrication" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/FinalProducts> <http://sbols.org/v3#displayId> "FinalProducts" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/FinalProducts> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/FinalProducts> <http://sbols.org/v3#name> "Final Products" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/FinalProducts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/LinearDNAProducts> <http://sbols.org/v3#description> "Linear DNA constructs to be fabricated" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/LinearDNAProducts> <http://sbols.org/v3#displayId> "LinearDNAProducts" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/LinearDNAProducts> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/LinearDNAProducts> <http://sbols.org/v3#name> "Linear DNA Products" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/LinearDNAProducts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/P2A> <http://sbols.org/v3#description> "Source : Addgene 111772\n2A peptide from porcine teschocirus" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/P2A> <http://sbols.org/v3#displayId> "P2A" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/P2A> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/P2A> <http://sbols.org/v3#name> "P2A" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/P2A> <http://sbols.org/v3#role> <https://identifiers.org/SO:0002224> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/P2A> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/P2A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/T2A> <http://sbols.org/v3#description> "Source : Addgene 111773\n2A peptide from thosea asigna virus" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/T2A> <http://sbols.org/v3#displayId> "T2A" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/T2A> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/T2A> <http://sbols.org/v3#name> "T2A" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/T2A> <http://sbols.org/v3#role> <https://identifiers.org/SO:0002224> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/T2A> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/T2A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/_2A_parts/VariableFeature1> <http://sbols.org/v3#cardinality> <http://sbols.org/v3#one> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/_2A_parts/VariableFeature1> <http://sbols.org/v3#displayId> "VariableFeature1" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/_2A_parts/VariableFeature1> <http://sbols.org/v3#variable> <https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/_2A_parts_template/LocalSubComponent1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/_2A_parts/VariableFeature1> <http://sbols.org/v3#variantDerivation> <https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/_2A_parts_ins> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/_2A_parts/VariableFeature1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#VariableFeature> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/_2A_parts> <http://sbols.org/v3#displayId> "_2A_parts" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/_2A_parts> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/_2A_parts> <http://sbols.org/v3#hasVariableFeature> <https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/_2A_parts/VariableFeature1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/_2A_parts> <http://sbols.org/v3#name> "2A parts" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/_2A_parts> <http://sbols.org/v3#template> <https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/_2A_parts_template> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/_2A_parts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#CombinatorialDerivation> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/_2A_parts_ins/VariableFeature1> <http://sbols.org/v3#cardinality> <http://sbols.org/v3#one> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/_2A_parts_ins/VariableFeature1> <http://sbols.org/v3#displayId> "VariableFeature1" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/_2A_parts_ins/VariableFeature1> <http://sbols.org/v3#variable> <https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/_2A_parts_ins_template/LocalSubComponent1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/_2A_parts_ins/VariableFeature1> <http://sbols.org/v3#variant> <https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/E2A> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/_2A_parts_ins/VariableFeature1> <http://sbols.org/v3#variant> <https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/F2A> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/_2A_parts_ins/VariableFeature1> <http://sbols.org/v3#variant> <https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/P2A> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/_2A_parts_ins/VariableFeature1> <http://sbols.org/v3#variant> <https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/T2A> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/_2A_parts_ins/VariableFeature1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#VariableFeature> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/_2A_parts_ins> <http://sbols.org/v3#description> "" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/_2A_parts_ins> <http://sbols.org/v3#displayId> "_2A_parts_ins" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/_2A_parts_ins> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/_2A_parts_ins> <http://sbols.org/v3#hasVariableFeature> <https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/_2A_parts_ins/VariableFeature1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/_2A_parts_ins> <http://sbols.org/v3#name> "2A parts insert" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/_2A_parts_ins> <http://sbols.org/v3#strategy> <http://sbols.org/v3#enumerate> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/_2A_parts_ins> <http://sbols.org/v3#template> <https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/_2A_parts_ins_template> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/_2A_parts_ins> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#CombinatorialDerivation> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/_2A_parts_ins_template/LocalSubComponent1> <http://sbols.org/v3#displayId> "LocalSubComponent1" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/_2A_parts_ins_template/LocalSubComponent1> <http://sbols.org/v3#name> "Part 1" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/_2A_parts_ins_template/LocalSubComponent1> <http://sbols.org/v3#orientation> <http://sbols.org/v3#inline> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/_2A_parts_ins_template/LocalSubComponent1> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/_2A_parts_ins_template/LocalSubComponent1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#LocalSubComponent> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/_2A_parts_ins_template> <http://sbols.org/v3#displayId> "_2A_parts_ins_template" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/_2A_parts_ins_template> <http://sbols.org/v3#hasFeature> <https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/_2A_parts_ins_template/LocalSubComponent1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/_2A_parts_ins_template> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/_2A_parts_ins_template> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/_2A_parts_ins_template> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/_2A_parts_template/Constraint1> <http://sbols.org/v3#displayId> "Constraint1" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/_2A_parts_template/Constraint1> <http://sbols.org/v3#object> <https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/_2A_parts_template/SubComponent1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/_2A_parts_template/Constraint1> <http://sbols.org/v3#restriction> <http://sbols.org/v3#meets> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/_2A_parts_template/Constraint1> <http://sbols.org/v3#subject> <https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/_2A_parts_template/LocalSubComponent1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/_2A_parts_template/Constraint1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Constraint> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/_2A_parts_template/Constraint2> <http://sbols.org/v3#displayId> "Constraint2" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/_2A_parts_template/Constraint2> <http://sbols.org/v3#object> <https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/_2A_parts_template/LocalSubComponent1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/_2A_parts_template/Constraint2> <http://sbols.org/v3#restriction> <http://sbols.org/v3#meets> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/_2A_parts_template/Constraint2> <http://sbols.org/v3#subject> <https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/_2A_parts_template/SubComponent1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/_2A_parts_template/Constraint2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Constraint> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/_2A_parts_template/LocalSubComponent1> <http://sbols.org/v3#displayId> "LocalSubComponent1" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/_2A_parts_template/LocalSubComponent1> <http://sbols.org/v3#name> "Inserted Construct" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/_2A_parts_template/LocalSubComponent1> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/_2A_parts_template/LocalSubComponent1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#LocalSubComponent> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/_2A_parts_template/SubComponent1> <http://sbols.org/v3#displayId> "SubComponent1" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/_2A_parts_template/SubComponent1> <http://sbols.org/v3#instanceOf> <https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/pSB1C5> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/_2A_parts_template/SubComponent1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#SubComponent> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/_2A_parts_template> <http://sbols.org/v3#displayId> "_2A_parts_template" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/_2A_parts_template> <http://sbols.org/v3#hasConstraint> <https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/_2A_parts_template/Constraint1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/_2A_parts_template> <http://sbols.org/v3#hasConstraint> <https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/_2A_parts_template/Constraint2> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/_2A_parts_template> <http://sbols.org/v3#hasFeature> <https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/_2A_parts_template/LocalSubComponent1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/_2A_parts_template> <http://sbols.org/v3#hasFeature> <https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/_2A_parts_template/SubComponent1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/_2A_parts_template> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/_2A_parts_template> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/_2A_parts_template> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/pSB1C5> <http://sbols.org/v3#description> "" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/pSB1C5> <http://sbols.org/v3#displayId> "pSB1C5" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/pSB1C5> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/pSB1C5> <http://sbols.org/v3#name> "pSB1C5" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/pSB1C5> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000755> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/pSB1C5> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/pSB1C5> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/2A_peptides/pSB1C5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .

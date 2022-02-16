@@ -1,0 +1,15 @@
+LOCUS       E2A                    60 bp ds-DNA     circular     25-SEP-2021
+DEFINITION  .
+KEYWORDS    "accession:addgene_111818_210073"                                  
+SOURCE      synthetic DNA construct                                            
+  ORGANISM  synthetic DNA construct                                            
+FEATURES             Location/Qualifiers
+     CDS             1..60
+                     /label="E2A"
+                     /ApEinfo_revcolor=#9eafd2
+                     /ApEinfo_fwdcolor=#9eafd2
+     exon            1..60
+                     /label="Translation 1-60"
+ORIGIN
+        1 cagtgtacta attatgctct cttgaaattg gctggagatg ttgagagcaa cccaggtccc
+//

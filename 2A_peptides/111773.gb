@@ -1,0 +1,15 @@
+LOCUS       T2A                    54 bp ds-DNA     circular     25-SEP-2021
+DEFINITION  .
+KEYWORDS    "accession:addgene_111773_209946"                                  
+SOURCE      synthetic DNA construct                                            
+  ORGANISM  synthetic DNA construct                                            
+FEATURES             Location/Qualifiers
+     CDS             1..54
+                     /label="T2A"
+                     /ApEinfo_revcolor=#f8d3a9
+                     /ApEinfo_fwdcolor=#f8d3a9
+     exon            1..54
+                     /label="Translation 1-54"
+ORIGIN
+        1 gagggcaggg gaagtcttct aacatgcggg gacgtggagg aaaatcccgg ccca
+//

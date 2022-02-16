@@ -1,0 +1,15 @@
+LOCUS       P2A                    57 bp ds-DNA     circular     25-SEP-2021
+DEFINITION  .
+KEYWORDS    "accession:addgene_111772_209945"                                  
+SOURCE      synthetic DNA construct                                            
+  ORGANISM  synthetic DNA construct                                            
+FEATURES             Location/Qualifiers
+     CDS             1..57
+                     /label="P2A"
+                     /ApEinfo_revcolor=#f58a5e
+                     /ApEinfo_fwdcolor=#f58a5e
+     exon            1..57
+                     /label="Translation 1-57"
+ORIGIN
+        1 gccacaaact tctctctgct aaagcaagca ggtgatgttg aagaaaaccc cgggcct
+//

@@ -1,0 +1,113 @@
+
+<http://sevahub.es/public/Canonical/cd_OriT> <http://sbols.org/v3#description> "Seva OriT" .
+<http://sevahub.es/public/Canonical/cd_OriT> <http://sbols.org/v3#displayId> "cd_OriT" .
+<http://sevahub.es/public/Canonical/cd_OriT> <http://sbols.org/v3#hasNamespace> <http://sevahub.es> .
+<http://sevahub.es/public/Canonical/cd_OriT> <http://sbols.org/v3#hasSequence> <http://sevahub.es/public/Canonical/seq_seqOriT> .
+<http://sevahub.es/public/Canonical/cd_OriT> <http://sbols.org/v3#name> "OriT" .
+<http://sevahub.es/public/Canonical/cd_OriT> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<http://sevahub.es/public/Canonical/cd_OriT> <http://sboltools.org/backport#sbol2type> <http://sbols.org/v2#ComponentDefinition> .
+<http://sevahub.es/public/Canonical/cd_OriT> <http://sboltools.org/backport#sbol2version> "1" .
+<http://sevahub.es/public/Canonical/cd_OriT> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy> <http://sevahub.es/user/sevahub> .
+<http://sevahub.es/public/Canonical/cd_OriT> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <http://sevahub.es/public/Canonical/cd_OriT> .
+<http://sevahub.es/public/Canonical/cd_OriT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<http://sevahub.es/public/Canonical/lacZ_pUC19/lacZ_pUC19/r> <http://sbols.org/v3#displayId> "r" .
+<http://sevahub.es/public/Canonical/lacZ_pUC19/lacZ_pUC19/r> <http://sbols.org/v3#end> "593" .
+<http://sevahub.es/public/Canonical/lacZ_pUC19/lacZ_pUC19/r> <http://sbols.org/v3#hasSequence> <http://sevahub.es/public/Canonical/lacZ_pUC19_seq> .
+<http://sevahub.es/public/Canonical/lacZ_pUC19/lacZ_pUC19/r> <http://sbols.org/v3#orientation> <http://sbols.org/v3#inline> .
+<http://sevahub.es/public/Canonical/lacZ_pUC19/lacZ_pUC19/r> <http://sbols.org/v3#start> "9" .
+<http://sevahub.es/public/Canonical/lacZ_pUC19/lacZ_pUC19/r> <http://sboltools.org/backport#sbol2version> "1" .
+<http://sevahub.es/public/Canonical/lacZ_pUC19/lacZ_pUC19/r> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy> <http://sevahub.es/user/sevahub> .
+<http://sevahub.es/public/Canonical/lacZ_pUC19/lacZ_pUC19/r> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <http://sevahub.es/public/Canonical/lacZ_pUC19> .
+<http://sevahub.es/public/Canonical/lacZ_pUC19/lacZ_pUC19/r> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Range> .
+<http://sevahub.es/public/Canonical/lacZ_pUC19/lacZ_pUC19> <http://sbols.org/v3#displayId> "lacZ_pUC19" .
+<http://sevahub.es/public/Canonical/lacZ_pUC19/lacZ_pUC19> <http://sbols.org/v3#hasLocation> <http://sevahub.es/public/Canonical/lacZ_pUC19/lacZ_pUC19/r> .
+<http://sevahub.es/public/Canonical/lacZ_pUC19/lacZ_pUC19> <http://sboltools.org/backport#sbol2version> "1" .
+<http://sevahub.es/public/Canonical/lacZ_pUC19/lacZ_pUC19> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy> <http://sevahub.es/user/sevahub> .
+<http://sevahub.es/public/Canonical/lacZ_pUC19/lacZ_pUC19> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <http://sevahub.es/public/Canonical/lacZ_pUC19> .
+<http://sevahub.es/public/Canonical/lacZ_pUC19/lacZ_pUC19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#SequenceFeature> .
+<http://sevahub.es/public/Canonical/lacZ_pUC19> <http://sbols.org/v3#displayId> "lacZ_pUC19" .
+<http://sevahub.es/public/Canonical/lacZ_pUC19> <http://sbols.org/v3#hasFeature> <http://sevahub.es/public/Canonical/lacZ_pUC19/lacZ_pUC19> .
+<http://sevahub.es/public/Canonical/lacZ_pUC19> <http://sbols.org/v3#hasNamespace> <http://sevahub.es> .
+<http://sevahub.es/public/Canonical/lacZ_pUC19> <http://sbols.org/v3#hasSequence> <http://sevahub.es/public/Canonical/lacZ_pUC19_seq> .
+<http://sevahub.es/public/Canonical/lacZ_pUC19> <http://sbols.org/v3#name> "lacZ_pUC19" .
+<http://sevahub.es/public/Canonical/lacZ_pUC19> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<http://sevahub.es/public/Canonical/lacZ_pUC19> <http://sboltools.org/backport#sbol2type> <http://sbols.org/v2#ComponentDefinition> .
+<http://sevahub.es/public/Canonical/lacZ_pUC19> <http://sboltools.org/backport#sbol2version> "1" .
+<http://sevahub.es/public/Canonical/lacZ_pUC19> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy> <http://sevahub.es/user/sevahub> .
+<http://sevahub.es/public/Canonical/lacZ_pUC19> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <http://sevahub.es/public/Canonical/lacZ_pUC19> .
+<http://sevahub.es/public/Canonical/lacZ_pUC19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<http://sevahub.es/public/Canonical/lacZ_pUC19_seq> <http://sbols.org/v3#displayId> "lacZ_pUC19_seq" .
+<http://sevahub.es/public/Canonical/lacZ_pUC19_seq> <http://sbols.org/v3#elements> "TTAATTAAGAAGCGGAAGAGCGCCCAATACGCAAACCGCCTCTCCCCGCGCGTTGGCCGATTCATTAATGCAGCTGGCACGACAGGTTTCCCGACTGGAAAGCGGGCAGTGAGCGCAACGCAATTAATGTGAGTTAGCTCACTCATTAGGCACCCCAGGCTTTACACTTTATGCTTCCGGCTCGTATGTTGTGTGGAATTGTGAGCGGATAACAATTTCACACAGGAAACAGCTATGACCATGATTACGCCAAGCTTGCATGCCTGCAGGTCGACTCTAGAGGATCCCCGGGTACCGAGCTCGAATTCACTGGCCGTCGTTTTACAACGTCGTGACTGGGAAAACCCTGGCGTTACCCAACTTAATCGCCTTGCAGCACATCCCCCTTTCGCCAGCTGGCGTAATAGCGAAGAGGCCCGCACCGATCGCCCTTCCCAACAGTTGCGCAGCCTGAATGGCGAATGGCGCCTGATGCGGTATTTTCTCCTTACGCATCTGTGCGGTATTTCACACCGCATATGGTGCACTCTCAGTACAATCTGCTCTGATGCCGCATAGTTAAGCCAGCCCCGACACCCGCCAACACCCGCTGAACTAGT" .
+<http://sevahub.es/public/Canonical/lacZ_pUC19_seq> <http://sbols.org/v3#encoding> <https://identifiers.org/edam:format_1207> .
+<http://sevahub.es/public/Canonical/lacZ_pUC19_seq> <http://sbols.org/v3#hasNamespace> <http://sevahub.es> .
+<http://sevahub.es/public/Canonical/lacZ_pUC19_seq> <http://sboltools.org/backport#sbol2version> "1" .
+<http://sevahub.es/public/Canonical/lacZ_pUC19_seq> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy> <http://sevahub.es/user/sevahub> .
+<http://sevahub.es/public/Canonical/lacZ_pUC19_seq> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <http://sevahub.es/public/Canonical/lacZ_pUC19_seq> .
+<http://sevahub.es/public/Canonical/lacZ_pUC19_seq> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Sequence> .
+<http://sevahub.es/public/Canonical/seq_seqOriT> <http://sbols.org/v3#displayId> "seq_seqOriT" .
+<http://sevahub.es/public/Canonical/seq_seqOriT> <http://sbols.org/v3#elements> "CTTTTCCGCTGCATAACCCTGCTTCGGGGTCATTATAGCGATTTTTTCGGTATATCCATCCTTTTTCGCACGATATACAGGATTTTGCCAAAGGGTTCGTGTAGACTTTCCTTGGTGTATCCAACGGCGTCAGCCGGGCAGGATAGGTGAAGTAGGCCCACCCGCGAGCGGGTGTTCCTTCTTCACTGTCCCTTATTCGCACCTGGCGGTGCTCAACGGGAATCCTGCTCTGCGAGGCTGGCCGTA" .
+<http://sevahub.es/public/Canonical/seq_seqOriT> <http://sbols.org/v3#encoding> <https://identifiers.org/edam:format_1207> .
+<http://sevahub.es/public/Canonical/seq_seqOriT> <http://sbols.org/v3#hasNamespace> <http://sevahub.es> .
+<http://sevahub.es/public/Canonical/seq_seqOriT> <http://sboltools.org/backport#sbol2version> "1" .
+<http://sevahub.es/public/Canonical/seq_seqOriT> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy> <http://sevahub.es/user/sevahub> .
+<http://sevahub.es/public/Canonical/seq_seqOriT> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <http://sevahub.es/public/Canonical/seq_seqOriT> .
+<http://sevahub.es/public/Canonical/seq_seqOriT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Sequence> .
+<https://synbiohub.org/public/igem/BBa_J23100> <http://purl.org/dc/elements/1.1/creator> "John Anderson" .
+<https://synbiohub.org/public/igem/BBa_J23100> <http://purl.org/dc/terms/created> "2006-08-03T11:00:00Z" .
+<https://synbiohub.org/public/igem/BBa_J23100> <http://purl.org/dc/terms/modified> "2015-08-31T04:08:40Z" .
+<https://synbiohub.org/public/igem/BBa_J23100> <http://sbols.org/v3#description> "constitutive promoter family member" .
+<https://synbiohub.org/public/igem/BBa_J23100> <http://sbols.org/v3#displayId> "BBa_J23100" .
+<https://synbiohub.org/public/igem/BBa_J23100> <http://sbols.org/v3#hasNamespace> <https://synbiohub.org> .
+<https://synbiohub.org/public/igem/BBa_J23100> <http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/BBa_J23100_sequence> .
+<https://synbiohub.org/public/igem/BBa_J23100> <http://sbols.org/v3#name> "BBa_J23100" .
+<https://synbiohub.org/public/igem/BBa_J23100> <http://sbols.org/v3#role> <http://identifiers.org/so/SO:0000167> .
+<https://synbiohub.org/public/igem/BBa_J23100> <http://sbols.org/v3#role> <http://wiki.synbiohub.org/wiki/Terms/igem#partType/Regulatory> .
+<https://synbiohub.org/public/igem/BBa_J23100> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://synbiohub.org/public/igem/BBa_J23100> <http://sboltools.org/backport#sbol2type> <http://sbols.org/v2#ComponentDefinition> .
+<https://synbiohub.org/public/igem/BBa_J23100> <http://sboltools.org/backport#sbol2version> "1" .
+<https://synbiohub.org/public/igem/BBa_J23100> <http://wiki.synbiohub.org/wiki/Terms/igem#discontinued> "false" .
+<https://synbiohub.org/public/igem/BBa_J23100> <http://wiki.synbiohub.org/wiki/Terms/igem#dominant> "true" .
+<https://synbiohub.org/public/igem/BBa_J23100> <http://wiki.synbiohub.org/wiki/Terms/igem#experience> <http://wiki.synbiohub.org/wiki/Terms/igem#experience/Works> .
+<https://synbiohub.org/public/igem/BBa_J23100> <http://wiki.synbiohub.org/wiki/Terms/igem#group_u_list> "_52_" .
+<https://synbiohub.org/public/igem/BBa_J23100> <http://wiki.synbiohub.org/wiki/Terms/igem#m_user_id> "0" .
+<https://synbiohub.org/public/igem/BBa_J23100> <http://wiki.synbiohub.org/wiki/Terms/igem#owner_id> "483" .
+<https://synbiohub.org/public/igem/BBa_J23100> <http://wiki.synbiohub.org/wiki/Terms/igem#owning_group_id> "95" .
+<https://synbiohub.org/public/igem/BBa_J23100> <http://wiki.synbiohub.org/wiki/Terms/igem#partStatus> "Released HQ 2013" .
+<https://synbiohub.org/public/igem/BBa_J23100> <http://wiki.synbiohub.org/wiki/Terms/igem#sampleStatus> "In stock" .
+<https://synbiohub.org/public/igem/BBa_J23100> <http://wiki.synbiohub.org/wiki/Terms/igem#status> <http://wiki.synbiohub.org/wiki/Terms/igem#status/Available> .
+<https://synbiohub.org/public/igem/BBa_J23100> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#bookmark> "true" .
+<https://synbiohub.org/public/igem/BBa_J23100> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#mutableDescription> "Replace later" .
+<https://synbiohub.org/public/igem/BBa_J23100> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#mutableNotes> "N/A" .
+<https://synbiohub.org/public/igem/BBa_J23100> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#mutableProvenance> "Isolated from library of promoters" .
+<https://synbiohub.org/public/igem/BBa_J23100> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy> <https://synbiohub.org/user/james> .
+<https://synbiohub.org/public/igem/BBa_J23100> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy> <https://synbiohub.org/user/myers> .
+<https://synbiohub.org/public/igem/BBa_J23100> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#star> "true" .
+<https://synbiohub.org/public/igem/BBa_J23100> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/BBa_J23100> .
+<https://synbiohub.org/public/igem/BBa_J23100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://synbiohub.org/public/igem/BBa_J23100> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://parts.igem.org/Part:BBa_J23100> .
+<https://synbiohub.org/public/igem/BBa_J23100> <http://www.w3.org/ns/prov#wasGeneratedBy> <https://synbiohub.org/public/igem/igem2sbol> .
+<https://synbiohub.org/public/igem/BBa_J23100_sequence> <http://sbols.org/v3#displayId> "BBa_J23100_sequence" .
+<https://synbiohub.org/public/igem/BBa_J23100_sequence> <http://sbols.org/v3#elements> "ttgacggctagctcagtcctaggtacagtgctagc" .
+<https://synbiohub.org/public/igem/BBa_J23100_sequence> <http://sbols.org/v3#encoding> <https://identifiers.org/edam:format_1207> .
+<https://synbiohub.org/public/igem/BBa_J23100_sequence> <http://sbols.org/v3#hasNamespace> <https://synbiohub.org> .
+<https://synbiohub.org/public/igem/BBa_J23100_sequence> <http://sboltools.org/backport#sbol2version> "1" .
+<https://synbiohub.org/public/igem/BBa_J23100_sequence> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy> <https://synbiohub.org/user/james> .
+<https://synbiohub.org/public/igem/BBa_J23100_sequence> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy> <https://synbiohub.org/user/myers> .
+<https://synbiohub.org/public/igem/BBa_J23100_sequence> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/BBa_J23100_sequence> .
+<https://synbiohub.org/public/igem/BBa_J23100_sequence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Sequence> .
+<https://synbiohub.org/public/igem/BBa_J23100_sequence> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://parts.igem.org/Part:BBa_J23100> .
+<https://synbiohub.org/public/igem/BBa_J23100_sequence> <http://www.w3.org/ns/prov#wasGeneratedBy> <https://synbiohub.org/public/igem/igem2sbol> .
+<https://synbiohub.org/public/igem/igem2sbol> <http://purl.org/dc/elements/1.1/creator> "Chris J. Myers" .
+<https://synbiohub.org/public/igem/igem2sbol> <http://purl.org/dc/elements/1.1/creator> "James Alastair McLaughlin" .
+<https://synbiohub.org/public/igem/igem2sbol> <http://purl.org/dc/terms/description> "Conversion of the iGEM parts registry to SBOL2.1" .
+<https://synbiohub.org/public/igem/igem2sbol> <http://purl.org/dc/terms/title> "iGEM to SBOL conversion" .
+<https://synbiohub.org/public/igem/igem2sbol> <http://sbols.org/v2#persistentIdentity> <https://synbiohub.org/public/igem/igem2sbol> .
+<https://synbiohub.org/public/igem/igem2sbol> <http://sbols.org/v3#displayId> "igem2sbol" .
+<https://synbiohub.org/public/igem/igem2sbol> <http://sbols.org/v3#hasNamespace> <https://synbiohub.org> .
+<https://synbiohub.org/public/igem/igem2sbol> <http://sboltools.org/backport#sbol2version> "1" .
+<https://synbiohub.org/public/igem/igem2sbol> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy> <https://synbiohub.org/user/james> .
+<https://synbiohub.org/public/igem/igem2sbol> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy> <https://synbiohub.org/user/myers> .
+<https://synbiohub.org/public/igem/igem2sbol> <http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/igem2sbol> .
+<https://synbiohub.org/public/igem/igem2sbol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#TopLevel> .
+<https://synbiohub.org/public/igem/igem2sbol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Activity> .
+<https://synbiohub.org/public/igem/igem2sbol> <http://www.w3.org/ns/prov#endedAtTime> "2017-03-06T15:00:00+00:00" .

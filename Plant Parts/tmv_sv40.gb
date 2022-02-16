@@ -1,0 +1,18 @@
+LOCUS       TMV_SV40                 126 bp ds-DNA     linear       10-FEB-2022
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     5'UTR           1..82
+                     /label="omega\TMV\(w.t.)"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
+     CDS             83..126
+                     /label="Sv40NLS"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
+     exon            83..126
+                     /label="Translation 83-126"
+ORIGIN
+        1 gtataagagc tcatttttac aacaattacc aacaacaaca aacaacaaac aacattacaa
+       61 ttacatttac aattatcgat acatggcttc tagcccaccg aagaagaagc ggaaggtcag
+      121 ctggaa
+//

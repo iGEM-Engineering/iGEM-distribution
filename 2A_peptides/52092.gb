@@ -1,0 +1,16 @@
+LOCUS       F2A                     66 bp ds-DNA     circular     25-SEP-2021
+DEFINITION  .
+KEYWORDS    "accession:addgene_52092_80506"                                    
+SOURCE      synthetic DNA construct                                            
+  ORGANISM  synthetic DNA construct                                            
+FEATURES             Location/Qualifiers
+     CDS             1..66
+                     /label="F2A"
+                     /ApEinfo_revcolor=#c6c9d1
+                     /ApEinfo_fwdcolor=#c6c9d1
+     exon            1..66
+                     /label="Translation 1-66"
+ORIGIN
+        1 gtgaaacaga ctttgaattt tgaccttctc aagttggcgg gagacgtgga gtccaaccca
+       61 gggccc
+//
