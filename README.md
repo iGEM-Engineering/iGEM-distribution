@@ -1,5 +1,7 @@
 # iGEM Distribution Design
 
+[Click here](https://igem-distribution.readthedocs.io) for the detailed documentation of iGEM-distribution.
+
 This repository is for collective design of an iGEM DNA distribution. The processes used in this repository are intended to support:
 
 - Design, review, and discussion by many contributors
