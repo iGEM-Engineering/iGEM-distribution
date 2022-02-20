@@ -21,6 +21,8 @@ SHEET_CONFIG = {
     'composite_parts_description': None,
     'composite_first_row': 14,
     'composite_strain_col': None,
+    'composite_name_col': 0,
+    'composite_displayid_col': 1,
     'composite_context_col': 4,
     'composite_constraints_col': 5,
     'composite_first_part_col': 6
