@@ -9,6 +9,13 @@ Welcome to iGEM-distribution's documentation!
 .. Hidden TOCs
 
 .. toctree::
+   :caption: Introduction
+   :maxdepth: 2
+   :hidden:
+
+   introduction/distribution
+
+.. toctree::
    :caption: Getting started
    :maxdepth: 2
    :hidden:
@@ -33,6 +40,14 @@ Welcome to iGEM-distribution's documentation!
    :hidden:
 
    code/building
+
+
+Introduction
+---------------
+
+What are we building? And how is it different from previous distributions?
+
+- :doc:`What is the Distribution 2.0 <introduction/distribution>`
 
 
 Getting started
