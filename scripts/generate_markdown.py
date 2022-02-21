@@ -1,10 +1,11 @@
+""" Generates README for package"""
 import os
 import sys
 import sbol3
 
 import scriptutils
 
-error = False
+ERROR = False
 packages = scriptutils.package_dirs()
 for p in packages:
 
@@ -16,8 +17,8 @@ for p in packages:
 
     except (OSError, ValueError) as e:
         print(f'Could not generate README for package {os.path.basename(p)}: {e}')
-        error = True
+        ERROR = True
 
 # If there was an error, flag on exit in order to notify executing YAML script
-if error:
+if ERROR:
     sys.exit(1)
