@@ -8,7 +8,7 @@ import scriptutils
 
 # find the repository for automatic git actions, if possible
 try:
-REPO = git.Repo('.', search_parent_directories=True)
+    REPO = git.Repo('.', search_parent_directories=True)
 except git.InvalidGitRepositoryError:
     REPO = None
 
