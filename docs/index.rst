@@ -38,7 +38,8 @@ Welcome to iGEM-distribution's documentation!
 Getting started
 ---------------
 
-We know that this way of working may be unfamiliar to many of you, but we believe that it's the best way to make the development of the new distribution as open and collaborative as possible! Don't worry if you've never used github before:
+We know that this way of working may be unfamiliar to many of you, but we believe that it's the best way to make the development of the new distribution as open and collaborative as possible!
+Don't worry if you've never used github before:
 
 - :doc:`Guide to Github <getting_started/github>`
 
