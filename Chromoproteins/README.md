@@ -8,13 +8,13 @@ A collection of iGEM Registry chromoproteins from Team Uppsala, useful for repor
     - CDS: 12
     - designed_sequence: 2
 - 1 vectors
-- 12 samples for distribution
+- 11 samples for distribution _<span style="color:red">1 parts not included</span>_
 
 ### Parts:
 
 - D1005 (designed_sequence) in pSB1C5
 - D1006 (designed_sequence) in pSB1C5
-- BBa_K1033902: meffBlue (CDS) in pSB1C5
+- BBa_K1033902: meffBlue (CDS) _<span style="color:red">not included in distribution</span>_
 - BBa_K1033906: tsPurple (CDS) in pSB1C5
 - BBa_K1033910: fwYellow (CDS) in pSB1C5
 - BBa_K1033916 (CDS) in pSB1C5
