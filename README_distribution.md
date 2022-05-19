@@ -1,6 +1,6 @@
 # Distribution Summary
 
-- 221 samples planned for distribution
+- 220 samples planned for distribution
 
 ### Parts:
 
@@ -85,21 +85,20 @@
 - Fluorescent_Proteins_in_vector_Fluorescent_Proteins_in_vector_ins_mKate2
 - Fluorescent_Proteins_in_vector_Fluorescent_Proteins_in_vector_ins_mRFP1
 - Fluorescent_Proteins_in_vector_Fluorescent_Proteins_in_vector_ins_mScarlet
-- DC_B_DC_B_ins_BBa_J06504
-- DC_B_DC_B_ins_K2656022
+- DC_B
+- DC_B_recloned_into_pSB1C3
 - DC_G_DC_G_ins_BBa_J06504
 - DC_G_DC_G_ins_BBa_K592100
-- DC_PC_DC_PC_ins_BBa_J06504
-- DC_PC_DC_PC_ins_BBa_K592100
-- DC_PC_DC_PC_ins_K2656022
+- DC_PC
+- DC_PC_recloned_into_pSB1C3
 - DC_R_DC_R_ins_BBa_K592100
 - DC_R_DC_R_ins_K2656022
 - Interlab_NegC
 - Three_Colors_Three_Colors_ins_BBa_E1010
 - Three_Colors_Three_Colors_ins_BBa_J06504
-- Three_Colors_Three_Colors_ins_BBa_K592100
-- Three_Colors_Three_Colors_ins_ECFP
 - Three_Colors_Three_Colors_ins_K2656022
+- Three_Colors_recloned_into_pSB1C3_Three_Colors_recloned_into_pSB1C3_ins_BBa_K592100
+- Three_Colors_recloned_into_pSB1C3_Three_Colors_recloned_into_pSB1C3_ins_ECFP
 - Plant_CDSs_Plant_CDSs_ins_Bar
 - Plant_CDSs_Plant_CDSs_ins_GFP
 - Plant_CDSs_Plant_CDSs_ins_NPTII
