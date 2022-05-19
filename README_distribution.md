@@ -1,6 +1,6 @@
 # Distribution Summary
 
-- 229 samples planned for distribution
+- 221 samples planned for distribution
 
 ### Parts:
 
@@ -55,9 +55,9 @@
 - Cell_Comm_Promoters_Cell_Comm_Promoters_ins_BBa_K1529310
 - Cell_Comm_Promoters_Cell_Comm_Promoters_ins_BBa_K649000
 - Cell_Comm_Promoters_Cell_Comm_Promoters_ins_BBa_K934024
-- Cell_Comm_Promoters_Cell_Comm_Promoters_ins_BBa_R0051
 - Cell_Comm_Promoters_Cell_Comm_Promoters_ins_BBa_R0062
 - Cell_Comm_Promoters_Cell_Comm_Promoters_ins_Prhl_NM
+- Cell_Comm_Promoters_in_pSB1C3
 - Chromoproteins_in_vector_Chromoproteins_in_vector_ins_BBa_K1033906
 - Chromoproteins_in_vector_Chromoproteins_in_vector_ins_BBa_K1033910
 - Chromoproteins_in_vector_Chromoproteins_in_vector_ins_BBa_K1033916
@@ -128,11 +128,11 @@
 - PETase_library_PETase_library_ins_K2910000
 - PETase_library_PETase_library_ins_K2910002
 - PETase_library_PETase_library_ins_K2910003
-- PETase_library_PETase_library_ins_K3039002
 - PETase_library_PETase_library_ins_K3039003
 - PETase_library_PETase_library_ins_K3039017
 - PETase_library_PETase_library_ins_PETase_EcCO_WT
-- PETase_library_PETase_library_ins_PETase_W159H_S238F
+- PETase_library_in_pSB1C3_PETase_library_in_pSB1C3_ins_K3039002
+- PETase_library_in_pSB1C3_PETase_library_in_pSB1C3_ins_PETase_W159H_S238F
 - PETase_wildtype
 - RBSs_in_pSB1C3_RBSs_in_pSB1C3_ins_BBa_B0032_m0
 - RBSs_in_pSB1C3_RBSs_in_pSB1C3_ins_BBa_Z0262
@@ -147,13 +147,10 @@
 - RBSs_in_vector_RBSs_in_vector_ins_BCD8
 - Coding_sequences_Coding_sequences_ins_AcuR_AM
 - Coding_sequences_Coding_sequences_ins_AraC
-- Coding_sequences_Coding_sequences_ins_AraC_AM_AraE
-- Coding_sequences_Coding_sequences_ins_AraE
 - Coding_sequences_Coding_sequences_ins_BBa_C0012
 - Coding_sequences_Coding_sequences_ins_BBa_C0040
 - Coding_sequences_Coding_sequences_ins_BBa_C0080
 - Coding_sequences_Coding_sequences_ins_BBa_K2680537
-- Coding_sequences_Coding_sequences_ins_BBa_K3317004
 - Coding_sequences_Coding_sequences_ins_BetI_AM
 - Coding_sequences_Coding_sequences_ins_CinR_AM
 - Coding_sequences_Coding_sequences_ins_CymR_AM
@@ -166,22 +163,20 @@
 - Coding_sequences_Coding_sequences_ins_TetR
 - Coding_sequences_Coding_sequences_ins_TtgR_AM
 - Promoters_Promoters_ins_BBa_I0500
-- Promoters_Promoters_ins_BBa_K2680520
 - Promoters_Promoters_ins_BBa_K2680523
 - Promoters_Promoters_ins_BBa_K3317006
-- Promoters_Promoters_ins_BBa_K3317007
 - Promoters_Promoters_ins_BBa_K3424010
 - Promoters_Promoters_ins_BBa_R0010
 - Promoters_Promoters_ins_BBa_R0040
 - Promoters_Promoters_ins_pAcu
 - Promoters_Promoters_ins_pBAD
-- Promoters_Promoters_ins_pBetI
 - Promoters_Promoters_ins_pCymRC
-- Promoters_Promoters_ins_pL_lac0_1
 - Promoters_Promoters_ins_pLuxB
-- Promoters_Promoters_ins_pMph
-- Promoters_Promoters_ins_pTac
-- Promoters_Promoters_ins_pTtg
+- Promoters_in_pSB1C3_Promoters_in_pSB1C3_ins_BBa_K2680520
+- Promoters_in_pSB1C3_Promoters_in_pSB1C3_ins_BBa_K3317007
+- Promoters_in_pSB1C3_Promoters_in_pSB1C3_ins_pBetI
+- Promoters_in_pSB1C3_Promoters_in_pSB1C3_ins_pTac
+- Promoters_in_pSB1C3_Promoters_in_pSB1C3_ins_pTtg
 - Terminators_in_pSB1C3
 - Terminators_in_vector_Terminators_in_vector_ins_BBa_B0012
 - Terminators_in_vector_Terminators_in_vector_ins_BBa_B0015
@@ -198,31 +193,26 @@
 - _2018_Interlab_Devices_J364009
 - Promoters_Promoters_ins_pAmeR
 - Promoters_Promoters_ins_pAmtR
-- Promoters_Promoters_ins_pBM3R1
-- Promoters_Promoters_ins_pBetI
 - Promoters_Promoters_ins_pButR
 - Promoters_Promoters_ins_pHapR
 - Promoters_Promoters_ins_pHlyllR
-- Promoters_Promoters_ins_pIcaRA
-- Promoters_Promoters_ins_pLitR
-- Promoters_Promoters_ins_pMcbR
 - Promoters_Promoters_ins_pOrf2
-- Promoters_Promoters_ins_pPhlF
 - Promoters_Promoters_ins_pPsrA
-- Promoters_Promoters_ins_pQacR
 - Promoters_Promoters_ins_pScbR
 - Promoters_Promoters_ins_pSmcR
-- Promoters_Promoters_ins_pSrpR
-- Promoters_Promoters_ins_pTarA
+- Promoters_in_pSB1C3_Promoters_in_pSB1C3_ins_pBM3R1
+- Promoters_in_pSB1C3_Promoters_in_pSB1C3_ins_pBetI
+- Promoters_in_pSB1C3_Promoters_in_pSB1C3_ins_pIcaRA
+- Promoters_in_pSB1C3_Promoters_in_pSB1C3_ins_pMcbR
+- Promoters_in_pSB1C3_Promoters_in_pSB1C3_ins_pPhlF
+- Promoters_in_pSB1C3_Promoters_in_pSB1C3_ins_pQacR
+- Promoters_in_pSB1C3_Promoters_in_pSB1C3_ins_pSrpR
+- Promoters_in_pSB1C3_Promoters_in_pSB1C3_ins_pTarA
 - TetR_Orthologs_TetR_Orthologs_ins_AmeR
 - TetR_Orthologs_TetR_Orthologs_ins_AmtR
-- TetR_Orthologs_TetR_Orthologs_ins_BM3R1
 - TetR_Orthologs_TetR_Orthologs_ins_BetI
 - TetR_Orthologs_TetR_Orthologs_ins_ButR
 - TetR_Orthologs_TetR_Orthologs_ins_HapR
-- TetR_Orthologs_TetR_Orthologs_ins_HlyllR
-- TetR_Orthologs_TetR_Orthologs_ins_IcaRA
-- TetR_Orthologs_TetR_Orthologs_ins_LitR
 - TetR_Orthologs_TetR_Orthologs_ins_LmrA
 - TetR_Orthologs_TetR_Orthologs_ins_McbR
 - TetR_Orthologs_TetR_Orthologs_ins_Orf2
@@ -230,8 +220,10 @@
 - TetR_Orthologs_TetR_Orthologs_ins_PsrA
 - TetR_Orthologs_TetR_Orthologs_ins_QacR
 - TetR_Orthologs_TetR_Orthologs_ins_ScbR
-- TetR_Orthologs_TetR_Orthologs_ins_SmcR
 - TetR_Orthologs_TetR_Orthologs_ins_SrpR
 - TetR_Orthologs_TetR_Orthologs_ins_TarA
+- TetR_Orthologs_in_pSB1C3_TetR_Orthologs_in_pSB1C3_ins_BM3R1
+- TetR_Orthologs_in_pSB1C3_TetR_Orthologs_in_pSB1C3_ins_IcaRA
+- TetR_Orthologs_in_pSB1C3_TetR_Orthologs_in_pSB1C3_ins_LitR
 
 _Note: automatically generated from distribution SBOL file; do not edit_
