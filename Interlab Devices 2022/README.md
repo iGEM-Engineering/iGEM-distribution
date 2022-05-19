@@ -17,7 +17,7 @@ Candidate devices for interlaboratory studies to be carried out on 2022.  Includ
     - stop_codon: 1
     - terminator: 3
 - 1 vectors
-- 15 samples for distribution _<span style="color:red">6 parts not included</span>_
+- 14 samples for distribution _<span style="color:red">6 parts not included</span>_
 
 ### Parts:
 
