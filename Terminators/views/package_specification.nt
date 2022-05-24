@@ -234,8 +234,6 @@
 <https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/Terminators_in_vector_ins/VariableFeature1> <http://sbols.org/v3#variable> <https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/Terminators_in_vector_ins_template/LocalSubComponent1> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/Terminators_in_vector_ins/VariableFeature1> <http://sbols.org/v3#variant> <http://parts.igem.org/B0012> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/Terminators_in_vector_ins/VariableFeature1> <http://sbols.org/v3#variant> <http://parts.igem.org/B0015> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/Terminators_in_vector_ins/VariableFeature1> <http://sbols.org/v3#variant> <http://parts.igem.org/B1006> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/Terminators_in_vector_ins/VariableFeature1> <http://sbols.org/v3#variant> <https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/BBa_B1006_T_U10> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/Terminators_in_vector_ins/VariableFeature1> <http://sbols.org/v3#variant> <https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/rnpB_T1> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/Terminators_in_vector_ins/VariableFeature1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#VariableFeature> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/Terminators_in_vector_ins> <http://sbols.org/v3#description> "" .
@@ -351,6 +349,8 @@
 <https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/Unable_to_build_ins/VariableFeature1> <http://sbols.org/v3#displayId> "VariableFeature1" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/Unable_to_build_ins/VariableFeature1> <http://sbols.org/v3#variable> <https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/Unable_to_build_ins_template/LocalSubComponent1> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/Unable_to_build_ins/VariableFeature1> <http://sbols.org/v3#variant> <http://parts.igem.org/B0010> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/Unable_to_build_ins/VariableFeature1> <http://sbols.org/v3#variant> <http://parts.igem.org/B1006> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/Unable_to_build_ins/VariableFeature1> <http://sbols.org/v3#variant> <https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/BBa_B1006_T_U10> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/Unable_to_build_ins/VariableFeature1> <http://sbols.org/v3#variant> <https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/rpoC_T> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/Unable_to_build_ins/VariableFeature1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#VariableFeature> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Terminators/Unable_to_build_ins> <http://sbols.org/v3#description> "Constructs belonged to original build plan, but unable to synthesize as clonal product by TWIST" .
