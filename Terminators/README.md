@@ -9,7 +9,7 @@ None
     - stop_codon: 1
     - terminator: 7
 - 2 vectors
-- 6 samples for distribution
+- 4 samples for distribution _<span style="color:red">2 parts not included</span>_
 
 ### Parts:
 
@@ -17,13 +17,13 @@ None
 - D1008 (designed_sequence) in pSB1C3, pSB1C5
 - D2001 (designed_sequence) in pSB1C3, pSB1C5
 - D2002 (designed_sequence) in pSB1C3, pSB1C5
-- BBa_B1006_T_U10 (terminator) in pSB1C5
+- BBa_B1006_T_U10 (terminator) _<span style="color:red">not included in distribution</span>_
 - STOP_MC (stop_codon) in pSB1C3, pSB1C5
 - rnpB_T1 (terminator) in pSB1C5
 - rpoC_T (terminator) in pSB1C3
 - BBa_B0010 (terminator) in pSB1C5
 - BBa_B0012 (terminator) in pSB1C5
 - BBa_B0015 (terminator) in pSB1C5
-- BBa_B1006 (terminator) in pSB1C5
+- BBa_B1006 (terminator) _<span style="color:red">not included in distribution</span>_
 
 _Note: automatically generated from package Excel and sequence files; do not edit_
