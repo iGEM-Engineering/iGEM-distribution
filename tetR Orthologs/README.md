@@ -9,7 +9,7 @@ None
     - designed_sequence: 6
     - promoter: 18
 - 2 vectors
-- 34 samples for distribution _<span style="color:red">3 parts not included</span>_
+- 33 samples for distribution _<span style="color:red">4 parts not included</span>_
 
 ### Parts:
 
@@ -31,7 +31,7 @@ None
 - pHapR (promoter) in pSB1C5
 - pHlyllR (promoter) in pSB1C5
 - pMcbR (promoter) in pSB1C3
-- pOrf2 (promoter) in pSB1C5
+- pOrf2 (promoter) _<span style="color:red">not included in distribution</span>_
 - pScbR (promoter) in pSB1C5
 - pSmcR (promoter) in pSB1C5
 - pTarA (promoter) in pSB1C3
