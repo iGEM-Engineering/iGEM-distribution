@@ -369,13 +369,16 @@ def package_parts_inventory(package: str, targets: List[str] = None) -> PackageI
         prefix = NCBI_PREFIX if is_ncbi_cache else package_stem(package)
         with open(file) as f:
             import_file = ImportFile(file, file_type='GenBank', namespace=prefix)
-            for record in SeqIO.parse(f, "gb"):
-                if record.name in id_map:
-                    identity = id_map[record.name]
-                    import_file.namespace = identity.removesuffix(f'/{record.name}')
-                else:
-                    identity = accession_to_sbol_uri(record.name, prefix)
-                inventory.add(import_file, identity, accession_to_sbol_uri(record.id, prefix))
+            try:
+                for record in SeqIO.parse(f, "gb"):
+                    if record.name in id_map:
+                        identity = id_map[record.name]
+                        import_file.namespace = identity.removesuffix(f'/{record.name}')
+                    else:
+                        identity = accession_to_sbol_uri(record.name, prefix)
+                    inventory.add(import_file, identity, accession_to_sbol_uri(record.id, prefix))
+            except ValueError as e:
+                raise ValueError(f'Failure while parsing file {file}\n{e}')
 
     # import SBOL3
     for rdf_type, patterns in GENETIC_DESIGN_FILE_TYPES['SBOL3'].items():
