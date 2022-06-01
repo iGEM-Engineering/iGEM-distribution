@@ -31,9 +31,6 @@ FEATURES             Location/Qualifiers
                      /label="tonB terminator"
                      /note="bidirectional E. coli tonB-P14 transcription
                      terminator"
-     CDS             0^1
-                     /label="AF_lacZ pDest"
-                     /note=""
      primer_bind     complement(812..828)
                      /label="M13 rev"
                      /note="common sequencing primer, one of multiple similar
@@ -59,9 +56,6 @@ FEATURES             Location/Qualifiers
                      /label="M13 for"
                      /note="common sequencing primer, one of multiple similar
                      variants"
-     CDS             complement(0^1)
-                     /label="AF_lacZ pDest"
-                     /note=""
      misc_feature    663..722
                      /label="FreeGenes Barcode"
                      /note="FreeGenes Barcode. Defined as I-SceI site flanked by
