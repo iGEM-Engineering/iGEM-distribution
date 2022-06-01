@@ -1,5 +1,7 @@
 # iGEM Distribution Design
 
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
+
 [Click here](https://igem-distribution.readthedocs.io) for more detailed documentation (work-in-progress). 
 
 This repository is for collective design of an iGEM DNA distribution. The processes used in this repository are intended to support:
