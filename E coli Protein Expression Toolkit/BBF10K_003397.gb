@@ -1,10 +1,11 @@
-LOCUS       Exported     2445 bp     DNA     circular     SYN     24-JUL-2020
-DEFINITION  synthetic linear DNA
-ACCESSION   .
-VERSION     .
+LOCUS       BBF10K_003397           2445 bp    DNA     circular SYN 24-JUL-2020
+DEFINITION  synthetic linear DNA.
+ACCESSION   BBF10K_003397
+VERSION     BBF10K_003397
 KEYWORDS    .
 SOURCE      synthetic DNA construct
   ORGANISM  synthetic DNA construct
+            .
 REFERENCE   1  (bases 1 to 2001)
   AUTHORS   Keoni Gandall
   TITLE     Direct Submission
@@ -12,75 +13,88 @@ REFERENCE   1  (bases 1 to 2001)
 FEATURES             Location/Qualifiers
      terminator      1..2445
                      /label="T7 terminator"
-                     /note="transcription terminator for bacteriophage T7 RNA  polymerase"
+                     /note="transcription terminator for bacteriophage T7 RNA
+                     polymerase"
      terminator      482..529
                      /label="T7 terminator"
-                     /note="transcription terminator for bacteriophage T7 RNA polymerase"
+                     /note="transcription terminator for bacteriophage T7 RNA
+                     polymerase"
      primer_bind     2377..2393
                      /label="M13 for"
-                     /note="common sequencing primer, one of multiple similar variants"
+                     /note="common sequencing primer, one of multiple similar
+                     variants"
      terminator      2394..2425
                      /label="tonB terminator"
-                     /note="bidirectional E. coli tonB-P14 transcription terminator"
+                     /note="bidirectional E. coli tonB-P14 transcription
+                     terminator"
      CDS             29..349
                      /note=""
                      /label="N1N2_Cex"
      primer_bind     complement(534..550)
                      /label="M13 rev"
-                     /note="common sequencing primer, one of multiple similar variants"
+                     /note="common sequencing primer, one of multiple similar
+                     variants"
      rep_origin      complement(617..1205)
-                     /note="high-copy-number ColE1/pMB1/pBR322/pUC origin of replication"
+                     /note="high-copy-number ColE1/pMB1/pBR322/pUC origin of
+                     replication"
                      /label="ori"
      CDS             complement(1396..2256)
-                     /translation="MSIQHFRVALIPFFAAFCLPVFAHPETLVKVKDAEDQLGARVGYIELDLNSGKILESFRPEERFPMMSTFKVLLCGAVLSRIDAGQEQLGRRIHYSQNDLVEYSPVTEKHLTDGMTVRELCSAAITMSDNTAANLLLTTIGGPKELTAFLHNMGDHVTRLDRWEPELNEAIPNDERDTTMPVAMATTLRKLLTGELLTLASRQQLIDWMEADKVAGPLLRSALPAGWFIADKSGAGERGSRGIIAALGPDGKPSRIVVIYTTGSQATMDERNRQIAEIGASLIKHW*"
+                     /translation="MSIQHFRVALIPFFAAFCLPVFAHPETLVKVKDAEDQLGARVGYI
+                     ELDLNSGKILESFRPEERFPMMSTFKVLLCGAVLSRIDAGQEQLGRRIHYSQNDLVEYS
+                     PVTEKHLTDGMTVRELCSAAITMSDNTAANLLLTTIGGPKELTAFLHNMGDHVTRLDRW
+                     EPELNEAIPNDERDTTMPVAMATTLRKLLTGELLTLASRQQLIDWMEADKVAGPLLRSA
+                     LPAGWFIADKSGAGERGSRGIIAALGPDGKPSRIVVIYTTGSQATMDERNRQIAEIGAS
+                     LIKHW*"
                      /label="bla"
-                     /note="confers resistance to ampicillin, carbenicillin, and related antibiotics"
+                     /note="confers resistance to ampicillin, carbenicillin, and
+                     related antibiotics"
      promoter        complement(2257..2361)
                      /label="bla promoter"
                      /note="ampicillin resistance gene promoter"
      misc_feature    385..444
                      /label="FreeGenes Barcode"
-                     /note="FreeGenes Barcode. Defined as I-SceI site flanked by 21 base pair random sequences."
+                     /note="FreeGenes Barcode. Defined as I-SceI site flanked by
+                     21 base pair random sequences."
 ORIGIN
-        1 AACGATGATG CTCACTCTCG GGTCTCACCA TGCCTGCAGG TTGTCAGGTG CTGTGGGGCG
-       61 TCAACCAGTG GAATACTGGC TTTACCGCAA ACGTCACGGT GAAAAACACC TCGTCTGCTC
-      121 CGGTTGATGG CTGGACATTA ACTTTCTCGT TTCCGAGCGG TCAGCAAGTG ACGCAGGCGT
-      181 GGTCCAGTAC CGTTACGCAA TCCGGAAGCG CGGTAACCGT ACGCAACGCC CCGTGGAATG
-      241 GCAGTATTCC AGCTGGGGGC ACTGCGCAAT TTGGTTTCAA TGGTAGCCAT ACCGGTACCA
-      301 ATGCGGCCCC CACAGCCTTC TCACTGAACG GGACCCCGTG CACGGTGGGA GGGTCACGAG
-      361 ACCAGGGAAT CTCGTCGGAA ATCTATTTTG GCACTCCACT TTAAGTAGGG ATAACAGGGT
-      421 AATCACGCAA AAATAAGTTC AATACGCTGA GGTGTCAATC GTCGGAGCCG CTGAGCAATA
-      481 ACTAGCATAA CCCCTTGGGG CCTCTAAACG GGTCTTGAGG GGTTTTTTGC ATGGTCATAG
-      541 CTGTTTCCTG AGAGCTTGGC AGGTGATGAC ACACATTAAC AAATTTCGTG AGGAGTCTCC
-      601 AGAAGAATGC CATTAATTTC CATAGGCTCC GCCCCCCTGA CGAGCATCAC AAAAATCGAC
-      661 GCTCAAGTCA GAGGTGGCGA AACCCGACAG GACTATAAAG ATACCAGGCG TTTCCCCCTG
-      721 GAAGCTCCCT CGTGCGCTCT CCTGTTCCGA CCCTGCCGCT TACCGGATAC CTGTCCGCCT
-      781 TTCTCCCTTC GGGAAGCGTG GCGCTTTCTC ATAGCTCACG CTGTAGGTAT CTCAGTTCGG
-      841 TGTAGGTCGT TCGCTCCAAG CTGGGCTGTG TGCACGAACC CCCCGTTCAG CCCGACCGCT
-      901 GCGCCTTATC CGGTAACTAT CGTCTTGAGT CCAACCCGGT AAGACACGAC TTATCGCCAC
-      961 TGGCAGCAGC CACTGGTAAC AGGATTAGCA GAGCGAGGTA TGTAGGCGGT GCTACAGAGT
-     1021 TCTTGAAGTG GTGGCCTAAC TACGGCTACA CTAGAAGAAC AGTATTTGGT ATCTGCGCTC
-     1081 TGCTGAAGCC AGTTACCTTC GGAAAAAGAG TTGGTAGCTC TTGATCCGGC AAACAAACCA
-     1141 CCGCTGGTAG CGGTGGTTTT TTTGTTTGCA AGCAGCAGAT TACGCGCAGA AAAAAAGGAT
-     1201 CTCAAGAAGG CCTACTATTA GCAACAACGA TCCTTTGATC TTTTCTACGG GGTCTGACGC
-     1261 TCAGTGGAAC GAAAACTCAC GTTAAGGGAT TTTGGTCATG AGATTATCAA AAAGGATCTT
-     1321 CACCTAGATC CTTTTAAATT AAAAATGAAG TTTTAAATCA ATCTAAAGTA TATATGAGTA
-     1381 AACTTGGTCT GACAGTTACC AATGCTTAAT CAGTGAGGCA CCTATCTCAG CGATCTGTCT
-     1441 ATTTCGTTCA TCCATAGTTG CCTGACTCCC CGTCGTGTAG ATAACTACGA TACGGGAGGG
-     1501 CTTACCATCT GGCCCCAGTG CTGCAATGAT ACCGCGAGAA CCACGCTCAC CGGCTCCAGA
-     1561 TTTATCAGCA ATAAACCAGC CAGCCGGAAG GGCCGAGCGC AGAAGTGGTC CTGCAACTTT
-     1621 ATCCGCCTCC ATCCAGTCTA TTAATTGTTG CCGGGAAGCT AGAGTAAGTA GTTCGCCAGT
-     1681 TAATAGTTTG CGCAACGTTG TTGCCATTGC TACAGGCATC GTGGTGTCAC GCTCGTCGTT
-     1741 TGGTATGGCT TCATTCAGCT CCGGTTCCCA ACGATCAAGG CGAGTTACAT GATCCCCCAT
-     1801 GTTGTGCAAA AAAGCGGTTA GCTCCTTCGG TCCTCCGATC GTTGTCAGAA GTAAGTTGGC
-     1861 CGCAGTGTTA TCACTCATGG TTATGGCAGC ACTGCATAAT TCTCTTACTG TCATGCCATC
-     1921 CGTAAGATGC TTTTCTGTGA CTGGTGAGTA CTCAACCAAG TCATTCTGAG AATAGTGTAT
-     1981 GCGGCGACCG AGTTGCTCTT GCCCGGCGTC AATACGGGAT AATACCGCGC CACATAGCAG
-     2041 AACTTTAAAA GTGCTCATCA TTGGAAAACG TTCTTCGGGG CGAAAACTCT CAAGGATCTT
-     2101 ACCGCTGTTG AGATCCAGTT CGATGTAACC CACTCGTGCA CCCAACTGAT CTTCAGCATC
-     2161 TTTTACTTTC ACCAGCGTTT CTGGGTGAGC AAAAACAGGA AGGCAAAATG CCGCAAAAAA
-     2221 GGGAATAAGG GCGACACGGA AATGTTGAAT ACTCATACTC TTCCTTTTTC AATATTATTG
-     2281 AAGCATTTAT CAGGGTTATT GTCTCATGAG CGGATACATA TTTGAATGTA TTTAGAAAAA
-     2341 TAAACAAATA GGGGTTCCGC GCACCTGCAC CAGTCAGTAA AACGACGGCC AGTAGTCAAA
-     2401 AGCCTCCGAC CGGAGGCTTT TGACTTGGTT CAGGTGGAGT GGGAG
+        1 aacgatgatg ctcactctcg ggtctcacca tgcctgcagg ttgtcaggtg ctgtggggcg
+       61 tcaaccagtg gaatactggc tttaccgcaa acgtcacggt gaaaaacacc tcgtctgctc
+      121 cggttgatgg ctggacatta actttctcgt ttccgagcgg tcagcaagtg acgcaggcgt
+      181 ggtccagtac cgttacgcaa tccggaagcg cggtaaccgt acgcaacgcc ccgtggaatg
+      241 gcagtattcc agctgggggc actgcgcaat ttggtttcaa tggtagccat accggtacca
+      301 atgcggcccc cacagccttc tcactgaacg ggaccccgtg cacggtggga gggtcacgag
+      361 accagggaat ctcgtcggaa atctattttg gcactccact ttaagtaggg ataacagggt
+      421 aatcacgcaa aaataagttc aatacgctga ggtgtcaatc gtcggagccg ctgagcaata
+      481 actagcataa ccccttgggg cctctaaacg ggtcttgagg ggttttttgc atggtcatag
+      541 ctgtttcctg agagcttggc aggtgatgac acacattaac aaatttcgtg aggagtctcc
+      601 agaagaatgc cattaatttc cataggctcc gcccccctga cgagcatcac aaaaatcgac
+      661 gctcaagtca gaggtggcga aacccgacag gactataaag ataccaggcg tttccccctg
+      721 gaagctccct cgtgcgctct cctgttccga ccctgccgct taccggatac ctgtccgcct
+      781 ttctcccttc gggaagcgtg gcgctttctc atagctcacg ctgtaggtat ctcagttcgg
+      841 tgtaggtcgt tcgctccaag ctgggctgtg tgcacgaacc ccccgttcag cccgaccgct
+      901 gcgccttatc cggtaactat cgtcttgagt ccaacccggt aagacacgac ttatcgccac
+      961 tggcagcagc cactggtaac aggattagca gagcgaggta tgtaggcggt gctacagagt
+     1021 tcttgaagtg gtggcctaac tacggctaca ctagaagaac agtatttggt atctgcgctc
+     1081 tgctgaagcc agttaccttc ggaaaaagag ttggtagctc ttgatccggc aaacaaacca
+     1141 ccgctggtag cggtggtttt tttgtttgca agcagcagat tacgcgcaga aaaaaaggat
+     1201 ctcaagaagg cctactatta gcaacaacga tcctttgatc ttttctacgg ggtctgacgc
+     1261 tcagtggaac gaaaactcac gttaagggat tttggtcatg agattatcaa aaaggatctt
+     1321 cacctagatc cttttaaatt aaaaatgaag ttttaaatca atctaaagta tatatgagta
+     1381 aacttggtct gacagttacc aatgcttaat cagtgaggca cctatctcag cgatctgtct
+     1441 atttcgttca tccatagttg cctgactccc cgtcgtgtag ataactacga tacgggaggg
+     1501 cttaccatct ggccccagtg ctgcaatgat accgcgagaa ccacgctcac cggctccaga
+     1561 tttatcagca ataaaccagc cagccggaag ggccgagcgc agaagtggtc ctgcaacttt
+     1621 atccgcctcc atccagtcta ttaattgttg ccgggaagct agagtaagta gttcgccagt
+     1681 taatagtttg cgcaacgttg ttgccattgc tacaggcatc gtggtgtcac gctcgtcgtt
+     1741 tggtatggct tcattcagct ccggttccca acgatcaagg cgagttacat gatcccccat
+     1801 gttgtgcaaa aaagcggtta gctccttcgg tcctccgatc gttgtcagaa gtaagttggc
+     1861 cgcagtgtta tcactcatgg ttatggcagc actgcataat tctcttactg tcatgccatc
+     1921 cgtaagatgc ttttctgtga ctggtgagta ctcaaccaag tcattctgag aatagtgtat
+     1981 gcggcgaccg agttgctctt gcccggcgtc aatacgggat aataccgcgc cacatagcag
+     2041 aactttaaaa gtgctcatca ttggaaaacg ttcttcgggg cgaaaactct caaggatctt
+     2101 accgctgttg agatccagtt cgatgtaacc cactcgtgca cccaactgat cttcagcatc
+     2161 ttttactttc accagcgttt ctgggtgagc aaaaacagga aggcaaaatg ccgcaaaaaa
+     2221 gggaataagg gcgacacgga aatgttgaat actcatactc ttcctttttc aatattattg
+     2281 aagcatttat cagggttatt gtctcatgag cggatacata tttgaatgta tttagaaaaa
+     2341 taaacaaata ggggttccgc gcacctgcac cagtcagtaa aacgacggcc agtagtcaaa
+     2401 agcctccgac cggaggcttt tgacttggtt caggtggagt gggag
 //
