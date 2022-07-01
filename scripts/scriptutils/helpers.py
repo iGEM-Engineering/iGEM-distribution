@@ -1,7 +1,11 @@
 import sbol3
 import tyto
+import requests
 from sbol_utilities.helper_functions import is_plasmid
 
+IDT_API_TOKEN_URL = "https://www.idtdna.com/Identityserver/connect/token" 
+IDT_API_SCORE_URL = "https://www.idtdna.com/api/complexities/screengBlockSequences" 
+IDT_MAX_LENGTH = 3000 #base pair
 
 def vector_to_insert(component: sbol3.Component) -> sbol3.Component:
     """If the component is a vector, peel it open to find the sub-component that is not the vector portion
@@ -40,3 +44,27 @@ def has_SO_uri(uri: str) -> bool:
         return True
     except LookupError:
         return False
+
+def get_token():
+    data = {'grant_type': 'password', 'username': 'isaacguerreiro', 'password': 'Manaus@192', 'scope': 'test'}
+    r = requests.post(IDT_API_TOKEN_URL, data, auth=requests.auth.HTTPBasicAuth('isaacguerreiro', '6a7dda32-6501-45fb-b281-fa4b989b274d'), timeout = 60)
+    if(not('access_token' in r.json())):
+        raise Exception("Access token could not be generated. Check your credentials.")
+    access_token = r.json()['access_token']
+    return access_token
+
+def screening(self, listOfSequences):
+	constructsList = []
+	for construct in listOfSequences:
+		sequence = {
+			"Name": construct["name"],
+			"Sequence": construct["sequence"],
+		  }
+		constructsList.append(sequence)
+	resp = requests.post(self.screening_server,
+			  headers={'Authorization': 'Bearer {}'.format(self.token), 
+			  'Content-Type': 'application/json; charset=utf-8'}, 
+			  json=constructsList, 
+			  timeout = self.timeout)
+	result = resp.json()
+	return result

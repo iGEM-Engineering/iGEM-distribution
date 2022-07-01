@@ -17,7 +17,7 @@ from .part_retrieval import package_parts_inventory
 from .directories import EXPORT_DIRECTORY, SBOL_EXPORT_NAME, SBOL_PACKAGE_NAME, DISTRIBUTION_NAME, \
     DISTRIBUTION_GENBANK, DISTRIBUTION_FASTA
 from .package_specification import package_stem, DISTRIBUTION_NAMESPACE
-from .helpers import vector_to_insert
+from .helpers import vector_to_insert, get_token
 
 BUILD_PRODUCTS_COLLECTION = 'BuildProducts'
 
@@ -291,3 +291,14 @@ def extract_synthesis_files(root: str, doc: sbol3.Document) -> sbol3.Document:
     print(f'Wrote FASTA synthesis file with {n_fasta_constructs} constructs: {fasta_path}')
 
     return build_doc
+
+def check_synthesizability(root: str):
+
+    print(f'Importing distribution sequences')
+    fasta_path = os.path.join(root, DISTRIBUTION_FASTA)
+    with open(fasta_path) as handle:
+        sequences = SeqIO.parse(handle, "fasta")
+
+    print(f'Connecting to IDT DNA')
+    token = get_token() 
+    print(sequences, token)
