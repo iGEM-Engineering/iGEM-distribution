@@ -12902,12 +12902,12 @@ FEATURES             Location/Qualifiers
                      /original_record="part"
      gene            2033..3091
                      /label="URA3 marker"
+                     /note="/ApEinfo_fwdcolor/original_record=part"
                      /note="URA3 encodes orotidine-5’phosphate decarboxylase, an
                      enzyme which is required for the biosynthesis of uracil.
                      Complements Ura3 auxotrophic mutations in yeast. It also
                      acts as negative selection is based on the inhibit or
                      5-fluoro-orotic acid (FOA)"
-                     /note="/ApEinfo_fwdcolor/original_record=part"
      promoter        2033..2209
                      /label="URA3 promoter"
                      /original_record="part"
@@ -12915,14 +12915,14 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="Ura3"
                      /label="URA3"
+                     /note="Complements URA3 auxotrophic mutations in yeast.
+                     URA3 mutants require uracil for growth"
                      /note="/ApEinfo_fwdcolor/translation=MSKATYKERAATHPSPVAAKL
                      FNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKA
                      LSAKYNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAA
                      EEVTKEPRGLLMLAELSCKGSLSTGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGY
                      DWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRK
                      AGWEAYLRRCGQQN"
-                     /note="Complements URA3 auxotrophic mutations in yeast.
-                     URA3 mutants require uracil for growth"
                      /original_record="part"
                      /product="Orotidine-5'-phosphate (OMP) decarboxylase"
      misc_feature    3014..3091
@@ -23973,6 +23973,74 @@ ORIGIN
      2641 cgatcaactc gagtgccacc tgacgtctaa gaaaccatta ttatcatgac attaacctat
      2701 aaaaataggc gtatcacgag gcagaatttc agataaaaaa aatccttagc tttcgctaag
      2761 gatgatttct g
+//
+LOCUS       Plant_fiveUTRs_         2105 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  .
+ACCESSION   Plant_fiveUTRs_Plant_fiveUTRs_ins_AtRbcS2B_5UTR
+VERSION     Plant_fiveUTRs_Plant_fiveUTRs_ins_AtRbcS2B_5UTR
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+     stem_loop       79..136
+                     /label="his operon terminator"
+     misc_feature    331..919
+                     /label="pMB1 replication origin"
+     misc_feature    complement(1217..1876)
+                     /label="chloramphenicol resistance marker"
+     misc_feature    79..2105
+     misc_feature    1..11
+                     /label="D1003"
+     misc_feature    68..78
+                     /label="D1004"
+     source          12..67
+                     /ApEinfo_fwdcolor="#85dae9"
+                     /ApEinfo_revcolor="#85dae9"
+                     /label="source"
+     misc_feature    12..67
+                     /ApEinfo_fwdcolor="#f8d3a9"
+                     /ApEinfo_revcolor="#f8d3a9"
+                     /label="nonstandard type: 5'_UTR"
+     misc_feature    12..67
+     misc_feature    1..78
+ORIGIN
+        1 ggtctcgtac tacaaacaag taagtaagag aaaaaccaaa agaagaagag aaacaacaag
+       61 aagaagtaat gtgagacctc cggcaaaaaa gggcaaggtg tcaccaccct gccctttttc
+      121 tttaaaaccg aaaagattac ttcgcgttat gcaggcttcc tcgctcactg actcgctgcg
+      181 ctcggtcgtt cggctgcggc gagcggtatc agctcactca aaggcggtaa tacggttatc
+      241 cacagaatca ggggataacg caggaaagaa catgtgagca aaaggccagc aaaaggccag
+      301 gaaccgtaaa aaggccgcgt tgctggcgtt tttccacagg ctccgccccc ctgacgagca
+      361 tcacaaaaat cgacgctcaa gtcagaggtg gcgaaacccg acaggactat aaagatacca
+      421 ggcgtttccc cctggaagct ccctcgtgcg ctctcctgtt ccgaccctgc cgcttaccgg
+      481 atacctgtcc gcctttctcc cttcgggaag cgtggcgctt tctcatagct cacgctgtag
+      541 gtatctcagt tcggtgtagg tcgttcgctc caagctgggc tgtgtgcacg aaccccccgt
+      601 tcagcccgac cgctgcgcct tatccggtaa ctatcgtctt gagtccaacc cggtaagaca
+      661 cgacttatcg ccactggcag cagccactgg taacaggatt agcagagcga ggtatgtagg
+      721 cggtgctaca gagttcttga agtggtggcc taactacggc tacactagaa gaacagtatt
+      781 tggtatctgc gctctgctga agccagttac cttcggaaaa agagttggta gctcttgatc
+      841 cggcaaacaa accaccgctg gtagcggtgg tttttttgtt tgcaagcagc agattacgcg
+      901 cagaaaaaaa ggatctcaag aagatccttt gatcttttct acggggtctg acgctcagtg
+      961 gaacgaaaac tcacgttaag ggattttggt catgagatta tcaaaaagga tcttcaccta
+     1021 gatcctttta aattaaaaat gaagttttaa atcaatctaa agtatatatg agtaaacttg
+     1081 gtctgacagc tcgaggcttg gattctcacc aataaaaaac gcccggcggc aaccgagcgt
+     1141 tctgaacaaa tccagatgga gttctgaggt cattactgga tctatcaaca ggagtccaag
+     1201 cgagctcgat atcaaattac gccccgccct gccactcatc gcagtactgt tgtaattcat
+     1261 taagcattct gccgacatgg aagccatcac aaacggcatg atgaacctga atcgccagcg
+     1321 gcatcagcac cttgtcgcct tgcgtataat atttgcccat ggtgaaaacg ggggcgaaga
+     1381 agttgtccat attggccacg tttaaatcaa aactggtgaa actcacccag ggattggctg
+     1441 agacgaaaaa catattctca ataaaccctt tagggaaata ggccaggttt tcaccgtaac
+     1501 acgccacatc ttgcgaatat atgtgtagaa actgccggaa atcgtcgtgg tattcactcc
+     1561 agagcgatga aaacgtttca gtttgctcat ggaaaacggt gtaacaaggg tgaacactat
+     1621 cccatatcac cagctcaccg tctttcattg ccatacgaaa ttccggatga gcattcatca
+     1681 ggcgggcaag aatgtgaata aaggccggat aaaacttgtg cttatttttc tttacggtct
+     1741 ttaaaaaggc cgtaatatcc agctgaacgg tctggttata ggtacattga gcaactgact
+     1801 gaaatgcctc aaaatgttct ttacgatgcc attgggatat atcaacggtg gtatatccag
+     1861 tgattttttt ctccatttta gcttccttag ctcctgaaaa tctcgataac tcaaaaaata
+     1921 cgcccggtag tgatcttatt tcattatggt gaaagttgga acctcttacg tgcccgatca
+     1981 actcgagtgc cacctgacgt ctaagaaacc attattatca tgacattaac ctataaaaat
+     2041 aggcgtatca cgaggcagaa tttcagataa aaaaaatcct tagctttcgc taaggatgat
+     2101 ttctg
 //
 LOCUS       Plant_fiveUTRs_         2142 bp    DNA     linear   UNK 01-JAN-1980
 DEFINITION  .
