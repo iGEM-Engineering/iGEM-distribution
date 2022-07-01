@@ -46,8 +46,8 @@ def has_SO_uri(uri: str) -> bool:
         return False
 
 def get_token():
-    data = {'grant_type': 'password', 'username': 'isaacguerreiro', 'password': 'Manaus@192', 'scope': 'test'}
-    r = requests.post(IDT_API_TOKEN_URL, data, auth=requests.auth.HTTPBasicAuth('isaacguerreiro', '6a7dda32-6501-45fb-b281-fa4b989b274d'), timeout = 60)
+    data = {'grant_type': 'password', 'username': 'username', 'password': 'password', 'scope': 'test'}
+    r = requests.post(IDT_API_TOKEN_URL, data, auth=requests.auth.HTTPBasicAuth('client_id', 'client_secret'), timeout = 60)
     if(not('access_token' in r.json())):
         raise Exception("Access token could not be generated. Check your credentials.")
     access_token = r.json()['access_token']
