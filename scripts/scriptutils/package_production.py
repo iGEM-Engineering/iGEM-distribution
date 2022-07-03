@@ -17,7 +17,7 @@ from .part_retrieval import package_parts_inventory
 from .directories import EXPORT_DIRECTORY, SBOL_EXPORT_NAME, SBOL_PACKAGE_NAME, DISTRIBUTION_NAME, \
     DISTRIBUTION_GENBANK, DISTRIBUTION_FASTA
 from .package_specification import package_stem, DISTRIBUTION_NAMESPACE
-from .helpers import vector_to_insert, get_token
+from .helpers import screening, vector_to_insert, get_token
 
 BUILD_PRODUCTS_COLLECTION = 'BuildProducts'
 
@@ -298,7 +298,8 @@ def check_synthesizability(root: str):
     fasta_path = os.path.join(root, DISTRIBUTION_FASTA)
     with open(fasta_path) as handle:
         sequences = SeqIO.parse(handle, "fasta")
+        print(f'Connecting to IDT DNA')
+        token = get_token() 
+        scores = screening(token, sequences)
+        print(scores)
 
-    print(f'Connecting to IDT DNA')
-    token = get_token() 
-    print(sequences, token)

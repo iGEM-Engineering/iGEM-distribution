@@ -53,18 +53,26 @@ def get_token():
     access_token = r.json()['access_token']
     return access_token
 
-def screening(self, listOfSequences):
-	constructsList = []
-	for construct in listOfSequences:
-		sequence = {
-			"Name": construct["name"],
-			"Sequence": construct["sequence"],
-		  }
-		constructsList.append(sequence)
-	resp = requests.post(self.screening_server,
-			  headers={'Authorization': 'Bearer {}'.format(self.token), 
-			  'Content-Type': 'application/json; charset=utf-8'}, 
-			  json=constructsList, 
-			  timeout = self.timeout)
-	result = resp.json()
-	return result
+def screening(token, listOfSequences):
+    sequences = []
+
+    for record in listOfSequences:
+        sequence = { "Name": record.name, "Sequence": str(record.seq) }
+        sequences.append(sequence)
+
+    partition_size = 10
+    partitions_sequences = [sequences[x:x+partition_size] for x in range(0, len(sequences), partition_size)]
+
+    results = []
+    for idx, partition in enumerate(partitions_sequences):
+        print('Request {0} of {1} with size {2}'.format(idx, len(partitions_sequences), len(partition)))
+        resp = requests.post(IDT_API_SCORE_URL,
+                headers={'Authorization': 'Bearer {}'.format(token), 
+                'Content-Type': 'application/json; charset=utf-8'}, 
+                json=partition, 
+                timeout = 120)
+        results.append(resp.json())
+
+    print('Requests to IDT API finished.')
+
+    return results
