@@ -1,0 +1,107 @@
+LOCUS       BBF10K_003315           2876 bp    DNA     circular SYN 24-JUL-2020
+DEFINITION  synthetic linear DNA.
+ACCESSION   BBF10K_003315
+VERSION     BBF10K_003315
+KEYWORDS    .
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+            .
+REFERENCE   1  (bases 1 to 2001)
+  AUTHORS   Keoni Gandall
+  TITLE     Direct Submission
+  JOURNAL   Exported from Poly.
+FEATURES             Location/Qualifiers
+     terminator      1..2876
+                     /label="T7 terminator"
+                     /note="transcription terminator for bacteriophage T7 RNA
+                     polymerase"
+     terminator      913..960
+                     /label="T7 terminator"
+                     /note="transcription terminator for bacteriophage T7 RNA
+                     polymerase"
+     primer_bind     2808..2824
+                     /label="M13 for"
+                     /note="common sequencing primer, one of multiple similar
+                     variants"
+     terminator      2825..2856
+                     /note="bidirectional E. coli tonB-P14 transcription
+                     terminator"
+                     /label="tonB terminator"
+     CDS             29..781
+                     /label="dNK from drosophila"
+                     /note=""
+     primer_bind     complement(965..981)
+                     /label="M13 rev"
+                     /note="common sequencing primer, one of multiple similar
+                     variants"
+     rep_origin      complement(1048..1636)
+                     /label="ori"
+                     /note="high-copy-number ColE1/pMB1/pBR322/pUC origin of
+                     replication"
+     CDS             complement(1827..2687)
+                     /translation="MSIQHFRVALIPFFAAFCLPVFAHPETLVKVKDAEDQLGARVGYI
+                     ELDLNSGKILESFRPEERFPMMSTFKVLLCGAVLSRIDAGQEQLGRRIHYSQNDLVEYS
+                     PVTEKHLTDGMTVRELCSAAITMSDNTAANLLLTTIGGPKELTAFLHNMGDHVTRLDRW
+                     EPELNEAIPNDERDTTMPVAMATTLRKLLTGELLTLASRQQLIDWMEADKVAGPLLRSA
+                     LPAGWFIADKSGAGERGSRGIIAALGPDGKPSRIVVIYTTGSQATMDERNRQIAEIGAS
+                     LIKHW*"
+                     /label="bla"
+                     /note="confers resistance to ampicillin, carbenicillin, and
+                     related antibiotics"
+     promoter        complement(2688..2792)
+                     /label="bla promoter"
+                     /note="ampicillin resistance gene promoter"
+     misc_feature    816..875
+                     /label="FreeGenes Barcode"
+                     /note="FreeGenes Barcode. Defined as I-SceI site flanked by
+                     21 base pair random sequences."
+ORIGIN
+        1 aaataagacg acgaccctcg ggtctctaat ggcggaagca gcaagctgtg cacgtaaagg
+       61 caccaaatat gcagaaggca cccagccgtt taccgttctg attgaaggca atattggtag
+      121 cggtaaaacc acctatctga accactttga aaaatacaaa aatgatattt gcctgctgac
+      181 cgagccggtt gaaaaatggc gtaatgttaa tggtgttaac ctgctggaac tgatgtataa
+      241 agatccgaaa aaatgggcaa tgccgtttca gagctatgtt accctgacca tgctgcagag
+      301 ccataccgca ccgaccaaca aaaaactgaa aattatggaa cgcagcatct tcagcgcacg
+      361 ttattgtttt gttgaaaata tgcgtcgtaa tggcagcctg gaacagggta tgtataatac
+      421 actggaagag tggtacaaat ttatcgaaga aagcattcat gttcaggccg atctgattat
+      481 ctatctgcgt accagtccgg aagttgccta tgaacgtatt cgtcagcgtg cacgtagcga
+      541 agaaagctgt gttccgctga aatatctgca agaactgcat gaactgcacg aagattggct
+      601 gattcatcag cgtcgtccgc agagctgtaa agttctggtt ctggatgcag atctgaacct
+      661 ggaaaatatt ggcaccgaat atcagcgtag cgaaagcagc atttttgatg caattagcag
+      721 caatcagcag ccgagtccgg ttctggttag cccgagcaaa cgtcagcgtg ttgcacgctg
+      781 aagagctttg agaccggaca ttcgtcagat cacctataaa ttatgtgcca atttgctagg
+      841 gataacaggg taatgtcgaa gaacggcgtc tgaaccgctg aggtgtcaat cgtcggagcc
+      901 gctgagcaat aactagcata accccttggg gcctctaaac gggtcttgag gggttttttg
+      961 catggtcata gctgtttcct gagagcttgg caggtgatga cacacattaa caaatttcgt
+     1021 gaggagtctc cagaagaatg ccattaattt ccataggctc cgcccccctg acgagcatca
+     1081 caaaaatcga cgctcaagtc agaggtggcg aaacccgaca ggactataaa gataccaggc
+     1141 gtttccccct ggaagctccc tcgtgcgctc tcctgttccg accctgccgc ttaccggata
+     1201 cctgtccgcc tttctccctt cgggaagcgt ggcgctttct catagctcac gctgtaggta
+     1261 tctcagttcg gtgtaggtcg ttcgctccaa gctgggctgt gtgcacgaac cccccgttca
+     1321 gcccgaccgc tgcgccttat ccggtaacta tcgtcttgag tccaacccgg taagacacga
+     1381 cttatcgcca ctggcagcag ccactggtaa caggattagc agagcgaggt atgtaggcgg
+     1441 tgctacagag ttcttgaagt ggtggcctaa ctacggctac actagaagaa cagtatttgg
+     1501 tatctgcgct ctgctgaagc cagttacctt cggaaaaaga gttggtagct cttgatccgg
+     1561 caaacaaacc accgctggta gcggtggttt ttttgtttgc aagcagcaga ttacgcgcag
+     1621 aaaaaaagga tctcaagaag gcctactatt agcaacaacg atcctttgat cttttctacg
+     1681 gggtctgacg ctcagtggaa cgaaaactca cgttaaggga ttttggtcat gagattatca
+     1741 aaaaggatct tcacctagat ccttttaaat taaaaatgaa gttttaaatc aatctaaagt
+     1801 atatatgagt aaacttggtc tgacagttac caatgcttaa tcagtgaggc acctatctca
+     1861 gcgatctgtc tatttcgttc atccatagtt gcctgactcc ccgtcgtgta gataactacg
+     1921 atacgggagg gcttaccatc tggccccagt gctgcaatga taccgcgaga accacgctca
+     1981 ccggctccag atttatcagc aataaaccag ccagccggaa gggccgagcg cagaagtggt
+     2041 cctgcaactt tatccgcctc catccagtct attaattgtt gccgggaagc tagagtaagt
+     2101 agttcgccag ttaatagttt gcgcaacgtt gttgccattg ctacaggcat cgtggtgtca
+     2161 cgctcgtcgt ttggtatggc ttcattcagc tccggttccc aacgatcaag gcgagttaca
+     2221 tgatccccca tgttgtgcaa aaaagcggtt agctccttcg gtcctccgat cgttgtcaga
+     2281 agtaagttgg ccgcagtgtt atcactcatg gttatggcag cactgcataa ttctcttact
+     2341 gtcatgccat ccgtaagatg cttttctgtg actggtgagt actcaaccaa gtcattctga
+     2401 gaatagtgta tgcggcgacc gagttgctct tgcccggcgt caatacggga taataccgcg
+     2461 ccacatagca gaactttaaa agtgctcatc attggaaaac gttcttcggg gcgaaaactc
+     2521 tcaaggatct taccgctgtt gagatccagt tcgatgtaac ccactcgtgc acccaactga
+     2581 tcttcagcat cttttacttt caccagcgtt tctgggtgag caaaaacagg aaggcaaaat
+     2641 gccgcaaaaa agggaataag ggcgacacgg aaatgttgaa tactcatact cttccttttt
+     2701 caatattatt gaagcattta tcagggttat tgtctcatga gcggatacat atttgaatgt
+     2761 atttagaaaa ataaacaaat aggggttccg cgcacctgca ccagtcagta aaacgacggc
+     2821 cagtagtcaa aagcctccga ccggaggctt ttgacttggt tcaggtggag tgggag
+//

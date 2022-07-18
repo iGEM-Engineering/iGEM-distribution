@@ -1,0 +1,777 @@
+
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/ALPI> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nCIP (calf intestinal phosphatase)" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/ALPI> <http://sbols.org/v3#displayId> "ALPI" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/ALPI> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/ALPI> <http://sbols.org/v3#name> "ALPI" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/ALPI> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/ALPI> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/ALPI> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/ALPI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#description> "The Open Enzyme Collection consists of 81 genes for enzymes that are \"workhorses\" of molecular biology, including DNA polymerases, RNA polymerases, DNA ligases, reverse transcriptases and restriction enzymes. The enzymes are useful in both basic and applied fields as diverse as genomics, diagnostics, biodiversity, synthetic biology, DNA origami, immunology, biochemistry and more.\n\nThe foundational technologies enabled by this collection of include polymerase chain reaction (PCR), cloning, isothermal amplification, reverse transcription of RNA into DNA, and dNTP synthesis. Additionally, the Open Enzyme collection contains enzyme genes for fixing damaged and degraded DNA prior to amplification, enzymes for cutting protein sequences to remove unwanted parts, and DNA-binding proteins that can be fused with other enzymes to improve functionality.\n\nThe Open Bioeconomy Lab designed and codon-optimized the Open Enzymes parts for expression in Escherichia coli bacteria. All enzymes are obtained from expired patents or for various reasons are not encumbered by patent rights. (copied directly from https://stanford.freegenes.org/collections/open-genes/products/openenzyme#description)" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#displayId> "BasicParts" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/ALPI> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BovDNTT> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Bst_HF> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Bstpol> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BstpolLF> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BsupolLF> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/DNA_Topoisomerase_1B_Vaccinia_Virus> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/DpnIR> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/ECOligA> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/ECOpolA> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/ETSSB> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Eco31I> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Eco31IA> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Eco31IB> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/EcoRIM> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/EcoRIR> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/EcoRV> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/EcoRVM> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Endonuclease_IV_E__coli> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Endonuclease_VIII_E__coli> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Exonuclease_III_E__coli> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Fpg> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/GBDpol> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/GBDpol__LEFT_PARENTHESISexo_RIGHT_PARENTHESIS> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/HSlig3> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/HSlig4> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/HindIIIM> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/HindIIIR> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/K12polLF> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/K12polLF__LEFT_PARENTHESISexo_RIGHT_PARENTHESIS> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/KODpol> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/KTHEAQpol> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/MMLV_RT__LEFT_PARENTHESISlack_H_RIGHT_PARENTHESIS> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/MMLV_RT__LEFT_PARENTHESISmut_H_RIGHT_PARENTHESIS> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/NcoIM> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/NcoIR> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/NotIM> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/NotIR__LEFT_PARENTHESISGC_RIGHT_PARENTHESIS> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/P45> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Pfulig> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Pfupol> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/PstIM> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/PstIR> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Pwopol> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/RNAse_A> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/RNAse_H> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/RTX> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/SP6RNAp> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/SapIM1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/SapIM2> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/SapIR> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/SfiIM> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/SfiIR__LEFT_PARENTHESIScDNA_RIGHT_PARENTHESIS> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T3RNAp> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T4_BGT> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T4_PGD> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T4_PNK> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T4_g32> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T4gene30> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T4gene43> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T4gene63> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T5gene122> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T5gene12_13> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T7EI> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T7RNAp> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T7gene5> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/TEV_protease> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/THEAQlig> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/THEAQpolA> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Tlipol> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Tlipol__LEFT_PARENTHESISexo_RIGHT_PARENTHESIS> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/TthRT> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/TthligK294R> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/TthpolA> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/UDG> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/XbaIM> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/XbaIR> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/_9N7lig> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/_9N7polA> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/_9N7polA__LEFT_PARENTHESISCT_RIGHT_PARENTHESIS> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/dbh> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/dromedNK> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/lambda_red_operon> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#member> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/phi29pol> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://sbols.org/v3#name> "Open Enzymes Collection" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BasicParts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BovDNTT> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nBovine DNTT" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BovDNTT> <http://sbols.org/v3#displayId> "BovDNTT" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BovDNTT> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BovDNTT> <http://sbols.org/v3#name> "BovDNTT" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BovDNTT> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BovDNTT> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BovDNTT> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BovDNTT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Bst_HF> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nBst polymerase, High fidelity" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Bst_HF> <http://sbols.org/v3#displayId> "Bst_HF" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Bst_HF> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Bst_HF> <http://sbols.org/v3#name> "Bst HF" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Bst_HF> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Bst_HF> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Bst_HF> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Bst_HF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Bstpol> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nBst DNA Polymerase, Full Length" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Bstpol> <http://sbols.org/v3#displayId> "Bstpol" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Bstpol> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Bstpol> <http://sbols.org/v3#name> "Bstpol" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Bstpol> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Bstpol> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Bstpol> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Bstpol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BstpolLF> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nBst DNA Polymerase, Large Fragment" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BstpolLF> <http://sbols.org/v3#displayId> "BstpolLF" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BstpolLF> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BstpolLF> <http://sbols.org/v3#name> "BstpolLF" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BstpolLF> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BstpolLF> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BstpolLF> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BstpolLF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BsupolLF> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nBsu DNA Polymerase I, Large Fragment" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BsupolLF> <http://sbols.org/v3#displayId> "BsupolLF" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BsupolLF> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BsupolLF> <http://sbols.org/v3#name> "BsupolLF" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BsupolLF> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BsupolLF> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BsupolLF> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/BsupolLF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/CompositeParts> <http://sbols.org/v3#description> "The Open Enzyme Collection consists of 81 genes for enzymes that are \"workhorses\" of molecular biology, including DNA polymerases, RNA polymerases, DNA ligases, reverse transcriptases and restriction enzymes. The enzymes are useful in both basic and applied fields as diverse as genomics, diagnostics, biodiversity, synthetic biology, DNA origami, immunology, biochemistry and more.\n\nThe foundational technologies enabled by this collection of include polymerase chain reaction (PCR), cloning, isothermal amplification, reverse transcription of RNA into DNA, and dNTP synthesis. Additionally, the Open Enzyme collection contains enzyme genes for fixing damaged and degraded DNA prior to amplification, enzymes for cutting protein sequences to remove unwanted parts, and DNA-binding proteins that can be fused with other enzymes to improve functionality.\n\nThe Open Bioeconomy Lab designed and codon-optimized the Open Enzymes parts for expression in Escherichia coli bacteria. All enzymes are obtained from expired patents or for various reasons are not encumbered by patent rights. (copied directly from https://stanford.freegenes.org/collections/open-genes/products/openenzyme#description)" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/CompositeParts> <http://sbols.org/v3#displayId> "CompositeParts" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/CompositeParts> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/CompositeParts> <http://sbols.org/v3#name> "Open Enzymes Collection" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/CompositeParts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/DNA_Topoisomerase_1B_Vaccinia_Virus> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nDNA Topoisomerase 1B Vaccinia Virus" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/DNA_Topoisomerase_1B_Vaccinia_Virus> <http://sbols.org/v3#displayId> "DNA_Topoisomerase_1B_Vaccinia_Virus" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/DNA_Topoisomerase_1B_Vaccinia_Virus> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/DNA_Topoisomerase_1B_Vaccinia_Virus> <http://sbols.org/v3#name> "DNA Topoisomerase 1B Vaccinia Virus" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/DNA_Topoisomerase_1B_Vaccinia_Virus> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/DNA_Topoisomerase_1B_Vaccinia_Virus> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/DNA_Topoisomerase_1B_Vaccinia_Virus> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/DNA_Topoisomerase_1B_Vaccinia_Virus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/DpnIR> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nDpnI restriction enzyme" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/DpnIR> <http://sbols.org/v3#displayId> "DpnIR" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/DpnIR> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/DpnIR> <http://sbols.org/v3#name> "DpnIR" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/DpnIR> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/DpnIR> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/DpnIR> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/DpnIR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/ECOligA> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nE. coli DNA Ligase" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/ECOligA> <http://sbols.org/v3#displayId> "ECOligA" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/ECOligA> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/ECOligA> <http://sbols.org/v3#name> "ECOligA" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/ECOligA> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/ECOligA> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/ECOligA> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/ECOligA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/ECOpolA> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nE. coli DNA Polymerase I" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/ECOpolA> <http://sbols.org/v3#displayId> "ECOpolA" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/ECOpolA> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/ECOpolA> <http://sbols.org/v3#name> "ECOpolA" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/ECOpolA> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/ECOpolA> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/ECOpolA> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/ECOpolA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/ETSSB> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nExtreme Thermostable Single-Stranded DNA Binding Protein" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/ETSSB> <http://sbols.org/v3#displayId> "ETSSB" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/ETSSB> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/ETSSB> <http://sbols.org/v3#name> "ETSSB" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/ETSSB> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/ETSSB> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/ETSSB> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/ETSSB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Eco31I> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nEco31I restriction enzyme" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Eco31I> <http://sbols.org/v3#displayId> "Eco31I" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Eco31I> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Eco31I> <http://sbols.org/v3#name> "Eco31I" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Eco31I> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Eco31I> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Eco31I> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Eco31I> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Eco31IA> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nEco31IA methyltransferase" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Eco31IA> <http://sbols.org/v3#displayId> "Eco31IA" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Eco31IA> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Eco31IA> <http://sbols.org/v3#name> "Eco31IA" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Eco31IA> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Eco31IA> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Eco31IA> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Eco31IA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Eco31IB> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nEco31IB methyltransferase" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Eco31IB> <http://sbols.org/v3#displayId> "Eco31IB" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Eco31IB> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Eco31IB> <http://sbols.org/v3#name> "Eco31IB" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Eco31IB> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Eco31IB> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Eco31IB> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Eco31IB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/EcoRIM> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nEcoRI methyltransferase" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/EcoRIM> <http://sbols.org/v3#displayId> "EcoRIM" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/EcoRIM> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/EcoRIM> <http://sbols.org/v3#name> "EcoRIM" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/EcoRIM> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/EcoRIM> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/EcoRIM> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/EcoRIM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/EcoRIR> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nEcoRI restriction enzyme" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/EcoRIR> <http://sbols.org/v3#displayId> "EcoRIR" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/EcoRIR> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/EcoRIR> <http://sbols.org/v3#name> "EcoRIR" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/EcoRIR> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/EcoRIR> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/EcoRIR> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/EcoRIR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/EcoRV> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nEcoRV restriction enzyme" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/EcoRV> <http://sbols.org/v3#displayId> "EcoRV" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/EcoRV> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/EcoRV> <http://sbols.org/v3#name> "EcoRV" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/EcoRV> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/EcoRV> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/EcoRV> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/EcoRV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/EcoRVM> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nM.EcoRV methyltransferase" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/EcoRVM> <http://sbols.org/v3#displayId> "EcoRVM" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/EcoRVM> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/EcoRVM> <http://sbols.org/v3#name> "EcoRVM" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/EcoRVM> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/EcoRVM> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/EcoRVM> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/EcoRVM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Endonuclease_IV_E__coli> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nEndonuclease IV E. coli" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Endonuclease_IV_E__coli> <http://sbols.org/v3#displayId> "Endonuclease_IV_E__coli" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Endonuclease_IV_E__coli> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Endonuclease_IV_E__coli> <http://sbols.org/v3#name> "Endonuclease IV E. coli" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Endonuclease_IV_E__coli> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Endonuclease_IV_E__coli> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Endonuclease_IV_E__coli> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Endonuclease_IV_E__coli> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Endonuclease_VIII_E__coli> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nEndonuclease VIII E. coli" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Endonuclease_VIII_E__coli> <http://sbols.org/v3#displayId> "Endonuclease_VIII_E__coli" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Endonuclease_VIII_E__coli> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Endonuclease_VIII_E__coli> <http://sbols.org/v3#name> "Endonuclease VIII E. coli" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Endonuclease_VIII_E__coli> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Endonuclease_VIII_E__coli> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Endonuclease_VIII_E__coli> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Endonuclease_VIII_E__coli> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Exonuclease_III_E__coli> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nExonuclease III E. coli" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Exonuclease_III_E__coli> <http://sbols.org/v3#displayId> "Exonuclease_III_E__coli" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Exonuclease_III_E__coli> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Exonuclease_III_E__coli> <http://sbols.org/v3#name> "Exonuclease III E. coli" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Exonuclease_III_E__coli> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Exonuclease_III_E__coli> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Exonuclease_III_E__coli> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Exonuclease_III_E__coli> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/FinalProducts> <http://sbols.org/v3#description> "Final products desired for actual fabrication" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/FinalProducts> <http://sbols.org/v3#displayId> "FinalProducts" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/FinalProducts> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/FinalProducts> <http://sbols.org/v3#name> "Final Products" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/FinalProducts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Fpg> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nFormamidopyrimidine DNA Glycosylase" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Fpg> <http://sbols.org/v3#displayId> "Fpg" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Fpg> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Fpg> <http://sbols.org/v3#name> "Fpg" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Fpg> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Fpg> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Fpg> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Fpg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/GBDpol> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nPyrococcus Sp. Heat-Stable DNA Polymerase \n(Deep Vent™ at NEB)" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/GBDpol> <http://sbols.org/v3#displayId> "GBDpol" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/GBDpol> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/GBDpol> <http://sbols.org/v3#name> "GBDpol" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/GBDpol> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/GBDpol> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/GBDpol> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/GBDpol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/GBDpol__LEFT_PARENTHESISexo_RIGHT_PARENTHESIS> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nPyrococcus Sp. Heat-Stable (exo–) DNA Polymerase\n(Deep Vent™ (exo–) DNA Polymerase at NEB)" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/GBDpol__LEFT_PARENTHESISexo_RIGHT_PARENTHESIS> <http://sbols.org/v3#displayId> "GBDpol__LEFT_PARENTHESISexo_RIGHT_PARENTHESIS" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/GBDpol__LEFT_PARENTHESISexo_RIGHT_PARENTHESIS> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/GBDpol__LEFT_PARENTHESISexo_RIGHT_PARENTHESIS> <http://sbols.org/v3#name> "GBDpol (exo)" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/GBDpol__LEFT_PARENTHESISexo_RIGHT_PARENTHESIS> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/GBDpol__LEFT_PARENTHESISexo_RIGHT_PARENTHESIS> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/GBDpol__LEFT_PARENTHESISexo_RIGHT_PARENTHESIS> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/GBDpol__LEFT_PARENTHESISexo_RIGHT_PARENTHESIS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/HSlig3> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nDNA Lligase III" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/HSlig3> <http://sbols.org/v3#displayId> "HSlig3" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/HSlig3> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/HSlig3> <http://sbols.org/v3#name> "HSlig3" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/HSlig3> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/HSlig3> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/HSlig3> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/HSlig3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/HSlig4> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nDNA Ligase IV" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/HSlig4> <http://sbols.org/v3#displayId> "HSlig4" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/HSlig4> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/HSlig4> <http://sbols.org/v3#name> "HSlig4" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/HSlig4> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/HSlig4> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/HSlig4> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/HSlig4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/HindIIIM> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nM.HindIII methyltransferase" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/HindIIIM> <http://sbols.org/v3#displayId> "HindIIIM" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/HindIIIM> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/HindIIIM> <http://sbols.org/v3#name> "HindIIIM" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/HindIIIM> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/HindIIIM> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/HindIIIM> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/HindIIIM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/HindIIIR> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nHindIII restriction enzyme" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/HindIIIR> <http://sbols.org/v3#displayId> "HindIIIR" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/HindIIIR> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/HindIIIR> <http://sbols.org/v3#name> "HindIIIR" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/HindIIIR> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/HindIIIR> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/HindIIIR> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/HindIIIR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/K12polLF> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nDNA Polymerase I, Large (Klenow) Fragment" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/K12polLF> <http://sbols.org/v3#displayId> "K12polLF" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/K12polLF> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/K12polLF> <http://sbols.org/v3#name> "K12polLF" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/K12polLF> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/K12polLF> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/K12polLF> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/K12polLF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/K12polLF__LEFT_PARENTHESISexo_RIGHT_PARENTHESIS> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nDNA Polymerase I, Large (Klenow) Fragment (3′→5′ exo-)" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/K12polLF__LEFT_PARENTHESISexo_RIGHT_PARENTHESIS> <http://sbols.org/v3#displayId> "K12polLF__LEFT_PARENTHESISexo_RIGHT_PARENTHESIS" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/K12polLF__LEFT_PARENTHESISexo_RIGHT_PARENTHESIS> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/K12polLF__LEFT_PARENTHESISexo_RIGHT_PARENTHESIS> <http://sbols.org/v3#name> "K12polLF (exo)" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/K12polLF__LEFT_PARENTHESISexo_RIGHT_PARENTHESIS> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/K12polLF__LEFT_PARENTHESISexo_RIGHT_PARENTHESIS> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/K12polLF__LEFT_PARENTHESISexo_RIGHT_PARENTHESIS> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/K12polLF__LEFT_PARENTHESISexo_RIGHT_PARENTHESIS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/KODpol> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nKOD DNA polymerase" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/KODpol> <http://sbols.org/v3#displayId> "KODpol" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/KODpol> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/KODpol> <http://sbols.org/v3#name> "KODpol" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/KODpol> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/KODpol> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/KODpol> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/KODpol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/KTHEAQpol> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nKlenTaq1 polymerase" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/KTHEAQpol> <http://sbols.org/v3#displayId> "KTHEAQpol" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/KTHEAQpol> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/KTHEAQpol> <http://sbols.org/v3#name> "KTHEAQpol" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/KTHEAQpol> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/KTHEAQpol> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/KTHEAQpol> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/KTHEAQpol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/LinearDNAProducts> <http://sbols.org/v3#description> "Linear DNA constructs to be fabricated" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/LinearDNAProducts> <http://sbols.org/v3#displayId> "LinearDNAProducts" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/LinearDNAProducts> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/LinearDNAProducts> <http://sbols.org/v3#name> "Linear DNA Products" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/LinearDNAProducts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/MMLV_RT__LEFT_PARENTHESISlack_H_RIGHT_PARENTHESIS> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nMoloney Murine Leukemia Virus (MMLV) Reverse Transcriptase RNaseH - (lacking RNaseH domain) (SuperScriptII)" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/MMLV_RT__LEFT_PARENTHESISlack_H_RIGHT_PARENTHESIS> <http://sbols.org/v3#displayId> "MMLV_RT__LEFT_PARENTHESISlack_H_RIGHT_PARENTHESIS" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/MMLV_RT__LEFT_PARENTHESISlack_H_RIGHT_PARENTHESIS> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/MMLV_RT__LEFT_PARENTHESISlack_H_RIGHT_PARENTHESIS> <http://sbols.org/v3#name> "MMLV_RT (lack H)" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/MMLV_RT__LEFT_PARENTHESISlack_H_RIGHT_PARENTHESIS> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/MMLV_RT__LEFT_PARENTHESISlack_H_RIGHT_PARENTHESIS> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/MMLV_RT__LEFT_PARENTHESISlack_H_RIGHT_PARENTHESIS> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/MMLV_RT__LEFT_PARENTHESISlack_H_RIGHT_PARENTHESIS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/MMLV_RT__LEFT_PARENTHESISmut_H_RIGHT_PARENTHESIS> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nMoloney Murine Leukemia Virus (MMLV) Reverse Transcriptase (RNAse H deactivated by 3 mutations)" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/MMLV_RT__LEFT_PARENTHESISmut_H_RIGHT_PARENTHESIS> <http://sbols.org/v3#displayId> "MMLV_RT__LEFT_PARENTHESISmut_H_RIGHT_PARENTHESIS" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/MMLV_RT__LEFT_PARENTHESISmut_H_RIGHT_PARENTHESIS> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/MMLV_RT__LEFT_PARENTHESISmut_H_RIGHT_PARENTHESIS> <http://sbols.org/v3#name> "MMLV_RT (mut H)" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/MMLV_RT__LEFT_PARENTHESISmut_H_RIGHT_PARENTHESIS> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/MMLV_RT__LEFT_PARENTHESISmut_H_RIGHT_PARENTHESIS> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/MMLV_RT__LEFT_PARENTHESISmut_H_RIGHT_PARENTHESIS> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/MMLV_RT__LEFT_PARENTHESISmut_H_RIGHT_PARENTHESIS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/NcoIM> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nM.NcoI methyltransferase" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/NcoIM> <http://sbols.org/v3#displayId> "NcoIM" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/NcoIM> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/NcoIM> <http://sbols.org/v3#name> "NcoIM" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/NcoIM> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/NcoIM> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/NcoIM> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/NcoIM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/NcoIR> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nNcoI restriction enzyme" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/NcoIR> <http://sbols.org/v3#displayId> "NcoIR" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/NcoIR> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/NcoIR> <http://sbols.org/v3#name> "NcoIR" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/NcoIR> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/NcoIR> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/NcoIR> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/NcoIR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/NotIM> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nM.NotI methyltransferase" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/NotIM> <http://sbols.org/v3#displayId> "NotIM" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/NotIM> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/NotIM> <http://sbols.org/v3#name> "NotIM" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/NotIM> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/NotIM> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/NotIM> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/NotIM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/NotIR__LEFT_PARENTHESISGC_RIGHT_PARENTHESIS> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nNotI restriction enzyme" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/NotIR__LEFT_PARENTHESISGC_RIGHT_PARENTHESIS> <http://sbols.org/v3#displayId> "NotIR__LEFT_PARENTHESISGC_RIGHT_PARENTHESIS" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/NotIR__LEFT_PARENTHESISGC_RIGHT_PARENTHESIS> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/NotIR__LEFT_PARENTHESISGC_RIGHT_PARENTHESIS> <http://sbols.org/v3#name> "NotIR (GC)" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/NotIR__LEFT_PARENTHESISGC_RIGHT_PARENTHESIS> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/NotIR__LEFT_PARENTHESISGC_RIGHT_PARENTHESIS> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/NotIR__LEFT_PARENTHESISGC_RIGHT_PARENTHESIS> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/NotIR__LEFT_PARENTHESISGC_RIGHT_PARENTHESIS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/P45> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nP45 (ArchaeMaxx/PfuTurbo)" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/P45> <http://sbols.org/v3#displayId> "P45" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/P45> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/P45> <http://sbols.org/v3#name> "P45" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/P45> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/P45> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/P45> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/P45> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Pfulig> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nPfu DNA Ligase" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Pfulig> <http://sbols.org/v3#displayId> "Pfulig" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Pfulig> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Pfulig> <http://sbols.org/v3#name> "Pfulig" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Pfulig> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Pfulig> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Pfulig> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Pfulig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Pfupol> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nPfu DNA Polymerase" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Pfupol> <http://sbols.org/v3#displayId> "Pfupol" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Pfupol> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Pfupol> <http://sbols.org/v3#name> "Pfupol" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Pfupol> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Pfupol> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Pfupol> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Pfupol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/PstIM> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nPstI methyltransferase" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/PstIM> <http://sbols.org/v3#displayId> "PstIM" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/PstIM> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/PstIM> <http://sbols.org/v3#name> "PstIM" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/PstIM> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/PstIM> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/PstIM> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/PstIM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/PstIR> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nPstI restriction enzyme" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/PstIR> <http://sbols.org/v3#displayId> "PstIR" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/PstIR> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/PstIR> <http://sbols.org/v3#name> "PstIR" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/PstIR> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/PstIR> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/PstIR> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/PstIR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Pwopol> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nPwo DNA Polymerase" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Pwopol> <http://sbols.org/v3#displayId> "Pwopol" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Pwopol> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Pwopol> <http://sbols.org/v3#name> "Pwopol" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Pwopol> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Pwopol> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Pwopol> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Pwopol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/RNAse_A> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nRNAse A" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/RNAse_A> <http://sbols.org/v3#displayId> "RNAse_A" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/RNAse_A> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/RNAse_A> <http://sbols.org/v3#name> "RNAse A" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/RNAse_A> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/RNAse_A> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/RNAse_A> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/RNAse_A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/RNAse_H> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nRNAse H" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/RNAse_H> <http://sbols.org/v3#displayId> "RNAse_H" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/RNAse_H> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/RNAse_H> <http://sbols.org/v3#name> "RNAse H" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/RNAse_H> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/RNAse_H> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/RNAse_H> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/RNAse_H> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/RTX> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nRTX thermostable reverse transcriptase / DNA polymerase" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/RTX> <http://sbols.org/v3#displayId> "RTX" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/RTX> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/RTX> <http://sbols.org/v3#name> "RTX" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/RTX> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/RTX> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/RTX> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/RTX> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/SP6RNAp> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nSP6 RNA Polymerase" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/SP6RNAp> <http://sbols.org/v3#displayId> "SP6RNAp" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/SP6RNAp> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/SP6RNAp> <http://sbols.org/v3#name> "SP6RNAp" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/SP6RNAp> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/SP6RNAp> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/SP6RNAp> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/SP6RNAp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/SapIM1> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nM1.SapI methyltransferase" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/SapIM1> <http://sbols.org/v3#displayId> "SapIM1" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/SapIM1> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/SapIM1> <http://sbols.org/v3#name> "SapIM1" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/SapIM1> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/SapIM1> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/SapIM1> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/SapIM1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/SapIM2> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nM2.SapI methyltransferase" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/SapIM2> <http://sbols.org/v3#displayId> "SapIM2" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/SapIM2> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/SapIM2> <http://sbols.org/v3#name> "SapIM2" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/SapIM2> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/SapIM2> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/SapIM2> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/SapIM2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/SapIR> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nSapI restriction enzyme" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/SapIR> <http://sbols.org/v3#displayId> "SapIR" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/SapIR> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/SapIR> <http://sbols.org/v3#name> "SapIR" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/SapIR> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/SapIR> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/SapIR> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/SapIR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/SfiIM> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nM.SfiI methyltransferase" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/SfiIM> <http://sbols.org/v3#displayId> "SfiIM" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/SfiIM> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/SfiIM> <http://sbols.org/v3#name> "SfiIM" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/SfiIM> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/SfiIM> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/SfiIM> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/SfiIM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/SfiIR__LEFT_PARENTHESIScDNA_RIGHT_PARENTHESIS> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nSfiI (used to create cDNA libraries)" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/SfiIR__LEFT_PARENTHESIScDNA_RIGHT_PARENTHESIS> <http://sbols.org/v3#displayId> "SfiIR__LEFT_PARENTHESIScDNA_RIGHT_PARENTHESIS" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/SfiIR__LEFT_PARENTHESIScDNA_RIGHT_PARENTHESIS> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/SfiIR__LEFT_PARENTHESIScDNA_RIGHT_PARENTHESIS> <http://sbols.org/v3#name> "SfiIR (cDNA)" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/SfiIR__LEFT_PARENTHESIScDNA_RIGHT_PARENTHESIS> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/SfiIR__LEFT_PARENTHESIScDNA_RIGHT_PARENTHESIS> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/SfiIR__LEFT_PARENTHESIScDNA_RIGHT_PARENTHESIS> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/SfiIR__LEFT_PARENTHESIScDNA_RIGHT_PARENTHESIS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T3RNAp> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nT3 RNA Polymerase" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T3RNAp> <http://sbols.org/v3#displayId> "T3RNAp" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T3RNAp> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T3RNAp> <http://sbols.org/v3#name> "T3RNAp" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T3RNAp> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T3RNAp> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T3RNAp> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T3RNAp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T4_BGT> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nT4 Phage β-glucosyltransferase" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T4_BGT> <http://sbols.org/v3#displayId> "T4_BGT" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T4_BGT> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T4_BGT> <http://sbols.org/v3#name> "T4-BGT" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T4_BGT> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T4_BGT> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T4_BGT> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T4_BGT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T4_PGD> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nT4 PGD (T4 Endonuclease V)" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T4_PGD> <http://sbols.org/v3#displayId> "T4_PGD" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T4_PGD> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T4_PGD> <http://sbols.org/v3#name> "T4 PGD" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T4_PGD> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T4_PGD> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T4_PGD> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T4_PGD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T4_PNK> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nT4 Polynucleotide Kinase" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T4_PNK> <http://sbols.org/v3#displayId> "T4_PNK" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T4_PNK> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T4_PNK> <http://sbols.org/v3#name> "T4 PNK" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T4_PNK> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T4_PNK> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T4_PNK> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T4_PNK> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T4_g32> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nT4 gene 32" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T4_g32> <http://sbols.org/v3#displayId> "T4_g32" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T4_g32> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T4_g32> <http://sbols.org/v3#name> "T4 g32" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T4_g32> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T4_g32> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T4_g32> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T4_g32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T4gene30> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nT4-DNA Ligase" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T4gene30> <http://sbols.org/v3#displayId> "T4gene30" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T4gene30> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T4gene30> <http://sbols.org/v3#name> "T4gene30" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T4gene30> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T4gene30> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T4gene30> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T4gene30> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T4gene43> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nT4 DNA Polymerase" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T4gene43> <http://sbols.org/v3#displayId> "T4gene43" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T4gene43> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T4gene43> <http://sbols.org/v3#name> "T4gene43" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T4gene43> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T4gene43> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T4gene43> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T4gene43> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T4gene63> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nT4 RNA Ligase 1" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T4gene63> <http://sbols.org/v3#displayId> "T4gene63" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T4gene63> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T4gene63> <http://sbols.org/v3#name> "T4gene63" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T4gene63> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T4gene63> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T4gene63> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T4gene63> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T5gene122> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nT5 DNA Polymerase" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T5gene122> <http://sbols.org/v3#displayId> "T5gene122" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T5gene122> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T5gene122> <http://sbols.org/v3#name> "T5gene122" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T5gene122> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T5gene122> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T5gene122> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T5gene122> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T5gene12_13> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nT5 Exonuclease" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T5gene12_13> <http://sbols.org/v3#displayId> "T5gene12_13" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T5gene12_13> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T5gene12_13> <http://sbols.org/v3#name> "T5gene12/13" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T5gene12_13> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T5gene12_13> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T5gene12_13> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T5gene12_13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T7EI> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nT7EI (T7 Endonuclease I)" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T7EI> <http://sbols.org/v3#displayId> "T7EI" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T7EI> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T7EI> <http://sbols.org/v3#name> "T7EI" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T7EI> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T7EI> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T7EI> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T7EI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T7RNAp> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nT7 RNA Polymerase" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T7RNAp> <http://sbols.org/v3#displayId> "T7RNAp" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T7RNAp> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T7RNAp> <http://sbols.org/v3#name> "T7RNAp" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T7RNAp> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T7RNAp> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T7RNAp> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T7RNAp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T7gene5> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nT7 DNA Polymerase (unmodified)" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T7gene5> <http://sbols.org/v3#displayId> "T7gene5" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T7gene5> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T7gene5> <http://sbols.org/v3#name> "T7gene5" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T7gene5> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T7gene5> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T7gene5> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/T7gene5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/TEV_protease> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nTEV protease" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/TEV_protease> <http://sbols.org/v3#displayId> "TEV_protease" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/TEV_protease> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/TEV_protease> <http://sbols.org/v3#name> "TEV protease" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/TEV_protease> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/TEV_protease> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/TEV_protease> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/TEV_protease> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/THEAQlig> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nTaq DNA Ligase" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/THEAQlig> <http://sbols.org/v3#displayId> "THEAQlig" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/THEAQlig> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/THEAQlig> <http://sbols.org/v3#name> "THEAQlig" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/THEAQlig> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/THEAQlig> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/THEAQlig> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/THEAQlig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/THEAQpolA> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nTaq DNA Polymerase" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/THEAQpolA> <http://sbols.org/v3#displayId> "THEAQpolA" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/THEAQpolA> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/THEAQpolA> <http://sbols.org/v3#name> "THEAQpolA" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/THEAQpolA> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/THEAQpolA> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/THEAQpolA> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/THEAQpolA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Tlipol> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nTli DNA polymerase\n(available from NEB as VentR® DNA Polymerase)" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Tlipol> <http://sbols.org/v3#displayId> "Tlipol" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Tlipol> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Tlipol> <http://sbols.org/v3#name> "Tlipol" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Tlipol> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Tlipol> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Tlipol> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Tlipol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Tlipol__LEFT_PARENTHESISexo_RIGHT_PARENTHESIS> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nTli DNA polymerase (exo-)\n(available from NEB as VentR® (exo-) DNA Polymerase)" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Tlipol__LEFT_PARENTHESISexo_RIGHT_PARENTHESIS> <http://sbols.org/v3#displayId> "Tlipol__LEFT_PARENTHESISexo_RIGHT_PARENTHESIS" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Tlipol__LEFT_PARENTHESISexo_RIGHT_PARENTHESIS> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Tlipol__LEFT_PARENTHESISexo_RIGHT_PARENTHESIS> <http://sbols.org/v3#name> "Tlipol (exo)" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Tlipol__LEFT_PARENTHESISexo_RIGHT_PARENTHESIS> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Tlipol__LEFT_PARENTHESISexo_RIGHT_PARENTHESIS> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Tlipol__LEFT_PARENTHESISexo_RIGHT_PARENTHESIS> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/Tlipol__LEFT_PARENTHESISexo_RIGHT_PARENTHESIS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/TthRT> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nThermus thermophilus (Tth) RT" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/TthRT> <http://sbols.org/v3#displayId> "TthRT" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/TthRT> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/TthRT> <http://sbols.org/v3#name> "TthRT" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/TthRT> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/TthRT> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/TthRT> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/TthRT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/TthligK294R> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nTth DNA Ligase K294R" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/TthligK294R> <http://sbols.org/v3#displayId> "TthligK294R" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/TthligK294R> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/TthligK294R> <http://sbols.org/v3#name> "TthligK294R" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/TthligK294R> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/TthligK294R> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/TthligK294R> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/TthligK294R> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/TthpolA> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nTth DNA polymerase" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/TthpolA> <http://sbols.org/v3#displayId> "TthpolA" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/TthpolA> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/TthpolA> <http://sbols.org/v3#name> "TthpolA" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/TthpolA> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/TthpolA> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/TthpolA> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/TthpolA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/UDG> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nUracil DNA glycosylase" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/UDG> <http://sbols.org/v3#displayId> "UDG" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/UDG> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/UDG> <http://sbols.org/v3#name> "UDG" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/UDG> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/UDG> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/UDG> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/UDG> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/XbaIM> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nM.XbaI methyltransferase" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/XbaIM> <http://sbols.org/v3#displayId> "XbaIM" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/XbaIM> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/XbaIM> <http://sbols.org/v3#name> "XbaIM" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/XbaIM> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/XbaIM> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/XbaIM> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/XbaIM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/XbaIR> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nXbaI restriction enzyme" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/XbaIR> <http://sbols.org/v3#displayId> "XbaIR" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/XbaIR> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/XbaIR> <http://sbols.org/v3#name> "XbaIR" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/XbaIR> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/XbaIR> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/XbaIR> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/XbaIR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/_9N7lig> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\n9 Degrees North DNA Ligase" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/_9N7lig> <http://sbols.org/v3#displayId> "_9N7lig" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/_9N7lig> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/_9N7lig> <http://sbols.org/v3#name> "9N7lig" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/_9N7lig> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/_9N7lig> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/_9N7lig> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/_9N7lig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/_9N7polA> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\n9°N-7 DNA polymerase" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/_9N7polA> <http://sbols.org/v3#displayId> "_9N7polA" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/_9N7polA> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/_9N7polA> <http://sbols.org/v3#name> "9N7polA" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/_9N7polA> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/_9N7polA> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/_9N7polA> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/_9N7polA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/_9N7polA__LEFT_PARENTHESISCT_RIGHT_PARENTHESIS> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\n9°N-7 DNA Polymerase chain terminating (NEB > Therminator DNA Pol)" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/_9N7polA__LEFT_PARENTHESISCT_RIGHT_PARENTHESIS> <http://sbols.org/v3#displayId> "_9N7polA__LEFT_PARENTHESISCT_RIGHT_PARENTHESIS" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/_9N7polA__LEFT_PARENTHESISCT_RIGHT_PARENTHESIS> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/_9N7polA__LEFT_PARENTHESISCT_RIGHT_PARENTHESIS> <http://sbols.org/v3#name> "9N7polA (CT)" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/_9N7polA__LEFT_PARENTHESISCT_RIGHT_PARENTHESIS> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/_9N7polA__LEFT_PARENTHESISCT_RIGHT_PARENTHESIS> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/_9N7polA__LEFT_PARENTHESISCT_RIGHT_PARENTHESIS> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/_9N7polA__LEFT_PARENTHESISCT_RIGHT_PARENTHESIS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/dbh> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nSulfolobus DNA Polymerase IV" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/dbh> <http://sbols.org/v3#displayId> "dbh" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/dbh> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/dbh> <http://sbols.org/v3#name> "dbh" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/dbh> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/dbh> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/dbh> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/dbh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/dromedNK> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\ndNK from drosophila" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/dromedNK> <http://sbols.org/v3#displayId> "dromedNK" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/dromedNK> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/dromedNK> <http://sbols.org/v3#name> "dromedNK" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/dromedNK> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/dromedNK> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/dromedNK> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/dromedNK> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/lambda_red_operon> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nlambda red operon (exo, bet, gam)" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/lambda_red_operon> <http://sbols.org/v3#displayId> "lambda_red_operon" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/lambda_red_operon> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/lambda_red_operon> <http://sbols.org/v3#name> "lambda red operon" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/lambda_red_operon> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/lambda_red_operon> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/lambda_red_operon> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/lambda_red_operon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/phi29pol> <http://sbols.org/v3#description> "Taken from Open Ezymes Collection at FreeGenes\nphi29 DNA Polymerase" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/phi29pol> <http://sbols.org/v3#displayId> "phi29pol" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/phi29pol> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/phi29pol> <http://sbols.org/v3#name> "phi29pol" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/phi29pol> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/phi29pol> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/phi29pol> <http://sbols.org/v3#type> <https://identifiers.org/SO:0000988> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Open%20Enzymes%20Collection/phi29pol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
