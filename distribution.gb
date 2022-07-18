@@ -1349,7 +1349,13 @@ FEATURES             Location/Qualifiers
      misc_feature    381..391
                      /label="D1006"
      CDS             9..380
+                     /ApEinfo_fwdcolor="#c6c9d1"
+                     /ApEinfo_revcolor="#c6c9d1"
                      /label="AcrIIA2_bacterial"
+     source          9..380
+                     /ApEinfo_fwdcolor="#85dae9"
+                     /ApEinfo_revcolor="#85dae9"
+                     /label="color: #ffffff"
      exon            9..380
                      /label="Translation 1-372"
      misc_feature    9..380

@@ -1,5 +1,7 @@
 # iGEM Distribution Design
 
+[Click here](https://igem-distribution.readthedocs.io) for more detailed documentation (work-in-progress). 
+
 This repository is for collective design of an iGEM DNA distribution. The processes used in this repository are intended to support:
 
 - Design, review, and discussion by many contributors
@@ -8,10 +10,16 @@ This repository is for collective design of an iGEM DNA distribution. The proces
 
 **Table of Contents**
 
+- [Contributing](#contributing)
 - [Organization: Packages & Views](#organization)  
     - [Package Directories](#directories)
 - [Using the Package Spreadsheet](#spreadsheet)
 - [Editing and Review](#editing)
+
+
+## Contributing<a name="contributing"></a>
+
+Although we are sending the distribution to teams this year, the repository and our process for modifying the distribution are still in beta, therefore although we are open to contributions (see Issues for what we're currently focussed on), we aren't allowing contributions from iGEM teams for the time being. Please watch this space for updates!
 
 ## Organization: Packages & Views<a name="organization"></a>
 
