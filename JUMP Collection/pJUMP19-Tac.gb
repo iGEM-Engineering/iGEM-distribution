@@ -1,0 +1,133 @@
+LOCUS       pJUMP19-Tac             3911 bp    DNA     circular SYN 21-APR-2019
+DEFINITION  Cloning vector pJUMP19-Tac, complete sequence.
+ACCESSION   pJUMP19-Tac
+VERSION     pJUMP19-Tac
+KEYWORDS    .
+SOURCE      Cloning vector pJUMP19-Tac
+  ORGANISM  Cloning vector pJUMP19-Tac
+            other sequences; artificial sequences; vectors.
+REFERENCE   1  (bases 1 to 3911)
+  AUTHORS   Marcos Valenzuela-Ortega and Chris French
+  TITLE     The JUMP toolkit:Joint Universal Modular Plasmids for synthetic
+            biology
+  JOURNAL   Publication in preparation
+FEATURES             Location/Qualifiers
+     source          1..3911
+                     /organism="Cloning vector"
+                     /mol_type="other DNA"
+     misc_feature    9..76
+                     /label="Upstream Module"
+     promoter        13..48
+                     /label="J23100"
+     misc_feature    101..122
+                     /label="BioBrick prefix"
+                     /note="BioBrick prefix for parts that do not start with
+                     ATG"
+     misc_feature    144..164
+                     /label="BioBrick suffix"
+                     /note="BioBrick universal suffix for all parts"
+     misc_feature    165..969
+                     /label="Downstream Module"
+     CDS             229..939
+                     /codon_start=1
+                     /product="Aequoria victoria green fluorescent protein"
+                     /label="Aequoria victoria green fluorescent protein"
+                     /note="GFP"
+                     /translation="RKGEELFTGVVPILVELDGDVNGHKFSVSGEGEGDATYGKLTLKF
+                     ICTTGKLPVPWPTLVTTFGYGVQCFARYPDHMKQHDFFKSAMPEGYVQERTIFFKDDGN
+                     YKTRAEVKFEGDTLVNRIELKGIDFKEDGNILGHKLEYNYNSHNVYIMADKQKNGIKVN
+                     FKIRHNIEDGSVQLADHYQQNTPIGDGPVLLPDNHYLSTQSALSKDPNEKRDHMVLLEF
+                     VTAAGITHGMDELYK"
+     terminator      complement(975..1077)
+                     /label="T0 terminator"
+     primer_bind     1033..1049
+                     /label="PS3"
+     primer_bind     complement(1033..1049)
+                     /label="PS2"
+     CDS             1238..2098
+                     /label="Ap"
+                     /note="Ampicillin Resistance"
+     primer_bind     2169..2186
+                     /label="PS5"
+     misc_feature    complement(2171..2375)
+                     /label="oriT"
+     primer_bind     complement(2376..2393)
+                     /label="PS4"
+     rep_origin      2416..3035
+                     /label="pBR322_origin"
+     primer_bind     complement(2999..3009)
+                     /label="PS6"
+     terminator      complement(3806..3890)
+                     /label="T1 terminator"
+     primer_bind     complement(3809..3826)
+                     /label="PS6"
+     primer_bind     3809..3826
+                     /label="PS1"
+ORIGIN
+        1 ttaattaagg agttgacggc tagctcagtc ctaggtacag tgctagcgta cttaacttct
+       61 gactgagttg cacgcttaac ttctgactga gttgcacgct gaattcgcgg ccgcttctag
+      121 agggtcttga gacgtctctg acctactagt agcggccgct gcagggagta acttctgact
+      181 gagttgcata cttgtttaac tttaagaagg agatatacaa tggtagcccg taaaggagaa
+      241 gaacttttca ctggagttgt cccaattctt gttgaattag atggtgatgt taatgggcac
+      301 aaattttctg tcagtggaga gggtgaaggt gatgcaacat acggaaaact tacccttaaa
+      361 tttatttgca ctactggaaa actacctgtt ccatggccaa cacttgtcac tactttcggt
+      421 tatggtgttc aatgctttgc gagataccca gatcatatga aacagcatga ctttttcaag
+      481 agtgccatgc ccgaaggtta tgtacaggaa agaactatat ttttcaaaga tgacgggaac
+      541 tacaagacac gtgctgaagt caagtttgaa ggtgataccc ttgttaatag aatcgagtta
+      601 aaaggtattg attttaaaga agatggaaac attcttggac acaaattgga atacaactat
+      661 aactcacaca atgtatacat catggcagac aaacaaaaga atggaatcaa agttaacttc
+      721 aaaattagac acaacattga agatggaagc gttcaactag cagaccatta tcaacaaaat
+      781 actccaattg gcgatggccc tgtcctttta ccagacaacc attacctgtc cacacaatct
+      841 gccctttcga aagatcccaa cgaaaagaga gatcacatgg tccttcttga gtttgtaaca
+      901 gctgctggga ttacacatgg catggatgaa ctatacaaag gttcgtaact tctgactgag
+      961 ttgcacgctc tagtcttgga ctcctgttga tagatccagt aatgacctca gaactccatc
+     1021 tggatttgtt cagaacgctc ggttgccgcc gggcgttttt tattggtgag aatccagggg
+     1081 tccccaataa ttacgattta aattagtagc ccgcctaatg agcgggcttt tttttaattc
+     1141 ccctatttgt ttatttttct aaatacattc aaatatgtat ccgctcatga gacaataacc
+     1201 ctgataaatg cttcaataat attgaaaaag gaagagtatg agcattcagc attttcgtgt
+     1261 ggcgctgatt ccgttttttg cggcgttttg cctgccggtg tttgcgcatc cggaaaccct
+     1321 ggtgaaagtg aaagatgcgg aagatcaact gggtgcgcgc gtgggctata ttgaactgga
+     1381 tctgaacagc ggcaaaattc tggaatcttt tcgtccggaa gaacgttttc cgatgatgag
+     1441 cacctttaaa gtgctgctgt gcggtgcggt tctgagccgt gtggatgcgg gccaggaaca
+     1501 actgggccgt cgtattcatt atagccagaa cgatctggtg gaatatagcc cggtgaccga
+     1561 aaaacatctg accgatggca tgaccgtgcg tgaactgtgc agcgcggcga ttaccatgag
+     1621 cgataacacc gcggcgaacc tgctgctgac gaccattggc ggtccgaaag aactgaccgc
+     1681 gtttctgcat aacatgggcg atcatgtgac ccgtctggat cgttgggaac cggaactgaa
+     1741 cgaagcgatt ccgaacgatg aacgtgatac caccatgccg gcagcaatgg cgaccaccct
+     1801 gcgtaaactg ctgacgggtg agctgctgac cctggcaagc cgccagcaac tgattgattg
+     1861 gatggaagcg gataaagtgg cgggtccgct gctgcgtagc gcgctgccgg ctggctggtt
+     1921 tattgcggat aaaagcggtg cgggcgaacg tggcagccgt ggcattattg cggcgctggg
+     1981 cccggatggt aaaccgagcc gtattgtggt gatttatacc accggcagcc aggcgacgat
+     2041 ggatgaacgt aaccgtcaga ttgcggaaat tggcgcgagc ctgattaaac attggtaaac
+     2101 cgatacaatt aaaggctcct tttggagcct ttttttttgg acgacccttg tccttttccg
+     2161 ctgcataacc ctgcttcggg gtcattatag cgattttttc ggtatatcca tcctttttcg
+     2221 cacgatatac aggattttgc caaagggttc gtgtagactt tccttggtgt atccaacggc
+     2281 gtcagccggg caggataggt gaagtaggcc cacccgcgag cgggtgttcc ttcttcactg
+     2341 tcccttattc gcacctggcg gtgctcaacg ggaatcctgc tctgcgaggc tggccgtagg
+     2401 ccggccccgt agaaaagatc aaaggatctt cttgagatcc tttttttctg cgcgtaatct
+     2461 gctgcttgca aacaaaaaaa ccaccgctac cagcggtggt ttgtttgccg gatcaagagc
+     2521 taccaactct ttttccgaag gtaactggct tcagcagagc gcagatacca aatactgtcc
+     2581 ttctagtgta gccgtagtta ggccaccact tcaagaactc tgtagcaccg cctacatacc
+     2641 tcgctctgct aatcctgtta ccagtggctg ctgccagtgg cgataagtcg tgtcttaccg
+     2701 ggttggactc aagacgatag ttaccggata aggcgcagcg gtcgggctga acggggggtt
+     2761 cgtgcacaca gcccagcttg gagcgaacga cctacaccga actgagatac ctacagcgtg
+     2821 agctatgaga aagcgccacg cttcccgaag ggagaaaggc ggacaggtat ccggtaagcg
+     2881 gcagggtcgg aacaggagag cgcacgaggg agcttccagg gggaaacgcc tggtatcttt
+     2941 atagtcctgt cgggtttcgc cacctctgac ttgagcgtcg atttttgtga tgctcgtcag
+     3001 gggggcggag cctatggaaa aacgccagca acgcggcctt tttacggttc ctggcctttt
+     3061 gctggccttt tgctcacatg ttctttcctg cgttatcccc tgattctgtg gataaccgta
+     3121 ttaccgcctt tgagtgagct gataccgctc gccgcagccg aacgaccgag cgcagcgagt
+     3181 cagtgagcga ggaagcggaa gagcgcctga tgcggtattt tctccttacg catctgtgcg
+     3241 gtatttcaca ccgcatatgg tgcactctca gtacaatctg ctctgatgcc gcatagttaa
+     3301 gccagtatac actccgctat cgctacgtga ctgggtcatg gctgcgcccc gacacccgcc
+     3361 aacacccgct gacgcgccct gacgggcttg tctgctcccg gcatccgctt acagacaagc
+     3421 tgtgacagtc tccgggagct gcatgtgtca gaggttttca ccgtcatcac cgaaacgcgc
+     3481 gaggcagctg cggtaaagct catcagcgtg gtcgtgcagc gattcacaga tgtctgcctg
+     3541 ttcatccgcg tccagctcgt tgagtttctc cagaagcgtt aatgtctggc ttctgataaa
+     3601 gcgggccatg ttaagggcgg ttttttcctg tttggtcact gatgcctccg tgtaaggggg
+     3661 atttctgttc atgggggtaa tgataccgat gaaacgagag aggatgctca cgatacgggt
+     3721 tactgatgat gaacatgccc ggttactgga acgttgtgag ggtaaacaac tggcggtatg
+     3781 gatgcggcgg gggcgcgccc agctgtctag ggcggcggat ttgtcctact caggagagcg
+     3841 ttcaccgaca aacaacagat aaaacgaaag gcccagtctt tcgactgagc ctttcgtttt
+     3901 atttgatgcc t
+//
