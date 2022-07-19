@@ -6,7 +6,7 @@ Joint Universal Modular Plasmids (JUMP) is a modular vector platform for Golden 
 
 - 0 parts
 - 37 vectors _<span style="color:red">2 missing sequences: pJUMP29_1Dprime_sfGFP, pJUMP49_2Dprime_sfGFP</span>_
-- 0 samples for distribution _<span style="color:red">37 parts not included</span>_ _<span style="color:red">No samples planned to be built for distribution</span>_
+- 37 samples for distribution
 
 ### Parts:
 
