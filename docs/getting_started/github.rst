@@ -1,7 +1,7 @@
 Getting started with Github
 ===========================
 
-When looking to contribute to the distribution, please refer to the contributing guidelines, which are the most up-to-date source of information.
+When looking to contribute to the distribution, please refer to the `contributing guidelines <https://github.com/iGEM-Engineering/iGEM-distribution/blob/develop/CONTRIBUTING.md>`_, which are the most up-to-date source of information.
 
 Creating a fork
 ---------------
