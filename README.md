@@ -21,6 +21,8 @@ This repository is for collective design of an iGEM DNA distribution. The proces
 
 Although we are sending the distribution to teams this year, the repository and our process for modifying the distribution are still in beta, therefore although we are open to contributions (see Issues for what we're currently focussed on), we aren't allowing contributions from iGEM teams for the time being. Please watch this space for updates!
 
+For more information on contributing, see [CONTRIBUTING.md](CONTRIBUTING.md).
+
 ## Organization: Packages & Views<a name="organization"></a>
 
 Each directory contains one "package" of parts, where a "package" is a coherent collection of basic or composite parts and devices. 
