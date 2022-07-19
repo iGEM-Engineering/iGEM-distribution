@@ -1,10 +1,10 @@
-LOCUS       pJUMP29-1B-sfGFP        3819 bp    DNA     circular SYN 21-FEB-2018
-DEFINITION  Cloning vector pJUMP29-1B(sfGFP), complete sequence.
-ACCESSION   pJUMP29-1B-sfGFP
-VERSION     pJUMP29-1B-sfGFP
+LOCUS       pJUMP29-1Dp-sfGFP       3819 bp    DNA     circular SYN 10-DEC-2018
+DEFINITION  Cloning vector pJUMP29-1D'(sfGFP), complete sequence.
+ACCESSION   pJUMP29-1Dp-sfGFP
+VERSION     pJUMP29-1Dp-sfGFP
 KEYWORDS    .
-SOURCE      Cloning vector pJUMP29-1B(sfGFP)
-  ORGANISM  Cloning vector pJUMP29-1B(sfGFP)
+SOURCE      Cloning vector pJUMP29-1D'(sfGFP)
+  ORGANISM  Cloning vector pJUMP29-1D'(sfGFP)
             other sequences; artificial sequences; vectors.
 REFERENCE   1  (bases 1 to 3819)
   AUTHORS   Marcos Valenzuela-Ortega and Chris French
@@ -62,7 +62,7 @@ FEATURES             Location/Qualifiers
                      /label="T1 terminator"
 ORIGIN
         1 ttaattaagg agttttgcag gtgccttgga acacctgctt ttcgctgaat tcgcggccgc
-       61 ttctagagcg tctctaatgg gagtgagacc ggagttgacg gctagctcag tcctaggtac
+       61 ttctagagcg tctctttcgg gagtgagacc ggagttgacg gctagctcag tcctaggtac
       121 agtgctagcg tacttgttta actttaagaa ggagatatac aatggtagcc cgtaaaggcg
       181 aagagctgtt cactggtgtc gtccctattc tggtggaact ggatggtgat gtcaacggtc
       241 ataagttttc cgtgcgtggc gagggtgaag gtgacgcaac taatggtaaa ctgacgctga
@@ -76,7 +76,7 @@ ORIGIN
       721 acactccaat cggtgatggt cctgttctgc tgccagacaa tcactatctg agcacgcaaa
       781 gcgttctgtc taaagatccg aacgagaaac gcgatcatat ggttctgctg gagttcgtaa
       841 ccgcagcggg catcacgcat ggtatggatg aactgtacaa aggttcgtaa cttctgactg
-      901 agttgcacgc tggtctctcg ctagcctgag acgtactagt agcggccgct gcagggagtt
+      901 agttgcacgc tggtctctcg ctgctttgag acgtactagt agcggccgct gcagggagtt
       961 gtcttcgaag acttcgctct agtcttggac tcctgttgat agatccagta atgacctcag
      1021 aactccatct ggatttgttc agaacgctcg gttgccgccg ggcgtttttt attggtgaga
      1081 atccaggggt ccccaataat tacgatttaa atttgtgtct caaaatctct gatgttacat

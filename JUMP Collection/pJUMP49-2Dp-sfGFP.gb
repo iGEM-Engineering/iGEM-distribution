@@ -1,10 +1,10 @@
-LOCUS       pJUMP49-2C-sfGFP        3862 bp    DNA     circular SYN 21-APR-2019
-DEFINITION  Cloning vector pJUMP49-2C(sfGFP), complete sequence.
-ACCESSION   pJUMP49-2C-sfGFP
-VERSION     pJUMP49-2C-sfGFP
+LOCUS       pJUMP49-2Dp-sfGFP       3862 bp    DNA     circular SYN 21-APR-2019
+DEFINITION  Cloning vector pJUMP49-2D'(sfGFP), complete sequence.
+ACCESSION   pJUMP49-2Dp-sfGFP
+VERSION     pJUMP49-2Dp-sfGFP
 KEYWORDS    .
-SOURCE      Cloning vector pJUMP49-2C(sfGFP)
-  ORGANISM  Cloning vector pJUMP49-2C(sfGFP)
+SOURCE      Cloning vector pJUMP49-2D'(sfGFP)
+  ORGANISM  Cloning vector pJUMP49-2D'(sfGFP)
             other sequences; artificial sequences; vectors.
 REFERENCE   1  (bases 1 to 3862)
   AUTHORS   Marcos Valenzuela-Ortega and Chris French
@@ -57,13 +57,13 @@ FEATURES             Location/Qualifiers
                      /label="ORI"
      terminator      complement(3757..3861)
                      /label="T1 terminator"
-     primer_bind     3760..3777
-                     /label="PS1"
      primer_bind     complement(3760..3777)
                      /label="PS6"
+     primer_bind     3760..3777
+                     /label="PS1"
 ORIGIN
         1 ttaattaagg agttttgcag gtgcacctgc ttttcgctga attcgcggcc gcttctagag
-       61 ggtctctagc cggagtgaga cgggagttga cggctagctc agtcctaggt acagtgctag
+       61 ggtctctttc gggagtgaga cgggagttga cggctagctc agtcctaggt acagtgctag
       121 cgtacttgtt taactttaag aaggagatat acaatggtag cccgtaaagg cgaagagctg
       181 ttcactggtg tcgtccctat tctggtggaa ctggatggtg atgtcaacgg tcataagttt
       241 tccgtgcgtg gcgagggtga aggtgacgca actaatggta aactgacgct gaagttcatc
@@ -77,7 +77,7 @@ ORIGIN
       721 atcggtgatg gtcctgttct gctgccagac aatcactatc tgagcacgca aagcgttctg
       781 tctaaagatc cgaacgagaa acgcgatcat atggttctgc tggagttcgt aaccgcagcg
       841 ggcatcacgc atggtatgga tgaactgtac aaaggttcgt aacttctgac tgagttgcac
-      901 gctcgtctct cgctttcgtg agacctacta gtagcggccg ctgcagggag ttgtcttcga
+      901 gctcgtctct cgctgctttg agacctacta gtagcggccg ctgcagggag ttgtcttcga
       961 agacttcgct ctagtcttgg actcctgttg atagatccag taatgacctc agaactccat
      1021 ctggatttgt tcagaacgct cggttgccgc cgggcgtttt ttattggtga gaatccaggg
      1081 gtccccaata attacgattt aaatgaacct tgaccgaacg cagcggtggt aacggcgcag
