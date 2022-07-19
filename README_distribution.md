@@ -1,6 +1,6 @@
 # Distribution Summary
 
-- 168 samples planned for distribution
+- 205 samples planned for distribution
 
 ### Parts:
 
@@ -68,6 +68,43 @@
 - Three_Colors_Three_Colors_ins_K2656022
 - Three_Colors_recloned_into_pSB1C3_Three_Colors_recloned_into_pSB1C3_ins_BBa_K592100
 - Three_Colors_recloned_into_pSB1C3_Three_Colors_recloned_into_pSB1C3_ins_ECFP
+- pJUMP18_Uac
+- pJUMP19_Pac
+- pJUMP19_Tac
+- pJUMP19_min2
+- pJUMP21_1A_sfGFP
+- pJUMP22x_1A_sfGFP
+- pJUMP23_1A_sfGFP
+- pJUMP24_1A_sfGFP
+- pJUMP25_1A_sfGFP
+- pJUMP26_1A_sfGFP
+- pJUMP27_1A_sfGFP
+- pJUMP27ts_1A_sfGFP
+- pJUMP28_1A_sfGFP
+- pJUMP29_1A_lacZ
+- pJUMP29_1A_sfGFP
+- pJUMP29_1B_sfGFP
+- pJUMP29_1C_sfGFP
+- pJUMP29_1D_sfGFP
+- pJUMP29_1Dprime_sfGFP
+- pJUMP29_1E_sfGFP
+- pJUMP38_1A_sfGFP
+- pJUMP39_1A_sfGFP
+- pJUMP41_2A_sfGFP
+- pJUMP42x_2A_sfGFP
+- pJUMP43_2A_sfGFP
+- pJUMP44_2A_sfGFP
+- pJUMP45_2A_sfGFP
+- pJUMP46_2A_sfGFP
+- pJUMP47_2A_sfGFP
+- pJUMP47ts_2A_sfGFP
+- pJUMP48_2A_sfGFP
+- pJUMP49_2A_sfGFP
+- pJUMP49_2B_sfGFP
+- pJUMP49_2C_sfGFP
+- pJUMP49_2D_sfGFP
+- pJUMP49_2Dprime_sfGFP
+- pJUMP49_2E_sfGFP
 - Plant_CDSs_Plant_CDSs_ins_Bar
 - Plant_CDSs_Plant_CDSs_ins_GFP
 - Plant_CDSs_Plant_CDSs_ins_NPTII
