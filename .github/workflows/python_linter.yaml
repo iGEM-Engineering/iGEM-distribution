@@ -23,7 +23,8 @@ jobs:
           pip install pylint
       - name: Pylint
         run: >
-          pylint ./**
+          find . -type f -name "*.py" |
+          xargs pylint
           --max-line-length=99
         # --disable=C0114,E0401,W0611
   Flake8:
