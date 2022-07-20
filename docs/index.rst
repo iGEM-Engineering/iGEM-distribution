@@ -9,6 +9,13 @@ Welcome to iGEM-distribution's documentation!
 .. Hidden TOCs
 
 .. toctree::
+   :caption: Introduction
+   :maxdepth: 2
+   :hidden:
+
+   introduction/distribution
+
+.. toctree::
    :caption: Getting started
    :maxdepth: 2
    :hidden:
@@ -35,10 +42,19 @@ Welcome to iGEM-distribution's documentation!
    code/building
 
 
+Introduction
+---------------
+
+What are we building? And how is it different from previous distributions?
+
+- :doc:`What is the Distribution 2.0 <introduction/distribution>`
+
+
 Getting started
 ---------------
 
-We know that this way of working may be unfamiliar to many of you, but we believe that it's the best way to make the development of the new distribution as open and collaborative as possible! Don't worry if you've never used github before:
+We know that this way of working may be unfamiliar to many of you, but we believe that it's the best way to make the development of the new distribution as open and collaborative as possible!
+Don't worry if you've never used github before:
 
 - :doc:`Guide to Github <getting_started/github>`
 

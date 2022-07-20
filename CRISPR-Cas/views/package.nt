@@ -542,6 +542,8 @@
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA2_bacterial/annotation0/range> <http://sbols.org/v3#start> "1" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA2_bacterial/annotation0/range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Range> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA2_bacterial/annotation0> <http://purl.org/dc/terms/title> "AcrIIA2_bacterial" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA2_bacterial/annotation0> <http://sbols.org/genBankConversion#ApEinfo_fwdcolor> "#c6c9d1" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA2_bacterial/annotation0> <http://sbols.org/genBankConversion#ApEinfo_revcolor> "#c6c9d1" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA2_bacterial/annotation0> <http://sbols.org/genBankConversion#label> "AcrIIA2_bacterial" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA2_bacterial/annotation0> <http://sbols.org/v3#displayId> "annotation0" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA2_bacterial/annotation0> <http://sbols.org/v3#hasLocation> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA2_bacterial/annotation0/range> .
@@ -554,24 +556,40 @@
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA2_bacterial/annotation1/range> <http://sbols.org/v3#orientation> <http://sbols.org/v3#inline> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA2_bacterial/annotation1/range> <http://sbols.org/v3#start> "1" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA2_bacterial/annotation1/range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Range> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA2_bacterial/annotation1> <http://purl.org/dc/terms/title> "Translation 1-372" .
-<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA2_bacterial/annotation1> <http://sbols.org/genBankConversion#label> "Translation 1-372" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA2_bacterial/annotation1> <http://purl.org/dc/terms/title> "color: #ffffff" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA2_bacterial/annotation1> <http://sbols.org/genBankConversion#ApEinfo_fwdcolor> "#85dae9" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA2_bacterial/annotation1> <http://sbols.org/genBankConversion#ApEinfo_revcolor> "#85dae9" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA2_bacterial/annotation1> <http://sbols.org/genBankConversion#label> "color: #ffffff" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA2_bacterial/annotation1> <http://sbols.org/v3#displayId> "annotation1" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA2_bacterial/annotation1> <http://sbols.org/v3#hasLocation> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA2_bacterial/annotation1/range> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA2_bacterial/annotation1> <http://sbols.org/v3#name> "Translation 1-372" .
-<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA2_bacterial/annotation1> <http://sbols.org/v3#role> <http://identifiers.org/so/SO:0000147> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA2_bacterial/annotation1> <http://sbols.org/v3#name> "color: #ffffff" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA2_bacterial/annotation1> <http://sbols.org/v3#role> <http://identifiers.org/so/SO:0002206> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA2_bacterial/annotation1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#SequenceFeature> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA2_bacterial/annotation2/range> <http://sbols.org/v3#displayId> "range" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA2_bacterial/annotation2/range> <http://sbols.org/v3#end> "372" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA2_bacterial/annotation2/range> <http://sbols.org/v3#hasSequence> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA2_bacterial_seq> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA2_bacterial/annotation2/range> <http://sbols.org/v3#orientation> <http://sbols.org/v3#inline> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA2_bacterial/annotation2/range> <http://sbols.org/v3#start> "1" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA2_bacterial/annotation2/range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Range> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA2_bacterial/annotation2> <http://purl.org/dc/terms/title> "Translation 1-372" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA2_bacterial/annotation2> <http://sbols.org/genBankConversion#label> "Translation 1-372" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA2_bacterial/annotation2> <http://sbols.org/v3#displayId> "annotation2" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA2_bacterial/annotation2> <http://sbols.org/v3#hasLocation> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA2_bacterial/annotation2/range> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA2_bacterial/annotation2> <http://sbols.org/v3#name> "Translation 1-372" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA2_bacterial/annotation2> <http://sbols.org/v3#role> <http://identifiers.org/so/SO:0000147> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA2_bacterial/annotation2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#SequenceFeature> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA2_bacterial> <http://sbols.org/v3#description> "." .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA2_bacterial> <http://sbols.org/v3#displayId> "AcrIIA2_bacterial" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA2_bacterial> <http://sbols.org/v3#hasFeature> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA2_bacterial/annotation0> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA2_bacterial> <http://sbols.org/v3#hasFeature> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA2_bacterial/annotation1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA2_bacterial> <http://sbols.org/v3#hasFeature> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA2_bacterial/annotation2> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA2_bacterial> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA2_bacterial> <http://sbols.org/v3#hasSequence> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA2_bacterial_seq> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA2_bacterial> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA2_bacterial> <http://sbols.org/v3#type> <http://identifiers.org/so/SO:0000987> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA2_bacterial> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA2_bacterial> <http://sboltools.org/backport#sbol2type> <http://sbols.org/v2#ComponentDefinition> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA2_bacterial> <http://www.ncbi.nlm.nih.gov/genbank#date> "02-FEB-2022" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA2_bacterial> <http://www.ncbi.nlm.nih.gov/genbank#date> "09-MAR-2022" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA2_bacterial> <http://www.ncbi.nlm.nih.gov/genbank#locus> "AcrIIA2_bacterial" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA2_bacterial> <http://www.ncbi.nlm.nih.gov/genbank#molecule> "ds-DNA" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA2_bacterial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
@@ -626,92 +644,128 @@
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA2_mammalian_seq> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA2_mammalian_seq> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Sequence> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial/annotation0/range> <http://sbols.org/v3#displayId> "range" .
-<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial/annotation0/range> <http://sbols.org/v3#end> "372" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial/annotation0/range> <http://sbols.org/v3#end> "264" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial/annotation0/range> <http://sbols.org/v3#hasSequence> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial_seq> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial/annotation0/range> <http://sbols.org/v3#orientation> <http://sbols.org/v3#inline> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial/annotation0/range> <http://sbols.org/v3#start> "1" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial/annotation0/range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Range> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial/annotation0> <http://purl.org/dc/terms/title> "AcrIIA2_bacterial" .
-<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial/annotation0> <http://sbols.org/genBankConversion#label> "AcrIIA2_bacterial" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial/annotation0> <http://purl.org/dc/terms/title> "AcrIIA4_bacterial" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial/annotation0> <http://sbols.org/genBankConversion#ApEinfo_fwdcolor> "#9eafd2" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial/annotation0> <http://sbols.org/genBankConversion#ApEinfo_revcolor> "#9eafd2" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial/annotation0> <http://sbols.org/genBankConversion#label> "AcrIIA4_bacterial" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial/annotation0> <http://sbols.org/v3#displayId> "annotation0" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial/annotation0> <http://sbols.org/v3#hasLocation> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial/annotation0/range> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial/annotation0> <http://sbols.org/v3#name> "AcrIIA2_bacterial" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial/annotation0> <http://sbols.org/v3#name> "AcrIIA4_bacterial" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial/annotation0> <http://sbols.org/v3#role> <http://identifiers.org/so/SO:0000316> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial/annotation0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#SequenceFeature> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial/annotation1/range> <http://sbols.org/v3#displayId> "range" .
-<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial/annotation1/range> <http://sbols.org/v3#end> "372" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial/annotation1/range> <http://sbols.org/v3#end> "264" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial/annotation1/range> <http://sbols.org/v3#hasSequence> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial_seq> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial/annotation1/range> <http://sbols.org/v3#orientation> <http://sbols.org/v3#inline> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial/annotation1/range> <http://sbols.org/v3#start> "1" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial/annotation1/range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Range> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial/annotation1> <http://purl.org/dc/terms/title> "Translation 1-372" .
-<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial/annotation1> <http://sbols.org/genBankConversion#label> "Translation 1-372" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial/annotation1> <http://purl.org/dc/terms/title> "color: #ffffff" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial/annotation1> <http://sbols.org/genBankConversion#ApEinfo_fwdcolor> "#c6c9d1" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial/annotation1> <http://sbols.org/genBankConversion#ApEinfo_revcolor> "#c6c9d1" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial/annotation1> <http://sbols.org/genBankConversion#label> "color: #ffffff" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial/annotation1> <http://sbols.org/v3#displayId> "annotation1" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial/annotation1> <http://sbols.org/v3#hasLocation> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial/annotation1/range> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial/annotation1> <http://sbols.org/v3#name> "Translation 1-372" .
-<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial/annotation1> <http://sbols.org/v3#role> <http://identifiers.org/so/SO:0000147> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial/annotation1> <http://sbols.org/v3#name> "color: #ffffff" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial/annotation1> <http://sbols.org/v3#role> <http://identifiers.org/so/SO:0002206> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial/annotation1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#SequenceFeature> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial/annotation2/range> <http://sbols.org/v3#displayId> "range" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial/annotation2/range> <http://sbols.org/v3#end> "264" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial/annotation2/range> <http://sbols.org/v3#hasSequence> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial_seq> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial/annotation2/range> <http://sbols.org/v3#orientation> <http://sbols.org/v3#inline> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial/annotation2/range> <http://sbols.org/v3#start> "1" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial/annotation2/range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Range> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial/annotation2> <http://purl.org/dc/terms/title> "Translation 1-264" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial/annotation2> <http://sbols.org/genBankConversion#label> "Translation 1-264" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial/annotation2> <http://sbols.org/v3#displayId> "annotation2" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial/annotation2> <http://sbols.org/v3#hasLocation> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial/annotation2/range> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial/annotation2> <http://sbols.org/v3#name> "Translation 1-264" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial/annotation2> <http://sbols.org/v3#role> <http://identifiers.org/so/SO:0000147> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial/annotation2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#SequenceFeature> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial> <http://sbols.org/v3#description> "." .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial> <http://sbols.org/v3#displayId> "AcrIIA4_bacterial" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial> <http://sbols.org/v3#hasFeature> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial/annotation0> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial> <http://sbols.org/v3#hasFeature> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial/annotation1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial> <http://sbols.org/v3#hasFeature> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial/annotation2> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial> <http://sbols.org/v3#hasSequence> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial_seq> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial> <http://sbols.org/v3#type> <http://identifiers.org/so/SO:0000987> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial> <http://sboltools.org/backport#sbol2type> <http://sbols.org/v2#ComponentDefinition> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial> <http://www.ncbi.nlm.nih.gov/genbank#date> "02-FEB-2022" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial> <http://www.ncbi.nlm.nih.gov/genbank#date> "09-MAR-2022" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial> <http://www.ncbi.nlm.nih.gov/genbank#locus> "AcrIIA4_bacterial" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial> <http://www.ncbi.nlm.nih.gov/genbank#molecule> "ds-DNA" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial_seq> <http://sbols.org/v3#displayId> "AcrIIA4_bacterial_seq" .
-<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial_seq> <http://sbols.org/v3#elements> "atgacattaacaagagcacaaaaaaagtatgcagaagcgatgcacgagtttataaatatggtggatgactttgaagagtctacaccggattttgcaaaggaagttctacatgattctgactatgtagttattacaaaaaatgaaaaatatgcagtagctctttgctctcttagcactgatgaatgtgaatatgatactaacttatacttagatgaaaaattggttgattactcaacagttgacgtaaacggtgtgacatactacatcaacattgttgaaactaacgatatcgatgatttagaaatcgctacggatgaagatgagatgaaaagtggcaaccaagaaattattttaaaaagtgagttgaagtaa" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial_seq> <http://sbols.org/v3#elements> "atgaatattaatgacttaattagagaaatcaaaaacaaagattacacagtgaaattgagtggtacggatagcaatagtatcacacagctaattattcgcgttaataatgatggcaacgagtatgtaatttctgaaagtgaaaatgaatcaatcgttgaaaaattcatctctgcattcaaaaacggttggaatcaagaatacgaggatgaagaagaattttataatgacatgcaaacaatcaccttaaaaagtgagttgaactaa" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial_seq> <http://sbols.org/v3#encoding> <https://identifiers.org/edam:format_1207> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial_seq> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_bacterial_seq> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Sequence> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian/annotation0/range> <http://sbols.org/v3#displayId> "range" .
-<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian/annotation0/range> <http://sbols.org/v3#end> "372" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian/annotation0/range> <http://sbols.org/v3#end> "321" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian/annotation0/range> <http://sbols.org/v3#hasSequence> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian_seq> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian/annotation0/range> <http://sbols.org/v3#orientation> <http://sbols.org/v3#inline> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian/annotation0/range> <http://sbols.org/v3#start> "1" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian/annotation0/range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Range> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian/annotation0> <http://purl.org/dc/terms/title> "AcrIIA2_bacterial" .
-<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian/annotation0> <http://sbols.org/genBankConversion#label> "AcrIIA2_bacterial" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian/annotation0> <http://purl.org/dc/terms/title> "color: #ffffff" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian/annotation0> <http://sbols.org/genBankConversion#ApEinfo_fwdcolor> "#b4abac" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian/annotation0> <http://sbols.org/genBankConversion#ApEinfo_revcolor> "#b4abac" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian/annotation0> <http://sbols.org/genBankConversion#label> "color: #ffffff" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian/annotation0> <http://sbols.org/v3#displayId> "annotation0" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian/annotation0> <http://sbols.org/v3#hasLocation> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian/annotation0/range> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian/annotation0> <http://sbols.org/v3#name> "AcrIIA2_bacterial" .
-<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian/annotation0> <http://sbols.org/v3#role> <http://identifiers.org/so/SO:0000316> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian/annotation0> <http://sbols.org/v3#name> "color: #ffffff" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian/annotation0> <http://sbols.org/v3#role> <http://identifiers.org/so/SO:0002206> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian/annotation0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#SequenceFeature> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian/annotation1/range> <http://sbols.org/v3#displayId> "range" .
-<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian/annotation1/range> <http://sbols.org/v3#end> "372" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian/annotation1/range> <http://sbols.org/v3#end> "321" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian/annotation1/range> <http://sbols.org/v3#hasSequence> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian_seq> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian/annotation1/range> <http://sbols.org/v3#orientation> <http://sbols.org/v3#inline> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian/annotation1/range> <http://sbols.org/v3#start> "1" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian/annotation1/range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Range> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian/annotation1> <http://purl.org/dc/terms/title> "Translation 1-372" .
-<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian/annotation1> <http://sbols.org/genBankConversion#label> "Translation 1-372" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian/annotation1> <http://purl.org/dc/terms/title> "AcrIIA4_mammalian" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian/annotation1> <http://sbols.org/genBankConversion#ApEinfo_fwdcolor> "#85dae9" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian/annotation1> <http://sbols.org/genBankConversion#ApEinfo_revcolor> "#85dae9" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian/annotation1> <http://sbols.org/genBankConversion#label> "AcrIIA4_mammalian" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian/annotation1> <http://sbols.org/v3#displayId> "annotation1" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian/annotation1> <http://sbols.org/v3#hasLocation> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian/annotation1/range> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian/annotation1> <http://sbols.org/v3#name> "Translation 1-372" .
-<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian/annotation1> <http://sbols.org/v3#role> <http://identifiers.org/so/SO:0000147> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian/annotation1> <http://sbols.org/v3#name> "AcrIIA4_mammalian" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian/annotation1> <http://sbols.org/v3#role> <http://identifiers.org/so/SO:0000316> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian/annotation1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#SequenceFeature> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian/annotation2/range> <http://sbols.org/v3#displayId> "range" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian/annotation2/range> <http://sbols.org/v3#end> "321" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian/annotation2/range> <http://sbols.org/v3#hasSequence> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian_seq> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian/annotation2/range> <http://sbols.org/v3#orientation> <http://sbols.org/v3#inline> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian/annotation2/range> <http://sbols.org/v3#start> "1" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian/annotation2/range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Range> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian/annotation2> <http://purl.org/dc/terms/title> "Translation 1-321" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian/annotation2> <http://sbols.org/genBankConversion#label> "Translation 1-321" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian/annotation2> <http://sbols.org/v3#displayId> "annotation2" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian/annotation2> <http://sbols.org/v3#hasLocation> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian/annotation2/range> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian/annotation2> <http://sbols.org/v3#name> "Translation 1-321" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian/annotation2> <http://sbols.org/v3#role> <http://identifiers.org/so/SO:0000147> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian/annotation2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#SequenceFeature> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian> <http://sbols.org/v3#description> "." .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian> <http://sbols.org/v3#displayId> "AcrIIA4_mammalian" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian> <http://sbols.org/v3#hasFeature> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian/annotation0> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian> <http://sbols.org/v3#hasFeature> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian/annotation1> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian> <http://sbols.org/v3#hasFeature> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian/annotation2> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian> <http://sbols.org/v3#hasSequence> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian_seq> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian> <http://sbols.org/v3#type> <http://identifiers.org/so/SO:0000987> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian> <http://sboltools.org/backport#sbol2type> <http://sbols.org/v2#ComponentDefinition> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian> <http://www.ncbi.nlm.nih.gov/genbank#date> "02-FEB-2022" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian> <http://www.ncbi.nlm.nih.gov/genbank#date> "09-MAR-2022" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian> <http://www.ncbi.nlm.nih.gov/genbank#locus> "AcrIIA4_mammalian" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian> <http://www.ncbi.nlm.nih.gov/genbank#molecule> "ds-DNA" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian_seq> <http://sbols.org/v3#displayId> "AcrIIA4_mammalian_seq" .
-<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian_seq> <http://sbols.org/v3#elements> "atgacattaacaagagcacaaaaaaagtatgcagaagcgatgcacgagtttataaatatggtggatgactttgaagagtctacaccggattttgcaaaggaagttctacatgattctgactatgtagttattacaaaaaatgaaaaatatgcagtagctctttgctctcttagcactgatgaatgtgaatatgatactaacttatacttagatgaaaaattggttgattactcaacagttgacgtaaacggtgtgacatactacatcaacattgttgaaactaacgatatcgatgatttagaaatcgctacggatgaagatgagatgaaaagtggcaaccaagaaattattttaaaaagtgagttgaagtaa" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian_seq> <http://sbols.org/v3#elements> "atgaacattaacgacctcatacgagagattaagaacaaagattacaccgtcaaactgtcaggaactgatagtaactcaatcacccagcttattatcagggtaaacaatgatgggaatgaatatgtgatatctgagagcgaaaacgagtctatcgtcgagaaattcatttccgcttttaagaacgggtggaatcaggaatatgaggatgaagaagaattttacaatgacatgcagacgatcacgttgaaaagtgaactgaactaagaattctgcagatatccagcacagtggcggccgctcgagtctagagggcccgtttaa" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian_seq> <http://sbols.org/v3#encoding> <https://identifiers.org/edam:format_1207> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian_seq> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/CRISPR-Cas/AcrIIA4_mammalian_seq> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Sequence> .

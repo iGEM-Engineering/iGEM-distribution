@@ -1,16 +1,21 @@
-LOCUS       AcrIIA4_mammalian        372 bp ds-DNA     linear       02-FEB-2022
+LOCUS       AcrIIA4_mammalian        321 bp ds-DNA     linear       09-MAR-2022
 DEFINITION  .
 FEATURES             Location/Qualifiers
-     CDS             1..372
-                     /label="AcrIIA2_bacterial"
-     exon            1..372
-                     /label="Translation 1-372"
+     source          1..321
+                     /label="color: #ffffff"
+                     /ApEinfo_revcolor=#b4abac
+                     /ApEinfo_fwdcolor=#b4abac
+     CDS             1..321
+                     /label="AcrIIA4_mammalian"
+                     /ApEinfo_revcolor=#85dae9
+                     /ApEinfo_fwdcolor=#85dae9
+     exon            1..321
+                     /label="Translation 1-321"
 ORIGIN
-        1 atgacattaa caagagcaca aaaaaagtat gcagaagcga tgcacgagtt tataaatatg
-       61 gtggatgact ttgaagagtc tacaccggat tttgcaaagg aagttctaca tgattctgac
-      121 tatgtagtta ttacaaaaaa tgaaaaatat gcagtagctc tttgctctct tagcactgat
-      181 gaatgtgaat atgatactaa cttatactta gatgaaaaat tggttgatta ctcaacagtt
-      241 gacgtaaacg gtgtgacata ctacatcaac attgttgaaa ctaacgatat cgatgattta
-      301 gaaatcgcta cggatgaaga tgagatgaaa agtggcaacc aagaaattat tttaaaaagt
-      361 gagttgaagt aa
+        1 atgaacatta acgacctcat acgagagatt aagaacaaag attacaccgt caaactgtca
+       61 ggaactgata gtaactcaat cacccagctt attatcaggg taaacaatga tgggaatgaa
+      121 tatgtgatat ctgagagcga aaacgagtct atcgtcgaga aattcatttc cgcttttaag
+      181 aacgggtgga atcaggaata tgaggatgaa gaagaatttt acaatgacat gcagacgatc
+      241 acgttgaaaa gtgaactgaa ctaagaattc tgcagatatc cagcacagtg gcggccgctc
+      301 gagtctagag ggcccgttta a
 //
