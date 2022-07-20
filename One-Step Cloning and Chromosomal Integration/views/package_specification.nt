@@ -1,0 +1,65 @@
+
+<https://freegenes.github.io/genbank/BBF10K_000016> <http://sbols.org/v3#description> "taken directly from FreeGenes collection" .
+<https://freegenes.github.io/genbank/BBF10K_000016> <http://sbols.org/v3#displayId> "BBF10K_000016" .
+<https://freegenes.github.io/genbank/BBF10K_000016> <http://sbols.org/v3#hasNamespace> <https://freegenes.github.io/genbank> .
+<https://freegenes.github.io/genbank/BBF10K_000016> <http://sbols.org/v3#name> "pE-FLP" .
+<https://freegenes.github.io/genbank/BBF10K_000016> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000155> .
+<https://freegenes.github.io/genbank/BBF10K_000016> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://freegenes.github.io/genbank/BBF10K_000016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://freegenes.github.io/genbank/BBF10K_000016> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://freegenes.github.io/genbank/BBF10K_000016.gb> .
+<https://freegenes.github.io/genbank/BBF10K_000031> <http://sbols.org/v3#description> "taken directly from FreeGenes collection" .
+<https://freegenes.github.io/genbank/BBF10K_000031> <http://sbols.org/v3#displayId> "BBF10K_000031" .
+<https://freegenes.github.io/genbank/BBF10K_000031> <http://sbols.org/v3#hasNamespace> <https://freegenes.github.io/genbank> .
+<https://freegenes.github.io/genbank/BBF10K_000031> <http://sbols.org/v3#name> "pOSIP-CH (CamR, HK022)" .
+<https://freegenes.github.io/genbank/BBF10K_000031> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000155> .
+<https://freegenes.github.io/genbank/BBF10K_000031> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://freegenes.github.io/genbank/BBF10K_000031> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://freegenes.github.io/genbank/BBF10K_000031> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://freegenes.github.io/genbank/BBF10K_000031.gb> .
+<https://freegenes.github.io/genbank/BBF10K_000492> <http://sbols.org/v3#description> "taken directly from FreeGenes collection" .
+<https://freegenes.github.io/genbank/BBF10K_000492> <http://sbols.org/v3#displayId> "BBF10K_000492" .
+<https://freegenes.github.io/genbank/BBF10K_000492> <http://sbols.org/v3#hasNamespace> <https://freegenes.github.io/genbank> .
+<https://freegenes.github.io/genbank/BBF10K_000492> <http://sbols.org/v3#name> "pOSIP-KO (KanR, 186)" .
+<https://freegenes.github.io/genbank/BBF10K_000492> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000155> .
+<https://freegenes.github.io/genbank/BBF10K_000492> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://freegenes.github.io/genbank/BBF10K_000492> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://freegenes.github.io/genbank/BBF10K_000492> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://freegenes.github.io/genbank/BBF10K_000492.gb> .
+<https://freegenes.github.io/genbank/BBF10K_000493> <http://sbols.org/v3#description> "taken directly from FreeGenes collection" .
+<https://freegenes.github.io/genbank/BBF10K_000493> <http://sbols.org/v3#displayId> "BBF10K_000493" .
+<https://freegenes.github.io/genbank/BBF10K_000493> <http://sbols.org/v3#hasNamespace> <https://freegenes.github.io/genbank> .
+<https://freegenes.github.io/genbank/BBF10K_000493> <http://sbols.org/v3#name> "pOSIP-TT (TetR, P21)" .
+<https://freegenes.github.io/genbank/BBF10K_000493> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000155> .
+<https://freegenes.github.io/genbank/BBF10K_000493> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://freegenes.github.io/genbank/BBF10K_000493> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://freegenes.github.io/genbank/BBF10K_000493> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://freegenes.github.io/genbank/BBF10K_000493.gb> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/One-Step%20Cloning%20and%20Chromosomal%20Integration/BasicParts> <http://sbols.org/v3#description> "“Clonetegration” is a method for integrating DNA into prokaryotic chromosomes that approaches the simplicity of cloning DNA within extrachromosomal vectors. Compared to existing techniques, clonetegration drastically decreases the time and effort needed for integration of single or multiple DNA fragments. Additionally, clonetegration facilitates cloning and expression of genetic elements that are impossible to propagate within typical multicopy plasmids. (taken directly from https://stanford.freegenes.org/collections/igem-collection-2-0/products/one-step-cloning-and-chromosomal-integration-of-dna#description) One-Step Cloning and Chromosomal Integration of DNA, François St-Pierre, Lun Cui, David G. Priest, Drew Endy, Ian B. Dodd, and Keith E. Shearwin, https://pubs.acs.org/doi/full/10.1021/sb400021j?src=recsys&" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/One-Step%20Cloning%20and%20Chromosomal%20Integration/BasicParts> <http://sbols.org/v3#displayId> "BasicParts" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/One-Step%20Cloning%20and%20Chromosomal%20Integration/BasicParts> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/One-Step%20Cloning%20and%20Chromosomal%20Integration> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/One-Step%20Cloning%20and%20Chromosomal%20Integration/BasicParts> <http://sbols.org/v3#member> <https://freegenes.github.io/genbank/BBF10K_000016> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/One-Step%20Cloning%20and%20Chromosomal%20Integration/BasicParts> <http://sbols.org/v3#member> <https://freegenes.github.io/genbank/BBF10K_000031> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/One-Step%20Cloning%20and%20Chromosomal%20Integration/BasicParts> <http://sbols.org/v3#member> <https://freegenes.github.io/genbank/BBF10K_000492> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/One-Step%20Cloning%20and%20Chromosomal%20Integration/BasicParts> <http://sbols.org/v3#member> <https://freegenes.github.io/genbank/BBF10K_000493> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/One-Step%20Cloning%20and%20Chromosomal%20Integration/BasicParts> <http://sbols.org/v3#name> "One-Step Cloning and Chromosomal Integration" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/One-Step%20Cloning%20and%20Chromosomal%20Integration/BasicParts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/One-Step%20Cloning%20and%20Chromosomal%20Integration/CompositeParts> <http://sbols.org/v3#description> "“Clonetegration” is a method for integrating DNA into prokaryotic chromosomes that approaches the simplicity of cloning DNA within extrachromosomal vectors. Compared to existing techniques, clonetegration drastically decreases the time and effort needed for integration of single or multiple DNA fragments. Additionally, clonetegration facilitates cloning and expression of genetic elements that are impossible to propagate within typical multicopy plasmids. (taken directly from https://stanford.freegenes.org/collections/igem-collection-2-0/products/one-step-cloning-and-chromosomal-integration-of-dna#description) One-Step Cloning and Chromosomal Integration of DNA, François St-Pierre, Lun Cui, David G. Priest, Drew Endy, Ian B. Dodd, and Keith E. Shearwin, https://pubs.acs.org/doi/full/10.1021/sb400021j?src=recsys&" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/One-Step%20Cloning%20and%20Chromosomal%20Integration/CompositeParts> <http://sbols.org/v3#displayId> "CompositeParts" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/One-Step%20Cloning%20and%20Chromosomal%20Integration/CompositeParts> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/One-Step%20Cloning%20and%20Chromosomal%20Integration> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/One-Step%20Cloning%20and%20Chromosomal%20Integration/CompositeParts> <http://sbols.org/v3#name> "One-Step Cloning and Chromosomal Integration" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/One-Step%20Cloning%20and%20Chromosomal%20Integration/CompositeParts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/One-Step%20Cloning%20and%20Chromosomal%20Integration/FinalProducts> <http://sbols.org/v3#description> "Final products desired for actual fabrication" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/One-Step%20Cloning%20and%20Chromosomal%20Integration/FinalProducts> <http://sbols.org/v3#displayId> "FinalProducts" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/One-Step%20Cloning%20and%20Chromosomal%20Integration/FinalProducts> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/One-Step%20Cloning%20and%20Chromosomal%20Integration> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/One-Step%20Cloning%20and%20Chromosomal%20Integration/FinalProducts> <http://sbols.org/v3#member> <https://freegenes.github.io/genbank/BBF10K_000016> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/One-Step%20Cloning%20and%20Chromosomal%20Integration/FinalProducts> <http://sbols.org/v3#member> <https://freegenes.github.io/genbank/BBF10K_000031> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/One-Step%20Cloning%20and%20Chromosomal%20Integration/FinalProducts> <http://sbols.org/v3#member> <https://freegenes.github.io/genbank/BBF10K_000492> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/One-Step%20Cloning%20and%20Chromosomal%20Integration/FinalProducts> <http://sbols.org/v3#member> <https://freegenes.github.io/genbank/BBF10K_000493> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/One-Step%20Cloning%20and%20Chromosomal%20Integration/FinalProducts> <http://sbols.org/v3#name> "Final Products" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/One-Step%20Cloning%20and%20Chromosomal%20Integration/FinalProducts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Collection> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/One-Step%20Cloning%20and%20Chromosomal%20Integration/LinearDNAProducts> <http://sbols.org/v3#description> "Linear DNA constructs to be fabricated" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/One-Step%20Cloning%20and%20Chromosomal%20Integration/LinearDNAProducts> <http://sbols.org/v3#displayId> "LinearDNAProducts" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/One-Step%20Cloning%20and%20Chromosomal%20Integration/LinearDNAProducts> <http://sbols.org/v3#hasNamespace> <https://github.com/iGEM-Engineering/iGEM-distribution/One-Step%20Cloning%20and%20Chromosomal%20Integration> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/One-Step%20Cloning%20and%20Chromosomal%20Integration/LinearDNAProducts> <http://sbols.org/v3#member> <https://freegenes.github.io/genbank/BBF10K_000016> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/One-Step%20Cloning%20and%20Chromosomal%20Integration/LinearDNAProducts> <http://sbols.org/v3#member> <https://freegenes.github.io/genbank/BBF10K_000031> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/One-Step%20Cloning%20and%20Chromosomal%20Integration/LinearDNAProducts> <http://sbols.org/v3#member> <https://freegenes.github.io/genbank/BBF10K_000492> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/One-Step%20Cloning%20and%20Chromosomal%20Integration/LinearDNAProducts> <http://sbols.org/v3#member> <https://freegenes.github.io/genbank/BBF10K_000493> .
+<https://github.com/iGEM-Engineering/iGEM-distribution/One-Step%20Cloning%20and%20Chromosomal%20Integration/LinearDNAProducts> <http://sbols.org/v3#name> "Linear DNA Products" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/One-Step%20Cloning%20and%20Chromosomal%20Integration/LinearDNAProducts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Collection> .
