@@ -1,4 +1,4 @@
-''' Compute build plan for packages '''
+""" Compute build plan for packages """
 
 import os
 import sys
@@ -9,12 +9,12 @@ ERROR = False
 packages = scriptutils.package_dirs()
 for p in packages:
 
-    print(f'Expanding package build plan {os.path.basename(p)}')
+    print(f"Expanding package build plan {os.path.basename(p)}")
     try:
         scriptutils.expand_build_plan(p)
 
     except (OSError, ValueError) as e:
-        print(f'Could not compute build plan for {os.path.basename(p)}: {e}')
+        print(f"Could not compute build plan for {os.path.basename(p)}: {e}")
         ERROR = True
 
 # If there was an error, flag on exit in order to notify executing YAML script
