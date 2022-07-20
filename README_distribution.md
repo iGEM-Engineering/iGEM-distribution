@@ -1,9 +1,13 @@
 # Distribution Summary
 
-- 205 samples planned for distribution
+- 209 samples planned for distribution
 
 ### Parts:
 
+- BBF10K_000016
+- BBF10K_000031
+- BBF10K_000492
+- BBF10K_000493
 - Anderson_Promoters_in_pSB1C3_Anderson_Promoters_in_pSB1C3_ins_BBa_J23101
 - Anderson_Promoters_in_pSB1C3_Anderson_Promoters_in_pSB1C3_ins_BBa_J23104
 - Anderson_Promoters_in_pSB1C3_Anderson_Promoters_in_pSB1C3_ins_BBa_J23106
