@@ -4,10 +4,6 @@
 
 ### Parts:
 
-- BBF10K_000016
-- BBF10K_000031
-- BBF10K_000492
-- BBF10K_000493
 - Anderson_Promoters_in_pSB1C3_Anderson_Promoters_in_pSB1C3_ins_BBa_J23101
 - Anderson_Promoters_in_pSB1C3_Anderson_Promoters_in_pSB1C3_ins_BBa_J23104
 - Anderson_Promoters_in_pSB1C3_Anderson_Promoters_in_pSB1C3_ins_BBa_J23106
@@ -109,6 +105,10 @@
 - pJUMP49_2D_sfGFP
 - pJUMP49_2Dprime_sfGFP
 - pJUMP49_2E_sfGFP
+- pE_FLP
+- pOSIP_CH__LEFT_PARENTHESISCamR_COMMA_HK022_RIGHT_PARENTHESIS
+- pOSIP_KO__LEFT_PARENTHESISKanR_COMMA_186_RIGHT_PARENTHESIS
+- pOSIP_TT__LEFT_PARENTHESISTetR_COMMA_P21_RIGHT_PARENTHESIS
 - Plant_CDSs_Plant_CDSs_ins_Bar
 - Plant_CDSs_Plant_CDSs_ins_GFP
 - Plant_CDSs_Plant_CDSs_ins_NPTII
