@@ -1,6 +1,6 @@
 # Distribution Summary
 
-- 234 samples planned for distribution
+- 306 samples planned for distribution
 
 ### Parts:
 
@@ -88,6 +88,78 @@
 - Fluorescent_Proteins_in_vector_Fluorescent_Proteins_in_vector_ins_mKate2
 - Fluorescent_Proteins_in_vector_Fluorescent_Proteins_in_vector_ins_mRFP1
 - Fluorescent_Proteins_in_vector_Fluorescent_Proteins_in_vector_ins_mScarlet
+- Bsub_LacI_LacO_Promo
+- CatA9__LEFT_PARENTHESISBsub_CamR_RIGHT_PARENTHESIS
+- Eco31IA_methyltransferase
+- Eco31IB_methyltransferase
+- Eco31I_restriction_enzyme
+- EcoOri_ColE1pMB1pBR32
+- Eco_AmpR
+- Eco_KanR
+- Eco_TetR
+- Eco_ccdA
+- Eco_p15a_origin
+- Eco_pRO1600_ColE1_origin
+- Eco_sacB
+- Ecoli_KanR
+- Ecoli_SpecR
+- IDL3_B_BbsI_3_APOSTROPHE_Identity_Linker
+- IDL3_B_mBsaI_3_APOSTROPHE_Identity_Linker
+- IDL3_C_BbsI_3_APOSTROPHE_Identity_Linker
+- IDL3_C_mBsaI_3_APOSTROPHE_Identity_Linker
+- IDL5_A_BbsI_5_APOSTROPHE_Identity_Linker
+- IDL5_A_mBsaI_5_APOSTROPHE_Identity_Linker
+- IDL5_E_BbsI_5_APOSTROPHE_Identity_Linker
+- IDL5_E_mBsaI_5_APOSTROPHE_Identity_Linker
+- Lambda_T1_Transcriptional_Terminator
+- Lox71_select_Lox66
+- PSL3_B_to_A3_BbsI_3_APOSTROPHE_Part_Switch_Linker
+- PSL3_B_to_A3_mBsaI_3_APOSTROPHE_Part_Switch_Linker
+- PSL3_F9_to_E2_BbsI_3_APOSTROPHE_Part_Switch_Linker
+- PSL3_F9_to_E2_mBsaI_3_APOSTROPHE_Part_Switch_Linker
+- PSL3_F9_to_F_BbsI_3_APOSTROPHE_Part_Switch_Linker
+- PSL3_F9_to_F_mBsaI_3_APOSTROPHE_Part_Switch_Linker
+- PSL3_F_to_E2_BbsI_3_APOSTROPHE_Part_Switch_Linker
+- PSL3_F_to_E2_mBsaI_3_APOSTROPHE_Part_Switch_Linker
+- PSL5_A_to_A2_BbsI_5_APOSTROPHE_Part_Switch_Linker
+- PSL5_A_to_A2_mBsaI_5_APOSTROPHE_Part_Switch_Linker
+- PSL5_F8_to_A2_BbsI_5_APOSTROPHE_Part_Switch_Linker
+- PSL5_F8_to_A2_mBsaI_Part_Switch_Linker
+- PSL5_F8_to_A_BbsI_5_APOSTROPHE_Part_Switch_Linker
+- PSL5_F8_to_A_mBsaI_Part_Switch_Linker
+- Pfu_Sso7d_noCtag_Bsub
+- Pfu_ssod7_yeast
+- Pichia_VPS13_3_APOSTROPHE_Homology
+- Pichia_VPS13_5_APOSTROPHE_Homology
+- Pichia_VPS8_3_APOSTROPHE_Homology
+- Pichia_VPS8_5_APOSTROPHE_Homology
+- PurTag_R5
+- Rec3_Lox66
+- Rec3_LoxP
+- SarJ_Ribozyme_Insulator
+- SecTag_ReplacementSpacer_AATG
+- SecTag_ReplacementSpacer_CCAT
+- T4_DNA_Ligase_yeast
+- T7TE_LuxIA_Terminator
+- TU_ccdB_dropout
+- Terminator_for_Bacillus_subtilis
+- _6xHis_CenA_TEVcut_yeast
+- _6xHis_Cex_TEVcut_yeast
+- anti_his_tag_single_chain_antibody_yeast
+- fuGFP_yeast
+- openCherry_yeast
+- p50_T4_DNA_Ligase_yeast
+- pBs1C__LEFT_PARENTHESISamyE_RIGHT_PARENTHESIS__LEFT_SQUARE_BRACKET1412_2440_RIGHT_SQUARE_BRACKET_3_APOSTROPHE_homology
+- pBs1C__LEFT_PARENTHESISamyE_RIGHT_PARENTHESIS__LEFT_SQUARE_BRACKET5579_6099_RIGHT_SQUARE_BRACKET_5_APOSTROPHE_homology
+- pBs2E__LEFT_PARENTHESISlacA_RIGHT_PARENTHESIS__LEFT_SQUARE_BRACKET150_557_RIGHT_SQUARE_BRACKET_3_APOSTROPHE_homology
+- pBs2E__LEFT_PARENTHESISlacA_RIGHT_PARENTHESIS__LEFT_SQUARE_BRACKET4104_4619_RIGHT_SQUARE_BRACKET_5_APOSTROPHE_homology
+- pBs4S__LEFT_PARENTHESISthRC_RIGHT_PARENTHESIS__LEFT_SQUARE_BRACKET1059_1487_RIGHT_SQUARE_BRACKET_3_APOSTROPHE_homology
+- pBs4S__LEFT_PARENTHESISthRC_RIGHT_PARENTHESIS__LEFT_SQUARE_BRACKET4064_4573_RIGHT_SQUARE_BRACKET_5_APOSTROPHE_homology
+- pDAS_Pichia_promoter
+- pFLD1_Pichia_promoter
+- pGAL1_S__cerevisiae_inducible_promoter
+- pIP501_Transfer_Origin
+- rrnBT1_T7TE_Terminator
 - DC_B_DC_B_ins_BBa_J06504
 - DC_B_DC_B_ins_K2656022
 - DC_G_DC_G_ins_BBa_J06504
