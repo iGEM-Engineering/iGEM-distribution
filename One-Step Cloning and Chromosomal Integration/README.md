@@ -5,7 +5,7 @@
 ### Summary:
 
 - 0 parts
-- 4 vectors _<span style="color:red">4 missing sequences: BBF10K_000016, BBF10K_000031, BBF10K_000492, BBF10K_000493</span>_
+- 4 vectors _<span style="color:red">4 missing sequences: pE_FLP, pOSIP_CH__LEFT_PARENTHESISCamR_COMMA_HK022_RIGHT_PARENTHESIS, pOSIP_KO__LEFT_PARENTHESISKanR_COMMA_186_RIGHT_PARENTHESIS, pOSIP_TT__LEFT_PARENTHESISTetR_COMMA_P21_RIGHT_PARENTHESIS</span>_
 - 4 samples for distribution
 
 ### Parts:
