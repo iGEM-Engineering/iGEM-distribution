@@ -1,6 +1,6 @@
 # Distribution Summary
 
-- 205 samples planned for distribution
+- 209 samples planned for distribution
 
 ### Parts:
 
@@ -105,6 +105,10 @@
 - pJUMP49_2D_sfGFP
 - pJUMP49_2Dprime_sfGFP
 - pJUMP49_2E_sfGFP
+- pE_FLP
+- pOSIP_CH__LEFT_PARENTHESISCamR_COMMA_HK022_RIGHT_PARENTHESIS
+- pOSIP_KO__LEFT_PARENTHESISKanR_COMMA_186_RIGHT_PARENTHESIS
+- pOSIP_TT__LEFT_PARENTHESISTetR_COMMA_P21_RIGHT_PARENTHESIS
 - Plant_CDSs_Plant_CDSs_ins_Bar
 - Plant_CDSs_Plant_CDSs_ins_GFP
 - Plant_CDSs_Plant_CDSs_ins_NPTII
