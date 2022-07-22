@@ -1,4 +1,4 @@
-""" Build distribution and export it in GenBank and Fasta file for inspection and synthesis """
+''' Build distribution and export it in GenBank and Fasta file for inspection and synthesis '''
 
 import scriptutils
 

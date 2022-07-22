@@ -10,10 +10,10 @@ from sbol_utilities.component import contained_components
 from .helpers import has_SO_uri
 from .package_production import BUILD_PRODUCTS_COLLECTION, DISTRIBUTION_NAMESPACE
 
-SUMMARY_FILE = "README.md"
+SUMMARY_FILE = 'README.md'
 """File name for markdown summaries"""
 
-DISTRIBUTION_SUMMARY = "README_distribution.md"
+DISTRIBUTION_SUMMARY = 'README_distribution.md'
 """File name for the distribution summary, to be located in the root directory"""
 
 
@@ -33,9 +33,9 @@ def generate_package_summary(package: str, doc: sbol3.Document):
     parts_list = doc.find(sbol_utilities.excel_to_sbol.BASIC_PARTS_COLLECTION)
     build_plan = doc.find(BUILD_PRODUCTS_COLLECTION)
     if not isinstance(parts_list, sbol3.Collection):
-        raise ValueError(f"Could not find parts collection in package {package}")
+        raise ValueError(f'Could not find parts collection in package {package}')
     if not isinstance(build_plan, sbol3.Collection):
-        raise ValueError(f"Could not find build plan in package {package}")
+        raise ValueError(f'Could not find build plan in package {package}')
 
     # compute all desired statistics
     parts_used = contained_components(build_plan)
@@ -64,69 +64,59 @@ def generate_package_summary(package: str, doc: sbol3.Document):
         c = m.lookup()
         parts = contained_components(c)
         in_vector = parts.intersection(vector_parts)
-        for p in parts - in_vector:
-            insert_vectors[p] = insert_vectors.get(p, set()).union(
-                {v.display_id for v in in_vector}
-            )
+        for p in (parts - in_vector):
+            insert_vectors[p] = insert_vectors.get(p, set()).union({v.display_id for v in in_vector})
 
     # write the README file
     summary_filename = os.path.join(package, SUMMARY_FILE)
-    with open(summary_filename, "w") as f:
+    with open(summary_filename, 'w') as f:
         # First the package name and description
-        f.write(f"# Package: {parts_list.name}\n\n")
-        f.write(f"{parts_list.description}\n\n")
+        f.write(f'# Package: {parts_list.name}\n\n')
+        f.write(f'{parts_list.description}\n\n')
 
         # Next, summary statistics (with accompanying errors)
-        f.write(f"### Summary:\n\n")
+        f.write(f'### Summary:\n\n')
         # Part count
-        missed = hilite(f"{len(missing_seq)} missing sequences") if missing_seq else ""
-        f.write(f"- {len(non_vector_parts)} parts{missed}\n")
+        missed = hilite(f'{len(missing_seq)} missing sequences') if missing_seq else ''
+        f.write(f'- {len(non_vector_parts)} parts{missed}\n')
         for role in sorted(so_clusters):
-            f.write(f"    - {role}: {len(so_clusters[role])}\n")
+            f.write(f'    - {role}: {len(so_clusters[role])}\n')
         if unknown_role_count:
             f.write(f'    - {hilite(f"unspecified role: {unknown_role_count}")}\n')
         if missing_vec:
-            missed = hilite(
-                f'{len(missing_vec)} missing sequences: {", ".join(sorted(missing_vec))}'
-            )
+            missed = hilite(f'{len(missing_vec)} missing sequences: {", ".join(sorted(missing_vec))}')
         else:
-            missed = ""
-        f.write(f"- {len(vector_parts)} vectors{missed}\n")
+            missed = ''
+        f.write(f'- {len(vector_parts)} vectors{missed}\n')
         # Build information
-        f.write(f"- {len(build_plan.members)} samples for distribution")
+        f.write(f'- {len(build_plan.members)} samples for distribution')
         if unused_parts:
-            f.write(hilite(f"{len(unused_parts)} parts not included"))
+            f.write(hilite(f'{len(unused_parts)} parts not included'))
         if not build_plan.members:
-            f.write(hilite(f"No samples planned to be built for distribution"))
-        f.write("\n\n")  # section break
+            f.write(hilite(f'No samples planned to be built for distribution'))
+        f.write('\n\n')  # section break
 
         # Finally, a list of all the parts and their UIDs
-        f.write(f"### Parts:\n\n")
+        f.write(f'### Parts:\n\n')
         for p in id_sort(non_vector_parts):
             # id / name
-            f.write(f"- {p.display_id}")
+            f.write(f'- {p.display_id}')
             if p.name and sbol3.string_to_display_id(p.name) != p.display_id:
-                f.write(f": {p.name}")
+                f.write(f': {p.name}')
             # roles
             if so_roles.get(p.identity, None):
                 f.write(f' ({", ".join(sorted(so_roles[p.identity]))})')
             if p in insert_vectors:
                 f.write(f' in {", ".join(sorted(insert_vectors[p]))}')
             if p.identity in missing_seq:
-                f.write(
-                    hilite(
-                        f"missing sequence, ensure file name matches Data Source ID from Excel File"
-                    )
-                )
+                f.write(hilite(f'missing sequence, ensure file name matches Data Source ID from Excel File'))
             if p.identity in unused_parts:
-                f.write(hilite(f"not included in distribution"))
-            f.write("\n")
-        f.write("\n")  # section break
+                f.write(hilite(f'not included in distribution'))
+            f.write('\n')
+        f.write('\n')  # section break
 
         # add warning at the bottom
-        f.write(
-            f"_Note: automatically generated from package Excel and sequence files; do not edit_\n"
-        )
+        f.write(f'_Note: automatically generated from package Excel and sequence files; do not edit_\n')
 
 
 def generate_distribution_summary(root: str, doc: sbol3.Document):
@@ -137,24 +127,24 @@ def generate_distribution_summary(root: str, doc: sbol3.Document):
     :return: None
     """
     # TODO: use combinatorial derivations and expansions
-    build_plan = doc.find(f"{DISTRIBUTION_NAMESPACE}/{BUILD_PRODUCTS_COLLECTION}")
+    build_plan = doc.find(f'{DISTRIBUTION_NAMESPACE}/{BUILD_PRODUCTS_COLLECTION}')
     if not isinstance(build_plan, sbol3.Collection):
         raise ValueError
 
     summary_filename = os.path.join(root, DISTRIBUTION_SUMMARY)
-    with open(summary_filename, "w") as f:
+    with open(summary_filename, 'w') as f:
         # First the package name and description
-        f.write(f"# Distribution Summary\n\n")
+        f.write(f'# Distribution Summary\n\n')
 
         # Build information
-        f.write(f"- {len(build_plan.members)} samples planned for distribution")
-        f.write("\n\n")  # section break
+        f.write(f'- {len(build_plan.members)} samples planned for distribution')
+        f.write('\n\n')  # section break
 
         # List of all the built samples and their UIDs
-        f.write(f"### Parts:\n\n")
+        f.write(f'### Parts:\n\n')
         for p in id_sort(m.lookup() for m in build_plan.members):
-            f.write(f"- {p.display_id}\n")
-        f.write("\n")  # section break
+            f.write(f'- {p.display_id}\n')
+        f.write('\n')  # section break
 
         # add warning at the bottom
-        f.write(f"_Note: automatically generated from distribution SBOL file; do not edit_\n")
+        f.write(f'_Note: automatically generated from distribution SBOL file; do not edit_\n')
