@@ -28,7 +28,7 @@ jobs:
         run: >
           find . -type f -name "*.py" |
           xargs pylint
-          --max-line-length=99
+          --max-line-length=120
           --disable=C0103,C0114,C0115,C0116,C0201,C0206,C0301,C0303,C0411
           --disable=E0611
           --disable=R0402,R0801,R0903,R0912,R0914,R0915,R1702,R1705,R1720,R1721,R1724
@@ -46,6 +46,6 @@ jobs:
         uses: py-actions/flake8@v2
         with:
           path: "."
-          max-line-length: 99
+          max-line-length: 120
           update-pip: TRUE
           ignore: E203,E226,E231,E265,E302,E305,E501,F401,F403,F541,W291,W503
