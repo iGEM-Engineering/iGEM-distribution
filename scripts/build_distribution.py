@@ -1,4 +1,6 @@
-''' Build distribution and export it in GenBank and Fasta file for inspection and synthesis '''
+import tempfile
+
+import sbol3
 
 import scriptutils
 
