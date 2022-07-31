@@ -25,3 +25,14 @@ The SBOL converter, `sbol`, is
 [Release 10](https://github.com/sboltools/sboltools/releases/tag/release-10)
 of [sboltools](https://github.com/sboltools/sboltools). It is
 captured here to provide a stable dependency.
+
+# Troubleshooting 
+
+## Dependencies
+
+- SBOL requires both Node and Java installed, else specific tests will fail.
+- SBOL requires biopython to be installed, will require:
+    ```bash 
+    sudo apt-get install python3-dev
+    sudo apt-get install build-essential
+    ```
