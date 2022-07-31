@@ -31,6 +31,8 @@ captured here to provide a stable dependency.
 ## Dependencies
 
 - SBOL requires both Node and Java installed, else specific tests will fail.
+
+### Ubuntu 22.04 LTS
 - SBOL requires biopython to be installed, will require:
     ```bash 
     sudo apt-get install python3-dev
