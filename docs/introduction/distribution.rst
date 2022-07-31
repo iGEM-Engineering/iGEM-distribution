@@ -1,5 +1,5 @@
 What is the Distribution 2.0?
-===========================
+=============================
 
 iGEM is designing and building a new DNA distribution entirely from the ground up with support from the FreeGenes Project and the iGEM Engineering Committee.
 The focus of this and future distributions is in improving the quality of the parts and devices within, through curation and new interlaboratory studies run by the Engineering Committee.

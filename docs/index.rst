@@ -21,6 +21,7 @@ Welcome to iGEM-distribution's documentation!
    :hidden:
 
    getting_started/github
+   getting_started/faq
 
 .. toctree::
    :caption: Contributing
@@ -57,6 +58,8 @@ We know that this way of working may be unfamiliar to many of you, but we believ
 Don't worry if you've never used github before:
 
 - :doc:`Guide to Github <getting_started/github>`
+
+- :doc:`(In)Frequently Asked Questions <getting_started/faq>`
 
 
 Contributing
