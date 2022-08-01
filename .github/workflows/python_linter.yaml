@@ -1,0 +1,51 @@
+name : Python linter Flake8 and Pylint
+
+on:
+  push:
+    path: "**.py"
+  pull_request:
+    path: "**.py"
+
+jobs:
+  Pylint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out source repository
+        uses: actions/checkout@v2
+      - name: Set up Python 3.9
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.9
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r scripts/requirements.txt
+          pip install pylint
+      - name: set pythonpath
+        run: |
+          echo "PYTHONPATH=." >> $GITHUB_ENV
+      - name: Pylint
+        run: >
+          find . -type f -name "*.py" |
+          xargs pylint
+          --max-line-length=120
+          --disable=C0103,C0114,C0115,C0116,C0201,C0206,C0301,C0303,C0325,C0411
+          --disable=E0611
+          --disable=R0402,R0801,R0903,R0912,R0914,R0915,R1702,R1705,R1720,R1721,R1724
+          --disable=W0212,W0511,W0611,W0612,W0622,W1309,W1203,W1512,W1514
+  Flake8:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out source repository
+        uses: actions/checkout@v2
+      - name: Set up Python 3.9
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.9
+      - name: flake8 lint
+        uses: py-actions/flake8@v2
+        with:
+          path: "."
+          max-line-length: 120
+          update-pip: TRUE
+          ignore: E121,E203,E226,E231,E251,E265,E302,E305,E501,F401,F403,F541,W291,W503
