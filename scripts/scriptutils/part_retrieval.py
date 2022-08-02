@@ -1,3 +1,4 @@
+from __future__ import annotations
 import io
 import logging
 import os
@@ -40,7 +41,14 @@ class ImportFile:
         if file_type not in GENETIC_DESIGN_FILE_TYPES.keys():
             raise ValueError(f'Unknown file type: "{file_type}"')
         self.file_type = file_type
-        self.namespace = namespace.removesuffix('/') if namespace else None
+
+        # py3.8 removesuffix does not exist
+        try:
+            self.namespace = namespace.removesuffix('/') if namespace else None
+
+        except AttributeError:
+            self.namespace = namespace if namespace else None
+
         self.doc = None
         self.id_to_uri = {}
         """For FASTA and GenBank, map from ID to full URI"""
@@ -110,7 +118,14 @@ def remap_prefix(uri: str) -> str:
     # see if the URI hits any remapping
     for old, new in prefix_remappings.items():
         if uri.startswith(old):
-            return new + uri.removeprefix(old)
+            
+            #py3.8 compatability
+            try:
+                return new + uri.removeprefix(old)
+            except AttributeError:
+                # No remove prefix so sliced based upon len
+                sliced_uri_len = len(old)
+                return new + uri[sliced_uri_len:]
     # if not, return as before
     return uri
 
@@ -123,7 +138,14 @@ def sbol_uri_to_accession(uri: str, prefix: str = NCBI_PREFIX, remaps: dict[str,
     """
     if remaps is None:
         remaps = {'_': '.'}
-    accession = uri.removeprefix(prefix)
+    
+    #py3.8 compatability
+    try:
+        accession = uri.removeprefix(prefix)
+    except AttributeError:
+        sliced_accesion_len = len(prefix)
+        accession = uri[sliced_accesion_len:]
+    
     for k, v in remaps.items():
         accession = accession.replace(k, v)
     return accession
@@ -372,7 +394,13 @@ def package_parts_inventory(package: str, targets: List[str] = None) -> PackageI
             for record in SeqIO.parse(f, "gb"):
                 if record.name in id_map:
                     identity = id_map[record.name]
-                    import_file.namespace = identity.removesuffix(f'/{record.name}')
+                    
+                    try:
+                        import_file.namespace = identity.removesuffix(f'/{record.name}')
+                    except AttributeError:
+                        record_len = len(record.name) + 1 
+                        import_file.namespace = identity[:-record_len]
+
                 else:
                     identity = accession_to_sbol_uri(record.name, prefix)
                 inventory.add(import_file, identity, accession_to_sbol_uri(record.id, prefix))
