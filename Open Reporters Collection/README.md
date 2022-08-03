@@ -4,43 +4,11 @@ The Open Reporter Collection includes 32 commonly used reporter genes used in al
 
 ### Summary:
 
-- 31 parts
-    - CDS: 31
-- 0 vectors
+- 0 parts
+- 31 vectors _<span style="color:red">31 missing sequences: CIAP, EiraCFP_Biobrick_J97000, Firefly_Luciferase__LEFT_SQUARE_BRACKETPhotinus_pyralis_RIGHT_SQUARE_BRACKET__LEFT_PARENTHESISFluc_RIGHT_PARENTHESIS, HRP, Luciferase__LEFT_SQUARE_BRACKETLuciola_cruciata_RIGHT_SQUARE_BRACKET__LEFT_PARENTHESISJapanese_firefly_RIGHT_PARENTHESIS, Renilla_luciferase, aacuGFP1, aacuGFP2, afraGFP, amajLime_amajCFP_amFP486_BioBrick_K1033916, amilGFP_Biobrick_K592010, amilRFP, beta_lactamase, cjBlue__BioBrick_K592011, eechGFP1, eechGFP2, eechGFP3, efasCFP, efasGFP, eforRed_eforCP_Biobrick_K592012, gfasGFP, gfasPurple_gfasCP_Biobrick_K1033918, meffCFP, meffCP, meffRed_meffRFP_Biobricks_K592012, meleCFP, meleRFP, mmilCFP, palmGFP, pporRFP, scubRFP</span>_
 - 0 samples for distribution _<span style="color:red">31 parts not included</span>_ _<span style="color:red">No samples planned to be built for distribution</span>_
 
 ### Parts:
 
-- BBF10K_003331 (CDS) _<span style="color:red">not included in distribution</span>_
-- BBF10K_003335 (CDS) _<span style="color:red">not included in distribution</span>_
-- BBF10K_003338 (CDS) _<span style="color:red">not included in distribution</span>_
-- BBF10K_003342 (CDS) _<span style="color:red">not included in distribution</span>_
-- BBF10K_003343 (CDS) _<span style="color:red">not included in distribution</span>_
-- BBF10K_003344 (CDS) _<span style="color:red">not included in distribution</span>_
-- BBF10K_003345 (CDS) _<span style="color:red">not included in distribution</span>_
-- BBF10K_003346 (CDS) _<span style="color:red">not included in distribution</span>_
-- BBF10K_003347 (CDS) _<span style="color:red">not included in distribution</span>_
-- BBF10K_003348 (CDS) _<span style="color:red">not included in distribution</span>_
-- BBF10K_003349 (CDS) _<span style="color:red">not included in distribution</span>_
-- BBF10K_003350 (CDS) _<span style="color:red">not included in distribution</span>_
-- BBF10K_003351 (CDS) _<span style="color:red">not included in distribution</span>_
-- BBF10K_003352 (CDS) _<span style="color:red">not included in distribution</span>_
-- BBF10K_003353 (CDS) _<span style="color:red">not included in distribution</span>_
-- BBF10K_003354 (CDS) _<span style="color:red">not included in distribution</span>_
-- BBF10K_003355 (CDS) _<span style="color:red">not included in distribution</span>_
-- BBF10K_003357 (CDS) _<span style="color:red">not included in distribution</span>_
-- BBF10K_003358 (CDS) _<span style="color:red">not included in distribution</span>_
-- BBF10K_003359 (CDS) _<span style="color:red">not included in distribution</span>_
-- BBF10K_003360 (CDS) _<span style="color:red">not included in distribution</span>_
-- BBF10K_003361 (CDS) _<span style="color:red">not included in distribution</span>_
-- BBF10K_003362 (CDS) _<span style="color:red">not included in distribution</span>_
-- BBF10K_003364 (CDS) _<span style="color:red">not included in distribution</span>_
-- BBF10K_003365 (CDS) _<span style="color:red">not included in distribution</span>_
-- BBF10K_003367 (CDS) _<span style="color:red">not included in distribution</span>_
-- BBF10K_003368 (CDS) _<span style="color:red">not included in distribution</span>_
-- BBF10K_003369 (CDS) _<span style="color:red">not included in distribution</span>_
-- BBF10K_003370 (CDS) _<span style="color:red">not included in distribution</span>_
-- BBF10K_003371 (CDS) _<span style="color:red">not included in distribution</span>_
-- BBF10K_003372 (CDS) _<span style="color:red">not included in distribution</span>_
 
 _Note: automatically generated from package Excel and sequence files; do not edit_
