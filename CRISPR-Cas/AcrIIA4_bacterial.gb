@@ -1,16 +1,20 @@
-LOCUS       AcrIIA4_bacterial        372 bp ds-DNA     linear       02-FEB-2022
+LOCUS       AcrIIA4_bacterial        264 bp ds-DNA     linear       09-MAR-2022
 DEFINITION  .
 FEATURES             Location/Qualifiers
-     CDS             1..372
-                     /label="AcrIIA2_bacterial"
-     exon            1..372
-                     /label="Translation 1-372"
+     CDS             1..264
+                     /label="AcrIIA4_bacterial"
+                     /ApEinfo_revcolor=#9eafd2
+                     /ApEinfo_fwdcolor=#9eafd2
+     source          1..264
+                     /label="color: #ffffff"
+                     /ApEinfo_revcolor=#c6c9d1
+                     /ApEinfo_fwdcolor=#c6c9d1
+     exon            1..264
+                     /label="Translation 1-264"
 ORIGIN
-        1 atgacattaa caagagcaca aaaaaagtat gcagaagcga tgcacgagtt tataaatatg
-       61 gtggatgact ttgaagagtc tacaccggat tttgcaaagg aagttctaca tgattctgac
-      121 tatgtagtta ttacaaaaaa tgaaaaatat gcagtagctc tttgctctct tagcactgat
-      181 gaatgtgaat atgatactaa cttatactta gatgaaaaat tggttgatta ctcaacagtt
-      241 gacgtaaacg gtgtgacata ctacatcaac attgttgaaa ctaacgatat cgatgattta
-      301 gaaatcgcta cggatgaaga tgagatgaaa agtggcaacc aagaaattat tttaaaaagt
-      361 gagttgaagt aa
+        1 atgaatatta atgacttaat tagagaaatc aaaaacaaag attacacagt gaaattgagt
+       61 ggtacggata gcaatagtat cacacagcta attattcgcg ttaataatga tggcaacgag
+      121 tatgtaattt ctgaaagtga aaatgaatca atcgttgaaa aattcatctc tgcattcaaa
+      181 aacggttgga atcaagaata cgaggatgaa gaagaatttt ataatgacat gcaaacaatc
+      241 accttaaaaa gtgagttgaa ctaa
 //
