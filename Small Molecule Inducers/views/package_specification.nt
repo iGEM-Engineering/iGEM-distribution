@@ -1,4 +1,3 @@
-
 <http://parts.igem.org/BBa_K2680520> <http://sbols.org/v3#description> "Marionette: Target of CinR" .
 <http://parts.igem.org/BBa_K2680520> <http://sbols.org/v3#displayId> "BBa_K2680520" .
 <http://parts.igem.org/BBa_K2680520> <http://sbols.org/v3#hasNamespace> <http://parts.igem.org> .
@@ -55,17 +54,17 @@
 <http://parts.igem.org/C0012> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
 <http://parts.igem.org/C0012> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
 <http://parts.igem.org/C0012> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
-<http://parts.igem.org/C0040> <http://sbols.org/v3#description> "Activator induced by arabinose" .
+<http://parts.igem.org/C0040> <http://sbols.org/v3#description> "Repressor induced by aTc" .
 <http://parts.igem.org/C0040> <http://sbols.org/v3#displayId> "C0040" .
 <http://parts.igem.org/C0040> <http://sbols.org/v3#hasNamespace> <http://parts.igem.org> .
-<http://parts.igem.org/C0040> <http://sbols.org/v3#name> "AraC" .
+<http://parts.igem.org/C0040> <http://sbols.org/v3#name> "TetR" .
 <http://parts.igem.org/C0040> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
 <http://parts.igem.org/C0040> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
 <http://parts.igem.org/C0040> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
-<http://parts.igem.org/C0080> <http://sbols.org/v3#description> "Repressor induced by aTc" .
+<http://parts.igem.org/C0080> <http://sbols.org/v3#description> "Activator induced by arabinose" .
 <http://parts.igem.org/C0080> <http://sbols.org/v3#displayId> "C0080" .
 <http://parts.igem.org/C0080> <http://sbols.org/v3#hasNamespace> <http://parts.igem.org> .
-<http://parts.igem.org/C0080> <http://sbols.org/v3#name> "TetR" .
+<http://parts.igem.org/C0080> <http://sbols.org/v3#name> "AraC" .
 <http://parts.igem.org/C0080> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
 <http://parts.igem.org/C0080> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
 <http://parts.igem.org/C0080> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .

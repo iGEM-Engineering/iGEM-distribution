@@ -1,8 +1,14 @@
-LOCUS       AcrIIA2_bacterial        372 bp ds-DNA     linear       02-FEB-2022
+LOCUS       AcrIIA2_bacterial        372 bp ds-DNA     linear       09-MAR-2022
 DEFINITION  .
 FEATURES             Location/Qualifiers
      CDS             1..372
                      /label="AcrIIA2_bacterial"
+                     /ApEinfo_revcolor=#c6c9d1
+                     /ApEinfo_fwdcolor=#c6c9d1
+     source          1..372
+                     /label="color: #ffffff"
+                     /ApEinfo_revcolor=#85dae9
+                     /ApEinfo_fwdcolor=#85dae9
      exon            1..372
                      /label="Translation 1-372"
 ORIGIN
