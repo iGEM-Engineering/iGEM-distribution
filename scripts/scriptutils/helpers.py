@@ -20,7 +20,7 @@ def vector_to_insert(component: sbol3.Component) -> sbol3.Component:
     if len(subvectors) == 0 and not is_plasmid(component):
         return component
     # otherwise, if there's precisely one non-vector subcomponent, return the Component it points to
-    inserts = {f for f in set(component.features)-subvectors if isinstance(f, sbol3.SubComponent)}
+    inserts = {f for f in set(component.features) - subvectors if isinstance(f, sbol3.SubComponent)}
     if len(inserts) == 1:
         return inserts.pop().instance_of.lookup()
     elif len(inserts) == 0:
@@ -54,11 +54,11 @@ def remove_duplicate_prefix(name: str) -> str:
     """
     components = name.split('_')
     # check from largest possible repeated block to smallest
-    for i in reversed(range(1, math.floor(len(components)/2)+1)):
+    for i in reversed(range(1, math.floor(len(components) / 2) + 1)):
         # Check if there is a repeated block at the front
-        if components[0:i] == components[i:(2*i)]:
-            if components[2*i] == 'ins':  # also remove insertion markers
-                ins_less = "_".join(name.split("_")[0:i] + [name.split("_", (2*i)+1)[-1]])
+        if components[0:i] == components[i:(2 * i)]:
+            if components[2 * i] == 'ins':  # also remove insertion markers
+                ins_less = "_".join(name.split("_")[0:i] + [name.split("_", (2 * i) + 1)[-1]])
                 return ins_less
             else:
                 return name.split('_', i)[-1]
@@ -77,7 +77,7 @@ def truncate_by_underscores(name: str, max_len: int) -> str:
         if len(components) > 1:
             name = components[-1]
         else:
-            name = name[(len(name)-max_len):]
+            name = name[(len(name) - max_len):]
     return name
 
 
