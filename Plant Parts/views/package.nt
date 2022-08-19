@@ -1,4 +1,3 @@
-
 <http://parts.igem.org/D1001> <http://sbols.org/v3#description> "D1001" .
 <http://parts.igem.org/D1001> <http://sbols.org/v3#displayId> "D1001" .
 <http://parts.igem.org/D1001> <http://sbols.org/v3#hasNamespace> <http://parts.igem.org> .
@@ -239,11 +238,11 @@
 <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/AtU6/annotation0/range> <http://sbols.org/v3#orientation> <http://sbols.org/v3#inline> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/AtU6/annotation0/range> <http://sbols.org/v3#start> "1" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/AtU6/annotation0/range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Range> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/AtU6/annotation0> <http://purl.org/dc/terms/title> "U626\\(Arabidopsis\\	haliana)" .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/AtU6/annotation0> <http://sbols.org/genBankConversion#label> "U626\\(Arabidopsis\\	haliana)" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/AtU6/annotation0> <http://purl.org/dc/terms/title> "U626\\(Arabidopsis\\thaliana)" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/AtU6/annotation0> <http://sbols.org/genBankConversion#label> "U626\\(Arabidopsis\\thaliana)" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/AtU6/annotation0> <http://sbols.org/v3#displayId> "annotation0" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/AtU6/annotation0> <http://sbols.org/v3#hasLocation> <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/AtU6/annotation0/range> .
-<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/AtU6/annotation0> <http://sbols.org/v3#name> "U626\\(Arabidopsis\\	haliana)" .
+<https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/AtU6/annotation0> <http://sbols.org/v3#name> "U626\\(Arabidopsis\\thaliana)" .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/AtU6/annotation0> <http://sbols.org/v3#role> <http://identifiers.org/so/SO:0000167> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/AtU6/annotation0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#SequenceFeature> .
 <https://github.com/iGEM-Engineering/iGEM-distribution/Plant%20Parts/AtU6> <http://sbols.org/v3#description> "." .
