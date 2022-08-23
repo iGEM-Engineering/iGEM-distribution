@@ -14381,14 +14381,14 @@ FEATURES             Location/Qualifiers
                      /label="D1002"
      misc_feature    255..425
                      /label="D2002"
-     promoter        181..243
+     misc_feature    181..243
                      /label="pBetI"
      misc_feature    1..425
 ORIGIN
         1 aacgatgatg ctcactctcg ggtaccagca ttttcggagg ttctctaaca gtatggataa
        61 ccgtgttttc actgtgctgc ggttacccat cgcctgaaat ccagttggtg tcaagccatt
       121 ccctgtctag gacgccgcat gtagtaaaac atatacattg ctcgggttcg gtctcgggag
-      181 agcgcgggtg agagggattc gttaccaatt gacaattgat tggacgttca atataatgct
+      181 agcgcgggtg agagggattc gttaccaata gacaattgat tggacgttca atataatgct
       241 agctacttga gacctataaa cgccaggttg tatccgcatt tgatgctacc atggatgagt
       301 cagcgtcgag cacgcggcat ttattgcatg agtagggttg actaagaacc gttagatgcc
       361 tcgctgtact aataattgtc aacagatcgt caagattaga aaatagggtt tagtccggca
