@@ -32,5 +32,6 @@ class Test2To3Conversion(unittest.TestCase):
         assert filecmp.cmp(os.path.join(tmpsub, 'BBa_J23101.nt'), comparison_file), \
             f'Converted file {comparison_file} is not identical'
 
+
 if __name__ == '__main__':
     unittest.main()
