@@ -48,4 +48,4 @@ jobs:
           path: "."
           max-line-length: 120
           update-pip: TRUE
-          ignore: E121,E305,E501,F401,F403,F541,W503
+          ignore: E121,E501,F401,F403,F541,W503
