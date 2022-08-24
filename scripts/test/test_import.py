@@ -68,8 +68,9 @@ class TestImportParts(unittest.TestCase):
 
         # first round of import should obtain all but one missing part
         retrieved = part_retrieval.import_parts(tmp_sub)
-        #assert len(retrieved) == 7  # all but the local file and LCP SynBioHub
-        github_prefix = 'https://raw.githubusercontent.com/iGEM-Engineering/iGEM-distribution/develop/scripts/test/test_files'
+        # assert len(retrieved) == 7  # all but the local file and LCP SynBioHub
+        github_prefix = ('https://raw.githubusercontent.com/'
+                         'iGEM-Engineering/iGEM-distribution/develop/scripts/test/test_files')
         expected = ['https://www.ncbi.nlm.nih.gov/nuccore/JWYZ01000115_1',  # NCBI
                     'http://parts.igem.org/BBa_J364007',  # iGEM FASTA
                     'http://parts.igem.org/J23100',  # iGEM SynBioHub

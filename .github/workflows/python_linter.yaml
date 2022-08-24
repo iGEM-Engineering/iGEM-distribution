@@ -29,7 +29,7 @@ jobs:
           find . -type f -name "*.py" |
           xargs pylint
           --max-line-length=120
-          --disable=C0103,C0114,C0115,C0116,C0201,C0206,C0301,C0303,C0325,C0411
+          --disable=C0103,C0114,C0115,C0116,C0201,C0206,C0325,C0411
           --disable=E0611
           --disable=R0402,R0801,R0903,R0912,R0914,R0915,R1702,R1705,R1720,R1721,R1724
           --disable=W0212,W0511,W0611,W0612,W0622,W1309,W1203,W1512,W1514
@@ -48,4 +48,4 @@ jobs:
           path: "."
           max-line-length: 120
           update-pip: TRUE
-          ignore: E121,E203,E226,E231,E251,E265,E302,E305,E501,F401,F403,F541,W291,W503
+          ignore: E121,F401,F403,F541,W503

@@ -19,9 +19,11 @@ def convert_package_sbol2_files(package: str) -> dict[str, str]:
     mappings = {}
 
     # import SBOL2
-    for file in itertools.chain(*(glob.glob(os.path.join(package, f'*{ext}')) for ext in GENETIC_DESIGN_FILE_TYPES['SBOL2'])):
+    for file in itertools.chain(
+        *(glob.glob(os.path.join(package, f'*{ext}')) for ext in GENETIC_DESIGN_FILE_TYPES['SBOL2'])
+    ):
         print(f'Attempting to convert SBOL2 file {file}')
-        file3 = os.path.splitext(file)[0]+'.nt'  # make an SBOL3 version of the file name
+        file3 = os.path.splitext(file)[0] + '.nt'  # make an SBOL3 version of the file name
         doc2 = sbol2.Document()
         doc2.read(file)  # confirm that it is, in fact, an SBOL2 file
         doc3 = convert2to3(file)
