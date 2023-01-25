@@ -44,5 +44,6 @@ class TestMarkdownGeneration(unittest.TestCase):
         comparison_file = os.path.join(test_dir, 'test_files', 'distribution', DISTRIBUTION_SUMMARY)
         assert filecmp.cmp(generated_file, comparison_file), f'Generated file {generated_file} is not identical'
 
+
 if __name__ == '__main__':
     unittest.main()

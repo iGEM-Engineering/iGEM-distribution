@@ -12,22 +12,22 @@ class TestHelperFunctions(unittest.TestCase):
         self.assertEqual(helpers.remove_duplicate_prefix('foo_bar_baz'), 'foo_bar_baz')
         self.assertEqual(helpers.remove_duplicate_prefix('foo_foo_bar'), 'foo_bar')
         self.assertEqual(helpers.remove_duplicate_prefix('foo_foo_bar_baz'), 'foo_bar_baz')
-        self.assertEqual(helpers.remove_duplicate_prefix('foo_foo_foo_foo_bar_baz'), 
+        self.assertEqual(helpers.remove_duplicate_prefix('foo_foo_foo_foo_bar_baz'),
                          'foo_foo_bar_baz')
-        self.assertEqual(helpers.remove_duplicate_prefix('foo_qux_foo_qux_bar_baz'), 
+        self.assertEqual(helpers.remove_duplicate_prefix('foo_qux_foo_qux_bar_baz'),
                          'foo_qux_bar_baz')
-        self.assertEqual(helpers.remove_duplicate_prefix('foo_qux_zap_foo_qux_zap_bar_baz'), 
+        self.assertEqual(helpers.remove_duplicate_prefix('foo_qux_zap_foo_qux_zap_bar_baz'),
                          'foo_qux_zap_bar_baz')
         # removing insert markers when appropriate
         self.assertEqual(helpers.remove_duplicate_prefix('foo_ins_bar'), 'foo_ins_bar')
         self.assertEqual(helpers.remove_duplicate_prefix('foo_ins_bar_baz'), 'foo_ins_bar_baz')
         self.assertEqual(helpers.remove_duplicate_prefix('foo_foo_ins_bar'), 'foo_bar')
         self.assertEqual(helpers.remove_duplicate_prefix('foo_foo_ins_bar_baz'), 'foo_bar_baz')
-        self.assertEqual(helpers.remove_duplicate_prefix('foo_foo_foo_foo_ins_bar_baz'), 
+        self.assertEqual(helpers.remove_duplicate_prefix('foo_foo_foo_foo_ins_bar_baz'),
                          'foo_foo_bar_baz')
-        self.assertEqual(helpers.remove_duplicate_prefix('foo_qux_foo_qux_ins_bar_baz'), 
+        self.assertEqual(helpers.remove_duplicate_prefix('foo_qux_foo_qux_ins_bar_baz'),
                          'foo_qux_bar_baz')
-        self.assertEqual(helpers.remove_duplicate_prefix('foo_qux_zap_foo_qux_zap_ins_bar_baz'), 
+        self.assertEqual(helpers.remove_duplicate_prefix('foo_qux_zap_foo_qux_zap_ins_bar_baz'),
                          'foo_qux_zap_bar_baz')
 
     def test_name_truncation(self):

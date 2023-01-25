@@ -79,7 +79,8 @@ def export_sbol(package: str) -> sbol3.Document:
     """
     # get workbook and perform conversion
     excel_file = package_excel(package)
-    sbol3.set_namespace(package_stem(package))  # TODO: update after resolution of https://github.com/SynBioDex/pySBOL3/issues/288
+    sbol3.set_namespace(package_stem(package))  # TODO: update after resolution of https://github.com/SynBioDex/pySBOL3/issues/288 # pylint: disable=C0301 # noqa: E501
+
     with warnings.catch_warnings():
         warnings.simplefilter("ignore", category=UserWarning)  # filter the "data validation not supported" warning
         wb = openpyxl.open(excel_file, data_only=True)
