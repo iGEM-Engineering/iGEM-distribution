@@ -117,7 +117,7 @@ prefix_remappings = {
 def remap_prefix(uri: str) -> str:
     # see if the URI hits any remapping
     for old, new in prefix_remappings.items():
-        if uri.startswith(old): 
+        if uri.startswith(old):
             # py3.8 compatability
             try:
                 return new + uri.removeprefix(old)
