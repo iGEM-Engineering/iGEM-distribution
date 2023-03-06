@@ -1,0 +1,35 @@
+name: Build packages
+
+on: [push]
+
+jobs:
+  directories_and_excel:
+    name: Check package structure and export from Excel files
+    runs-on: ubuntu-latest
+    steps:
+      - name: directories_and_excel
+        uses: ./.github/actions/directories_and_excel
+
+  retrieve_parts:
+    name: Retrieve missing parts
+    needs: directories_and_excel
+    runs-on: ubuntu-latest
+    steps:
+      - name: retrieve_parts
+        uses: ./.github/actions/retrieve_parts
+
+  build_packages:
+    name: Build and validate final packages
+    needs: retrieve_parts
+    runs-on: ubuntu-latest
+    steps:
+      - name: build_packages
+        uses: ./.github/actions/build_packages
+
+  build_distribution:
+    name: Build and export distribution
+    needs: build_packages
+    runs-on: ubuntu-latest
+    steps:
+      - name: build_distriubtion
+        uses: ./.github/actions/build_distriubtion

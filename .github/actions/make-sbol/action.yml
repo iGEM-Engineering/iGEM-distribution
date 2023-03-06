@@ -1,0 +1,33 @@
+# An action to convert excel to sbol file 
+name: "make_sbol"
+
+description:  "Installs the required dependencies, python3.9 and sbol-utilities,
+              that are needed to convert the package xlsx file to a SBOL 
+              compatible reference"
+
+runs: 
+  using: "composite"
+  steps:
+      # Check out and install the latest sbol-utilities package
+      - name: "Check out experimental package code for SBOL utilities"
+        uses: "actions/checkout@v3"
+        with:
+          repository: "SynBioDex/sbol-utilities"
+          ref: "sep054"
+          path: "sbol-utilities"
+
+      # Set python3.9 up for latest compatability
+      - name: "Set up Python"
+        uses: "actions/setup-python@v4"
+        with:
+          python-version: 3.9
+
+      # Install SBOL utlities to use excel-to-sbol
+      - name: "Install SBOL utilities"  
+        shell: "bash"
+        run: "pip install -e sbol-utilities"
+
+      # Run excel-to-sbol, if pass exports correctly
+      - name: "Test if we can export correctly"
+        shell: "bash"
+        run: "excel-to-sbol -c ./.github/workflows/sheet_config.json Vectors.xlsx"
