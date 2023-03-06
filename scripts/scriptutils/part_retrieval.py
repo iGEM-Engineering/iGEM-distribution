@@ -117,9 +117,8 @@ prefix_remappings = {
 def remap_prefix(uri: str) -> str:
     # see if the URI hits any remapping
     for old, new in prefix_remappings.items():
-        if uri.startswith(old):
-            
-            #py3.8 compatability
+        if uri.startswith(old):            
+            # py3.8 compatability
             try:
                 return new + uri.removeprefix(old)
             except AttributeError:
@@ -138,8 +137,7 @@ def sbol_uri_to_accession(uri: str, prefix: str = NCBI_PREFIX, remaps: dict[str,
     """
     if remaps is None:
         remaps = {'_': '.'}
-    
-    #py3.8 compatability
+    # py3.8 compatability
     try:
         accession = uri.removeprefix(prefix)
     except AttributeError:
@@ -394,13 +392,11 @@ def package_parts_inventory(package: str, targets: List[str] = None) -> PackageI
             for record in SeqIO.parse(f, "gb"):
                 if record.name in id_map:
                     identity = id_map[record.name]
-                    
                     try:
                         import_file.namespace = identity.removesuffix(f'/{record.name}')
                     except AttributeError:
-                        record_len = len(record.name) + 1 
+                        record_len = len(record.name) + 1
                         import_file.namespace = identity[:-record_len]
-
                 else:
                     identity = accession_to_sbol_uri(record.name, prefix)
                 inventory.add(import_file, identity, accession_to_sbol_uri(record.id, prefix))
