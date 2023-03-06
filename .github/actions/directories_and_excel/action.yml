@@ -6,9 +6,6 @@ description: "Updates data files and commits"
 runs:
   using: composite
   steps:
-    - name: Set up Git repository
-      uses: actions/checkout@v2
-
     - name: Collect any new commits
       shell: bash
       run: |

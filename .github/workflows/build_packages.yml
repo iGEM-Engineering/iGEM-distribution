@@ -7,6 +7,8 @@ jobs:
     name: Check package structure and export from Excel files
     runs-on: ubuntu-latest
     steps:
+      - name: Check out this repository for building
+        uses: actions/checkout@v3
       - name: directories_and_excel
         uses: ./.github/actions/directories_and_excel
 
