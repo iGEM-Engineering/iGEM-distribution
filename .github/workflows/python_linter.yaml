@@ -2,11 +2,9 @@ name : Python linter Flake8 and Pylint
 
 on:
   push:
-    paths: 
-      - "**.py"
+    path: "**.py"
   pull_request:
-    paths: 
-      - "**.py"
+    path: "**.py"
 
 jobs:
   Pylint:
