@@ -117,7 +117,7 @@ prefix_remappings = {
 def remap_prefix(uri: str) -> str:
     # see if the URI hits any remapping
     for old, new in prefix_remappings.items():
-        if uri.startswith(old):            
+        if uri.startswith(old):          
             # py3.8 compatability
             try:
                 return new + uri.removeprefix(old)
@@ -143,7 +143,6 @@ def sbol_uri_to_accession(uri: str, prefix: str = NCBI_PREFIX, remaps: dict[str,
     except AttributeError:
         sliced_accesion_len = len(prefix)
         accession = uri[sliced_accesion_len:]
-    
     for k, v in remaps.items():
         accession = accession.replace(k, v)
     return accession
