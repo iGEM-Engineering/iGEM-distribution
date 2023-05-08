@@ -1652,6 +1652,45 @@ ORIGIN
      3781 catgacatta acctataaaa ataggcgtat cacgaggcag aatttcagat aaaaaaaatc
      3841 cttagctttc gctaaggatg atttctg
 //
+LOCUS       Bsub_LacI_LacO_         1653 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  Ahmed Hussain; AllClo; Ref: http://parts.igem.org/Part:BBa_K1074001.
+ACCESSION   Bsub_LacI_LacO_Promo
+VERSION     Bsub_LacI_LacO_Promo
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 gtgcacgcga tggtctctgg agattctcac attaattgcg ttgcgctcac tgcccgcttt
+       61 ccagtcggga aacctgtcgt gccagctgca ttaatgaatc ggccaacgcg cggggagagg
+      121 cggtttgcgt attgggcgcc agggtggttt ttcttttcac cagagatacg ggcaacagct
+      181 gattgccctt caccgcctgg ccctgagaga gttgcagcaa gcggtccacg ctggtttgcc
+      241 ccagcaggcg aaaatcctgt ttgatggtgg ttgacggcgg gatataacat gagctatcct
+      301 cggtatcgtc gtatcccact accgagatat ccgcaccaac gcgcagcccg gactcggtaa
+      361 tggcgcgcat tgcgcccagc gccatctgat cgttggcaac cagcatagca gtgggaacga
+      421 tgccctcatt cagcatttgc atggtttgtt gaaaaccgga catggcactc cagtcgcctt
+      481 cccgttccgc tatcggctga atttgattgc gagtgagata tttatgccag ccagccagac
+      541 gcagacgcgc cgagacagaa cttaatgggc ccgctaacag cgcgatttgc tggtgaccca
+      601 atgcgaccag atgctccacg cccagtcgcg taccatcctc atgggagaaa ataatactgt
+      661 tgatgggtgt ctggtcagag acatcaagaa ataacgccgg aacattagtg caggcagctt
+      721 ccacagcaat ggcatcctgg tcatccagcg gatagttaat gatcagccca ctgacgcgtt
+      781 gcgcgagaag attgtgcacc gccgctttac aggcttcgac gccgcttcgt tctaccatcg
+      841 acaccaccac gctggcaccc agttgatcgg cgcgagattt aatcgccgcg acaatttgcg
+      901 acggcgcgtg cagggccaga ctggaggtgg caacgccaat cagcaacgac tgtttgcccg
+      961 ccagttgttg tgccacgcgg ttgggaatgt aattcagctc cgccatagcc gcttccactt
+     1021 tttcccgcgt tttcgcagaa acgtggctgg cctggttcac cacgcgggaa acggtctgat
+     1081 aagagacacc ggcatactct gcgacatcgt ataacgttac tggtttcatc aaaatcgtct
+     1141 ccctccgttt gaatatttga ttgatcgtaa ccagatgaag cactctttcc actatcccta
+     1201 cagtgttatg gcttgaacaa tcacgaaaca ataattggta cgtacgatct ttcagccgac
+     1261 tcaaacatca aatcttacaa atgtagtctt tgaaagtatt acatatgtaa gatttaaatg
+     1321 caaccgtttt ttcggaagga aatgatgacc tcgtttccac cggaattagc ttggtaccag
+     1381 ctattgtaac ataatcggta cgggggtgaa aaagctaacg gaaaagggag cggaaaagaa
+     1441 tgatgtaagc gtgaaaaatt ttttatctta tcacttgaaa ttggaaggga gattctttat
+     1501 tataagaatt gtggaattgt gagcggataa caattcctac taacagcagg tggtacatcg
+     1561 caggggtcag ttgatgtgct ttcaactctg atgagtcagt gatgacgaaa ccccctctac
+     1621 aaataatttt gtttaatact tgagaccgtg cac
+//
 LOCUS       Cas_variants_Ca         6813 bp    DNA     linear   UNK 01-JAN-1980
 DEFINITION  .
 ACCESSION   Cas_variants_Cas_variants_ins_ABE8_20_m
@@ -4389,6 +4428,34 @@ ORIGIN
      6001 aagttggaac ctcttacgtg cccgatcaac tcgagtgcca cctgacgtct aagaaaccat
      6061 tattatcatg acattaacct ataaaaatag gcgtatcacg aggcagaatt tcagataaaa
      6121 aaaatcctta gctttcgcta aggatgattt ctg
+//
+LOCUS       CatA9__LEFT_PAR          998 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  Ahmed Hussain; AllClo; Ref: http://parts.igem.org/Part:BBa_K1074001.
+ACCESSION   CatA9__LEFT_PARENTHESISBsub_CamR_RIGHT_PARENTHESIS
+VERSION     CatA9__LEFT_PARENTHESISBsub_CamR_RIGHT_PARENTHESIS
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 gtgcacgcga tggtctctaa ggagcgtctc atattataaa agccagtcat taggcctatc
+       61 tgacaattcc tgaatagagt tcataaacaa tcctgcatga taaccatcac aaacagaatg
+      121 atgtacctgt aaagatagcg gtaaatatat tgaattacct ttattaatga attttcctgc
+      181 tgtaataatg ggtagaaggt aattactatt attattgata tttaagttaa acccagtaaa
+      241 tgaagtccat ggaataatag aaagagaaaa agcattttca ggtataggtg ttttgggaaa
+      301 caatttcccc gaaccattat atttctctac atcagaaagg tataaatcat aaaactcttt
+      361 gaagtcattc tttacaggag tccaaatacc agagaatgtt ttagatacac catcaaaaat
+      421 tgtataaagt ggctctaact tatcccaata acctaactct ccgtcgctat tgtaaccagt
+      481 tctaaaagct gtatttgagt ttatcaccct tgtcactaag aaaataaatg cagggtaaaa
+      541 tttatatcct tcttgtttta tgtttcggta taaaacacta atatcaattt ctgtggttat
+      601 actaaaagtc gtttgttggt tcaaataatg attaaatatc tcttttctct tccaattgtc
+      661 taaatcaatt ttattaaagt tcatttgata tgcctcctaa atttttatct aaagtgaatt
+      721 taggaggctt acttgtctgc tttcttcatt agaatcaatc cttttttaaa agtcaatatt
+      781 actgtaacat aaatatatat tttaaaaata tcccacttta tccaattttc gtttgttgaa
+      841 ctaatgggtg ctttagttga agaataaaga ccacattaaa aaatgtggtc ttttgtgttt
+      901 ttttaaagga tttgagcgta gcgaaaaatc cttttctttc ttatcttgat aataagggta
+      961 actattgccg atctccatga tgagaccatc gcgtgcac
 //
 LOCUS       Cell_Comm_CDS_C         2689 bp    DNA     linear   UNK 01-JAN-1980
 DEFINITION  .
@@ -9387,6 +9454,429 @@ ORIGIN
      4021 ggcagaattt cagataaaaa aaatccttag ctttcgctaa ggatgatttc tggaattcgc
      4081 ggccgcttct agag
 //
+LOCUS       Eco31IA_methylt         1671 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  Scott Pownall+Ian Caven; Codon optimized for Pichia pastoris; Ref:
+            https://freegenes.github.io/genbank/BBF10K_003293.gb.
+ACCESSION   Eco31IA_methyltransferase
+VERSION     Eco31IA_methyltransferase
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 gtgcacggtc tccaatggaa gagatcttct acatgaagca catccacctg atcaactctt
+       61 tgtctctgga tgaaaccacc aagttcacta agaaggctac tggcaagtac tacactgatc
+      121 caaagattgc cctgctgatg atcgaaaagt tgttgccact gatcaactct tgcgacaaga
+      181 agtcttacaa cgttgctgac ccattttctg gtgatggtag attgatcacc ctgttgatca
+      241 agcagtggat gattaacggt ttcccagatg ttgaatggaa cgtctacctg tttgacattg
+      301 agaacactgg tttgacctac gctaagaacg ctttgtctga attgaagttg gctggtgcca
+      361 acattaacat caccatcaag aactccgacg tgttctacga attcaagaag tacgtcgact
+      421 acttcgactg tgttattact aaccccccct gggaaaacat taagccagat tctagagagc
+      481 tggatttctt tgagccctcc atgaagtcta tgtacattga ttccctgcgt gaattcgacg
+      541 actacttgtc tagagttctg ccatactctc aaccaaagag aaagtttgct ggttggggta
+      601 ctaacttgtc tagagttggt gccgaattgt ctttggagat ctgcaacaag aacggtttgg
+      661 ttgctattgt catgccagct tcttttttcg ccgatgaaca gtcctacatc ctgcgtgaga
+      721 agttttttaa ctccggccgt attgactgta tcaactacta cccagctgaa gctaagttgt
+      781 ttggtggtgc tgatgtctcc tcttgctctt tcatcttcaa caagggtgaa tccctgaacg
+      841 ataacattca gttgtccgtc tacgacaaga acttgaacat caagtccttg ggcttctttg
+      901 atttgtcctc tatcgactcc caatacttgt ctattccagt ctctcaaggt gttcatgctg
+      961 ttcatctgtt gcgtaagttg caagaaggtt acccaacttg gggttctttg gaaaagaacg
+     1021 gtgaaatttg ggctggtaga gagattgatg agactggttc ttctgattgg actcaaaagt
+     1081 ctggtggtgg cttgttgttc attaagggca agatgattgg cagatacaac ttccacaacg
+     1141 agaagtcttt gcgtattacc aagaagatcg acaaggtctt gtccaactct aactttgttc
+     1201 gcattgcttg gcgtgatatt tctagaccct ctcagaaaag acgcatgatt gccaccatta
+     1261 ttccaccaaa ctctttggct ggtaactctt tgggtgtcgt ctactacaag tctggttctc
+     1321 aagattcctt gttctctttg ctgggtatca tcaactccct gtgctttgaa ttccaattgc
+     1381 gttctttcct ggctactggt catgtttctt tgtctgcttt gcgtaagact gctatcccat
+     1441 ccgagaagat tttgttgcaa cactccgagt tgaagcaact ggttatctcc tgtattgagg
+     1501 gttgttgtga tgctgaactg aagattgaag cctacgttgc taagaacatc tacaagctgg
+     1561 acctgaacga atttaacaag ctgctgtcct ccttcgataa gattgaactg gccgaaaagg
+     1621 agtctttgtt gcgcatcttt cagcactacg atggaggtcg agaccgtgca c
+//
+LOCUS       Eco31IB_methylt         1221 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  Scott Pownall+Ian Caven; Codon optimized for Pichia pastoris; Ref:
+            https://freegenes.github.io/genbank/BBF10K_003294.gb.
+ACCESSION   Eco31IB_methyltransferase
+VERSION     Eco31IB_methyltransferase
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 gtgcacggtc tccaatgact aagtctgaga ctttcatgat cccaaaccat aaggctgcta
+       61 agttgtctga actggacatg atgatcgtta actctgttcc accaggtggt aactggaaga
+      121 acattccatt ggatgttccc tctaagcgta ttgaacagat ccgcgattct tacgctcaag
+      181 gtaagggttc tcgttccact tactacggta gattgttgcc agatatgccc gcttacacca
+      241 ttaacactta ctttaaccgc ccaggtaacg gttgtcatat ccattacgaa caggatcgtg
+      301 ttctgtctca aagagaagct gctagattgc aatcctttcc agacgacttc atctttttcg
+      361 gtggtcaaac tgccattaac actcaaatcg gcaacgctgt tccaccattt ctggcctttc
+      421 tgattgctaa ggagattgaa aaggccattg gcaacaccgg ctactacatt gatttgtttt
+      481 ccggtgctgg tggtttgggt ttgggtttta agtgggctgg ttggactcca ttgttggcta
+      541 acgatatcga ggagaagtac ttgcaaacct actctaacaa cgtccataag gaagttctgt
+      601 gtggttctat ctccgacaac gaaactttct ccaagatcgc cgacaagatt tctggcttca
+      661 agaagctgta cttcgataag caactgtgga ttttgggtgg tccaccatgt caaggttttt
+      721 ctactgctgg taacgctaga accatggatg atccaagaaa ctctctgttc atgcactaca
+      781 agtctctgtt gaacgaaatc aagcccaacg gtttcatttt cgagaacgtt gctggtctgt
+      841 tgaacatgga aaagggcaag gttttcgaga gagtcaagga agaattctcc tccaccatga
+      901 aaaccatgaa cggttggatt ctgaactctg aacattacgc cattccacaa agacgcaaga
+      961 gagtcatttt ggtcggttcc aacgatccat tgttttctat cgaaccacca cagaagctga
+     1021 ctgaggataa ggaatcttgg gtcagtgtta aggatgcttt gtctgatttg ccaccattgc
+     1081 aacatggtga agatggttct ggcaagtact acattcatca tcccgaaaac gactaccaat
+     1141 tgttcatgcg gggtaacatt actccctccg aatactacga acgtaacatt aagccatccc
+     1201 tgggaggtcg agaccgtgca c
+//
+LOCUS       Eco31I_restrict         1773 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  Scott Pownall+Ian Caven; Codon optimized for Pichia pastoris; Ref:
+            https://freegenes.github.io/genbank/BBF10K_003292.gb.
+ACCESSION   Eco31I_restriction_enzyme
+VERSION     Eco31I_restriction_enzyme
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 gtgcacggtc tccaatggaa tctttgccaa agattgctgt tacccccaac aacgataagg
+       61 ctgcttctca ctctaaggat gaaaacttgg ctaccaacac catcaagaag aacgttaagc
+      121 caaagtacgg tgatgctgct ttcctggaat acacccgttt gatcgttaac catcccaact
+      181 actttggtat gccagatcca tttggcgaga agggtgaaat tcaatgggaa gctccatcta
+      241 acagagcttc tggcaagttt aagcatactc atcaacgtcg gtacgaatgg tggaagaaca
+      301 aggctcgttc tattggtatt gacccagata ccgagaaggc ttggatctct aagactgcca
+      361 agttgattca tccattgggt gttaagccat gtaagaagtg cggcaaggaa atggaattgt
+      421 cctactctta cccaaacgag cacttttttt cccgtgttcg caagttgaac tacatcgacg
+      481 agactttcga attgtctcaa aacgagcaca tcgttgatct gttgactaga ttggatgacc
+      541 gttttggtga acggatttac ttggatttgc cccacttgtt ctccaccaag tctattacta
+      601 tcccagacat ttcctccaac ctggaagcct ggattgagta cctgaaggaa caatacatcc
+      661 cacaagaatc tcggatgttg tctccaggtg ctatggctaa cccaccagac cgtttcgatg
+      721 gctttcattc ctttaaccgt tgttgtcgct ctattgctga taagggtaga accaaggaga
+      781 acttgaagtc ctacgtcact gatagacgtg ttttcgaata ctgggttgat ggtgattggg
+      841 ttgctgctga tagattgatg ggtcaagtcc gtaccaacaa catcttcatc aacgaagagt
+      901 gtctgaacgc tggtaacggt ggtttgcatc caactccatg tcaagctgat catattggtc
+      961 ccatttctct gggcttttct catagaccac aatttcagct gctgtgtaag tcttgcaact
+     1021 ctgctaagaa caaccgcatg tacctgtctg acattatttc cctgttggaa gctgagaacg
+     1081 aaggtcatac tgtcatttcc tggtttgctg aagaagtttg gaacagactg aagcattctg
+     1141 ttgacgattc cgaaaaggct ctgcgcttgt ctaagatttt gagagacaac cgtcacacct
+     1201 acatgaacct gctgaagaag atcatggatg aaggctacta cactttcttg gcttctttgt
+     1261 tgcacttgga agttgccaac tacaacccaa tcttcgaagg tttgtgcatt tccaaccatt
+     1321 tgacccacta caagtctctg aagaagatta agcgtgagtc caagtacgct gctgttcaaa
+     1381 agactagacg tattcgcatc gcctttacct ccctgaacga ttaccataga aaggagaacc
+     1441 gtaacgcctt tattgtttct aacgagctgt ccgagaagtt tttctctgag gctatggaca
+     1501 acttgaagtc tttgtccgag attacctctt gcttggatga gaagatctct ggtatcatct
+     1561 ctgagaactc cgactctaag aacgagttcc gcaccattat tactgatctg cgtgagattg
+     1621 tcaccaacaa caaggagaag ttcaacctga tcctgaagta cttgatctct ggtatgtccg
+     1681 aaatcggtaa ggaattggaa tcctactggg aaaacgatcg ttacgttaga tccatccccg
+     1741 aagagtttat tgagggaggt cgagaccgtg cac
+//
+LOCUS       EcoOri_ColE1pMB          623 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  Ahmed Hussain; AllClo; Ref: http://parts.igem.org/Part:BBa_K1074001.
+ACCESSION   EcoOri_ColE1pMB1pBR32
+VERSION     EcoOri_ColE1pMB1pBR32
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 gtgcacggtc tctactattg agatcctttt tttctgcgcg taatctgctg cttgcaaaca
+       61 aaaaaaccac cgctaccagc ggtggtttgt ttgccggatc aagagctacc aactcttttt
+      121 ccgaaggtaa ctggcttcag cagagcgcag ataccaaata ctgtccttct agtgtagccg
+      181 tagttaggcc accacttcaa gaactctgta gcaccgccta catacctcgc tctgctaatc
+      241 ctgttaccag tggctgctgc cagtggcgat aagtcgtgtc ttaccgggtt ggactcaaga
+      301 cgatagttac cggataaggc gcagcggtcg ggctgaacgg ggggttcgtg cacacagccc
+      361 agcttggagc gaacgaccta caccgaactg agatacctac agcgtgagct atgagaaagc
+      421 gccacgcttc ccgaagggag aaaggcggac aggtatccgg taagcggcag ggtcggaaca
+      481 ggagagcgca cgagggagct tccaggggga aacgcctggt atctttatag tcctgtcggg
+      541 tttcgccacc tctgacttga gcgtcgattt ttgtgatgct cgtcaggggg gcggagccta
+      601 tggaaaaaaa tgagaccgtg cac
+//
+LOCUS       Eco_AmpR                1194 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  Scott Pownall; OYC2; AllClo E. coli backbone part; Ref:
+            https://www.ncbi.nlm.nih.gov/nuccore/JX560322.
+ACCESSION   Eco_AmpR
+VERSION     Eco_AmpR
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 gtgcacggtc tcagcaactt ggactcctgt tgatagatcc agtaatgacc tcagaactcc
+       61 atctggattt gttcagaacg ctcggttgcc gccgggcgtt ttttattggt gagaatccag
+      121 gggtccccaa taattacgta gtagcccgcc taatgagcgg gctttttttt aattccccta
+      181 tttgtttatt tttctaaata cattcaaata tgtatccgct catgagacaa taaccctgat
+      241 aaatgcttca ataatattga aaaaggaaga gtatgagcat tcagcatttt cgtgtggcgc
+      301 tgattccgtt ttttgcggcg ttttgcctgc cggtgtttgc gcatccggaa accctggtga
+      361 aagtgaaaga tgcggaagat caactgggtg cgcgcgtggg ctatattgaa ctggatctga
+      421 acagcggcaa aattctggaa tcttttcgtc cggaagaacg ttttccgatg atgagcacct
+      481 ttaaagtgct gctgtgcggt gcggttctga gccgtgtgga tgcgggccag gaacaactgg
+      541 gccgtcgtat tcattatagc cagaacgatc tggtggaata tagcccggtg accgaaaaac
+      601 atctgaccga tggcatgacc gtgcgtgaac tgtgcagcgc ggcgattacc atgagcgata
+      661 acaccgcggc gaacctgctg ctgacgacca ttggcggtcc gaaagaactg accgcgtttc
+      721 tgcataacat gggcgatcat gtgacccgtc tggatcgttg ggaaccggaa ctgaacgaag
+      781 cgattccgaa cgatgaacgt gataccacca tgccggcagc aatggcgacc accctgcgta
+      841 aactgctgac gggtgagctg ctgaccctgg caagccgcca gcaactgatt gattggatgg
+      901 aagcggataa agtggcgggt ccgctgctgc gtagcgcgct gccggctggc tggtttattg
+      961 cggataaaag cggtgcgggc gaacgtggca gccgtggcat tattgcggcg ctgggcccgg
+     1021 atggtaaacc gagccgtatt gtggtgattt ataccaccgg cagccaggcg acgatggatg
+     1081 aacgtaaccg tcagattgcg gaaattggcg cgagcctgat taaacattgg taaaccgata
+     1141 caattaaagg ctccttttgg agcctttttt tttggacact atgagaccgt gcac
+//
+LOCUS       Eco_KanR                1082 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  Scott Pownall; OYC2; AllClo E. coli backbone part; Ref:
+            https://www.ncbi.nlm.nih.gov/nuccore/JX560327.
+ACCESSION   Eco_KanR
+VERSION     Eco_KanR
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 gtgcacggtc tcagcaactt ggactcctgt tgatagatcc agtaatgacc tcagaactcc
+       61 atctggattt gttcagaacg ctcggttgcc gccgggcgtt ttttattggt gagaatccag
+      121 gggtccccaa taattacgtt gtgtctcaaa atctctgatg ttacattgca caagataaaa
+      181 atatatcatc atgaacaata aaactgtctg cttacataaa cagtaataca aggggtgtta
+      241 tgagccatat tcagcgtgaa acgagctgta gccgtccgcg tctgaacagc aacatggatg
+      301 cggatctgta tggctataaa tgggcgcgtg ataacgtggg tcagagcggc gcgaccattt
+      361 atcgtctgta tggcaaaccg gatgcgccgg aactgtttct gaaacatggc aaaggcagcg
+      421 tggcgaacga tgtgaccgat gaaatggtgc gtctgaactg gctgaccgaa tttatgccgc
+      481 tgccgaccat taaacatttt attcgcaccc cggatgatgc gtggctgctg accaccgcga
+      541 ttccgggcaa aaccgcgttt caggtgctgg aagaatatcc ggatagcggc gaaaacattg
+      601 tggatgcgct ggccgtgttt ctgcgtcgtc tgcatagcat tccggtgtgc aactgcccgt
+      661 ttaacagcga tcgtgtgttt cgtctggccc aggcgcagag ccgtatgaac aacggcctgg
+      721 tggatgcgag cgattttgat gatgaacgta acggctggcc ggtggaacag gtgtggaaag
+      781 aaatgcataa actgctgccg tttagcccgg atagcgtggt gacccacggc gattttagcc
+      841 tggataacct gattttcgat gaaggcaaac tgattggctg cattgatgtg ggccgtgtgg
+      901 gcattgcgga tcgttatcag gatctggcca ttctgtggaa ctgcctgggc gaatttagcc
+      961 cgagcctgca aaaacgtctg tttcagaaat atggcattga taatccggat atgaacaaac
+     1021 tgcaatttca tctgatgctg gatgaatttt tctaataatt aattgactat gagaccgtgc
+     1081 ac
+//
+LOCUS       Eco_TetR                1422 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  Scott Pownall; OYC2; AllClo E. coli backbone part; Ref:
+            https://www.ncbi.nlm.nih.gov/nuccore/JX560341.
+ACCESSION   Eco_TetR
+VERSION     Eco_TetR
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 gtgcacggtc tcagcaactt ggactcctgt tgatagatcc agtaatgacc tcagaactcc
+       61 atctggattt gttcagaacg ctcggttgcc gccgggcgtt ttttattggt gagaatccag
+      121 gggtccccaa taattacgtt gacagcttat catcgataaa ctgtaatgcg gtagtttatc
+      181 acagttaaat tgctaacgca gtcaggcacc gtgtatgaaa tctaacaatg cgctcatcgt
+      241 catcctcggc accgtcaccc tggatgctgt aggcataggc ttggttatgc cggtactgcc
+      301 gggcctcttg cgggatatcg tccattccga cagcatcgcc agtcactatg gcgtgctgct
+      361 agcgctatat gcgttgatgc aatttctatg cgcacccgtt ctcggagcac tgtccgaccg
+      421 ctttggccgc cgcccagtcc tgctcgcttc gctacttgga gccactatcg actacgcgat
+      481 catggcgacc acacccgtcc tgtggattct ctacgccgga cgcatcgtgg ccggcatcac
+      541 cggcgccaca ggtgcggttg ctggcgccta tatcgccgac atcaccgatg gggaagatcg
+      601 ggctcgccac ttcgggctca tgagcgcttg tttcggcgtg ggtatggtgg caggccccgt
+      661 ggccggggga ctgttgggcg ccatctccct gcacgcacca ttccttgcgg cggcggtgct
+      721 caacggcctc aacctactac tgggctgctt cctaatgcag gagtcgcata agggagagcg
+      781 ccgtccgatg cccttgagag ccttcaaccc agtcagctcc ttccggtggg cgcggggcat
+      841 gaccattgtg gccgcactta tgactgtctt ctttatcatg caactcgtag gacaggtgcc
+      901 ggcagcgctc tgggtcattt tcggcgagga ccgctttcgc tggagcgcga cgatgatcgg
+      961 cctgtcgctt gcggtattcg gaatcttgca cgccctcgct caagccttcg tcactggtcc
+     1021 cgccaccaaa cgtttcggcg agaagcaggc cattatcgcc ggcatggcgg ccgacgcgct
+     1081 gggctacgtc ttgctggcgt tcgcgacgcg aggctggatg gccttcccca ttatgattct
+     1141 tctcgcttcc ggcggcatcg ggatgcccgc gttgcaggcc atgctgtcca ggcaggtaga
+     1201 tgacgaccat cagggacagc ttcaaggatc gctcgcggct cttaccagcc taacttcgat
+     1261 cactggaccg ctgatcgtca cggcgattta tgccgcctcg gcgagcacat ggaacgggtt
+     1321 ggcatggatt gtaggcgccg ccctatacct tgtctgcctc cccgcgttgc gtcgcggtgc
+     1381 atggagccgg gccacctcga cctgaactat gagaccgtgc ac
+//
+LOCUS       Eco_ccdA                 250 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  Scott Pownall; Ref: https://www.ncbi.nlm.nih.gov/nuccore/AP001918.1.
+ACCESSION   Eco_ccdA
+VERSION     Eco_ccdA
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 gtgcacggtc tccaatgaag cagcgtatta cagtgacagt tgacagcgac agctatcagt
+       61 tgctcaaggc atatgatgtc aatatctccg gtctggtaag cacaaccatg cagaatgaag
+      121 cccgtcgtct gcgtgccgaa cgctggaaag cggaaaatca ggaagggatg gctgaggtcg
+      181 cccggtttat tgaaatgaac ggctcttttg ctgacgagaa cagggactgg tgagcttcga
+      241 gaccgtgcac
+//
+LOCUS       Eco_p15a_origin          871 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  Scott Pownall; OYC2; AllClo E. coli backbone part; Ref:
+            http://sevahub.es/public/Canonical/pSEVA261.
+ACCESSION   Eco_p15a_origin
+VERSION     Eco_p15a_origin
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 gtgcacggtc tcaactacta gaaatatttt atctgattaa taagatgatc ttcttgagat
+       61 cgttttggtc tgcgcgtaat ctcttgctct gaaaacgaaa aaaccgcctt gcagggcggt
+      121 ttttcgaagg ttctctgagc taccaactct ttgaaccgag gtaactggct tggaggagcg
+      181 cagtcaccaa aacttgtcct ttcagtttag ccttaaccgg cgcatgactt caagactaac
+      241 tcctctaaat caattaccag tggctgctgc cagtggtgct tttgcatgtc tttccgggtt
+      301 ggactcaaga cgatagttac cggataaggc gcagcggtcg gactgaacgg ggggttcgtg
+      361 catacagtcc agcttggagc gaactgccta cccggaactg agtgtcaggc gtggaatgag
+      421 acaaacgcgg ccataacagc ggaatgacac cggtaaaccg aaaggcagga acaggagagc
+      481 gcacgaggga gccgccaggg ggaaacgcct ggtatcttta tagtcctgtc gggtttcgcc
+      541 accactgatt tgagcgtcag atttcgtgat gcttgtcagg ggggcggagc ctatggaaaa
+      601 acggctttgc cgcggccctc tcacttccct gttaagtatc ttcctggcat cttccaggaa
+      661 atctccgccc cgttcgtaag ccatttccgc tcgccgcagt cgaacgaccg agcgtagcga
+      721 gtcagtgagc gaggaagcgg aatatatcct ctagggcggc ggatttgtcc tactcaggag
+      781 agcgttcacc gacaaacaac agataaaacg aaaggcccag tctttcgact gagcctttcg
+      841 ttttatttga tgccaaaatg agaccgtgca c
+//
+LOCUS       Eco_pRO1600_Col         2108 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  Scott Pownall; OYC2; AllClo E. coli backbone part; Ref: Ref:
+            https://www.ncbi.nlm.nih.gov/nuccore/JX560324.
+ACCESSION   Eco_pRO1600_ColE1_origin
+VERSION     Eco_pRO1600_ColE1_origin
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 gtgcacggtc tcaactagat aatctcatga ccaaaatccc ttaacgtgag ttttcgttcc
+       61 actgagcgtc agaccccgta gaaaagatca aaggatcttc ttgagatcct ttttttctgc
+      121 gcgtaatctg ctgcttgcaa acaaaaaaac caccgctacc agcggtggtt tgtttgccgg
+      181 atcaagagct accaactctt tttccgaagg taactggctt cagcagagcg cagataccaa
+      241 atactgttct tctagtgtag ccgtagttag gccaccactt caagaactct gtagcaccgc
+      301 ctacatacct cgctctgcta atcctgttac cagtggctgc tgccagtggc gataagtcgt
+      361 gtcttaccgg gttggactca agacgatagt taccggataa ggcgcagcgg tcgggctgaa
+      421 cggggggttc gtgcacacag cccagcttgg agcgaacgac ctacaccgaa ctgagatacc
+      481 tacagcgtga gctatgagaa agcgccacgc ttcccgaagg gagaaaggcg gacaggcatc
+      541 cggtaagcgg cagggtcgga acaggagagc gcacgaggga gcttccaggg ggaaacgcct
+      601 ggtatcttta tagtcctgtc gggtttcgcc acctctgact tgagcgtcga tttttgtgat
+      661 gctcgtcagg ggggcggagc ctatggaaaa acgccagcaa cgcggccgtg aaaggcaggc
+      721 cggtccgtgg tggccacggc ctctaggcca gatccagcgg catctgggtt agtcgagcgc
+      781 gggccgcttc ccatgtctca ccagggcgag cctgtttcgc gatctcagca tctgaaatct
+      841 tcccggcctt gcgcttcgct ggggccttac ccaccgcctt ggcgggcttc ttcggtccaa
+      901 aactgaacaa cagatgtgtg accttgcgcc cggtctttcg ctgcgcccac tccacctgta
+      961 gcgggctgtg ctcgttgatc tgcgtcacgg ctggatcaag cactcgcaac ttgaagtcct
+     1021 tgatcgaggg ataccggcct tccagttgaa accactttcg cagctggtca atttctattt
+     1081 cgcgctggcc gatgctgtcc cattgcatga gcagctcgta aagcctgatc gcgtgggtgc
+     1141 tgtccatctt ggccacgtca gccaaggcgt atttggtgaa ctgtttggtg agttccgtca
+     1201 ggtacggcag catgtctttg gtgaacctga gttctacacg gccctcaccc tcccggtaga
+     1261 tgattgtttg cacccagccg gtaatcatca cactcggtct tttccccttg ccattgggct
+     1321 cttgggttaa ccggacttcc cgccgtttca ggcgcagggc cgcttctttg agctggttgt
+     1381 aggaagattc gatagggaca cccgccatcg tcgctatgtc ctccgccgtc actgaataca
+     1441 tcacttcatc ggtgacaggc tcgctcctct tcacctggct aatacaggcc agaacgatcc
+     1501 gctgttcctg aacactgagg cgatacgcgg cctcgaccag ggcattgctt ttgtaaacca
+     1561 ttgggggtga ggccacgttc gacattcctt gtgtataagg ggacactgta tctgcgtccc
+     1621 acaatacaac aaatccgtcc ctttacaaca acaaatccgt cccttcttaa caacaaatcc
+     1681 gtcccttaat ggcaacaaat ccgtcccttt ttaaactcta caggccacgg attacgtggc
+     1741 ctgtagacgt cctaaaaggt ttaaaaggga aaaggaagaa aagggtggaa acgcaaaaaa
+     1801 cgcaccacta cgtggccccg ttggggccgc atttgtgccc ctgaaggggc gggggaggcg
+     1861 tctgggcaat ccccgtttta ccagtcccct atcgccgcct gagagggcgc aggaagcgag
+     1921 taatcagggt atcgaggcgg attcaccctt ggcgtccaac cagcggcacc agcggcgcct
+     1981 gagaggtcta gggcggcgga tttgtcctac tcaggagagc gttcaccgac aaacaacaga
+     2041 taaaacgaaa ggcccagtct ttcgactgag cctttcgttt tatttgatgc caaaatgaga
+     2101 ccgtgcac
+//
+LOCUS       Eco_sacB                1453 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  Scott Pownall+Ian Caven; Codon optimized for E. coli; Ref:
+            https://www.ncbi.nlm.nih.gov/nuccore/X02730.1.
+ACCESSION   Eco_sacB
+VERSION     Eco_sacB
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 gtgcacggtc tccaatgaat attaagaagt tcgcgaaaca ggcgaccgtg ctgaccttta
+       61 ccaccgcact gctggcaggt ggcgcaactc aggcgtttgc gaaagaaacc aaccagaaac
+      121 cgtataagga gacttacggc attagccaca ttacccgcca tgatatgctg cagattccgg
+      181 aacagcagaa aaatgagaag taccaggtgc cggagttcga tagcagcacc attaagaaca
+      241 tcagcagcgc gaaaggcctg gatgtgtggg atagctggcc gctgcagaat gcggatggca
+      301 ccgtggcgaa ttatcatggc tatcacatcg tgtttgcgct ggcgggcgat ccgaaaaatg
+      361 cggatgacac cagcatttac atgttctacc agaaagtggg cgaaaccagc attgatagct
+      421 ggaaaaatgc gggccgcgtg tttaaagata gcgataagtt cgacgcgaac gatagcattc
+      481 tgaaagatca gacccaggaa tggagcggca gcgcgacctt taccagcgat ggcaaaattc
+      541 gcctgtttta caccgatttc agcggcaaac attacggcaa acagaccctg accaccgcgc
+      601 aggtgaatgt gagcgcgagc gatagcagcc tgaatatcaa cggcgtggaa gattacaaga
+      661 gcatttttga cggcgatggc aaaacctacc agaatgtgca gcagttcatt gatgaaggca
+      721 attacagcag cggcgataat cataccctgc gcgatccgca ttatgtggaa gataagggcc
+      781 acaaatacct ggtgtttgaa gcgaataccg gcaccgaaga tggctatcag ggcgaagaaa
+      841 gcctgtttaa caaggcgtac tatggcaaaa gcaccagctt ttttcgccag gaaagccaga
+      901 aactgctgca gagcgataaa aaacgcaccg cggaactggc aaatggcgcg ctgggcatga
+      961 ttgaactgaa cgatgattac accctgaaga aagtgatgaa gccgctgatt gcgagcaata
+     1021 ccgtgaccga tgaaattgag cgcgcgaacg tgtttaaaat gaacggcaag tggtacctgt
+     1081 tcaccgatag ccgcggcagc aaaatgacca ttgacggcat taccagcaat gacatttaca
+     1141 tgctgggcta tgtgagcaat agcctgaccg gcccgtataa accgctgaat aaaaccggcc
+     1201 tggtgctgaa aatggatctg gatccgaatg acgtgacctt tacctacagc cattttgcgg
+     1261 tgccgcaggc gaaaggcaac aatgtggtga ttaccagcta tatgaccaac cgcggctttt
+     1321 atgcggataa acagagcacc tttgcgccga gctttctgct gaatatcaag ggcaagaaaa
+     1381 ccagcgtggt gaaagatagc attctggaac agggccagct gaccgtgaat aaatgagctt
+     1441 cgagaccgtg cac
+//
+LOCUS       Ecoli_KanR              1002 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  Ahmed Hussain; AllClo; Ref: https://www.ncbi.nlm.nih.gov/nuccore/JX
+            560356.
+ACCESSION   Ecoli_KanR
+VERSION     Ecoli_KanR
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 gtgcacggtc tcagcaattg tgtctcaaaa tctctgatgt tacattgcac aagataaaaa
+       61 tatatcatca tgaacaataa aactgtctgc ttacataaac agtaatacaa ggggtgttat
+      121 gagccatatt cagcgtgaaa cgagctgtag ccgtccgcgt ctgaacagca acatggatgc
+      181 ggatctgtat ggctataaat gggcgcgtga taacgtgggt cagagcggcg cgaccattta
+      241 tcgtctgtat ggcaaaccgg atgcgccgga actgtttctg aaacatggca aaggcagcgt
+      301 ggcgaacgat gtgaccgatg aaatggtgcg tctgaactgg ctgaccgaat ttatgccgct
+      361 gccgaccatt aaacatttta ttcgcacccc ggatgatgcg tggctgctga ccaccgcgat
+      421 tccgggcaaa accgcgtttc aggtgctgga agaatatccg gatagcggcg agaacattgt
+      481 ggatgcgctg gccgtgtttc tgcgtcgtct gcatagcatt ccggtgtgca actgcccgtt
+      541 taacagcgat cgtgtgtttc gtctggccca ggcgcagagc cgtatgaaca acggcctggt
+      601 ggatgcgagc gattttgatg atgaacgtaa cggctggccg gtggaacagg tgtggaaaga
+      661 aatgcataaa ctgctgccgt ttagcccgga tagcgtggtg acccacggcg attttagcct
+      721 ggataacctg attttcgatg aaggcaaact gattggctgc attgatgtgg gccgtgtggg
+      781 cattgcggat cgttatcagg atctggccat tctgtggaac tgcctgggcg aatttagccc
+      841 gagcctgcaa aaacgtctgt ttcagaaata tggcattgat aatccggata tgaacaaact
+      901 gcaatttcat ctgatgctgg atgaattttt ctaataacta gcataacccc ttggggcctc
+      961 taaacgggtc ttgaggggtt ttttgactaa gagaccgtgc ac
+//
+LOCUS       Ecoli_SpecR             1024 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  Ahmed Hussain; AllClo; Ref: https://www.ncbi.nlm.nih.gov/nuccore/JX
+            560356.
+ACCESSION   Ecoli_SpecR
+VERSION     Ecoli_SpecR
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 gtgcacggtc tcagcaagaa ccttgaccga acgcagcggt ggtaacggcg cagtggcggt
+       61 tttcatggct tgttatgact gtttttttgg ggtacagtct atgcctcggg catccaagca
+      121 gcaagcgcgt tacgccgtgg gtcgatgttt gatgttatgg agcagcaacg atgttacgca
+      181 gcagggcagt cgccctaaaa caaagttaaa catcatgagg gaagcggtga tcgccgaagt
+      241 atcgactcaa ctatcagagg tagttggcgt catcgagcgc catctcgaac cgacgttgct
+      301 ggccgtacat ttgtacggct ccgcagtgga tggcggcctg aagccacaca gtgatattga
+      361 tttgctggtt acggtgaccg taaggcttga tgaaacaacg cggcgagctt tgatcaacga
+      421 ccttttggaa acttcggctt cccctggaga gagcgagatt ctccgcgctg tagaagtcac
+      481 cattgttgtg cacgacgaca tcattccgtg gcgttatcca gctaagcgcg aactgcaatt
+      541 tggagaatgg cagcgcaatg acattcttgc aggtatcttc gagccagcca cgatcgacat
+      601 tgatctggct atcttgctga caaaagcaag agaacatagc gttgccttgg taggtccagc
+      661 ggcggaggaa ctctttgatc cggttcctga acaggatcta tttgaggcgc taaatgaaac
+      721 cttaacgcta tggaactcgc cgcccgactg ggctggcgat gagcgaaatg tagtgcttac
+      781 gttgtcccgc atttggtaca gcgcagtaac cggcaaaatc gcgccgaagg atgtcgctgc
+      841 cgactgggca atggagcgcc tgccggccca gtatcagccc gtcatacttg aagctagaca
+      901 ggcttatctt ggacaagaag aagatcgctt ggcctcgcgc gcagatcagt tggaagaatt
+      961 tgtccactac gtgaaaggcg agatcaccaa ggtagtcggc aaataagact aagagaccgt
+     1021 gcac
+//
 LOCUS       Fluorescent_Pro         2769 bp    DNA     linear   UNK 01-JAN-1980
 DEFINITION  .
 ACCESSION   Fluorescent_Proteins_in_vector_Fluorescent_Proteins_in_vector_ins_BBa_E0020
@@ -10574,6 +11064,110 @@ ORIGIN
      2641 cgtctaagaa accattatta tcatgacatt aacctataaa aataggcgta tcacgaggca
      2701 gaatttcaga taaaaaaaat ccttagcttt cgctaaggat gatttctg
 //
+LOCUS       IDL3_B_BbsI_3_A           50 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  Isaac Larkin; AllClo; Primer sequences from doi:
+            10.1093/synbio/ysx008.
+ACCESSION   IDL3_B_BbsI_3_APOSTROPHE_Identity_Linker
+VERSION     IDL3_B_BbsI_3_APOSTROPHE_Identity_Linker
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 ggtctcatac tatgtcttcg cctacggatt gtctgtcaag gcatgagacc
+//
+LOCUS       IDL3_B_mBsaI_3_           52 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  Isaac Larkin; AllClo; Primer sequences from doi:
+            10.1093/synbio/ysx008.
+ACCESSION   IDL3_B_mBsaI_3_APOSTROPHE_Identity_Linker
+VERSION     IDL3_B_mBsaI_3_APOSTROPHE_Identity_Linker
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 ggtctcatac ttgagaccgg agcctacgga ttgtctgtca aggcatgaga cc
+//
+LOCUS       IDL3_C_BbsI_3_A           50 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  Isaac Larkin; AllClo; Primer sequences from doi:
+            10.1093/synbio/ysx008.
+ACCESSION   IDL3_C_BbsI_3_APOSTROPHE_Identity_Linker
+VERSION     IDL3_C_BbsI_3_APOSTROPHE_Identity_Linker
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 ggtctcaaat gatgtcttcg cctacggatt gtctgtcaag gcatgagacc
+//
+LOCUS       IDL3_C_mBsaI_3_           52 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  Isaac Larkin; AllClo; Primer sequences from doi:
+            10.1093/synbio/ysx008.
+ACCESSION   IDL3_C_mBsaI_3_APOSTROPHE_Identity_Linker
+VERSION     IDL3_C_mBsaI_3_APOSTROPHE_Identity_Linker
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 ggtctcaaat gtgagaccgg agcctacgga ttgtctgtca aggcatgaga cc
+//
+LOCUS       IDL5_A_BbsI_5_A           50 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  Isaac Larkin; AllClo; Primer sequences from doi:
+            10.1093/synbio/ysx008.
+ACCESSION   IDL5_A_BbsI_5_APOSTROPHE_Identity_Linker
+VERSION     IDL5_A_BbsI_5_APOSTROPHE_Identity_Linker
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 ggtctcagac caaacacgtg gcaaacattc cgaagacatg gagtgagacc
+//
+LOCUS       IDL5_A_mBsaI_5_           52 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  Isaac Larkin; AllClo; Primer sequences from doi:
+            10.1093/synbio/ysx008.
+ACCESSION   IDL5_A_mBsaI_5_APOSTROPHE_Identity_Linker
+VERSION     IDL5_A_mBsaI_5_APOSTROPHE_Identity_Linker
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 ggtctcagac caaacacgtg gcaaacattc caccggtctc aggagtgaga cc
+//
+LOCUS       IDL5_E_BbsI_5_A           51 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  Isaac Larkin; AllClo; Primer sequences from doi:
+            10.1093/synbio/ysx008.
+ACCESSION   IDL5_E_BbsI_5_APOSTROPHE_Identity_Linker
+VERSION     IDL5_E_BbsI_5_APOSTROPHE_Identity_Linker
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 ggtctcagac caaacacgtg gcaaacattc cagaagacat gctttgagac c
+//
+LOCUS       IDL5_E_mBsaI_5_           52 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  Isaac Larkin; AllClo; Primer sequences from doi:
+            10.1093/synbio/ysx008.
+ACCESSION   IDL5_E_mBsaI_5_APOSTROPHE_Identity_Linker
+VERSION     IDL5_E_mBsaI_5_APOSTROPHE_Identity_Linker
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 ggtctcagac caaacacgtg gcaaacattc caccggtctc agctttgaga cc
+//
 LOCUS       Interlab_NegC           3145 bp    DNA     linear   UNK 01-JAN-1980
 DEFINITION  .
 ACCESSION   Interlab_NegC
@@ -10717,6 +11311,36 @@ ORIGIN
      3001 tcgagtgcca cctgacgtct aagaaaccat tattatcatg acattaacct ataaaaatag
      3061 gcgtatcacg aggcagaatt tcagataaaa aaaatcctta gctttcgcta aggatgattt
      3121 ctggaattcg cggccgcttc tagag
+//
+LOCUS       Lambda_T1_Trans           87 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  Ahmed Hussain; AllClo; Ref: http://parts.igem.org/Part:BBa_K780000
+            Lambda T1 Transcriptional Terminator.
+ACCESSION   Lambda_T1_Transcriptional_Terminator
+VERSION     Lambda_T1_Transcriptional_Terminator
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 gtgcacggtc tctgcttctg taacagagca ttagcgcaag gtgatttttg tcttcttgcg
+       61 ctaatttttt cgcttgagac cgtgcac
+//
+LOCUS       Lox71_select_Lo          182 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  Scott Pownall; OYC/AllClo; Ref: https://pubmed.ncbi.nlm.nih.gov/774
+            2860.
+ACCESSION   Lox71_select_Lox66
+VERSION     Lox71_select_Lox66
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 gtgcacggtc tcaaaggtac cgttcgtata atgtatgcta tacgaagtta tcttgaggac
+       61 ttttgcgttc gaaggtgaga cgaccggtga attccaattg cgtctcaatg acgatagaac
+      121 gaccaggtag cataacttcg tataatgtat gctatacgaa cggtaatgat gagaccgtgc
+      181 ac
 //
 LOCUS       Nickases_Nickas         6153 bp    DNA     linear   UNK 01-JAN-1980
 DEFINITION  .
@@ -11650,6 +12274,385 @@ ORIGIN
      2761 tggtgaaagt tggaacctct tacgtgcccg atcaactcga gtgccacctg acgtctaaga
      2821 aaccattatt atcatgacat taacctataa aaataggcgt atcacgaggc agaatttcag
      2881 ataaaaaaaa tccttagctt tcgctaagga tgatttctg
+//
+LOCUS       PSL3_B_to_A3_Bb           54 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  Isaac Larkin; AllClo; Primer sequences from doi:
+            10.1093/synbio/ysx008.
+ACCESSION   PSL3_B_to_A3_BbsI_3_APOSTROPHE_Part_Switch_Linker
+VERSION     PSL3_B_to_A3_BbsI_3_APOSTROPHE_Part_Switch_Linker
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 ggtctcatac ttgtgatgtc ttcgcctacg gattgtctgt caaggcatga gacc
+//
+LOCUS       PSL3_B_to_A3_mB           56 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  Isaac Larkin; AllClo; Primer sequences from doi:
+            10.1093/synbio/ysx008.
+ACCESSION   PSL3_B_to_A3_mBsaI_3_APOSTROPHE_Part_Switch_Linker
+VERSION     PSL3_B_to_A3_mBsaI_3_APOSTROPHE_Part_Switch_Linker
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 ggtctcatac ttgtgtgaga ccggagccta cggattgtct gtcaaggcat gagacc
+//
+LOCUS       PSL3_F9_to_E2_B           54 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  Isaac Larkin; AllClo; Primer sequences from doi:
+            10.1093/synbio/ysx008.
+ACCESSION   PSL3_F9_to_E2_BbsI_3_APOSTROPHE_Part_Switch_Linker
+VERSION     PSL3_F9_to_E2_BbsI_3_APOSTROPHE_Part_Switch_Linker
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 ggtctcaatg aatagatgtc ttcgcctacg gattgtctgt caaggcatga gacc
+//
+LOCUS       PSL3_F9_to_E2_m           56 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  Isaac Larkin; AllClo; Primer sequences from doi:
+            10.1093/synbio/ysx008.
+ACCESSION   PSL3_F9_to_E2_mBsaI_3_APOSTROPHE_Part_Switch_Linker
+VERSION     PSL3_F9_to_E2_mBsaI_3_APOSTROPHE_Part_Switch_Linker
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 ggtctcaatg aatagtgaga ccggagccta cggattgtct gtcaaggcat gagacc
+//
+LOCUS       PSL3_F9_to_F_Bb           54 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  Isaac Larkin; AllClo; Primer sequences from doi:
+            10.1093/synbio/ysx008.
+ACCESSION   PSL3_F9_to_F_BbsI_3_APOSTROPHE_Part_Switch_Linker
+VERSION     PSL3_F9_to_F_BbsI_3_APOSTROPHE_Part_Switch_Linker
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 ggtctcaatg acgctatgtc ttcgcctacg gattgtctgt caaggcatga gacc
+//
+LOCUS       PSL3_F9_to_F_mB           56 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  Isaac Larkin; AllClo; Primer sequences from doi:
+            10.1093/synbio/ysx008.
+ACCESSION   PSL3_F9_to_F_mBsaI_3_APOSTROPHE_Part_Switch_Linker
+VERSION     PSL3_F9_to_F_mBsaI_3_APOSTROPHE_Part_Switch_Linker
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 ggtctcaatg acgcttgaga ccggagccta cggattgtct gtcaaggcat gagacc
+//
+LOCUS       PSL3_F_to_E2_Bb           54 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  Isaac Larkin; AllClo; Primer sequences from doi:
+            10.1093/synbio/ysx008.
+ACCESSION   PSL3_F_to_E2_BbsI_3_APOSTROPHE_Part_Switch_Linker
+VERSION     PSL3_F_to_E2_BbsI_3_APOSTROPHE_Part_Switch_Linker
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 ggtctcacgc tatagatgtc ttcgcctacg gattgtctgt caaggcatga gacc
+//
+LOCUS       PSL3_F_to_E2_mB           56 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  Isaac Larkin; AllClo; Primer sequences from doi:
+            10.1093/synbio/ysx008.
+ACCESSION   PSL3_F_to_E2_mBsaI_3_APOSTROPHE_Part_Switch_Linker
+VERSION     PSL3_F_to_E2_mBsaI_3_APOSTROPHE_Part_Switch_Linker
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 ggtctcacgc tatagtgaga ccggagccta cggattgtct gtcaaggcat gagacc
+//
+LOCUS       PSL5_A_to_A2_Bb           54 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  Isaac Larkin; AllClo; Primer sequences from doi:
+            10.1093/synbio/ysx008.
+ACCESSION   PSL5_A_to_A2_BbsI_5_APOSTROPHE_Part_Switch_Linker
+VERSION     PSL5_A_to_A2_BbsI_5_APOSTROPHE_Part_Switch_Linker
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 ggtctcagac caaacacgtg gcaaacattc cgaagacatt aacggagtga gacc
+//
+LOCUS       PSL5_A_to_A2_mB           56 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  Isaac Larkin; AllClo; Primer sequences from doi:
+            10.1093/synbio/ysx008.
+ACCESSION   PSL5_A_to_A2_mBsaI_5_APOSTROPHE_Part_Switch_Linker
+VERSION     PSL5_A_to_A2_mBsaI_5_APOSTROPHE_Part_Switch_Linker
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 ggtctcagac caaacacgtg gcaaacattc caccggtctc ataacggagt gagacc
+//
+LOCUS       PSL5_F8_to_A2_B           54 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  Isaac Larkin; AllClo; Primer sequences from doi:
+            10.1093/synbio/ysx008.
+ACCESSION   PSL5_F8_to_A2_BbsI_5_APOSTROPHE_Part_Switch_Linker
+VERSION     PSL5_F8_to_A2_BbsI_5_APOSTROPHE_Part_Switch_Linker
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 ggtctcagac caaacacgtg gcaaacattc cgaagacatt aacaaggtga gacc
+//
+LOCUS       PSL5_F8_to_A2_m           56 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  Isaac Larkin; AllClo; Primer sequences from doi:
+            10.1093/synbio/ysx008.
+ACCESSION   PSL5_F8_to_A2_mBsaI_Part_Switch_Linker
+VERSION     PSL5_F8_to_A2_mBsaI_Part_Switch_Linker
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 ggtctcagac caaacacgtg gcaaacattc caccggtctc ataacaaggt gagacc
+//
+LOCUS       PSL5_F8_to_A_Bb           54 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  Isaac Larkin; AllClo; Primer sequences from doi:
+            10.1093/synbio/ysx008.
+ACCESSION   PSL5_F8_to_A_BbsI_5_APOSTROPHE_Part_Switch_Linker
+VERSION     PSL5_F8_to_A_BbsI_5_APOSTROPHE_Part_Switch_Linker
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 ggtctcagac caaacacgtg gcaaacattc cgaagacatg gagaaggtga gacc
+//
+LOCUS       PSL5_F8_to_A_mB           56 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  Isaac Larkin; AllClo; Primer sequences from doi:
+            10.1093/synbio/ysx008.
+ACCESSION   PSL5_F8_to_A_mBsaI_Part_Switch_Linker
+VERSION     PSL5_F8_to_A_mBsaI_Part_Switch_Linker
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 ggtctcagac caaacacgtg gcaaacattc caccggtctc aggagaaggt gagacc
+//
+LOCUS       Pfu_Sso7d_noCta         2565 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  Ahmed Hussain; AllClo; Ref: http://parts.igem.org/Part:BBa_B0014.
+ACCESSION   Pfu_Sso7d_noCtag_Bsub
+VERSION     Pfu_Sso7d_noCtag_Bsub
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 gtgcacggtc tctaatgatt ttggacgtag actatatcac ggaagaaggc aaacctgtta
+       61 tccggctgtt taagaaggaa aacggcaagt ttaaaattga acacgaccga acctttcgcc
+      121 cgtacattta tgcgcttctg agagatgatt ctaaaatcga agaggtgaag aaaatcacag
+      181 gtgagcggca cggcaaaata gtccgtatcg ttgatgtgga aaaagtagag aagaaatttc
+      241 ttggcaagcc gatcacggtc tggaagttat atcttgaaca ccctcaggat gtgccaacga
+      301 tccgggagaa ggtgcgagag cacccagcgg tcgtagacat ttttgagtat gatatcccct
+      361 tcgcaaaacg ttatcttata gataaagggt tgatcccgat ggagggcgag gaagaattga
+      421 agatattggc atttgatatc gaaacgttat accacgaagg agaagagttt gggaagggcc
+      481 cgataataat gatttcgtat gccgacgaaa acgaagcgaa agtgatcact tggaagaaca
+      541 tcgacttgcc gtatgtggaa gtagtttcca gcgaaagaga aatgattaaa cgctttcttc
+      601 gtatcattcg tgagaaagat ccagatatta ttgtgacgta taacggagat agcttcgatt
+      661 ttccctattt agccaaacga gcggaaaaat tgggcatcaa gttaacaatc ggtagagatg
+      721 gctcagagcc gaaaatgcaa cgcattggag acatgacagc cgttgaggta aaaggccgta
+      781 tacactttga tttgtaccac gtcataacgc gtacgatcaa tttgcccact tacacgttgg
+      841 aagcggtcta cgaggcgata tttggaaagc ccaaagagaa ggtatatgcc gatgaaatag
+      901 caaaggcgtg ggaatcaggc gaaaacttgg agcgtgtggc caaatattcg atggaggacg
+      961 cgaaagcgac ttacgaactg ggcaaagagt tcctgccaat ggagatccag ttatccaggt
+     1021 tggttggcca gcctttgtgg gatgtttcgc gatcaagcac aggcaatctg gtagagtggt
+     1081 tcctgctgcg taaggcatac gagagaaacg aagtggcccc aaataaaccg agtgaagaag
+     1141 aataccaacg ccgacttcga gaatcttaca cgggtgggtt tgtcaaagaa ccggaaaaag
+     1201 gcttatggga aaacatcgtt tacctggatt tccgggccct gtacccgtca atcataataa
+     1261 cgcacaacgt tagcccagat accttaaact tggaaggctg taaaaattac gatatcgctc
+     1321 ctcaagtagg ccacaagttt tgcaaagata tcccaggttt catcccgtcc ttgctgggcc
+     1381 atctgctgga agaacggcag aagattaaaa ctaagatgaa agaaacgcaa gatccgatag
+     1441 agaaaatctt gttggattac cgccaaaagg cgattaagtt attagcgaat agtttctatg
+     1501 gttactatgg ctatgctaaa gcacgctggt attgtaaaga atgcgcggag tcggttacgg
+     1561 cctggggccg aaagtacata gagctggtat ggaaggaact ggaagaaaag tttggtttta
+     1621 aggtattata tatagatacc gatggcttat atgctactat accaggagga gaatcagagg
+     1681 aaatcaagaa gaaagccctt gagtttgtga aatacataaa ttcaaaactg cccggcctgc
+     1741 ttgaacttga atatgaaggt ttttacaaga ggggattctt tgtcaccaaa aagagatatg
+     1801 cggtcattga cgaagaaggg aaggtgatta cgcgtggttt agaaatcgtg cgccgagatt
+     1861 ggtctgaaat agctaaggaa acccaagccc gagttttaga aacgatttta aagcatggag
+     1921 atgtcgagga agcggtacgc atcgttaaag aggtgataca aaaactggct aattacgaga
+     1981 tccctccgga gaagctggcg atatacgaac aaataaccag gcctctgcac gaatataaag
+     2041 ccataggccc acatgtggct gtggcgaaaa agttagcggc aaagggcgta aaaatcaaac
+     2101 ctggcatggt catagggtat attgttctgc gcggcgacgg tccgatctcg aatcgggcca
+     2161 tattagccga agaatatgac cccaagaaac ataaatatga tgccgaatat tatatagaaa
+     2221 atcaagtgct gccagcagtg ctgcgcattt tagaaggctt cggctatcga aaggaggatc
+     2281 ttagatacca gaaaacaaga caagtaggct tgacatcctg gctgaacata aagaaaagtg
+     2341 gcacaggagg gggtggtgcc accgttaagt ttaaatataa aggcgaagaa aaagaagttg
+     2401 atatatctaa aataaagaag gtctggaggg tgggaaagat gatctcgttt acttacgatg
+     2461 aaggcggcgg caagacaggt cgcggggcag tgtccgagaa agacgctcct aaagaattgt
+     2521 tacagatgct tgaaaagcag aagaaaggag gttgagaccg tgcac
+//
+LOCUS       Pfu_ssod7_yeast         2565 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  Scott Pownall+Ian Caven; Codon optimized for Pichia pastoris and
+            Saccharomyces cerevisiae;.
+ACCESSION   Pfu_ssod7_yeast
+VERSION     Pfu_ssod7_yeast
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 gtgcacggtc tccaatgatt ttggacgtcg actacattac tgaggaaggt aagccagtca
+       61 ttaggttgtt caagaaggaa aacggcaagt tcaagatcga acatgacagg actttcagac
+      121 cctacattta cgctttgttg agagatgact ccaagatcga ggaggttaaa aagatcactg
+      181 gtgagagaca cggtaagatt gttagaattg tcgatgtcga gaaggttgaa aagaagttct
+      241 tgggcaagcc cattactgtc tggaaattgt acctggagca tccacaagat gttccaacta
+      301 tcagggagaa agtcagagaa catccagctg tcgttgacat ttttgagtac gacattccct
+      361 tcgctaagag gtacctgatt gacaaaggtc tgattccaat ggaaggtgag gaagagttga
+      421 agattctggc cttcgacatt gaaaccttgt accatgaagg tgaagagttc ggtaaaggtc
+      481 caatcatcat gatctcctac gctgatgaga atgaagccaa ggtcattacc tggaagaaca
+      541 ttgacttgcc ctatgttgag gttgtttctt ccgaaaggga gatgatcaag agatttctga
+      601 ggatcatccg tgaaaaggac ccagacatta ttgtcaccta caacggtgac tcctttgatt
+      661 tcccatattt ggccaagaga gctgaaaagt tgggtatcaa gctgaccatt ggtagagatg
+      721 gttctgaacc aaagatgcaa aggattggtg acatgactgc tgttgaagtt aagggtagaa
+      781 tccacttcga tctgtaccac gttatcacta ggaccatcaa cttgccaact tacactttgg
+      841 aagctgttta cgaggctatt ttcggcaaac caaaggagaa ggtctatgct gatgaaattg
+      901 ctaaggcttg ggaatctggt gagaacctgg agagagttgc taaatactct atggaggacg
+      961 ctaaggctac ctatgaattg ggtaaggagt tcttgcccat ggagattcaa ttgtctagat
+     1021 tggtcggtca accattgtgg gatgtttcta gatcctctac cggtaatttg gtcgagtggt
+     1081 tcttgttgag gaaggcttac gaaagaaacg aagtcgctcc caataaacca tctgaggaag
+     1141 agtatcagag gagattgaga gagtcctata ctggtggttt tgttaaggaa cccgaaaagg
+     1201 gtttgtggga gaatatcgtc tacttggact ttagagcctt gtacccatcc atcatcatca
+     1261 ctcacaatgt ttctccagac actttgaacc ttgagggctg taaaaactac gacattgctc
+     1321 cacaagtcgg tcataagttc tgcaaggaca ttcccggttt tattccatct ttgttgggcc
+     1381 acttgcttga ggaaagacag aagatcaaga ccaagatgaa ggaaactcag gatccaatcg
+     1441 agaagatctt gttggattac cgtcagaagg ctatcaaatt gctggccaac tccttctatg
+     1501 gttattacgg ctacgctaaa gctagatggt attgcaagga atgtgctgag tctgttactg
+     1561 cttggggtag aaagtacatt gaactggtct ggaaggagtt ggaagagaag ttcggcttca
+     1621 aggtcttgta tattgacact gatggcttgt acgctactat tccaggtggt gagtccgagg
+     1681 aaattaagaa aaaggccctg gagttcgtca agtatatcaa ctccaagttg ccaggtttgt
+     1741 tggaactgga gtatgagggt ttctacaaaa gaggtttctt cgttaccaag aaaaggtacg
+     1801 ctgtcattga tgaagagggt aaggttatca ccagaggctt ggagattgtt agaagagact
+     1861 ggtccgaaat tgctaaagaa actcaagcta gggtcctgga aactattttg aagcatggtg
+     1921 atgtcgagga agctgttagg atcgttaagg aggttatcca gaaactggct aactacgaaa
+     1981 tcccaccaga aaagttggcc atttacgagc agatcactag acccttgcat gaatacaaag
+     2041 ccattggtcc acatgttgct gttgctaaaa agttggctgc caaaggcgtt aagattaagc
+     2101 ccggcatggt tattggttac attgtcttga ggggtgatgg tccaatttct aacagggcca
+     2161 ttttggctga agagtatgac cccaagaagc ataagtacga cgccgagtac tacattgaaa
+     2221 accaagtttt gcccgctgtt ttgaggatct tggaaggctt tggttacaga aaggaggatt
+     2281 tgaggtatca aaaaaccagg caagtcggtt tgacctcttg gttgaacatc aagaagtctg
+     2341 gtactggtgg tggtggtgct actgtcaagt tcaagtataa gggcgaagag aaggaagttg
+     2401 acatctccaa gatcaagaag gtctggagag tcggtaagat gatctctttc acctatgacg
+     2461 aaggtggtgg taagactggt agaggtgctg tttctgaaaa agatgctccc aaagagctgt
+     2521 tgcagatgtt ggagaagcag aaaaagggag gtcgagaccg tgcac
+//
+LOCUS       Pichia_VPS13_3_          581 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  Scott Pownall + Ahmed Hussain; AllClo Pichia homology arm; Ref:
+            https://www.ncbi.nlm.nih.gov/nuccore/FR839628.
+ACCESSION   Pichia_VPS13_3_APOSTROPHE_Homology
+VERSION     Pichia_VPS13_3_APOSTROPHE_Homology
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 gtgcacggtc tccagactta gtaggcaagc atacccgtta gtcagctatg atgagccatt
+       61 ggattttttg accttgcttc caacgttggt gagggtatta gaagcacaac aacggctttc
+      121 gatggtgaag gcatagagaa ggtgaggtta cctaggtttg tcgctcagaa ctctcctatc
+      181 agtccttact ccgaacgcga tgcccagggt caattttggc ttaaatcagc taatggaggt
+      241 caatttttca acgataaata tctaacccat gcagttctac ccggaggaga atatgttgtc
+      301 gtaatttcct atacacacat tatcctggtt tcgatagcag atctttctgt ttctcgaagc
+      361 attgaaatga agcagattaa gtccatctta gtcgacagca cagggttgca aatcaaatta
+      421 acagaaaggg attccaaatc cgaagctacc gaaatgttca tacctcttcc tgaacagaaa
+      481 actagaaggg aagtttatca gaaattatca attgctgtac aagactttaa caagagatgt
+      541 caagttattt tatgagcggc cgcacgaatg agaccgtgca c
+//
+LOCUS       Pichia_VPS13_5_          573 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  Scott Pownall + Ahmed Hussain; AllClo Pichia homology arm; Ref:
+            https://www.ncbi.nlm.nih.gov/nuccore/FR839628.
+ACCESSION   Pichia_VPS13_5_APOSTROPHE_Homology
+VERSION     Pichia_VPS13_5_APOSTROPHE_Homology
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 gtgcacggtc tctaaaagcg gccgcggccg agagaactgg tgctggtgcc gcaggaactg
+       61 ctggtgtcaa ccacgatctc gcttctaccg cttctgctga attggagtct cacataaccc
+      121 acgatgctcg taccatcgac accgtaacca ccggtaacac agcagccaac cctttcaaat
+      181 gattatgact tcaacgcacg gggttcccta tttattcata gtttcagccg tttggtgagc
+      241 tgtcagtttt atgttttttg gcaaatttta tcttaactta atgagttcga cacattttta
+      301 ttccttgata tcttgtccct ctaccttcta tgtatgtata tatgaatggc tattgtatgg
+      361 agatgtgatt gctttatcgg cgcaacagct tggctaggag tgccttcttc cgccttcgcg
+      421 acctaccttc tggagtgctt ccccctattg ttttaacctc atttatcctg gctttccctt
+      481 atttaaaggc cgatagcaat tgacccttct tatcaccttt aaatgtagct gactaaggac
+      541 tttggacctg agctaaaagg tgagaccgtg cac
+//
+LOCUS       Pichia_VPS8_3_A          574 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  Scott Pownall + Ahmed Hussain; AllClo Pichia homology arm; Ref:
+            https://www.ncbi.nlm.nih.gov/nuccore/FR839628.
+ACCESSION   Pichia_VPS8_3_APOSTROPHE_Homology
+VERSION     Pichia_VPS8_3_APOSTROPHE_Homology
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 gtgcacggtc tccagacttc gggagcggat tatacactta gtcagctagg cctaatcaat
+       61 gaggatatct ataaggtgat ggagaagcta cacagtaaga agtacttagg ctggacaact
+      121 ggtgttaccg attgtgtaat ttgtggtaaa aagctttggg gatcttccat gcctaatgaa
+      181 gtgtactcta tgtgggaaga aggaatattg gaagacgatc aaagtgctaa gaagacctcc
+      241 ttttttatca atgatgaagg tgagctcatg accaattcaa ctgtgaatgg agccatgcaa
+      301 attgaacccg tacaattgaa cgattacagt ccttacgaac ttgtcgtttt ccgttgtcgc
+      361 catggatatc acagtaaatg tcttttcaat ttaggaacgc agaagaagat caagtgtatt
+      421 atatgtgcag ccgacgatgc tcaataggta gaacgttaga tgttgtagcc gctgagtatg
+      481 cggctcttcc tcaatatttg ggacatgcat cttgggctag tgtgtccctg gttacaaaaa
+      541 ctatctgtgc ggccgcacga atgagaccgt gcac
+//
+LOCUS       Pichia_VPS8_5_A          576 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  Scott Pownall + Ahmed Hussain; AllClo Pichia homology arm; Ref:
+            https://www.ncbi.nlm.nih.gov/nuccore/FR839628.
+ACCESSION   Pichia_VPS8_5_APOSTROPHE_Homology
+VERSION     Pichia_VPS8_5_APOSTROPHE_Homology
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 gtgcacggtc tctaaaagcg gccgcacaaa aaatgtactg ggaaaatacc acatgaataa
+       61 taacaaaatt accgactcta cgattctttc atttgctcct ttggctctgg gtactgccat
+      121 ggaccgtact gataatattg gagttattgc attgatgact tctaatgtac ttctcgtcat
+      181 ctcaactaat ccatcacttc aaactcattt caaagtcgga aaacccaaat ctatgaacaa
+      241 gcgtcttcca attactggta gtttagcttg gtttcctgct gtaaagacag aaaatggcaa
+      301 gagacagccc aaacttgcgt attgttggtc caatgtcttg acagtcctgg attgtaataa
+      361 cgagtcaatc aaggactccc aagatcaaga atctttgatt ttgaagctag aaaataaaaa
+      421 agatgggccg gaagggaagc cattatcagt gtttcctggc ttactaaaga cattattgca
+      481 ttgataacag aatctcacag gcttcttttg atcaattacg acacgatgta gctgactaag
+      541 gcgtggattc ccttatgaaa aggtgagacc gtgcac
 //
 LOCUS       Plant_CDSs_Plan         2598 bp    DNA     linear   UNK 01-JAN-1980
 DEFINITION  .
@@ -15832,6 +16835,20 @@ ORIGIN
      2341 aaaccattat tatcatgaca ttaacctata aaaataggcg tatcacgagg cagaatttca
      2401 gataaaaaaa atccttagct ttcgctaagg atgatttctg
 //
+LOCUS       PurTag_R5                 94 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  Scott Pownall+Ian Caven; Codon optimized for Pichia pastoris; Ref:
+            https://freegenes.github.io/genbank/BBF10K_003399.gb.
+ACCESSION   PurTag_R5
+VERSION     PurTag_R5
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 gtgcacggtc tccccatgtc ctctaagaag tctggttctt actctggttc caagggttct
+       61 aagcgtagaa ttttggggtc acgagaccgt gcac
+//
 LOCUS       RBSs_in_vector_         2413 bp    DNA     linear   UNK 01-JAN-1980
 DEFINITION  .
 ACCESSION   RBSs_in_vector_RBSs_in_vector_ins_BBa_B0030_m0
@@ -16675,6 +17692,167 @@ ORIGIN
      2281 gatcaactcg agtgccacct gacgtctaag aaaccattat tatcatgaca ttaacctata
      2341 aaaataggcg tatcacgagg cagaatttca gataaaaaaa atccttagct ttcgctaagg
      2401 atgatttctg
+//
+LOCUS       Rec3_Lox66                56 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  Scott Pownall; AllClo E. coli backbone part; Ref:
+            https://pubmed.ncbi.nlm.nih.gov/7742860.
+ACCESSION   Rec3_Lox66
+VERSION     Rec3_Lox66
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 ggtctctata gataacttcg tataatgtat gctatacgaa cggtacgctt gagacc
+//
+LOCUS       Rec3_LoxP                 56 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  Scott Pownall; AllClo E. coli backbone part; Ref:
+            https://pubmed.ncbi.nlm.nih.gov/3037344.
+ACCESSION   Rec3_LoxP
+VERSION     Rec3_LoxP
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 ggtctctata gataacttcg tataatgtat gctatacgaa gttatcgctt gagacc
+//
+LOCUS       SarJ_Ribozyme_I          113 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  Ahmed Hussain; AllClo; Ref: https://pubmed.ncbi.nlm.nih.gov/2303434
+            9.
+ACCESSION   SarJ_Ribozyme_Insulator
+VERSION     SarJ_Ribozyme_Insulator
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 gtgcacggtc tcttgtgaga ctgtcgccgg atgtgtatcc gacctgacga tggcccaaaa
+       61 gggccgaaac agtcctctac aaataatttt gtttaatact tgagaccgtg cac
+//
+LOCUS       SecTag_Replacem          169 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  Ahmed Hussain; Ref: http://parts.igem.org/Part:BBa_K1074001.
+ACCESSION   SecTag_ReplacementSpacer_AATG
+VERSION     SecTag_ReplacementSpacer_AATG
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 gtgcacggtc tcttactata acaattaaag gaggaaggat caatgattca aaaacgaaag
+       61 cggacagttt cgttcagact tgtgcttatg tgcacgctgt tatttgtcag tttgccgatt
+      121 acaaaaacat cagcagtagg aggcggttcc ggaatgtgag accgtgcac
+//
+LOCUS       SecTag_Replacem          162 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  Ahmed Hussain; Ref: http://parts.igem.org/Part:BBa_K1074001.
+ACCESSION   SecTag_ReplacementSpacer_CCAT
+VERSION     SecTag_ReplacementSpacer_CCAT
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 gtgcacggtc tcttactaca attaaaggag gaaggatcaa tgattcaaaa acgaaagcgg
+       61 acagtttcgt tcagacttgt gcttatgtgc acgctgttat ttgtcagttt gccgattaca
+      121 aaaacatcag cagtaggtgg atcttccatg gagaccgtgc ac
+//
+LOCUS       T4_DNA_Ligase_y         1494 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  Scott Pownall+Ian Caven; Codon optimized for Pichia pastoris and
+            Saccharomyces cerevisiae; Ref: https://freegenes.github.io/genbank/
+            BBF10K_003270.gb.
+ACCESSION   T4_DNA_Ligase_yeast
+VERSION     T4_DNA_Ligase_yeast
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 gtgcacggtc tccaatgatt ctgaagattc tgaacgagat tgcctctatt ggttctacca
+       61 agcagaaaca ggctatcctg gaaaagaaca aagacaacga gctgctgaaa cgtgtttaca
+      121 gactgactta ctctcgtggc ctgcaatact acattaaaaa gtggcccaag ccaggtattg
+      181 ctactcaatc tttcggtatg ctgactctga ctgacatgtt ggatttcatc gagttcactc
+      241 ttgctactag gaaattgact ggtaacgctg ctattgagga attgactggc tatatcaccg
+      301 acggcaaaaa agacgatgtt gaagttttgc gtcgcgttat gatgagagat ttggaatgtg
+      361 gtgcctctgt ttctattgcc aacaaagttt ggccaggttt gattccagaa caaccacaaa
+      421 tgcttgcttc ttcctatgac gagaagggca tcaacaagaa cattaagttc cccgcctttg
+      481 ctcaattgaa agctgatggt gctaggtgtt ttgctgaagt tagaggtgat gaactggatg
+      541 atgttcgttt gttgtctcgt gctggtaatg aataccttgg tctggatctg ctgaaggagg
+      601 aactgatcaa aatgactgct gaagctagac agatccatcc agaaggtgtt ttgatcgatg
+      661 gtgaactggt ttaccacgaa caagtcaaga aggaaccaga aggtttggat tttctgttcg
+      721 atgcctatcc cgaaaactct aaggctaaag agttcgctga agttgctgaa tctagaactg
+      781 cttccaatgg cattgctaac aaatccctga aaggcactat ctctgaaaag gaagctcagt
+      841 gcatgaagtt tcaggtttgg gattacgttc cactggttga aatctactct cttccagctt
+      901 ttcgtctgaa atacgatgtc cgcttctcta aactggaaca aatgacttcc ggttacgaca
+      961 aggttattct gatcgagaac caggtcgtca ataacttgga tgaggccaag gttatctaca
+     1021 agaagtacat cgaccagggt ttggagggta tcatcctgaa aaacatcgat ggtctgtggg
+     1081 aaaacgctag gtccaagaac ttgtacaagt tcaaggaggt catcgacgtc gatctgaaaa
+     1141 ttgttggtat ctacccacac cgcaaagatc caactaaagc tggtggtttc atcctggaat
+     1201 ctgagtgcgg taaaatcaaa gtcaacgctg gttctggtct taaggacaag gctggtgtta
+     1261 aatctcatga attggacagg accaggatca tggaaaacca gaactactac atcggcaaga
+     1321 ttcttgagtg tgaatgtaac ggttggctga aatctgatgg taggaccgat tacgtcaaat
+     1381 tgtttctgcc cattgccatt agactgaggg aagataagac caaagctaac accttcgaag
+     1441 atgtgttcgg tgattttcac gaagtcactg gtttgggagg ttgagaccgt gcac
+//
+LOCUS       T7TE_LuxIA_Term          129 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  Ahmed Hussain; AllClo; Ref: http://parts.igem.org/Part:BBa_B0015.
+ACCESSION   T7TE_LuxIA_Terminator
+VERSION     T7TE_LuxIA_Terminator
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 gtgcacggtc tctgctttca cactggctca ccttcgggtg ggcctttctg cgtttatata
+       61 ctagagagag aatataaaaa gccagattat taatccggct tttttattat ttcgcttgag
+      121 accgtgcac
+//
+LOCUS       TU_ccdB_dropout          945 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  Scott Pownall; From iGEM IDT order; Ref: https://freegenes.github.i
+            o/genbank/BBF10K_003498.gb.
+ACCESSION   TU_ccdB_dropout
+VERSION     TU_ccdB_dropout
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 gtgcacgcta gcttggagcg agaccaccgg tctgacgtac tgcatgactg caagcatgac
+       61 tactacacga caagtcatgg tcatagctgt tcatcgatac ttactaaaag ccagataaca
+      121 gtatgcgtat ttgcgcgctg atttttgcgg tataagaata tatactgata tgtatacccg
+      181 aagtatgtca aaaagaggta tgctatgaag cagcgtatta cagtgacagt tgacagcgac
+      241 agctatcagt tgctcaaggc atatatgatg tcaatatctc cggtctggta agcacaacca
+      301 tgcagaatga agcccgtcgt ctgcgtgccg aacgctggaa agcggaaaat caggaaggga
+      361 tggctgaggt cgcccggttt attgaaatga acggctcttt tgctgacgag aacaggggct
+      421 ggtgaaatgc agtttaaggt ttacacctat aaaagagaga gccgttatcg tctgtttgtg
+      481 gatgtacaga gtgatattat tgacacgccc gggcgacgga tggtgatccc cctggccagt
+      541 gcacgtctgc tgtcagataa agtctcccgt gaactttacc cggtggtgca tatcggggat
+      601 gaaagctggc gcatgatgac caccgatatg gccagtgtgc cggtgtccgt tatcggggaa
+      661 gaagtggctg atctcagcca ccgcgaaaat gacatcaaaa acgccattaa cctgatgttc
+      721 tggggaatat aaggcttcaa ataaaacgaa aggctcagtc gaaagactgg gcctttcgtt
+      781 ttatctgttg tttgtcggtg aacgctctct actagagtca cactggctca ccttcgggtg
+      841 ggcctttctg cgcgtaaaac gacggccagt atgtcagcta gtgagcatgt acggtacgtg
+      901 actacgatcg tgaccaattg ggtctctcgc ttgccatggg tgcac
+//
+LOCUS       Terminator_for_           88 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  Ahmed Hussain; AllClo.
+ACCESSION   Terminator_for_Bacillus_subtilis
+VERSION     Terminator_for_Bacillus_subtilis
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 gtgcacggtc tctgcttaag aagaagtgtg aaaaagcgca gctgaaatag ctgcgctttt
+       61 ttgtgtcata acgcttgaga ccgtgcac
 //
 LOCUS       Terminators_in_         2471 bp    DNA     linear   UNK 01-JAN-1980
 DEFINITION  .
@@ -19998,4 +21176,416 @@ ORIGIN
      2821 aacctcttac gtgcccgatc aactcgagtg ccacctgacg tctaagaaac cattattatc
      2881 atgacattaa cctataaaaa taggcgtatc acgaggcaga atttcagata aaaaaaatcc
      2941 ttagctttcg ctaaggatga tttctggaat tcgcggccgc ttctagag
+//
+LOCUS       _6xHis_CenA_TEV          467 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  Scott Pownall; Codon optimized for Pichia pastoris and Saccharomyces
+            cerevisiae; From Twist/iGEM; Ref: https://freegenes.g
+            ithub.io/genbank/BBF10K_003397.gb.
+ACCESSION   _6xHis_CenA_TEVcut_yeast
+VERSION     _6xHis_CenA_TEVcut_yeast
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 tagtatgttg acccggaaga cagggagttg cgtgttggtc tccccatgca tcaccatcac
+       61 catcacagca gcggatcagc tccaggttgt agagttgatt acgctgttac caaccaatgg
+      121 ccaggtggtt tcggtgccaa cgtcactatt accaatttgg gtgacccagt ttcctcctgg
+      181 aaattggatt ggacctatac tgctggtcaa agaatacagc agttgtggaa tggtactgct
+      241 tctactaacg gtggtcaagt ttctgttact tctcttccct ggaatggttc tattccaact
+      301 ggtggtactg cttctttcgg ttttaatggt tcctgggctg gttctaatcc aactccagct
+      361 tctttttccc tgaacggtac tacttgtact ggtactatgg aaaatcttta ttttcaaggt
+      421 ggaatgcgag acctgtagta cgctaggtct tccatgtggg tagagac
+//
+LOCUS       _6xHis_Cex_TEVc          467 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  Scott Pownall; Codon optimized for Pichia pastoris and Saccharomyces
+            cerevisiae; From Twist/iGEM;.
+ACCESSION   _6xHis_Cex_TEVcut_yeast
+VERSION     _6xHis_Cex_TEVcut_yeast
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 tagtatgttg acccggaaga cagggagttg cgtgttggtc tccccatgca tcaccatcac
+       61 catcacagca gcggatcacc agctggttgt caagttttgt ggggtgttaa ccagtggaat
+      121 actggtttta ccgctaacgt taccgtcaaa aacacttctt ctgctccagt tgatggctgg
+      181 actttgactt tttcctttcc atctggtcag caagttactc aagcatggtc tagtaccgtt
+      241 actcaatctg gttctgctgt tactgttcgt aatgctccat ggaatggttc tattccagct
+      301 ggtggtactg ctcaatttgg tttcaatggt tcccataccg gtactaatgc tgctccaact
+      361 gctttttctc tgaacggtac tccatgtact gttggtatgg aaaatcttta ttttcaaggt
+      421 ggaatgcgag acctgtagta cgctaggtct tccatgtggg tagagac
+//
+LOCUS       anti_his_tag_si          786 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  Scott Pownall; Codon optimized for Pichia pastoris and Saccharomyces
+            cerevisiae; From Twist/iGEM;.
+ACCESSION   anti_his_tag_single_chain_antibody_yeast
+VERSION     anti_his_tag_single_chain_antibody_yeast
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 gtgcacggtc tccaatggat tacaaggaca tcttgatgac tcagactcca tcttctttgc
+       61 cagtttcttt gggtgatcaa gcctccattt cttgcagatc ttcccagtct attgtccatt
+      121 ccaatggtaa cacctacctt gagtggtact tgcaaaagcc aggtcaatct ccaaaactgc
+      181 tgatctacaa ggtcagtaac agattctctg gtgttccaga taggttttct ggttctggct
+      241 ctggtaccga ctttaccttg aaaatttcca gggtcgaagc tgaagatttg ggtgtctact
+      301 attgcttcca aggctctcat gttccattta cctttggctc cggcaccaaa ttggaaatta
+      361 aaaggggagg tggcggatct ggcggaggtg gatctggtgg cggaggatct ggaggaggag
+      421 gctctcaagt tcaattgcaa caatctggtc cagaggatgt taagccaggt gcttctgtca
+      481 agatttcttg taaggcttcc ggttacactt tcaccgacta ctacatgaac tgggttaaac
+      541 aatccccagg taagggtttg gaatggatcg gcgatattaa tcccaacaat ggtggtacct
+      601 cctacaacca aaagtttaag ggtagggcta ctttgactgt cgataagtca tcttccactg
+      661 cctacatgga attgaggtct ttgacttctg aggactcttc tgtctactat tgtgaatccc
+      721 agtctggtgc ttattggggt caaggtacta ctgttaccgt ttctgctgga ggtcgagacc
+      781 gtgcac
+//
+LOCUS       fuGFP_yeast              753 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  Scott Pownall; Codon optimized for Pichia pastoris and Saccharomyces
+            cerevisiae; From Twist/iGEM; Ref: http://www.addgene. org/127674.
+ACCESSION   fuGFP_yeast
+VERSION     fuGFP_yeast
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 gtgcacggtc tccaatggtt tcttctggcg aagatatttt ctccggtttg gttcccattc
+       61 tgattgaatt ggaaggtgac gtcaacggtc atagattttc tgttcgcggt gaaggttatg
+      121 gtgatgcctc caacggcaaa ctggaaatta agttcatctg caccaccggt agattgccag
+      181 ttccatggcc aactttggtt actactttgt cctatggcgt tcagtgtttt gctaagtatc
+      241 cagagcacat gcgccaaaac gatttcttta agtctgctat gcccgatggt tacgttcaag
+      301 agaggaccat ttccttcaag gaagatggca cctacaaaac tcgcgctgag gttaagtttg
+      361 aaggtgaagc tctggtcaat cgcatcgatt tgaagggtct ggagtttaaa gaggatggta
+      421 acatccttgg ccataagttg gagtactcct tcaactccca ttacgtttac atcactgccg
+      481 ataagaaccg taacggtttg gaagctcaat tcaggattcg ccacaatgtt gatgatggtt
+      541 ctgttcaact ggctgatcat taccaacaga acactccaat tggtgaaggt ccagttttgt
+      601 tgccagaaca acactatctg accactaatt ccgttctgtc caaagatcca caagaaagaa
+      661 gggatcacat ggttttggtc gaatttgtta ccgctgctgg tttgtctttg ggtatggacg
+      721 agctgtataa gtctggaggt cgagaccgtg cac
+//
+LOCUS       openCherry_yeas          741 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  Scott Pownall; Codon optimized for Pichia pastoris and Saccharomyces
+            cerevisiae; From Twist/iGEM; Ref: https://www.ncbi.nl
+            m.nih.gov/pubmed/15850488.
+ACCESSION   openCherry_yeast
+VERSION     openCherry_yeast
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 gtgcacggtc tccaatggtt tctaagggtg aagaggataa catggctatc atcaaggagt
+       61 tcatgcgttt caaggttcat atggaaggtt ccgtcaacgg tcatgaattt gagattgaag
+      121 gtgagggtga aggtagacca tatgaaggta ctcaaactgc caagctgaag gttactaaag
+      181 gtggtccatt gccatttgct tgggatattt tgtccccaca gttcatgtac ggctctaagg
+      241 cttacgttaa gcatccagct gatattccag actacttgaa gctgtccttt ccagaaggtt
+      301 ttaagtggga aagggtcatg aacttcgaag atggtggtgt tgttactgtt actcaagact
+      361 cttcccttca agatggtgag ttcatctaca aggtcaaact tcgtggtacc aatttcccat
+      421 ctgatggtcc cgttatgcag aagaaaacta tgggttggga agctagttct gaaagaatgt
+      481 atccagagga tggtgctttg aagggtgaaa ttaagcagag gctgaagttg aaggatggtg
+      541 gtcattacga tgctgaagtt aagaccacct acaaggctaa gaaaccagtt caattgccag
+      601 gtgcttacaa cgtcaacatc aagttggaca tcacttctca caacgaggat tacaccatcg
+      661 tcgaacagta tgaaagagct gaaggtagac actctactgg tggtatggat gagttgtaca
+      721 agggaggtcg agaccgtgca c
+//
+LOCUS       p50_T4_DNA_Liga         2562 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  Scott Pownall+Ian Caven; Codon optimized for Pichia pastoris and
+            Saccharomyces cerevisiae; Ref: https://www.addgene.org/87742.
+ACCESSION   p50_T4_DNA_Ligase_yeast
+VERSION     p50_T4_DNA_Ligase_yeast
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 gtgcacggtc tccaatgaga ggttctcatc atcatcatca ccatactgat ccagctttga
+       61 gagctgctga tggtccatac ctgcagattt tggagcaacc aaaacaaagg ggctttaggt
+      121 tcaggtatgt ttgtgaaggt ccatctcatg gtggtttgcc aggtgcttct tccgagaaga
+      181 acaagaagtc ttacccacag gtcaaaatct gcaactatgt cggtccagct aaagttattg
+      241 tccagttggt caccaacggt aaaaatattc acctgcatgc tcactccctt gttggtaaac
+      301 attgtgagga tggcatctgt actgttactg ctggtccaaa ggatatggtt gttggcttcg
+      361 ctaatctggg tatcttgcac gtcactaaga agaaggtctt tgaaactctg gaggctagaa
+      421 tgactgaagc ctgtattagg ggctataatc caggtttgtt ggttcatcca gacttggcct
+      481 atttgcaagc tgaaggtggt ggtgatagac aattgggtga tcgcgaaaaa gagttgattc
+      541 gtcaagctgc tttgcaacaa actaaggaga tggatctgtc tgttgttcgc ctgatgttta
+      601 ctgcttttct tcccgattcc actggttctt ttactagaag gttggaacca gtcgtttctg
+      661 atgccatcta tgactctaaa gctcccaatg cttccaactt gaagatcgtt aggatggata
+      721 ggactgctgg ttgtgttact ggtggtgagg agatttactt gttgtgcgac aaagtccaga
+      781 aggacgacat tcagattcgc ttctatgaag aggaggaaaa tggtggtgtt tgggaaggtt
+      841 ttggtgattt ttccccaact gacgttcata ggcagtttgc cattgtgttc aagactccca
+      901 agtacaagga cattaacatc accaagccag cttctgtctt tgttcaattg aggaggaagt
+      961 ctgacttgga aacttctgaa ccaaagccat tcctgtacta tccagagatc aaggacaagg
+     1021 aagaagtcca aaggaaaagg cagaaaggtt cttctggtac ttctggtggt ggttctggtg
+     1081 gtggcattct gaaaatcctg aacgagattg cttccattgg ttctaccaaa cagaagcaag
+     1141 ccattttgga gaagaacaag gacaatgagc tgttgaagag agtttacagg ctgacctatt
+     1201 ctagaggctt gcagtactac atcaagaagt ggccaaaacc aggtattgct actcagtctt
+     1261 tcggtatgtt gactttgacc gacatgttgg acttcattga gtttactctg gctactcgca
+     1321 aattgactgg caatgctgct attgaagagt tgactggtta catcaccgac ggcaaaaaag
+     1381 atgatgtcga ggttttgagg agggttatga tgagagactt ggaatgtggt gcttctgttt
+     1441 ccattgctaa caaagtctgg ccaggcttga ttccagaaca accacaaatg ttggcttctt
+     1501 cctatgacga gaaaggcatc aacaagaaca tcaagttccc agcctttgct caattgaagg
+     1561 ctgatggtgc tagatgtttt gctgaagtta gaggtgacga acttgatgat gttcgtttgt
+     1621 tgtctcgtgc tggtaatgag tacttgggct tggatctgtt gaaggaggaa ctgatcaaga
+     1681 tgactgctga agctagacag attcatccag aaggtgtctt gattgatggt gagttggttt
+     1741 accatgagca agtcaagaag gaaccagaag gcttggactt tttgttcgat gcttacccag
+     1801 agaactctaa ggctaaggag tttgctgaag ttgctgaatc tagaactgct tccaatggta
+     1861 tcgccaataa atccctgaag ggtaccattt ctgagaaaga agcccaatgc atgaagtttc
+     1921 aggtctggga ttatgtcccc ctggttgaaa tttactctct tccagccttc aggttgaagt
+     1981 atgatgtcag gttctccaag ttggaacaaa tgacttctgg ctacgataag gtcatcttga
+     2041 ttgagaacca ggtcgtcaat aacttggatg aggccaaagt catctacaag aagtacatcg
+     2101 accagggttt ggagggcatt attctgaaga acatcgacgg tttgtgggaa aacgctaggt
+     2161 ctaagaacct gtacaagttc aaggaggtca ttgatgtcga cttgaaaatc gtcggcattt
+     2221 acccacacag gaaagaccca actaaagctg gtggctttat tctggagtct gagtgtggca
+     2281 agattaaggt taacgccggt tctggtttga aagataaggc tggcgttaag tctcatgaat
+     2341 tggataggac tcgcattatg gagaaccaga actactacat tggcaagatc ttggagtgtg
+     2401 agtgcaatgg ttggttgaaa tctgatggta ggaccgacta cgttaaattg ttcttgccga
+     2461 tcgccattag acttagagag gataaaacca aggccaatac cttcgaggat gtttttggtg
+     2521 acttccatga ggttactggt ttgggaggtc gagaccgtgc ac
+//
+LOCUS       pBs1C__LEFT_PAR          572 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  Ahmed Hussain; AllClo; Ref: https://pubmed.ncbi.nlm.nih.gov/2429544
+            8.
+ACCESSION   pBs1C__LEFT_PARENTHESISamyE_RIGHT_PARENTHESIS__LEFT_SQUARE_BRACKET1412_2440_RIGHT_SQUARE_BRACKET_3_APOSTROPHE_homology
+VERSION     pBs1C__LEFT_PARENTHESISamyE_RIGHT_PARENTHESIS__LEFT_SQUARE_BRACKET1412_2440_RIGHT_SQUARE_BRACKET_3_APOSTROPHE_homology
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 gtgcacggtc tccagaccct ttaacaggac atgcagctta gtcagctacg tgcagatgcg
+       61 aatacaacaa aagccgttta tcaaatcaat aatggaccag acgacaggcg tttaaggatg
+      121 gagatcaatt cacaatcgga aaaggagatc caatttggca aaacatacac catcatgtta
+      181 aaaggaacga acagtgatgg tgtaacgagg accgagaaat acagttttgt taaaagagat
+      241 ccagcgtcgg ccaaaaccat cggctatcaa aatccgaatc attggagcca ggtaaatgct
+      301 tatatctata aacatgatgg gagccgagta attgaattga ccggatcttg gcctggaaaa
+      361 ccaatgacta aaaatgcaga cggaatttac acgctgacgc tgcctgcgga cacggataca
+      421 accaacgcaa aagtgatttt taataatggc agcgcccaag tgcccggtca gaatcagcct
+      481 ggctttgatt acgtgctaaa tggtttatat aatgactcgg gcttaagcgg ttctcttccc
+      541 cattgagcgg ccgcacgaat gagaccgtgc ac
+//
+LOCUS       pBs1C__LEFT_PAR          594 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  Ahmed Hussain; AllClo; Ref: https://pubmed.ncbi.nlm.nih.gov/2429544
+            8.
+ACCESSION   pBs1C__LEFT_PARENTHESISamyE_RIGHT_PARENTHESIS__LEFT_SQUARE_BRACKET5579_6099_RIGHT_SQUARE_BRACKET_5_APOSTROPHE_homology
+VERSION     pBs1C__LEFT_PARENTHESISamyE_RIGHT_PARENTHESIS__LEFT_SQUARE_BRACKET5579_6099_RIGHT_SQUARE_BRACKET_5_APOSTROPHE_homology
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 gtgcacggtc tctaaaagcg gccgcatgtt tgcaaaacga ttcaaaacct ctttactgcc
+       61 gttattcgct ggatttttat tgctgtttca tttggttctg gcaggaccgg cggctgcgag
+      121 tgctgaaacg gcgaacaaat cgaatgagct tacagcaccg tcgatcaaaa gcggaaccat
+      181 tcttcatgca tggaattggt cgttcaatac gttaaaacac aatatgaagg atattcatga
+      241 tgcaggatat acagccattc agacatctcc gattaaccaa gtaaaggaag ggaatcaagg
+      301 agataaaagc atgtcgaact ggtactggct gtatcagccg acatcgtatc aaattggcaa
+      361 ccgttactta ggtactgaac aagaatttaa agaaatgtgt gcagccgctg aagaatatgg
+      421 cataaaggtc attgttgacg cggtcatcaa tcataccacc agtgattatg ccgcgatttc
+      481 caatgaggtt aagagtattc caaactggac acatggaaac acacaaatta aaaactggtc
+      541 tgatcgtagc tgactaactt gaaatcttgt cgcacggaag gtgagaccgt gcac
+//
+LOCUS       pBs2E__LEFT_PAR          482 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  Ahmed Hussain; AllClo; Ref: https://pubmed.ncbi.nlm.nih.gov/2429544
+            8.
+ACCESSION   pBs2E__LEFT_PARENTHESISlacA_RIGHT_PARENTHESIS__LEFT_SQUARE_BRACKET150_557_RIGHT_SQUARE_BRACKET_3_APOSTROPHE_homology
+VERSION     pBs2E__LEFT_PARENTHESISlacA_RIGHT_PARENTHESIS__LEFT_SQUARE_BRACKET150_557_RIGHT_SQUARE_BRACKET_3_APOSTROPHE_homology
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 gtgcacggtc tccagacccg gttgtaccta tcgagtgtta gtcagctaat gaaggattat
+       61 gcaaccgtga ttgatgtaaa gacagcttca gtggaagcgg tgtatcaaga agatttttat
+      121 gcgcgcacgc cagcggtcac aagccatgag tatcagcagg gcaaggcgta ttttatcggc
+      181 gcgcgtttgg aggatcaatt tcagcgtgat ttctatgagg gtctgatcac agacctgtct
+      241 ctctctccag tttttccggt tcggcacgga aaaggcgtct ccgtacaagc gaggcaggat
+      301 caggacaatg attatatttt tgtcatgaat ttcacggaag aaaaacagct ggtcacgttt
+      361 gatcagagtg tgaaggacat aatgacagga gacatattgt caggcgacct gacgatggaa
+      421 aagtatgaag tgagaattgt cgtaaacaca cattaggcgg ccgcacgaat gagaccgtgc
+      481 ac
+//
+LOCUS       pBs2E__LEFT_PAR          570 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  Ahmed Hussain; AllClo; Ref: https://pubmed.ncbi.nlm.nih.gov/2429544
+            8.
+ACCESSION   pBs2E__LEFT_PARENTHESISlacA_RIGHT_PARENTHESIS__LEFT_SQUARE_BRACKET4104_4619_RIGHT_SQUARE_BRACKET_5_APOSTROPHE_homology
+VERSION     pBs2E__LEFT_PARENTHESISlacA_RIGHT_PARENTHESIS__LEFT_SQUARE_BRACKET4104_4619_RIGHT_SQUARE_BRACKET_5_APOSTROPHE_homology
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 gtgcacggtc tctaaaagcg gccgcatgtc aaagcttgaa aaaacgcacg taacaaaagc
+       61 aaaatttatg ctccatgggg gagactacaa ccccgatcag tggctggatc ggcccgatat
+      121 tttagctgac gatatcaaac tgatgaagct ttctcatacg aatacgtttt ctgtcggcat
+      181 ttttgcatgg agcgcacttg agccggagga gggcgtatat caatttgaat ggctggatga
+      241 tatttttgag cggattcaca gtataggcgg ccgggtcata ttagcaacgc cgagcggagc
+      301 ccgtccggcc tggctgtcgc aaacctatcc ggaagttttg cgcgtcaatg cctcccgcgt
+      361 caaacagctg cacggcggaa ggcacaacca ctgcctcaca tctaaagtct accgagaaaa
+      421 aacacggcac atcaaccgct tattagcaga acgatacgga catcacccgg cgctgttaat
+      481 gtggcacatt tcaaacgaat acgggggaga ttgccactgt gatagctgac taagtgctat
+      541 atcttcctcc cggaaggtga gaccgtgcac
+//
+LOCUS       pBs4S__LEFT_PAR          504 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  Ahmed Hussain; AllClo; Ref: https://pubmed.ncbi.nlm.nih.gov/2429544
+            8.
+ACCESSION   pBs4S__LEFT_PARENTHESISthRC_RIGHT_PARENTHESIS__LEFT_SQUARE_BRACKET1059_1487_RIGHT_SQUARE_BRACKET_3_APOSTROPHE_homology
+VERSION     pBs4S__LEFT_PARENTHESISthRC_RIGHT_PARENTHESIS__LEFT_SQUARE_BRACKET1059_1487_RIGHT_SQUARE_BRACKET_3_APOSTROPHE_homology
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 gtgcacggtc tccagactgt ggaccctatc aaacgagtta gtcagctagg gcttcaagga
+       61 atatcatgag aaaaacggca caggccttcc gaaaatgcgc ggctttgaag ctgagggtgc
+      121 ggcggcaatc gtgcgcaatg aagtgattga aaatccggaa acaatagcga cagccattcg
+      181 tatcggaaac ccggcaagct gggacaaagc tgtaaaggca gccgaggaat ccaatgggaa
+      241 aattgacgaa gtcactgatg atgaaatcct tcacgcatat cagctgatcg cccgtgtaga
+      301 aggcgtgttt gcagaaccag gttcttgcgc gtctatcgca ggagtgctga aacaggtgaa
+      361 atccggagaa attccgaaag gcagcaaggt cgtagctgtg ttaacaggaa acggactgaa
+      421 agatccgaac acagcggtcg acatttcaga aatcaagcct gtcacattgc cgactgatgc
+      481 ggccgcacga atgagaccgt gcac
+//
+LOCUS       pBs4S__LEFT_PAR          574 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  Ahmed Hussain; AllClo; Ref: https://pubmed.ncbi.nlm.nih.gov/2429544
+            8.
+ACCESSION   pBs4S__LEFT_PARENTHESISthRC_RIGHT_PARENTHESIS__LEFT_SQUARE_BRACKET4064_4573_RIGHT_SQUARE_BRACKET_5_APOSTROPHE_homology
+VERSION     pBs4S__LEFT_PARENTHESISthRC_RIGHT_PARENTHESIS__LEFT_SQUARE_BRACKET4064_4573_RIGHT_SQUARE_BRACKET_5_APOSTROPHE_homology
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 gtgcacggtc tctaaaagcg gccgcatgtg gaaaggactt atccatcaat ataaagaatt
+       61 tttacctgta acagatcaaa caccggcgct aactttacat gaaggaaaca cacctcttat
+      121 tcacctgccg aagctgtctg agcagctcgg aattgagctt catgtcaaaa cggaaggcgt
+      181 caatcctacg ggatcattta aagatcgcgg aatggttatg gctgtggcaa aggcaaaaga
+      241 agaaggcaat gacacgatta tgtgcgcgtc aacaggtaac acttccgctg ctgcggcagc
+      301 atatgcagcc cgtgctaaca tgaaatgcat tgtcatcatc ccgaacggaa aaattgcatt
+      361 tggaaaactc gctcaagctg tcatgtacgg agccgagatt atcgcaattg acggaaactt
+      421 tgacgatgcg cttaaaattg tccgttccat ctgtgagaaa tcaccgattg cccttgtcaa
+      481 ctcagtcaac ccttaccgca ttgaaggcca aaaaactgct gccttctagc tgactaagta
+      541 tgtcccctaa gctctggaag gtgagaccgt gcac
+//
+LOCUS       pDAS_Pichia_pro         1089 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  Scott Pownall; Pichia methanol-inducible promoter; Ref:
+            https://www.addgene.org/160916.
+ACCESSION   pDAS_Pichia_promoter
+VERSION     pDAS_Pichia_promoter
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 gtgcacggtc tctggagata gggagaaaaa ccgagacaac gatggaactc ccatgtagat
+       61 tccaccgccc caattactgt tttgggcaat cctgttgata agacgcattc tagagttgtt
+      121 tcatgaaagg gttacgggtg ttgattggtt tgagatatgc cagaggacag atcaatctgt
+      181 ggtttgctaa actggaagtc tggtaaggac tctagcaagt ccgttactca aaaagtcata
+      241 ccaagtaaga ttacgtaaca cctgggcatg actttctaag ttagcaagtc accaagaggg
+      301 tcctatttaa cgtttggcgg tatctgaaac acaagacttg cctatcccat agtacatcat
+      361 attacctgtc aagctatgct accccacaga aataccccaa aagttgaagt gaaaaaatga
+      421 aaattactgg taacttcacc ccataacaaa cttaataatt tctgtagcca atgaaagtaa
+      481 accccattca atgttccgag atttagtata cttgccccta taagaaacga aggatttcag
+      541 cttccttacc ccatgaacag aaatcttcca tttacccccc actggagaga tccgcccaaa
+      601 cgaacagata atagaaaaaa gaaattcgga caaatagaac actttctcag ccaattaaag
+      661 tcattccatg cactcccttt agctgccgtt ccatcccttt gttgagcaac accatcgtta
+      721 gccagtacga aagaggaaac ttaaccgata ccttggagaa atctaaggcg cgaatgagtt
+      781 tagcctagat atccttagtg aagggttgtt ccgatacttc tccacattca gtcatagatg
+      841 ggcagctttg ttatcatgaa gagacggaaa cgggcattaa gggttaaccg ccaaattata
+      901 taaagacaac atgtccccag tttaaagttt ttctttccta ttcttgtatc ctgagtgacc
+      961 gttgtgttta atataacaag ttcgttttaa cttaagacca aaaccagtta caacaaatta
+     1021 taacccctct aaacactaaa gttcactctt atcaaactat caaacatcaa aatacttgag
+     1081 accgtgcac
+//
+LOCUS       pFLD1_Pichia_pr          631 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  Scott Pownall; Pichia methanol-inducible promoter; Ref:
+            https://www.addgene.org/160914.
+ACCESSION   pFLD1_Pichia_promoter
+VERSION     pFLD1_Pichia_promoter
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 gtgcacggtc tctggaggca tgcaggaatc tctggcacgg tgctaatggt agttatccaa
+       61 cggagctgag gtagtcgata tatctggata tgccgcctat aggataaaaa caggagaggg
+      121 tgaaccttgc ttatggctac tagattgttc ttgtactctg aattctcatt atgggaaact
+      181 aaactaatct catctgtgtg ttgcagtact attgaatcgt tgtagtatct acctggaggg
+      241 cattccatga attagtgaga taacagagtt gggtaactag agagaataat agacgtatgc
+      301 atgattacta cacaacggat gtcgcactct ttccttagtt aaaactatca tccaatcaca
+      361 agatgcgggc tggaaagact tgctcccgaa ggataatctt ctgcttctat ctcccttcct
+      421 catatggttt cgcagggctc atgccccttc ttccttcgaa ctgcccgatg aggaagtcct
+      481 tagcctatca aagaattcgg gaccatcatc gatttttaga gccttacctg atcgcaatca
+      541 ggatttcact actcatataa atacatcgct caaagctcca actttgcttg ttcatacaat
+      601 tcttgatatt cacatacttg agaccgtgca c
+//
+LOCUS       pGAL1_S__cerevi          557 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  Scott Pownall; S. cerevisiae pGal1 glucose-inducible promoter; Ref:
+            https://pubmed.ncbi.nlm.nih.gov/6092912.
+ACCESSION   pGAL1_S__cerevisiae_inducible_promoter
+VERSION     pGAL1_S__cerevisiae_inducible_promoter
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 ggtctctgga ggccccatta tcttagccta aaaaaacctt ctctttggaa ctttcagtaa
+       61 tacgcttaac tgctcattgc tatattgaag tacggattag aagccgccga gcgggcgaca
+      121 gccctccgac ggatgactct cctccgtgcg tcctcgtcat caccggtcgc gttcctgaaa
+      181 cgcagatgtg cctcgcgccg cactgctccg aacaataaag attctacaat actagctttt
+      241 atggttatga agaggaaaaa ttggcagtaa cctggcccca caaaccttca aattaacgaa
+      301 tcaaattaac aaccatagga tgataatgcg attagttttt tagccttatt tctggggtaa
+      361 ttaatcagcg aagcgttgat ttttgatcta ttaacagata tataaatgga aaagctgcat
+      421 aaccacttta actaatactt tcaacatttt cagtttgtat tacttcttat tcaaatgtca
+      481 taaaagtatc aacaaaaaat tgttaatata cctctatact ttaacgtcaa ggagaaaaaa
+      541 ctataatact tgagacc
+//
+LOCUS       pIP501_Transfer          412 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  Ahmed Hussain; AllClo; Ref: https://pubmed.ncbi.nlm.nih.gov/7635806.
+ACCESSION   pIP501_Transfer_Origin
+VERSION     pIP501_Transfer_Origin
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 gtgcacggtc tctcgaacca aaagtaaaaa cccgccgaag cgggttttta cgtaaaacag
+       61 gtgaaactga ctcaccgatc ttgattttcc atgaaatacg cctcctaata tattgtgtaa
+      121 ctctatcata ttatattatt tttctaaaat caataaatat aaacggaaat gtcaggttaa
+      181 acatatttac ttttataatg ataagtggta aaattaattt attaaggatt cccttagatt
+      241 atttactaag ggcgcactta tacgcagtaa cttcgttact tcgtatttat gctataaaac
+      301 ttaactgtta gttagtttta tcgtcaagcg tgtttgttaa aattcgctac gctcatgttt
+      361 gaaaagaaag agaggtgata caattggcaa tcttcgcaat gagaccgtgc ac
+//
+LOCUS       rrnBT1_T7TE_Ter          149 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  Ahmed Hussain; AllClo; Ref: http://parts.igem.org/Part:BBa_K864601
+            rrnBT1-T7TE Terminator.
+ACCESSION   rrnBT1_T7TE_Terminator
+VERSION     rrnBT1_T7TE_Terminator
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 gtgcacggtc tctgcttcaa ataaaacgaa aggctcagtc gaaagactgg gcctttcgtt
+       61 ttatctgttg tttgtcggtg aacgctctct actagagtca cactggctca ccttcgggtg
+      121 ggcctttctg cgcgcttgag accgtgcac
 //
